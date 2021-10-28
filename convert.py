@@ -8,7 +8,18 @@ TABLE = WORD_NAMESPACE + 'tbl'
 ROW = WORD_NAMESPACE + 'tr'
 CELL = WORD_NAMESPACE + 'tc'
 
-def parsedocx(path):
+def convert2xml(path):
+  p = _parsedocx(path)
+  for index, para in enumerate(p):
+    p[index] = f'<p>{para}</p>'
+  return '\n'.join(p)
+
+
+def convert2text(path):
+  p = _parsedocx(path)
+  return '\n'.join(p)
+
+def _parsedocx(path):
   with zipfile.ZipFile(path) as docx:
     tree = XML(docx.read('word/document.xml'))
     paragraphs = []
