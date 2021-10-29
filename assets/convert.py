@@ -14,6 +14,8 @@ def convert2xml(path):
     p[index] = f'<p>{para}</p>'
   return '\n'.join(p)
 
+def convert2vec(path):
+  return _parsedocx(path)
 
 def convert2text(path):
   p = _parsedocx(path)
