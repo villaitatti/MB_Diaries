@@ -1,0 +1,11 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,"Wednesday, October 1,1930",0,25,DATE,Absolute or relative dates or periods
+3,Ruth Wolf,0,9,PERSON,"People, including fictional"
+3,Graf Erbach Fürstenan,125,146,PERSON,"People, including fictional"
+3,Tintoretto,202,212,GPE,"Countries, cities, states"
+3,Manuscripts of the XIII Century,227,258,WORK_OF_ART,"Titles of books, songs, etc."
+4,Cecil Pinsent,15,28,WORK_OF_ART,"Titles of books, songs, etc."
+4,Ruth Draper,33,44,PERSON,"People, including fictional"
+5,Three Women”,26,38,WORK_OF_ART,"Titles of books, songs, etc."
+5,Lanier,213,219,PERSON,"People, including fictional"

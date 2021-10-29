@@ -1,0 +1,28 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,"Wednesday, November",0,19,DATE,Absolute or relative dates or periods
+3,Miss Hermann,9,21,PERSON,"People, including fictional"
+3,a Freulein Fülterer,84,103,WORK_OF_ART,"Titles of books, songs, etc."
+3,Gagini,134,140,GPE,"Countries, cities, states"
+3,John Walker,149,160,PERSON,"People, including fictional"
+3,Eugene Williams,177,192,PERSON,"People, including fictional"
+3,BB,246,248,GPE,"Countries, cities, states"
+3,Lucy Donelly,262,274,PERSON,"People, including fictional"
+3,Edith Frick,279,290,PERSON,"People, including fictional"
+3,2 or 3 nights,319,332,DATE,Absolute or relative dates or periods
+4,"Thursday, November 6,1930",0,25,DATE,Absolute or relative dates or periods
+5,Lucy,0,4,PERSON,"People, including fictional"
+5,Edith,9,14,PERSON,"People, including fictional"
+5,Walker,35,41,PERSON,"People, including fictional"
+5,the Waterfield and Cecil Pinsent,52,84,ORG,"Companies, agencies, institutions, etc."
+6,"Friday, November 7,1930",0,23,DATE,Absolute or relative dates or periods
+7,Mrs,8,11,PERSON,"People, including fictional"
+7,Julia Marlowe,13,26,PERSON,"People, including fictional"
+8,"Saturday, November 8,1930",0,25,DATE,Absolute or relative dates or periods
+9,Lucy,0,4,PERSON,"People, including fictional"
+9,Edith Frick,9,20,PERSON,"People, including fictional"
+9,Walker,27,33,PERSON,"People, including fictional"
+9,Eugene Williams,49,64,PERSON,"People, including fictional"
+9,Guadagni,95,103,PERSON,"People, including fictional"
+10,"Sunday, November 9,193",0,22,DATE,Absolute or relative dates or periods
+11,Naima,11,16,GPE,"Countries, cities, states"

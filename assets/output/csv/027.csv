@@ -1,0 +1,34 @@
+paragraph,text,min,max,label,description
+2,"Saturday, January 24,1931",0,25,DATE,Absolute or relative dates or periods
+3,Lunch,0,5,PERSON,"People, including fictional"
+3,Rufino,14,20,NORP,Nationalities or religious or political groups
+3,Cora,27,31,PERSON,"People, including fictional"
+3,"Placci, Lina",33,45,WORK_OF_ART,"Titles of books, songs, etc."
+3,Placci,64,70,ORG,"Companies, agencies, institutions, etc."
+4,BB,0,2,GPE,"Countries, cities, states"
+4,Karin,14,19,GPE,"Countries, cities, states"
+4,first,22,27,ORDINAL,"""first"", ""second"", etc."
+5,"Sunday, January 25,1931",0,23,DATE,Absolute or relative dates or periods
+6,Draper,5,11,PERSON,"People, including fictional"
+6,Kinta,13,18,GPE,"Countries, cities, states"
+6,Bertie,90,96,PERSON,"People, including fictional"
+7,Edith,12,17,ORG,"Companies, agencies, institutions, etc."
+8,"Monday, January 26,1931",0,23,DATE,Absolute or relative dates or periods
+10,BB,0,2,GPE,"Countries, cities, states"
+10,Nicky,7,12,GPE,"Countries, cities, states"
+10,the De Filippis,24,39,ORG,"Companies, agencies, institutions, etc."
+10,Senda,41,46,PERSON,"People, including fictional"
+10,Anreps,56,62,ORG,"Companies, agencies, institutions, etc."
+10,one,90,93,CARDINAL,Numerals that do not fall under another type
+11,"Tuesday, January 27,1931",0,24,DATE,Absolute or relative dates or periods
+12,T.H. Fokker,4,15,PERSON,"People, including fictional"
+12,Rome,29,33,GPE,"Countries, cities, states"
+12,Spelmans,48,56,NORP,Nationalities or religious or political groups
+12,Walker,61,67,PERSON,"People, including fictional"
+13,"Wednesday, January 28,1931",0,26,DATE,Absolute or relative dates or periods
+14,Signorina Accascina,13,32,PERSON,"People, including fictional"
+14,Palermo,39,46,GPE,"Countries, cities, states"
+14,Strong,57,63,PERSON,"People, including fictional"
+14,Senda’s,65,72,ORG,"Companies, agencies, institutions, etc."
+14,Smith College,73,86,ORG,"Companies, agencies, institutions, etc."
+14,Vavalà,130,136,ORG,"Companies, agencies, institutions, etc."

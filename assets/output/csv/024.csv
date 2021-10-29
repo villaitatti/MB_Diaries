@@ -1,0 +1,17 @@
+paragraph,text,min,max,label,description
+2,"Monday, December 15,1930",0,24,DATE,Absolute or relative dates or periods
+3,Vavalà,0,6,ORG,"Companies, agencies, institutions, etc."
+3,2 nights,23,31,TIME,Times smaller than a day
+3,Wiskermann,90,100,PERSON,"People, including fictional"
+4,Morra,17,22,PERSON,"People, including fictional"
+4,BB,42,44,GPE,"Countries, cities, states"
+4,Nicky,49,54,GPE,"Countries, cities, states"
+4,Hyères,64,70,ORG,"Companies, agencies, institutions, etc."
+5,"Tuesday, December 16,1930",0,25,DATE,Absolute or relative dates or periods
+6,Clark,25,30,PERSON,"People, including fictional"
+6,Poggio Gherardo,34,49,PERSON,"People, including fictional"
+6,the day,86,93,DATE,Absolute or relative dates or periods
+6,Barbara,187,194,PERSON,"People, including fictional"
+6,midnight,206,214,TIME,Times smaller than a day
+6,a week,234,240,DATE,Absolute or relative dates or periods
+6,London,261,267,GPE,"Countries, cities, states"

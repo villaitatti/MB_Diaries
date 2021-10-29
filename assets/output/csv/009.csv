@@ -1,0 +1,22 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,"Thursday, October 2,1930",0,24,DATE,Absolute or relative dates or periods
+3,Lanier,5,11,PERSON,"People, including fictional"
+3,Pinches,21,28,WORK_OF_ART,"Titles of books, songs, etc."
+3,Kenneth,51,58,PERSON,"People, including fictional"
+3,Jane Clark,63,73,PERSON,"People, including fictional"
+3,the day,80,87,DATE,Absolute or relative dates or periods
+3,the Allys Coxes,128,143,ORG,"Companies, agencies, institutions, etc."
+3,Murphy,185,191,PERSON,"People, including fictional"
+3,Geoffrey,193,201,PERSON,"People, including fictional"
+3,American,233,241,NORP,Nationalities or religious or political groups
+3,W. Hunt,251,258,PERSON,"People, including fictional"
+3,BB,320,322,ORG,"Companies, agencies, institutions, etc."
+4,"Friday, October 3,1930",0,22,DATE,Absolute or relative dates or periods
+5,first,9,14,ORDINAL,"""first"", ""second"", etc."
+5,Munari,45,51,PERSON,"People, including fictional"
+5,Logan,125,130,PERSON,"People, including fictional"
+5,5,142,143,CARDINAL,Numerals that do not fall under another type
+6,"Saturday, October 4,1930",0,24,DATE,Absolute or relative dates or periods
+7,Logan,107,112,PERSON,"People, including fictional"
+7,Wharton,122,129,PERSON,"People, including fictional"

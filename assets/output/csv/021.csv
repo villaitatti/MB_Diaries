@@ -1,0 +1,40 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,"Thursday, November",0,18,DATE,Absolute or relative dates or periods
+3,Anreps,27,33,ORG,"Companies, agencies, institutions, etc."
+3,Walker,35,41,PERSON,"People, including fictional"
+3,Matilde Loeser,43,57,PERSON,"People, including fictional"
+4,"Saturday, November 29,1930",0,26,DATE,Absolute or relative dates or periods
+6,"Sunday, November 30,1930",0,24,DATE,Absolute or relative dates or periods
+7,Ursula Garvin,5,18,PERSON,"People, including fictional"
+8,"Monday, December 1,1930",0,23,DATE,Absolute or relative dates or periods
+9,Lina Waterfield,0,15,PERSON,"People, including fictional"
+9,6 days,25,31,DATE,Absolute or relative dates or periods
+10,"Tuesday, December 2,1930",0,24,DATE,Absolute or relative dates or periods
+11,de Robeck,5,14,PERSON,"People, including fictional"
+11,Flora Priestley,28,43,PERSON,"People, including fictional"
+11,Toëplitz,89,97,ORG,"Companies, agencies, institutions, etc."
+12,"December,1930",0,13,ORG,"Companies, agencies, institutions, etc."
+13,Wednesday 3,0,11,DATE,Absolute or relative dates or periods
+14,Giuliana Benzoni,1,17,PERSON,"People, including fictional"
+15,"Thursday, December 4,1930",0,25,DATE,Absolute or relative dates or periods
+16,BB,26,28,GPE,"Countries, cities, states"
+16,Nicky,30,35,GPE,"Countries, cities, states"
+16,Morra,40,45,ORG,"Companies, agencies, institutions, etc."
+16,Fausts,57,63,ORG,"Companies, agencies, institutions, etc."
+17,"Friday, December",0,16,DATE,Absolute or relative dates or periods
+18,Pellegrina Paulucci,0,19,PERSON,"People, including fictional"
+19,"Saturday, December 6,1930",0,25,DATE,Absolute or relative dates or periods
+20,Pittsburg,16,25,GPE,"Countries, cities, states"
+20,Hazards,27,34,ORG,"Companies, agencies, institutions, etc."
+20,Coper,36,41,ORG,"Companies, agencies, institutions, etc."
+21,"Sunday, December 7,1930",0,23,DATE,Absolute or relative dates or periods
+22,Iris Origo,0,10,PERSON,"People, including fictional"
+22,Wiskermann,26,36,PERSON,"People, including fictional"
+22,May,77,80,DATE,Absolute or relative dates or periods
+22,Maria Papafava,113,127,PERSON,"People, including fictional"
+22,Roman,169,174,NORP,Nationalities or religious or political groups
+22,3,211,212,CARDINAL,Numerals that do not fall under another type
+22,one,226,229,CARDINAL,Numerals that do not fall under another type
+22,one,247,250,CARDINAL,Numerals that do not fall under another type
+22,La Marcia su Roma,289,306,PERSON,"People, including fictional"

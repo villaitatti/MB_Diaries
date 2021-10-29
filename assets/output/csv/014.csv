@@ -1,0 +1,19 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,"Wednesday, October 15,1930",0,26,DATE,Absolute or relative dates or periods
+3,Archie Mackay,13,26,PERSON,"People, including fictional"
+3,Mme de Saint Blancard,31,52,ORG,"Companies, agencies, institutions, etc."
+3,French,118,124,NORP,Nationalities or religious or political groups
+3,today,181,186,DATE,Absolute or relative dates or periods
+3,Nellie,205,211,GPE,"Countries, cities, states"
+3,Mme Serristori,297,311,PERSON,"People, including fictional"
+3,Sophie Bossi-Pucci,316,334,PERSON,"People, including fictional"
+3,3,372,373,CARDINAL,Numerals that do not fall under another type
+5,"Thursday, October",0,17,DATE,Absolute or relative dates or periods
+7,Freud’s,70,77,ORG,"Companies, agencies, institutions, etc."
+7,Shutters of Snow,163,179,WORK_OF_ART,"Titles of books, songs, etc."
+7,Edmund Houghton,210,225,PERSON,"People, including fictional"
+7,India,277,282,GPE,"Countries, cities, states"
+7,Pellegrina,288,298,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+8,"Friday, October 17,1930",0,23,DATE,Absolute or relative dates or periods
+9,Percy Lubbock,26,39,PERSON,"People, including fictional"

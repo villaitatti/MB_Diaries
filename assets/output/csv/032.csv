@@ -1,0 +1,25 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,"Thursday, February 19, 1931",0,27,DATE,Absolute or relative dates or periods
+3,Senda,0,5,ORG,"Companies, agencies, institutions, etc."
+3,Naima,7,12,GPE,"Countries, cities, states"
+3,John W[alker,26,38,PERSON,"People, including fictional"
+4,Sands,117,122,PERSON,"People, including fictional"
+4,Evelyn,135,141,PERSON,"People, including fictional"
+5,"Friday, February 20,1931",0,24,DATE,Absolute or relative dates or periods
+6,Conte Gamba,25,36,PERSON,"People, including fictional"
+6,Vavalà,41,47,ORG,"Companies, agencies, institutions, etc."
+6,Aldous Huxley’s,94,109,PERSON,"People, including fictional"
+7,"Saturday, February 21,1931",0,26,DATE,Absolute or relative dates or periods
+8,Vavalà,0,6,ORG,"Companies, agencies, institutions, etc."
+8,Sands,22,27,PERSON,"People, including fictional"
+8,Iris Origo,32,42,PERSON,"People, including fictional"
+9,"Sunday, February 22,1931",0,24,DATE,Absolute or relative dates or periods
+10,Clotilde Marghieri,34,52,PERSON,"People, including fictional"
+11,"Monday, February 23,1931",0,24,DATE,Absolute or relative dates or periods
+12,Vavalà,0,6,ORG,"Companies, agencies, institutions, etc."
+13,"Tuesday, February 24,1931",0,25,DATE,Absolute or relative dates or periods
+14,Rezia Corsini,0,13,PERSON,"People, including fictional"
+15,"Wednesday, February 25,1931",0,27,DATE,Absolute or relative dates or periods
+16,Vavalà,0,6,ORG,"Companies, agencies, institutions, etc."
+16,Accascina,8,17,GPE,"Countries, cities, states"

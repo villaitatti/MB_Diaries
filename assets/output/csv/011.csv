@@ -1,0 +1,26 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,Lady Cowley,11,22,PERSON,"People, including fictional"
+2,Lindsay,45,52,PERSON,"People, including fictional"
+2,M. Gaigneron,91,103,PERSON,"People, including fictional"
+3,"Sunday, October",0,15,DATE,Absolute or relative dates or periods
+5,"Monday, October 6,1930",0,22,DATE,Absolute or relative dates or periods
+6,Carlo Placci,0,12,PERSON,"People, including fictional"
+6,his summer,90,100,DATE,Absolute or relative dates or periods
+7,"Tuesday, October 7,1930",0,23,DATE,Absolute or relative dates or periods
+8,BB,0,2,GPE,"Countries, cities, states"
+8,Edith,7,12,PERSON,"People, including fictional"
+8,Torre Acona,27,38,PERSON,"People, including fictional"
+8,Contessa Padova,86,101,PERSON,"People, including fictional"
+8,Maria Papafava,124,138,PERSON,"People, including fictional"
+8,Pasolini,140,148,ORG,"Companies, agencies, institutions, etc."
+8,Tenente Gioia,174,187,PERSON,"People, including fictional"
+10,"Wednesday, October 8,1930",0,25,DATE,Absolute or relative dates or periods
+11,Edith,0,5,PERSON,"People, including fictional"
+11,Nicky,7,12,GPE,"Countries, cities, states"
+11,BB,17,19,GPE,"Countries, cities, states"
+11,La Foce,31,38,ORG,"Companies, agencies, institutions, etc."
+11,Montepulciano,53,66,ORG,"Companies, agencies, institutions, etc."
+12,John Brown,0,10,PERSON,"People, including fictional"
+12,Zurich,16,22,GPE,"Countries, cities, states"
+12,Library,57,64,PERSON,"People, including fictional"

@@ -1,0 +1,20 @@
+paragraph,text,min,max,label,description
+2,France,24,30,GPE,"Countries, cities, states"
+2,von Millizen,31,43,PERSON,"People, including fictional"
+2,Earle,107,112,PERSON,"People, including fictional"
+2,one,114,117,CARDINAL,Numerals that do not fall under another type
+2,Berenson,204,212,PERSON,"People, including fictional"
+3,Percy Lubbock,0,13,PERSON,"People, including fictional"
+4,Friday,0,6,DATE,Absolute or relative dates or periods
+4,Saturday,14,22,DATE,Absolute or relative dates or periods
+4,"December 13,1930",25,41,DATE,Absolute or relative dates or periods
+5,43rd,8,12,ORDINAL,"""first"", ""second"", etc."
+5,Cora,23,27,PERSON,"People, including fictional"
+5,Fiesole,62,69,PERSON,"People, including fictional"
+5,Alys,88,92,PERSON,"People, including fictional"
+5,the night,162,171,TIME,Times smaller than a day
+5,Stockholm,188,197,GPE,"Countries, cities, states"
+5,tomorrow,198,206,DATE,Absolute or relative dates or periods
+5,Lina,212,216,ORG,"Companies, agencies, institutions, etc."
+5,Aulla,243,248,ORG,"Companies, agencies, institutions, etc."
+6,"Sunday, December 14,1930",0,24,DATE,Absolute or relative dates or periods

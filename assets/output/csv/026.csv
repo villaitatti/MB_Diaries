@@ -1,0 +1,27 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,Frau Lene Schneider-Kainer,28,54,PERSON,"People, including fictional"
+2,Thibet,67,73,GPE,"Countries, cities, states"
+2,Siam,78,82,GPE,"Countries, cities, states"
+2,China,87,92,GPE,"Countries, cities, states"
+2,East,197,201,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+3,Lee,0,3,PERSON,"People, including fictional"
+3,Senda,19,24,PERSON,"People, including fictional"
+3,Africa,45,51,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+3,BB,68,70,GPE,"Countries, cities, states"
+3,Nicky,83,88,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+4,"Wednesday, January 21,1931",0,26,DATE,Absolute or relative dates or periods
+5,John Walker,0,11,PERSON,"People, including fictional"
+5,BB,47,49,GPE,"Countries, cities, states"
+5,Nicky,54,59,GPE,"Countries, cities, states"
+6,"Thursday, January 22,1931",0,25,DATE,Absolute or relative dates or periods
+7,Lee,0,3,PERSON,"People, including fictional"
+7,7.45,12,16,CARDINAL,Numerals that do not fall under another type
+7,Byba,18,22,PERSON,"People, including fictional"
+7,Harry Coster,27,39,PERSON,"People, including fictional"
+7,Walker,76,82,PERSON,"People, including fictional"
+7,Franck,108,114,NORP,Nationalities or religious or political groups
+8,"Friday, January 23,1931",0,23,DATE,Absolute or relative dates or periods
+9,John Walker,0,11,PERSON,"People, including fictional"
+9,Lina,13,17,GPE,"Countries, cities, states"
+9,Kinta,30,35,GPE,"Countries, cities, states"

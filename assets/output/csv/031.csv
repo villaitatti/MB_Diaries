@@ -1,0 +1,26 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,Morra,0,5,ORG,"Companies, agencies, institutions, etc."
+2,Nicky,16,21,GPE,"Countries, cities, states"
+3,John Walker,0,11,PERSON,"People, including fictional"
+3,List,47,51,PERSON,"People, including fictional"
+5,Sands,4,9,PERSON,"People, including fictional"
+6,evening,4,11,TIME,Times smaller than a day
+7,"Monday, February 16,1931",0,24,DATE,Absolute or relative dates or periods
+8,Vavalà,0,6,ORG,"Companies, agencies, institutions, etc."
+8,Toeplitzes,22,32,ORG,"Companies, agencies, institutions, etc."
+9,"Tuesday, February 17,1931",0,25,DATE,Absolute or relative dates or periods
+10,Marangonis,4,14,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+11,"Wednesday, February 18,1931",0,27,DATE,Absolute or relative dates or periods
+13,Rose Nichols,5,17,PERSON,"People, including fictional"
+13,Newton,43,49,PERSON,"People, including fictional"
+13,Shapiro,99,106,PERSON,"People, including fictional"
+13,2 years ago,127,138,DATE,Absolute or relative dates or periods
+13,Mediaeval Art,176,189,PERSON,"People, including fictional"
+13,Columbia College,193,209,ORG,"Companies, agencies, institutions, etc."
+13,Sands,215,220,PERSON,"People, including fictional"
+13,Aubrey,225,231,PERSON,"People, including fictional"
+13,Sands,246,251,PERSON,"People, including fictional"
+13,Hammer,257,263,PERSON,"People, including fictional"
+13,Fokker,272,278,PERSON,"People, including fictional"
+13,BB,330,332,GPE,"Countries, cities, states"

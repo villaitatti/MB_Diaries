@@ -1,0 +1,23 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,English,0,7,LANGUAGE,Any named language
+3,Logan,17,22,PERSON,"People, including fictional"
+3,Santayana,50,59,GPE,"Countries, cities, states"
+3,Lapsley,65,72,GPE,"Countries, cities, states"
+4,Santayana,41,50,GPE,"Countries, cities, states"
+4,Harvard,72,79,ORG,"Companies, agencies, institutions, etc."
+5,Logan,9,14,PERSON,"People, including fictional"
+6,one,0,3,CARDINAL,Numerals that do not fall under another type
+6,Santayana,30,39,ORG,"Companies, agencies, institutions, etc."
+7,Saturday,0,8,DATE,Absolute or relative dates or periods
+7,October,16,23,DATE,Absolute or relative dates or periods
+8,Ugo Ojetti,0,10,ORG,"Companies, agencies, institutions, etc."
+9,Hon,28,31,ORG,"Companies, agencies, institutions, etc."
+9,George Keppel,38,51,PERSON,"People, including fictional"
+9,Lady Cowley,53,64,PERSON,"People, including fictional"
+9,Ruby Lindsay,71,83,PERSON,"People, including fictional"
+9,Jean Gaigneron,89,103,PERSON,"People, including fictional"
+9,Trefusis,110,118,PERSON,"People, including fictional"
+9,Allyn Cox,133,142,PERSON,"People, including fictional"
+9,Keppel,149,155,PERSON,"People, including fictional"
+9,Arthur Colefax,204,218,PERSON,"People, including fictional"

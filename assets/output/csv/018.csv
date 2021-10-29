@@ -1,0 +1,19 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,Consul,12,18,ORG,"Companies, agencies, institutions, etc."
+2,Julia Marlowe,43,56,PERSON,"People, including fictional"
+2,Matteini,120,128,PERSON,"People, including fictional"
+2,Cooksaw,134,141,PERSON,"People, including fictional"
+3,"Monday, November 3, 1930",0,24,DATE,Absolute or relative dates or periods
+4,Nesta de Robeck,0,15,PERSON,"People, including fictional"
+4,Origo,96,101,PERSON,"People, including fictional"
+4,Lady Sybil,149,159,PERSON,"People, including fictional"
+4,BB,165,167,GPE,"Countries, cities, states"
+5,"Tuesday, November 4,1930",0,24,DATE,Absolute or relative dates or periods
+6,Ugo Ojetti,38,48,ORG,"Companies, agencies, institutions, etc."
+6,Sua Eccellenza,50,64,PERSON,"People, including fictional"
+6,Academy,119,126,ORG,"Companies, agencies, institutions, etc."
+6,the Countess Rosales,245,265,ORG,"Companies, agencies, institutions, etc."
+6,John Walker 8,311,324,PERSON,"People, including fictional"
+6,BB,327,329,GPE,"Countries, cities, states"
+6,American,409,417,NORP,Nationalities or religious or political groups

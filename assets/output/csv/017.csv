@@ -1,0 +1,21 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,"Thursday, October 30,1930",0,25,DATE,Absolute or relative dates or periods
+4,Lina Waterfield,0,15,PERSON,"People, including fictional"
+4,Carlo Placci,20,32,PERSON,"People, including fictional"
+6,Friday-Saturday,0,15,DATE,Absolute or relative dates or periods
+6,"October-November 31-1,1930",17,43,DATE,Absolute or relative dates or periods
+7,BB,27,29,GPE,"Countries, cities, states"
+7,Friday,110,116,DATE,Absolute or relative dates or periods
+7,afternoon,117,126,TIME,Times smaller than a day
+7,Edmund Houghton,144,159,PERSON,"People, including fictional"
+7,Vavalà,164,170,GPE,"Countries, cities, states"
+7,Naima,175,180,GPE,"Countries, cities, states"
+7,Willa Cather,209,221,PERSON,"People, including fictional"
+8,"Sunday, November 2,1930",0,23,DATE,Absolute or relative dates or periods
+9,Mary Houghton,11,24,PERSON,"People, including fictional"
+9,70,59,61,DATE,Absolute or relative dates or periods
+9,3^,78,80,CARDINAL,Numerals that do not fall under another type
+9,Java,90,94,PERSON,"People, including fictional"
+9,Naima,136,141,GPE,"Countries, cities, states"
+9,BB,148,150,GPE,"Countries, cities, states"

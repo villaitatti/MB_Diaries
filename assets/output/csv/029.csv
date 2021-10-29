@@ -1,0 +1,31 @@
+paragraph,text,min,max,label,description
+2,"Saturday, February 7,1931",0,25,DATE,Absolute or relative dates or periods
+3,Rose Nichols,5,17,PERSON,"People, including fictional"
+3,BB,33,35,GPE,"Countries, cities, states"
+3,Nicky,37,42,GPE,"Countries, cities, states"
+3,Morra,47,52,PERSON,"People, including fictional"
+3,Spelmans,68,76,NORP,Nationalities or religious or political groups
+3,Trevy,78,83,GPE,"Countries, cities, states"
+4,"Sunday, February 8,1931",0,23,DATE,Absolute or relative dates or periods
+5,Mahlon Sands,4,16,PERSON,"People, including fictional"
+5,Villino,32,39,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+6,"Monday, February 9,1931",0,23,DATE,Absolute or relative dates or periods
+7,Vavalà,0,6,ORG,"Companies, agencies, institutions, etc."
+7,Sands,21,26,PERSON,"People, including fictional"
+8,Gordon,0,6,PERSON,"People, including fictional"
+8,Kitty Waterfield,11,27,PERSON,"People, including fictional"
+8,11.45,37,42,CARDINAL,Numerals that do not fall under another type
+8,4,75,76,CARDINAL,Numerals that do not fall under another type
+10,"Tuesday, February 10,1931",0,25,DATE,Absolute or relative dates or periods
+11,11,3,5,CARDINAL,Numerals that do not fall under another type
+11,Sanminiatellis,20,34,GPE,"Countries, cities, states"
+11,Placci,61,67,ORG,"Companies, agencies, institutions, etc."
+11,Cora,72,76,PERSON,"People, including fictional"
+11,Sands,85,90,PERSON,"People, including fictional"
+11,2,100,101,CARDINAL,Numerals that do not fall under another type
+11,BB,129,131,ORG,"Companies, agencies, institutions, etc."
+11,Near East,169,178,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+12,"Wednesday, February 11,1931",0,27,DATE,Absolute or relative dates or periods
+13,BB,22,24,GPE,"Countries, cities, states"
+13,Toeplitzes,48,58,GPE,"Countries, cities, states"
+13,Sand,64,68,PERSON,"People, including fictional"

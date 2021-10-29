@@ -1,0 +1,27 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,"Monday, October",0,15,DATE,Absolute or relative dates or periods
+3,two,14,17,CARDINAL,Numerals that do not fall under another type
+4,"Tuesday – Monday, October 21-27,1930",0,36,DATE,Absolute or relative dates or periods
+4,Siena,38,43,ORG,"Companies, agencies, institutions, etc."
+5,Siena,34,39,ORG,"Companies, agencies, institutions, etc."
+5,Saturday,116,124,DATE,Absolute or relative dates or periods
+5,Superintendent,147,161,PERSON,"People, including fictional"
+5,San Geminiano,171,184,GPE,"Countries, cities, states"
+5,Peleo,216,221,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+6,Castagneto del Bosco,22,42,ORG,"Companies, agencies, institutions, etc."
+6,De Biondis,60,70,PERSON,"People, including fictional"
+6,Godfroy,92,99,PERSON,"People, including fictional"
+6,Sec,138,141,ORG,"Companies, agencies, institutions, etc."
+6,Whitaker,148,156,PERSON,"People, including fictional"
+6,Biondis,188,195,PERSON,"People, including fictional"
+7,"Tuesday, October 28,1930",0,24,DATE,Absolute or relative dates or periods
+8,Vavalà,89,95,ORG,"Companies, agencies, institutions, etc."
+8,the day,105,112,DATE,Absolute or relative dates or periods
+8,Lists,135,140,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+9,Houghton,0,8,GPE,"Countries, cities, states"
+9,Waterfields,17,28,GPE,"Countries, cities, states"
+9,Virginia,53,61,GPE,"Countries, cities, states"
+9,Cambridge,85,94,GPE,"Countries, cities, states"
+9,Fausto,142,148,GPE,"Countries, cities, states"
+9,BB,157,159,GPE,"Countries, cities, states"

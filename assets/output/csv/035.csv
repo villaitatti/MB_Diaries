@@ -1,0 +1,33 @@
+paragraph,text,min,max,label,description
+2,"Saturday, March 7,1931",0,22,DATE,Absolute or relative dates or periods
+3,Senda,0,5,ORG,"Companies, agencies, institutions, etc."
+3,Morra,7,12,PERSON,"People, including fictional"
+3,Ray,14,17,PERSON,"People, including fictional"
+3,Alys,19,23,PERSON,"People, including fictional"
+4,Lowenthal,5,14,PERSON,"People, including fictional"
+4,Smith College,42,55,ORG,"Companies, agencies, institutions, etc."
+4,Moravia,76,83,PERSON,"People, including fictional"
+5,"Saturday, March 8,1931",0,22,DATE,Absolute or relative dates or periods
+6,Sanminiatellis,49,63,GPE,"Countries, cities, states"
+6,Marchesa Fossi,65,79,PERSON,"People, including fictional"
+6,Moravia,98,105,GPE,"Countries, cities, states"
+7,"Sunday, March 8,1931",0,20,DATE,Absolute or relative dates or periods
+9,the evening,3,14,TIME,Times smaller than a day
+9,the Jarvel Company,30,48,ORG,"Companies, agencies, institutions, etc."
+9,Le Medecin,59,69,WORK_OF_ART,"Titles of books, songs, etc."
+9,Ray,130,133,PERSON,"People, including fictional"
+9,BB,138,140,GPE,"Countries, cities, states"
+9,Jeanne,145,151,PERSON,"People, including fictional"
+9,La Carosse,179,189,ORG,"Companies, agencies, institutions, etc."
+10,"Monday, March 9,1931",0,20,DATE,Absolute or relative dates or periods
+11,Pancrazis,4,13,NORP,Nationalities or religious or political groups
+11,Moravia,15,22,PERSON,"People, including fictional"
+11,Pasquali,28,36,PERSON,"People, including fictional"
+12,Alys,0,4,PERSON,"People, including fictional"
+12,3.20,16,20,CARDINAL,Numerals that do not fall under another type
+13,"Tuesday, March 10,1931",0,22,DATE,Absolute or relative dates or periods
+14,Lowenthal,5,14,PERSON,"People, including fictional"
+14,Kennedy,19,26,PERSON,"People, including fictional"
+14,BB,55,57,GPE,"Countries, cities, states"
+14,Verrocchio,157,167,ORG,"Companies, agencies, institutions, etc."
+14,Morra,224,229,PERSON,"People, including fictional"

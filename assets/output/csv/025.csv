@@ -1,0 +1,21 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,"Tuesday, January 20,1931",0,24,DATE,Absolute or relative dates or periods
+3,BB,5,7,GPE,"Countries, cities, states"
+3,our days,42,50,DATE,Absolute or relative dates or periods
+3,Karin,95,100,GPE,"Countries, cities, states"
+3,Christopher,124,135,PERSON,"People, including fictional"
+3,Barbara,140,147,PERSON,"People, including fictional"
+4,Ray,1,4,PERSON,"People, including fictional"
+4,Fawcett,74,81,PERSON,"People, including fictional"
+5,Barbara,43,50,PERSON,"People, including fictional"
+5,Aulla and Lerici,65,81,ORG,"Companies, agencies, institutions, etc."
+5,3 days,86,92,DATE,Absolute or relative dates or periods
+5,Alys,94,98,PERSON,"People, including fictional"
+5,4,145,146,CARDINAL,Numerals that do not fall under another type
+5,Peggy Macdonnell,181,197,ORG,"Companies, agencies, institutions, etc."
+6,Senda Abbot,68,79,PERSON,"People, including fictional"
+6,Rensselaer Lee,108,122,PERSON,"People, including fictional"
+6,Kennedys,135,143,PERSON,"People, including fictional"
+6,Vavalà,148,154,ORG,"Companies, agencies, institutions, etc."
+7,Stern,11,16,PERSON,"People, including fictional"

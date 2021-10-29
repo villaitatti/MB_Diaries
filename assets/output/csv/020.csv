@@ -1,0 +1,38 @@
+paragraph,text,min,max,label,description
+1,1930,0,4,DATE,Absolute or relative dates or periods
+2,"Monday, November 10,1930",0,24,DATE,Absolute or relative dates or periods
+3,Vavalà,0,6,ORG,"Companies, agencies, institutions, etc."
+3,Walker,11,17,PERSON,"People, including fictional"
+3,Santa Brigida,55,68,GPE,"Countries, cities, states"
+4,Daddi,36,41,PERSON,"People, including fictional"
+4,Faust,56,61,PERSON,"People, including fictional"
+4,3,63,64,CARDINAL,Numerals that do not fall under another type
+4,11,82,84,CARDINAL,Numerals that do not fall under another type
+4,13,94,96,CARDINAL,Numerals that do not fall under another type
+4,Walker,131,137,PERSON,"People, including fictional"
+5,"Tuesday, November 11,1930",0,25,DATE,Absolute or relative dates or periods
+8,"Monday, December 7,1930",0,23,DATE,Absolute or relative dates or periods
+10,Lützows,11,18,PERSON,"People, including fictional"
+10,Kühn,38,42,PERSON,"People, including fictional"
+10,Calderon,49,57,PERSON,"People, including fictional"
+10,Percy Lubbock,62,75,PERSON,"People, including fictional"
+10,Casa,77,81,ORG,"Companies, agencies, institutions, etc."
+10,Eustis,93,99,PERSON,"People, including fictional"
+10,Blaw,114,118,PERSON,"People, including fictional"
+10,Van Marle,120,129,PERSON,"People, including fictional"
+10,3,146,147,CARDINAL,Numerals that do not fall under another type
+10,Countess Harrach,164,180,PERSON,"People, including fictional"
+10,Diana Draper,182,194,PERSON,"People, including fictional"
+10,Iris,196,200,PERSON,"People, including fictional"
+10,De Filippis,210,221,PERSON,"People, including fictional"
+10,Miss Harrison,223,236,PERSON,"People, including fictional"
+10,Rosselli,282,290,PERSON,"People, including fictional"
+10,Mme,301,304,PERSON,"People, including fictional"
+10,Baron Stiebel,321,334,PERSON,"People, including fictional"
+10,Vavalà,335,341,ORG,"Companies, agencies, institutions, etc."
+10,Hammer,343,349,PERSON,"People, including fictional"
+10,Kaufmann,354,362,PERSON,"People, including fictional"
+10,Gondner,378,385,PERSON,"People, including fictional"
+11,"Wednesday, November",0,19,DATE,Absolute or relative dates or periods
+12,Morra,0,5,PERSON,"People, including fictional"
+12,Morrow,25,31,PERSON,"People, including fictional"
