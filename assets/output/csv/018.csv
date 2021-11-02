@@ -1,19 +1,21 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-2,Consul,12,18,ORG,"Companies, agencies, institutions, etc."
-2,Julia Marlowe,43,56,PERSON,"People, including fictional"
-2,Matteini,120,128,PERSON,"People, including fictional"
-2,Cooksaw,134,141,PERSON,"People, including fictional"
-3,"Monday, November 3, 1930",0,24,DATE,Absolute or relative dates or periods
-4,Nesta de Robeck,0,15,PERSON,"People, including fictional"
-4,Origo,96,101,PERSON,"People, including fictional"
-4,Lady Sybil,149,159,PERSON,"People, including fictional"
-4,BB,165,167,GPE,"Countries, cities, states"
-5,"Tuesday, November 4,1930",0,24,DATE,Absolute or relative dates or periods
-6,Ugo Ojetti,38,48,ORG,"Companies, agencies, institutions, etc."
-6,Sua Eccellenza,50,64,PERSON,"People, including fictional"
-6,Academy,119,126,ORG,"Companies, agencies, institutions, etc."
-6,the Countess Rosales,245,265,ORG,"Companies, agencies, institutions, etc."
-6,John Walker 8,311,324,PERSON,"People, including fictional"
-6,BB,327,329,GPE,"Countries, cities, states"
-6,American,409,417,NORP,Nationalities or religious or political groups
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+Consul,2,12,18,ORG,"Companies, agencies, institutions, etc."
+Julia Marlowe) Sothern,2,43,65,PERSON,"People, including fictional"
+Matteini,2,120,128,PERSON,"People, including fictional"
+Cooksaw,2,134,141,PERSON,"People, including fictional"
+Struisons,2,147,156,PERSON,"People, including fictional"
+"Monday, November 3, 1930",3,0,24,DATE,Absolute or relative dates or periods
+Nesta de Robeck,4,0,15,PERSON,"People, including fictional"
+Origo,4,96,101,ORG,"Companies, agencies, institutions, etc."
+Sybil,4,154,159,PERSON,"People, including fictional"
+BB,4,165,167,ORG,"Companies, agencies, institutions, etc."
+Struisons,4,215,224,PERSON,"People, including fictional"
+"Tuesday, November 4,1930",5,0,24,DATE,Absolute or relative dates or periods
+Ugo Ojetti,6,38,48,PERSON,"People, including fictional"
+Sua Eccellenza,6,50,64,PERSON,"People, including fictional"
+Academy,6,119,126,ORG,"Companies, agencies, institutions, etc."
+San Rossore,6,156,167,FAC,"Buildings, airports, highways, bridges, etc."
+Rosales,6,258,265,PERSON,"People, including fictional"
+John Walker 8,6,311,324,PERSON,"People, including fictional"
+American,6,409,417,NORP,Nationalities or religious or political groups

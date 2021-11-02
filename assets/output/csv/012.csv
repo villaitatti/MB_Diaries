@@ -1,32 +1,30 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-2,"Friday, October 10, 1930",0,24,DATE,Absolute or relative dates or periods
-3,Robert,4,10,PERSON,"People, including fictional"
-3,Lady Crey,15,24,PERSON,"People, including fictional"
-3,De Wett Verner,70,84,PERSON,"People, including fictional"
-3,Eva Mc Laren,125,137,PERSON,"People, including fictional"
-3,Paris,199,204,GPE,"Countries, cities, states"
-4,BB,0,2,GPE,"Countries, cities, states"
-4,Edith,7,12,PERSON,"People, including fictional"
-4,Nicky,17,22,GPE,"Countries, cities, states"
-5,"Saturday, October 11,1930",0,25,DATE,Absolute or relative dates or periods
-6,Carlo Placci,11,23,PERSON,"People, including fictional"
-6,Munari,33,39,ORG,"Companies, agencies, institutions, etc."
-6,2 days,86,92,DATE,Absolute or relative dates or periods
-6,the afternoon,97,110,TIME,Times smaller than a day
-6,Logan,111,116,PERSON,"People, including fictional"
-6,Nellie Mackay,133,146,PERSON,"People, including fictional"
-6,the Villa Frosino,150,167,FAC,"Buildings, airports, highways, bridges, etc."
-6,San Domenico,169,181,GPE,"Countries, cities, states"
-6,French,275,281,NORP,Nationalities or religious or political groups
-7,"Sunday, October",0,15,DATE,Absolute or relative dates or periods
-8,Ugo Ojetti,0,10,ORG,"Companies, agencies, institutions, etc."
-8,Edith,35,40,PERSON,"People, including fictional"
-8,Dedalo,71,77,GPE,"Countries, cities, states"
-9,Salaiuoli,12,21,ORG,"Companies, agencies, institutions, etc."
-10,"Monday, October 13,1930",0,23,DATE,Absolute or relative dates or periods
-11,Edith,0,5,PERSON,"People, including fictional"
-11,Robert K.C.M.,19,32,PERSON,"People, including fictional"
-11,Lady Gregg,37,47,PERSON,"People, including fictional"
-11,S. Martino,78,88,ORG,"Companies, agencies, institutions, etc."
-11,Palme,94,99,ORG,"Companies, agencies, institutions, etc."
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+"Friday, October 10, 1930",2,0,24,DATE,Absolute or relative dates or periods
+Robert,3,4,10,PERSON,"People, including fictional"
+Crey,3,20,24,PERSON,"People, including fictional"
+De Wett Verner,3,70,84,PERSON,"People, including fictional"
+Eva Mc Laren,3,125,137,PERSON,"People, including fictional"
+Paris,3,199,204,GPE,"Countries, cities, states"
+BB,4,0,2,ORG,"Companies, agencies, institutions, etc."
+Edith,4,7,12,PERSON,"People, including fictional"
+Nicky,4,17,22,PERSON,"People, including fictional"
+"Saturday, October 11,1930",5,0,25,DATE,Absolute or relative dates or periods
+Carlo Placci,6,11,23,PERSON,"People, including fictional"
+Munari,6,33,39,PERSON,"People, including fictional"
+2 days,6,86,92,DATE,Absolute or relative dates or periods
+the afternoon,6,97,110,TIME,Times smaller than a day
+Logan,6,111,116,PERSON,"People, including fictional"
+Nellie Mackay,6,133,146,PERSON,"People, including fictional"
+the Villa Frosino,6,150,167,FAC,"Buildings, airports, highways, bridges, etc."
+San Domenico,6,169,181,GPE,"Countries, cities, states"
+French,6,275,281,NORP,Nationalities or religious or political groups
+"Sunday, October 12,1930",7,0,23,DATE,Absolute or relative dates or periods
+Ugo Ojetti,8,0,10,PERSON,"People, including fictional"
+Edith,8,35,40,PERSON,"People, including fictional"
+Dedalo,8,71,77,PERSON,"People, including fictional"
+Salaiuoli,9,12,21,GPE,"Countries, cities, states"
+"Monday, October 13,1930",10,0,23,DATE,Absolute or relative dates or periods
+Edith,11,0,5,PERSON,"People, including fictional"
+Robert K.C.M.,11,19,32,PERSON,"People, including fictional"
+S. Martino alle Palme,11,78,99,FAC,"Buildings, airports, highways, bridges, etc."

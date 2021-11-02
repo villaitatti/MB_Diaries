@@ -1,27 +1,33 @@
-paragraph,text,min,max,label,description
-2,Morra,0,5,PERSON,"People, including fictional"
-2,Gordon Waterfield,22,39,PERSON,"People, including fictional"
-2,2 nights,49,57,TIME,Times smaller than a day
-3,"Tuesday, February 3,1931",0,24,DATE,Absolute or relative dates or periods
-4,Placci,58,64,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-4,Lady Howard of Pembroke,78,101,PERSON,"People, including fictional"
-4,Giuliana Benzoni,125,141,PERSON,"People, including fictional"
-4,Placci,146,152,FAC,"Buildings, airports, highways, bridges, etc."
-4,Law,176,179,PERSON,"People, including fictional"
-4,Law,189,192,PERSON,"People, including fictional"
-5,Morra,10,15,PERSON,"People, including fictional"
-5,Betty Macdonnel,138,153,PERSON,"People, including fictional"
-7,"Wednesday, February 4,1931",0,26,DATE,Absolute or relative dates or periods
-8,Vavalà,26,32,ORG,"Companies, agencies, institutions, etc."
-8,Morra,115,120,PERSON,"People, including fictional"
-8,Fokker,153,159,PERSON,"People, including fictional"
-9,"Thursday, February 5,1931",0,25,DATE,Absolute or relative dates or periods
-10,Morra,0,5,PERSON,"People, including fictional"
-10,half,93,97,CARDINAL,Numerals that do not fall under another type
-10,Calabrese,109,118,NORP,Nationalities or religious or political groups
-10,Law,133,136,PERSON,"People, including fictional"
-10,Aubrey,141,147,PERSON,"People, including fictional"
-11,"Friday, February 6,1931",0,23,DATE,Absolute or relative dates or periods
-12,Vavalà,0,6,ORG,"Companies, agencies, institutions, etc."
-12,Ojetti,8,14,ORG,"Companies, agencies, institutions, etc."
-12,Pancrazi,19,27,GPE,"Countries, cities, states"
+text,p,start,end,type,description
+Morra,2,0,5,PERSON,"People, including fictional"
+Senda,2,15,20,PERSON,"People, including fictional"
+Gordon Waterfield,2,22,39,PERSON,"People, including fictional"
+2 nights,2,49,57,DATE,Absolute or relative dates or periods
+"Tuesday, February 3,1931",3,0,24,DATE,Absolute or relative dates or periods
+Placci,4,58,64,PERSON,"People, including fictional"
+Howard,4,83,89,PERSON,"People, including fictional"
+Pembroke,4,93,101,GPE,"Countries, cities, states"
+Giuliana Benzoni,4,125,141,PERSON,"People, including fictional"
+Placci,4,146,152,PERSON,"People, including fictional"
+Law,4,176,179,PERSON,"People, including fictional"
+Law,4,189,192,PERSON,"People, including fictional"
+Trevy,5,0,5,PERSON,"People, including fictional"
+Morra,5,10,15,PERSON,"People, including fictional"
+up to night,5,39,50,TIME,Times smaller than a day
+Betty Macdonnel,5,138,153,PERSON,"People, including fictional"
+"Wednesday, February 4,1931",7,0,26,DATE,Absolute or relative dates or periods
+Vavalà,8,26,32,PERSON,"People, including fictional"
+Morra,8,115,120,PERSON,"People, including fictional"
+Loria,8,131,136,PERSON,"People, including fictional"
+Fokker,8,153,159,PERSON,"People, including fictional"
+"Thursday, February 5,1931",9,0,25,DATE,Absolute or relative dates or periods
+Morra,10,0,5,PERSON,"People, including fictional"
+Alvaro,10,63,69,PERSON,"People, including fictional"
+Calabrese,10,109,118,PERSON,"People, including fictional"
+Law,10,133,136,PERSON,"People, including fictional"
+Aubrey,10,141,147,PERSON,"People, including fictional"
+"Friday, February 6,1931",11,0,23,DATE,Absolute or relative dates or periods
+Vavalà,12,0,6,PERSON,"People, including fictional"
+Ojetti,12,8,14,PERSON,"People, including fictional"
+Pancrazi,12,19,27,PERSON,"People, including fictional"
+Lützons,12,38,45,PERSON,"People, including fictional"

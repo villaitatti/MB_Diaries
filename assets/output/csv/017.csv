@@ -1,21 +1,23 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-2,"Thursday, October 30,1930",0,25,DATE,Absolute or relative dates or periods
-4,Lina Waterfield,0,15,PERSON,"People, including fictional"
-4,Carlo Placci,20,32,PERSON,"People, including fictional"
-6,Friday-Saturday,0,15,DATE,Absolute or relative dates or periods
-6,"October-November 31-1,1930",17,43,DATE,Absolute or relative dates or periods
-7,BB,27,29,GPE,"Countries, cities, states"
-7,Friday,110,116,DATE,Absolute or relative dates or periods
-7,afternoon,117,126,TIME,Times smaller than a day
-7,Edmund Houghton,144,159,PERSON,"People, including fictional"
-7,Vavalà,164,170,GPE,"Countries, cities, states"
-7,Naima,175,180,GPE,"Countries, cities, states"
-7,Willa Cather,209,221,PERSON,"People, including fictional"
-8,"Sunday, November 2,1930",0,23,DATE,Absolute or relative dates or periods
-9,Mary Houghton,11,24,PERSON,"People, including fictional"
-9,70,59,61,DATE,Absolute or relative dates or periods
-9,3^,78,80,CARDINAL,Numerals that do not fall under another type
-9,Java,90,94,PERSON,"People, including fictional"
-9,Naima,136,141,GPE,"Countries, cities, states"
-9,BB,148,150,GPE,"Countries, cities, states"
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+"Thursday, October 30,1930",2,0,25,DATE,Absolute or relative dates or periods
+Lina Waterfield,4,0,15,PERSON,"People, including fictional"
+Carlo Placci,4,20,32,PERSON,"People, including fictional"
+Friday-Saturday,6,0,15,DATE,Absolute or relative dates or periods
+"October-November 31-1,1930",6,17,43,DATE,Absolute or relative dates or periods
+BB,7,27,29,PERSON,"People, including fictional"
+Friday,7,110,116,DATE,Absolute or relative dates or periods
+afternoon,7,117,126,TIME,Times smaller than a day
+Edmund Houghton,7,144,159,PERSON,"People, including fictional"
+Vavalà,7,164,170,PERSON,"People, including fictional"
+Naima,7,175,180,PERSON,"People, including fictional"
+My Mortal Enemy,7,188,203,WORK_OF_ART,"Titles of books, songs, etc."
+Willa Cather,7,209,221,PERSON,"People, including fictional"
+evening,7,236,243,TIME,Times smaller than a day
+"Sunday, November 2,1930",8,0,23,DATE,Absolute or relative dates or periods
+Edmund,9,0,6,PERSON,"People, including fictional"
+Mary Houghton,9,11,24,PERSON,"People, including fictional"
+70,9,59,61,DATE,Absolute or relative dates or periods
+Java,9,90,94,GPE,"Countries, cities, states"
+Naima,9,136,141,PERSON,"People, including fictional"
+BB,9,148,150,PERSON,"People, including fictional"

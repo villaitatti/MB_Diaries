@@ -1,26 +1,31 @@
-paragraph,text,min,max,label,description
-2,"Tuesday, March 3, 1931",0,22,DATE,Absolute or relative dates or periods
-3,Senda,0,5,PERSON,"People, including fictional"
-3,Ray,7,10,PERSON,"People, including fictional"
-3,Morra,12,17,PERSON,"People, including fictional"
-4,Stanton,5,12,PERSON,"People, including fictional"
-4,Placci,17,23,ORG,"Companies, agencies, institutions, etc."
-5,"Wednesday, March 4,1931",0,23,DATE,Absolute or relative dates or periods
-6,Iris Origo,0,10,PERSON,"People, including fictional"
-6,Clotilde,12,20,ORG,"Companies, agencies, institutions, etc."
-6,Morra,25,30,ORG,"Companies, agencies, institutions, etc."
-6,Senda,57,62,PERSON,"People, including fictional"
-6,Ray,67,70,PERSON,"People, including fictional"
-6,Morra,125,130,PERSON,"People, including fictional"
-6,BB,143,145,GPE,"Countries, cities, states"
-7,"Thursday, March 5,1931",0,22,DATE,Absolute or relative dates or periods
-9,Vavalà,23,29,FAC,"Buildings, airports, highways, bridges, etc."
-9,BB,77,79,GPE,"Countries, cities, states"
-9,Nicky,84,89,GPE,"Countries, cities, states"
-10,Rezia Rasponi,0,13,PERSON,"People, including fictional"
-11,BB,0,2,GPE,"Countries, cities, states"
-11,Italian,48,55,NORP,Nationalities or religious or political groups
-12,"Friday, March 6,1931",0,20,DATE,Absolute or relative dates or periods
-13,Maltese,64,71,NORP,Nationalities or religious or political groups
-13,Ray,135,138,PERSON,"People, including fictional"
-13,Anreps,152,158,ORG,"Companies, agencies, institutions, etc."
+text,p,start,end,type,description
+"Tuesday, March 3, 1931",2,0,22,DATE,Absolute or relative dates or periods
+Senda,3,0,5,PERSON,"People, including fictional"
+Ray,3,7,10,PERSON,"People, including fictional"
+Morra,3,12,17,PERSON,"People, including fictional"
+Sessions,3,23,31,PERSON,"People, including fictional"
+Stanton,4,5,12,PERSON,"People, including fictional"
+Placci,4,17,23,PERSON,"People, including fictional"
+"Wednesday, March 4,1931",5,0,23,DATE,Absolute or relative dates or periods
+Iris Origo,6,0,10,PERSON,"People, including fictional"
+Clotilde,6,12,20,PERSON,"People, including fictional"
+Morra,6,25,30,PERSON,"People, including fictional"
+Senda,6,57,62,PERSON,"People, including fictional"
+Ray,6,67,70,PERSON,"People, including fictional"
+Javanese,6,96,104,NORP,Nationalities or religious or political groups
+Morra,6,125,130,PERSON,"People, including fictional"
+BB,6,143,145,PERSON,"People, including fictional"
+"Thursday, March 5,1931",7,0,22,DATE,Absolute or relative dates or periods
+Vavalà,9,23,29,PERSON,"People, including fictional"
+the morning,9,33,44,TIME,Times smaller than a day
+Nicky,9,84,89,PERSON,"People, including fictional"
+Rezia Rasponi,10,0,13,PERSON,"People, including fictional"
+BB,11,0,2,PERSON,"People, including fictional"
+Consulate,11,26,35,FAC,"Buildings, airports, highways, bridges, etc."
+Italian,11,48,55,NORP,Nationalities or religious or political groups
+"Friday, March 6,1931",12,0,20,DATE,Absolute or relative dates or periods
+Maltese,13,64,71,NORP,Nationalities or religious or political groups
+Sessions,13,125,133,PERSON,"People, including fictional"
+Ray,13,135,138,PERSON,"People, including fictional"
+Anreps,13,152,158,PERSON,"People, including fictional"
+May Boyle,13,164,173,PERSON,"People, including fictional"

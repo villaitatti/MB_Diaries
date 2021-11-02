@@ -1,19 +1,26 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-2,"Wednesday, October 15,1930",0,26,DATE,Absolute or relative dates or periods
-3,Archie Mackay,13,26,PERSON,"People, including fictional"
-3,Mme de Saint Blancard,31,52,ORG,"Companies, agencies, institutions, etc."
-3,French,118,124,NORP,Nationalities or religious or political groups
-3,today,181,186,DATE,Absolute or relative dates or periods
-3,Nellie,205,211,GPE,"Countries, cities, states"
-3,Mme Serristori,297,311,PERSON,"People, including fictional"
-3,Sophie Bossi-Pucci,316,334,PERSON,"People, including fictional"
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+"Wednesday, October 15,1930",2,0,26,DATE,Absolute or relative dates or periods
+Archie Mackay,3,13,26,PERSON,"People, including fictional"
+Mme de Saint Blancard,3,31,52,PERSON,"People, including fictional"
+Alda,3,75,79,PERSON,"People, including fictional"
+French,3,118,124,NORP,Nationalities or religious or political groups
+today,3,181,186,DATE,Absolute or relative dates or periods
+Nellie,3,205,211,PERSON,"People, including fictional"
+Mme Serristori,3,297,311,PERSON,"People, including fictional"
+Sophie Bossi-Pucci,3,316,334,PERSON,"People, including fictional"
 3,3,372,373,CARDINAL,Numerals that do not fall under another type
-5,"Thursday, October",0,17,DATE,Absolute or relative dates or periods
-7,Freud’s,70,77,ORG,"Companies, agencies, institutions, etc."
-7,Shutters of Snow,163,179,WORK_OF_ART,"Titles of books, songs, etc."
-7,Edmund Houghton,210,225,PERSON,"People, including fictional"
-7,India,277,282,GPE,"Countries, cities, states"
-7,Pellegrina,288,298,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-8,"Friday, October 17,1930",0,23,DATE,Absolute or relative dates or periods
-9,Percy Lubbock,26,39,PERSON,"People, including fictional"
+one,3,384,387,CARDINAL,Numerals that do not fall under another type
+Jane,4,2,6,PERSON,"People, including fictional"
+"Thursday, October 16,1930",5,0,25,DATE,Absolute or relative dates or periods
+Day in Bed,7,9,19,WORK_OF_ART,"Titles of books, songs, etc."
+one,7,21,24,CARDINAL,Numerals that do not fall under another type
+Freud,7,70,75,PERSON,"People, including fictional"
+Civilization and some of its Discontents,7,90,130,WORK_OF_ART,"Titles of books, songs, etc."
+Shutters of Snow,7,163,179,WORK_OF_ART,"Titles of books, songs, etc."
+Edmund Houghton,7,210,225,PERSON,"People, including fictional"
+India,7,277,282,GPE,"Countries, cities, states"
+Pellegrina,7,288,298,WORK_OF_ART,"Titles of books, songs, etc."
+"Friday, October 17,1930",8,0,23,DATE,Absolute or relative dates or periods
+Day,9,0,3,DATE,Absolute or relative dates or periods
+Percy Lubbock,9,26,39,PERSON,"People, including fictional"

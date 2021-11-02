@@ -1,18 +1,17 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-5,"Monday, September 30,1930",0,25,DATE,Absolute or relative dates or periods
-6,Lanier,5,11,PERSON,"People, including fictional"
-6,Jim,36,39,PERSON,"People, including fictional"
-6,Paul Frerejean,68,82,PERSON,"People, including fictional"
-6,Dame,96,100,PERSON,"People, including fictional"
-6,Blücher-Altona,111,125,ORG,"Companies, agencies, institutions, etc."
-6,Lanier,139,145,PERSON,"People, including fictional"
-6,Provence,257,265,GPE,"Countries, cities, states"
-6,Les Beaux,271,280,GPE,"Countries, cities, states"
-6,Frerejean,330,339,PERSON,"People, including fictional"
-7,Dame,10,14,PERSON,"People, including fictional"
-8,Edith Wharton,6,19,PERSON,"People, including fictional"
-8,Gilliard Lapsley,24,40,PERSON,"People, including fictional"
-8,Salsomaggiore,63,76,GPE,"Countries, cities, states"
-8,two,83,86,CARDINAL,Numerals that do not fall under another type
-8,Pekinese,87,95,NORP,Nationalities or religious or political groups
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+"Monday, September 30,1930",5,0,25,DATE,Absolute or relative dates or periods
+Lanier,6,5,11,PERSON,"People, including fictional"
+Jim,6,36,39,PERSON,"People, including fictional"
+Paul Frerejean,6,68,82,PERSON,"People, including fictional"
+Dame,6,96,100,NORP,Nationalities or religious or political groups
+Blücher-Altona,6,111,125,PERSON,"People, including fictional"
+Lanier,6,139,145,PERSON,"People, including fictional"
+Provence,6,257,265,GPE,"Countries, cities, states"
+Les Beaux,6,271,280,FAC,"Buildings, airports, highways, bridges, etc."
+Frerejean,6,330,339,PERSON,"People, including fictional"
+Edith Wharton,8,6,19,PERSON,"People, including fictional"
+Gilliard Lapsley,8,24,40,PERSON,"People, including fictional"
+Salsomaggiore,8,63,76,GPE,"Countries, cities, states"
+two,8,83,86,CARDINAL,Numerals that do not fall under another type
+Pekinese,8,87,95,NORP,Nationalities or religious or political groups

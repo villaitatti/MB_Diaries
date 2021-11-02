@@ -1,35 +1,41 @@
-paragraph,text,min,max,label,description
-2,"Wednesday, March 11,1931",0,24,DATE,Absolute or relative dates or periods
-3,Ray,0,3,PERSON,"People, including fictional"
-3,Miss Lowenthal,5,19,PERSON,"People, including fictional"
-3,Senda,21,26,PERSON,"People, including fictional"
-3,Alys,28,32,PERSON,"People, including fictional"
-4,Gibson,5,11,PERSON,"People, including fictional"
-4,May Boyd,16,24,PERSON,"People, including fictional"
-5,The De Filippis,0,15,PERSON,"People, including fictional"
-5,Galsial,48,55,PERSON,"People, including fictional"
-6,"Thursday, March 12,1931",0,23,DATE,Absolute or relative dates or periods
-7,5,13,14,CARDINAL,Numerals that do not fall under another type
-8,"Friday, March 13,1931",0,21,DATE,Absolute or relative dates or periods
-9,Prestley,5,13,PERSON,"People, including fictional"
-9,Nesta de Roebeck,15,31,ORG,"Companies, agencies, institutions, etc."
-9,Costers,40,47,PERSON,"People, including fictional"
-9,Accascina,96,105,PERSON,"People, including fictional"
-9,Castelfranco,120,132,PERSON,"People, including fictional"
-9,Ray,156,159,PERSON,"People, including fictional"
-9,midnight,190,198,TIME,Times smaller than a day
-10,"Saturday, March 14,1931",0,23,DATE,Absolute or relative dates or periods
-11,Iris,0,4,PERSON,"People, including fictional"
-11,Cecil,41,46,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-11,Stanton,66,73,PERSON,"People, including fictional"
-11,Count,78,83,ORG,"Companies, agencies, institutions, etc."
-11,Countess Rasponi,88,104,PERSON,"People, including fictional"
-11,Lowenthal,123,132,PERSON,"People, including fictional"
-12,Smith College,0,13,ORG,"Companies, agencies, institutions, etc."
-12,the week,28,36,DATE,Absolute or relative dates or periods
-13,"Sunday, March 15,1931",0,21,DATE,Absolute or relative dates or periods
-14,Mary Houghton,11,24,PERSON,"People, including fictional"
-14,yesterday,43,52,DATE,Absolute or relative dates or periods
-14,India,58,63,GPE,"Countries, cities, states"
-14,Anreps,93,99,ORG,"Companies, agencies, institutions, etc."
-15,"Monday, March 15,1931",0,21,DATE,Absolute or relative dates or periods
+text,p,start,end,type,description
+"Wednesday, March 11,1931",2,0,24,DATE,Absolute or relative dates or periods
+Ray,3,0,3,PERSON,"People, including fictional"
+Lowenthal,3,10,19,PERSON,"People, including fictional"
+Senda,3,21,26,PERSON,"People, including fictional"
+Alys,3,28,32,PERSON,"People, including fictional"
+Gibson,4,5,11,PERSON,"People, including fictional"
+May Boyd,4,16,24,PERSON,"People, including fictional"
+De Filippis,5,4,15,PERSON,"People, including fictional"
+Galsial,5,48,55,PERSON,"People, including fictional"
+"Thursday, March 12,1931",6,0,23,DATE,Absolute or relative dates or periods
+Alys,7,0,4,PERSON,"People, including fictional"
+5,7,13,14,TIME,Times smaller than a day
+"Friday, March 13,1931",8,0,21,DATE,Absolute or relative dates or periods
+Prestley,9,5,13,PERSON,"People, including fictional"
+Nesta de Roebeck,9,15,31,PERSON,"People, including fictional"
+Costers,9,40,47,PERSON,"People, including fictional"
+Rohr,9,57,61,PERSON,"People, including fictional"
+Blaw,9,66,70,PERSON,"People, including fictional"
+Accascina,9,96,105,PERSON,"People, including fictional"
+Castelfranco,9,120,132,PERSON,"People, including fictional"
+Ray,9,156,159,PERSON,"People, including fictional"
+midnight,9,190,198,TIME,Times smaller than a day
+"Saturday, March 14,1931",10,0,23,DATE,Absolute or relative dates or periods
+Iris,11,0,4,PERSON,"People, including fictional"
+Curtis,11,20,26,PERSON,"People, including fictional"
+Boston,11,30,36,GPE,"Countries, cities, states"
+Cecil,11,41,46,PERSON,"People, including fictional"
+Stanton,11,66,73,PERSON,"People, including fictional"
+Rasponi,11,97,104,PERSON,"People, including fictional"
+Lowenthal,11,123,132,PERSON,"People, including fictional"
+Smith College,12,0,13,ORG,"Companies, agencies, institutions, etc."
+the week,12,28,36,DATE,Absolute or relative dates or periods
+"Sunday, March 15,1931",13,0,21,DATE,Absolute or relative dates or periods
+Edmund,14,0,6,PERSON,"People, including fictional"
+Mary Houghton,14,11,24,PERSON,"People, including fictional"
+yesterday,14,43,52,DATE,Absolute or relative dates or periods
+India,14,58,63,GPE,"Countries, cities, states"
+Lochoff,14,65,72,PERSON,"People, including fictional"
+Anreps,14,93,99,PERSON,"People, including fictional"
+"Monday, March 15,1931",15,0,21,DATE,Absolute or relative dates or periods

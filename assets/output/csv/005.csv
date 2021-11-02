@@ -1,15 +1,14 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-3,"Wednesday, September 24,1930",0,28,DATE,Absolute or relative dates or periods
-4,Consuma,21,28,FAC,"Buildings, airports, highways, bridges, etc."
-4,Theron Damon,43,55,PERSON,"People, including fictional"
-4,Constantinople,61,75,ORG,"Companies, agencies, institutions, etc."
-5,some days,22,31,DATE,Absolute or relative dates or periods
-6,New England,3,14,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-8,"Thursday, September",0,19,DATE,Absolute or relative dates or periods
-9,Naima Löfroth,0,13,ORG,"Companies, agencies, institutions, etc."
-9,Sweden,38,44,GPE,"Countries, cities, states"
-10,"Sunday, September 28,1930",0,25,DATE,Absolute or relative dates or periods
-11,Lanier,5,11,PERSON,"People, including fictional"
-11,Allyn Cox,29,38,PERSON,"People, including fictional"
-11,Venice,52,58,GPE,"Countries, cities, states"
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+"Wednesday, September 24,1930",3,0,28,DATE,Absolute or relative dates or periods
+Theron Damon,4,43,55,PERSON,"People, including fictional"
+Constantinople,4,61,75,GPE,"Countries, cities, states"
+New England,6,3,14,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+"Thursday, September 25,1930",8,0,27,DATE,Absolute or relative dates or periods
+Naima Löfroth,9,0,13,PERSON,"People, including fictional"
+Sweden,9,38,44,GPE,"Countries, cities, states"
+"Sunday, September 28,1930",10,0,25,DATE,Absolute or relative dates or periods
+Lanier,11,5,11,PERSON,"People, including fictional"
+Allyn Cox,11,29,38,PERSON,"People, including fictional"
+Venice,11,52,58,GPE,"Countries, cities, states"
+3 year s ago,11,117,129,DATE,Absolute or relative dates or periods

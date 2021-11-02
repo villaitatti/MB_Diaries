@@ -1,18 +1,19 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-2,"Saturday, October",0,17,DATE,Absolute or relative dates or periods
-3,BB,10,12,GPE,"Countries, cities, states"
-3,Homeless Pictures,16,33,WORK_OF_ART,"Titles of books, songs, etc."
-3,Hammer,61,67,PERSON,"People, including fictional"
-4,Barbara,0,7,PERSON,"People, including fictional"
-4,the Chapel of New College,41,66,ORG,"Companies, agencies, institutions, etc."
-4,Church for 4 years,124,142,ORG,"Companies, agencies, institutions, etc."
-4,second,253,259,ORDINAL,"""first"", ""second"", etc."
-5,the weekend,15,26,DATE,Absolute or relative dates or periods
-6,"Sunday, October",0,15,DATE,Absolute or relative dates or periods
-7,Carlo Placci,0,12,PERSON,"People, including fictional"
-7,BB,132,134,GPE,"Countries, cities, states"
-7,Logan,226,231,PERSON,"People, including fictional"
-7,BB,385,387,GPE,"Countries, cities, states"
-7,Bertie,526,532,PERSON,"People, including fictional"
-7,Jane Clark,547,557,PERSON,"People, including fictional"
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+"Saturday, October 18,1930",2,0,25,DATE,Absolute or relative dates or periods
+BB,3,10,12,ORG,"Companies, agencies, institutions, etc."
+Homeless Pictures,3,16,33,WORK_OF_ART,"Titles of books, songs, etc."
+Hammer,3,61,67,PERSON,"People, including fictional"
+Barbara,4,0,7,PERSON,"People, including fictional"
+the Chapel of New College,4,41,66,FAC,"Buildings, airports, highways, bridges, etc."
+4 years,4,135,142,DATE,Absolute or relative dates or periods
+one second,4,249,259,TIME,Times smaller than a day
+Naima,5,0,5,PERSON,"People, including fictional"
+"Sunday, October 19,1930",6,0,23,DATE,Absolute or relative dates or periods
+Carlo Placci,7,0,12,PERSON,"People, including fictional"
+BB,7,132,134,PERSON,"People, including fictional"
+Logan,7,226,231,PERSON,"People, including fictional"
+Alda,7,517,521,PERSON,"People, including fictional"
+Bertie,7,526,532,PERSON,"People, including fictional"
+Jane Clark,7,547,557,PERSON,"People, including fictional"
+the night,7,576,585,TIME,Times smaller than a day

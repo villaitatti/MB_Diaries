@@ -1,4 +1,4 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-4,Allyn Cox,0,9,PERSON,"People, including fictional"
-6,Jill Cox,0,8,PERSON,"People, including fictional"
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+Allyn Cox,4,0,9,PERSON,"People, including fictional"
+Jill Cox,6,0,8,PERSON,"People, including fictional"

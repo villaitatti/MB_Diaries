@@ -1,20 +1,23 @@
-paragraph,text,min,max,label,description
-2,France,24,30,GPE,"Countries, cities, states"
-2,von Millizen,31,43,PERSON,"People, including fictional"
-2,Earle,107,112,PERSON,"People, including fictional"
-2,one,114,117,CARDINAL,Numerals that do not fall under another type
-2,Berenson,204,212,PERSON,"People, including fictional"
-3,Percy Lubbock,0,13,PERSON,"People, including fictional"
-4,Friday,0,6,DATE,Absolute or relative dates or periods
-4,Saturday,14,22,DATE,Absolute or relative dates or periods
-4,"December 13,1930",25,41,DATE,Absolute or relative dates or periods
-5,43rd,8,12,ORDINAL,"""first"", ""second"", etc."
-5,Cora,23,27,PERSON,"People, including fictional"
-5,Fiesole,62,69,PERSON,"People, including fictional"
-5,Alys,88,92,PERSON,"People, including fictional"
-5,the night,162,171,TIME,Times smaller than a day
-5,Stockholm,188,197,GPE,"Countries, cities, states"
-5,tomorrow,198,206,DATE,Absolute or relative dates or periods
-5,Lina,212,216,ORG,"Companies, agencies, institutions, etc."
-5,Aulla,243,248,ORG,"Companies, agencies, institutions, etc."
-6,"Sunday, December 14,1930",0,24,DATE,Absolute or relative dates or periods
+text,p,start,end,type,description
+France von Millizen,2,24,43,PERSON,"People, including fictional"
+Earle,2,107,112,PERSON,"People, including fictional"
+one,2,114,117,CARDINAL,Numerals that do not fall under another type
+Berenson,2,204,212,PERSON,"People, including fictional"
+Percy Lubbock,3,0,13,PERSON,"People, including fictional"
+Friday [sic] [Saturday],4,0,23,DATE,Absolute or relative dates or periods
+Nicky,5,0,5,PERSON,"People, including fictional"
+43rd,5,8,12,ORDINAL,"""first"", ""second"", etc."
+Cora,5,23,27,PERSON,"People, including fictional"
+Maresciallo,5,47,58,PERSON,"People, including fictional"
+Fiesole,5,62,69,ORG,"Companies, agencies, institutions, etc."
+Alys,5,88,92,PERSON,"People, including fictional"
+Naima,5,147,152,PERSON,"People, including fictional"
+the night,5,162,171,TIME,Times smaller than a day
+Stockholm,5,188,197,GPE,"Countries, cities, states"
+tomorrow,5,198,206,DATE,Absolute or relative dates or periods
+Lina,5,212,216,PERSON,"People, including fictional"
+Aulla,5,243,248,PERSON,"People, including fictional"
+"Sunday, December 14,1930",6,0,24,DATE,Absolute or relative dates or periods
+Naima,7,0,5,PERSON,"People, including fictional"
+Anreps,7,16,22,PERSON,"People, including fictional"
+Cecil Pinsent,7,27,40,PERSON,"People, including fictional"

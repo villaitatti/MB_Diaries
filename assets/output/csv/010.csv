@@ -1,23 +1,24 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-2,English,0,7,LANGUAGE,Any named language
-3,Logan,17,22,PERSON,"People, including fictional"
-3,Santayana,50,59,GPE,"Countries, cities, states"
-3,Lapsley,65,72,GPE,"Countries, cities, states"
-4,Santayana,41,50,GPE,"Countries, cities, states"
-4,Harvard,72,79,ORG,"Companies, agencies, institutions, etc."
-5,Logan,9,14,PERSON,"People, including fictional"
-6,one,0,3,CARDINAL,Numerals that do not fall under another type
-6,Santayana,30,39,ORG,"Companies, agencies, institutions, etc."
-7,Saturday,0,8,DATE,Absolute or relative dates or periods
-7,October,16,23,DATE,Absolute or relative dates or periods
-8,Ugo Ojetti,0,10,ORG,"Companies, agencies, institutions, etc."
-9,Hon,28,31,ORG,"Companies, agencies, institutions, etc."
-9,George Keppel,38,51,PERSON,"People, including fictional"
-9,Lady Cowley,53,64,PERSON,"People, including fictional"
-9,Ruby Lindsay,71,83,PERSON,"People, including fictional"
-9,Jean Gaigneron,89,103,PERSON,"People, including fictional"
-9,Trefusis,110,118,PERSON,"People, including fictional"
-9,Allyn Cox,133,142,PERSON,"People, including fictional"
-9,Keppel,149,155,PERSON,"People, including fictional"
-9,Arthur Colefax,204,218,PERSON,"People, including fictional"
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+English,2,0,7,LANGUAGE,Any named language
+the afternoon,3,3,16,TIME,Times smaller than a day
+Logan,3,17,22,PERSON,"People, including fictional"
+Santayana,3,50,59,PERSON,"People, including fictional"
+Lapsley,3,65,72,PERSON,"People, including fictional"
+High Churchman,4,25,39,PERSON,"People, including fictional"
+Santayana,4,41,50,PERSON,"People, including fictional"
+Harvard,4,72,79,ORG,"Companies, agencies, institutions, etc."
+Logan,5,9,14,PERSON,"People, including fictional"
+one,6,0,3,CARDINAL,Numerals that do not fall under another type
+Santayana,6,30,39,PERSON,"People, including fictional"
+"Saturday [sic], October 5,1930",7,0,30,DATE,Absolute or relative dates or periods
+Ugo Ojetti,8,0,10,PERSON,"People, including fictional"
+the afternoon,9,3,16,TIME,Times smaller than a day
+George Keppel,9,38,51,PERSON,"People, including fictional"
+Cowley,9,58,64,PERSON,"People, including fictional"
+Ruby Lindsay,9,71,83,PERSON,"People, including fictional"
+Jean Gaigneron,9,89,103,PERSON,"People, including fictional"
+Trefusis,9,110,118,PERSON,"People, including fictional"
+Allyn Cox,9,133,142,PERSON,"People, including fictional"
+Keppel,9,149,155,PERSON,"People, including fictional"
+Arthur Colefax,9,204,218,PERSON,"People, including fictional"

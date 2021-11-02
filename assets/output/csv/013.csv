@@ -1,20 +1,22 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-2,De Marinis,13,23,PERSON,"People, including fictional"
-2,Benedetto Croce,36,51,PERSON,"People, including fictional"
-2,Moravia,60,67,PERSON,"People, including fictional"
-2,Croce,99,104,ORG,"Companies, agencies, institutions, etc."
-2,Greggs,174,180,PERSON,"People, including fictional"
-2,Gregg,299,304,PERSON,"People, including fictional"
-2,Romania,347,354,GPE,"Countries, cities, states"
-2,Antoine Bibesco,369,384,ORG,"Companies, agencies, institutions, etc."
-2,Asquith,424,431,PERSON,"People, including fictional"
-3,Worm,16,20,ORG,"Companies, agencies, institutions, etc."
-4,"Tuesday, October 14,1930",0,24,DATE,Absolute or relative dates or periods
-5,the Berlin Museum,15,32,ORG,"Companies, agencies, institutions, etc."
-6,German,133,139,NORP,Nationalities or religious or political groups
-6,Flemish,311,318,NORP,Nationalities or religious or political groups
-6,Germans,323,330,NORP,Nationalities or religious or political groups
-6,Italians,339,347,NORP,Nationalities or religious or political groups
-6,Kenneth Clark,349,362,PERSON,"People, including fictional"
-6,Jane,367,371,PERSON,"People, including fictional"
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+De Marinis,2,13,23,PERSON,"People, including fictional"
+Benedetto Croce,2,36,51,PERSON,"People, including fictional"
+Moravia,2,60,67,PERSON,"People, including fictional"
+Croce,2,99,104,PERSON,"People, including fictional"
+Greggs,2,174,180,PERSON,"People, including fictional"
+Romania,2,347,354,GPE,"Countries, cities, states"
+Antoine Bibesco,2,369,384,PERSON,"People, including fictional"
+Asquith,2,424,431,PERSON,"People, including fictional"
+"Tuesday, October 14,1930",4,0,24,DATE,Absolute or relative dates or periods
+Friedländer,5,0,11,PERSON,"People, including fictional"
+the Berlin Museum,5,15,32,ORG,"Companies, agencies, institutions, etc."
+frau,6,24,28,PERSON,"People, including fictional"
+Doktor P[erles,6,33,47,PERSON,"People, including fictional"
+Rubens,6,121,127,PERSON,"People, including fictional"
+German,6,133,139,NORP,Nationalities or religious or political groups
+Flemish,6,311,318,NORP,Nationalities or religious or political groups
+Germans,6,323,330,NORP,Nationalities or religious or political groups
+Italians,6,339,347,NORP,Nationalities or religious or political groups
+Kenneth Clark,6,349,362,PERSON,"People, including fictional"
+Jane,6,367,371,PERSON,"People, including fictional"

@@ -1,33 +1,36 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-2,"Thursday, February 26,1931",0,26,DATE,Absolute or relative dates or periods
-4,Placci,0,6,ORG,"Companies, agencies, institutions, etc."
-4,the De Filippis,8,23,PERSON,"People, including fictional"
-4,Frau Holstein,25,38,PERSON,"People, including fictional"
-4,Nichols,45,52,PERSON,"People, including fictional"
-4,Fokker,63,69,PERSON,"People, including fictional"
-5,first,10,15,ORDINAL,"""first"", ""second"", etc."
-5,BB’s Life,27,36,ORG,"Companies, agencies, institutions, etc."
-6,Cecil,30,35,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-6,Fausts,44,50,ORG,"Companies, agencies, institutions, etc."
-6,Scaravelli,63,73,PERSON,"People, including fictional"
-7,"Friday, February 27,1931",0,24,DATE,Absolute or relative dates or periods
-8,Vavalà,42,48,ORG,"Companies, agencies, institutions, etc."
-8,Sienese,61,68,NORP,Nationalities or religious or political groups
-9,Jane Herman,30,41,PERSON,"People, including fictional"
-10,"Saturday, February 28,1931",0,26,DATE,Absolute or relative dates or periods
-11,Aubrey,0,6,GPE,"Countries, cities, states"
-11,Kinta Waterfield,11,27,GPE,"Countries, cities, states"
-11,Flavia,42,48,GPE,"Countries, cities, states"
-11,Fokker,64,70,PERSON,"People, including fictional"
-11,Signora   Giovannelli,72,93,PERSON,"People, including fictional"
-12,"Sunday, March 1,1931",0,20,DATE,Absolute or relative dates or periods
-13,Cecil,15,20,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-14,"Monday, March 2,1931",0,20,DATE,Absolute or relative dates or periods
-15,Coras,4,9,ORG,"Companies, agencies, institutions, etc."
-15,Clotilde Marghieri,14,32,PERSON,"People, including fictional"
-15,Vavalà,48,54,ORG,"Companies, agencies, institutions, etc."
-15,Herr Peters,59,70,PERSON,"People, including fictional"
-15,Budapest,77,85,GPE,"Countries, cities, states"
-15,Ray,95,98,PERSON,"People, including fictional"
-15,midnight,110,118,TIME,Times smaller than a day
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+"Thursday, February 26,1931",2,0,26,DATE,Absolute or relative dates or periods
+Placci,4,0,6,PERSON,"People, including fictional"
+Frau Holstein,4,25,38,PERSON,"People, including fictional"
+Nichols,4,45,52,PERSON,"People, including fictional"
+Fokker,4,63,69,PERSON,"People, including fictional"
+first,5,10,15,ORDINAL,"""first"", ""second"", etc."
+Costers,6,16,23,PERSON,"People, including fictional"
+Cecil,6,30,35,PERSON,"People, including fictional"
+Fausts,6,44,50,PERSON,"People, including fictional"
+Scaravelli,6,63,73,PERSON,"People, including fictional"
+"Friday, February 27,1931",7,0,24,DATE,Absolute or relative dates or periods
+Clotilde,8,0,8,PERSON,"People, including fictional"
+Nesta,8,10,15,PERSON,"People, including fictional"
+Scaravelli,8,20,30,PERSON,"People, including fictional"
+Vavalà,8,42,48,PERSON,"People, including fictional"
+Sienese,8,61,68,NORP,Nationalities or religious or political groups
+Brandi,8,70,76,PERSON,"People, including fictional"
+Jane Herman,9,30,41,PERSON,"People, including fictional"
+"Saturday, February 28,1931",10,0,26,DATE,Absolute or relative dates or periods
+Aubrey,11,0,6,PERSON,"People, including fictional"
+Kinta Waterfield,11,11,27,PERSON,"People, including fictional"
+Flavia Darina,11,42,55,PERSON,"People, including fictional"
+Fokker,11,64,70,PERSON,"People, including fictional"
+"Sunday, March 1,1931",12,0,20,DATE,Absolute or relative dates or periods
+Anreps,13,4,10,PERSON,"People, including fictional"
+Cecil,13,15,20,PERSON,"People, including fictional"
+"Monday, March 2,1931",14,0,20,DATE,Absolute or relative dates or periods
+Coras,15,4,9,PERSON,"People, including fictional"
+Clotilde Marghieri,15,14,32,PERSON,"People, including fictional"
+Vavalà,15,48,54,PERSON,"People, including fictional"
+Herr Peters,15,59,70,PERSON,"People, including fictional"
+Budapest,15,77,85,GPE,"Countries, cities, states"
+Ray,15,95,98,PERSON,"People, including fictional"
+midnight,15,110,118,TIME,Times smaller than a day

@@ -1,33 +1,36 @@
-paragraph,text,min,max,label,description
-2,"Saturday, March 7,1931",0,22,DATE,Absolute or relative dates or periods
-3,Senda,0,5,ORG,"Companies, agencies, institutions, etc."
-3,Morra,7,12,PERSON,"People, including fictional"
-3,Ray,14,17,PERSON,"People, including fictional"
-3,Alys,19,23,PERSON,"People, including fictional"
-4,Lowenthal,5,14,PERSON,"People, including fictional"
-4,Smith College,42,55,ORG,"Companies, agencies, institutions, etc."
-4,Moravia,76,83,PERSON,"People, including fictional"
-5,"Saturday, March 8,1931",0,22,DATE,Absolute or relative dates or periods
-6,Sanminiatellis,49,63,GPE,"Countries, cities, states"
-6,Marchesa Fossi,65,79,PERSON,"People, including fictional"
-6,Moravia,98,105,GPE,"Countries, cities, states"
-7,"Sunday, March 8,1931",0,20,DATE,Absolute or relative dates or periods
-9,the evening,3,14,TIME,Times smaller than a day
-9,the Jarvel Company,30,48,ORG,"Companies, agencies, institutions, etc."
-9,Le Medecin,59,69,WORK_OF_ART,"Titles of books, songs, etc."
-9,Ray,130,133,PERSON,"People, including fictional"
-9,BB,138,140,GPE,"Countries, cities, states"
-9,Jeanne,145,151,PERSON,"People, including fictional"
-9,La Carosse,179,189,ORG,"Companies, agencies, institutions, etc."
-10,"Monday, March 9,1931",0,20,DATE,Absolute or relative dates or periods
-11,Pancrazis,4,13,NORP,Nationalities or religious or political groups
-11,Moravia,15,22,PERSON,"People, including fictional"
-11,Pasquali,28,36,PERSON,"People, including fictional"
-12,Alys,0,4,PERSON,"People, including fictional"
-12,3.20,16,20,CARDINAL,Numerals that do not fall under another type
-13,"Tuesday, March 10,1931",0,22,DATE,Absolute or relative dates or periods
-14,Lowenthal,5,14,PERSON,"People, including fictional"
-14,Kennedy,19,26,PERSON,"People, including fictional"
-14,BB,55,57,GPE,"Countries, cities, states"
-14,Verrocchio,157,167,ORG,"Companies, agencies, institutions, etc."
-14,Morra,224,229,PERSON,"People, including fictional"
+text,p,start,end,type,description
+"Saturday, March 7,1931",2,0,22,DATE,Absolute or relative dates or periods
+Senda,3,0,5,PERSON,"People, including fictional"
+Morra,3,7,12,PERSON,"People, including fictional"
+Ray,3,14,17,PERSON,"People, including fictional"
+Alys,3,19,23,PERSON,"People, including fictional"
+Lowenthal,4,5,14,PERSON,"People, including fictional"
+Smith College,4,42,55,ORG,"Companies, agencies, institutions, etc."
+Moravia,4,76,83,PERSON,"People, including fictional"
+"Saturday, March 8,1931",5,0,22,DATE,Absolute or relative dates or periods
+Sanminiatellis,6,49,63,PERSON,"People, including fictional"
+Marchesa Fossi,6,65,79,PERSON,"People, including fictional"
+Moravia,6,98,105,PERSON,"People, including fictional"
+"Sunday, March 8,1931",7,0,20,DATE,Absolute or relative dates or periods
+the evening,9,3,14,TIME,Times smaller than a day
+the Jarvel Company,9,30,48,ORG,"Companies, agencies, institutions, etc."
+Le Medecin malgrè lui,9,59,80,WORK_OF_ART,"Titles of books, songs, etc."
+Ray,9,130,133,PERSON,"People, including fictional"
+BB,9,138,140,PERSON,"People, including fictional"
+Jeanne,9,145,151,PERSON,"People, including fictional"
+2nd,9,168,171,ORDINAL,"""first"", ""second"", etc."
+La Carosse du Sacrement,9,179,202,WORK_OF_ART,"Titles of books, songs, etc."
+"Monday, March 9,1931",10,0,20,DATE,Absolute or relative dates or periods
+Pancrazis,11,4,13,PERSON,"People, including fictional"
+Moravia,11,15,22,PERSON,"People, including fictional"
+Pasquali,11,28,36,PERSON,"People, including fictional"
+Alys,12,0,4,PERSON,"People, including fictional"
+3.20,12,16,20,TIME,Times smaller than a day
+"Tuesday, March 10,1931",13,0,22,DATE,Absolute or relative dates or periods
+Lowenthal,14,5,14,PERSON,"People, including fictional"
+Kennedy,14,19,26,PERSON,"People, including fictional"
+BB,14,55,57,PERSON,"People, including fictional"
+Pistoia,14,106,113,FAC,"Buildings, airports, highways, bridges, etc."
+Verrocchio,14,157,167,PERSON,"People, including fictional"
+Cecil Pinsent,14,180,193,PERSON,"People, including fictional"
+Morra,14,224,229,PERSON,"People, including fictional"

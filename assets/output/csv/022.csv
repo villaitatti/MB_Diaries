@@ -1,23 +1,24 @@
-paragraph,text,min,max,label,description
-1,1930,0,4,DATE,Absolute or relative dates or periods
-2,"Tuesday, December 9,1930",0,24,DATE,Absolute or relative dates or periods
-4,"Wednesday, December 10,1930",0,27,DATE,Absolute or relative dates or periods
-6,the day,0,7,DATE,Absolute or relative dates or periods
-6,Hart,24,28,PERSON,"People, including fictional"
-6,Berkeley College,34,50,ORG,"Companies, agencies, institutions, etc."
-6,English Literature,59,77,WORK_OF_ART,"Titles of books, songs, etc."
-7,Ojetti,13,19,ORG,"Companies, agencies, institutions, etc."
-7,Wiskermann,41,51,PERSON,"People, including fictional"
-8,"Thursday, December 11,1930",0,26,DATE,Absolute or relative dates or periods
-9,Young Brown,0,11,PERSON,"People, including fictional"
-9,John,13,17,PERSON,"People, including fictional"
-9,Zurich,24,30,GPE,"Countries, cities, states"
-9,7,59,60,DATE,Absolute or relative dates or periods
-9,first,71,76,ORDINAL,"""first"", ""second"", etc."
-9,BB,80,82,GPE,"Countries, cities, states"
-10,"Friday, December",0,16,DATE,Absolute or relative dates or periods
-11,BB,34,36,GPE,"Countries, cities, states"
-11,One,114,117,CARDINAL,Numerals that do not fall under another type
-11,Spencer,129,136,PERSON,"People, including fictional"
-11,Cambridge,142,151,GPE,"Countries, cities, states"
-11,Mass.,152,157,GPE,"Countries, cities, states"
+text,p,start,end,type,description
+1930,1,0,4,DATE,Absolute or relative dates or periods
+"Tuesday, December 9,1930",2,0,24,DATE,Absolute or relative dates or periods
+Morra,3,39,44,PERSON,"People, including fictional"
+"Wednesday, December 10,1930",4,0,27,DATE,Absolute or relative dates or periods
+Pancrazi,5,0,8,PERSON,"People, including fictional"
+the day,6,0,7,DATE,Absolute or relative dates or periods
+Hart,6,24,28,PERSON,"People, including fictional"
+Berkeley College,6,34,50,ORG,"Companies, agencies, institutions, etc."
+Ojetti,7,13,19,PERSON,"People, including fictional"
+Wiskermann,7,41,51,PERSON,"People, including fictional"
+"Thursday, December 11,1930",8,0,26,DATE,Absolute or relative dates or periods
+Brown,9,6,11,PERSON,"People, including fictional"
+John,9,13,17,PERSON,"People, including fictional"
+Zurich,9,24,30,GPE,"Countries, cities, states"
+7,9,59,60,TIME,Times smaller than a day
+first,9,71,76,ORDINAL,"""first"", ""second"", etc."
+BB,9,80,82,PERSON,"People, including fictional"
+"Friday, December 12,1930",10,0,24,DATE,Absolute or relative dates or periods
+BB,11,34,36,PERSON,"People, including fictional"
+One,11,114,117,CARDINAL,Numerals that do not fall under another type
+Spencer,11,129,136,PERSON,"People, including fictional"
+Cambridge,11,142,151,GPE,"Countries, cities, states"
+Mass.,11,152,157,GPE,"Countries, cities, states"
