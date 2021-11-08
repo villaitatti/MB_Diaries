@@ -28,19 +28,26 @@ def parse_pages(pages):
   body = ''
   name = None
 
+  ner_body = []
   for i, page in enumerate(pages):
     match = re.match(regexp, page)
     if match:
       if name is not None:
         write_file(os.path.join(output_path, 'txt', f'{name}.txt'), body)
+        ner_body_curr = execute_ner(body)
+        ner_body.extend(ner_body_curr)
+
         write_csv(os.path.join(output_path, 'csv',
-                  f'{name}.csv'), execute_ner(body))
+                  f'{name}.csv'), ner_body_curr)
 
       name = re.sub(r'[\[\]\s]', '', match[0])
       body = f'{re.sub(regexp, "", page)}\n'
 
     else:
       body += f'{page}\n'
+
+  write_csv(os.path.join(output_path, 'csv',
+                         f'total.csv'), ner_body)
 
 
 def execute_ner(document):
