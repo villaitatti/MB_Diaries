@@ -62,6 +62,7 @@ def execute_ner(document):
   return data
 
 
+# TODO: Filenames should be taken as 1st level children of assets/input folder
 filename = '1930 DONE Mary Berenson DIary 1930-1931 (People coming to I Tatti).docx'
 cur_path = os.path.dirname(os.path.realpath(__file__))
 input_path = os.path.join(cur_path, 'assets', 'input')
