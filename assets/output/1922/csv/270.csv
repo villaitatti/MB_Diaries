@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+270,"Sunday, September 3, 1922",1,0,25,DATE,Absolute or relative dates or periods
+270,Copse Cottage,2,24,37,WORK_OF_ART,"Titles of books, songs, etc."
+270,Paradise,3,24,32,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+270,William James,4,12,25,PERSON,"People, including fictional"
+270,Florence,4,41,49,GPE,"Countries, cities, states"
+270,April 2. 1893,4,51,64,DATE,Absolute or relative dates or periods
+270,Berenson,5,101,109,PERSON,"People, including fictional"
+270,B.,5,156,158,PERSON,"People, including fictional"
+270,Berenson,5,638,646,PERSON,"People, including fictional"
+270,Loeser,5,648,654,PERSON,"People, including fictional"
+270,Costa,5,658,663,PERSON,"People, including fictional"

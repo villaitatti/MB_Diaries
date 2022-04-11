@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+349,"Tuesday, November 21, 1922",1,0,26,DATE,Absolute or relative dates or periods
+349,Bode,3,39,43,PERSON,"People, including fictional"
+349,Geoffrey,4,0,8,PERSON,"People, including fictional"
+349,Stein,5,0,5,PERSON,"People, including fictional"
+349,Nicky,6,0,5,PERSON,"People, including fictional"
+349,Sybil,6,17,22,PERSON,"People, including fictional"
+349,Salvemini,7,12,21,PERSON,"People, including fictional"
+349,Letter,7,24,30,WORK_OF_ART,"Titles of books, songs, etc."
+349,English,9,44,51,NORP,Nationalities or religious or political groups
+349,English,9,84,91,LANGUAGE,Any named language
+349,English,9,110,117,LANGUAGE,Any named language

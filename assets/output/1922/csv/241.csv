@@ -1,0 +1,23 @@
+page,text,p,start,end,type,description
+241,"Saturday, August 5, 1922",1,0,24,DATE,Absolute or relative dates or periods
+241,Nicky,2,0,5,PERSON,"People, including fictional"
+241,Fräulein Austen-Sachsen,2,37,60,PERSON,"People, including fictional"
+241,Brückenau,2,65,74,GPE,"Countries, cities, states"
+241,B.B.,3,0,4,PERSON,"People, including fictional"
+241,Kloster Kreuzberg,3,22,39,FAC,"Buildings, airports, highways, bridges, etc."
+241,the Way of the Cross,3,61,81,FAC,"Buildings, airports, highways, bridges, etc."
+241,the day,3,147,154,DATE,Absolute or relative dates or periods
+241,the morning,4,3,14,TIME,Times smaller than a day
+241,Dicky _,4,15,22,PERSON,"People, including fictional"
+241,_,4,22,23,PERSON,"People, including fictional"
+241,_,4,23,24,PERSON,"People, including fictional"
+241,B.B.,4,38,42,PERSON,"People, including fictional"
+241,Frankfort,4,83,92,GPE,"Countries, cities, states"
+241,Gaus,4,114,118,PERSON,"People, including fictional"
+241,Creswell,5,21,29,PERSON,"People, including fictional"
+241,Cairo,5,33,38,GPE,"Countries, cities, states"
+241,Creswell,5,83,91,PERSON,"People, including fictional"
+241,Arab,5,180,184,NORP,Nationalities or religious or political groups
+241,Cairo,5,201,206,GPE,"Countries, cities, states"
+241,200,5,262,265,MONEY,"Monetary values, including unit"
+241,2 years,5,277,284,DATE,Absolute or relative dates or periods

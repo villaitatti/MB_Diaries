@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+280,"Wednesday, September 13, 1922",1,0,29,DATE,Absolute or relative dates or periods
+280,Paris,2,6,11,GPE,"Countries, cities, states"
+280,Berlin,2,15,21,GPE,"Countries, cities, states"
+280,Jo Duveen,3,30,39,PERSON,"People, including fictional"
+280,Edward,3,41,47,PERSON,"People, including fictional"
+280,Löwengarde,3,60,70,PERSON,"People, including fictional"
+280,B.B.,4,8,12,PERSON,"People, including fictional"
+280,B.B.,5,8,12,PERSON,"People, including fictional"
+280,Eliz,8,0,4,PERSON,"People, including fictional"
+280,Carey,8,18,23,PERSON,"People, including fictional"
+280,Eliza,8,39,44,PERSON,"People, including fictional"
+280,7.40 p.m.,8,48,57,TIME,Times smaller than a day

@@ -1,0 +1,9 @@
+page,text,p,start,end,type,description
+084,"Tuesday, March 2, 1915",2,0,22,DATE,Absolute or relative dates or periods
+084,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+084,Geoffrey,6,2,10,PERSON,"People, including fictional"
+084,Cecil,6,30,35,PERSON,"People, including fictional"
+084,Geoffrey,6,75,83,PERSON,"People, including fictional"
+084,BB,8,2,4,PERSON,"People, including fictional"
+084,Mugello,8,30,37,FAC,"Buildings, airports, highways, bridges, etc."
+084,Sybil,8,43,48,PERSON,"People, including fictional"

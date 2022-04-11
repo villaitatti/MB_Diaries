@@ -1,0 +1,9 @@
+page,text,p,start,end,type,description
+223,"Monday, July 19, 1915",2,0,21,DATE,Absolute or relative dates or periods
+223,96,2,23,25,CARDINAL,Numerals that do not fall under another type
+223,South Hill Park,2,26,41,FAC,"Buildings, airports, highways, bridges, etc."
+223,Hampstead,2,42,51,GPE,"Countries, cities, states"
+223,London,2,52,58,GPE,"Countries, cities, states"
+223,Barbara,4,0,7,PERSON,"People, including fictional"
+223,first,4,37,42,ORDINAL,"""first"", ""second"", etc."
+223,Julia,4,73,78,PERSON,"People, including fictional"

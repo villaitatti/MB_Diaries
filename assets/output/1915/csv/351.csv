@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+351,"Wednesday, November 24, 1915",2,0,28,DATE,Absolute or relative dates or periods
+351,Villa Beccari,5,84,97,FAC,"Buildings, airports, highways, bridges, etc."
+351,Geoffrey,5,150,158,PERSON,"People, including fictional"
+351,Mascha,5,175,181,PERSON,"People, including fictional"
+351,Lucerne,5,207,214,GPE,"Countries, cities, states"
+351,Loesers,5,229,236,PERSON,"People, including fictional"
+351,every day,5,315,324,DATE,Absolute or relative dates or periods
+351,Loeser,5,422,428,PERSON,"People, including fictional"
+351,Aristea,6,61,68,PERSON,"People, including fictional"

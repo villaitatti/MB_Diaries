@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+270,"Saturday, September 4, 1915",2,0,27,DATE,Absolute or relative dates or periods
+270,Bath,2,29,33,GPE,"Countries, cities, states"
+270,Logan,3,0,5,PERSON,"People, including fictional"
+270,Alys,3,10,14,PERSON,"People, including fictional"
+270,Elizabeth Stewart,3,34,51,PERSON,"People, including fictional"
+270,Mary,3,61,65,PERSON,"People, including fictional"
+270,second,3,101,107,ORDINAL,"""first"", ""second"", etc."
+270,Cairns,3,183,189,PERSON,"People, including fictional"
+270,Belgians,3,234,242,NORP,Nationalities or religious or political groups
+270,Congo,3,276,281,GPE,"Countries, cities, states"

@@ -1,0 +1,14 @@
+page,text,p,start,end,type,description
+034,"Monday, January 11, 1915",2,0,24,DATE,Absolute or relative dates or periods
+034,Geoffrey,3,0,8,PERSON,"People, including fictional"
+034,Priestly,5,7,15,PERSON,"People, including fictional"
+034,Geoffrey,5,34,42,PERSON,"People, including fictional"
+034,Flora,5,78,83,PERSON,"People, including fictional"
+034,only one,6,76,84,CARDINAL,Numerals that do not fall under another type
+034,Luisa,6,162,167,PERSON,"People, including fictional"
+034,Nello,8,2,7,PERSON,"People, including fictional"
+034,Yoï,8,9,12,PERSON,"People, including fictional"
+034,Nelson Gay,8,30,40,PERSON,"People, including fictional"
+034,Yoï,8,55,58,PERSON,"People, including fictional"
+034,Ugo Ojetti,8,143,153,PERSON,"People, including fictional"
+034,Nello,8,407,412,PERSON,"People, including fictional"

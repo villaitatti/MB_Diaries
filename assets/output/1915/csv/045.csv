@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+045,"Friday, January 22, 1915",2,0,24,DATE,Absolute or relative dates or periods
+045,today,5,11,16,DATE,Absolute or relative dates or periods
+045,Marainis,5,26,34,PERSON,"People, including fictional"
+045,the Art Magazines,5,87,104,ORG,"Companies, agencies, institutions, etc."
+045,my quiet days,5,123,136,DATE,Absolute or relative dates or periods
+045,Ross,6,34,38,PERSON,"People, including fictional"
+045,Yoï,6,104,107,PERSON,"People, including fictional"
+045,Stan,6,158,162,PERSON,"People, including fictional"
+045,Ross,7,30,34,PERSON,"People, including fictional"
+045,all day,7,79,86,DATE,Absolute or relative dates or periods
+045,Sybil’s,8,19,26,FAC,"Buildings, airports, highways, bridges, etc."

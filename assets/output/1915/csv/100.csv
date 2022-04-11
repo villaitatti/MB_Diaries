@@ -1,0 +1,8 @@
+page,text,p,start,end,type,description
+100,"Thursday, March 18, 1915",2,0,24,DATE,Absolute or relative dates or periods
+100,Ray,3,0,3,PERSON,"People, including fictional"
+100,Placci,5,0,6,PERSON,"People, including fictional"
+100,Ray,5,22,25,PERSON,"People, including fictional"
+100,Rome,5,54,58,GPE,"Countries, cities, states"
+100,9,5,82,83,TIME,Times smaller than a day
+100,27 March,6,18,26,DATE,Absolute or relative dates or periods

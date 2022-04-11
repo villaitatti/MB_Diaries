@@ -1,0 +1,15 @@
+page,text,p,start,end,type,description
+150,"Saturday, May 6, 1922",1,0,21,DATE,Absolute or relative dates or periods
+150,Ray,2,0,3,PERSON,"People, including fictional"
+150,Logan,3,0,5,PERSON,"People, including fictional"
+150,Naima,4,0,5,PERSON,"People, including fictional"
+150,I Tatti,5,24,31,PERSON,"People, including fictional"
+150,Milan,6,17,22,GPE,"Countries, cities, states"
+150,Alda,6,24,28,PERSON,"People, including fictional"
+150,tomorrow,6,55,63,DATE,Absolute or relative dates or periods
+150,night,6,64,69,TIME,Times smaller than a day
+150,Toscanini,6,70,79,PERSON,"People, including fictional"
+150,I Maestri Cantori,6,91,108,WORK_OF_ART,"Titles of books, songs, etc."
+150,Ray,7,0,3,PERSON,"People, including fictional"
+150,7,8,1,2,CARDINAL,Numerals that do not fall under another type
+150,Cairo,9,33,38,GPE,"Countries, cities, states"

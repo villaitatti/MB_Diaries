@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+146,"Tuesday, May 2, 1922",1,0,20,DATE,Absolute or relative dates or periods
+146,Ronald Storrs,2,0,13,PERSON,"People, including fictional"
+146,Leggett,3,5,12,PERSON,"People, including fictional"
+146,Irene Curzon,4,5,17,PERSON,"People, including fictional"
+146,Logan,5,0,5,PERSON,"People, including fictional"
+146,I Tatti,6,24,31,PERSON,"People, including fictional"
+146,Jerusalem,7,4,13,GPE,"Countries, cities, states"
+146,7.30 a.m.,7,44,53,TIME,Times smaller than a day
+146,Leggett,8,5,12,PERSON,"People, including fictional"
+146,Storrs,9,0,6,PERSON,"People, including fictional"
+146,Irene,9,31,36,PERSON,"People, including fictional"
+146,Monte Guffen,10,17,29,FAC,"Buildings, airports, highways, bridges, etc."

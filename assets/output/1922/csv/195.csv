@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+195,"Tuesday, June 20, 1922",1,0,22,DATE,Absolute or relative dates or periods
+195,Karin,2,0,5,PERSON,"People, including fictional"
+195,Geoffrey,3,0,8,PERSON,"People, including fictional"
+195,Perrys,4,0,6,PERSON,"People, including fictional"
+195,Perrys,6,0,6,PERSON,"People, including fictional"
+195,Sybil,7,3,8,PERSON,"People, including fictional"
+195,England,7,18,25,GPE,"Countries, cities, states"
+195,today,7,26,31,DATE,Absolute or relative dates or periods
+195,Nicky,7,189,194,PERSON,"People, including fictional"
+195,Cox,8,0,3,PERSON,"People, including fictional"
+195,Florence,8,27,35,GPE,"Countries, cities, states"

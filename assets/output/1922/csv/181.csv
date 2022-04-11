@@ -1,0 +1,7 @@
+page,text,p,start,end,type,description
+181,"Tuesday, June 6, 1922",1,0,21,DATE,Absolute or relative dates or periods
+181,Perrys,2,0,6,PERSON,"People, including fictional"
+181,2,4,1,2,CARDINAL,Numerals that do not fall under another type
+181,Fullers,6,0,7,PERSON,"People, including fictional"
+181,Perkins,6,9,16,PERSON,"People, including fictional"
+181,Hallowells,6,22,32,PERSON,"People, including fictional"

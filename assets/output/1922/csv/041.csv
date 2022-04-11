@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+041,"Tuesday, January 17, 1922",1,0,25,DATE,Absolute or relative dates or periods
+041,Nile,2,7,11,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+041,Egypt,2,17,22,GPE,"Countries, cities, states"
+041,10,3,14,16,TIME,Times smaller than a day
+041,Eliza,3,18,23,PERSON,"People, including fictional"
+041,the day,4,6,13,DATE,Absolute or relative dates or periods
+041,the Cecil Firths,4,19,35,ORG,"Companies, agencies, institutions, etc."
+041,Sakkara,4,39,46,GPE,"Countries, cities, states"
+041,the Tomb of Ti and Meru and,4,55,82,FAC,"Buildings, airports, highways, bridges, etc."
+041,the Pyramid of Onas,4,109,128,FAC,"Buildings, airports, highways, bridges, etc."
+041,sunset,4,243,249,TIME,Times smaller than a day

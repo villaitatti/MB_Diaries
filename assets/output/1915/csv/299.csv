@@ -1,0 +1,8 @@
+page,text,p,start,end,type,description
+299,"Sunday, October 3, 1915",2,0,23,DATE,Absolute or relative dates or periods
+299,Villa Bice Marina di Pisa,2,25,50,FAC,"Buildings, airports, highways, bridges, etc."
+299,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+299,Mascha,5,25,31,PERSON,"People, including fictional"
+299,Frigido,5,75,82,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+299,Geoffrey,5,84,92,PERSON,"People, including fictional"
+299,Algar,5,129,134,PERSON,"People, including fictional"

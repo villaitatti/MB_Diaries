@@ -1,0 +1,8 @@
+page,text,p,start,end,type,description
+098,"Wednesday, March 15, 1922",1,0,25,DATE,Absolute or relative dates or periods
+098,Philomène,3,56,65,PERSON,"People, including fictional"
+098,second,4,54,60,ORDINAL,"""first"", ""second"", etc."
+098,Jesuitism,4,125,134,NORP,Nationalities or religious or political groups
+098,BB,4,266,268,PERSON,"People, including fictional"
+098,anti-Catholic,4,633,646,NORP,Nationalities or religious or political groups
+098,anti,4,666,670,NORP,Nationalities or religious or political groups

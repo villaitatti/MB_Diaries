@@ -1,0 +1,15 @@
+page,text,p,start,end,type,description
+063,"Wednesday, February 8, 1922",1,0,27,DATE,Absolute or relative dates or periods
+063,No.,3,17,20,CARDINAL,Numerals that do not fall under another type
+063,1,3,21,22,CARDINAL,Numerals that do not fall under another type
+063,Ahmet Abdallah,3,23,37,PERSON,"People, including fictional"
+063,Bonté,4,21,26,PERSON,"People, including fictional"
+063,Winlocks,4,42,50,PERSON,"People, including fictional"
+063,Magameum,4,59,67,FAC,"Buildings, airports, highways, bridges, etc."
+063,Quibells,4,91,99,PERSON,"People, including fictional"
+063,Der el Bahari,4,131,144,GPE,"Countries, cities, states"
+063,Quibells,4,154,162,PERSON,"People, including fictional"
+063,Quibells,5,36,44,PERSON,"People, including fictional"
+063,Kitsons,6,10,17,PERSON,"People, including fictional"
+063,Van Dyck,6,39,47,PERSON,"People, including fictional"
+063,26,6,147,149,CARDINAL,Numerals that do not fall under another type

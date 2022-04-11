@@ -1,0 +1,15 @@
+page,text,p,start,end,type,description
+288,"Thursday, September 21, 1922",1,0,28,DATE,Absolute or relative dates or periods
+288,Hotel Bristol,2,24,37,ORG,"Companies, agencies, institutions, etc."
+288,Karin,3,13,18,PERSON,"People, including fictional"
+288,Terry,3,23,28,PERSON,"People, including fictional"
+288,Ray,3,37,40,PERSON,"People, including fictional"
+288,Islamic,3,150,157,NORP,Nationalities or religious or political groups
+288,Museum,3,172,178,ORG,"Companies, agencies, institutions, etc."
+288,Sarre,3,188,193,PERSON,"People, including fictional"
+288,two,3,196,199,CARDINAL,Numerals that do not fall under another type
+288,Mschatta,3,272,280,GPE,"Countries, cities, states"
+288,Figaro,3,341,347,PERSON,"People, including fictional"
+288,the evening,3,351,362,TIME,Times smaller than a day
+288,each night,4,134,144,TIME,Times smaller than a day
+288,BB,5,0,2,PERSON,"People, including fictional"

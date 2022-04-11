@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+326,"Sunday, October 29, 1922",1,0,24,DATE,Absolute or relative dates or periods
+326,NaimiNicky,2,0,10,PERSON,"People, including fictional"
+326,Zangwills,3,0,9,PERSON,"People, including fictional"
+326,Villa Medici and Strongs,4,10,34,ORG,"Companies, agencies, institutions, etc."
+326,Henry Harris,5,0,12,PERSON,"People, including fictional"
+326,Burns,5,34,39,PERSON,"People, including fictional"
+326,Pierpont Morgan,5,66,81,ORG,"Companies, agencies, institutions, etc."
+326,Julia,6,0,5,PERSON,"People, including fictional"
+326,Hester Pellet,6,21,34,PERSON,"People, including fictional"

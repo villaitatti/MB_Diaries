@@ -1,0 +1,18 @@
+page,text,p,start,end,type,description
+119,"Wednesday, April 5, 1922",1,0,24,DATE,Absolute or relative dates or periods
+119,Museum,2,0,6,ORG,"Companies, agencies, institutions, etc."
+119,Quibell,2,21,28,PERSON,"People, including fictional"
+119,B.B.,2,50,54,PERSON,"People, including fictional"
+119,Peeping Tom,2,75,86,WORK_OF_ART,"Titles of books, songs, etc."
+119,Egyptian,2,127,135,NORP,Nationalities or religious or political groups
+119,Patricolo,3,0,9,PERSON,"People, including fictional"
+119,Sheik,3,43,48,PERSON,"People, including fictional"
+119,B.B.,4,0,4,PERSON,"People, including fictional"
+119,Amos,4,24,28,PERSON,"People, including fictional"
+119,Maurice,4,36,43,PERSON,"People, including fictional"
+119,Maurice,4,49,56,PERSON,"People, including fictional"
+119,Lucy,4,116,120,PERSON,"People, including fictional"
+119,Elgoods,4,217,224,PERSON,"People, including fictional"
+119,Per,4,257,260,PERSON,"People, including fictional"
+119,Truman,5,53,59,PERSON,"People, including fictional"
+119,the Mille Nuits,5,80,95,ORG,"Companies, agencies, institutions, etc."

@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+329,"Wednesday, November 1, 1922",1,0,27,DATE,Absolute or relative dates or periods
+329,Nicky,3,3,8,PERSON,"People, including fictional"
+329,B.B.,4,0,4,PERSON,"People, including fictional"
+329,B.B.,6,0,4,PERSON,"People, including fictional"
+329,M_g__s,6,37,43,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+329,Castel di Poggio,6,47,63,GPE,"Countries, cities, states"
+329,Patricolo,7,0,9,PERSON,"People, including fictional"
+329,alle 3 a.m.,7,205,216,TIME,Times smaller than a day
+329,16,7,251,253,QUANTITY,"Measurements, as of weight or distance"

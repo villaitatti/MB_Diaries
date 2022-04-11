@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+332,"Saturday, November 4, 1922",1,0,26,DATE,Absolute or relative dates or periods
+332,Naimi,2,22,27,PERSON,"People, including fictional"
+332,summer,3,38,44,DATE,Absolute or relative dates or periods
+332,Signor Nicodemi,4,0,15,PERSON,"People, including fictional"
+332,the Brescia Gallery,4,29,48,ORG,"Companies, agencies, institutions, etc."
+332,10.30,4,57,62,TIME,Times smaller than a day
+332,Casa Boccaccio,6,22,36,FAC,"Buildings, airports, highways, bridges, etc."
+332,Waterfields,6,46,57,FAC,"Buildings, airports, highways, bridges, etc."
+332,Lina,6,143,147,PERSON,"People, including fictional"
+332,nearly £400,6,175,186,MONEY,"Monetary values, including unit"
+332,Italian,6,203,210,NORP,Nationalities or religious or political groups
+332,Italy,6,230,235,GPE,"Countries, cities, states"

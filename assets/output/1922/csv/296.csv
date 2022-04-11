@@ -1,0 +1,19 @@
+page,text,p,start,end,type,description
+296,"Friday, September 29, 1922",1,0,26,DATE,Absolute or relative dates or periods
+296,1895,5,16,20,DATE,Absolute or relative dates or periods
+296,3 weeks,5,25,32,DATE,Absolute or relative dates or periods
+296,a Berlioz-Listz [sic] Festival,5,37,67,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+296,Mottl,5,82,87,PERSON,"People, including fictional"
+296,Gallery,6,11,18,FAC,"Buildings, airports, highways, bridges, etc."
+296,Florentine,6,73,83,NORP,Nationalities or religious or political groups
+296,3000 m.[arks,7,17,29,MONEY,"Monetary values, including unit"
+296,Baden,7,55,60,GPE,"Countries, cities, states"
+296,B. B.,7,63,68,PERSON,"People, including fictional"
+296,all day,7,97,104,DATE,Absolute or relative dates or periods
+296,Bea___ts,8,31,39,PERSON,"People, including fictional"
+296,Francis Thorold,8,60,75,PERSON,"People, including fictional"
+296,German,8,124,130,NORP,Nationalities or religious or political groups
+296,B.B.,9,0,4,PERSON,"People, including fictional"
+296,Cathedral,9,78,87,FAC,"Buildings, airports, highways, bridges, etc."
+296,6.30,9,108,112,TIME,Times smaller than a day
+296,an hour,9,132,139,TIME,Times smaller than a day

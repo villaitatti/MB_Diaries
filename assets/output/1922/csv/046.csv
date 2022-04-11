@@ -1,0 +1,6 @@
+page,text,p,start,end,type,description
+046,"Sunday, January 22, 1922",1,0,24,DATE,Absolute or relative dates or periods
+046,Egypt,2,4,9,GPE,"Countries, cities, states"
+046,Another day,3,0,11,DATE,Absolute or relative dates or periods
+046,These days,3,25,35,DATE,Absolute or relative dates or periods
+046,60 hours,3,80,88,TIME,Times smaller than a day

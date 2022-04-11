@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+363,"Monday, December 6, 1915",2,0,24,DATE,Absolute or relative dates or periods
+363,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+363,Geoffrey,5,2,10,PERSON,"People, including fictional"
+363,Sybil,6,0,5,PERSON,"People, including fictional"
+363,Irene,6,10,15,PERSON,"People, including fictional"
+363,2,6,20,21,CARDINAL,Numerals that do not fall under another type
+363,Peary,6,40,45,PERSON,"People, including fictional"
+363,Williams,6,54,62,PERSON,"People, including fictional"
+363,Price Paul,6,73,83,PERSON,"People, including fictional"
+363,Serbia,6,87,93,GPE,"Countries, cities, states"

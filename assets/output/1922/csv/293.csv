@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+293,"Tuesday, September 26, 1922",1,0,27,DATE,Absolute or relative dates or periods
+293,Frankfürter HofNice,2,0,19,PERSON,"People, including fictional"
+293,the Kaiser Friedrich Museum,4,15,42,FAC,"Buildings, airports, highways, bridges, etc."
+293,Frankfurt,4,61,70,GPE,"Countries, cities, states"
+293,11.30,4,91,96,TIME,Times smaller than a day
+293,Nicky,5,0,5,PERSON,"People, including fictional"
+293,Munich,5,14,20,GPE,"Countries, cities, states"
+293,Bode,6,0,4,PERSON,"People, including fictional"
+293,B.B.,6,9,13,PERSON,"People, including fictional"
+293,Himmel,6,224,230,PERSON,"People, including fictional"
+293,Berenson,6,300,308,PERSON,"People, including fictional"
+293,Germany,7,48,55,GPE,"Countries, cities, states"

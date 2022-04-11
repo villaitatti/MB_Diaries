@@ -1,0 +1,16 @@
+page,text,p,start,end,type,description
+244,"Tuesday, August 8, 1922",1,0,23,DATE,Absolute or relative dates or periods
+244,Aschaffenbach,3,58,71,FAC,"Buildings, airports, highways, bridges, etc."
+244,Palace,3,84,90,FAC,"Buildings, airports, highways, bridges, etc."
+244,Bible,3,187,192,WORK_OF_ART,"Titles of books, songs, etc."
+244,B. B.,3,308,313,PERSON,"People, including fictional"
+244,Grobheit,3,405,413,WORK_OF_ART,"Titles of books, songs, etc."
+244,English,3,458,465,LANGUAGE,Any named language
+244,1000 marks,3,500,510,MONEY,"Monetary values, including unit"
+244,5,3,542,543,CARDINAL,Numerals that do not fall under another type
+244,Tintoretto,4,11,21,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+244,the Wolfs Dined,4,35,50,ORG,"Companies, agencies, institutions, etc."
+244,Frankfurt,4,54,63,GPE,"Countries, cities, states"
+244,Nicky,4,69,74,PERSON,"People, including fictional"
+244,geb. von Flotow) Kesler,4,99,122,PERSON,"People, including fictional"
+244,Nicky,4,205,210,PERSON,"People, including fictional"

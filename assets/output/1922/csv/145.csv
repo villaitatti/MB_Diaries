@@ -1,0 +1,15 @@
+page,text,p,start,end,type,description
+145,"Monday, May 1, 1922",1,0,19,DATE,Absolute or relative dates or periods
+145,Tatti,2,0,5,PERSON,"People, including fictional"
+145,Gronau,3,35,41,PERSON,"People, including fictional"
+145,M. Germain,3,59,69,PERSON,"People, including fictional"
+145,Nathalie Barney,3,83,98,PERSON,"People, including fictional"
+145,le Comte de Wickenburg,3,123,145,PERSON,"People, including fictional"
+145,Miss Franklin,3,195,208,PERSON,"People, including fictional"
+145,Charley Bell,3,239,251,PERSON,"People, including fictional"
+145,B. B.,3,281,286,PERSON,"People, including fictional"
+145,Logan,3,291,296,PERSON,"People, including fictional"
+145,Villa Medici,3,300,312,FAC,"Buildings, airports, highways, bridges, etc."
+145,8,4,1,2,CARDINAL,Numerals that do not fall under another type
+145,Graham,5,20,26,PERSON,"People, including fictional"
+145,El Mogreb,5,29,38,GPE,"Countries, cities, states"

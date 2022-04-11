@@ -1,0 +1,23 @@
+page,text,p,start,end,type,description
+220,"Saturday, July 15, 1922",1,0,23,DATE,Absolute or relative dates or periods
+220,Kissingen,2,24,33,GPE,"Countries, cities, states"
+220,13th,3,8,12,ORDINAL,"""first"", ""second"", etc."
+220,today,4,8,13,DATE,Absolute or relative dates or periods
+220,B.B.,4,14,18,PERSON,"People, including fictional"
+220,Jew,4,33,36,NORP,Nationalities or religious or political groups
+220,Semitic,4,37,44,NORP,Nationalities or religious or political groups
+220,Persian,4,115,122,LANGUAGE,Any named language
+220,Bible,4,174,179,WORK_OF_ART,"Titles of books, songs, etc."
+220,England,4,184,191,GPE,"Countries, cities, states"
+220,German,4,201,207,NORP,Nationalities or religious or political groups
+220,The Forsyte Saga,5,13,29,WORK_OF_ART,"Titles of books, songs, etc."
+220,B.B. Proust’s,5,34,47,PERSON,"People, including fictional"
+220,Sous l’ombre des Jeunes Filles en Fleur,5,48,87,WORK_OF_ART,"Titles of books, songs, etc."
+220,2,6,1,2,CARDINAL,Numerals that do not fall under another type
+220,Karin,7,0,5,PERSON,"People, including fictional"
+220,St. Anton-am-Arlberg,7,18,38,FAC,"Buildings, airports, highways, bridges, etc."
+220,Psycho,7,54,60,WORK_OF_ART,"Titles of books, songs, etc."
+220,Analysis,7,61,69,WORK_OF_ART,"Titles of books, songs, etc."
+220,Adrian,7,71,77,PERSON,"People, including fictional"
+220,Berlin,7,98,104,GPE,"Countries, cities, states"
+220,24 hours,7,166,174,TIME,Times smaller than a day

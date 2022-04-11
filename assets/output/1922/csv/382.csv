@@ -1,0 +1,25 @@
+page,text,p,start,end,type,description
+382,"Sunday, December 24, 1922",1,0,25,DATE,Absolute or relative dates or periods
+382,Naimi,3,24,29,PERSON,"People, including fictional"
+382,Alys,4,0,4,PERSON,"People, including fictional"
+382,8.25,4,16,20,TIME,Times smaller than a day
+382,B.B.,4,87,91,PERSON,"People, including fictional"
+382,the afternoon,4,95,108,TIME,Times smaller than a day
+382,Naimi,4,126,131,PERSON,"People, including fictional"
+382,Bessie,4,136,142,PERSON,"People, including fictional"
+382,Waterfields,4,158,169,FAC,"Buildings, airports, highways, bridges, etc."
+382,Egypt,5,26,31,GPE,"Countries, cities, states"
+382,de Cramer,6,0,9,PERSON,"People, including fictional"
+382,VillamarinaWinlock,7,0,18,PERSON,"People, including fictional"
+382,PatricoloHoward Carter,8,0,22,PERSON,"People, including fictional"
+382,FirthBonté Elgood,10,0,17,PERSON,"People, including fictional"
+382,Galarza,11,0,7,PERSON,"People, including fictional"
+382,Simaika Paschastarts,14,0,20,PERSON,"People, including fictional"
+382,Syrian,14,54,60,NORP,Nationalities or religious or political groups
+382,FoucartChristian,15,5,21,PERSON,"People, including fictional"
+382,George Antonius,15,27,42,PERSON,"People, including fictional"
+382,TrumanSuperintendent of Education,16,0,33,PERSON,"People, including fictional"
+382,Paravicinisand,17,0,14,PERSON,"People, including fictional"
+382,Mackintosh,18,0,10,PERSON,"People, including fictional"
+382,Devonshire,20,0,10,GPE,"Countries, cities, states"
+382,Baxter,21,0,6,PERSON,"People, including fictional"

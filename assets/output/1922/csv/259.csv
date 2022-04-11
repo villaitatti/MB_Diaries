@@ -1,0 +1,16 @@
+page,text,p,start,end,type,description
+259,"Wednesday, August 23, 1922",1,0,26,DATE,Absolute or relative dates or periods
+259,55,2,0,2,CARDINAL,Numerals that do not fall under another type
+259,Oakley St.,2,3,13,FAC,"Buildings, airports, highways, bridges, etc."
+259,Chelsea,3,0,7,GPE,"Countries, cities, states"
+259,Val Washington’s,4,0,16,PERSON,"People, including fictional"
+259,5,5,0,1,CARDINAL,Numerals that do not fall under another type
+259,London,6,8,14,GPE,"Countries, cities, states"
+259,Salvemini,6,22,31,PERSON,"People, including fictional"
+259,Karin,6,36,41,PERSON,"People, including fictional"
+259,Firth Hendersons’.,6,62,80,ORG,"Companies, agencies, institutions, etc."
+259,Italian,7,42,49,NORP,Nationalities or religious or political groups
+259,Saidee,8,10,16,PERSON,"People, including fictional"
+259,Grace,8,162,167,PERSON,"People, including fictional"
+259,Val,8,172,175,PERSON,"People, including fictional"
+259,the evening,8,179,190,TIME,Times smaller than a day

@@ -1,0 +1,7 @@
+page,text,p,start,end,type,description
+039,"Sunday, January 15, 1922",1,0,24,DATE,Absolute or relative dates or periods
+039,Bazils,3,25,31,PERSON,"People, including fictional"
+039,Mme. de Sérionne,3,40,56,FAC,"Buildings, airports, highways, bridges, etc."
+039,afternoon,4,9,18,TIME,Times smaller than a day
+039,sunset,4,23,29,TIME,Times smaller than a day
+039,Breasted,5,8,16,WORK_OF_ART,"Titles of books, songs, etc."

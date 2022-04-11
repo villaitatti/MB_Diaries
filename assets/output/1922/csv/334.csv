@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+334,"Monday, November 6, 1922",1,0,24,DATE,Absolute or relative dates or periods
+334,Cameron,2,23,30,PERSON,"People, including fictional"
+334,McCom,3,5,10,PERSON,"People, including fictional"
+334,McComb,4,5,11,PERSON,"People, including fictional"
+334,B.B.,4,46,50,PERSON,"People, including fictional"
+334,Ross,4,69,73,PERSON,"People, including fictional"
+334,Cameron,5,33,40,PERSON,"People, including fictional"
+334,several hours,5,49,62,TIME,Times smaller than a day
+334,Sicily,5,136,142,GPE,"Countries, cities, states"
+334,Josephine Griswold,5,148,166,PERSON,"People, including fictional"

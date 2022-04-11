@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+028,"Wednesday, January 4, 1922",2,0,26,DATE,Absolute or relative dates or periods
+028,B.B.,5,0,4,PERSON,"People, including fictional"
+028,Nicky,5,9,14,PERSON,"People, including fictional"
+028,Devonshire,5,43,53,PERSON,"People, including fictional"
+028,the morning,5,57,68,TIME,Times smaller than a day
+028,the afternoon,5,129,142,TIME,Times smaller than a day
+028,Patricolo,5,144,153,PERSON,"People, including fictional"
+028,de Cramer,5,163,172,PERSON,"People, including fictional"
+028,Adamoli,5,174,181,PERSON,"People, including fictional"
+028,Bach,5,223,227,PERSON,"People, including fictional"

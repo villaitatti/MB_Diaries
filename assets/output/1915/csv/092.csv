@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+092,"Wednesday, March 10, 1915",2,0,25,DATE,Absolute or relative dates or periods
+092,Karin,5,0,5,PERSON,"People, including fictional"
+092,26th,5,8,12,ORDINAL,"""first"", ""second"", etc."
+092,Ray,6,20,23,PERSON,"People, including fictional"
+092,Alys,6,28,32,PERSON,"People, including fictional"
+092,Cromer,7,61,67,PERSON,"People, including fictional"
+092,Egypt,7,78,83,GPE,"Countries, cities, states"
+092,Chinese,7,101,108,NORP,Nationalities or religious or political groups
+092,Benn,8,0,4,PERSON,"People, including fictional"
+092,BB,9,0,2,PERSON,"People, including fictional"
+092,Sybil,9,28,33,PERSON,"People, including fictional"
+092,Barbara,10,38,45,PERSON,"People, including fictional"

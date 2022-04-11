@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+389,"Sunday, December 31, 1922",1,0,25,DATE,Absolute or relative dates or periods
+389,Dermod,2,0,6,PERSON,"People, including fictional"
+389,Pryme,3,5,10,PERSON,"People, including fictional"
+389,Johnny Waterfield,4,34,51,PERSON,"People, including fictional"
+389,Hapgoods,4,60,68,PERSON,"People, including fictional"
+389,Bullitts,5,4,12,PERSON,"People, including fictional"
+389,Alys,5,32,36,PERSON,"People, including fictional"
+389,Bessie,5,51,57,PERSON,"People, including fictional"
+389,Villa Medici,5,69,81,ORG,"Companies, agencies, institutions, etc."
+389,Aurora,5,115,121,FAC,"Buildings, airports, highways, bridges, etc."
+389,Fiesole,5,125,132,GPE,"Countries, cities, states"
+389,one,5,143,146,CARDINAL,Numerals that do not fall under another type

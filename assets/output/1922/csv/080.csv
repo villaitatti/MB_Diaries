@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+080,"Saturday, February 25, 1922",1,0,27,DATE,Absolute or relative dates or periods
+080,Patricolo,3,0,9,PERSON,"People, including fictional"
+080,Karnac,4,0,6,GPE,"Countries, cities, states"
+080,the morning,4,10,21,TIME,Times smaller than a day
+080,Patricolo,5,0,9,PERSON,"People, including fictional"
+080,3,5,18,19,TIME,Times smaller than a day
+080,Young (Hugh) Logan’s,6,4,24,PERSON,"People, including fictional"
+080,5 minutes,6,45,54,TIME,Times smaller than a day
+080,Logan,6,82,87,PERSON,"People, including fictional"
+080,the Johns Hopkins,6,166,183,ORG,"Companies, agencies, institutions, etc."
+080,Karnac,7,0,6,PERSON,"People, including fictional"

@@ -1,0 +1,14 @@
+page,text,p,start,end,type,description
+199,"Saturday, June 24, 1922",1,0,23,DATE,Absolute or relative dates or periods
+199,Karin,2,0,5,PERSON,"People, including fictional"
+199,Geoffrey,3,0,8,PERSON,"People, including fictional"
+199,Perrys,4,4,10,PERSON,"People, including fictional"
+199,Naima,5,0,5,PERSON,"People, including fictional"
+199,Raffalovich,6,13,24,PERSON,"People, including fictional"
+199,Dartmouth,6,28,37,ORG,"Companies, agencies, institutions, etc."
+199,French,6,95,101,NORP,Nationalities or religious or political groups
+199,Chaptal,6,134,141,PERSON,"People, including fictional"
+199,Comte de Chaptal,6,153,169,PERSON,"People, including fictional"
+199,Paris,6,193,198,GPE,"Countries, cities, states"
+199,Hooker,7,5,11,PERSON,"People, including fictional"
+199,De Nicola,7,29,38,PERSON,"People, including fictional"

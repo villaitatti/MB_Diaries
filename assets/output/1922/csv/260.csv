@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+260,"Thursday, August 24, 1922",1,0,25,DATE,Absolute or relative dates or periods
+260,Barbara,3,0,7,PERSON,"People, including fictional"
+260,Dermod.,3,34,41,PERSON,"People, including fictional"
+260,Alys Logan,3,42,52,PERSON,"People, including fictional"
+260,Grace,4,34,39,PERSON,"People, including fictional"
+260,Egyptian,4,64,72,NORP,Nationalities or religious or political groups
+260,Emily,4,118,123,PERSON,"People, including fictional"
+260,Assyrian,4,158,166,NORP,Nationalities or religious or political groups
+260,Egyptian,4,191,199,NORP,Nationalities or religious or political groups
+260,Emily,5,25,30,PERSON,"People, including fictional"
+260,5.30,5,57,61,TIME,Times smaller than a day

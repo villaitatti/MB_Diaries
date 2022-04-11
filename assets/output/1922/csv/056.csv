@@ -1,0 +1,7 @@
+page,text,p,start,end,type,description
+056,"Wednesday, February 1, 1922",1,0,27,DATE,Absolute or relative dates or periods
+056,Abu Simbel,2,0,10,PERSON,"People, including fictional"
+056,B.B.,4,250,254,PERSON,"People, including fictional"
+056,Wahrlich,6,38,46,PERSON,"People, including fictional"
+056,Rameses’ Temple,6,58,73,FAC,"Buildings, airports, highways, bridges, etc."
+056,Hundreds,7,31,39,CARDINAL,Numerals that do not fall under another type

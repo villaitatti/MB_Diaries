@@ -1,0 +1,14 @@
+page,text,p,start,end,type,description
+379,"Wednesday, December 22, 1915",2,0,28,DATE,Absolute or relative dates or periods
+379,Julia,3,0,5,PERSON,"People, including fictional"
+379,Julia,5,2,7,PERSON,"People, including fictional"
+379,8.30,5,19,23,TIME,Times smaller than a day
+379,Sybil,5,102,107,PERSON,"People, including fictional"
+379,Julia,5,116,121,PERSON,"People, including fictional"
+379,Iris,5,126,130,PERSON,"People, including fictional"
+379,Sybil,5,158,163,PERSON,"People, including fictional"
+379,Dumonts,6,6,13,PERSON,"People, including fictional"
+379,Cecil,6,15,20,PERSON,"People, including fictional"
+379,Ross,6,27,31,PERSON,"People, including fictional"
+379,Lina,6,36,40,PERSON,"People, including fictional"
+379,Dumont,6,58,64,PERSON,"People, including fictional"

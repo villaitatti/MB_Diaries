@@ -1,0 +1,15 @@
+page,text,p,start,end,type,description
+064,"Wednesday, February 10, 1915",2,0,28,DATE,Absolute or relative dates or periods
+064,Benn,5,6,10,PERSON,"People, including fictional"
+064,Cecil,5,15,20,PERSON,"People, including fictional"
+064,Cecil,5,36,41,PERSON,"People, including fictional"
+064,Balsorano,5,81,90,GPE,"Countries, cities, states"
+064,the “Genio Militare”,5,112,132,ORG,"Companies, agencies, institutions, etc."
+064,Rome,5,157,161,GPE,"Countries, cities, states"
+064,a heavenly day,6,6,20,DATE,Absolute or relative dates or periods
+064,BB,6,129,131,PERSON,"People, including fictional"
+064,Sybil’s,6,140,147,ORG,"Companies, agencies, institutions, etc."
+064,Janet,6,182,187,PERSON,"People, including fictional"
+064,weekly,6,225,231,DATE,Absolute or relative dates or periods
+064,Ms.,6,284,287,ORG,"Companies, agencies, institutions, etc."
+064,Venetian Pictures in the United States,6,307,345,WORK_OF_ART,"Titles of books, songs, etc."

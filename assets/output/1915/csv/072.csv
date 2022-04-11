@@ -1,0 +1,20 @@
+page,text,p,start,end,type,description
+072,"Thursday, February 18, 1916",2,0,27,DATE,Absolute or relative dates or periods
+072,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+072,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
+072,Dumont,5,15,21,PERSON,"People, including fictional"
+072,Tryphosa Bates Batcheller,5,48,73,PERSON,"People, including fictional"
+072,BB,5,93,95,PERSON,"People, including fictional"
+072,Sybil,5,110,115,PERSON,"People, including fictional"
+072,½ hour,5,122,128,TIME,Times smaller than a day
+072,3 hours,5,154,161,TIME,Times smaller than a day
+072,Cecil,5,163,168,PERSON,"People, including fictional"
+072,Tryphosa,5,190,198,PERSON,"People, including fictional"
+072,Worcester,5,205,214,GPE,"Countries, cities, states"
+072,Massachusetts,5,216,229,GPE,"Countries, cities, states"
+072,Austrian,5,291,299,NORP,Nationalities or religious or political groups
+072,Italian,5,304,311,NORP,Nationalities or religious or political groups
+072,Geoffrey,5,359,367,PERSON,"People, including fictional"
+072,the Manchester Guardian,5,389,412,ORG,"Companies, agencies, institutions, etc."
+072,Placci,6,2,8,PERSON,"People, including fictional"
+072,April,6,75,80,DATE,Absolute or relative dates or periods

@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+144,"Saturday, May1, 1915",2,0,20,DATE,Absolute or relative dates or periods
+144,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+144,Perugia,7,34,41,GPE,"Countries, cities, states"
+144,Church,7,59,65,FAC,"Buildings, airports, highways, bridges, etc."
+144,Cortona,7,72,79,GPE,"Countries, cities, states"
+144,Salvemini,8,0,9,PERSON,"People, including fictional"
+144,Italy,8,55,60,GPE,"Countries, cities, states"
+144,Allies,8,95,101,NORP,Nationalities or religious or political groups
+144,Germans,8,122,129,NORP,Nationalities or religious or political groups

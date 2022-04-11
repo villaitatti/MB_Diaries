@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+056,"Tuesday, February 2, 1915",2,0,25,DATE,Absolute or relative dates or periods
+056,Geoffrey Scott,4,0,14,PERSON,"People, including fictional"
+056,Naima,4,16,21,GPE,"Countries, cities, states"
+056,Alys,6,2,6,PERSON,"People, including fictional"
+056,Logan,6,19,24,PERSON,"People, including fictional"
+056,Dunkirk,6,42,49,FAC,"Buildings, airports, highways, bridges, etc."
+056,Belgian,6,164,171,NORP,Nationalities or religious or political groups
+056,Byba Giuliani,8,0,13,PERSON,"People, including fictional"
+056,Geoffrey,8,28,36,PERSON,"People, including fictional"
+056,afternoon,9,5,14,TIME,Times smaller than a day
+056,Sybil’s,9,18,25,ORG,"Companies, agencies, institutions, etc."

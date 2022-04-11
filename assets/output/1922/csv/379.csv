@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+379,"Thursday, December 21, 1922",1,0,27,DATE,Absolute or relative dates or periods
+379,Harold Acton,3,0,12,PERSON,"People, including fictional"
+379,Sitwells,3,55,63,PERSON,"People, including fictional"
+379,Alfred Nicholson,3,88,104,PERSON,"People, including fictional"
+379,Oxford,3,108,114,ORG,"Companies, agencies, institutions, etc."
+379,Alfred,3,169,175,PERSON,"People, including fictional"
+379,Mild Aphrodisiacs,3,220,237,WORK_OF_ART,"Titles of books, songs, etc."
+379,2,6,1,2,CARDINAL,Numerals that do not fall under another type
+379,Nicky,7,0,5,PERSON,"People, including fictional"
+379,Munich,7,15,21,GPE,"Countries, cities, states"

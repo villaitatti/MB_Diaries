@@ -1,0 +1,5 @@
+page,text,p,start,end,type,description
+025,"Saturday, January 2, 1915",2,0,25,DATE,Absolute or relative dates or periods
+025,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+025,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
+025,Naima,3,31,36,GPE,"Countries, cities, states"

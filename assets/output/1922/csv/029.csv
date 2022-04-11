@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+029,"Thursday, January 5, 1922",2,0,25,DATE,Absolute or relative dates or periods
+029,B.B.,5,0,4,PERSON,"People, including fictional"
+029,Nicky,5,9,14,PERSON,"People, including fictional"
+029,Hassan,5,35,41,PERSON,"People, including fictional"
+029,Residency,5,51,60,FAC,"Buildings, airports, highways, bridges, etc."
+029,D[evonshire,5,81,92,PERSON,"People, including fictional"
+029,morning,5,123,130,TIME,Times smaller than a day
+029,Logan,6,0,5,PERSON,"People, including fictional"
+029,Creswell,7,20,28,GPE,"Countries, cities, states"
+029,Villamarina,7,70,81,PERSON,"People, including fictional"

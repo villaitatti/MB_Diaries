@@ -1,0 +1,16 @@
+page,text,p,start,end,type,description
+037,"Thursday, January 14, 1915",3,0,26,DATE,Absolute or relative dates or periods
+037,Placci,5,2,8,PERSON,"People, including fictional"
+037,Edmund Houghton,5,13,28,PERSON,"People, including fictional"
+037,Avezzano,5,91,99,GPE,"Countries, cities, states"
+037,Abruzzi,5,108,115,PERSON,"People, including fictional"
+037,Giolitti,5,155,163,PERSON,"People, including fictional"
+037,Salandra,5,202,210,GPE,"Countries, cities, states"
+037,House,5,222,227,ORG,"Companies, agencies, institutions, etc."
+037,Casus Belli,5,276,287,PERSON,"People, including fictional"
+037,Salandra,5,289,297,PERSON,"People, including fictional"
+037,first,5,314,319,ORDINAL,"""first"", ""second"", etc."
+037,Bülow,5,325,330,PERSON,"People, including fictional"
+037,Giolitti,5,352,360,PERSON,"People, including fictional"
+037,Geoffrey,6,2,10,PERSON,"People, including fictional"
+037,Florence,6,211,219,GPE,"Countries, cities, states"

@@ -1,0 +1,21 @@
+page,text,p,start,end,type,description
+084,"Wednesday, March 1, 1922",1,0,24,DATE,Absolute or relative dates or periods
+084,Feb; 27th,3,7,16,DATE,Absolute or relative dates or periods
+084,BB,4,30,32,PERSON,"People, including fictional"
+084,Nicky,4,37,42,PERSON,"People, including fictional"
+084,the day,4,49,56,DATE,Absolute or relative dates or periods
+084,Medinet Habu,4,60,72,ORG,"Companies, agencies, institutions, etc."
+084,Karin,4,85,90,PERSON,"People, including fictional"
+084,33rd,4,99,103,ORDINAL,"""first"", ""second"", etc."
+084,Mar. 10,4,114,121,DATE,Absolute or relative dates or periods
+084,Barbara,4,127,134,PERSON,"People, including fictional"
+084,Creswell,4,163,171,PERSON,"People, including fictional"
+084,Devonshire,4,178,188,PERSON,"People, including fictional"
+084,Lisa Curtis,4,190,201,PERSON,"People, including fictional"
+084,Ralph,4,206,211,PERSON,"People, including fictional"
+084,Paul Manship,4,221,233,PERSON,"People, including fictional"
+084,Alys,4,235,239,PERSON,"People, including fictional"
+084,W. H. Truman,5,4,16,PERSON,"People, including fictional"
+084,Ed,5,18,20,PERSON,"People, including fictional"
+084,Carnarvon,6,9,18,PERSON,"People, including fictional"
+084,Monday Feb. 27th,7,8,24,DATE,Absolute or relative dates or periods

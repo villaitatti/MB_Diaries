@@ -1,0 +1,4 @@
+page,text,p,start,end,type,description
+180,"Monday, June 5, 1922",1,0,20,DATE,Absolute or relative dates or periods
+180,William,4,5,12,PERSON,"People, including fictional"
+180,Houghtons,6,0,9,PERSON,"People, including fictional"

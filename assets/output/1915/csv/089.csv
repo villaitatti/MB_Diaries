@@ -1,0 +1,15 @@
+page,text,p,start,end,type,description
+089,"Sunday, March 7, 1915",2,0,21,DATE,Absolute or relative dates or periods
+089,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+089,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
+089,Vida Bispham,3,31,43,PERSON,"People, including fictional"
+089,Bispham,6,12,19,PERSON,"People, including fictional"
+089,Sybil,6,58,63,PERSON,"People, including fictional"
+089,Strongs,6,72,79,PERSON,"People, including fictional"
+089,a lovely day,7,7,19,DATE,Absolute or relative dates or periods
+089,the evening,7,74,85,TIME,Times smaller than a day
+089,Loesers,7,118,125,PERSON,"People, including fictional"
+089,the Folies Bergeres,7,129,148,ORG,"Companies, agencies, institutions, etc."
+089,French Music Hall,7,158,175,ORG,"Companies, agencies, institutions, etc."
+089,Mistinguett,7,191,202,PERSON,"People, including fictional"
+089,11:15,7,263,268,TIME,Times smaller than a day

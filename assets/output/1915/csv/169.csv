@@ -1,0 +1,8 @@
+page,text,p,start,end,type,description
+169,"Wednesday, May 26, 1915",2,0,23,DATE,Absolute or relative dates or periods
+169,Hotel Brufani Perugia,2,25,46,FAC,"Buildings, airports, highways, bridges, etc."
+169,German,4,40,46,NORP,Nationalities or religious or political groups
+169,Sybil,6,0,5,PERSON,"People, including fictional"
+169,the Marchese Imperiali,6,20,42,PERSON,"People, including fictional"
+169,Rome,6,58,62,GPE,"Countries, cities, states"
+169,Perugia,8,11,18,GPE,"Countries, cities, states"

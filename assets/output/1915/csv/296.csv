@@ -1,0 +1,16 @@
+page,text,p,start,end,type,description
+296,"Thursday, September 30, 1915",2,0,28,DATE,Absolute or relative dates or periods
+296,Albergo Universo Lucca,2,30,52,FAC,"Buildings, airports, highways, bridges, etc."
+296,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+296,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
+296,Siena,5,7,12,FAC,"Buildings, airports, highways, bridges, etc."
+296,Volterra,5,37,45,FAC,"Buildings, airports, highways, bridges, etc."
+296,first,5,75,80,ORDINAL,"""first"", ""second"", etc."
+296,Peruzzi,5,132,139,PERSON,"People, including fictional"
+296,Laré,6,6,10,PERSON,"People, including fictional"
+296,BB,8,2,4,PERSON,"People, including fictional"
+296,Sybil,8,13,18,PERSON,"People, including fictional"
+296,Today,8,172,177,DATE,Absolute or relative dates or periods
+296,2 or 3 days,8,366,377,DATE,Absolute or relative dates or periods
+296,HENRI,9,2,7,PERSON,"People, including fictional"
+296,French,9,26,32,NORP,Nationalities or religious or political groups

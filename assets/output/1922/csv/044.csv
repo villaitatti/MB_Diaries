@@ -1,0 +1,7 @@
+page,text,p,start,end,type,description
+044,"Friday, January 20, 1922",1,0,24,DATE,Absolute or relative dates or periods
+044,Nile,2,7,11,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+044,Assiout,3,0,7,PERSON,"People, including fictional"
+044,Nile,4,135,139,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+044,Til el-Amarna,4,180,193,GPE,"Countries, cities, states"
+044,the night,4,234,243,TIME,Times smaller than a day

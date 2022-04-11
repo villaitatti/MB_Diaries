@@ -1,0 +1,7 @@
+page,text,p,start,end,type,description
+227,"Saturday, July 22, 1922",1,0,23,DATE,Absolute or relative dates or periods
+227,Gravina,2,0,7,PERSON,"People, including fictional"
+227,Blandine Gravina,3,0,16,PERSON,"People, including fictional"
+227,5. B.B.,3,28,35,TIME,Times smaller than a day
+227,Lanier,3,46,52,PERSON,"People, including fictional"
+227,Bonsels,4,24,31,GPE,"Countries, cities, states"

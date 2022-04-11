@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+378,"Wednesday, December 20, 1922",1,0,28,DATE,Absolute or relative dates or periods
+378,Bessie Berenson,3,0,15,PERSON,"People, including fictional"
+378,Harold Acton,4,0,12,PERSON,"People, including fictional"
+378,German,5,4,10,NORP,Nationalities or religious or political groups
+378,Herr Stiller,5,19,31,PERSON,"People, including fictional"
+378,Herr Hammer,5,37,48,PERSON,"People, including fictional"
+378,Bessie,5,64,70,PERSON,"People, including fictional"
+378,BB,6,0,2,ORG,"Companies, agencies, institutions, etc."
+378,Toesca,6,7,13,GPE,"Countries, cities, states"

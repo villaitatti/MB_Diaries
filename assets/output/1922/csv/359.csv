@@ -1,0 +1,16 @@
+page,text,p,start,end,type,description
+359,"Friday, December 1, 1922",1,0,24,DATE,Absolute or relative dates or periods
+359,about 25,2,11,19,CARDINAL,Numerals that do not fall under another type
+359,B.B.,2,93,97,PERSON,"People, including fictional"
+359,Strong,3,4,10,PERSON,"People, including fictional"
+359,Trentham,4,13,21,PERSON,"People, including fictional"
+359,Julia M,5,0,7,PERSON,"People, including fictional"
+359,Pellett,6,5,12,PERSON,"People, including fictional"
+359,Carey,7,5,10,PERSON,"People, including fictional"
+359,Stephens,8,5,13,PERSON,"People, including fictional"
+359,Hooker,9,5,11,PERSON,"People, including fictional"
+359,Frona Brooks,10,0,12,PERSON,"People, including fictional"
+359,3,10,17,18,CARDINAL,Numerals that do not fall under another type
+359,Keeley,11,5,11,PERSON,"People, including fictional"
+359,2,11,16,17,CARDINAL,Numerals that do not fall under another type
+359,McCombe,12,4,11,PERSON,"People, including fictional"

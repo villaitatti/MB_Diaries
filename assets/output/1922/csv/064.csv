@@ -1,0 +1,5 @@
+page,text,p,start,end,type,description
+064,"Thursday, February 9, 1922",1,0,26,DATE,Absolute or relative dates or periods
+064,Karnac,4,0,6,PERSON,"People, including fictional"
+064,2,5,81,82,CARDINAL,Numerals that do not fall under another type
+064,2,5,94,95,CARDINAL,Numerals that do not fall under another type

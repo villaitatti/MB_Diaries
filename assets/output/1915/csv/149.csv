@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+149,"Thursday, May 6, 1915",2,0,21,DATE,Absolute or relative dates or periods
+149,BB,5,10,12,ORG,"Companies, agencies, institutions, etc."
+149,Bellini,5,15,22,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+149,morning,5,26,33,TIME,Times smaller than a day
+149,Sybil,6,2,7,GPE,"Countries, cities, states"
+149,Ady,9,3,6,PERSON,"People, including fictional"
+149,Placci,9,8,14,PERSON,"People, including fictional"
+149,Consolo,9,16,23,PERSON,"People, including fictional"
+149,Ross,9,43,47,PERSON,"People, including fictional"
+149,Lina,9,52,56,PERSON,"People, including fictional"

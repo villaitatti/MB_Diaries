@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+192,"Saturday, June 17, 1922",1,0,23,DATE,Absolute or relative dates or periods
+192,Naima,3,0,5,PERSON,"People, including fictional"
+192,Allyn Cox,4,0,9,PERSON,"People, including fictional"
+192,Alfred Nicholson,5,0,16,PERSON,"People, including fictional"
+192,Karin,7,0,5,PERSON,"People, including fictional"
+192,last night,7,14,24,TIME,Times smaller than a day
+192,Enniskillen,8,5,16,PERSON,"People, including fictional"
+192,Ernesto Fabbri,8,44,58,PERSON,"People, including fictional"
+192,Egisto,8,124,130,PERSON,"People, including fictional"
+192,Sandro,8,146,152,PERSON,"People, including fictional"
+192,Choate,9,19,25,PERSON,"People, including fictional"
+192,Taff,9,34,38,PERSON,"People, including fictional"

@@ -1,0 +1,14 @@
+page,text,p,start,end,type,description
+042,"Wednesday, January 18, 1922",1,0,27,DATE,Absolute or relative dates or periods
+042,Nile,2,7,11,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+042,A day,3,0,5,DATE,Absolute or relative dates or periods
+042,Arabian,3,98,105,NORP,Nationalities or religious or political groups
+042,mtns,3,106,110,ORG,"Companies, agencies, institutions, etc."
+042,Shaduks,3,128,135,NORP,Nationalities or religious or political groups
+042,Nicky,3,290,295,PERSON,"People, including fictional"
+042,Von Warlich,4,0,11,PERSON,"People, including fictional"
+042,Sanderson,4,58,67,PERSON,"People, including fictional"
+042,California,4,89,99,GPE,"Countries, cities, states"
+042,half,5,5,9,CARDINAL,Numerals that do not fall under another type
+042,Parkyn,5,13,19,PERSON,"People, including fictional"
+042,Prehistoric Art,5,23,38,WORK_OF_ART,"Titles of books, songs, etc."

@@ -1,0 +1,16 @@
+page,text,p,start,end,type,description
+346,"Saturday, November 18, 1922",1,0,27,DATE,Absolute or relative dates or periods
+346,Flora Priestley,2,54,69,PERSON,"People, including fictional"
+346,Naimi,3,0,5,PERSON,"People, including fictional"
+346,Flora,4,0,5,PERSON,"People, including fictional"
+346,Robin Barton,4,49,61,PERSON,"People, including fictional"
+346,Erskine Childers,4,66,82,PERSON,"People, including fictional"
+346,two,4,88,91,CARDINAL,Numerals that do not fall under another type
+346,Mountjoy Prison,4,105,120,FAC,"Buildings, airports, highways, bridges, etc."
+346,Irish Republicanism,4,207,226,ORG,"Companies, agencies, institutions, etc."
+346,Flora,4,295,300,PERSON,"People, including fictional"
+346,Sybil,4,355,360,PERSON,"People, including fictional"
+346,yesterday,4,361,370,DATE,Absolute or relative dates or periods
+346,Geoffrey,4,496,504,PERSON,"People, including fictional"
+346,Mastering our Nerves,4,592,612,WORK_OF_ART,"Titles of books, songs, etc."
+346,Westminster,9,38,49,FAC,"Buildings, airports, highways, bridges, etc."

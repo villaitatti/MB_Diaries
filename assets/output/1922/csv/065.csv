@@ -1,0 +1,7 @@
+page,text,p,start,end,type,description
+065,"Friday, February 10, 1922",1,0,25,DATE,Absolute or relative dates or periods
+065,Palace,2,29,35,WORK_OF_ART,"Titles of books, songs, etc."
+065,Tombs,3,47,52,PERSON,"People, including fictional"
+065,Quibells,3,76,84,PERSON,"People, including fictional"
+065,Cairo,3,146,151,GPE,"Countries, cities, states"
+065,Luxor by Moonlight,4,0,18,PERSON,"People, including fictional"

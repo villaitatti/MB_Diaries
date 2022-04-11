@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+276,"Saturday, September 9, 1922",1,0,27,DATE,Absolute or relative dates or periods
+276,Hotel du Theatre des Champs Elysées Paris,2,24,65,FAC,"Buildings, airports, highways, bridges, etc."
+276,Ray,3,0,3,PERSON,"People, including fictional"
+276,Carey,3,17,22,PERSON,"People, including fictional"
+276,the evening,3,93,104,TIME,Times smaller than a day
+276,Helen Flexner,3,132,145,PERSON,"People, including fictional"
+276,Lucy Donelly,3,150,162,PERSON,"People, including fictional"
+276,U.S.A.,3,190,196,GPE,"Countries, cities, states"
+276,Carey,3,213,218,PERSON,"People, including fictional"
+276,Ray,4,7,10,PERSON,"People, including fictional"

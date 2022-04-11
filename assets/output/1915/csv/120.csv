@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+120,"Wednesday, April 7, 1915",2,0,24,DATE,Absolute or relative dates or periods
+120,Grand Hotel Siena,2,26,43,FAC,"Buildings, airports, highways, bridges, etc."
+120,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+120,Benn,6,26,30,PERSON,"People, including fictional"
+120,BB,6,50,52,PERSON,"People, including fictional"
+120,Sybil,6,57,62,PERSON,"People, including fictional"
+120,San Gimignano,6,110,123,GPE,"Countries, cities, states"
+120,Sybil,6,125,130,PERSON,"People, including fictional"
+120,BB,6,276,278,PERSON,"People, including fictional"
+120,Belle Greene,6,597,609,ORG,"Companies, agencies, institutions, etc."

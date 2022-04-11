@@ -1,0 +1,14 @@
+page,text,p,start,end,type,description
+315,"Wednesday, October 18, 1922",1,0,27,DATE,Absolute or relative dates or periods
+315,Janet,3,30,35,PERSON,"People, including fictional"
+315,4,3,47,48,TIME,Times smaller than a day
+315,Bardini’s,3,72,81,ORG,"Companies, agencies, institutions, etc."
+315,the “O___so Bianco,3,99,117,FAC,"Buildings, airports, highways, bridges, etc."
+315,Halsey,3,137,143,PERSON,"People, including fictional"
+315,Bateman,3,199,206,PERSON,"People, including fictional"
+315,Janet,3,213,218,PERSON,"People, including fictional"
+315,Lina,3,246,250,PERSON,"People, including fictional"
+315,every day,3,309,318,DATE,Absolute or relative dates or periods
+315,Dutch,4,8,13,NORP,Nationalities or religious or political groups
+315,De Burler,4,27,36,PERSON,"People, including fictional"
+315,evening,5,40,47,TIME,Times smaller than a day

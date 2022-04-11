@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+265,"Tuesday, August 29, 1922",1,0,24,DATE,Absolute or relative dates or periods
+265,A GLORIOUS day,3,0,14,DATE,Absolute or relative dates or periods
+265,God,3,39,42,PERSON,"People, including fictional"
+265,1914,3,121,125,DATE,Absolute or relative dates or periods
+265,Barbara,3,151,158,PERSON,"People, including fictional"
+265,Germans,3,209,216,NORP,Nationalities or religious or political groups
+265,Germans,3,237,244,NORP,Nationalities or religious or political groups
+265,Barb,3,263,267,PERSON,"People, including fictional"
+265,God,3,305,308,PERSON,"People, including fictional"
+265,The Pond and Boat,4,0,17,WORK_OF_ART,"Titles of books, songs, etc."
+265,Regis,4,102,107,PERSON,"People, including fictional"

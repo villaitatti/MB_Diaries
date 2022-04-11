@@ -1,0 +1,9 @@
+page,text,p,start,end,type,description
+051,"Thursday, January 28, 1915",2,0,26,DATE,Absolute or relative dates or periods
+051,Alys,5,2,6,PERSON,"People, including fictional"
+051,Logan,5,19,24,PERSON,"People, including fictional"
+051,the Red Cross,5,46,59,ORG,"Companies, agencies, institutions, etc."
+051,North France,5,63,75,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+051,Dunkirk,5,92,99,GPE,"Countries, cities, states"
+051,Germans,5,116,123,NORP,Nationalities or religious or political groups
+051,Giulianis,6,59,68,PERSON,"People, including fictional"

@@ -1,0 +1,6 @@
+page,text,p,start,end,type,description
+229,"Sunday, July 25, 1915",2,0,21,DATE,Absolute or relative dates or periods
+229,96,2,23,25,CARDINAL,Numerals that do not fall under another type
+229,South Hill Park,2,26,41,FAC,"Buildings, airports, highways, bridges, etc."
+229,Hampstead,2,42,51,GPE,"Countries, cities, states"
+229,London,2,52,58,GPE,"Countries, cities, states"

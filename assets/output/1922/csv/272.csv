@@ -1,0 +1,17 @@
+page,text,p,start,end,type,description
+272,"Tuesday, September 5, 1922",1,0,26,DATE,Absolute or relative dates or periods
+272,Copse CottageRay,2,0,16,PERSON,"People, including fictional"
+272,Hot and heavy,4,0,13,PERSON,"People, including fictional"
+272,the Children’s Paradise,5,20,43,FAC,"Buildings, airports, highways, bridges, etc."
+272,Barbara,5,45,52,PERSON,"People, including fictional"
+272,John Strachey,5,92,105,PERSON,"People, including fictional"
+272,Ralph,5,107,112,PERSON,"People, including fictional"
+272,2nd,5,115,118,ORDINAL,"""first"", ""second"", etc."
+272,16,5,138,140,DATE,Absolute or relative dates or periods
+272,Ray,7,0,3,PERSON,"People, including fictional"
+272,4,8,1,2,CARDINAL,Numerals that do not fall under another type
+272,BB,9,0,2,PERSON,"People, including fictional"
+272,Nicky,9,7,12,PERSON,"People, including fictional"
+272,Berlin,10,0,6,GPE,"Countries, cities, states"
+272,2,11,1,2,CARDINAL,Numerals that do not fall under another type
+272,Ray,12,17,20,PERSON,"People, including fictional"

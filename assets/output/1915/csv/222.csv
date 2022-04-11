@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+222,"Sunday, July 18, 1915",2,0,21,DATE,Absolute or relative dates or periods
+222,53,2,23,25,CARDINAL,Numerals that do not fall under another type
+222,Rue de Varenne,2,26,40,FAC,"Buildings, airports, highways, bridges, etc."
+222,Paris,2,41,46,GPE,"Countries, cities, states"
+222,London,3,11,17,GPE,"Countries, cities, states"
+222,Ray,5,3,6,PERSON,"People, including fictional"
+222,96,5,10,12,CARDINAL,Numerals that do not fall under another type
+222,South Hill Park,5,13,28,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+222,Hampstead,5,29,38,GPE,"Countries, cities, states"

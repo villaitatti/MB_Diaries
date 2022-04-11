@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+181,"Monday, June 7, 1915",2,0,20,DATE,Absolute or relative dates or periods
+181,Grand Hotel,2,22,33,ORG,"Companies, agencies, institutions, etc."
+181,Rome,2,34,38,GPE,"Countries, cities, states"
+181,Nelson Gays,4,11,22,PERSON,"People, including fictional"
+181,American,4,31,39,NORP,Nationalities or religious or political groups
+181,Page,4,56,60,PERSON,"People, including fictional"
+181,Geoffrey,5,2,10,PERSON,"People, including fictional"
+181,Strong,5,35,41,PERSON,"People, including fictional"
+181,the British School,5,45,63,FAC,"Buildings, airports, highways, bridges, etc."

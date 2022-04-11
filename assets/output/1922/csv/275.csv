@@ -1,0 +1,26 @@
+page,text,p,start,end,type,description
+275,"Friday, September 8, 1922",1,0,25,DATE,Absolute or relative dates or periods
+275,Hotel du Théatre des Champs-Elysées,2,0,35,FAC,"Buildings, airports, highways, bridges, etc."
+275,6,3,0,1,CARDINAL,Numerals that do not fall under another type
+275,Avenue Montaigne,3,2,18,FAC,"Buildings, airports, highways, bridges, etc."
+275,Ray,6,12,15,PERSON,"People, including fictional"
+275,Thorolds,6,23,31,PERSON,"People, including fictional"
+275,Strachey,7,18,26,PERSON,"People, including fictional"
+275,Simon Bussy’s,7,35,48,PERSON,"People, including fictional"
+275,next month,7,126,136,DATE,Absolute or relative dates or periods
+275,Barbara,7,152,159,PERSON,"People, including fictional"
+275,3,8,3,4,TIME,Times smaller than a day
+275,the Vit___ Hotel,8,13,29,ORG,"Companies, agencies, institutions, etc."
+275,Croydon,8,45,52,GPE,"Countries, cities, states"
+275,Ray,8,60,63,PERSON,"People, including fictional"
+275,Handley-Page,8,149,161,ORG,"Companies, agencies, institutions, etc."
+275,Deal,8,180,184,GPE,"Countries, cities, states"
+275,Boulogne,8,189,197,GPE,"Countries, cities, states"
+275,Beauvais,8,202,210,GPE,"Countries, cities, states"
+275,Paris,8,214,219,GPE,"Countries, cities, states"
+275,the Hotel Crillon,8,230,247,FAC,"Buildings, airports, highways, bridges, etc."
+275,Le Bourget,8,288,298,FAC,"Buildings, airports, highways, bridges, etc."
+275,7,8,303,304,TIME,Times smaller than a day
+275,Carey,9,4,9,PERSON,"People, including fictional"
+275,a minute,9,14,22,TIME,Times smaller than a day
+275,Lapérouse,9,53,62,FAC,"Buildings, airports, highways, bridges, etc."

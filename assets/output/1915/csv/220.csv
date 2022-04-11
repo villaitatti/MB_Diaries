@@ -1,0 +1,7 @@
+page,text,p,start,end,type,description
+220,"Friday, July 16, 1915",2,0,21,DATE,Absolute or relative dates or periods
+220,53,2,23,25,CARDINAL,Numerals that do not fall under another type
+220,Rue de Varenne,2,26,40,FAC,"Buildings, airports, highways, bridges, etc."
+220,Reinach,4,15,22,PERSON,"People, including fictional"
+220,di Cossé,5,18,26,PERSON,"People, including fictional"
+220,Schlumberger,5,33,45,PERSON,"People, including fictional"

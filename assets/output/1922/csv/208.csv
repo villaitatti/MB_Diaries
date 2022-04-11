@@ -1,0 +1,16 @@
+page,text,p,start,end,type,description
+208,"Monday, July 3, 1922",1,0,20,DATE,Absolute or relative dates or periods
+208,66,2,21,23,CARDINAL,Numerals that do not fall under another type
+208,67,2,40,42,CARDINAL,Numerals that do not fall under another type
+208,Naima,4,41,46,PERSON,"People, including fictional"
+208,Karin,4,51,56,PERSON,"People, including fictional"
+208,Nicky,4,61,66,PERSON,"People, including fictional"
+208,Anreps,4,90,96,PERSON,"People, including fictional"
+208,Bertie,4,161,167,PERSON,"People, including fictional"
+208,the Futa Pass,5,16,29,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+208,only 3¾ hours,5,155,168,TIME,Times smaller than a day
+208,B.B.,6,0,4,PERSON,"People, including fictional"
+208,10 hours,6,61,69,TIME,Times smaller than a day
+208,Lucy,6,101,105,PERSON,"People, including fictional"
+208,2,7,1,2,CARDINAL,Numerals that do not fall under another type
+208,Sunday,8,9,15,DATE,Absolute or relative dates or periods

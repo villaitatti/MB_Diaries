@@ -1,0 +1,7 @@
+page,text,p,start,end,type,description
+126,"Wednesday, April 12, 1922",1,0,25,DATE,Absolute or relative dates or periods
+126,Esperia,2,37,44,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+126,Eliza,3,0,5,PERSON,"People, including fictional"
+126,Alexandria,3,35,45,GPE,"Countries, cities, states"
+126,Furness at the Museum,3,76,97,ORG,"Companies, agencies, institutions, etc."
+126,Brescia,3,118,125,PERSON,"People, including fictional"

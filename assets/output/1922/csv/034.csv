@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+034,"Tuesday, January 10, 1922",1,0,25,DATE,Absolute or relative dates or periods
+034,Cairo,2,0,5,GPE,"Countries, cities, states"
+034,Creswell,4,0,8,ORG,"Companies, agencies, institutions, etc."
+034,Bazil,4,15,20,PERSON,"People, including fictional"
+034,Elgoods,4,22,29,ORG,"Companies, agencies, institutions, etc."
+034,Patricolo,4,31,40,PERSON,"People, including fictional"
+034,B.B.,4,67,71,PERSON,"People, including fictional"
+034,Thompson,4,88,96,PERSON,"People, including fictional"
+034,Maurice Amos,4,101,113,PERSON,"People, including fictional"
+034,N.,4,115,117,PERSON,"People, including fictional"
+034,night,5,25,30,TIME,Times smaller than a day

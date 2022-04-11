@@ -1,0 +1,15 @@
+page,text,p,start,end,type,description
+128,"Thursday, April 15, 1915",2,1,25,DATE,Absolute or relative dates or periods
+128,Ray,3,0,3,PERSON,"People, including fictional"
+128,Pippa,3,5,10,PERSON,"People, including fictional"
+128,Geoffrey Scott,3,12,26,PERSON,"People, including fictional"
+128,Cecil Pinsent,3,28,41,PERSON,"People, including fictional"
+128,Krayl,5,7,12,PERSON,"People, including fictional"
+128,Cecil,5,17,22,PERSON,"People, including fictional"
+128,Ray,5,37,40,PERSON,"People, including fictional"
+128,Pippa,5,45,50,PERSON,"People, including fictional"
+128,Pitti,5,63,68,PERSON,"People, including fictional"
+128,Krayl,6,5,10,PERSON,"People, including fictional"
+128,Gordon Craig,6,30,42,PERSON,"People, including fictional"
+128,BB,8,2,4,PERSON,"People, including fictional"
+128,Sybil,8,16,21,PERSON,"People, including fictional"

@@ -1,0 +1,16 @@
+page,text,p,start,end,type,description
+093,"Thursday, March 11, 1915",2,0,24,DATE,Absolute or relative dates or periods
+093,Gentner,5,6,13,PERSON,"People, including fictional"
+093,the Worcester Museum,5,27,47,ORG,"Companies, agencies, institutions, etc."
+093,Massachusetts,5,49,62,GPE,"Countries, cities, states"
+093,BB,5,110,112,PERSON,"People, including fictional"
+093,Sybil,5,117,122,PERSON,"People, including fictional"
+093,2 ½ hrs,5,140,147,TIME,Times smaller than a day
+093,Monte Ceceri,5,179,191,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+093,Mugello,5,288,295,GPE,"Countries, cities, states"
+093,Vallombrosa,5,342,353,GPE,"Countries, cities, states"
+093,Lance Cherry’s,7,0,14,PERSON,"People, including fictional"
+093,Cunard,7,78,84,ORG,"Companies, agencies, institutions, etc."
+093,France,7,99,105,GPE,"Countries, cities, states"
+093,Dardanelles,7,144,155,PERSON,"People, including fictional"
+093,18 March,8,18,26,DATE,Absolute or relative dates or periods

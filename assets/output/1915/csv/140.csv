@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+140,"Tuesday, April 27, 1915",2,0,23,DATE,Absolute or relative dates or periods
+140,Hotel Brufani Perugia,2,25,46,FAC,"Buildings, airports, highways, bridges, etc."
+140,Geoffrey,5,15,23,PERSON,"People, including fictional"
+140,Cecil,5,28,33,PERSON,"People, including fictional"
+140,BB,5,35,37,PERSON,"People, including fictional"
+140,Sybil,5,42,47,PERSON,"People, including fictional"
+140,Montevarchi,5,78,89,GPE,"Countries, cities, states"
+140,Borgo Sansepolcro,5,119,136,GPE,"Countries, cities, states"
+140,a glorious evening,5,146,164,TIME,Times smaller than a day
+140,Montone,5,169,176,GPE,"Countries, cities, states"
+140,Loeser,5,197,203,PERSON,"People, including fictional"
+140,Perugia,5,207,214,GPE,"Countries, cities, states"

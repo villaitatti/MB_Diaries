@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+158,"Sunday, May 14, 1922",1,0,20,DATE,Absolute or relative dates or periods
+158,Naima,2,0,5,PERSON,"People, including fictional"
+158,Logan,3,0,5,PERSON,"People, including fictional"
+158,Vallombrosa,3,31,42,PERSON,"People, including fictional"
+158,Logan,5,0,5,PERSON,"People, including fictional"
+158,Monastery,5,86,95,FAC,"Buildings, airports, highways, bridges, etc."
+158,40 lire,5,104,111,MONEY,"Monetary values, including unit"
+158,2,6,1,2,CARDINAL,Numerals that do not fall under another type
+158,B.B.,7,0,4,PERSON,"People, including fictional"
+158,Anreps,7,13,19,PERSON,"People, including fictional"
+158,Nicky,7,24,29,PERSON,"People, including fictional"
+158,Wolfe,7,52,57,PERSON,"People, including fictional"

@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+143,"Friday, April 30, 1915",2,0,22,DATE,Absolute or relative dates or periods
+143,Hotel Brufani Perugia,2,24,45,FAC,"Buildings, airports, highways, bridges, etc."
+143,Gualdo Tadino,5,13,26,PERSON,"People, including fictional"
+143,Castello,5,57,65,FAC,"Buildings, airports, highways, bridges, etc."
+143,Nocera,5,92,98,FAC,"Buildings, airports, highways, bridges, etc."
+143,Trevi,5,111,116,FAC,"Buildings, airports, highways, bridges, etc."
+143,Sybil,6,0,5,PERSON,"People, including fictional"
+143,Rupert Brooke,7,2,15,PERSON,"People, including fictional"
+143,Lemnos,7,28,34,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+143,Geoffrey,7,36,44,PERSON,"People, including fictional"

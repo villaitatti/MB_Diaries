@@ -1,0 +1,7 @@
+page,text,p,start,end,type,description
+179,"Saturday, June 5, 1915",2,0,22,DATE,Absolute or relative dates or periods
+179,Grand Hotel,2,24,35,ORG,"Companies, agencies, institutions, etc."
+179,Rome,2,36,40,GPE,"Countries, cities, states"
+179,Jay,4,11,14,PERSON,"People, including fictional"
+179,1st,4,18,21,ORDINAL,"""first"", ""second"", etc."
+179,American,4,35,43,NORP,Nationalities or religious or political groups

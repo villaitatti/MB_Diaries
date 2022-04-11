@@ -1,0 +1,17 @@
+page,text,p,start,end,type,description
+309,"Thursday, October 12, 1922",1,0,26,DATE,Absolute or relative dates or periods
+309,Tone,3,5,9,PERSON,"People, including fictional"
+309,11.30,3,18,23,TIME,Times smaller than a day
+309,Crusade,3,33,40,WORK_OF_ART,"Titles of books, songs, etc."
+309,Library,3,80,87,FAC,"Buildings, airports, highways, bridges, etc."
+309,Steinmann,3,98,107,PERSON,"People, including fictional"
+309,Swarzenski,3,165,175,PERSON,"People, including fictional"
+309,Herr von Hirsch,3,180,195,PERSON,"People, including fictional"
+309,Frankfort,3,201,210,GPE,"Countries, cities, states"
+309,Tone,3,265,269,PERSON,"People, including fictional"
+309,Baggazzano,3,281,291,GPE,"Countries, cities, states"
+309,Ross,3,344,348,PERSON,"People, including fictional"
+309,German,4,24,30,NORP,Nationalities or religious or political groups
+309,Romanesque,4,31,41,NORP,Nationalities or religious or political groups
+309,the evening,4,55,66,TIME,Times smaller than a day
+309,French,4,145,151,NORP,Nationalities or religious or political groups

@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+369,"Sunday, December 12, 1915",2,0,25,DATE,Absolute or relative dates or periods
+369,Geoffrey Scott,4,0,14,PERSON,"People, including fictional"
+369,Florence Baldwin,4,16,32,PERSON,"People, including fictional"
+369,Florence Baldwin,6,52,68,PERSON,"People, including fictional"
+369,Audrey,6,114,120,PERSON,"People, including fictional"
+369,Gamberaia,6,134,143,FAC,"Buildings, airports, highways, bridges, etc."
+369,15 months,6,181,190,DATE,Absolute or relative dates or periods
+369,Biarritz,6,233,241,GPE,"Countries, cities, states"
+369,Geoffrey,7,86,94,PERSON,"People, including fictional"
+369,Yoï,8,28,31,PERSON,"People, including fictional"

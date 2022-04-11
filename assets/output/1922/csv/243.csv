@@ -1,0 +1,9 @@
+page,text,p,start,end,type,description
+243,"Monday, August 7, 1922",1,0,22,DATE,Absolute or relative dates or periods
+243,Our last day,2,0,12,DATE,Absolute or relative dates or periods
+243,Doktor Hofrath Leusser,2,28,50,PERSON,"People, including fictional"
+243,German,2,96,102,NORP,Nationalities or religious or political groups
+243,Frau Frick,3,9,19,PERSON,"People, including fictional"
+243,12,4,0,2,CARDINAL,Numerals that do not fall under another type
+243,Prinz Regenten Strasse,4,3,25,FAC,"Buildings, airports, highways, bridges, etc."
+243,Kissingen,5,0,9,GPE,"Countries, cities, states"

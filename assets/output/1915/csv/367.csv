@@ -1,0 +1,14 @@
+page,text,p,start,end,type,description
+367,"Friday, December 10, 1915",2,0,25,DATE,Absolute or relative dates or periods
+367,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+367,Baldwin,3,21,28,PERSON,"People, including fictional"
+367,Cecil Pinsent,3,30,43,PERSON,"People, including fictional"
+367,Ammannati,7,35,44,PERSON,"People, including fictional"
+367,70,7,84,86,CARDINAL,Numerals that do not fall under another type
+367,9,7,115,116,CARDINAL,Numerals that do not fall under another type
+367,four,7,144,148,CARDINAL,Numerals that do not fall under another type
+367,86,7,198,200,CARDINAL,Numerals that do not fall under another type
+367,Henraux,8,9,16,PERSON,"People, including fictional"
+367,Baldwin,9,5,12,PERSON,"People, including fictional"
+367,BB,9,115,117,PERSON,"People, including fictional"
+367,Sybil,9,135,140,PERSON,"People, including fictional"

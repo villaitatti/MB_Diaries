@@ -1,0 +1,8 @@
+page,text,p,start,end,type,description
+024,"Friday, January 1, 1915",2,0,23,DATE,Absolute or relative dates or periods
+024,Yoï,5,0,3,PERSON,"People, including fictional"
+024,Geoffrey,6,26,34,PERSON,"People, including fictional"
+024,Laghetto,6,42,50,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+024,B.B.,6,66,70,PERSON,"People, including fictional"
+024,Nello,6,131,136,PERSON,"People, including fictional"
+024,the New Year,6,247,259,EVENT,"Named hurricanes, battles, wars, sports events, etc."

@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+345,"Friday, November 17, 1922",1,0,25,DATE,Absolute or relative dates or periods
+345,Flora Priestley,2,0,15,PERSON,"People, including fictional"
+345,Ray,3,0,3,PERSON,"People, including fictional"
+345,10 years,4,55,63,DATE,Absolute or relative dates or periods
+345,HookeLady Bateman,5,5,22,PERSON,"People, including fictional"
+345,MusgraveMr,7,5,15,PERSON,"People, including fictional"
+345,Clifford,7,17,25,PERSON,"People, including fictional"
+345,CunardHera Priestley,9,4,24,PERSON,"People, including fictional"
+345,Acton,10,4,9,PERSON,"People, including fictional"

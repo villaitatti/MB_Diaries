@@ -1,0 +1,8 @@
+page,text,p,start,end,type,description
+300,"Tuesday, October 3, 1922",1,0,24,DATE,Absolute or relative dates or periods
+300,Palace Hotel,2,0,12,FAC,"Buildings, airports, highways, bridges, etc."
+300,Lugano,2,13,19,GPE,"Countries, cities, states"
+300,St. Gotthard,4,23,35,FAC,"Buildings, airports, highways, bridges, etc."
+300,England,4,92,99,GPE,"Countries, cities, states"
+300,Goeschenen,4,122,132,GPE,"Countries, cities, states"
+300,over 7000 feet,4,274,288,QUANTITY,"Measurements, as of weight or distance"

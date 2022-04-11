@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+272,"Monday, September 6, 1915",2,0,25,DATE,Absolute or relative dates or periods
+272,Bath,2,27,31,GPE,"Countries, cities, states"
+272,Logan,4,0,5,PERSON,"People, including fictional"
+272,Alys,4,12,16,PERSON,"People, including fictional"
+272,Prior Park,4,31,41,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+272,Barbara,4,99,106,PERSON,"People, including fictional"
+272,Nanny,4,111,116,PERSON,"People, including fictional"
+272,London,4,124,130,GPE,"Countries, cities, states"
+272,Barbara,4,131,138,PERSON,"People, including fictional"

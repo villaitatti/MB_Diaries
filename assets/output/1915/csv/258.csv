@@ -1,0 +1,8 @@
+page,text,p,start,end,type,description
+258,"Monday, August 23, 1915",2,0,23,DATE,Absolute or relative dates or periods
+258,Landsdowner,2,25,36,GPE,"Countries, cities, states"
+258,Grove House,3,0,11,PERSON,"People, including fictional"
+258,Alys,3,17,21,PERSON,"People, including fictional"
+258,Barbara,3,26,33,PERSON,"People, including fictional"
+258,Barbara,5,7,14,PERSON,"People, including fictional"
+258,a week,5,36,42,DATE,Absolute or relative dates or periods

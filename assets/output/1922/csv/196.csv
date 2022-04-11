@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+196,"Wednesday, June 21, 1922",1,0,24,DATE,Absolute or relative dates or periods
+196,Geoffrey,3,0,8,PERSON,"People, including fictional"
+196,Perrys,4,0,6,PERSON,"People, including fictional"
+196,Ojetti,5,0,6,PERSON,"People, including fictional"
+196,King,5,31,35,PERSON,"People, including fictional"
+196,Bryn Mawr,5,38,47,FAC,"Buildings, airports, highways, bridges, etc."
+196,Rowley,5,77,83,PERSON,"People, including fictional"
+196,Houghtons,6,4,13,PERSON,"People, including fictional"
+196,a couple of hours in the afternoon,6,95,129,TIME,Times smaller than a day

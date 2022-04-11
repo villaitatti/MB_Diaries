@@ -1,0 +1,11 @@
+page,text,p,start,end,type,description
+221,"Sunday, July 16, 1922",1,0,21,DATE,Absolute or relative dates or periods
+221,Spinster of This Parish,3,8,31,WORK_OF_ART,"Titles of books, songs, etc."
+221,Sully,3,53,58,PERSON,"People, including fictional"
+221,German,4,7,13,NORP,Nationalities or religious or political groups
+221,Frau Frick,4,19,29,PERSON,"People, including fictional"
+221,2,5,1,2,CARDINAL,Numerals that do not fall under another type
+221,Ray,6,0,3,PERSON,"People, including fictional"
+221,Chiswick,6,46,54,GPE,"Countries, cities, states"
+221,Brentford,6,59,68,GPE,"Countries, cities, states"
+221,Robert Cecil,6,104,116,PERSON,"People, including fictional"

@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+322,"Tuesday, October 25, 1915",2,0,25,DATE,Absolute or relative dates or periods
+322,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+322,Villino,4,2,9,PERSON,"People, including fictional"
+322,Aristea,4,30,37,PERSON,"People, including fictional"
+322,morning,4,78,85,TIME,Times smaller than a day
+322,Ross,5,14,18,PERSON,"People, including fictional"
+322,the afternoon,5,25,38,TIME,Times smaller than a day
+322,Mascha,5,137,143,PERSON,"People, including fictional"
+322,Villari,5,174,181,PERSON,"People, including fictional"
+322,Salvemini,5,195,204,PERSON,"People, including fictional"
+322,Sybil,6,2,7,PERSON,"People, including fictional"

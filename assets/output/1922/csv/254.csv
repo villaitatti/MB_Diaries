@@ -1,0 +1,22 @@
+page,text,p,start,end,type,description
+254,"Friday, August 18, 1922",1,0,23,DATE,Absolute or relative dates or periods
+254,Alys,3,0,4,PERSON,"People, including fictional"
+254,Logan,3,6,11,PERSON,"People, including fictional"
+254,Lucy,3,20,24,PERSON,"People, including fictional"
+254,Saidee,3,32,38,PERSON,"People, including fictional"
+254,Ray,3,40,43,PERSON,"People, including fictional"
+254,Julia,3,45,50,PERSON,"People, including fictional"
+254,Salvemini,3,52,61,PERSON,"People, including fictional"
+254,4,3,67,68,CARDINAL,Numerals that do not fall under another type
+254,2,3,78,79,CARDINAL,Numerals that do not fall under another type
+254,Grey,4,0,4,PERSON,"People, including fictional"
+254,Salvemini,5,0,9,PERSON,"People, including fictional"
+254,6.30,5,21,25,TIME,Times smaller than a day
+254,Southampton,5,29,40,GPE,"Countries, cities, states"
+254,Ray,6,0,3,PERSON,"People, including fictional"
+254,Barbara,6,17,24,PERSON,"People, including fictional"
+254,Burley,6,28,34,GPE,"Countries, cities, states"
+254,the New Forest,6,38,52,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+254,Clough,6,72,78,PERSON,"People, including fictional"
+254,Salvemini,7,0,9,PERSON,"People, including fictional"
+254,England,7,93,100,GPE,"Countries, cities, states"

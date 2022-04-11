@@ -1,0 +1,14 @@
+page,text,p,start,end,type,description
+125,"Monday, April 12, 1915",2,0,22,DATE,Absolute or relative dates or periods
+125,"Hotel d’Italia,",2,24,39,FAC,"Buildings, airports, highways, bridges, etc."
+125,Urbino,2,40,46,GPE,"Countries, cities, states"
+125,Ray,3,0,3,PERSON,"People, including fictional"
+125,Pippa,3,5,10,PERSON,"People, including fictional"
+125,Geoffrey Scott,3,12,26,PERSON,"People, including fictional"
+125,Ducal Palace,5,4,16,ORG,"Companies, agencies, institutions, etc."
+125,Salimbeni,5,33,42,GPE,"Countries, cities, states"
+125,Borgo Sansepolcro,5,65,82,FAC,"Buildings, airports, highways, bridges, etc."
+125,Vallombrosa,5,159,170,GPE,"Countries, cities, states"
+125,The afternoon,5,231,244,TIME,Times smaller than a day
+125,Siena,6,32,37,GPE,"Countries, cities, states"
+125,last night,6,38,48,TIME,Times smaller than a day

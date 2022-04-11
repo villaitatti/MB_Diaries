@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+141,"Wednesday, April 28, 1915",2,0,25,DATE,Absolute or relative dates or periods
+141,Hotel Brufani Perugia,2,27,48,FAC,"Buildings, airports, highways, bridges, etc."
+141,Cecil,5,12,17,PERSON,"People, including fictional"
+141,Geoffrey,5,22,30,PERSON,"People, including fictional"
+141,Chiusi,5,34,40,GPE,"Countries, cities, states"
+141,Sarteano,5,45,53,GPE,"Countries, cities, states"
+141,Cecil,5,108,113,PERSON,"People, including fictional"
+141,Cortona,5,117,124,GPE,"Countries, cities, states"
+141,The Lake of Thrasymenus,5,136,159,LOC,"Non-GPE locations, mountain ranges, bodies of water"

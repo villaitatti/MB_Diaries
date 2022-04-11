@@ -1,0 +1,22 @@
+page,text,p,start,end,type,description
+352,"Thursday, November 25, 1915",2,0,27,DATE,Absolute or relative dates or periods
+352,BB,5,2,4,PERSON,"People, including fictional"
+352,the Madonna del Sasso,5,43,64,FAC,"Buildings, airports, highways, bridges, etc."
+352,Sybil,5,95,100,PERSON,"People, including fictional"
+352,Dumont,5,142,148,PERSON,"People, including fictional"
+352,Thanksgiving,5,152,164,DATE,Absolute or relative dates or periods
+352,Gregory Swift,5,181,194,PERSON,"People, including fictional"
+352,Dumont,5,230,236,PERSON,"People, including fictional"
+352,Prefetto,5,261,269,PERSON,"People, including fictional"
+352,Volpi,5,274,279,PERSON,"People, including fictional"
+352,Sunday,5,354,360,DATE,Absolute or relative dates or periods
+352,4 on Wednesday,5,364,378,TIME,Times smaller than a day
+352,NY,5,400,402,GPE,"Countries, cities, states"
+352,Volpi,5,420,425,PERSON,"People, including fictional"
+352,US,5,464,466,GPE,"Countries, cities, states"
+352,Thursday,5,548,556,DATE,Absolute or relative dates or periods
+352,morning,5,557,564,TIME,Times smaller than a day
+352,Italian,5,598,605,NORP,Nationalities or religious or political groups
+352,Lucien Henraux’s,6,3,19,PERSON,"People, including fictional"
+352,Elizabetta Piccollelis,6,26,48,PERSON,"People, including fictional"
+352,Geoffrey,6,116,124,PERSON,"People, including fictional"

@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+290,"Saturday, September 23, 1922",1,0,28,DATE,Absolute or relative dates or periods
+290,Hotel Bristol,2,24,37,ORG,"Companies, agencies, institutions, etc."
+290,Grey,3,0,4,PERSON,"People, including fictional"
+290,Egyptian,5,4,12,NORP,Nationalities or religious or political groups
+290,Frau F___heimer,5,25,40,PERSON,"People, including fictional"
+290,morning,5,44,51,TIME,Times smaller than a day
+290,Karin,5,66,71,PERSON,"People, including fictional"
+290,Pilavov,6,0,7,PERSON,"People, including fictional"
+290,Bulgarian,6,9,18,NORP,Nationalities or religious or political groups
+290,Sternberg,7,49,58,PERSON,"People, including fictional"
+290,Russian,7,92,99,NORP,Nationalities or religious or political groups
+290,the Blaue Vogel,7,108,123,ORG,"Companies, agencies, institutions, etc."

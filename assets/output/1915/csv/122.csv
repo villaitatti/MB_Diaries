@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+122,"Friday, April 9, 1915",2,0,21,DATE,Absolute or relative dates or periods
+122,Albergo Angelo Viterbo,2,23,45,PERSON,"People, including fictional"
+122,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+122,Grosseto,7,21,29,FAC,"Buildings, airports, highways, bridges, etc."
+122,Talamone,7,40,48,FAC,"Buildings, airports, highways, bridges, etc."
+122,Orbetello,7,53,62,FAC,"Buildings, airports, highways, bridges, etc."
+122,Pitigliano,7,86,96,FAC,"Buildings, airports, highways, bridges, etc."
+122,the Lago di Bolsena and Toscanella,7,101,135,FAC,"Buildings, airports, highways, bridges, etc."
+122,Pippa,7,151,156,PERSON,"People, including fictional"

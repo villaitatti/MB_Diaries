@@ -1,0 +1,14 @@
+page,text,p,start,end,type,description
+087,"Saturday, March 4, 1922",1,0,23,DATE,Absolute or relative dates or periods
+087,El Kab,2,0,6,PERSON,"People, including fictional"
+087,10,3,9,11,TIME,Times smaller than a day
+087,reaching,3,12,20,GPE,"Countries, cities, states"
+087,Mahamid,3,21,28,GPE,"Countries, cities, states"
+087,12,3,32,34,TIME,Times smaller than a day
+087,the Rest House,3,93,107,FAC,"Buildings, airports, highways, bridges, etc."
+087,El Kab,3,111,117,GPE,"Countries, cities, states"
+087,Somers Clarke,3,128,141,PERSON,"People, including fictional"
+087,80,3,178,180,DATE,Absolute or relative dates or periods
+087,2,3,337,338,CARDINAL,Numerals that do not fall under another type
+087,El Kab,4,13,19,PERSON,"People, including fictional"
+087,Nile,4,103,107,LOC,"Non-GPE locations, mountain ranges, bodies of water"

@@ -1,0 +1,9 @@
+page,text,p,start,end,type,description
+344,"Wednesday, November 17, 1915",2,0,28,DATE,Absolute or relative dates or periods
+344,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
+344,BB,6,19,21,PERSON,"People, including fictional"
+344,2,6,38,39,CARDINAL,Numerals that do not fall under another type
+344,only one,7,12,20,CARDINAL,Numerals that do not fall under another type
+344,Geoffrey,7,112,120,PERSON,"People, including fictional"
+344,Piero della Francesca,7,194,215,PERSON,"People, including fictional"
+344,the afternoon,7,268,281,TIME,Times smaller than a day

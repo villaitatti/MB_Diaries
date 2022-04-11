@@ -1,0 +1,13 @@
+page,text,p,start,end,type,description
+345,"Thursday, November 18, 1915",2,0,27,DATE,Absolute or relative dates or periods
+345,Guido Cagnola,3,0,13,PERSON,"People, including fictional"
+345,Geoffrey Scott,3,15,29,PERSON,"People, including fictional"
+345,Guido,6,2,7,PERSON,"People, including fictional"
+345,Paul,6,47,51,PERSON,"People, including fictional"
+345,Serbia,6,55,61,GPE,"Countries, cities, states"
+345,Pratolino,6,85,94,FAC,"Buildings, airports, highways, bridges, etc."
+345,Appennino,6,108,117,WORK_OF_ART,"Titles of books, songs, etc."
+345,Villa,6,127,132,FAC,"Buildings, airports, highways, bridges, etc."
+345,Empire,6,171,177,GPE,"Countries, cities, states"
+345,Geoffrey,7,2,10,PERSON,"People, including fictional"
+345,Sybil’s Entertainment,7,28,49,ORG,"Companies, agencies, institutions, etc."

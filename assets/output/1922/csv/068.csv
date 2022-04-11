@@ -1,0 +1,9 @@
+page,text,p,start,end,type,description
+068,"Monday, February 13, 1922",1,0,25,DATE,Absolute or relative dates or periods
+068,two,2,16,19,CARDINAL,Numerals that do not fall under another type
+068,Luxor Temple,3,0,12,FAC,"Buildings, airports, highways, bridges, etc."
+068,Moussa,4,27,33,PERSON,"People, including fictional"
+068,Eders,4,42,47,PERSON,"People, including fictional"
+068,Zanzibar,4,85,93,GPE,"Countries, cities, states"
+068,Plummer,4,110,117,PERSON,"People, including fictional"
+068,Willock,4,155,162,PERSON,"People, including fictional"

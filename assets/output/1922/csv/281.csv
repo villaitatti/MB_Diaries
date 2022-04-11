@@ -1,0 +1,8 @@
+page,text,p,start,end,type,description
+281,"Thursday, September 14, 1922",1,0,28,DATE,Absolute or relative dates or periods
+281,Hotel Bristol,2,0,13,ORG,"Companies, agencies, institutions, etc."
+281,Berlin,2,14,20,GPE,"Countries, cities, states"
+281,5.30,3,11,15,TIME,Times smaller than a day
+281,Nicky,3,22,27,PERSON,"People, including fictional"
+281,Strauss,4,44,51,PERSON,"People, including fictional"
+281,Ariadne,4,64,71,WORK_OF_ART,"Titles of books, songs, etc."

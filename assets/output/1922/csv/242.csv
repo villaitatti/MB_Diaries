@@ -1,0 +1,12 @@
+page,text,p,start,end,type,description
+242,"Sunday, August 6, 1922",1,0,22,DATE,Absolute or relative dates or periods
+242,Kissingen,2,25,34,GPE,"Countries, cities, states"
+242,Motored,3,6,13,ORG,"Companies, agencies, institutions, etc."
+242,Brückenau,3,17,26,GPE,"Countries, cities, states"
+242,Nicky,3,44,49,PERSON,"People, including fictional"
+242,Fräulein Austen-Sachsen,3,66,89,PERSON,"People, including fictional"
+242,40 odd,3,123,129,DATE,Absolute or relative dates or periods
+242,Russia,3,198,204,GPE,"Countries, cities, states"
+242,evening,4,20,27,TIME,Times smaller than a day
+242,Adrian,5,74,80,PERSON,"People, including fictional"
+242,Freudian,5,190,198,NORP,Nationalities or religious or political groups

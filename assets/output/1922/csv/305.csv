@@ -1,0 +1,21 @@
+page,text,p,start,end,type,description
+305,"Sunday, October 8, 1922",1,0,23,DATE,Absolute or relative dates or periods
+305,Naimi,2,0,5,PERSON,"People, including fictional"
+305,Rosa Fitz-James,4,0,15,PERSON,"People, including fictional"
+305,Comte de Laborde,4,47,63,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+305,Leslie Hopkinson,4,87,103,PERSON,"People, including fictional"
+305,Vaughan,4,125,132,PERSON,"People, including fictional"
+305,Hagborg,4,167,174,PERSON,"People, including fictional"
+305,_,4,175,176,PERSON,"People, including fictional"
+305,_,4,176,177,PERSON,"People, including fictional"
+305,_,4,177,178,PERSON,"People, including fictional"
+305,ights,4,178,183,PERSON,"People, including fictional"
+305,Diane Lewis,4,202,213,PERSON,"People, including fictional"
+305,Villa Medici,4,254,266,ORG,"Companies, agencies, institutions, etc."
+305,Beit,4,299,303,PERSON,"People, including fictional"
+305,Geoffrey,5,0,8,PERSON,"People, including fictional"
+305,Sybil,5,131,136,GPE,"Countries, cities, states"
+305,Sunday,5,139,145,DATE,Absolute or relative dates or periods
+305,Teig,6,0,4,PERSON,"People, including fictional"
+305,Denman Ross’,6,9,21,PERSON,"People, including fictional"
+305,Denman,6,109,115,PERSON,"People, including fictional"

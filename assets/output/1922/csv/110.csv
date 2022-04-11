@@ -1,0 +1,19 @@
+page,text,p,start,end,type,description
+110,"Monday, March 27, 1922",1,0,22,DATE,Absolute or relative dates or periods
+110,Cairo,2,24,29,GPE,"Countries, cities, states"
+110,Gallery,4,0,7,FAC,"Buildings, airports, highways, bridges, etc."
+110,morning,4,11,18,TIME,Times smaller than a day
+110,Gallery,4,84,91,FAC,"Buildings, airports, highways, bridges, etc."
+110,Foucart,5,5,12,PERSON,"People, including fictional"
+110,Furness,5,24,31,ORG,"Companies, agencies, institutions, etc."
+110,about ⅔ of,7,34,44,CARDINAL,Numerals that do not fall under another type
+110,three,7,63,68,CARDINAL,Numerals that do not fall under another type
+110,three,7,176,181,CARDINAL,Numerals that do not fall under another type
+110,Mary,7,248,252,PERSON,"People, including fictional"
+110,27th,7,276,280,ORDINAL,"""first"", ""second"", etc."
+110,Maclellahan,8,4,15,PERSON,"People, including fictional"
+110,the Presbyterian College,8,29,53,ORG,"Companies, agencies, institutions, etc."
+110,Alfred Nicholson,8,91,107,PERSON,"People, including fictional"
+110,Alfred,8,211,217,PERSON,"People, including fictional"
+110,the evening,8,229,240,TIME,Times smaller than a day
+110,Jim Whitall,8,346,357,PERSON,"People, including fictional"

@@ -1,0 +1,16 @@
+page,text,p,start,end,type,description
+316,"Thursday, October 19, 1922",1,0,26,DATE,Absolute or relative dates or periods
+316,Zangwill,2,37,45,PERSON,"People, including fictional"
+316,Frau Wendlandt,3,8,22,PERSON,"People, including fictional"
+316,Basel,3,28,33,GPE,"Countries, cities, states"
+316,4.30,3,64,68,TIME,Times smaller than a day
+316,Zangwills,3,112,121,PERSON,"People, including fictional"
+316,Jewry,3,217,222,GPE,"Countries, cities, states"
+316,Lina,4,0,4,PERSON,"People, including fictional"
+316,Aubrey,4,9,15,PERSON,"People, including fictional"
+316,Lina,4,38,42,PERSON,"People, including fictional"
+316,the “International Dep[artment],4,68,99,ORG,"Companies, agencies, institutions, etc."
+316,Fascisti,4,108,116,NORP,Nationalities or religious or political groups
+316,English,4,216,223,NORP,Nationalities or religious or political groups
+316,Kaiser,4,297,303,PERSON,"People, including fictional"
+316,Cameron,6,13,20,PERSON,"People, including fictional"

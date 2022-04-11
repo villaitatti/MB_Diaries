@@ -1,0 +1,10 @@
+page,text,p,start,end,type,description
+205,"Friday, June 30, 1922",1,0,21,DATE,Absolute or relative dates or periods
+205,Karin,2,0,5,PERSON,"People, including fictional"
+205,Placci,3,117,123,PERSON,"People, including fictional"
+205,BB,3,169,171,PERSON,"People, including fictional"
+205,Toesca,3,173,179,PERSON,"People, including fictional"
+205,Cecil,4,28,33,PERSON,"People, including fictional"
+205,the New Library,4,100,115,ORG,"Companies, agencies, institutions, etc."
+205,Loesers,5,4,11,PERSON,"People, including fictional"
+205,Anreps,5,16,22,PERSON,"People, including fictional"

@@ -1,0 +1,23 @@
+page,text,p,start,end,type,description
+139,"Tuesday, April 25, 1922",1,0,23,DATE,Absolute or relative dates or periods
+139,Hewitt,3,33,39,PERSON,"People, including fictional"
+139,24th,4,12,16,ORDINAL,"""first"", ""second"", etc."
+139,Logan,6,0,5,PERSON,"People, including fictional"
+139,Hewitt,6,15,21,PERSON,"People, including fictional"
+139,Rome,6,35,39,GPE,"Countries, cities, states"
+139,2.35,6,43,47,TIME,Times smaller than a day
+139,Logan,6,49,54,PERSON,"People, including fictional"
+139,the morning,7,3,14,TIME,Times smaller than a day
+139,Ross,7,20,24,PERSON,"People, including fictional"
+139,Lina,7,29,33,PERSON,"People, including fictional"
+139,Lina,7,50,54,PERSON,"People, including fictional"
+139,2 days,7,64,70,DATE,Absolute or relative dates or periods
+139,the Genoa Conference,7,76,96,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+139,10,7,114,116,MONEY,"Monetary values, including unit"
+139,Garvin,7,150,156,PERSON,"People, including fictional"
+139,Lloyd George,7,216,228,PERSON,"People, including fictional"
+139,Charley Bell,8,0,12,PERSON,"People, including fictional"
+139,B. B.,8,25,30,PERSON,"People, including fictional"
+139,6,9,1,2,CARDINAL,Numerals that do not fall under another type
+139,Geoffrey,10,9,17,PERSON,"People, including fictional"
+139,Guido,10,19,24,PERSON,"People, including fictional"
