@@ -1,2 +1,2 @@
-# word2xml
-Simple python module to convert DOCX files into plain XML
+# MB_Diaries
+Modules to extract text from docx 
