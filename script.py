@@ -2,15 +2,63 @@
 import sys
 import os
 import re
+from xml.dom import NamespaceErr
 import spacy
 import pandas as pd
 import numpy as np
 import datetime
+from rdflib import Graph, URIRef, namespace, Namespace, Literal
 
 sys.path.append('./assets')
 from convert import convert2text, convert2xml, convert2vec
 
-nlp = spacy.load('en_core_web_trf')
+def create_graph(diary_number, page_number):
+
+  g = Graph()
+
+  # Namespaces
+  PLATFORM = Namespace('http://www.researchspace.org/resource/system/')
+  LDP = Namespace('http://www.w3.org/ns/ldp#')
+  CRM = Namespace('http://www.cidoc-crm.org/cidoc-crm/')
+  DPUB_ANNOTATION = Namespace('https://mbdiaries.itatti.harvard.edu/document/annotation-schema/')
+  CRMDIG = Namespace('http://www.ics.forth.gr/isl/CRMdig/')
+  PROV = Namespace('http://www.w3.org/ns/prov#')
+  RDF = namespace.RDF
+  RDFS = namespace.RDFS
+  XSD = namespace.XSD
+
+  # Base node
+  BASE_NODE = URIRef(f'https://mbdiaries.itatti.harvard.edu/document/{diary_number}/{page_number}')
+
+  # LDP file container
+  g.add( (PLATFORM.fileContainer, LDP.contains, BASE_NODE) )
+
+  g.add( (BASE_NODE, RDF.type, CRM.E33_Linguistic_Object) )
+  g.add( (BASE_NODE, RDF.type, DPUB_ANNOTATION.TextDocument) )
+  g.add( (BASE_NODE, RDF.type, CRMDIG.D1_Digital_Object) )
+  g.add( (BASE_NODE, RDF.type, PLATFORM.File) )
+  g.add( (BASE_NODE, RDF.type, LDP.Resource) )
+  g.add( (BASE_NODE, RDF.type, PROV.Entity) )
+
+  g.add( (BASE_NODE, RDFS.label, Literal(page_number, datatype=XSD.string)) )
+  g.add( (BASE_NODE, PLATFORM.fileContext, URIRef('http://www.researchspace.org/resource/TextDocuments')) )
+  g.add( (BASE_NODE, PLATFORM.fileName, Literal(f'{page_number}.html', datatype=XSD.string)) )
+  g.add( (BASE_NODE, PLATFORM.mediaType, Literal('form-data', datatype=XSD.string)) )
+  g.add( (BASE_NODE, PROV.wasAttributedTo, Literal(datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S'), datatype=XSD.dateTime)) )
+  g.add( (BASE_NODE, PROV.generatedAtTime, URIRef('http://www.researchspace.org/resource/admin')) )
+
+  g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
+  g.namespace_manager.bind('crm', CRM, override=True, replace=True)
+  g.namespace_manager.bind('crmdig', CRMDIG, override=True, replace=True)
+  g.namespace_manager.bind('ldp', LDP, override=True, replace=True)
+  g.namespace_manager.bind('prov', PROV, override=True, replace=True)
+
+  return g
+
+def write_graph(filename, diary, name):
+
+  g = create_graph(diary, name)
+  g.serialize(destination=filename, format='turtle')
 
 def write_file(filename, body):
 
@@ -25,7 +73,7 @@ def write_csv(filename, body):
       body, columns=['page', 'text', 'p', 'start', 'end', 'type', 'description'])
   df.to_csv(filename, index=False)
 
-def parse_pages(pages):
+def parse_pages(pages, diary):
   regexp = r'\[[0-9]+\][\s]*'
   body = ''
   body_html = ''
@@ -34,34 +82,50 @@ def parse_pages(pages):
   ner_body = []
   for i, page in enumerate(pages):
     match = re.match(regexp, page)
+
+    # if it's a paragraph containing a page heading 
+    # eg: "Friday, January 1, 1915, I Tatti"
     if match:
       if name is not None:
-        print(f'\t\tParsing page {name}')
+        print(f'Parsing page {name}')
 
+        # Text file
         write_file(os.path.join(output_path, 'txt', f'{name}.txt'), body)
 
+        # HTML file
         body_html = f'<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>{name}</title>\n\t</head>\n\t<body>\n{body_html}</body></html>'
         write_file(os.path.join(output_path, 'html', f'{name}.html'), body_html)
 
-        body_html = ''
+        # Turtle file
+        write_graph(os.path.join(output_path, 'ttl', f'{name}.ttl'), diary, name)
 
+        """
         ner_body_curr = execute_ner(body, name)
         ner_body.extend(ner_body_curr)
 
         write_csv(os.path.join(output_path, 'csv',
                   f'{name}.csv'), ner_body_curr)
+        """
+
+        body_html = ''
 
       name = re.sub(r'[\[\]\s]', '', match[0])
       body = f'{re.sub(regexp, "", page)}\n'
 
+    # internal paragraphs
     else:
       body += f'{page}\n'
       body_html += f'\t\t<p>{page}</p>\n'
+
+
+
+      
 
   write_csv(os.path.join(output_path, 'csv',
                          f'total.csv'), ner_body)
 
 def execute_ner(document, name):
+  nlp = spacy.load('en_core_web_trf')
   data = []
   pages = document.split('\n')
   for idx, page in enumerate(pages):
@@ -114,7 +178,7 @@ def create_dir(dir_path):
 # Default paths
 cur_path = os.path.dirname(os.path.realpath(__file__))
 
-filenames = ['1916']
+filenames = ['1915']
 
 for filename in filenames:
 
@@ -132,7 +196,7 @@ for filename in filenames:
   vec = convert2vec(file_input)
 
   # Execute page
-  parse_pages(vec)
+  parse_pages(vec, filename)
 
   # Execute NER
   """
