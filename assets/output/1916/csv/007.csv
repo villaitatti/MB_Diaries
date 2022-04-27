@@ -1,14 +1,12 @@
-page,text,p,start,end,type,description
-007,"Saturday, January 1, 1916",2,0,25,DATE,Absolute or relative dates or periods
-007,Julia,3,0,5,PERSON,"People, including fictional"
-007,Naima Löfroth,3,7,20,PERSON,"People, including fictional"
-007,Cecil Pinsent,3,22,35,PERSON,"People, including fictional"
-007,6,4,14,15,CARDINAL,Numerals that do not fall under another type
-007,Geoffrey,5,59,67,PERSON,"People, including fictional"
-007,"Nothing, for the Young",5,266,288,WORK_OF_ART,"Titles of books, songs, etc."
-007,Lina,6,15,19,PERSON,"People, including fictional"
-007,Gordon,6,24,30,PERSON,"People, including fictional"
-007,Julia,6,35,40,PERSON,"People, including fictional"
-007,Actons,6,48,54,PERSON,"People, including fictional"
-007,Florentines,6,128,139,NORP,Nationalities or religious or political groups
-007,Walter Dowdeswell,7,2,19,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+007,"Saturday, January 1, 1916",2,0,25,DATE,Absolute or relative dates or periods,,,,
+007,Julia,3,0,5,PERSON,"People, including fictional",,,,
+007,Naima Löfroth,3,7,20,PERSON,"People, including fictional",,,,
+007,Cecil Pinsent,3,22,35,PERSON,"People, including fictional",,,,
+007,Geoffrey,5,59,67,PERSON,"People, including fictional",,,,
+007,Lina,6,15,19,PERSON,"People, including fictional",,,,
+007,Gordon,6,24,30,PERSON,"People, including fictional",,,,
+007,Julia,6,35,40,PERSON,"People, including fictional",,,,
+007,Actons,6,48,54,PERSON,"People, including fictional",,,,
+007,Florentines,6,128,139,NORP,Nationalities or religious or political groups,,,,
+007,Walter Dowdeswell,7,2,19,PERSON,"People, including fictional",,,,

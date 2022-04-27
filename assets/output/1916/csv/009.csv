@@ -1,13 +1,12 @@
-page,text,p,start,end,type,description
-009,"Monday, January 3",2,0,17,DATE,Absolute or relative dates or periods
-009,Julia,3,0,5,PERSON,"People, including fictional"
-009,Geoffrey Scott,3,7,21,PERSON,"People, including fictional"
-009,Muggy,4,0,5,PERSON,"People, including fictional"
-009,Ross,6,12,16,PERSON,"People, including fictional"
-009,Ogilvy,6,25,31,PERSON,"People, including fictional"
-009,Geoffrey,6,78,86,PERSON,"People, including fictional"
-009,Marcella Michela,6,121,137,FAC,"Buildings, airports, highways, bridges, etc."
-009,Sybil,6,185,190,PERSON,"People, including fictional"
-009,B.B.,6,197,201,PERSON,"People, including fictional"
-009,Fisher,6,232,238,PERSON,"People, including fictional"
-009,Napoleon,6,242,250,WORK_OF_ART,"Titles of books, songs, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+009,"Monday, January 3",2,0,17,DATE,Absolute or relative dates or periods,,,,
+009,Julia,3,0,5,PERSON,"People, including fictional",,,,
+009,Geoffrey Scott,3,7,21,PERSON,"People, including fictional",,,,
+009,Muggy,4,0,5,PERSON,"People, including fictional",,,,
+009,Ross,6,12,16,PERSON,"People, including fictional",,,,
+009,Ogilvy,6,25,31,PERSON,"People, including fictional",,,,
+009,Geoffrey,6,78,86,PERSON,"People, including fictional",,,,
+009,Marcella Michela,6,121,137,PERSON,"People, including fictional",,,,
+009,Sybil,6,185,190,PERSON,"People, including fictional",,,,
+009,Fisher,6,232,238,PERSON,"People, including fictional",,,,
+009,Napoleon,6,242,250,WORK_OF_ART,"Titles of books, songs, etc.",,,,

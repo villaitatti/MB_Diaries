@@ -1,15 +1,15 @@
-page,text,p,start,end,type,description
-011,"Wednesday, January 5, 1916",2,0,26,DATE,Absolute or relative dates or periods
-011,Julia,3,0,5,PERSON,"People, including fictional"
-011,Cecil Pinsent,3,7,20,PERSON,"People, including fictional"
-011,Geoffrey Scott,3,22,36,PERSON,"People, including fictional"
-011,Misty,4,0,5,PERSON,"People, including fictional"
-011,Naima,6,49,54,PERSON,"People, including fictional"
-011,Lina,6,59,63,PERSON,"People, including fictional"
-011,Sybil,6,165,170,PERSON,"People, including fictional"
-011,Perry,7,8,13,PERSON,"People, including fictional"
-011,Trench,7,44,50,PERSON,"People, including fictional"
-011,Dumonts,7,56,63,PERSON,"People, including fictional"
-011,Lina,7,79,83,PERSON,"People, including fictional"
-011,Geoffrey,8,2,10,PERSON,"People, including fictional"
-011,nearly 2,8,45,53,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+011,"Wednesday, January 5, 1916",2,0,26,DATE,Absolute or relative dates or periods,,,,
+011,Julia,3,0,5,PERSON,"People, including fictional",,,,
+011,Cecil Pinsent,3,7,20,PERSON,"People, including fictional",,,,
+011,Geoffrey Scott,3,22,36,PERSON,"People, including fictional",,,,
+011,Misty,4,0,5,PERSON,"People, including fictional",,,,
+011,Naima,6,49,54,PERSON,"People, including fictional",,,,
+011,Lina,6,59,63,PERSON,"People, including fictional",,,,
+011,Sybil,6,165,170,PERSON,"People, including fictional",,,,
+011,Perry,7,8,13,PERSON,"People, including fictional",,,,
+011,Trench,7,44,50,PERSON,"People, including fictional",,,,
+011,Dumonts,7,56,63,PERSON,"People, including fictional",,,,
+011,Lina,7,79,83,PERSON,"People, including fictional",,,,
+011,Geoffrey,8,2,10,PERSON,"People, including fictional",,,,
+011,nearly 2,8,45,53,TIME,Times smaller than a day,,,,
