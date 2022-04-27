@@ -1,11 +1,11 @@
-page,text,p,start,end,type,description
-362,"Sunday, December 5, 1915",2,0,24,DATE,Absolute or relative dates or periods
-362,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-362,Naima Lofroth,3,16,29,PERSON,"People, including fictional"
-362,Geoffrey,5,2,10,PERSON,"People, including fictional"
-362,Cohen,5,24,29,PERSON,"People, including fictional"
-362,Grove,5,67,72,FAC,"Buildings, airports, highways, bridges, etc."
-362,Ray,6,9,12,PERSON,"People, including fictional"
-362,Sally Harlan,6,31,43,PERSON,"People, including fictional"
-362,Alys,6,45,49,PERSON,"People, including fictional"
-362,Italian,8,66,73,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+362,"Sunday, December 5, 1915",2,0,24,DATE,Absolute or relative dates or periods,,,,
+362,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+362,Naima Lofroth,3,16,29,PERSON,"People, including fictional",,,,
+362,Geoffrey,5,2,10,PERSON,"People, including fictional",,,,
+362,Cohen,5,24,29,PERSON,"People, including fictional",,,,
+362,Ray,6,9,12,PERSON,"People, including fictional",,,,
+362,Alban,6,14,19,PERSON,"People, including fictional",,,,
+362,Sally Harlan,6,31,43,PERSON,"People, including fictional",,,,
+362,Alys,6,45,49,PERSON,"People, including fictional",,,,
+362,Italian,8,66,73,NORP,Nationalities or religious or political groups,,,,

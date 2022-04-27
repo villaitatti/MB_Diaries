@@ -1,14 +1,14 @@
-page,text,p,start,end,type,description
-029,"Wednesday, January 6, 1915",2,0,26,DATE,Absolute or relative dates or periods
-029,Flora Priestley,3,0,15,PERSON,"People, including fictional"
-029,A.W. Benn,5,0,9,PERSON,"People, including fictional"
-029,Krayl,5,34,39,PERSON,"People, including fictional"
-029,Gordon Craig,5,89,101,PERSON,"People, including fictional"
-029,Placci,6,0,6,PERSON,"People, including fictional"
-029,Salvemini,6,11,20,PERSON,"People, including fictional"
-029,Italy,6,50,55,GPE,"Countries, cities, states"
-029,Placci,6,75,81,PERSON,"People, including fictional"
-029,the 20th of this month,6,90,112,DATE,Absolute or relative dates or periods
-029,Salvemini,6,114,123,PERSON,"People, including fictional"
-029,the 15th of February,6,127,147,DATE,Absolute or relative dates or periods
-029,the 23 of May.,8,22,36,DATE,Absolute or relative dates or periods
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+029,"Wednesday, January 6, 1915",2,0,26,DATE,Absolute or relative dates or periods,,,,
+029,Flora Priestley,3,0,15,PERSON,"People, including fictional",,,,
+029,A.W. Benn,5,0,9,PERSON,"People, including fictional",,,,
+029,Krayl,5,34,39,PERSON,"People, including fictional",,,,
+029,Gordon Craig,5,89,101,PERSON,"People, including fictional",,,,
+029,Placci,6,0,6,PERSON,"People, including fictional",,,,
+029,Salvemini,6,11,20,PERSON,"People, including fictional",,,,
+029,Italy,6,50,55,GPE,"Countries, cities, states",,,,
+029,Placci,6,75,81,PERSON,"People, including fictional",,,,
+029,the 20th of this month,6,90,112,DATE,Absolute or relative dates or periods,,,,
+029,Salvemini,6,114,123,PERSON,"People, including fictional",,,,
+029,the 15th of February,6,127,147,DATE,Absolute or relative dates or periods,,,,
+029,the 23 of May.,8,22,36,DATE,Absolute or relative dates or periods,,,,

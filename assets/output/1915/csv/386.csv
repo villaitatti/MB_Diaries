@@ -1,15 +1,15 @@
-page,text,p,start,end,type,description
-386,"Wednesday, December 29, 1915",2,0,28,DATE,Absolute or relative dates or periods
-386,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-386,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
-386,4,4,0,1,CARDINAL,Numerals that do not fall under another type
-386,8,4,8,9,CARDINAL,Numerals that do not fall under another type
-386,Che-mi-fa Michela,5,6,23,PERSON,"People, including fictional"
-386,BB,5,173,175,PERSON,"People, including fictional"
-386,Geoffrey,5,183,191,PERSON,"People, including fictional"
-386,Yoï,5,427,430,PERSON,"People, including fictional"
-386,Nello,5,453,458,PERSON,"People, including fictional"
-386,evening,5,472,479,TIME,Times smaller than a day
-386,Ross,5,486,490,PERSON,"People, including fictional"
-386,Lina,5,495,499,PERSON,"People, including fictional"
-386,Yoï,5,510,513,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+386,"Wednesday, December 29, 1915",2,0,28,DATE,Absolute or relative dates or periods,,,,
+386,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+386,Cecil Pinsent,3,16,29,PERSON,"People, including fictional",,,,
+386,4,4,0,1,CARDINAL,Numerals that do not fall under another type,,,,
+386,8,4,8,9,CARDINAL,Numerals that do not fall under another type,,,,
+386,Che-mi-fa Michela,5,6,23,PERSON,"People, including fictional",,,,
+386,BB,5,173,175,PERSON,"People, including fictional",,,,
+386,Geoffrey,5,183,191,PERSON,"People, including fictional",,,,
+386,Yoï,5,427,430,PERSON,"People, including fictional",,,,
+386,Nello,5,453,458,PERSON,"People, including fictional",,,,
+386,evening,5,472,479,TIME,Times smaller than a day,,,,
+386,Ross,5,486,490,PERSON,"People, including fictional",,,,
+386,Lina,5,495,499,PERSON,"People, including fictional",,,,
+386,Yoï,5,510,513,PERSON,"People, including fictional",,,,

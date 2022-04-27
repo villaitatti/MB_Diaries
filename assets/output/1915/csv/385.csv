@@ -1,20 +1,20 @@
-page,text,p,start,end,type,description
-385,"Tuesday, December 28, 1915",2,0,26,DATE,Absolute or relative dates or periods
-385,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-385,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
-385,3,4,0,1,CARDINAL,Numerals that do not fall under another type
-385,4,4,8,9,CARDINAL,Numerals that do not fall under another type
-385,Julia,5,2,7,PERSON,"People, including fictional"
-385,Iris,5,43,47,PERSON,"People, including fictional"
-385,Sybil,6,2,7,PERSON,"People, including fictional"
-385,BB,6,38,40,PERSON,"People, including fictional"
-385,Limerick,6,56,64,PERSON,"People, including fictional"
-385,Cochrane,6,137,145,PERSON,"People, including fictional"
-385,Herbert Horne,6,150,163,PERSON,"People, including fictional"
-385,Geoffrey,6,180,188,PERSON,"People, including fictional"
-385,Byba Guiliani,6,211,224,PERSON,"People, including fictional"
-385,Cecil,6,287,292,PERSON,"People, including fictional"
-385,Sybil,6,319,324,PERSON,"People, including fictional"
-385,Byba,6,339,343,PERSON,"People, including fictional"
-385,English,6,498,505,LANGUAGE,Any named language
-385,American,6,514,522,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+385,"Tuesday, December 28, 1915",2,0,26,DATE,Absolute or relative dates or periods,,,,
+385,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+385,Cecil Pinsent,3,16,29,PERSON,"People, including fictional",,,,
+385,3,4,0,1,CARDINAL,Numerals that do not fall under another type,,,,
+385,4,4,8,9,CARDINAL,Numerals that do not fall under another type,,,,
+385,Julia,5,2,7,PERSON,"People, including fictional",,,,
+385,Iris,5,43,47,PERSON,"People, including fictional",,,,
+385,Sybil,6,2,7,PERSON,"People, including fictional",,,,
+385,BB,6,38,40,PERSON,"People, including fictional",,,,
+385,Limerick,6,56,64,PERSON,"People, including fictional",,,,
+385,Cochrane,6,137,145,PERSON,"People, including fictional",,,,
+385,Herbert Horne,6,150,163,PERSON,"People, including fictional",,,,
+385,Geoffrey,6,180,188,PERSON,"People, including fictional",,,,
+385,Byba Guiliani,6,211,224,PERSON,"People, including fictional",,,,
+385,Cecil,6,287,292,PERSON,"People, including fictional",,,,
+385,Sybil,6,319,324,PERSON,"People, including fictional",,,,
+385,Byba,6,339,343,PERSON,"People, including fictional",,,,
+385,English,6,498,505,NORP,Nationalities or religious or political groups,,,,
+385,American,6,514,522,NORP,Nationalities or religious or political groups,,,,

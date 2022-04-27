@@ -1,16 +1,16 @@
-page,text,p,start,end,type,description
-073,"Friday, February 19, 1915",2,0,25,DATE,Absolute or relative dates or periods
-073,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-073,Sybil,6,2,7,PERSON,"People, including fictional"
-073,BB,6,19,21,PERSON,"People, including fictional"
-073,Cecil,7,0,5,PERSON,"People, including fictional"
-073,War,7,61,64,EVENT,"Named hurricanes, battles, wars, sports events, etc."
-073,only 2 month’s,7,121,135,DATE,Absolute or relative dates or periods
-073,Geoffrey,10,2,10,PERSON,"People, including fictional"
-073,BB,10,61,63,PERSON,"People, including fictional"
-073,Cecil,10,88,93,PERSON,"People, including fictional"
-073,Library,10,167,174,FAC,"Buildings, airports, highways, bridges, etc."
-073,Geoffrey,11,0,8,PERSON,"People, including fictional"
-073,Nicky Mariano,11,74,87,PERSON,"People, including fictional"
-073,Russia,11,99,105,GPE,"Countries, cities, states"
-073,Barbara,11,154,161,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+073,"Friday, February 19, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+073,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+073,Sybil,6,2,7,PERSON,"People, including fictional",,,,
+073,BB,6,19,21,PERSON,"People, including fictional",,,,
+073,Cecil,7,0,5,PERSON,"People, including fictional",,,,
+073,only 2 month’s,7,121,135,DATE,Absolute or relative dates or periods,,,,
+073,Geoffrey,10,2,10,PERSON,"People, including fictional",,,,
+073,BB,10,61,63,PERSON,"People, including fictional",,,,
+073,Cecil,10,88,93,PERSON,"People, including fictional",,,,
+073,Library,10,167,174,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+073,Geoffrey,11,0,8,PERSON,"People, including fictional",,,,
+073,Nicky Mariano,11,74,87,PERSON,"People, including fictional",,,,
+073,Russia,11,99,105,GPE,"Countries, cities, states",,,,
+073,½,11,113,114,CARDINAL,Numerals that do not fall under another type,,,,
+073,Barbara,11,154,161,PERSON,"People, including fictional",,,,

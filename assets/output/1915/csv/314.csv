@@ -1,10 +1,10 @@
-page,text,p,start,end,type,description
-314,"Monday, October 18, 1915",2,0,24,DATE,Absolute or relative dates or periods
-314,Ross,3,10,14,PERSON,"People, including fictional"
-314,Dumonts,3,33,40,PERSON,"People, including fictional"
-314,Horne,3,57,62,PERSON,"People, including fictional"
-314,Palazzo,3,139,146,FAC,"Buildings, airports, highways, bridges, etc."
-314,a Carlo Dolci,3,176,189,PERSON,"People, including fictional"
-314,Yoï,3,349,352,PERSON,"People, including fictional"
-314,4th,3,421,424,ORDINAL,"""first"", ""second"", etc."
-314,Nello,3,462,467,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+314,"Monday, October 18, 1915",2,0,24,DATE,Absolute or relative dates or periods,,,,
+314,Ross,3,10,14,PERSON,"People, including fictional",,,,
+314,Dumonts,3,33,40,PERSON,"People, including fictional",,,,
+314,Horne,3,57,62,PERSON,"People, including fictional",,,,
+314,Palazzo,3,139,146,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+314,a Carlo Dolci,3,176,189,PERSON,"People, including fictional",,,,
+314,Yoï,3,349,352,PERSON,"People, including fictional",,,,
+314,4th,3,421,424,ORDINAL,"""first"", ""second"", etc.",,,,
+314,Nello,3,462,467,PERSON,"People, including fictional",,,,

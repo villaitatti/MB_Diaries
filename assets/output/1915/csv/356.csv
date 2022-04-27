@@ -1,9 +1,8 @@
-page,text,p,start,end,type,description
-356,"Monday, November 29, 1915",2,0,25,DATE,Absolute or relative dates or periods
-356,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-356,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
-356,Pratolino,6,106,115,FAC,"Buildings, airports, highways, bridges, etc."
-356,Villa,6,151,156,FAC,"Buildings, airports, highways, bridges, etc."
-356,Napoleon,6,161,169,PERSON,"People, including fictional"
-356,Geoffrey,7,68,76,PERSON,"People, including fictional"
-356,the night,7,113,122,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+356,"Monday, November 29, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+356,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+356,Cecil Pinsent,3,16,29,PERSON,"People, including fictional",,,,
+356,Pratolino,6,106,115,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+356,Villa,6,151,156,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+356,Geoffrey,7,68,76,PERSON,"People, including fictional",,,,
+356,the night,7,113,122,TIME,Times smaller than a day,,,,

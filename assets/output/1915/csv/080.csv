@@ -1,7 +1,7 @@
-page,text,p,start,end,type,description
-080,"Friday, February 26, 1915",2,0,25,DATE,Absolute or relative dates or periods
-080,Geoffrey,5,43,51,PERSON,"People, including fictional"
-080,Vincigliata,5,142,153,GPE,"Countries, cities, states"
-080,3 hours,5,224,231,TIME,Times smaller than a day
-080,BB,6,2,4,PERSON,"People, including fictional"
-080,Sybil,6,27,32,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+080,"Friday, February 26, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+080,Geoffrey,5,43,51,PERSON,"People, including fictional",,,,
+080,Vincigliata,5,142,153,GPE,"Countries, cities, states",,,,
+080,3 hours,5,224,231,TIME,Times smaller than a day,,,,
+080,BB,6,2,4,PERSON,"People, including fictional",,,,
+080,Sybil,6,27,32,PERSON,"People, including fictional",,,,

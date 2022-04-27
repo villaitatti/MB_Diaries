@@ -1,4 +1,5 @@
 
+from asyncore import write
 import sys
 import os
 import re
@@ -7,10 +8,16 @@ import spacy
 import pandas as pd
 import numpy as np
 import datetime
+import urllib
 from rdflib import Graph, URIRef, namespace, Namespace, Literal
 
 sys.path.append('./assets')
 from convert import convert2text, convert2xml, convert2vec
+
+endpoint = 'http://localhost:10214/'
+
+tmp1 = 'admin'
+tmp2 = 'admin'
 
 def create_graph(diary_number, page_number):
 
@@ -33,12 +40,8 @@ def create_graph(diary_number, page_number):
   # LDP file container
   g.add( (PLATFORM.fileContainer, LDP.contains, BASE_NODE) )
 
-  g.add( (BASE_NODE, RDF.type, CRM.E33_Linguistic_Object) )
-  g.add( (BASE_NODE, RDF.type, DPUB_ANNOTATION.TextDocument) )
-  g.add( (BASE_NODE, RDF.type, CRMDIG.D1_Digital_Object) )
   g.add( (BASE_NODE, RDF.type, PLATFORM.File) )
-  g.add( (BASE_NODE, RDF.type, LDP.Resource) )
-  g.add( (BASE_NODE, RDF.type, PROV.Entity) )
+  g.add( (BASE_NODE, RDF.type, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/Document')) )
 
   g.add( (BASE_NODE, RDFS.label, Literal(page_number, datatype=XSD.string)) )
   g.add( (BASE_NODE, PLATFORM.fileContext, URIRef('http://www.researchspace.org/resource/TextDocuments')) )
@@ -57,6 +60,7 @@ def create_graph(diary_number, page_number):
 
 def write_graph(filename, diary, name):
 
+  create_dir(os.path.dirname(os.path.abspath(filename)))
   g = create_graph(diary, name)
   g.serialize(destination=filename, format='turtle')
 
@@ -71,16 +75,22 @@ def write_csv(filename, body):
   create_dir(os.path.dirname(os.path.abspath(filename))) 
   df = pd.DataFrame(
       body, columns=['page', 'text', 'p', 'start', 'end', 'type', 'description'])
+
+  df['wikidata'] = ''
+  df['viaf'] = ''
+  df['loc'] = ''
+  df['notes'] = ''
+
   df.to_csv(filename, index=False)
 
-def parse_pages(pages, diary):
+def parse_pages(output_path ,pages, diary):
+
   regexp = r'\[[0-9]+\][\s]*'
   body = ''
   body_html = ''
   name = None
 
-  ner_body = []
-  for i, page in enumerate(pages):
+  for page in pages:
     match = re.match(regexp, page)
 
     # if it's a paragraph containing a page heading 
@@ -99,14 +109,6 @@ def parse_pages(pages, diary):
         # Turtle file
         write_graph(os.path.join(output_path, 'ttl', f'{name}.ttl'), diary, name)
 
-        """
-        ner_body_curr = execute_ner(body, name)
-        ner_body.extend(ner_body_curr)
-
-        write_csv(os.path.join(output_path, 'csv',
-                  f'{name}.csv'), ner_body_curr)
-        """
-
         body_html = ''
 
       name = re.sub(r'[\[\]\s]', '', match[0])
@@ -117,15 +119,8 @@ def parse_pages(pages, diary):
       body += f'{page}\n'
       body_html += f'\t\t<p>{page}</p>\n'
 
+def execute_ner(nlp, document, name):
 
-
-      
-
-  write_csv(os.path.join(output_path, 'csv',
-                         f'total.csv'), ner_body)
-
-def execute_ner(document, name):
-  nlp = spacy.load('en_core_web_trf')
   data = []
   pages = document.split('\n')
   for idx, page in enumerate(pages):
@@ -174,6 +169,60 @@ def create_dir(dir_path):
   if not os.path.exists(dir_path):
     os.makedirs(dir_path)
 
+# Upload metadata
+def _del(filename, url):
+
+  # curl -v -u admin:admin -X DELETE -H 'Content-Type: text/turtle' http://127.0.0.1:10214/rdf-graph-store?graph=http%3A%2F%2Fdpub.cordh.net%2Fdocument%2FBernard_Berenson_in_Consuma_to_Yashiro_-1149037200.html%2Fcontext
+
+  command = f'curl -u {tmp1}:{tmp2} -X DELETE -H \'Content-Type: text/turtle\' {url}'
+
+  return f'DEL\t{os.system(command)}'
+
+def _post(filename, url):
+
+    #curl -v -u admin:admin -X POST -H 'Content-Type: text/turtle' --data-binary '@metadata/Bernard_Berenson_in_Consuma_to_Yashiro_-1149037200.html.ttl' http://127.0.0.1:10214/rdf-graph-store?graph=http%3A%2F%2Fdpub.cordh.net%2Fdocument%2FBernard_Berenson_in_Consuma_to_Yashiro_-1149037200.html%2Fcontext
+
+    command = f'curl -u {tmp1}:{tmp2} -X POST -H \'Content-Type: text/turtle\' --data-binary \'@{filename}\' {url}'
+
+    return f'POST\t{os.system(command)}'
+
+def upload(diary_dir, diary):
+
+  for i, ttl_file in enumerate(os.listdir(diary_dir)):
+
+    if i > 10:
+      break
+
+    file_name = ttl_file.replace('.ttl', '')
+    graph_name = urllib.parse.quote(f'https://mbdiaries.itatti.harvard.edu/document/{diary}/{file_name}/context')
+
+    r_url = f'{endpoint}?graph={graph_name}'
+
+    print(f'\n{filename}')
+
+    # DEL
+    print(_del(ttl_file, r_url))
+
+    # PUT
+    print(_post(ttl_file, r_url))
+
+def ner(output_path):
+  nlp = spacy.load('en_core_web_trf')
+  txt_path = os.path.join(output_path, 'txt')
+  csv_path = os.path.join(output_path, 'csv')
+
+  ner_body = []
+
+  for txt_file in os.listdir(txt_path):
+
+    name_file = txt_file.replace('.txt', '')
+    
+    with open(os.path.join(txt_path, txt_file), 'r') as f:
+
+      ner_body_curr = execute_ner(nlp, f.read(), name_file)
+      ner_body.append(ner_body_curr)
+
+      write_csv(os.path.join(csv_path,f'{name_file}.csv'), ner_body_curr)
 
 # Default paths
 cur_path = os.path.dirname(os.path.realpath(__file__))
@@ -196,13 +245,13 @@ for filename in filenames:
   vec = convert2vec(file_input)
 
   # Execute page
-  parse_pages(vec, filename)
+  parse_pages(output_path, vec, filename)
 
   # Execute NER
-  """
-  file_metadata = os.path.join(output_path, 'csv', filename, 'total.csv')
-  parse_metadata()
-  """
+  ner(output_path)
+  
+  # Upload
+  # upload(os.path.join(output_path, 'ttl'), filename)
 
   print()
     

@@ -1,11 +1,11 @@
-page,text,p,start,end,type,description
-148,"Wednesday, May 5, 1915",2,0,22,DATE,Absolute or relative dates or periods
-148,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-148,Geoffrey,6,2,10,PERSON,"People, including fictional"
-148,BB,6,21,23,ORG,"Companies, agencies, institutions, etc."
-148,Bellini,6,26,33,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-148,Benn,7,4,8,PERSON,"People, including fictional"
-148,Lina,7,42,46,PERSON,"People, including fictional"
-148,Ross,7,56,60,PERSON,"People, including fictional"
-148,BB,7,107,109,PERSON,"People, including fictional"
-148,Sybil,7,132,137,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+148,"Wednesday, May 5, 1915",2,0,22,DATE,Absolute or relative dates or periods,,,,
+148,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+148,Geoffrey,6,2,10,PERSON,"People, including fictional",,,,
+148,BB,6,21,23,ORG,"Companies, agencies, institutions, etc.",,,,
+148,Bellini,6,26,33,PRODUCT,"Objects, vehicles, foods, etc. (not services)",,,,
+148,Benn,7,4,8,PERSON,"People, including fictional",,,,
+148,Lina,7,42,46,PERSON,"People, including fictional",,,,
+148,Ross,7,56,60,PERSON,"People, including fictional",,,,
+148,BB,7,107,109,PERSON,"People, including fictional",,,,
+148,Sybil,7,132,137,PERSON,"People, including fictional",,,,

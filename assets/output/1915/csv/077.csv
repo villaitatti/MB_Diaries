@@ -1,13 +1,13 @@
-page,text,p,start,end,type,description
-077,"Tuesday, February 23, 1915",2,0,26,DATE,Absolute or relative dates or periods
-077,Priestly,5,7,15,PERSON,"People, including fictional"
-077,Janet,6,19,24,PERSON,"People, including fictional"
-077,Crisp,6,65,70,PERSON,"People, including fictional"
-077,Sybil,7,0,5,PERSON,"People, including fictional"
-077,Geoffrey,7,60,68,PERSON,"People, including fictional"
-077,Cecil,7,149,154,PERSON,"People, including fictional"
-077,one,7,224,227,CARDINAL,Numerals that do not fall under another type
-077,Cecil,7,243,248,PERSON,"People, including fictional"
-077,Geoffrey,7,331,339,PERSON,"People, including fictional"
-077,BB,8,11,13,PERSON,"People, including fictional"
-077,Geoffrey,8,70,78,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+077,"Tuesday, February 23, 1915",2,0,26,DATE,Absolute or relative dates or periods,,,,
+077,Priestly,5,7,15,PERSON,"People, including fictional",,,,
+077,Janet,6,19,24,PERSON,"People, including fictional",,,,
+077,Crisp,6,65,70,PERSON,"People, including fictional",,,,
+077,Sybil,7,0,5,PERSON,"People, including fictional",,,,
+077,Geoffrey,7,60,68,PERSON,"People, including fictional",,,,
+077,Cecil,7,149,154,PERSON,"People, including fictional",,,,
+077,one,7,224,227,CARDINAL,Numerals that do not fall under another type,,,,
+077,Cecil,7,243,248,PERSON,"People, including fictional",,,,
+077,Geoffrey,7,331,339,PERSON,"People, including fictional",,,,
+077,BB,8,11,13,PERSON,"People, including fictional",,,,
+077,Geoffrey,8,70,78,PERSON,"People, including fictional",,,,

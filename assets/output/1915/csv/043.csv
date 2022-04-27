@@ -1,14 +1,14 @@
-page,text,p,start,end,type,description
-043,"Wednesday, January 20, 1915",2,0,27,DATE,Absolute or relative dates or periods
-043,Geoffrey,5,2,10,PERSON,"People, including fictional"
-043,Cecil,5,15,20,PERSON,"People, including fictional"
-043,Rome,5,32,36,GPE,"Countries, cities, states"
-043,Geoffrey,5,38,46,PERSON,"People, including fictional"
-043,all day,5,125,132,DATE,Absolute or relative dates or periods
-043,Yoï,5,213,216,PERSON,"People, including fictional"
-043,B.B.,6,2,6,PERSON,"People, including fictional"
-043,Sybil,6,28,33,PERSON,"People, including fictional"
-043,a glorious day,6,84,98,DATE,Absolute or relative dates or periods
-043,American,6,106,114,NORP,Nationalities or religious or political groups
-043,Dumont,6,136,142,PERSON,"People, including fictional"
-043,American,6,162,170,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+043,"Wednesday, January 20, 1915",2,0,27,DATE,Absolute or relative dates or periods,,,,
+043,Geoffrey,5,2,10,PERSON,"People, including fictional",,,,
+043,Cecil,5,15,20,PERSON,"People, including fictional",,,,
+043,Rome,5,32,36,GPE,"Countries, cities, states",,,,
+043,Geoffrey,5,38,46,PERSON,"People, including fictional",,,,
+043,all day,5,125,132,DATE,Absolute or relative dates or periods,,,,
+043,Yoï,5,213,216,PERSON,"People, including fictional",,,,
+043,B.B.,6,2,6,ORG,"Companies, agencies, institutions, etc.",,,,
+043,Sybil,6,28,33,PERSON,"People, including fictional",,,,
+043,a glorious day,6,84,98,DATE,Absolute or relative dates or periods,,,,
+043,American,6,106,114,NORP,Nationalities or religious or political groups,,,,
+043,Dumont,6,136,142,PERSON,"People, including fictional",,,,
+043,American,6,162,170,NORP,Nationalities or religious or political groups,,,,

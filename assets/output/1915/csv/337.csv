@@ -1,13 +1,13 @@
-page,text,p,start,end,type,description
-337,"Wednesday, November 10, 1915",2,0,28,DATE,Absolute or relative dates or periods
-337,North Italians,4,12,26,NORP,Nationalities or religious or political groups
-337,Nello,4,28,33,PERSON,"People, including fictional"
-337,BB,4,55,57,PERSON,"People, including fictional"
-337,4,4,81,82,CARDINAL,Numerals that do not fall under another type
-337,Yoï,4,98,101,PERSON,"People, including fictional"
-337,Harry Wladimir Maraini,4,166,188,PERSON,"People, including fictional"
-337,Sept 23,4,189,196,DATE,Absolute or relative dates or periods
-337,Geoffrey,5,2,10,PERSON,"People, including fictional"
-337,BB,5,22,24,PERSON,"People, including fictional"
-337,dusk,5,60,64,TIME,Times smaller than a day
-337,Busch on Bismarck,6,17,34,WORK_OF_ART,"Titles of books, songs, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+337,"Wednesday, November 10, 1915",2,0,28,DATE,Absolute or relative dates or periods,,,,
+337,North Italians,4,12,26,NORP,Nationalities or religious or political groups,,,,
+337,Nello,4,28,33,PERSON,"People, including fictional",,,,
+337,BB,4,55,57,PERSON,"People, including fictional",,,,
+337,4,4,81,82,CARDINAL,Numerals that do not fall under another type,,,,
+337,Yoï,4,98,101,PERSON,"People, including fictional",,,,
+337,Harry Wladimir Maraini,4,166,188,PERSON,"People, including fictional",,,,
+337,Sept 23,4,189,196,DATE,Absolute or relative dates or periods,,,,
+337,Geoffrey,5,2,10,PERSON,"People, including fictional",,,,
+337,BB,5,22,24,PERSON,"People, including fictional",,,,
+337,dusk,5,60,64,TIME,Times smaller than a day,,,,
+337,Busch on Bismarck,6,17,34,WORK_OF_ART,"Titles of books, songs, etc.",,,,

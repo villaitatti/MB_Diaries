@@ -1,13 +1,13 @@
-page,text,p,start,end,type,description
-130,"Saturday, April 17, 1915",2,0,24,DATE,Absolute or relative dates or periods
-130,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-130,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
-130,Ray,3,31,34,PERSON,"People, including fictional"
-130,Pippa,3,36,41,PERSON,"People, including fictional"
-130,Ray,6,2,5,PERSON,"People, including fictional"
-130,Pippa,6,10,15,PERSON,"People, including fictional"
-130,the afternoon,6,42,55,TIME,Times smaller than a day
-130,Gamberaia,6,89,98,PERSON,"People, including fictional"
-130,BB,6,106,108,PERSON,"People, including fictional"
-130,Sybil,6,119,124,PERSON,"People, including fictional"
-130,Dumont,7,15,21,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+130,"Saturday, April 17, 1915",2,0,24,DATE,Absolute or relative dates or periods,,,,
+130,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+130,Cecil Pinsent,3,16,29,PERSON,"People, including fictional",,,,
+130,Ray,3,31,34,PERSON,"People, including fictional",,,,
+130,Pippa,3,36,41,PERSON,"People, including fictional",,,,
+130,Ray,6,2,5,PERSON,"People, including fictional",,,,
+130,Pippa,6,10,15,PERSON,"People, including fictional",,,,
+130,the afternoon,6,42,55,TIME,Times smaller than a day,,,,
+130,Gamberaia,6,89,98,PERSON,"People, including fictional",,,,
+130,BB,6,106,108,PERSON,"People, including fictional",,,,
+130,Sybil,6,119,124,PERSON,"People, including fictional",,,,
+130,Dumont,7,15,21,PERSON,"People, including fictional",,,,

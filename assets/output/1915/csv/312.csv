@@ -1,8 +1,8 @@
-page,text,p,start,end,type,description
-312,"Saturday, October 16, 1915",2,0,26,DATE,Absolute or relative dates or periods
-312,Cecil,5,0,5,PERSON,"People, including fictional"
-312,Geoffrey,5,10,18,PERSON,"People, including fictional"
-312,Pistoia,5,40,47,GPE,"Countries, cities, states"
-312,Capecchi,5,54,62,PERSON,"People, including fictional"
-312,two,7,4,7,CARDINAL,Numerals that do not fall under another type
-312,Hultons,7,13,20,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+312,"Saturday, October 16, 1915",2,0,26,DATE,Absolute or relative dates or periods,,,,
+312,Cecil,5,0,5,PERSON,"People, including fictional",,,,
+312,Geoffrey,5,10,18,PERSON,"People, including fictional",,,,
+312,Pistoia,5,40,47,GPE,"Countries, cities, states",,,,
+312,Capecchi,5,54,62,PERSON,"People, including fictional",,,,
+312,two,7,4,7,CARDINAL,Numerals that do not fall under another type,,,,
+312,Hultons,7,13,20,PERSON,"People, including fictional",,,,

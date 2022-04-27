@@ -1,9 +1,9 @@
-page,text,p,start,end,type,description
-049,"Tuesday, January 26, 1915",2,0,25,DATE,Absolute or relative dates or periods
-049,BB,5,26,28,PERSON,"People, including fictional"
-049,Sybil,5,46,51,PERSON,"People, including fictional"
-049,Alys,7,2,6,PERSON,"People, including fictional"
-049,Logan,7,19,24,PERSON,"People, including fictional"
-049,France,7,73,79,GPE,"Countries, cities, states"
-049,the British Red Cross,7,94,115,ORG,"Companies, agencies, institutions, etc."
-049,British,7,191,198,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+049,"Tuesday, January 26, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+049,BB,5,26,28,PERSON,"People, including fictional",,,,
+049,Sybil,5,46,51,PERSON,"People, including fictional",,,,
+049,Alys,7,2,6,PERSON,"People, including fictional",,,,
+049,Logan,7,19,24,PERSON,"People, including fictional",,,,
+049,France,7,73,79,GPE,"Countries, cities, states",,,,
+049,the British Red Cross,7,94,115,ORG,"Companies, agencies, institutions, etc.",,,,
+049,British,7,191,198,NORP,Nationalities or religious or political groups,,,,

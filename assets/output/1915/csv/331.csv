@@ -1,16 +1,16 @@
-page,text,p,start,end,type,description
-331,"Thursday, November 4, 1915",2,0,26,DATE,Absolute or relative dates or periods
-331,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-331,the morning,5,10,21,TIME,Times smaller than a day
-331,Bernard,5,27,34,PERSON,"People, including fictional"
-331,the afternoon,5,60,73,TIME,Times smaller than a day
-331,one,5,162,165,CARDINAL,Numerals that do not fall under another type
-331,BB,6,2,4,PERSON,"People, including fictional"
-331,Cecil,6,16,21,PERSON,"People, including fictional"
-331,Percy Lubbock,6,49,62,PERSON,"People, including fictional"
-331,Times,6,133,138,WORK_OF_ART,"Titles of books, songs, etc."
-331,Dutch,6,145,150,NORP,Nationalities or religious or political groups
-331,Times,6,219,224,WORK_OF_ART,"Titles of books, songs, etc."
-331,Germany,6,240,247,GPE,"Countries, cities, states"
-331,Bïslow,6,323,329,PERSON,"People, including fictional"
-331,Switzerland,6,339,350,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+331,"Thursday, November 4, 1915",2,0,26,DATE,Absolute or relative dates or periods,,,,
+331,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+331,morning,5,14,21,TIME,Times smaller than a day,,,,
+331,Bernard,5,27,34,PERSON,"People, including fictional",,,,
+331,afternoon,5,64,73,TIME,Times smaller than a day,,,,
+331,one,5,162,165,CARDINAL,Numerals that do not fall under another type,,,,
+331,BB,6,2,4,PERSON,"People, including fictional",,,,
+331,Cecil,6,16,21,PERSON,"People, including fictional",,,,
+331,Percy Lubbock,6,49,62,PERSON,"People, including fictional",,,,
+331,Times,6,133,138,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+331,Dutch,6,145,150,NORP,Nationalities or religious or political groups,,,,
+331,Times,6,219,224,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+331,Germany,6,240,247,GPE,"Countries, cities, states",,,,
+331,Bïslow,6,323,329,PERSON,"People, including fictional",,,,
+331,Switzerland,6,339,350,GPE,"Countries, cities, states",,,,

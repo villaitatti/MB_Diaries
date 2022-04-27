@@ -1,14 +1,14 @@
-page,text,p,start,end,type,description
-334,"Sunday, November 7, 1915",2,0,24,DATE,Absolute or relative dates or periods
-334,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-334,Naima Lofroth,3,16,29,PERSON,"People, including fictional"
-334,St. Martin’s summer,5,32,51,EVENT,"Named hurricanes, battles, wars, sports events, etc."
-334,this morning,6,43,55,TIME,Times smaller than a day
-334,Geoffrey,6,108,116,PERSON,"People, including fictional"
-334,Monte Senario,7,27,40,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-334,the afternoon,7,44,57,TIME,Times smaller than a day
-334,the Val di Mugello,7,128,146,FAC,"Buildings, airports, highways, bridges, etc."
-334,Ross,7,171,175,PERSON,"People, including fictional"
-334,Lina,7,180,184,PERSON,"People, including fictional"
-334,Janet,7,202,207,PERSON,"People, including fictional"
-334,England,7,226,233,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+334,"Sunday, November 7, 1915",2,0,24,DATE,Absolute or relative dates or periods,,,,
+334,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+334,Naima Lofroth,3,16,29,PERSON,"People, including fictional",,,,
+334,St. Martin’s summer,5,32,51,DATE,Absolute or relative dates or periods,,,,
+334,this morning,6,43,55,TIME,Times smaller than a day,,,,
+334,Geoffrey,6,108,116,PERSON,"People, including fictional",,,,
+334,Monte Senario,7,27,40,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+334,afternoon,7,48,57,TIME,Times smaller than a day,,,,
+334,the Val di Mugello,7,128,146,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+334,Ross,7,171,175,PERSON,"People, including fictional",,,,
+334,Lina,7,180,184,PERSON,"People, including fictional",,,,
+334,Janet,7,202,207,PERSON,"People, including fictional",,,,
+334,England,7,226,233,GPE,"Countries, cities, states",,,,

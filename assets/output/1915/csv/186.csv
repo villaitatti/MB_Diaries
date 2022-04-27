@@ -1,8 +1,8 @@
-page,text,p,start,end,type,description
-186,"Saturday, June 12, 1915",2,0,23,DATE,Absolute or relative dates or periods
-186,Grand Hotel,2,25,36,ORG,"Companies, agencies, institutions, etc."
-186,Rome,2,37,41,GPE,"Countries, cities, states"
-186,Ines,4,1,5,WORK_OF_ART,"Titles of books, songs, etc."
-186,Germans,4,46,53,NORP,Nationalities or religious or political groups
-186,Forum,5,44,49,FAC,"Buildings, airports, highways, bridges, etc."
-186,morning,5,76,83,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+186,"Saturday, June 12, 1915",2,0,23,DATE,Absolute or relative dates or periods,,,,
+186,Grand Hotel,2,25,36,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+186,Rome,2,37,41,GPE,"Countries, cities, states",,,,
+186,Ines,4,1,5,PERSON,"People, including fictional",,,,
+186,Germans,4,46,53,NORP,Nationalities or religious or political groups,,,,
+186,Forum,5,44,49,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+186,morning,5,76,83,TIME,Times smaller than a day,,,,

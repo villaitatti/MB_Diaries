@@ -1,7 +1,8 @@
-page,text,p,start,end,type,description
-027,"Monday, January 4, 1915",2,0,23,DATE,Absolute or relative dates or periods
-027,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-027,Priestly,6,41,49,PERSON,"People, including fictional"
-027,the afternoon,6,61,74,TIME,Times smaller than a day
-027,Mother,6,98,104,PERSON,"People, including fictional"
-027,92,6,109,111,DATE,Absolute or relative dates or periods
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+027,"Monday, January 4, 1915",2,0,23,DATE,Absolute or relative dates or periods,,,,
+027,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+027,The Nelson Gays,6,2,17,PERSON,"People, including fictional",,,,
+027,Priestly,6,41,49,PERSON,"People, including fictional",,,,
+027,afternoon,6,65,74,TIME,Times smaller than a day,,,,
+027,Mother,6,98,104,PERSON,"People, including fictional",,,,
+027,92,6,109,111,DATE,Absolute or relative dates or periods,,,,

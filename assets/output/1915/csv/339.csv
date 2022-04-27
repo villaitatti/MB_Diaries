@@ -1,11 +1,11 @@
-page,text,p,start,end,type,description
-339,"Friday, November 12, 1915",2,0,25,DATE,Absolute or relative dates or periods
-339,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-339,Yoï,7,9,12,PERSON,"People, including fictional"
-339,Bassiano,7,42,50,PERSON,"People, including fictional"
-339,Caetani,7,107,114,PERSON,"People, including fictional"
-339,Lina,8,10,14,PERSON,"People, including fictional"
-339,Sybil,9,0,5,PERSON,"People, including fictional"
-339,BB,9,20,22,PERSON,"People, including fictional"
-339,Placci,9,24,30,PERSON,"People, including fictional"
-339,Serbia,9,50,56,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+339,"Friday, November 12, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+339,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+339,Yoï,7,9,12,PERSON,"People, including fictional",,,,
+339,Bassiano,7,42,50,PERSON,"People, including fictional",,,,
+339,Caetani,7,107,114,PERSON,"People, including fictional",,,,
+339,Lina,8,10,14,PERSON,"People, including fictional",,,,
+339,Sybil,9,0,5,PERSON,"People, including fictional",,,,
+339,BB,9,20,22,PERSON,"People, including fictional",,,,
+339,Placci,9,24,30,PERSON,"People, including fictional",,,,
+339,Serbia,9,50,56,GPE,"Countries, cities, states",,,,

@@ -1,13 +1,13 @@
-page,text,p,start,end,type,description
-055,"Monday, February 1, 1915",2,0,24,DATE,Absolute or relative dates or periods
-055,Geoffrey Scott,4,0,14,PERSON,"People, including fictional"
-055,Cecil,5,2,7,PERSON,"People, including fictional"
-055,15 days,5,106,113,DATE,Absolute or relative dates or periods
-055,Committees,5,257,267,ORG,"Companies, agencies, institutions, etc."
-055,Italy,6,33,38,GPE,"Countries, cities, states"
-055,Janet,7,41,46,PERSON,"People, including fictional"
-055,Marainis,8,6,14,PERSON,"People, including fictional"
-055,Geoffrey,8,38,46,PERSON,"People, including fictional"
-055,only £300,8,137,146,MONEY,"Monetary values, including unit"
-055,Sybil’s,9,8,15,ORG,"Companies, agencies, institutions, etc."
-055,afternoon,9,19,28,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+055,"Monday, February 1, 1915",2,0,24,DATE,Absolute or relative dates or periods,,,,
+055,Geoffrey Scott,4,0,14,PERSON,"People, including fictional",,,,
+055,Cecil,5,2,7,PERSON,"People, including fictional",,,,
+055,15 days,5,106,113,DATE,Absolute or relative dates or periods,,,,
+055,Committees,5,257,267,ORG,"Companies, agencies, institutions, etc.",,,,
+055,Italy,6,33,38,GPE,"Countries, cities, states",,,,
+055,Janet,7,41,46,PERSON,"People, including fictional",,,,
+055,Marainis,8,6,14,PERSON,"People, including fictional",,,,
+055,Geoffrey,8,38,46,PERSON,"People, including fictional",,,,
+055,only £300,8,137,146,MONEY,"Monetary values, including unit",,,,
+055,Sybil’s,9,8,15,ORG,"Companies, agencies, institutions, etc.",,,,
+055,afternoon,9,19,28,TIME,Times smaller than a day,,,,

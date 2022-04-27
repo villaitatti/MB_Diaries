@@ -1,23 +1,23 @@
-page,text,p,start,end,type,description
-357,"Tuesday, November 30, 1915",2,0,26,DATE,Absolute or relative dates or periods
-357,Paterson,5,7,15,PERSON,"People, including fictional"
-357,Clapp,5,25,30,PERSON,"People, including fictional"
-357,Flora Priestley,5,74,89,PERSON,"People, including fictional"
-357,an hour and a quarter,5,106,127,TIME,Times smaller than a day
-357,Placci,6,12,18,PERSON,"People, including fictional"
-357,24 hours,6,29,37,TIME,Times smaller than a day
-357,Udine,6,46,51,GPE,"Countries, cities, states"
-357,Rome,6,56,60,GPE,"Countries, cities, states"
-357,Cadorna,6,81,88,PERSON,"People, including fictional"
-357,Italy,6,131,136,GPE,"Countries, cities, states"
-357,Germany,6,173,180,GPE,"Countries, cities, states"
-357,Romania,6,187,194,GPE,"Countries, cities, states"
-357,Greece,6,199,205,GPE,"Countries, cities, states"
-357,Bulgaria,6,237,245,GPE,"Countries, cities, states"
-357,Greece,6,311,317,GPE,"Countries, cities, states"
-357,Germany,6,331,338,GPE,"Countries, cities, states"
-357,Romania,6,343,350,GPE,"Countries, cities, states"
-357,Bassianos,6,360,369,PERSON,"People, including fictional"
-357,Marainis,6,374,382,PERSON,"People, including fictional"
-357,Geoffrey,6,397,405,PERSON,"People, including fictional"
-357,Yoï,6,443,446,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+357,"Tuesday, November 30, 1915",2,0,26,DATE,Absolute or relative dates or periods,,,,
+357,Paterson,5,7,15,PERSON,"People, including fictional",,,,
+357,Clapp,5,25,30,PERSON,"People, including fictional",,,,
+357,Flora Priestley,5,74,89,PERSON,"People, including fictional",,,,
+357,an hour and a quarter,5,106,127,TIME,Times smaller than a day,,,,
+357,Placci,6,12,18,PERSON,"People, including fictional",,,,
+357,24 hours,6,29,37,TIME,Times smaller than a day,,,,
+357,Udine,6,46,51,GPE,"Countries, cities, states",,,,
+357,Rome,6,56,60,GPE,"Countries, cities, states",,,,
+357,Cadorna,6,81,88,PERSON,"People, including fictional",,,,
+357,Italy,6,131,136,GPE,"Countries, cities, states",,,,
+357,Germany,6,173,180,GPE,"Countries, cities, states",,,,
+357,Romania,6,187,194,GPE,"Countries, cities, states",,,,
+357,Greece,6,199,205,GPE,"Countries, cities, states",,,,
+357,Bulgaria,6,237,245,GPE,"Countries, cities, states",,,,
+357,Greece,6,311,317,GPE,"Countries, cities, states",,,,
+357,Germany,6,331,338,GPE,"Countries, cities, states",,,,
+357,Romania,6,343,350,GPE,"Countries, cities, states",,,,
+357,Bassianos,6,360,369,PERSON,"People, including fictional",,,,
+357,Marainis,6,374,382,PERSON,"People, including fictional",,,,
+357,Geoffrey,6,397,405,PERSON,"People, including fictional",,,,
+357,Yoï really,6,443,453,PERSON,"People, including fictional",,,,

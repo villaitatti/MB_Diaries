@@ -1,7 +1,7 @@
-page,text,p,start,end,type,description
-046,"Saturday, January 23, 1915",2,0,26,DATE,Absolute or relative dates or periods
-046,Naima,4,0,5,PERSON,"People, including fictional"
-046,Nelly Erichsen,5,15,29,PERSON,"People, including fictional"
-046,Herbert Horne,5,73,86,PERSON,"People, including fictional"
-046,Geoffrey,6,0,8,PERSON,"People, including fictional"
-046,Naima,7,14,19,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+046,"Saturday, January 23, 1915",2,0,26,DATE,Absolute or relative dates or periods,,,,
+046,Naima,4,0,5,PERSON,"People, including fictional",,,,
+046,Nelly Erichsen,5,15,29,PERSON,"People, including fictional",,,,
+046,Herbert Horne,5,73,86,PERSON,"People, including fictional",,,,
+046,Geoffrey,6,0,8,PERSON,"People, including fictional",,,,
+046,Naima,7,14,19,PERSON,"People, including fictional",,,,

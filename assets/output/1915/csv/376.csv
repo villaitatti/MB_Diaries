@@ -1,13 +1,14 @@
-page,text,p,start,end,type,description
-376,"Sunday, December 19, 1915",2,0,25,DATE,Absolute or relative dates or periods
-376,Cecil Pinsent,4,0,13,PERSON,"People, including fictional"
-376,Naima Lofroth,4,15,28,PERSON,"People, including fictional"
-376,BB,7,2,4,PERSON,"People, including fictional"
-376,Naima,7,9,14,PERSON,"People, including fictional"
-376,Lina,7,48,52,PERSON,"People, including fictional"
-376,Janet,7,62,67,PERSON,"People, including fictional"
-376,Lucien,7,69,75,PERSON,"People, including fictional"
-376,Udine,7,113,118,GPE,"Countries, cities, states"
-376,tomorrow,7,119,127,DATE,Absolute or relative dates or periods
-376,Marcella,8,2,10,PERSON,"People, including fictional"
-376,Geoffrey,8,35,43,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+376,"Sunday, December 19, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+376,Cecil Pinsent,4,0,13,PERSON,"People, including fictional",,,,
+376,Naima Lofroth,4,15,28,PERSON,"People, including fictional",,,,
+376,BB,6,42,44,PERSON,"People, including fictional",,,,
+376,BB,7,2,4,PERSON,"People, including fictional",,,,
+376,Naima,7,9,14,PERSON,"People, including fictional",,,,
+376,Lina,7,48,52,PERSON,"People, including fictional",,,,
+376,Janet,7,62,67,PERSON,"People, including fictional",,,,
+376,Lucien,7,69,75,PERSON,"People, including fictional",,,,
+376,Udine,7,113,118,GPE,"Countries, cities, states",,,,
+376,tomorrow,7,119,127,DATE,Absolute or relative dates or periods,,,,
+376,Marcella,8,2,10,PERSON,"People, including fictional",,,,
+376,Geoffrey,8,35,43,PERSON,"People, including fictional",,,,

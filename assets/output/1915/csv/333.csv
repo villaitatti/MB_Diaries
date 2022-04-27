@@ -1,11 +1,10 @@
-page,text,p,start,end,type,description
-333,"Saturday, November 6, 1915",2,0,26,DATE,Absolute or relative dates or periods
-333,BB,5,12,14,PERSON,"People, including fictional"
-333,the Careggi hill,5,18,34,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-333,Bassianos,5,50,59,PERSON,"People, including fictional"
-333,Mascha,5,68,74,PERSON,"People, including fictional"
-333,Vida Bispham,6,2,14,PERSON,"People, including fictional"
-333,Riccardo Daddi,6,31,45,PERSON,"People, including fictional"
-333,francs,6,200,206,MONEY,"Monetary values, including unit"
-333,BB,7,2,4,PERSON,"People, including fictional"
-333,Sybil,7,15,20,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+333,"Saturday, November 6, 1915",2,0,26,DATE,Absolute or relative dates or periods,,,,
+333,BB,5,12,14,PERSON,"People, including fictional",,,,
+333,Careggi,5,22,29,PERSON,"People, including fictional",,,,
+333,Bassianos,5,50,59,PERSON,"People, including fictional",,,,
+333,Mascha,5,68,74,PERSON,"People, including fictional",,,,
+333,Vida Bispham,6,2,14,PERSON,"People, including fictional",,,,
+333,Riccardo Daddi,6,31,45,PERSON,"People, including fictional",,,,
+333,BB,7,2,4,PERSON,"People, including fictional",,,,
+333,Sybil,7,15,20,PERSON,"People, including fictional",,,,

@@ -1,16 +1,16 @@
-page,text,p,start,end,type,description
-330,"Wednesday, November 3, 1915",2,0,27,DATE,Absolute or relative dates or periods
-330,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-330,BB,4,2,4,PERSON,"People, including fictional"
-330,the day,4,73,80,DATE,Absolute or relative dates or periods
-330,Ross,5,14,18,PERSON,"People, including fictional"
-330,Dumonts,5,37,44,PERSON,"People, including fictional"
-330,Geoffrey,6,25,33,PERSON,"People, including fictional"
-330,Bernard,6,38,45,PERSON,"People, including fictional"
-330,Sybil,7,2,7,PERSON,"People, including fictional"
-330,Irene,7,12,17,PERSON,"People, including fictional"
-330,Cecil,7,22,27,PERSON,"People, including fictional"
-330,Carlo,7,32,37,PERSON,"People, including fictional"
-330,Ady Placci,7,42,52,PERSON,"People, including fictional"
-330,evening,7,86,93,TIME,Times smaller than a day
-330,Sybil,7,126,131,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+330,"Wednesday, November 3, 1915",2,0,27,DATE,Absolute or relative dates or periods,,,,
+330,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+330,BB,4,2,4,PERSON,"People, including fictional",,,,
+330,the day,4,73,80,DATE,Absolute or relative dates or periods,,,,
+330,Ross,5,14,18,PERSON,"People, including fictional",,,,
+330,Dumonts,5,37,44,PERSON,"People, including fictional",,,,
+330,Geoffrey,6,25,33,PERSON,"People, including fictional",,,,
+330,Bernard,6,38,45,PERSON,"People, including fictional",,,,
+330,Sybil,7,2,7,PERSON,"People, including fictional",,,,
+330,Irene,7,12,17,PERSON,"People, including fictional",,,,
+330,Cecil,7,22,27,PERSON,"People, including fictional",,,,
+330,Carlo,7,32,37,PERSON,"People, including fictional",,,,
+330,Ady Placci,7,42,52,PERSON,"People, including fictional",,,,
+330,evening,7,86,93,TIME,Times smaller than a day,,,,
+330,Sybil,7,126,131,PERSON,"People, including fictional",,,,

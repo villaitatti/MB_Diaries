@@ -1,7 +1,7 @@
-page,text,p,start,end,type,description
-180,"Sunday, June, 6 1915",2,0,20,DATE,Absolute or relative dates or periods
-180,Grand Hotel,2,22,33,FAC,"Buildings, airports, highways, bridges, etc."
-180,Rome,2,34,38,GPE,"Countries, cities, states"
-180,Rodds,3,35,40,PERSON,"People, including fictional"
-180,Geoffrey,4,0,8,PERSON,"People, including fictional"
-180,Villa Livia,4,25,36,FAC,"Buildings, airports, highways, bridges, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+180,"Sunday, June, 6 1915",2,0,20,DATE,Absolute or relative dates or periods,,,,
+180,Grand Hotel,2,22,33,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+180,Rome,2,34,38,GPE,"Countries, cities, states",,,,
+180,Rodds,3,35,40,PERSON,"People, including fictional",,,,
+180,Geoffrey,4,0,8,PERSON,"People, including fictional",,,,
+180,Villa Livia,4,25,36,GPE,"Countries, cities, states",,,,

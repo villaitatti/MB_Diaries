@@ -1,12 +1,12 @@
-page,text,p,start,end,type,description
-065,"Thursday, February 11, 1915",2,0,27,DATE,Absolute or relative dates or periods
-065,Geoffrey Scott,4,0,14,PERSON,"People, including fictional"
-065,Geoffrey,6,12,20,PERSON,"People, including fictional"
-065,Byba Giuliani,6,25,38,PERSON,"People, including fictional"
-065,Donizetti,6,42,51,PERSON,"People, including fictional"
-065,Elisir d'amore,6,61,75,WORK_OF_ART,"Titles of books, songs, etc."
-065,American,6,128,136,NORP,Nationalities or religious or political groups
-065,Burci,6,198,203,PERSON,"People, including fictional"
-065,Salvemini,7,2,11,PERSON,"People, including fictional"
-065,2 weeks,7,65,72,DATE,Absolute or relative dates or periods
-065,Balsorano,7,98,107,ORG,"Companies, agencies, institutions, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+065,"Thursday, February 11, 1915",2,0,27,DATE,Absolute or relative dates or periods,,,,
+065,Geoffrey Scott,4,0,14,PERSON,"People, including fictional",,,,
+065,Geoffrey,6,12,20,PERSON,"People, including fictional",,,,
+065,Byba Giuliani,6,25,38,PERSON,"People, including fictional",,,,
+065,Donizetti,6,42,51,PERSON,"People, including fictional",,,,
+065,Elisir d'amore,6,61,75,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+065,American,6,128,136,NORP,Nationalities or religious or political groups,,,,
+065,Burci,6,198,203,PERSON,"People, including fictional",,,,
+065,Salvemini,7,2,11,PERSON,"People, including fictional",,,,
+065,2 weeks,7,65,72,DATE,Absolute or relative dates or periods,,,,
+065,Balsorano,7,98,107,ORG,"Companies, agencies, institutions, etc.",,,,

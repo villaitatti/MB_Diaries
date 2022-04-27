@@ -1,7 +1,7 @@
-page,text,p,start,end,type,description
-341,"Sunday, November 14, 1915",2,0,25,DATE,Absolute or relative dates or periods
-341,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-341,Naima Lofroth,3,16,29,PERSON,"People, including fictional"
-341,North Italians,5,69,83,NORP,Nationalities or religious or political groups
-341,BB,5,99,101,PERSON,"People, including fictional"
-341,Naima,5,106,111,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+341,"Sunday, November 14, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+341,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+341,Naima Lofroth,3,16,29,PERSON,"People, including fictional",,,,
+341,North Italians,5,69,83,NORP,Nationalities or religious or political groups,,,,
+341,BB,5,99,101,PERSON,"People, including fictional",,,,
+341,Naima,5,106,111,PERSON,"People, including fictional",,,,

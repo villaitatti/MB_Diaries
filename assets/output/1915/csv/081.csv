@@ -1,11 +1,11 @@
-page,text,p,start,end,type,description
-081,"Saturday, February 27, 1915",2,0,27,DATE,Absolute or relative dates or periods
-081,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-081,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
-081,Giglioli,6,24,32,PERSON,"People, including fictional"
-081,Geoffrey,6,192,200,PERSON,"People, including fictional"
-081,Sybil,6,423,428,PERSON,"People, including fictional"
-081,Cecil,6,471,476,PERSON,"People, including fictional"
-081,Enniskillen,6,497,508,PERSON,"People, including fictional"
-081,some ten days ago,6,554,571,DATE,Absolute or relative dates or periods
-081,BB,6,610,612,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+081,"Saturday, February 27, 1915",2,0,27,DATE,Absolute or relative dates or periods,,,,
+081,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+081,Cecil Pinsent,3,16,29,PERSON,"People, including fictional",,,,
+081,Giglioli,6,24,32,PERSON,"People, including fictional",,,,
+081,Geoffrey,6,192,200,PERSON,"People, including fictional",,,,
+081,Sybil,6,423,428,PERSON,"People, including fictional",,,,
+081,Cecil,6,471,476,PERSON,"People, including fictional",,,,
+081,Enniskillen,6,497,508,PERSON,"People, including fictional",,,,
+081,some ten days ago,6,554,571,DATE,Absolute or relative dates or periods,,,,
+081,BB,6,610,612,PERSON,"People, including fictional",,,,

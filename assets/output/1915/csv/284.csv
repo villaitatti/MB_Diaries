@@ -1,12 +1,13 @@
-page,text,p,start,end,type,description
-284,"Saturday, September 18, 1915",2,0,28,DATE,Absolute or relative dates or periods
-284,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-284,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
-284,Yoi,4,12,15,PERSON,"People, including fictional"
-284,Bassiano,4,29,37,PERSON,"People, including fictional"
-284,Ross,4,84,88,PERSON,"People, including fictional"
-284,Alfred Benn,5,26,37,PERSON,"People, including fictional"
-284,Switzerland,5,46,57,GPE,"Countries, cities, states"
-284,the 16th,5,61,69,DATE,Absolute or relative dates or periods
-284,the morning of the 10th,5,98,121,TIME,Times smaller than a day
-284,all summer,5,156,166,DATE,Absolute or relative dates or periods
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+284,"Saturday, September 18, 1915",2,0,28,DATE,Absolute or relative dates or periods,,,,
+284,Tatti,2,32,37,GPE,"Countries, cities, states",,,,
+284,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+284,Cecil Pinsent,3,16,29,PERSON,"People, including fictional",,,,
+284,Yoi,4,12,15,PERSON,"People, including fictional",,,,
+284,Bassiano,4,29,37,PERSON,"People, including fictional",,,,
+284,Ross,4,84,88,PERSON,"People, including fictional",,,,
+284,Alfred Benn,5,26,37,PERSON,"People, including fictional",,,,
+284,Switzerland,5,46,57,GPE,"Countries, cities, states",,,,
+284,the 16th,5,61,69,DATE,Absolute or relative dates or periods,,,,
+284,the morning of the 10th,5,98,121,TIME,Times smaller than a day,,,,
+284,all summer,5,156,166,DATE,Absolute or relative dates or periods,,,,

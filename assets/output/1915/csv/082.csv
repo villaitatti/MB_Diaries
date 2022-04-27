@@ -1,19 +1,19 @@
-page,text,p,start,end,type,description
-082,"Sunday, February 28, 1915",2,0,25,DATE,Absolute or relative dates or periods
-082,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-082,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
-082,Margaret,6,2,10,PERSON,"People, including fictional"
-082,Guiliani,6,35,43,PERSON,"People, including fictional"
-082,Cecil,6,59,64,PERSON,"People, including fictional"
-082,Strongs,6,87,94,PERSON,"People, including fictional"
-082,Geoffrey,6,114,122,PERSON,"People, including fictional"
-082,Byba,6,149,153,PERSON,"People, including fictional"
-082,Yoï,6,216,219,PERSON,"People, including fictional"
-082,Cecil,6,221,226,PERSON,"People, including fictional"
-082,BB,6,245,247,PERSON,"People, including fictional"
-082,Ross,6,263,267,PERSON,"People, including fictional"
-082,Sunday,6,269,275,DATE,Absolute or relative dates or periods
-082,Sybil,6,298,303,GPE,"Countries, cities, states"
-082,A most beautiful day,7,2,22,DATE,Absolute or relative dates or periods
-082,Ray,7,46,49,PERSON,"People, including fictional"
-082,10,7,113,115,MONEY,"Monetary values, including unit"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+082,"Sunday, February 28, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+082,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+082,Cecil Pinsent,3,16,29,PERSON,"People, including fictional",,,,
+082,Margaret,6,2,10,PERSON,"People, including fictional",,,,
+082,Guiliani,6,35,43,PERSON,"People, including fictional",,,,
+082,Cecil,6,59,64,PERSON,"People, including fictional",,,,
+082,Strongs,6,87,94,PERSON,"People, including fictional",,,,
+082,Geoffrey,6,114,122,PERSON,"People, including fictional",,,,
+082,Byba,6,149,153,PERSON,"People, including fictional",,,,
+082,Yoï,6,216,219,PERSON,"People, including fictional",,,,
+082,Cecil,6,221,226,PERSON,"People, including fictional",,,,
+082,BB,6,245,247,PERSON,"People, including fictional",,,,
+082,Ross,6,263,267,PERSON,"People, including fictional",,,,
+082,Sunday,6,269,275,DATE,Absolute or relative dates or periods,,,,
+082,Sybil,6,298,303,GPE,"Countries, cities, states",,,,
+082,A most beautiful day,7,2,22,DATE,Absolute or relative dates or periods,,,,
+082,Ray,7,46,49,PERSON,"People, including fictional",,,,
+082,10,7,113,115,MONEY,"Monetary values, including unit",,,,

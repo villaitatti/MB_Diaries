@@ -1,10 +1,10 @@
-page,text,p,start,end,type,description
-176,"Wednesday, June 2, 1915",2,0,23,DATE,Absolute or relative dates or periods
-176,Albergo Pace,2,25,37,ORG,"Companies, agencies, institutions, etc."
-176,Scanno,2,39,45,GPE,"Countries, cities, states"
-176,Sybil,4,0,5,PERSON,"People, including fictional"
-176,BB,4,26,28,PERSON,"People, including fictional"
-176,Sulmona,4,106,113,GPE,"Countries, cities, states"
-176,Guardiagrele,5,13,25,GPE,"Countries, cities, states"
-176,Pescocostanzo,5,29,42,GPE,"Countries, cities, states"
-176,Maiella,5,71,78,FAC,"Buildings, airports, highways, bridges, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+176,"Wednesday, June 2, 1915",2,0,23,DATE,Absolute or relative dates or periods,,,,
+176,Albergo Pace,2,25,37,PERSON,"People, including fictional",,,,
+176,Scanno,2,39,45,GPE,"Countries, cities, states",,,,
+176,Sybil,4,0,5,PERSON,"People, including fictional",,,,
+176,BB,4,26,28,PERSON,"People, including fictional",,,,
+176,Sulmona,4,106,113,GPE,"Countries, cities, states",,,,
+176,Guardiagrele,5,13,25,GPE,"Countries, cities, states",,,,
+176,Pescocostanzo,5,29,42,GPE,"Countries, cities, states",,,,
+176,Maiella,5,71,78,FAC,"Buildings, airports, highways, bridges, etc.",,,,

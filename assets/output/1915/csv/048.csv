@@ -1,20 +1,20 @@
-page,text,p,start,end,type,description
-048,"Monday, January 25, 1915",2,0,24,DATE,Absolute or relative dates or periods
-048,Geoffrey,5,33,41,PERSON,"People, including fictional"
-048,Relief,5,89,95,ORG,"Companies, agencies, institutions, etc."
-048,Abruzzo,5,108,115,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-048,the night,5,129,138,TIME,Times smaller than a day
-048,Balsorano,5,142,151,GPE,"Countries, cities, states"
-048,Friday,5,153,159,DATE,Absolute or relative dates or periods
-048,Salvemini,5,201,210,PERSON,"People, including fictional"
-048,Socialist,5,227,236,NORP,Nationalities or religious or political groups
-048,Guido,6,25,30,PERSON,"People, including fictional"
-048,Rassegna d’Arte”,6,34,50,WORK_OF_ART,"Titles of books, songs, etc."
-048,Italian,6,58,65,NORP,Nationalities or religious or political groups
-048,Cracow,6,78,84,GPE,"Countries, cities, states"
-048,Yoï and,7,2,9,ORG,"Companies, agencies, institutions, etc."
-048,Nello,7,10,15,PERSON,"People, including fictional"
-048,Sybil,7,50,55,PERSON,"People, including fictional"
-048,B.B.,7,61,65,PERSON,"People, including fictional"
-048,Turner,7,121,127,PERSON,"People, including fictional"
-048,Guardi,7,132,138,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+048,"Monday, January 25, 1915",2,0,24,DATE,Absolute or relative dates or periods,,,,
+048,Geoffrey,5,33,41,PERSON,"People, including fictional",,,,
+048,Relief,5,89,95,ORG,"Companies, agencies, institutions, etc.",,,,
+048,Abruzzo,5,108,115,GPE,"Countries, cities, states",,,,
+048,the night,5,129,138,TIME,Times smaller than a day,,,,
+048,Balsorano,5,142,151,GPE,"Countries, cities, states",,,,
+048,Friday,5,153,159,DATE,Absolute or relative dates or periods,,,,
+048,Salvemini,5,201,210,PERSON,"People, including fictional",,,,
+048,Socialist,5,227,236,NORP,Nationalities or religious or political groups,,,,
+048,Guido,6,25,30,PERSON,"People, including fictional",,,,
+048,Rassegna d’Arte,6,34,49,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+048,Italian,6,58,65,NORP,Nationalities or religious or political groups,,,,
+048,Cracow,6,78,84,GPE,"Countries, cities, states",,,,
+048,Yoï,7,2,5,PERSON,"People, including fictional",,,,
+048,Nello,7,10,15,PERSON,"People, including fictional",,,,
+048,Sybil,7,50,55,PERSON,"People, including fictional",,,,
+048,B.B.,7,61,65,PERSON,"People, including fictional",,,,
+048,Turner,7,121,127,PERSON,"People, including fictional",,,,
+048,Guardi,7,132,138,PERSON,"People, including fictional",,,,

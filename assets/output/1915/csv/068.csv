@@ -1,9 +1,9 @@
-page,text,p,start,end,type,description
-068,"Sunday, February 14, 1915",2,0,25,DATE,Absolute or relative dates or periods
-068,Naima,4,0,5,PERSON,"People, including fictional"
-068,Geoffrey Scott,4,7,21,PERSON,"People, including fictional"
-068,51st,6,3,7,ORDINAL,"""first"", ""second"", etc."
-068,Geoffrey,8,0,8,PERSON,"People, including fictional"
-068,Donizetti,8,23,32,PERSON,"People, including fictional"
-068,Don Pasquale,8,36,48,WORK_OF_ART,"Titles of books, songs, etc."
-068,Byba Giuliani,8,56,69,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+068,"Sunday, February 14, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+068,Naima,4,0,5,PERSON,"People, including fictional",,,,
+068,Geoffrey Scott,4,7,21,PERSON,"People, including fictional",,,,
+068,51st,6,3,7,ORDINAL,"""first"", ""second"", etc.",,,,
+068,Geoffrey,8,0,8,PERSON,"People, including fictional",,,,
+068,Donizetti,8,23,32,PERSON,"People, including fictional",,,,
+068,Don Pasquale,8,36,48,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+068,Byba Giuliani,8,56,69,PERSON,"People, including fictional",,,,

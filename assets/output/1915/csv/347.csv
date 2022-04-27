@@ -1,18 +1,18 @@
-page,text,p,start,end,type,description
-347,"Saturday, November 20, 1915",2,0,27,DATE,Absolute or relative dates or periods
-347,Geoffrey Scott Naima Lofroth,3,0,28,PERSON,"People, including fictional"
-347,Ross,6,18,22,PERSON,"People, including fictional"
-347,Hunter,6,32,38,PERSON,"People, including fictional"
-347,the Red Cross Entertainment,6,51,78,ORG,"Companies, agencies, institutions, etc."
-347,Villa Medici,6,82,94,FAC,"Buildings, airports, highways, bridges, etc."
-347,Iris,6,156,160,PERSON,"People, including fictional"
-347,The Slippers of the Princess,6,168,196,WORK_OF_ART,"Titles of books, songs, etc."
-347,Cecil,6,299,304,PERSON,"People, including fictional"
-347,Guido,7,2,7,PERSON,"People, including fictional"
-347,11:30,7,16,21,TIME,Times smaller than a day
-347,Italy,7,95,100,GPE,"Countries, cities, states"
-347,Germany,7,155,162,GPE,"Countries, cities, states"
-347,Yoï,8,2,5,PERSON,"People, including fictional"
-347,Nello,8,38,43,PERSON,"People, including fictional"
-347,Geoffrey,8,48,56,PERSON,"People, including fictional"
-347,Geoffrey,8,94,102,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+347,"Saturday, November 20, 1915",2,0,27,DATE,Absolute or relative dates or periods,,,,
+347,Geoffrey Scott Naima Lofroth,3,0,28,PERSON,"People, including fictional",,,,
+347,Ross,6,18,22,PERSON,"People, including fictional",,,,
+347,Hunter,6,32,38,PERSON,"People, including fictional",,,,
+347,the Red Cross Entertainment,6,51,78,ORG,"Companies, agencies, institutions, etc.",,,,
+347,Villa Medici,6,82,94,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+347,Iris,6,156,160,PERSON,"People, including fictional",,,,
+347,The Slippers of the Princess,6,168,196,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+347,Cecil,6,299,304,PERSON,"People, including fictional",,,,
+347,Guido,7,2,7,PERSON,"People, including fictional",,,,
+347,11:30,7,16,21,TIME,Times smaller than a day,,,,
+347,Italy,7,95,100,GPE,"Countries, cities, states",,,,
+347,Germany,7,155,162,GPE,"Countries, cities, states",,,,
+347,Yoï,8,2,5,PERSON,"People, including fictional",,,,
+347,Nello,8,38,43,PERSON,"People, including fictional",,,,
+347,Geoffrey,8,48,56,PERSON,"People, including fictional",,,,
+347,Geoffrey,8,94,102,PERSON,"People, including fictional",,,,

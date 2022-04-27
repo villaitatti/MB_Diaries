@@ -1,8 +1,9 @@
-page,text,p,start,end,type,description
-030,"Thursday, January 7, 1915",2,0,25,DATE,Absolute or relative dates or periods
-030,Geoffrey Scott,3,7,21,PERSON,"People, including fictional"
-030,De Robeck,5,5,14,PERSON,"People, including fictional"
-030,3:30,5,28,32,TIME,Times smaller than a day
-030,Enniskillen,5,49,60,PERSON,"People, including fictional"
-030,Geoffrey,5,66,74,PERSON,"People, including fictional"
-030,Flora,5,84,89,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+030,"Thursday, January 7, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+030,Flora,3,0,5,PERSON,"People, including fictional",,,,
+030,Geoffrey Scott,3,7,21,PERSON,"People, including fictional",,,,
+030,De Robeck,5,5,14,PERSON,"People, including fictional",,,,
+030,3:30,5,28,32,TIME,Times smaller than a day,,,,
+030,Enniskillen,5,49,60,PERSON,"People, including fictional",,,,
+030,Geoffrey,5,66,74,PERSON,"People, including fictional",,,,
+030,Flora,5,84,89,PERSON,"People, including fictional",,,,

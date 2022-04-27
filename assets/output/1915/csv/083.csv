@@ -1,21 +1,21 @@
-page,text,p,start,end,type,description
-083,"Monday, March 1, 1915",2,0,21,DATE,Absolute or relative dates or periods
-083,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-083,Dardanelles,6,42,53,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-083,Gallipoli,6,96,105,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-083,Russian,6,117,124,NORP,Nationalities or religious or political groups
-083,Dacia,6,194,199,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-083,French,6,214,220,NORP,Nationalities or religious or political groups
-083,Brest,6,226,231,GPE,"Countries, cities, states"
-083,Bernhard,7,12,20,PERSON,"People, including fictional"
-083,Ross,7,74,78,PERSON,"People, including fictional"
-083,Erichsen,7,88,96,PERSON,"People, including fictional"
-083,Nello,7,98,103,PERSON,"People, including fictional"
-083,Yoï,7,130,133,PERSON,"People, including fictional"
-083,Ray,7,176,179,PERSON,"People, including fictional"
-083,Geoffrey,8,0,8,PERSON,"People, including fictional"
-083,Byba Giuliani,8,23,36,PERSON,"People, including fictional"
-083,Yoï,8,71,74,PERSON,"People, including fictional"
-083,Italians,8,151,159,NORP,Nationalities or religious or political groups
-083,Byba,8,195,199,PERSON,"People, including fictional"
-083,Yoï,8,241,244,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+083,"Monday, March 1, 1915",2,0,21,DATE,Absolute or relative dates or periods,,,,
+083,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+083,Dardanelles,6,42,53,PRODUCT,"Objects, vehicles, foods, etc. (not services)",,,,
+083,Gallipoli,6,96,105,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+083,Russian,6,117,124,NORP,Nationalities or religious or political groups,,,,
+083,Dacia,6,194,199,PRODUCT,"Objects, vehicles, foods, etc. (not services)",,,,
+083,French,6,214,220,NORP,Nationalities or religious or political groups,,,,
+083,Brest,6,226,231,GPE,"Countries, cities, states",,,,
+083,Bernhard,7,12,20,PERSON,"People, including fictional",,,,
+083,Ross,7,74,78,PERSON,"People, including fictional",,,,
+083,Erichsen,7,88,96,PERSON,"People, including fictional",,,,
+083,Nello,7,98,103,PERSON,"People, including fictional",,,,
+083,Yoï,7,130,133,PERSON,"People, including fictional",,,,
+083,Ray,7,176,179,PERSON,"People, including fictional",,,,
+083,Geoffrey,8,0,8,PERSON,"People, including fictional",,,,
+083,Byba Giuliani,8,23,36,PERSON,"People, including fictional",,,,
+083,Yoï,8,71,74,PERSON,"People, including fictional",,,,
+083,Italians,8,151,159,NORP,Nationalities or religious or political groups,,,,
+083,Byba,8,195,199,PERSON,"People, including fictional",,,,
+083,Yoï,8,241,244,PERSON,"People, including fictional",,,,

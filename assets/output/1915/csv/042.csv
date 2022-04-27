@@ -1,23 +1,23 @@
-page,text,p,start,end,type,description
-042,"Tuesday, January 19, 1915",2,0,25,DATE,Absolute or relative dates or periods
-042,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-042,all morning,5,9,20,TIME,Times smaller than a day
-042,Cecil,5,65,70,PERSON,"People, including fictional"
-042,500 francs,5,101,111,MONEY,"Monetary values, including unit"
-042,Terremoto,5,120,129,PERSON,"People, including fictional"
-042,Abruzzo,5,147,154,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-042,Geoffrey,6,0,8,PERSON,"People, including fictional"
-042,Cecil,6,13,18,PERSON,"People, including fictional"
-042,Geoffrey,6,83,91,PERSON,"People, including fictional"
-042,Loesers,6,112,119,PERSON,"People, including fictional"
-042,Yoï,6,133,136,PERSON,"People, including fictional"
-042,Nello,6,138,143,PERSON,"People, including fictional"
-042,Yoï,6,181,184,PERSON,"People, including fictional"
-042,Geoffrey,6,195,203,PERSON,"People, including fictional"
-042,Stan Krayl,6,427,437,PERSON,"People, including fictional"
-042,Stan,6,500,504,PERSON,"People, including fictional"
-042,Yoï,6,557,560,PERSON,"People, including fictional"
-042,Nello,6,572,577,PERSON,"People, including fictional"
-042,Geoffrey,6,599,607,PERSON,"People, including fictional"
-042,Yoï,6,633,636,PERSON,"People, including fictional"
-042,Geoffrey,6,664,672,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+042,"Tuesday, January 19, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+042,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+042,all morning,5,9,20,TIME,Times smaller than a day,,,,
+042,Cecil,5,65,70,PERSON,"People, including fictional",,,,
+042,500 francs,5,101,111,MONEY,"Monetary values, including unit",,,,
+042,Terremoto,5,120,129,PERSON,"People, including fictional",,,,
+042,Abruzzo,5,147,154,GPE,"Countries, cities, states",,,,
+042,Geoffrey,6,0,8,PERSON,"People, including fictional",,,,
+042,Cecil,6,13,18,PERSON,"People, including fictional",,,,
+042,Geoffrey,6,83,91,PERSON,"People, including fictional",,,,
+042,Loesers,6,112,119,PERSON,"People, including fictional",,,,
+042,Yoï,6,133,136,PERSON,"People, including fictional",,,,
+042,Nello,6,138,143,PERSON,"People, including fictional",,,,
+042,Yoï,6,181,184,PERSON,"People, including fictional",,,,
+042,Geoffrey,6,195,203,PERSON,"People, including fictional",,,,
+042,Stan Krayl,6,427,437,PERSON,"People, including fictional",,,,
+042,Stan,6,500,504,PERSON,"People, including fictional",,,,
+042,Yoï,6,557,560,PERSON,"People, including fictional",,,,
+042,Nello,6,572,577,PERSON,"People, including fictional",,,,
+042,Geoffrey,6,599,607,PERSON,"People, including fictional",,,,
+042,Yoï,6,633,636,PERSON,"People, including fictional",,,,
+042,Geoffrey,6,664,672,PERSON,"People, including fictional",,,,

@@ -1,4 +1,3 @@
-page,text,p,start,end,type,description
-031,"Friday, January 8, 1915",2,0,23,DATE,Absolute or relative dates or periods
-031,9.30,6,11,15,TIME,Times smaller than a day
-031,Florence Blood’s Days,7,39,60,WORK_OF_ART,"Titles of books, songs, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+031,"Friday, January 8, 1915",2,0,23,DATE,Absolute or relative dates or periods,,,,
+031,9.30,6,11,15,TIME,Times smaller than a day,,,,

@@ -1,15 +1,15 @@
-page,text,p,start,end,type,description
-348,"Sunday, November 21, 1915",2,0,25,DATE,Absolute or relative dates or periods
-348,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-348,Naima Lofroth,3,16,29,PERSON,"People, including fictional"
-348,morning,6,12,19,TIME,Times smaller than a day
-348,Pieros,6,57,63,PERSON,"People, including fictional"
-348,Geoffrey,6,140,148,PERSON,"People, including fictional"
-348,Dumont,8,11,17,PERSON,"People, including fictional"
-348,Flowroy,8,36,43,PERSON,"People, including fictional"
-348,American,8,59,67,NORP,Nationalities or religious or political groups
-348,Volpi,8,89,94,PERSON,"People, including fictional"
-348,America,8,107,114,GPE,"Countries, cities, states"
-348,4 million,8,120,129,CARDINAL,Numerals that do not fall under another type
-348,Ciampolini,8,173,183,PERSON,"People, including fictional"
-348,2,8,239,240,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+348,"Sunday, November 21, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+348,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+348,Naima Lofroth,3,16,29,PERSON,"People, including fictional",,,,
+348,morning,6,12,19,TIME,Times smaller than a day,,,,
+348,Pieros,6,57,63,PERSON,"People, including fictional",,,,
+348,Geoffrey,6,140,148,PERSON,"People, including fictional",,,,
+348,Dumont,8,11,17,PERSON,"People, including fictional",,,,
+348,Flowroy,8,36,43,PERSON,"People, including fictional",,,,
+348,American,8,59,67,NORP,Nationalities or religious or political groups,,,,
+348,Volpi,8,89,94,PERSON,"People, including fictional",,,,
+348,America,8,107,114,GPE,"Countries, cities, states",,,,
+348,4 million,8,120,129,CARDINAL,Numerals that do not fall under another type,,,,
+348,Ciampolini,8,173,183,PERSON,"People, including fictional",,,,
+348,2,8,239,240,CARDINAL,Numerals that do not fall under another type,,,,

@@ -1,5 +1,5 @@
-page,text,p,start,end,type,description
-109,"Saturday, March 27, 1915",2,0,24,DATE,Absolute or relative dates or periods
-109,Ray,3,0,3,PERSON,"People, including fictional"
-109,Geoffrey Scott,3,5,19,PERSON,"People, including fictional"
-109,Priestley,5,5,14,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+109,"Saturday, March 27, 1915",2,0,24,DATE,Absolute or relative dates or periods,,,,
+109,Ray,3,0,3,PERSON,"People, including fictional",,,,
+109,Geoffrey Scott,3,5,19,PERSON,"People, including fictional",,,,
+109,Priestley,5,5,14,PERSON,"People, including fictional",,,,

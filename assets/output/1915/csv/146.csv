@@ -1,14 +1,13 @@
-page,text,p,start,end,type,description
-146,"Monday, May 3, 1915",2,0,19,DATE,Absolute or relative dates or periods
-146,day,4,8,11,DATE,Absolute or relative dates or periods
-146,Margaret,4,22,30,PERSON,"People, including fictional"
-146,Vida Bispham,4,57,69,PERSON,"People, including fictional"
-146,BB Yoï,4,83,89,ORG,"Companies, agencies, institutions, etc."
-146,Nello,4,94,99,PERSON,"People, including fictional"
-146,Mascha,4,104,110,PERSON,"People, including fictional"
-146,Travers-Borgström,4,138,155,PERSON,"People, including fictional"
-146,Geoffrey,4,170,178,PERSON,"People, including fictional"
-146,Sybil,4,214,219,PERSON,"People, including fictional"
-146,Yoï,5,0,3,PERSON,"People, including fictional"
-146,Nello,5,31,36,PERSON,"People, including fictional"
-146,English,5,79,86,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+146,"Monday, May 3, 1915",2,0,19,DATE,Absolute or relative dates or periods,,,,
+146,Margaret,4,22,30,PERSON,"People, including fictional",,,,
+146,Vida Bispham,4,57,69,PERSON,"People, including fictional",,,,
+146,Yoï,4,86,89,PERSON,"People, including fictional",,,,
+146,Nello,4,94,99,PERSON,"People, including fictional",,,,
+146,Mascha,4,104,110,PERSON,"People, including fictional",,,,
+146,Travers-Borgström,4,138,155,PERSON,"People, including fictional",,,,
+146,Geoffrey,4,170,178,PERSON,"People, including fictional",,,,
+146,Sybil,4,214,219,PERSON,"People, including fictional",,,,
+146,Yoï,5,0,3,PERSON,"People, including fictional",,,,
+146,Nello,5,31,36,PERSON,"People, including fictional",,,,
+146,English,5,79,86,NORP,Nationalities or religious or political groups,,,,

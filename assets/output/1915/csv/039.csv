@@ -1,20 +1,19 @@
-page,text,p,start,end,type,description
-039,"Saturday, January 16, 1915",2,0,26,DATE,Absolute or relative dates or periods
-039,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-039,Cecil Pinsent,3,16,29,PERSON,"People, including fictional"
-039,Naima,3,31,36,GPE,"Countries, cities, states"
-039,Cecil,5,2,7,PERSON,"People, including fictional"
-039,5:45 train,5,15,25,TIME,Times smaller than a day
-039,Empoli,5,29,35,GPE,"Countries, cities, states"
-039,San Miniato al Tedesco,5,84,106,FAC,"Buildings, airports, highways, bridges, etc."
-039,6,5,187,188,TIME,Times smaller than a day
-039,BB,6,2,4,PERSON,"People, including fictional"
-039,Sybil,6,24,29,PERSON,"People, including fictional"
-039,Janet,6,59,64,PERSON,"People, including fictional"
-039,Crisp,6,66,71,PERSON,"People, including fictional"
-039,German,6,86,92,NORP,Nationalities or religious or political groups
-039,5th,6,149,152,ORDINAL,"""first"", ""second"", etc."
-039,11:30,6,156,161,TIME,Times smaller than a day
-039,noon,6,178,182,TIME,Times smaller than a day
-039,Indian,7,12,18,NORP,Nationalities or religious or political groups
-039,evening,7,29,36,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+039,"Saturday, January 16, 1915",2,0,26,DATE,Absolute or relative dates or periods,,,,
+039,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+039,Cecil Pinsent,3,16,29,PERSON,"People, including fictional",,,,
+039,Naima,3,31,36,GPE,"Countries, cities, states",,,,
+039,Cecil,5,2,7,PERSON,"People, including fictional",,,,
+039,5:45,5,15,19,TIME,Times smaller than a day,,,,
+039,Empoli,5,29,35,GPE,"Countries, cities, states",,,,
+039,San Miniato al Tedesco,5,84,106,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+039,BB,6,2,4,PERSON,"People, including fictional",,,,
+039,Sybil,6,24,29,PERSON,"People, including fictional",,,,
+039,Janet,6,59,64,PERSON,"People, including fictional",,,,
+039,Crisp,6,66,71,PERSON,"People, including fictional",,,,
+039,German,6,86,92,NORP,Nationalities or religious or political groups,,,,
+039,5th,6,149,152,ORDINAL,"""first"", ""second"", etc.",,,,
+039,11:30,6,156,161,TIME,Times smaller than a day,,,,
+039,noon,6,178,182,TIME,Times smaller than a day,,,,
+039,Indian,7,12,18,NORP,Nationalities or religious or political groups,,,,
+039,evening,7,29,36,TIME,Times smaller than a day,,,,

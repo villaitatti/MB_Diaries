@@ -1,6 +1,6 @@
-page,text,p,start,end,type,description
-313,"Sunday, October 17, 1915",2,0,24,DATE,Absolute or relative dates or periods
-313,BB,3,12,14,PERSON,"People, including fictional"
-313,Geoffrey,3,19,27,PERSON,"People, including fictional"
-313,the Madonna del Sasso,3,31,52,FAC,"Buildings, airports, highways, bridges, etc."
-313,the year,3,81,89,DATE,Absolute or relative dates or periods
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+313,"Sunday, October 17, 1915",2,0,24,DATE,Absolute or relative dates or periods,,,,
+313,BB,3,12,14,PERSON,"People, including fictional",,,,
+313,Geoffrey,3,19,27,PERSON,"People, including fictional",,,,
+313,the Madonna del Sasso,3,31,52,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+313,the year,3,81,89,DATE,Absolute or relative dates or periods,,,,

@@ -1,42 +1,43 @@
-page,text,p,start,end,type,description
-382,"Saturday, December 25, 1915",2,0,27,DATE,Absolute or relative dates or periods
-382,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-382,Naima Lofroth,3,16,29,PERSON,"People, including fictional"
-382,Julia,3,31,36,PERSON,"People, including fictional"
-382,Lina,5,2,6,PERSON,"People, including fictional"
-382,Menagerie,5,105,114,FAC,"Buildings, airports, highways, bridges, etc."
-382,Julia,5,128,133,PERSON,"People, including fictional"
-382,Naima,5,138,143,PERSON,"People, including fictional"
-382,Sybil,5,180,185,PERSON,"People, including fictional"
-382,Irene,5,190,195,PERSON,"People, including fictional"
-382,tomorrow,5,252,260,DATE,Absolute or relative dates or periods
-382,Cecil,5,262,267,PERSON,"People, including fictional"
-382,Geoffrey,5,272,280,PERSON,"People, including fictional"
-382,Villa Medici,5,290,302,FAC,"Buildings, airports, highways, bridges, etc."
-382,Naima,7,0,5,PERSON,"People, including fictional"
-382,Julia,8,0,5,PERSON,"People, including fictional"
-382,20,9,0,2,CARDINAL,Numerals that do not fall under another type
-382,Amerigo,10,0,7,PERSON,"People, including fictional"
-382,Giulio,11,0,6,PERSON,"People, including fictional"
-382,Cuoco,12,0,5,ORG,"Companies, agencies, institutions, etc."
-382,Maria,13,0,5,PERSON,"People, including fictional"
-382,Eliza,14,0,5,PERSON,"People, including fictional"
-382,Agusta,15,0,6,PERSON,"People, including fictional"
-382,Argia,16,0,5,PERSON,"People, including fictional"
-382,Giulio,18,0,6,PERSON,"People, including fictional"
-382,Alberti,19,0,7,GPE,"Countries, cities, states"
-382,Manelli,20,0,7,PERSON,"People, including fictional"
-382,Agostino,21,0,8,PERSON,"People, including fictional"
-382,Rosa,24,0,4,PERSON,"People, including fictional"
-382,Biondani,25,0,8,PERSON,"People, including fictional"
-382,Gali,26,0,4,GPE,"Countries, cities, states"
-382,Poggio,26,8,14,FAC,"Buildings, airports, highways, bridges, etc."
-382,100,36,0,3,CARDINAL,Numerals that do not fall under another type
-382,Ammannati,36,18,27,PERSON,"People, including fictional"
-382,25,37,0,2,CARDINAL,Numerals that do not fall under another type
-382,Contadini,38,8,17,PERSON,"People, including fictional"
-382,Fosco,39,0,5,ORG,"Companies, agencies, institutions, etc."
-382,Lina,39,7,11,PERSON,"People, including fictional"
-382,10,40,10,12,CARDINAL,Numerals that do not fall under another type
-382,Orfani 10,41,0,9,PERSON,"People, including fictional"
-382,Beppina 5,42,0,9,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+382,"Saturday, December 25, 1915",2,0,27,DATE,Absolute or relative dates or periods,,,,
+382,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+382,Naima Lofroth,3,16,29,PERSON,"People, including fictional",,,,
+382,Julia,3,31,36,PERSON,"People, including fictional",,,,
+382,Lina,5,2,6,PERSON,"People, including fictional",,,,
+382,Julia,5,128,133,PERSON,"People, including fictional",,,,
+382,Naima,5,138,143,PERSON,"People, including fictional",,,,
+382,Sybil,5,180,185,PERSON,"People, including fictional",,,,
+382,Irene,5,190,195,PERSON,"People, including fictional",,,,
+382,tomorrow,5,252,260,DATE,Absolute or relative dates or periods,,,,
+382,Cecil,5,262,267,PERSON,"People, including fictional",,,,
+382,Geoffrey,5,272,280,PERSON,"People, including fictional",,,,
+382,Villa Medici,5,290,302,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+382,Naima,7,0,5,PERSON,"People, including fictional",,,,
+382,Julia,8,0,5,PERSON,"People, including fictional",,,,
+382,20,9,0,2,CARDINAL,Numerals that do not fall under another type,,,,
+382,Amerigo,10,0,7,PERSON,"People, including fictional",,,,
+382,Giulio,11,0,6,PERSON,"People, including fictional",,,,
+382,Cuoco,12,0,5,ORG,"Companies, agencies, institutions, etc.",,,,
+382,Maria,13,0,5,PERSON,"People, including fictional",,,,
+382,Eliza,14,0,5,PERSON,"People, including fictional",,,,
+382,Agusta,15,0,6,PERSON,"People, including fictional",,,,
+382,Argia,16,0,5,PERSON,"People, including fictional",,,,
+382,Giulio,18,0,6,PERSON,"People, including fictional",,,,
+382,Alberti,19,0,7,PERSON,"People, including fictional",,,,
+382,Manelli,20,0,7,PERSON,"People, including fictional",,,,
+382,Agostino,21,0,8,PERSON,"People, including fictional",,,,
+382,Rosa,24,0,4,PERSON,"People, including fictional",,,,
+382,Biondani,25,0,8,PERSON,"People, including fictional",,,,
+382,Gali,26,0,4,PERSON,"People, including fictional",,,,
+382,Poggio,26,8,14,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+382,Frati,28,0,5,PERSON,"People, including fictional",,,,
+382,Scuola,30,0,6,PERSON,"People, including fictional",,,,
+382,100,36,0,3,CARDINAL,Numerals that do not fall under another type,,,,
+382,25,37,0,2,CARDINAL,Numerals that do not fall under another type,,,,
+382,Franciscans,37,3,14,NORP,Nationalities or religious or political groups,,,,
+382,Contadini,38,8,17,PERSON,"People, including fictional",,,,
+382,Fosco,39,0,5,PERSON,"People, including fictional",,,,
+382,Lina,39,7,11,PERSON,"People, including fictional",,,,
+382,Stimatine 10,40,0,12,PERSON,"People, including fictional",,,,
+382,Orfani 10,41,0,9,PERSON,"People, including fictional",,,,
+382,Beppina 5,42,0,9,PERSON,"People, including fictional",,,,

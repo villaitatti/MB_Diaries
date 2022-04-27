@@ -1,9 +1,9 @@
-page,text,p,start,end,type,description
-090,"Monday, March 8, 1915",2,0,21,DATE,Absolute or relative dates or periods
-090,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-090,Ray,6,2,5,PERSON,"People, including fictional"
-090,Barbara,6,180,187,PERSON,"People, including fictional"
-090,B.B.,7,0,4,PERSON,"People, including fictional"
-090,Geoffrey,7,9,17,PERSON,"People, including fictional"
-090,BB,7,60,62,PERSON,"People, including fictional"
-090,Janet,7,84,89,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+090,"Monday, March 8, 1915",2,0,21,DATE,Absolute or relative dates or periods,,,,
+090,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+090,Ray,6,2,5,PERSON,"People, including fictional",,,,
+090,Barbara,6,180,187,PERSON,"People, including fictional",,,,
+090,B.B.,7,0,4,PERSON,"People, including fictional",,,,
+090,Geoffrey,7,9,17,PERSON,"People, including fictional",,,,
+090,BB,7,60,62,PERSON,"People, including fictional",,,,
+090,Janet,7,84,89,PERSON,"People, including fictional",,,,

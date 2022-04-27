@@ -1,11 +1,11 @@
-page,text,p,start,end,type,description
-061,"Sunday, February 7, 1915",2,0,24,DATE,Absolute or relative dates or periods
-061,Naima,4,0,5,PERSON,"People, including fictional"
-061,Geoffrey Scott,4,7,21,PERSON,"People, including fictional"
-061,Cecil Pinsent,4,23,36,PERSON,"People, including fictional"
-061,all day,6,43,50,DATE,Absolute or relative dates or periods
-061,Cecil,7,0,5,PERSON,"People, including fictional"
-061,Sybil,7,80,85,PERSON,"People, including fictional"
-061,BB,7,93,95,PERSON,"People, including fictional"
-061,Strongs,7,125,132,PERSON,"People, including fictional"
-061,Geoffrey,7,134,142,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+061,"Sunday, February 7, 1915",2,0,24,DATE,Absolute or relative dates or periods,,,,
+061,Naima,4,0,5,PERSON,"People, including fictional",,,,
+061,Geoffrey Scott,4,7,21,PERSON,"People, including fictional",,,,
+061,Cecil Pinsent,4,23,36,PERSON,"People, including fictional",,,,
+061,all day,6,43,50,DATE,Absolute or relative dates or periods,,,,
+061,Cecil,7,0,5,PERSON,"People, including fictional",,,,
+061,Sybil,7,80,85,PERSON,"People, including fictional",,,,
+061,BB,7,93,95,PERSON,"People, including fictional",,,,
+061,Strongs,7,125,132,PERSON,"People, including fictional",,,,
+061,Geoffrey,7,134,142,PERSON,"People, including fictional",,,,

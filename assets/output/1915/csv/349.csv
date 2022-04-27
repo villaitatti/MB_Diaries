@@ -1,15 +1,17 @@
-page,text,p,start,end,type,description
-349,"Monday, November 22, 1915",2,0,25,DATE,Absolute or relative dates or periods
-349,Geoffrey Scott,3,0,14,PERSON,"People, including fictional"
-349,Ammannati,6,2,11,ORG,"Companies, agencies, institutions, etc."
-349,San Martino podere,6,49,67,FAC,"Buildings, airports, highways, bridges, etc."
-349,70000 francs,6,72,84,MONEY,"Monetary values, including unit"
-349,100 francs,6,158,168,MONEY,"Monetary values, including unit"
-349,12 pesce–5.50,9,0,13,MONEY,"Monetary values, including unit"
-349,77.15,25,0,5,CARDINAL,Numerals that do not fall under another type
-349,84.90,34,0,5,CARDINAL,Numerals that do not fall under another type
-349,94.80,46,0,5,CARDINAL,Numerals that do not fall under another type
-349,2.50,51,8,12,CARDINAL,Numerals that do not fall under another type
-349,89.20,59,0,5,CARDINAL,Numerals that do not fall under another type
-349,3 kili,61,5,11,QUANTITY,"Measurements, as of weight or distance"
-349,104/5,62,59,64,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+349,"Monday, November 22, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+349,Geoffrey Scott,3,0,14,PERSON,"People, including fictional",,,,
+349,Cecil Pinsent,4,0,13,PERSON,"People, including fictional",,,,
+349,Ammannati,6,2,11,PERSON,"People, including fictional",,,,
+349,the San Martino podere,6,45,67,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+349,70000 francs,6,72,84,MONEY,"Monetary values, including unit",,,,
+349,100 francs,6,158,168,MONEY,"Monetary values, including unit",,,,
+349,12 pesce–5.50,9,0,13,MONEY,"Monetary values, including unit",,,,
+349,34.40,10,11,16,CARDINAL,Numerals that do not fall under another type,,,,
+349,77.15,25,0,5,CARDINAL,Numerals that do not fall under another type,,,,
+349,84.90,34,0,5,CARDINAL,Numerals that do not fall under another type,,,,
+349,94.80,46,0,5,CARDINAL,Numerals that do not fall under another type,,,,
+349,2.50,51,8,12,CARDINAL,Numerals that do not fall under another type,,,,
+349,89.20,59,0,5,CARDINAL,Numerals that do not fall under another type,,,,
+349,3 kili,61,5,11,QUANTITY,"Measurements, as of weight or distance",,,,
+349,104/5,62,59,64,CARDINAL,Numerals that do not fall under another type,,,,

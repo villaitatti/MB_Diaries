@@ -1,9 +1,9 @@
-page,text,p,start,end,type,description
-183,"Wednesday, June 9, 1915",2,0,23,DATE,Absolute or relative dates or periods
-183,Grand Hotel,2,25,36,FAC,"Buildings, airports, highways, bridges, etc."
-183,Rome,2,37,41,GPE,"Countries, cities, states"
-183,Marconi,4,0,7,PERSON,"People, including fictional"
-183,Inez Milholland Boissevain,4,12,38,PERSON,"People, including fictional"
-183,McClure,4,63,70,PERSON,"People, including fictional"
-183,Times,4,90,95,ORG,"Companies, agencies, institutions, etc."
-183,Terme,5,13,18,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+183,"Wednesday, June 9, 1915",2,0,23,DATE,Absolute or relative dates or periods,,,,
+183,Grand Hotel,2,25,36,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+183,Rome,2,37,41,GPE,"Countries, cities, states",,,,
+183,Marconi,4,0,7,PERSON,"People, including fictional",,,,
+183,Inez Milholland Boissevain,4,12,38,PERSON,"People, including fictional",,,,
+183,McClure,4,63,70,PERSON,"People, including fictional",,,,
+183,Times,4,90,95,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+183,Terme,5,13,18,GPE,"Countries, cities, states",,,,

@@ -1,6 +1,4 @@
 @prefix Platform: <http://www.researchspace.org/resource/system/> .
-@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
-@prefix crmdig: <http://www.ics.forth.gr/isl/CRMdig/> .
 @prefix ldp: <http://www.w3.org/ns/ldp#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -8,16 +6,12 @@
 
 Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/document/1915/024> .
 
-<https://mbdiaries.itatti.harvard.edu/document/1915/024> a crm:E33_Linguistic_Object,
-        crmdig:D1_Digital_Object,
-        Platform:File,
-        ldp:Resource,
-        prov:Entity,
-        <https://mbdiaries.itatti.harvard.edu/document/annotation-schema/TextDocument> ;
+<https://mbdiaries.itatti.harvard.edu/document/1915/024> a Platform:File,
+        <https://mbdiaries.itatti.harvard.edu/ontology/Document> ;
     rdfs:label "024"^^xsd:string ;
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "024.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
     prov:generatedAtTime <http://www.researchspace.org/resource/admin> ;
-    prov:wasAttributedTo "2022-04-26T17:00:57"^^xsd:dateTime .
+    prov:wasAttributedTo "2022-04-27T11:51:39"^^xsd:dateTime .
 

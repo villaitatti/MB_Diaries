@@ -1,8 +1,8 @@
-page,text,p,start,end,type,description
-371,"Tuesday, December 14, 1915",2,0,26,DATE,Absolute or relative dates or periods
-371,Tramontana,3,0,10,GPE,"Countries, cities, states"
-371,Geoffrey Scott,4,0,14,PERSON,"People, including fictional"
-371,BB,6,15,17,PERSON,"People, including fictional"
-371,Sybil,6,134,139,PERSON,"People, including fictional"
-371,Lucien Henraux,6,152,166,PERSON,"People, including fictional"
-371,Bosches,6,241,248,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+371,"Tuesday, December 14, 1915",2,0,26,DATE,Absolute or relative dates or periods,,,,
+371,Tramontana,3,0,10,GPE,"Countries, cities, states",,,,
+371,Geoffrey Scott,4,0,14,PERSON,"People, including fictional",,,,
+371,BB,6,15,17,PERSON,"People, including fictional",,,,
+371,Sybil,6,134,139,PERSON,"People, including fictional",,,,
+371,Lucien Henraux,6,152,166,PERSON,"People, including fictional",,,,
+371,Bosches,6,241,248,PERSON,"People, including fictional",,,,

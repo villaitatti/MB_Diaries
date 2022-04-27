@@ -1,13 +1,14 @@
-page,text,p,start,end,type,description
-373,"Thursday, December 16, 1915",2,0,27,DATE,Absolute or relative dates or periods
-373,Geoffrey Scott,4,0,14,PERSON,"People, including fictional"
-373,Cecil,7,2,7,PERSON,"People, including fictional"
-373,Comune,7,127,133,ORG,"Companies, agencies, institutions, etc."
-373,BB,7,195,197,PERSON,"People, including fictional"
-373,Cecil,8,8,13,PERSON,"People, including fictional"
-373,½ hour,8,14,20,TIME,Times smaller than a day
-373,Prince Paul,9,2,13,PERSON,"People, including fictional"
-373,Geoffrey,9,50,58,PERSON,"People, including fictional"
-373,the evening,9,71,82,TIME,Times smaller than a day
-373,BB,9,108,110,PERSON,"People, including fictional"
-373,Sybil,9,122,127,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+373,"Thursday, December 16, 1915",2,0,27,DATE,Absolute or relative dates or periods,,,,
+373,Geoffrey Scott,4,0,14,PERSON,"People, including fictional",,,,
+373,Hump,6,6,10,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+373,Cecil,7,2,7,PERSON,"People, including fictional",,,,
+373,Comune,7,127,133,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+373,BB,7,195,197,PERSON,"People, including fictional",,,,
+373,Cecil,8,8,13,PERSON,"People, including fictional",,,,
+373,½ hour,8,14,20,TIME,Times smaller than a day,,,,
+373,Prince Paul,9,2,13,PERSON,"People, including fictional",,,,
+373,Geoffrey,9,50,58,PERSON,"People, including fictional",,,,
+373,the evening,9,71,82,TIME,Times smaller than a day,,,,
+373,BB,9,108,110,PERSON,"People, including fictional",,,,
+373,Sybil,9,122,127,PERSON,"People, including fictional",,,,

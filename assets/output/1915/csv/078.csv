@@ -1,15 +1,15 @@
-page,text,p,start,end,type,description
-078,"Wednesday, February 24, 1915",2,0,28,DATE,Absolute or relative dates or periods
-078,Benn,5,6,10,PERSON,"People, including fictional"
-078,the afternoon,5,41,54,TIME,Times smaller than a day
-078,Yoï,5,62,65,PERSON,"People, including fictional"
-078,Nello,5,70,75,PERSON,"People, including fictional"
-078,Loesers,5,84,91,PERSON,"People, including fictional"
-078,Loeser,5,93,99,PERSON,"People, including fictional"
-078,one,5,232,235,CARDINAL,Numerals that do not fall under another type
-078,a year and 8 months old,5,334,357,DATE,Absolute or relative dates or periods
-078,Yoï,6,0,3,PERSON,"People, including fictional"
-078,October,6,81,88,DATE,Absolute or relative dates or periods
-078,Olga,6,90,94,PERSON,"People, including fictional"
-078,9 months,6,113,121,DATE,Absolute or relative dates or periods
-078,Sybil,7,14,19,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+078,"Wednesday, February 24, 1915",2,0,28,DATE,Absolute or relative dates or periods,,,,
+078,Benn,5,6,10,PERSON,"People, including fictional",,,,
+078,the afternoon,5,41,54,TIME,Times smaller than a day,,,,
+078,Yoï,5,62,65,PERSON,"People, including fictional",,,,
+078,Nello,5,70,75,PERSON,"People, including fictional",,,,
+078,Loesers,5,84,91,PERSON,"People, including fictional",,,,
+078,Loeser,5,93,99,PERSON,"People, including fictional",,,,
+078,one,5,232,235,CARDINAL,Numerals that do not fall under another type,,,,
+078,a year and 8 months old,5,334,357,DATE,Absolute or relative dates or periods,,,,
+078,Yoï,6,0,3,PERSON,"People, including fictional",,,,
+078,Olga,6,90,94,PERSON,"People, including fictional",,,,
+078,9 months,6,113,121,DATE,Absolute or relative dates or periods,,,,
+078,night,6,131,136,TIME,Times smaller than a day,,,,
+078,Sybil,7,14,19,PERSON,"People, including fictional",,,,

@@ -1,13 +1,14 @@
-page,text,p,start,end,type,description
-295,"Wednesday, September 29, 1915",2,0,29,DATE,Absolute or relative dates or periods
-295,Grand Hotel Siena,2,31,48,FAC,"Buildings, airports, highways, bridges, etc."
-295,Geoffrey Scott,3,16,30,PERSON,"People, including fictional"
-295,Caprarola,4,15,24,GPE,"Countries, cities, states"
-295,Lake of Bolsena,4,39,54,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-295,Monteoliveto,4,60,72,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-295,Inez Boisservaire,5,18,35,PERSON,"People, including fictional"
-295,Italian,5,67,74,NORP,Nationalities or religious or political groups
-295,pro-German,6,9,19,NORP,Nationalities or religious or political groups
-295,German,6,87,93,NORP,Nationalities or religious or political groups
-295,Allies,6,127,133,NORP,Nationalities or religious or political groups
-295,Italian,7,4,11,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+295,"Wednesday, September 29, 1915",2,0,29,DATE,Absolute or relative dates or periods,,,,
+295,Grand Hotel Siena,2,31,48,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+295,Cecil Pinsent,3,1,14,PERSON,"People, including fictional",,,,
+295,Geoffrey Scott,3,16,30,PERSON,"People, including fictional",,,,
+295,Caprarola,4,15,24,GPE,"Countries, cities, states",,,,
+295,Lake of Bolsena,4,39,54,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+295,Monteoliveto,4,60,72,GPE,"Countries, cities, states",,,,
+295,Inez Boisservaire,5,18,35,PERSON,"People, including fictional",,,,
+295,Italian,5,67,74,NORP,Nationalities or religious or political groups,,,,
+295,pro-German,6,9,19,NORP,Nationalities or religious or political groups,,,,
+295,German,6,87,93,NORP,Nationalities or religious or political groups,,,,
+295,Allies,6,127,133,NORP,Nationalities or religious or political groups,,,,
+295,Italian,7,4,11,NORP,Nationalities or religious or political groups,,,,

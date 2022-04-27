@@ -1,18 +1,18 @@
-page,text,p,start,end,type,description
-059,"Friday, February 5, 1915",2,0,24,DATE,Absolute or relative dates or periods
-059,Cecil Pinsent,4,0,13,PERSON,"People, including fictional"
-059,Geoffrey Scott,4,15,29,PERSON,"People, including fictional"
-059,Placci,6,15,21,PERSON,"People, including fictional"
-059,Gays,6,30,34,PERSON,"People, including fictional"
-059,Placci,6,49,55,PERSON,"People, including fictional"
-059,three weeks,6,69,80,DATE,Absolute or relative dates or periods
-059,Piedmont,6,84,92,GPE,"Countries, cities, states"
-059,Lombardy,6,97,105,GPE,"Countries, cities, states"
-059,Giolitti,7,144,152,PERSON,"People, including fictional"
-059,Cecil,8,0,5,PERSON,"People, including fictional"
-059,Gays,8,40,44,PERSON,"People, including fictional"
-059,Balsorano,8,98,107,GPE,"Countries, cities, states"
-059,one,8,168,171,CARDINAL,Numerals that do not fall under another type
-059,Red Cross,8,180,189,ORG,"Companies, agencies, institutions, etc."
-059,BB,9,2,4,WORK_OF_ART,"Titles of books, songs, etc."
-059,Sybil’s,9,12,19,ORG,"Companies, agencies, institutions, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+059,"Friday, February 5, 1915",2,0,24,DATE,Absolute or relative dates or periods,,,,
+059,Cecil Pinsent,4,0,13,PERSON,"People, including fictional",,,,
+059,Geoffrey Scott,4,15,29,PERSON,"People, including fictional",,,,
+059,Placci,6,15,21,PERSON,"People, including fictional",,,,
+059,Gays,6,30,34,PERSON,"People, including fictional",,,,
+059,Placci,6,49,55,PERSON,"People, including fictional",,,,
+059,three weeks,6,69,80,DATE,Absolute or relative dates or periods,,,,
+059,Piedmont,6,84,92,GPE,"Countries, cities, states",,,,
+059,Lombardy,6,97,105,GPE,"Countries, cities, states",,,,
+059,Giolitti,7,144,152,PERSON,"People, including fictional",,,,
+059,Cecil,8,0,5,PERSON,"People, including fictional",,,,
+059,Gays,8,40,44,PERSON,"People, including fictional",,,,
+059,Balsorano,8,98,107,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+059,one,8,168,171,CARDINAL,Numerals that do not fall under another type,,,,
+059,Red Cross,8,180,189,ORG,"Companies, agencies, institutions, etc.",,,,
+059,BB,9,2,4,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+059,Sybil’s,9,12,19,ORG,"Companies, agencies, institutions, etc.",,,,

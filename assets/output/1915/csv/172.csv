@@ -1,6 +1,6 @@
-page,text,p,start,end,type,description
-172,"Saturday May 29, 1915",2,0,21,DATE,Absolute or relative dates or periods
-172,Hotel d’Italie,2,23,37,FAC,"Buildings, airports, highways, bridges, etc."
-172,Aquila,2,39,45,GPE,"Countries, cities, states"
-172,Terni,4,23,28,GPE,"Countries, cities, states"
-172,Piediluco,4,33,42,FAC,"Buildings, airports, highways, bridges, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+172,"Saturday May 29, 1915",2,0,21,DATE,Absolute or relative dates or periods,,,,
+172,Hotel d’Italie,2,23,37,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+172,Aquila,2,39,45,GPE,"Countries, cities, states",,,,
+172,Terni,4,23,28,GPE,"Countries, cities, states",,,,
+172,Piediluco,4,33,42,GPE,"Countries, cities, states",,,,

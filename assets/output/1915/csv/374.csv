@@ -1,18 +1,18 @@
-page,text,p,start,end,type,description
-374,"Friday, December 17, 1915",2,0,25,DATE,Absolute or relative dates or periods
-374,Geoffrey Scott,4,0,14,PERSON,"People, including fictional"
-374,Marcella Michela,6,40,56,PERSON,"People, including fictional"
-374,D'Annunzio,6,173,183,PERSON,"People, including fictional"
-374,BB,7,0,2,PERSON,"People, including fictional"
-374,Sybil,7,16,21,PERSON,"People, including fictional"
-374,Geoffrey,7,42,50,PERSON,"People, including fictional"
-374,Marcella,7,52,60,PERSON,"People, including fictional"
-374,3:30-7:15,7,83,92,TIME,Times smaller than a day
-374,7,7,173,174,TIME,Times smaller than a day
-374,Geoffrey,7,249,257,PERSON,"People, including fictional"
-374,Batcheller,7,432,442,PERSON,"People, including fictional"
-374,Cochrane,7,452,460,PERSON,"People, including fictional"
-374,Charles T. Fields’,7,487,505,PERSON,"People, including fictional"
-374,Boston,7,509,515,GPE,"Countries, cities, states"
-374,Geoffrey,8,17,25,PERSON,"People, including fictional"
-374,Marcella,8,32,40,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+374,"Friday, December 17, 1915",2,0,25,DATE,Absolute or relative dates or periods,,,,
+374,Geoffrey Scott,4,0,14,PERSON,"People, including fictional",,,,
+374,Marcella Michela,6,40,56,PERSON,"People, including fictional",,,,
+374,D'Annunzio,6,173,183,PERSON,"People, including fictional",,,,
+374,BB,7,0,2,PERSON,"People, including fictional",,,,
+374,Sybil,7,16,21,PERSON,"People, including fictional",,,,
+374,Geoffrey,7,42,50,PERSON,"People, including fictional",,,,
+374,Marcella,7,52,60,PERSON,"People, including fictional",,,,
+374,3:30-7:15,7,83,92,TIME,Times smaller than a day,,,,
+374,7,7,173,174,TIME,Times smaller than a day,,,,
+374,Geoffrey,7,249,257,PERSON,"People, including fictional",,,,
+374,Batcheller,7,432,442,PERSON,"People, including fictional",,,,
+374,Cochrane,7,452,460,PERSON,"People, including fictional",,,,
+374,Charles T. Fields’,7,487,505,PERSON,"People, including fictional",,,,
+374,Boston,7,509,515,GPE,"Countries, cities, states",,,,
+374,Geoffrey,8,17,25,PERSON,"People, including fictional",,,,
+374,Marcella,8,32,40,PERSON,"People, including fictional",,,,
