@@ -1,11 +1,11 @@
-page,text,p,start,end,type,description
-168,"Wednesday, May 24, 1922",1,0,23,DATE,Absolute or relative dates or periods
-168,Vallombrosa,2,0,11,PERSON,"People, including fictional"
-168,B.B.,3,5,9,PERSON,"People, including fictional"
-168,Karin,4,35,40,PERSON,"People, including fictional"
-168,The Misuse of Mind,4,49,67,WORK_OF_ART,"Titles of books, songs, etc."
-168,5000,5,50,54,MONEY,"Monetary values, including unit"
-168,Nicky,5,58,63,PERSON,"People, including fictional"
-168,Brazilian,5,82,91,NORP,Nationalities or religious or political groups
-168,7%,5,108,110,PERCENT,"Percentage, including ""%"""
-168,Egypt,6,291,296,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+168,"Wednesday, May 24, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+168,Vallombrosa,2,0,11,PERSON,"People, including fictional",,,,
+168,B.B.,3,5,9,PERSON,"People, including fictional",,,,
+168,Karin,4,35,40,PERSON,"People, including fictional",,,,
+168,The Misuse of Mind,4,49,67,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+168,5000,5,50,54,MONEY,"Monetary values, including unit",,,,
+168,Nicky,5,58,63,PERSON,"People, including fictional",,,,
+168,Brazilian,5,82,91,NORP,Nationalities or religious or political groups,,,,
+168,7%,5,108,110,PERCENT,"Percentage, including ""%""",,,,
+168,Egypt,6,291,296,GPE,"Countries, cities, states",,,,

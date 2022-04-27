@@ -1,9 +1,11 @@
-page,text,p,start,end,type,description
-231,"Wednesday, July 26, 1922",1,0,24,DATE,Absolute or relative dates or periods
-231,about a sixth,2,11,24,CARDINAL,Numerals that do not fall under another type
-231,Lanier,2,62,68,PERSON,"People, including fictional"
-231,Fledermaus,3,16,26,WORK_OF_ART,"Titles of books, songs, etc."
-231,B.B.,4,0,4,PERSON,"People, including fictional"
-231,Kissingen,4,8,17,GPE,"Countries, cities, states"
-231,Marcel Proust,8,3,16,WORK_OF_ART,"Titles of books, songs, etc."
-231,Pater,9,49,54,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+231,"Wednesday, July 26, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+231,about a sixth,2,11,24,CARDINAL,Numerals that do not fall under another type,,,,
+231,B.B.,2,40,44,PERSON,"People, including fictional",,,,
+231,Lanier,2,62,68,PERSON,"People, including fictional",,,,
+231,Fledermaus,3,16,26,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+231,the evening,3,31,42,TIME,Times smaller than a day,,,,
+231,B.B.,4,0,4,PERSON,"People, including fictional",,,,
+231,Kissingen,4,8,17,GPE,"Countries, cities, states",,,,
+231,Marcel Proust,8,3,16,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+231,Pater,9,49,54,PERSON,"People, including fictional",,,,

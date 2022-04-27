@@ -1,7 +1,8 @@
-page,text,p,start,end,type,description
-184,"Friday, June 9, 1922",1,0,20,DATE,Absolute or relative dates or periods
-184,Bastianelli,4,0,11,PERSON,"People, including fictional"
-184,Offner,4,13,19,PERSON,"People, including fictional"
-184,McIlhennys,4,25,35,PERSON,"People, including fictional"
-184,Nicky,4,64,69,PERSON,"People, including fictional"
-184,Loesers,4,84,91,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+184,"Friday, June 9, 1922",1,0,20,DATE,Absolute or relative dates or periods,,,,
+184,Tatti,2,32,37,PERSON,"People, including fictional",,,,
+184,Bastianelli,4,0,11,PERSON,"People, including fictional",,,,
+184,Offner,4,13,19,PERSON,"People, including fictional",,,,
+184,McIlhennys,4,25,35,PERSON,"People, including fictional",,,,
+184,Nicky,4,64,69,PERSON,"People, including fictional",,,,
+184,Loesers,4,84,91,PERSON,"People, including fictional",,,,

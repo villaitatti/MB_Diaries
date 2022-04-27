@@ -1,7 +1,9 @@
-page,text,p,start,end,type,description
-291,"Sunday, September 24, 1922",1,0,26,DATE,Absolute or relative dates or periods
-291,Adrian,3,26,32,PERSON,"People, including fictional"
-291,afternoon,4,8,17,TIME,Times smaller than a day
-291,Potsdam,4,21,28,GPE,"Countries, cities, states"
-291,Friedländer,6,0,11,PERSON,"People, including fictional"
-291,Marc,8,17,21,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+291,"Sunday, September 24, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+291,Adrian,3,26,32,PERSON,"People, including fictional",,,,
+291,afternoon,4,8,17,TIME,Times smaller than a day,,,,
+291,Potsdam,4,21,28,GPE,"Countries, cities, states",,,,
+291,K.,5,10,12,PERSON,"People, including fictional",,,,
+291,A.,5,17,19,PERSON,"People, including fictional",,,,
+291,Friedländer,6,0,11,ORG,"Companies, agencies, institutions, etc.",,,,
+291,Marc,8,17,21,PERSON,"People, including fictional",,,,

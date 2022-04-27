@@ -1,7 +1,9 @@
-page,text,p,start,end,type,description
-055,"Tuesday, January 31, 1922",1,0,25,DATE,Absolute or relative dates or periods
-055,Saboa,3,0,5,PERSON,"People, including fictional"
-055,Amada,3,7,12,PERSON,"People, including fictional"
-055,Korosko,3,14,21,PERSON,"People, including fictional"
-055,Kass Ibrim,4,18,28,FAC,"Buildings, airports, highways, bridges, etc."
-055,von Wahrlich,4,45,57,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+055,"Tuesday, January 31, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+055,Assuan,2,0,6,PERSON,"People, including fictional",,,,
+055,Saboa,3,0,5,PERSON,"People, including fictional",,,,
+055,Amada,3,7,12,PERSON,"People, including fictional",,,,
+055,Korosko,3,14,21,PERSON,"People, including fictional",,,,
+055,Kass Ibrim,4,18,28,GPE,"Countries, cities, states",,,,
+055,sunset,4,32,38,TIME,Times smaller than a day,,,,
+055,von Wahrlich,4,45,57,PERSON,"People, including fictional",,,,

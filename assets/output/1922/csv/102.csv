@@ -1,23 +1,23 @@
-page,text,p,start,end,type,description
-102,"Sunday, March 19, 1922",1,0,22,DATE,Absolute or relative dates or periods
-102,Mena,2,0,4,PERSON,"People, including fictional"
-102,Philomène,3,0,9,PERSON,"People, including fictional"
-102,Nicky,3,11,16,PERSON,"People, including fictional"
-102,Kitson,3,23,29,PERSON,"People, including fictional"
-102,Camels,3,52,58,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-102,Abusir,3,62,68,GPE,"Countries, cities, states"
-102,Sakkara,3,73,80,PERSON,"People, including fictional"
-102,B.B.,3,90,94,PERSON,"People, including fictional"
-102,Kitson,3,104,110,PERSON,"People, including fictional"
-102,Dunham,3,119,125,PERSON,"People, including fictional"
-102,Ford,3,155,159,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-102,Mariette,3,164,172,PERSON,"People, including fictional"
-102,Tombs,4,14,19,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-102,Ptah-hotep,4,23,33,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-102,Ti,4,38,40,FAC,"Buildings, airports, highways, bridges, etc."
-102,thousands of years,4,328,346,DATE,Absolute or relative dates or periods
-102,The Tomb of Mereruka,5,0,20,FAC,"Buildings, airports, highways, bridges, etc."
-102,the Tomb of _,5,122,135,WORK_OF_ART,"Titles of books, songs, etc."
-102,Firths,5,167,173,WORK_OF_ART,"Titles of books, songs, etc."
-102,Carnelians,5,181,191,NORP,Nationalities or religious or political groups
-102,Pyramids,5,251,259,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+102,"Sunday, March 19, 1922",1,0,22,DATE,Absolute or relative dates or periods,,,,
+102,Mena,2,0,4,PERSON,"People, including fictional",,,,
+102,Philomène,3,0,9,PERSON,"People, including fictional",,,,
+102,Nicky,3,11,16,PERSON,"People, including fictional",,,,
+102,Kitson,3,23,29,PERSON,"People, including fictional",,,,
+102,Camels,3,52,58,PRODUCT,"Objects, vehicles, foods, etc. (not services)",,,,
+102,Abusir,3,62,68,PERSON,"People, including fictional",,,,
+102,Sakkara,3,73,80,PERSON,"People, including fictional",,,,
+102,B.B.,3,90,94,PERSON,"People, including fictional",,,,
+102,Kitson,3,104,110,PERSON,"People, including fictional",,,,
+102,Dunham,3,119,125,PERSON,"People, including fictional",,,,
+102,Ford,3,155,159,PRODUCT,"Objects, vehicles, foods, etc. (not services)",,,,
+102,Mariette,3,164,172,PERSON,"People, including fictional",,,,
+102,Tombs,4,14,19,PERSON,"People, including fictional",,,,
+102,Ptah-hotep,4,23,33,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+102,Ti,4,38,40,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+102,thousands of years,4,328,346,DATE,Absolute or relative dates or periods,,,,
+102,The Tomb of Mereruka,5,0,20,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+102,the Tomb of _,5,122,135,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+102,Carnelians,5,181,191,NORP,Nationalities or religious or political groups,,,,
+102,Pyramids,5,251,259,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+102,sunset,5,263,269,TIME,Times smaller than a day,,,,

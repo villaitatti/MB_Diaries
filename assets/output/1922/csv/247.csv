@@ -1,14 +1,15 @@
-page,text,p,start,end,type,description
-247,"Friday, August 11, 1922",1,0,23,DATE,Absolute or relative dates or periods
-247,This year,3,0,9,DATE,Absolute or relative dates or periods
-247,first,3,114,119,ORDINAL,"""first"", ""second"", etc."
-247,Whitall Nicholson,3,252,269,PERSON,"People, including fictional"
-247,The Bed-time Story-Books,4,1,25,WORK_OF_ART,"Titles of books, songs, etc."
-247,Thornton Burgess,4,30,46,PERSON,"People, including fictional"
-247,"Little, Brown and Co. Boston",4,48,76,ORG,"Companies, agencies, institutions, etc."
-247,Buster Bear,4,79,90,WORK_OF_ART,"Titles of books, songs, etc."
-247,Old Man Coyote,4,97,111,WORK_OF_ART,"Titles of books, songs, etc."
-247,a year ago,5,60,70,DATE,Absolute or relative dates or periods
-247,Saidee Nordhoff,5,98,113,PERSON,"People, including fictional"
-247,Gram,5,217,221,PERSON,"People, including fictional"
-247,Saidee,6,0,6,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+247,"Friday, August 11, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+247,This year,3,0,9,DATE,Absolute or relative dates or periods,,,,
+247,first,3,114,119,ORDINAL,"""first"", ""second"", etc.",,,,
+247,Whitall Nicholson,3,252,269,PERSON,"People, including fictional",,,,
+247,The Bed-time Story-Books,4,1,25,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+247,Thornton Burgess,4,30,46,PERSON,"People, including fictional",,,,
+247,"Little, Brown and Co. Boston",4,48,76,ORG,"Companies, agencies, institutions, etc.",,,,
+247,Buster Bear,4,79,90,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+247,Old Man Coyote,4,97,111,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+247,a year ago,5,60,70,DATE,Absolute or relative dates or periods,,,,
+247,Saidee Nordhoff,5,98,113,PERSON,"People, including fictional",,,,
+247,my Magic Ear,5,162,174,PRODUCT,"Objects, vehicles, foods, etc. (not services)",,,,
+247,Gram,5,217,221,PERSON,"People, including fictional",,,,
+247,Saidee,6,0,6,PERSON,"People, including fictional",,,,

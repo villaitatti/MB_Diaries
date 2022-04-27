@@ -1,25 +1,22 @@
-page,text,p,start,end,type,description
-112,"Wednesday, March 29, 1922",1,0,25,DATE,Absolute or relative dates or periods
-112,Cairo,2,0,5,GPE,"Countries, cities, states"
-112,Quibell,4,20,27,PERSON,"People, including fictional"
-112,Akenaten,4,44,52,PERSON,"People, including fictional"
-112,Creswell,5,0,8,PERSON,"People, including fictional"
-112,Devonshire,5,18,28,PERSON,"People, including fictional"
-112,Maurice,5,47,54,PERSON,"People, including fictional"
-112,the Mosque of Sinan Pascha,6,28,54,FAC,"Buildings, airports, highways, bridges, etc."
-112,Boulak,6,58,64,GPE,"Countries, cities, states"
-112,Cresswell,6,70,79,PERSON,"People, including fictional"
-112,Turkish,6,81,88,NORP,Nationalities or religious or political groups
-112,157,6,101,104,CARDINAL,Numerals that do not fall under another type
-112,one,6,149,152,CARDINAL,Numerals that do not fall under another type
-112,El Azar,6,164,171,FAC,"Buildings, airports, highways, bridges, etc."
-112,Bazils,7,13,19,PERSON,"People, including fictional"
-112,Paterson,7,32,40,PERSON,"People, including fictional"
-112,Gesireh,7,58,65,GPE,"Countries, cities, states"
-112,Amos,7,73,77,PERSON,"People, including fictional"
-112,Gov’t,7,79,84,ORG,"Companies, agencies, institutions, etc."
-112,Truman,8,4,10,PERSON,"People, including fictional"
-112,Anderson,8,21,29,PERSON,"People, including fictional"
-112,years earlier,8,106,119,DATE,Absolute or relative dates or periods
-112,Europeans,8,137,146,NORP,Nationalities or religious or political groups
-112,dozens,9,6,12,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+112,"Wednesday, March 29, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+112,Cairo,2,0,5,GPE,"Countries, cities, states",,,,
+112,Quibell,4,20,27,PERSON,"People, including fictional",,,,
+112,Creswell,5,0,8,PERSON,"People, including fictional",,,,
+112,Devonshire,5,18,28,PERSON,"People, including fictional",,,,
+112,Maurice,5,47,54,PERSON,"People, including fictional",,,,
+112,the Mosque of Sinan Pascha,6,28,54,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+112,Boulak,6,58,64,GPE,"Countries, cities, states",,,,
+112,Cresswell,6,70,79,PERSON,"People, including fictional",,,,
+112,Turkish,6,81,88,NORP,Nationalities or religious or political groups,,,,
+112,157,6,101,104,CARDINAL,Numerals that do not fall under another type,,,,
+112,Bazils,7,13,19,PERSON,"People, including fictional",,,,
+112,Paterson,7,32,40,PERSON,"People, including fictional",,,,
+112,Gesireh,7,58,65,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+112,Amos,7,73,77,PERSON,"People, including fictional",,,,
+112,Gov’t,7,79,84,ORG,"Companies, agencies, institutions, etc.",,,,
+112,Truman,8,4,10,PERSON,"People, including fictional",,,,
+112,Anderson,8,21,29,PERSON,"People, including fictional",,,,
+112,years,8,106,111,DATE,Absolute or relative dates or periods,,,,
+112,Europeans,8,137,146,NORP,Nationalities or religious or political groups,,,,
+112,dozens,9,6,12,CARDINAL,Numerals that do not fall under another type,,,,

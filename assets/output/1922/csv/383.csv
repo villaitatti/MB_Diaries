@@ -1,26 +1,24 @@
-page,text,p,start,end,type,description
-383,"Monday, December 25, 1922",1,0,25,DATE,Absolute or relative dates or periods
-383,Bessie,2,0,6,PERSON,"People, including fictional"
-383,Geoffrey,3,0,8,PERSON,"People, including fictional"
-383,Haslam,3,24,30,PERSON,"People, including fictional"
-383,Julia,3,54,59,PERSON,"People, including fictional"
-383,Pellett,3,69,76,PERSON,"People, including fictional"
-383,Geoffrey,3,86,94,PERSON,"People, including fictional"
-383,one,3,152,155,CARDINAL,Numerals that do not fall under another type
-383,Nicky,3,176,181,PERSON,"People, including fictional"
-383,Coote,3,251,256,PERSON,"People, including fictional"
-383,Alys,4,0,4,PERSON,"People, including fictional"
-383,Bessie,4,9,15,PERSON,"People, including fictional"
-383,Hapgoods,4,45,53,PERSON,"People, including fictional"
-383,morning,4,62,69,TIME,Times smaller than a day
-383,charles,4,72,79,PERSON,"People, including fictional"
-383,18,4,130,132,DATE,Absolute or relative dates or periods
-383,first,4,152,157,ORDINAL,"""first"", ""second"", etc."
-383,A Raw Youth,5,9,20,WORK_OF_ART,"Titles of books, songs, etc."
-383,Dostoievsky,5,25,36,PERSON,"People, including fictional"
-383,Dead Souls,5,42,52,WORK_OF_ART,"Titles of books, songs, etc."
-383,Gogol,5,57,62,PERSON,"People, including fictional"
-383,Sunday,6,47,53,DATE,Absolute or relative dates or periods
-383,Julia,6,99,104,PERSON,"People, including fictional"
-383,Ross,6,129,133,PERSON,"People, including fictional"
-383,Julia,6,158,163,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+383,"Monday, December 25, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+383,Bessie,2,0,6,PERSON,"People, including fictional",,,,
+383,Geoffrey,3,0,8,PERSON,"People, including fictional",,,,
+383,Haslam,3,24,30,PERSON,"People, including fictional",,,,
+383,Julia,3,54,59,PERSON,"People, including fictional",,,,
+383,Pellett,3,69,76,PERSON,"People, including fictional",,,,
+383,Geoffrey,3,86,94,PERSON,"People, including fictional",,,,
+383,one,3,152,155,CARDINAL,Numerals that do not fall under another type,,,,
+383,Nicky,3,176,181,PERSON,"People, including fictional",,,,
+383,Coote,3,251,256,PERSON,"People, including fictional",,,,
+383,Alys,4,0,4,PERSON,"People, including fictional",,,,
+383,Bessie,4,9,15,PERSON,"People, including fictional",,,,
+383,Hapgoods,4,45,53,PERSON,"People, including fictional",,,,
+383,charles,4,72,79,PERSON,"People, including fictional",,,,
+383,18,4,130,132,DATE,Absolute or relative dates or periods,,,,
+383,first,4,152,157,ORDINAL,"""first"", ""second"", etc.",,,,
+383,A Raw Youth,5,9,20,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+383,Dostoievsky,5,25,36,PERSON,"People, including fictional",,,,
+383,Dead Souls,5,42,52,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+383,Gogol,5,57,62,PERSON,"People, including fictional",,,,
+383,Sunday,6,47,53,DATE,Absolute or relative dates or periods,,,,
+383,Ross,6,129,133,PERSON,"People, including fictional",,,,
+383,Julia,6,158,163,PERSON,"People, including fictional",,,,

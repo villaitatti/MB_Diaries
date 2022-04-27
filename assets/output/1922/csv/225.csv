@@ -1,15 +1,15 @@
-page,text,p,start,end,type,description
-225,"Thursday, July 20, 1922",1,0,23,DATE,Absolute or relative dates or periods
-225,evening,4,15,22,TIME,Times smaller than a day
-225,Ray,4,37,40,PERSON,"People, including fictional"
-225,Chiswick,4,69,77,GPE,"Countries, cities, states"
-225,Brentford,4,82,91,GPE,"Countries, cities, states"
-225,Robert Cecil,4,120,132,PERSON,"People, including fictional"
-225,Karin,5,0,5,PERSON,"People, including fictional"
-225,St. Anton-am-Arlberg,5,12,32,FAC,"Buildings, airports, highways, bridges, etc."
-225,Psycho,5,57,63,WORK_OF_ART,"Titles of books, songs, etc."
-225,-,5,63,64,WORK_OF_ART,"Titles of books, songs, etc."
-225,Analysis,5,64,72,WORK_OF_ART,"Titles of books, songs, etc."
-225,my day,6,136,142,DATE,Absolute or relative dates or periods
-225,Geoffrey,7,12,20,PERSON,"People, including fictional"
-225,England,7,46,53,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+225,"Thursday, July 20, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+225,the evening,4,11,22,TIME,Times smaller than a day,,,,
+225,Ray,4,37,40,PERSON,"People, including fictional",,,,
+225,Chiswick,4,69,77,GPE,"Countries, cities, states",,,,
+225,Brentford,4,82,91,GPE,"Countries, cities, states",,,,
+225,Robert Cecil,4,120,132,PERSON,"People, including fictional",,,,
+225,Karin,5,0,5,PERSON,"People, including fictional",,,,
+225,St. Anton-am-Arlberg,5,12,32,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+225,Psycho,5,57,63,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+225,-,5,63,64,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+225,Analysis,5,64,72,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+225,my day,6,136,142,DATE,Absolute or relative dates or periods,,,,
+225,Geoffrey,7,12,20,PERSON,"People, including fictional",,,,
+225,England,7,46,53,GPE,"Countries, cities, states",,,,

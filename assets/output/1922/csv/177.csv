@@ -1,23 +1,23 @@
-page,text,p,start,end,type,description
-177,"Friday, June 2, 1922",1,0,20,DATE,Absolute or relative dates or periods
-177,A day,3,0,5,DATE,Absolute or relative dates or periods
-177,evening,3,87,94,TIME,Times smaller than a day
-177,a few moments,3,111,124,TIME,Times smaller than a day
-177,Elisabetta Henraux,3,125,143,PERSON,"People, including fictional"
-177,Nicky,3,222,227,PERSON,"People, including fictional"
-177,von Anrep,3,235,244,PERSON,"People, including fictional"
-177,Riri Visconti Venosta,3,246,267,PERSON,"People, including fictional"
-177,Alice De Lamar,3,269,283,PERSON,"People, including fictional"
-177,Evangeline Johnson,3,288,306,PERSON,"People, including fictional"
-177,Alice,3,352,357,PERSON,"People, including fictional"
-177,Evangeline,3,362,372,PERSON,"People, including fictional"
-177,tomorrow,3,413,421,DATE,Absolute or relative dates or periods
-177,Alice,3,430,435,PERSON,"People, including fictional"
-177,Bernard,4,0,7,PERSON,"People, including fictional"
-177,Perrys,4,16,22,PERSON,"People, including fictional"
-177,Hale,4,31,35,PERSON,"People, including fictional"
-177,Spelman,4,69,76,PERSON,"People, including fictional"
-177,Maurice Brockwell,4,90,107,PERSON,"People, including fictional"
-177,Henraux,5,4,11,PERSON,"People, including fictional"
-177,Riri Visconti Venosta,5,16,37,PERSON,"People, including fictional"
-177,Elizabetta,5,52,62,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+177,"Friday, June 2, 1922",1,0,20,DATE,Absolute or relative dates or periods,,,,
+177,A day,3,0,5,DATE,Absolute or relative dates or periods,,,,
+177,evening,3,87,94,TIME,Times smaller than a day,,,,
+177,a few moments,3,111,124,TIME,Times smaller than a day,,,,
+177,Elisabetta Henraux,3,125,143,PERSON,"People, including fictional",,,,
+177,Nicky,3,222,227,PERSON,"People, including fictional",,,,
+177,von Anrep,3,235,244,PERSON,"People, including fictional",,,,
+177,Riri Visconti Venosta,3,246,267,PERSON,"People, including fictional",,,,
+177,Alice De Lamar,3,269,283,PERSON,"People, including fictional",,,,
+177,Evangeline Johnson,3,288,306,PERSON,"People, including fictional",,,,
+177,Alice,3,352,357,PERSON,"People, including fictional",,,,
+177,Evangeline,3,362,372,PERSON,"People, including fictional",,,,
+177,tomorrow,3,413,421,DATE,Absolute or relative dates or periods,,,,
+177,Alice,3,430,435,PERSON,"People, including fictional",,,,
+177,Bernard,4,0,7,PERSON,"People, including fictional",,,,
+177,Perrys,4,16,22,PERSON,"People, including fictional",,,,
+177,Hale,4,31,35,PERSON,"People, including fictional",,,,
+177,Spelman,4,69,76,PERSON,"People, including fictional",,,,
+177,Maurice Brockwell,4,90,107,PERSON,"People, including fictional",,,,
+177,Henraux,5,4,11,PERSON,"People, including fictional",,,,
+177,Riri Visconti Venosta,5,16,37,PERSON,"People, including fictional",,,,
+177,Elizabetta,5,52,62,PERSON,"People, including fictional",,,,

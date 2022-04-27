@@ -1,12 +1,12 @@
-page,text,p,start,end,type,description
-282,"Friday, September 15, 1922",1,0,26,DATE,Absolute or relative dates or periods
-282,Hotel Bristol,2,24,37,ORG,"Companies, agencies, institutions, etc."
-282,Karin,3,0,5,PERSON,"People, including fictional"
-282,the Völkerkunde Museum,4,8,30,ORG,"Companies, agencies, institutions, etc."
-282,Turfan,4,43,49,ORG,"Companies, agencies, institutions, etc."
-282,Doktor De Kok,4,90,103,PERSON,"People, including fictional"
-282,Chinese-Indian,4,105,119,NORP,Nationalities or religious or political groups
-282,c. VII to IX centuries,4,137,159,DATE,Absolute or relative dates or periods
-282,Tristan und Isolde,5,8,26,FAC,"Buildings, airports, highways, bridges, etc."
-282,the evening,5,30,41,TIME,Times smaller than a day
-282,2 hours,5,112,119,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+282,"Friday, September 15, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+282,Hotel Bristol,2,24,37,ORG,"Companies, agencies, institutions, etc.",,,,
+282,Karin,3,0,5,PERSON,"People, including fictional",,,,
+282,the Völkerkunde Museum,4,8,30,ORG,"Companies, agencies, institutions, etc.",,,,
+282,Turfan,4,43,49,PERSON,"People, including fictional",,,,
+282,Doktor De Kok,4,90,103,PERSON,"People, including fictional",,,,
+282,Chinese-Indian,4,105,119,NORP,Nationalities or religious or political groups,,,,
+282,c. VII to IX centuries,4,137,159,DATE,Absolute or relative dates or periods,,,,
+282,Tristan und Isolde,5,8,26,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+282,the evening,5,30,41,TIME,Times smaller than a day,,,,
+282,2 hours,5,112,119,TIME,Times smaller than a day,,,,

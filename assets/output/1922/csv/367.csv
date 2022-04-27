@@ -1,8 +1,8 @@
-page,text,p,start,end,type,description
-367,"Saturday, December 9, 1922",1,0,26,DATE,Absolute or relative dates or periods
-367,Salvemini,2,0,9,PERSON,"People, including fictional"
-367,Byba,3,0,4,PERSON,"People, including fictional"
-367,Trentham,4,75,83,PERSON,"People, including fictional"
-367,Byba,4,129,133,PERSON,"People, including fictional"
-367,Trentham,4,143,151,PERSON,"People, including fictional"
-367,Sunday,5,19,25,DATE,Absolute or relative dates or periods
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+367,"Saturday, December 9, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+367,Salvemini,2,0,9,PERSON,"People, including fictional",,,,
+367,Byba,3,0,4,PERSON,"People, including fictional",,,,
+367,Trentham,4,75,83,PERSON,"People, including fictional",,,,
+367,Byba,4,129,133,PERSON,"People, including fictional",,,,
+367,Trentham,4,143,151,PERSON,"People, including fictional",,,,
+367,Sunday,5,19,25,DATE,Absolute or relative dates or periods,,,,

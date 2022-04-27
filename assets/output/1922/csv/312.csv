@@ -1,23 +1,22 @@
-page,text,p,start,end,type,description
-312,"Sunday, October 15, 1922",1,0,24,DATE,Absolute or relative dates or periods
-312,Naimi,2,37,42,PERSON,"People, including fictional"
-312,Manchester,3,15,25,GPE,"Countries, cities, states"
-312,Lister-Kaye,3,52,63,PERSON,"People, including fictional"
-312,Byba,3,68,72,PERSON,"People, including fictional"
-312,Halsey,4,5,11,PERSON,"People, including fictional"
-312,4,4,22,23,TIME,Times smaller than a day
-312,Ross,4,71,75,PERSON,"People, including fictional"
-312,Gnoli,5,11,16,PERSON,"People, including fictional"
-312,next Sunday,5,26,37,DATE,Absolute or relative dates or periods
-312,Naimi,5,48,53,PERSON,"People, including fictional"
-312,Logan,6,0,5,PERSON,"People, including fictional"
-312,Trevy,6,15,20,PERSON,"People, including fictional"
-312,yesterday,6,30,39,DATE,Absolute or relative dates or periods
-312,Florence,6,85,93,GPE,"Countries, cities, states"
-312,Feb[ruary,6,97,106,DATE,Absolute or relative dates or periods
-312,Greece,6,204,210,GPE,"Countries, cities, states"
-312,Florence,6,268,276,GPE,"Countries, cities, states"
-312,Nicky,8,0,5,PERSON,"People, including fictional"
-312,3,8,14,15,CARDINAL,Numerals that do not fall under another type
-312,Boccaccio,8,27,36,PERSON,"People, including fictional"
-312,evening,8,40,47,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+312,"Sunday, October 15, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+312,Manchester,3,15,25,GPE,"Countries, cities, states",,,,
+312,Lister-Kaye,3,52,63,PERSON,"People, including fictional",,,,
+312,Byba,3,68,72,PERSON,"People, including fictional",,,,
+312,Halsey,4,5,11,PERSON,"People, including fictional",,,,
+312,4,4,22,23,TIME,Times smaller than a day,,,,
+312,Ross,4,71,75,PERSON,"People, including fictional",,,,
+312,Gnoli,5,11,16,PERSON,"People, including fictional",,,,
+312,next Sunday,5,26,37,DATE,Absolute or relative dates or periods,,,,
+312,Naimi,5,48,53,PERSON,"People, including fictional",,,,
+312,Logan,6,0,5,PERSON,"People, including fictional",,,,
+312,Trevy,6,15,20,PERSON,"People, including fictional",,,,
+312,yesterday,6,30,39,DATE,Absolute or relative dates or periods,,,,
+312,Florence,6,85,93,GPE,"Countries, cities, states",,,,
+312,Feb[ruary,6,97,106,DATE,Absolute or relative dates or periods,,,,
+312,Greece,6,204,210,GPE,"Countries, cities, states",,,,
+312,Florence,6,268,276,GPE,"Countries, cities, states",,,,
+312,Nicky,8,0,5,PERSON,"People, including fictional",,,,
+312,3,8,14,15,CARDINAL,Numerals that do not fall under another type,,,,
+312,Boccaccio,8,27,36,PERSON,"People, including fictional",,,,
+312,evening,8,40,47,TIME,Times smaller than a day,,,,

@@ -1,12 +1,12 @@
-page,text,p,start,end,type,description
-179,"Sunday, June 4, 1922",1,0,20,DATE,Absolute or relative dates or periods
-179,Perrys,2,0,6,PERSON,"People, including fictional"
-179,Serristori,4,9,19,PERSON,"People, including fictional"
-179,Sophie,4,42,48,PERSON,"People, including fictional"
-179,Loesers,4,60,67,PERSON,"People, including fictional"
-179,Vanderlip,4,81,90,PERSON,"People, including fictional"
-179,Banker,4,96,102,NORP,Nationalities or religious or political groups
-179,Genoa,4,115,120,GPE,"Countries, cities, states"
-179,Hallowell,5,13,22,PERSON,"People, including fictional"
-179,the New Republic,5,27,43,ORG,"Companies, agencies, institutions, etc."
-179,BB,5,52,54,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+179,"Sunday, June 4, 1922",1,0,20,DATE,Absolute or relative dates or periods,,,,
+179,Perrys,2,0,6,PERSON,"People, including fictional",,,,
+179,Serristori,4,9,19,PERSON,"People, including fictional",,,,
+179,Sophie,4,42,48,PERSON,"People, including fictional",,,,
+179,Loesers,4,60,67,PERSON,"People, including fictional",,,,
+179,Vanderlip,4,81,90,PERSON,"People, including fictional",,,,
+179,Banker,4,96,102,PERSON,"People, including fictional",,,,
+179,Genoa,4,115,120,GPE,"Countries, cities, states",,,,
+179,Hallowell,5,13,22,PERSON,"People, including fictional",,,,
+179,the New Republic,5,27,43,ORG,"Companies, agencies, institutions, etc.",,,,
+179,BB,5,52,54,PERSON,"People, including fictional",,,,

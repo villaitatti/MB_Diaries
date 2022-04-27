@@ -1,9 +1,9 @@
-page,text,p,start,end,type,description
-083,"Tuesday, February 28, 1922",1,0,26,DATE,Absolute or relative dates or periods
-083,Philomène de Levis-Mirepoix,2,0,27,ORG,"Companies, agencies, institutions, etc."
-083,Der el Bahari,3,15,28,FAC,"Buildings, airports, highways, bridges, etc."
-083,Howard Carter,3,99,112,PERSON,"People, including fictional"
-083,B.B.,3,114,118,PERSON,"People, including fictional"
-083,Karnac Sail,4,0,11,ORG,"Companies, agencies, institutions, etc."
-083,afternoon,4,15,24,TIME,Times smaller than a day
-083,2 hours,4,29,36,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+083,"Tuesday, February 28, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+083,Philomène de Levis-Mirepoix,2,0,27,PERSON,"People, including fictional",,,,
+083,Der el Bahari,3,15,28,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+083,Howard Carter,3,99,112,PERSON,"People, including fictional",,,,
+083,B.B.,3,114,118,PERSON,"People, including fictional",,,,
+083,Karnac Sail,4,0,11,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+083,afternoon,4,15,24,TIME,Times smaller than a day,,,,
+083,2 hours,4,29,36,TIME,Times smaller than a day,,,,

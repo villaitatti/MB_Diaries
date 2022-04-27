@@ -1,5 +1,6 @@
-page,text,p,start,end,type,description
-131,"Monday, April 17, 1922",1,0,22,DATE,Absolute or relative dates or periods
-131,St. Mark’s,3,19,29,FAC,"Buildings, airports, highways, bridges, etc."
-131,Blaydes,3,65,72,PERSON,"People, including fictional"
-131,the Nursing Home,3,119,135,ORG,"Companies, agencies, institutions, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+131,"Monday, April 17, 1922",1,0,22,DATE,Absolute or relative dates or periods,,,,
+131,Venice,2,0,6,PERSON,"People, including fictional",,,,
+131,St. Mark’s,3,19,29,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+131,Blaydes,3,65,72,PERSON,"People, including fictional",,,,
+131,the Nursing Home,3,119,135,ORG,"Companies, agencies, institutions, etc.",,,,

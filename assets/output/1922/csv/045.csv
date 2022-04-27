@@ -1,5 +1,4 @@
-page,text,p,start,end,type,description
-045,"Saturday, January 21, 1922",1,0,26,DATE,Absolute or relative dates or periods
-045,All day,4,0,7,DATE,Absolute or relative dates or periods
-045,Quibell,5,10,17,PERSON,"People, including fictional"
-045,Egyptian,5,44,52,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+045,"Saturday, January 21, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+045,Quibell,5,10,17,PERSON,"People, including fictional",,,,
+045,Egyptian,5,44,52,NORP,Nationalities or religious or political groups,,,,

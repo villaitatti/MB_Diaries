@@ -1,7 +1,7 @@
-page,text,p,start,end,type,description
-222,"Monday, July 17, 1922",1,0,21,DATE,Absolute or relative dates or periods
-222,Kissingen,2,24,33,GPE,"Countries, cities, states"
-222,Bertie Russell,4,0,14,PERSON,"People, including fictional"
-222,Karin,4,28,33,PERSON,"People, including fictional"
-222,George Moore,4,67,79,PERSON,"People, including fictional"
-222,two,5,666,669,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+222,"Monday, July 17, 1922",1,0,21,DATE,Absolute or relative dates or periods,,,,
+222,Kissingen,2,24,33,GPE,"Countries, cities, states",,,,
+222,Bertie Russell,4,0,14,PERSON,"People, including fictional",,,,
+222,Karin,4,28,33,PERSON,"People, including fictional",,,,
+222,George Moore,4,67,79,PERSON,"People, including fictional",,,,
+222,two,5,666,669,CARDINAL,Numerals that do not fall under another type,,,,

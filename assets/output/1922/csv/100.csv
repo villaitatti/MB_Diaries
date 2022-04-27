@@ -1,12 +1,12 @@
-page,text,p,start,end,type,description
-100,"Friday, March 17, 1922",1,0,22,DATE,Absolute or relative dates or periods
-100,Mena,2,0,4,PERSON,"People, including fictional"
-100,Pyra,3,0,4,PERSON,"People, including fictional"
-100,Minia,4,14,19,PERSON,"People, including fictional"
-100,morning,4,27,34,TIME,Times smaller than a day
-100,4.40,4,66,70,TIME,Times smaller than a day
-100,Cairo,4,82,87,GPE,"Countries, cities, states"
-100,Pyramids,4,160,168,FAC,"Buildings, airports, highways, bridges, etc."
-100,Sphinx,4,173,179,FAC,"Buildings, airports, highways, bridges, etc."
-100,Guido,5,3,8,PERSON,"People, including fictional"
-100,Egyptians,5,190,199,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+100,"Friday, March 17, 1922",1,0,22,DATE,Absolute or relative dates or periods,,,,
+100,Mena,2,0,4,PERSON,"People, including fictional",,,,
+100,Pyra,3,0,4,PERSON,"People, including fictional",,,,
+100,Minia,4,14,19,PERSON,"People, including fictional",,,,
+100,morning,4,27,34,TIME,Times smaller than a day,,,,
+100,4.40,4,66,70,TIME,Times smaller than a day,,,,
+100,Cairo,4,82,87,GPE,"Countries, cities, states",,,,
+100,Pyramids,4,160,168,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+100,Sphinx,4,173,179,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+100,Guido,5,3,8,PERSON,"People, including fictional",,,,
+100,Egyptians,5,190,199,NORP,Nationalities or religious or political groups,,,,

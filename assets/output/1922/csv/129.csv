@@ -1,8 +1,8 @@
-page,text,p,start,end,type,description
-129,"Saturday, April 15, 1922",1,0,24,DATE,Absolute or relative dates or periods
-129,Grand Hotel,2,0,11,FAC,"Buildings, airports, highways, bridges, etc."
-129,Venice,2,12,18,GPE,"Countries, cities, states"
-129,afternoon,3,12,21,TIME,Times smaller than a day
-129,Venice,3,45,51,GPE,"Countries, cities, states"
-129,5,3,55,56,TIME,Times smaller than a day
-129,BB,3,58,60,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+129,"Saturday, April 15, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+129,Grand Hotel,2,0,11,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+129,Venice,2,12,18,GPE,"Countries, cities, states",,,,
+129,afternoon,3,12,21,TIME,Times smaller than a day,,,,
+129,Venice,3,45,51,GPE,"Countries, cities, states",,,,
+129,5,3,55,56,TIME,Times smaller than a day,,,,
+129,BB,3,58,60,PERSON,"People, including fictional",,,,

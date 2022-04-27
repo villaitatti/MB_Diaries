@@ -1,9 +1,10 @@
-page,text,p,start,end,type,description
-358,"Thursday, November 30, 1922",1,0,27,DATE,Absolute or relative dates or periods
-358,Geoffrey,4,17,25,PERSON,"People, including fictional"
-358,B.B.,5,0,4,PERSON,"People, including fictional"
-358,Nicky,5,9,14,PERSON,"People, including fictional"
-358,Margaret Strong,5,60,75,PERSON,"People, including fictional"
-358,B.B.,5,77,81,PERSON,"People, including fictional"
-358,Sybil,5,85,90,PERSON,"People, including fictional"
-358,Ross,5,108,112,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+358,"Thursday, November 30, 1922",1,0,27,DATE,Absolute or relative dates or periods,,,,
+358,Geoffrey,4,17,25,PERSON,"People, including fictional",,,,
+358,B.B.,5,0,4,PERSON,"People, including fictional",,,,
+358,Nicky,5,9,14,PERSON,"People, including fictional",,,,
+358,Fiesole,5,37,44,PERSON,"People, including fictional",,,,
+358,Margaret Strong,5,60,75,PERSON,"People, including fictional",,,,
+358,B.B.,5,77,81,PERSON,"People, including fictional",,,,
+358,Sybil,5,85,90,PERSON,"People, including fictional",,,,
+358,Ross,5,108,112,PERSON,"People, including fictional",,,,

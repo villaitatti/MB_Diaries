@@ -1,20 +1,19 @@
-page,text,p,start,end,type,description
-027,"Tuesday, January 3, 1922",2,0,24,DATE,Absolute or relative dates or periods
-027,Nicky,5,0,5,PERSON,"People, including fictional"
-027,5.30 a.m,5,17,25,TIME,Times smaller than a day
-027,B.B.,5,42,46,PERSON,"People, including fictional"
-027,Museum,5,65,71,ORG,"Companies, agencies, institutions, etc."
-027,the French Institute,5,84,104,ORG,"Companies, agencies, institutions, etc."
-027,Storrs,5,118,124,GPE,"Countries, cities, states"
-027,Nicky,5,148,153,PERSON,"People, including fictional"
-027,B.B.,6,5,9,PERSON,"People, including fictional"
-027,Allenby,6,29,36,PERSON,"People, including fictional"
-027,de Cramer,6,53,62,PERSON,"People, including fictional"
-027,Mackintoshes,7,46,58,PERSON,"People, including fictional"
-027,Elgoods,7,60,67,PERSON,"People, including fictional"
-027,Sérionnes,7,69,78,PERSON,"People, including fictional"
-027,Russells,7,80,88,PERSON,"People, including fictional"
-027,Storrs,7,90,96,PERSON,"People, including fictional"
-027,Creswell,7,98,106,PERSON,"People, including fictional"
-027,Foucart,7,113,120,PERSON,"People, including fictional"
-027,Kaven,8,8,13,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+027,"Tuesday, January 3, 1922",2,0,24,DATE,Absolute or relative dates or periods,,,,
+027,Nicky,5,0,5,PERSON,"People, including fictional",,,,
+027,5.30 a.m,5,17,25,TIME,Times smaller than a day,,,,
+027,B.B.,5,42,46,PERSON,"People, including fictional",,,,
+027,Museum,5,65,71,ORG,"Companies, agencies, institutions, etc.",,,,
+027,the French Institute,5,84,104,ORG,"Companies, agencies, institutions, etc.",,,,
+027,Storrs,5,118,124,PERSON,"People, including fictional",,,,
+027,Nicky,5,148,153,PERSON,"People, including fictional",,,,
+027,B.B.,6,5,9,PERSON,"People, including fictional",,,,
+027,de Cramer,6,53,62,PERSON,"People, including fictional",,,,
+027,Mackintoshes,7,46,58,PERSON,"People, including fictional",,,,
+027,Elgoods,7,60,67,PERSON,"People, including fictional",,,,
+027,Sérionnes,7,69,78,PERSON,"People, including fictional",,,,
+027,Russells,7,80,88,PERSON,"People, including fictional",,,,
+027,Storrs,7,90,96,PERSON,"People, including fictional",,,,
+027,Creswell,7,98,106,PERSON,"People, including fictional",,,,
+027,Foucart,7,113,120,PERSON,"People, including fictional",,,,
+027,this time of the day,8,390,410,TIME,Times smaller than a day,,,,

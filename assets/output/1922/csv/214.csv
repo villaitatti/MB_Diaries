@@ -1,12 +1,13 @@
-page,text,p,start,end,type,description
-214,"Sunday, July 9, 1922",1,0,20,DATE,Absolute or relative dates or periods
-214,Regina Palast,2,0,13,PERSON,"People, including fictional"
-214,Munich,2,14,20,GPE,"Countries, cities, states"
-214,the Alte Pinacotek,3,8,26,ORG,"Companies, agencies, institutions, etc."
-214,Franceri,3,136,144,PERSON,"People, including fictional"
-214,Rubenses,3,191,199,PERSON,"People, including fictional"
-214,Offner,3,233,239,PERSON,"People, including fictional"
-214,Drei,3,260,264,PERSON,"People, including fictional"
-214,Crescenzi,3,357,366,PERSON,"People, including fictional"
-214,Naima,3,388,393,PERSON,"People, including fictional"
-214,BB,3,475,477,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+214,"Sunday, July 9, 1922",1,0,20,DATE,Absolute or relative dates or periods,,,,
+214,Regina Palast,2,0,13,PERSON,"People, including fictional",,,,
+214,Munich,2,14,20,GPE,"Countries, cities, states",,,,
+214,the Alte Pinacotek,3,8,26,ORG,"Companies, agencies, institutions, etc.",,,,
+214,The Fra Filippo Annunciation,3,102,130,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+214,Franceri,3,136,144,PERSON,"People, including fictional",,,,
+214,Rubenses,3,191,199,PERSON,"People, including fictional",,,,
+214,Offner,3,233,239,PERSON,"People, including fictional",,,,
+214,Drei,3,260,264,PERSON,"People, including fictional",,,,
+214,Crescenzi,3,357,366,PERSON,"People, including fictional",,,,
+214,Naima,3,388,393,PERSON,"People, including fictional",,,,
+214,BB,3,475,477,PERSON,"People, including fictional",,,,

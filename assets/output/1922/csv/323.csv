@@ -1,18 +1,20 @@
-page,text,p,start,end,type,description
-323,"Thursday, October 26, 1922",1,0,26,DATE,Absolute or relative dates or periods
-323,Paolini,4,0,7,PERSON,"People, including fictional"
-323,Bellini,4,31,38,PERSON,"People, including fictional"
-323,Crivelli,4,52,60,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-323,B.B.,4,69,73,PERSON,"People, including fictional"
-323,Annette Kolb,5,0,12,PERSON,"People, including fictional"
-323,the Marchesa Farinola,5,17,38,PERSON,"People, including fictional"
-323,Vernon Lee,5,62,72,PERSON,"People, including fictional"
-323,Price,5,82,87,PERSON,"People, including fictional"
-323,Zangwill,5,133,141,PERSON,"People, including fictional"
-323,Gertrude Stein’s,5,153,169,PERSON,"People, including fictional"
-323,Tender Buttons,5,171,185,WORK_OF_ART,"Titles of books, songs, etc."
-323,Paget,5,196,201,PERSON,"People, including fictional"
-323,Zangwill,5,275,283,PERSON,"People, including fictional"
-323,Walter Berry,6,0,12,PERSON,"People, including fictional"
-323,Lloyd George,6,40,52,PERSON,"People, including fictional"
-323,Geoffrey,7,28,36,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+323,"Thursday, October 26, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+323,Zangwills,2,0,9,PERSON,"People, including fictional",,,,
+323,Paolini,4,0,7,PERSON,"People, including fictional",,,,
+323,Bellini,4,31,38,PERSON,"People, including fictional",,,,
+323,Crivelli,4,52,60,PERSON,"People, including fictional",,,,
+323,B.B.,4,69,73,PERSON,"People, including fictional",,,,
+323,Annette Kolb,5,0,12,PERSON,"People, including fictional",,,,
+323,the Marchesa Farinola,5,17,38,PERSON,"People, including fictional",,,,
+323,Vernon Lee,5,62,72,PERSON,"People, including fictional",,,,
+323,Price,5,82,87,PERSON,"People, including fictional",,,,
+323,Zangwill,5,133,141,PERSON,"People, including fictional",,,,
+323,Gertrude Stein’s,5,153,169,PERSON,"People, including fictional",,,,
+323,Tender Buttons,5,171,185,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+323,Paget,5,196,201,PERSON,"People, including fictional",,,,
+323,Zangwill,5,275,283,PERSON,"People, including fictional",,,,
+323,Walter Berry,6,0,12,PERSON,"People, including fictional",,,,
+323,Lloyd George,6,40,52,PERSON,"People, including fictional",,,,
+323,Geoffrey,7,28,36,PERSON,"People, including fictional",,,,
+323,years,7,51,56,DATE,Absolute or relative dates or periods,,,,

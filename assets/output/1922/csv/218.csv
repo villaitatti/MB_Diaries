@@ -1,4 +1,3 @@
-page,text,p,start,end,type,description
-218,"Thursday, July 13, 1922",1,0,23,DATE,Absolute or relative dates or periods
-218,Villa Thea,2,0,10,PERSON,"People, including fictional"
-218,Hofrath Dr.,3,0,11,FAC,"Buildings, airports, highways, bridges, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+218,"Thursday, July 13, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+218,Villa Thea,2,0,10,PERSON,"People, including fictional",,,,

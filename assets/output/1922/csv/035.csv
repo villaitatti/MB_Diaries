@@ -1,10 +1,11 @@
-page,text,p,start,end,type,description
-035,"Wednesday, January 11, 1922",1,0,27,DATE,Absolute or relative dates or periods
-035,Devonshire,3,56,66,PERSON,"People, including fictional"
-035,Citadel,3,112,119,FAC,"Buildings, airports, highways, bridges, etc."
-035,Patricolo,3,129,138,PERSON,"People, including fictional"
-035,the Tomb of Imam Shafei,3,180,203,FAC,"Buildings, airports, highways, bridges, etc."
-035,SS Annunziata,3,296,309,FAC,"Buildings, airports, highways, bridges, etc."
-035,Alberti,3,313,320,PERSON,"People, including fictional"
-035,Albanian Monastery,3,353,371,FAC,"Buildings, airports, highways, bridges, etc."
-035,Baxter,4,9,15,ORG,"Companies, agencies, institutions, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+035,"Wednesday, January 11, 1922",1,0,27,DATE,Absolute or relative dates or periods,,,,
+035,Devonshire,3,56,66,PERSON,"People, including fictional",,,,
+035,Citadel,3,112,119,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+035,Patricolo,3,129,138,PERSON,"People, including fictional",,,,
+035,the Tomb of Imam Shafei,3,180,203,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+035,SS Annunziata,3,296,309,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+035,Alberti,3,313,320,PERSON,"People, including fictional",,,,
+035,Albanian Monastery,3,353,371,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+035,Furness,4,0,7,ORG,"Companies, agencies, institutions, etc.",,,,
+035,Baxter,4,9,15,ORG,"Companies, agencies, institutions, etc.",,,,

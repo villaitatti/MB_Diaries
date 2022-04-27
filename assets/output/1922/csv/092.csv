@@ -1,19 +1,21 @@
-page,text,p,start,end,type,description
-092,"Thursday, March 9, 1922",1,0,23,DATE,Absolute or relative dates or periods
-092,Egypt,2,4,9,GPE,"Countries, cities, states"
-092,Luxor,3,5,10,ORG,"Companies, agencies, institutions, etc."
-092,Ahmet Abdallah,3,127,141,PERSON,"People, including fictional"
-092,All day,4,0,7,DATE,Absolute or relative dates or periods
-092,Nile,4,15,19,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-092,4,5,1,2,CARDINAL,Numerals that do not fall under another type
-092,Alys,6,9,13,PERSON,"People, including fictional"
-092,Ray,6,15,18,PERSON,"People, including fictional"
-092,Karin,6,20,25,PERSON,"People, including fictional"
-092,Dan,6,27,30,PERSON,"People, including fictional"
-092,Guido,6,32,37,PERSON,"People, including fictional"
-092,Reinach,6,39,46,PERSON,"People, including fictional"
-092,Lippmann,6,48,56,PERSON,"People, including fictional"
-092,Salvemini,6,63,72,PERSON,"People, including fictional"
-092,Kitson,6,79,85,PERSON,"People, including fictional"
-092,Barbara,6,87,94,PERSON,"People, including fictional"
-092,Ross,6,101,105,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+092,"Thursday, March 9, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+092,Egypt,2,4,9,GPE,"Countries, cities, states",,,,
+092,Luxor,3,5,10,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+092,11,3,14,16,TIME,Times smaller than a day,,,,
+092,Dragoman,3,117,125,PERSON,"People, including fictional",,,,
+092,Ahmet Abdallah,3,127,141,PERSON,"People, including fictional",,,,
+092,All day,4,0,7,DATE,Absolute or relative dates or periods,,,,
+092,Nile,4,15,19,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+092,4,5,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+092,Alys,6,9,13,PERSON,"People, including fictional",,,,
+092,Ray,6,15,18,PERSON,"People, including fictional",,,,
+092,Karin,6,20,25,PERSON,"People, including fictional",,,,
+092,Dan,6,27,30,PERSON,"People, including fictional",,,,
+092,Guido,6,32,37,PERSON,"People, including fictional",,,,
+092,Reinach,6,39,46,PERSON,"People, including fictional",,,,
+092,Lippmann,6,48,56,PERSON,"People, including fictional",,,,
+092,Salvemini,6,63,72,PERSON,"People, including fictional",,,,
+092,Kitson,6,79,85,PERSON,"People, including fictional",,,,
+092,Barbara,6,87,94,PERSON,"People, including fictional",,,,
+092,Ross,6,101,105,PERSON,"People, including fictional",,,,

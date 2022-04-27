@@ -1,5 +1,5 @@
-page,text,p,start,end,type,description
-341,"Monday, November 13, 1922",1,0,25,DATE,Absolute or relative dates or periods
-341,B.B.,3,16,20,PERSON,"People, including fictional"
-341,one,3,25,28,CARDINAL,Numerals that do not fall under another type
-341,two,3,151,154,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+341,"Monday, November 13, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+341,B.B.,3,16,20,PERSON,"People, including fictional",,,,
+341,one,3,25,28,CARDINAL,Numerals that do not fall under another type,,,,
+341,two,3,151,154,CARDINAL,Numerals that do not fall under another type,,,,

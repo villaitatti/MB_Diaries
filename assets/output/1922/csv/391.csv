@@ -1,42 +1,43 @@
-page,text,p,start,end,type,description
-391,Memoranda,1,0,9,PERSON,"People, including fictional"
-391,Rue el Tork el Chaik,2,22,42,FAC,"Buildings, airports, highways, bridges, etc."
-391,Mackintosh,3,0,10,PERSON,"People, including fictional"
-391,C.A.G. Villa Scarabée,3,16,37,PERSON,"People, including fictional"
-391,Sharia Gabalaya Gezira,4,0,22,PERSON,"People, including fictional"
-391,Palais de Mounira,5,26,43,FAC,"Buildings, airports, highways, bridges, etc."
-391,2711,5,49,53,CARDINAL,Numerals that do not fall under another type
-391,Neguib Pacha Boutros-Ghali,6,0,26,PERSON,"People, including fictional"
-391,Dahabieh Ammon Ra,7,0,17,PERSON,"People, including fictional"
-391,Nahman Maurice,8,0,14,PERSON,"People, including fictional"
-391,27,8,24,26,CARDINAL,Numerals that do not fall under another type
-391,Shareh el Madabegh,8,27,45,PERSON,"People, including fictional"
-391,Reginald.,9,10,19,PERSON,"People, including fictional"
-391,Maria Formosa,10,3,16,PERSON,"People, including fictional"
-391,Venezia,10,22,29,GPE,"Countries, cities, states"
-391,1.30,12,9,13,TIME,Times smaller than a day
-391,42.71,12,42,47,CARDINAL,Numerals that do not fall under another type
-391,Paravicini,13,0,10,ORG,"Companies, agencies, institutions, etc."
-391,Quibell J. E. Musée de Cairo,14,0,28,FAC,"Buildings, airports, highways, bridges, etc."
-391,Philipps D. L.8,15,0,15,DATE,Absolute or relative dates or periods
-391,Sharia Suliman Pasha→,15,16,37,PERSON,"People, including fictional"
-391,Simaika Marcos Pasha,16,0,20,PERSON,"People, including fictional"
-391,Rue de l’Hôpital français 6,17,0,27,FAC,"Buildings, airports, highways, bridges, etc."
-391,↑Abbasieh,18,2,11,PERSON,"People, including fictional"
-391,2346,18,17,21,CARDINAL,Numerals that do not fall under another type
-391,Thomas Ed. S.,19,0,13,PERSON,"People, including fictional"
-391,Mohammed Aly,20,6,18,PERSON,"People, including fictional"
-391,Moli Elsayed Pasha,20,28,46,PERSON,"People, including fictional"
-391,24,21,28,30,CARDINAL,Numerals that do not fall under another type
-391,Thomson,22,0,7,ORG,"Companies, agencies, institutions, etc."
-391,C. P.Maison Herdan,22,14,32,PERSON,"People, including fictional"
-391,Garden City,23,0,11,GPE,"Countries, cities, states"
-391,Sharia Maghrabi,24,16,31,ORG,"Companies, agencies, institutions, etc."
-391,Turf Club,24,36,45,ORG,"Companies, agencies, institutions, etc."
-391,Villamarina Ethel Pes diComtesse de Contardone,25,0,46,PERSON,"People, including fictional"
-391,Hotel Continental,26,0,17,ORG,"Companies, agencies, institutions, etc."
-391,Winlock,27,0,7,ORG,"Companies, agencies, institutions, etc."
-391,Russell Pascha,28,35,49,PERSON,"People, including fictional"
-391,22,28,50,52,CARDINAL,Numerals that do not fall under another type
-391,Sharia Ibn Zauki,28,53,69,PERSON,"People, including fictional"
-391,Zamelek Gezireh,28,71,86,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+391,Memoranda,1,0,9,PERSON,"People, including fictional",,,,
+391,Mackintosh,3,0,10,PERSON,"People, including fictional",,,,
+391,C.A.G. Villa Scarabée,3,16,37,PERSON,"People, including fictional",,,,
+391,Sharia Gabalaya Gezira,4,0,22,PERSON,"People, including fictional",,,,
+391,Palais de Mounira,5,26,43,ORG,"Companies, agencies, institutions, etc.",,,,
+391,2711,5,49,53,CARDINAL,Numerals that do not fall under another type,,,,
+391,Neguib Pacha Boutros-Ghali,6,0,26,PERSON,"People, including fictional",,,,
+391,Dahabieh Ammon Ra,7,0,17,PERSON,"People, including fictional",,,,
+391,Nahman Maurice,8,0,14,PERSON,"People, including fictional",,,,
+391,27,8,24,26,CARDINAL,Numerals that do not fall under another type,,,,
+391,Shareh el Madabegh,8,27,45,PERSON,"People, including fictional",,,,
+391,Reginald.,9,10,19,PERSON,"People, including fictional",,,,
+391,S. Maria Formosa,10,0,16,PERSON,"People, including fictional",,,,
+391,42.71,12,14,19,CARDINAL,Numerals that do not fall under another type,,,,
+391,21.43,12,25,30,CARDINAL,Numerals that do not fall under another type,,,,
+391,42.71,12,42,47,CARDINAL,Numerals that do not fall under another type,,,,
+391,33,12,49,51,CARDINAL,Numerals that do not fall under another type,,,,
+391,Paravicini Emile Villa du Soleil,13,0,32,PERSON,"People, including fictional",,,,
+391,Palais de Koubbeh,13,41,58,PERSON,"People, including fictional",,,,
+391,Quibell J. E. Musée de Cairo,14,0,28,ORG,"Companies, agencies, institutions, etc.",,,,
+391,Philipps D. L.8,15,0,15,DATE,Absolute or relative dates or periods,,,,
+391,Suliman Pasha→,15,23,37,PERSON,"People, including fictional",,,,
+391,Simaika Marcos Pasha,16,0,20,PERSON,"People, including fictional",,,,
+391,Rue de l’Hôpital français,17,0,25,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+391,6,17,26,27,CARDINAL,Numerals that do not fall under another type,,,,
+391,2346,18,17,21,CARDINAL,Numerals that do not fall under another type,,,,
+391,Mohammed Aly.,20,6,19,PERSON,"People, including fictional",,,,
+391,Moli Elsayed Pasha,20,28,46,PERSON,"People, including fictional",,,,
+391,Thomson,22,0,7,ORG,"Companies, agencies, institutions, etc.",,,,
+391,C. P.Maison Herdan,22,14,32,PERSON,"People, including fictional",,,,
+391,Garden City,23,0,11,GPE,"Countries, cities, states",,,,
+391,Truman W. H. 27,24,0,15,PERSON,"People, including fictional",,,,
+391,Sharia Maghrabi,24,16,31,ORG,"Companies, agencies, institutions, etc.",,,,
+391,Turf Club,24,36,45,ORG,"Companies, agencies, institutions, etc.",,,,
+391,Villamarina Ethel Pes diComtesse de Contardone,25,0,46,PERSON,"People, including fictional",,,,
+391,Hotel Continental,26,0,17,ORG,"Companies, agencies, institutions, etc.",,,,
+391,Winlock,27,0,7,PRODUCT,"Objects, vehicles, foods, etc. (not services)",,,,
+391,Der el Bahari,27,9,22,ORG,"Companies, agencies, institutions, etc.",,,,
+391,Russell Pascha,28,35,49,PERSON,"People, including fictional",,,,
+391,22,28,50,52,CARDINAL,Numerals that do not fall under another type,,,,
+391,Sharia Ibn Zauki,28,53,69,PERSON,"People, including fictional",,,,
+391,Zamelek Gezireh,28,71,86,PERSON,"People, including fictional",,,,

@@ -1,15 +1,16 @@
-page,text,p,start,end,type,description
-091,"Wednesday, March 8, 1922",1,0,24,DATE,Absolute or relative dates or periods
-091,Ramosi,2,12,18,PERSON,"People, including fictional"
-091,Luxor,2,64,69,GPE,"Countries, cities, states"
-091,Desiderio,2,111,120,PERSON,"People, including fictional"
-091,Benozzo,2,136,143,PERSON,"People, including fictional"
-091,Donatello,2,200,209,PERSON,"People, including fictional"
-091,Karnac,4,8,14,FAC,"Buildings, airports, highways, bridges, etc."
-091,M. Pillé,4,70,78,PERSON,"People, including fictional"
-091,Storrs,5,14,20,PERSON,"People, including fictional"
-091,Jerusalem,5,47,56,GPE,"Countries, cities, states"
-091,Patricolo,5,67,76,PERSON,"People, including fictional"
-091,Alban,5,78,83,PERSON,"People, including fictional"
-091,Geoffrey,5,85,93,PERSON,"People, including fictional"
-091,Ross,5,100,104,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+091,"Wednesday, March 8, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+091,Ramosi,2,12,18,PERSON,"People, including fictional",,,,
+091,Luxor,2,64,69,GPE,"Countries, cities, states",,,,
+091,Desiderio,2,111,120,PERSON,"People, including fictional",,,,
+091,Benozzo,2,136,143,PERSON,"People, including fictional",,,,
+091,Donatello,2,200,209,PERSON,"People, including fictional",,,,
+091,Winlocks,3,17,25,NORP,Nationalities or religious or political groups,,,,
+091,Karnac,4,8,14,GPE,"Countries, cities, states",,,,
+091,M. Pillé,4,70,78,PERSON,"People, including fictional",,,,
+091,Storrs,5,14,20,PERSON,"People, including fictional",,,,
+091,Jerusalem,5,47,56,GPE,"Countries, cities, states",,,,
+091,Patricolo,5,67,76,PERSON,"People, including fictional",,,,
+091,Alban,5,78,83,PERSON,"People, including fictional",,,,
+091,Geoffrey,5,85,93,PERSON,"People, including fictional",,,,
+091,Ross,5,100,104,PERSON,"People, including fictional",,,,

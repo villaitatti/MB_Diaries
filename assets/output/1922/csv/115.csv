@@ -1,17 +1,18 @@
-page,text,p,start,end,type,description
-115,"Saturday, April 1, 1922",1,0,23,DATE,Absolute or relative dates or periods
-115,Khamseen,2,0,8,PERSON,"People, including fictional"
-115,5,5,1,2,CARDINAL,Numerals that do not fall under another type
-115,Paravicini,6,13,23,PERSON,"People, including fictional"
-115,Bonté,6,65,70,ORG,"Companies, agencies, institutions, etc."
-115,Foucart,6,107,114,PERSON,"People, including fictional"
-115,Per,6,116,119,PERSON,"People, including fictional"
-115,House,6,171,176,ORG,"Companies, agencies, institutions, etc."
-115,6,8,1,2,CARDINAL,Numerals that do not fall under another type
-115,Alys,9,9,13,PERSON,"People, including fictional"
-115,Devonshire,9,20,30,PERSON,"People, including fictional"
-115,Ray,9,32,35,PERSON,"People, including fictional"
-115,Karin,9,37,42,PERSON,"People, including fictional"
-115,Barbara,9,44,51,PERSON,"People, including fictional"
-115,Logan,9,53,58,PERSON,"People, including fictional"
-115,Fowles,9,60,66,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+115,"Saturday, April 1, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+115,Khamseen,2,0,8,PERSON,"People, including fictional",,,,
+115,5,5,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+115,Paravicini,6,13,23,PERSON,"People, including fictional",,,,
+115,Bonté,6,65,70,PERSON,"People, including fictional",,,,
+115,Foucart,6,107,114,PERSON,"People, including fictional",,,,
+115,Per,6,116,119,ORG,"Companies, agencies, institutions, etc.",,,,
+115,Capitaine du Cards,6,121,139,ORG,"Companies, agencies, institutions, etc.",,,,
+115,House,6,171,176,ORG,"Companies, agencies, institutions, etc.",,,,
+115,6,8,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+115,Alys,9,9,13,PERSON,"People, including fictional",,,,
+115,Devonshire,9,20,30,PERSON,"People, including fictional",,,,
+115,Ray,9,32,35,PERSON,"People, including fictional",,,,
+115,Karin,9,37,42,PERSON,"People, including fictional",,,,
+115,Barbara,9,44,51,PERSON,"People, including fictional",,,,
+115,Logan,9,53,58,PERSON,"People, including fictional",,,,
+115,Fowles,9,60,66,PERSON,"People, including fictional",,,,

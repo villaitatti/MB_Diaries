@@ -1,14 +1,13 @@
-page,text,p,start,end,type,description
-384,"Tuesday, December 26, 1922",1,0,26,DATE,Absolute or relative dates or periods
-384,Bessie,2,41,47,PERSON,"People, including fictional"
-384,Alys,3,0,4,PERSON,"People, including fictional"
-384,Julia Mantegazza,4,11,27,PERSON,"People, including fictional"
-384,Anita Cagnola’s,4,29,44,PERSON,"People, including fictional"
-384,Villa Medici,4,110,122,FAC,"Buildings, airports, highways, bridges, etc."
-384,Geoffrey,4,124,132,PERSON,"People, including fictional"
-384,Lina,5,0,4,PERSON,"People, including fictional"
-384,Aubrey,5,9,15,PERSON,"People, including fictional"
-384,Trevor Bigham,5,25,38,PERSON,"People, including fictional"
-384,evening,6,47,54,TIME,Times smaller than a day
-384,Bessie,6,56,62,PERSON,"People, including fictional"
-384,the old days,6,131,143,DATE,Absolute or relative dates or periods
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+384,"Tuesday, December 26, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+384,Bessie,2,41,47,PERSON,"People, including fictional",,,,
+384,Alys,3,0,4,PERSON,"People, including fictional",,,,
+384,Julia Mantegazza,4,11,27,PERSON,"People, including fictional",,,,
+384,Anita Cagnola’s,4,29,44,PERSON,"People, including fictional",,,,
+384,Villa Medici,4,110,122,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+384,Geoffrey,4,124,132,PERSON,"People, including fictional",,,,
+384,Lina,5,0,4,PERSON,"People, including fictional",,,,
+384,Aubrey,5,9,15,PERSON,"People, including fictional",,,,
+384,Trevor Bigham,5,25,38,PERSON,"People, including fictional",,,,
+384,evening,6,47,54,TIME,Times smaller than a day,,,,
+384,Bessie,6,56,62,PERSON,"People, including fictional",,,,

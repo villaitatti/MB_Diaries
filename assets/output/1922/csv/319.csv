@@ -1,11 +1,11 @@
-page,text,p,start,end,type,description
-319,"Sunday, October 22, 1922",1,0,24,DATE,Absolute or relative dates or periods
-319,Zangwill,3,5,13,PERSON,"People, including fictional"
-319,Villa Medici,3,25,37,FAC,"Buildings, airports, highways, bridges, etc."
-319,Ross,3,44,48,PERSON,"People, including fictional"
-319,Strong,3,53,59,PERSON,"People, including fictional"
-319,Sybil,3,61,66,PERSON,"People, including fictional"
-319,Strong,3,122,128,PERSON,"People, including fictional"
-319,Zangwills,4,4,13,PERSON,"People, including fictional"
-319,Naimi,5,0,5,PERSON,"People, including fictional"
-319,Gnoli,5,10,15,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+319,"Sunday, October 22, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+319,Zangwill,3,5,13,PERSON,"People, including fictional",,,,
+319,Villa Medici,3,25,37,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+319,Ross,3,44,48,PERSON,"People, including fictional",,,,
+319,Strong,3,53,59,PERSON,"People, including fictional",,,,
+319,Sybil,3,61,66,PERSON,"People, including fictional",,,,
+319,Strong,3,122,128,PERSON,"People, including fictional",,,,
+319,Zangwills,4,4,13,PERSON,"People, including fictional",,,,
+319,Naimi,5,0,5,PERSON,"People, including fictional",,,,
+319,Gnoli,5,10,15,PERSON,"People, including fictional",,,,

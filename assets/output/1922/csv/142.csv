@@ -1,19 +1,19 @@
-page,text,p,start,end,type,description
-142,"Friday, April 28, 1922",1,0,22,DATE,Absolute or relative dates or periods
-142,Logan,2,0,5,PERSON,"People, including fictional"
-142,Hewitt,3,5,11,PERSON,"People, including fictional"
-142,Trevy,4,0,5,PERSON,"People, including fictional"
-142,Wednesday the 26th,5,8,26,DATE,Absolute or relative dates or periods
-142,Emmett,5,52,58,PERSON,"People, including fictional"
-142,M___ Henry Parkman,5,73,91,PERSON,"People, including fictional"
-142,Edmund Houghton,5,106,121,PERSON,"People, including fictional"
-142,Archibald Russell,7,13,30,PERSON,"People, including fictional"
-142,Logan,7,59,64,PERSON,"People, including fictional"
-142,M___ H___t,7,69,79,PERSON,"People, including fictional"
-142,Villa Medici,7,90,102,FAC,"Buildings, airports, highways, bridges, etc."
-142,Sybil,7,110,115,PERSON,"People, including fictional"
-142,2,8,1,2,CARDINAL,Numerals that do not fall under another type
-142,Whitall,9,9,16,PERSON,"People, including fictional"
-142,Eliza Nicholson,9,21,36,PERSON,"People, including fictional"
-142,5000,9,71,75,MONEY,"Monetary values, including unit"
-142,Franklin,9,121,129,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+142,"Friday, April 28, 1922",1,0,22,DATE,Absolute or relative dates or periods,,,,
+142,Logan     I Ta,2,0,14,PERSON,"People, including fictional",,,,
+142,Hewitt,3,5,11,PERSON,"People, including fictional",,,,
+142,Trevy,4,0,5,PERSON,"People, including fictional",,,,
+142,Wednesday the 26th,5,8,26,DATE,Absolute or relative dates or periods,,,,
+142,Emmett,5,52,58,PERSON,"People, including fictional",,,,
+142,M___ Henry Parkman,5,73,91,PERSON,"People, including fictional",,,,
+142,Edmund Houghton,5,106,121,PERSON,"People, including fictional",,,,
+142,Archibald Russell,7,13,30,PERSON,"People, including fictional",,,,
+142,Logan,7,59,64,PERSON,"People, including fictional",,,,
+142,M___ H___t,7,69,79,PERSON,"People, including fictional",,,,
+142,Villa Medici,7,90,102,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+142,Sybil,7,110,115,PERSON,"People, including fictional",,,,
+142,2,8,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+142,Whitall,9,9,16,PERSON,"People, including fictional",,,,
+142,Eliza Nicholson,9,21,36,PERSON,"People, including fictional",,,,
+142,5000,9,71,75,MONEY,"Monetary values, including unit",,,,
+142,Franklin,9,121,129,PERSON,"People, including fictional",,,,

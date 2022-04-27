@@ -1,18 +1,18 @@
-page,text,p,start,end,type,description
-200,"Sunday, June 25, 1922",1,0,21,DATE,Absolute or relative dates or periods
-200,Naima,3,0,5,PERSON,"People, including fictional"
-200,Geoffrey,4,0,8,PERSON,"People, including fictional"
-200,about a third,5,11,24,CARDINAL,Numerals that do not fall under another type
-200,Carrol,6,5,11,PERSON,"People, including fictional"
-200,Perkins,6,21,28,PERSON,"People, including fictional"
-200,Karin,7,0,5,PERSON,"People, including fictional"
-200,Geoffrey,7,10,18,PERSON,"People, including fictional"
-200,Villa Medici,7,27,39,FAC,"Buildings, airports, highways, bridges, etc."
-200,Le Balze,7,44,52,FAC,"Buildings, airports, highways, bridges, etc."
-200,B.B.,7,54,58,FAC,"Buildings, airports, highways, bridges, etc."
-200,Perrys,7,67,73,PERSON,"People, including fictional"
-200,Naima,7,78,83,PERSON,"People, including fictional"
-200,Monte Senario,7,148,161,FAC,"Buildings, airports, highways, bridges, etc."
-200,Geoffrey,8,0,8,PERSON,"People, including fictional"
-200,Blake,8,17,22,PERSON,"People, including fictional"
-200,a hundred,8,161,170,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+200,"Sunday, June 25, 1922",1,0,21,DATE,Absolute or relative dates or periods,,,,
+200,Tatti,2,31,36,PERSON,"People, including fictional",,,,
+200,Naima,3,0,5,PERSON,"People, including fictional",,,,
+200,Geoffrey,4,0,8,PERSON,"People, including fictional",,,,
+200,about a third,5,11,24,CARDINAL,Numerals that do not fall under another type,,,,
+200,Carrol,6,5,11,PERSON,"People, including fictional",,,,
+200,Perkins,6,21,28,PERSON,"People, including fictional",,,,
+200,Karin,7,0,5,PERSON,"People, including fictional",,,,
+200,Geoffrey,7,10,18,PERSON,"People, including fictional",,,,
+200,Villa Medici,7,27,39,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+200,B.B.,7,54,58,GPE,"Countries, cities, states",,,,
+200,Perrys,7,67,73,PERSON,"People, including fictional",,,,
+200,Naima,7,78,83,PERSON,"People, including fictional",,,,
+200,Monte Senario,7,148,161,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+200,Geoffrey,8,0,8,PERSON,"People, including fictional",,,,
+200,Blake,8,17,22,PERSON,"People, including fictional",,,,
+200,a hundred,8,161,170,CARDINAL,Numerals that do not fall under another type,,,,

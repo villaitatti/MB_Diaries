@@ -1,4 +1,4 @@
-page,text,p,start,end,type,description
-153,"Tuesday, May 9, 1922",1,0,20,DATE,Absolute or relative dates or periods
-153,Ray,2,0,3,PERSON,"People, including fictional"
-153,Logan,3,0,5,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+153,"Tuesday, May 9, 1922",1,0,20,DATE,Absolute or relative dates or periods,,,,
+153,Ray,2,0,3,PERSON,"People, including fictional",,,,
+153,Logan,3,0,5,PERSON,"People, including fictional",,,,

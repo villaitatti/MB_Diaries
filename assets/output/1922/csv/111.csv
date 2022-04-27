@@ -1,21 +1,22 @@
-page,text,p,start,end,type,description
-111,"Tuesday, March 28, 1922",1,0,23,DATE,Absolute or relative dates or periods
-111,Museum,3,10,16,ORG,"Companies, agencies, institutions, etc."
-111,Higham Cooper,3,44,57,PERSON,"People, including fictional"
-111,a year,3,169,175,DATE,Absolute or relative dates or periods
-111,Russ,3,193,197,PERSON,"People, including fictional"
-111,Lazarus Barlow,3,202,216,PERSON,"People, including fictional"
-111,the Cancer Research Hospital,3,220,248,ORG,"Companies, agencies, institutions, etc."
-111,London,3,252,258,GPE,"Countries, cities, states"
-111,three,4,50,55,CARDINAL,Numerals that do not fall under another type
-111,27th,4,251,255,ORDINAL,"""first"", ""second"", etc."
-111,Bonté’s,5,8,15,ORG,"Companies, agencies, institutions, etc."
-111,Per,5,52,55,PERSON,"People, including fictional"
-111,Kitson,5,88,94,PERSON,"People, including fictional"
-111,Asiatics,6,42,50,NORP,Nationalities or religious or political groups
-111,Egyptians,6,55,64,NORP,Nationalities or religious or political groups
-111,many years,6,86,96,DATE,Absolute or relative dates or periods
-111,Europeans,6,119,128,NORP,Nationalities or religious or political groups
-111,2,7,1,2,CARDINAL,Numerals that do not fall under another type
-111,Geoffrey,8,9,17,PERSON,"People, including fictional"
-111,Senda,8,22,27,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+111,"Tuesday, March 28, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+111,Scirocco,2,0,8,PERSON,"People, including fictional",,,,
+111,Museum,3,10,16,ORG,"Companies, agencies, institutions, etc.",,,,
+111,Higham Cooper,3,44,57,PERSON,"People, including fictional",,,,
+111,a year,3,169,175,DATE,Absolute or relative dates or periods,,,,
+111,Russ,3,193,197,PERSON,"People, including fictional",,,,
+111,Lazarus Barlow,3,202,216,PERSON,"People, including fictional",,,,
+111,the Cancer Research Hospital,3,220,248,ORG,"Companies, agencies, institutions, etc.",,,,
+111,London,3,252,258,GPE,"Countries, cities, states",,,,
+111,three,4,50,55,CARDINAL,Numerals that do not fall under another type,,,,
+111,27th,4,251,255,ORDINAL,"""first"", ""second"", etc.",,,,
+111,Bonté,5,8,13,PERSON,"People, including fictional",,,,
+111,Per,5,52,55,PERSON,"People, including fictional",,,,
+111,Kitson,5,88,94,PERSON,"People, including fictional",,,,
+111,Asiatics,6,42,50,NORP,Nationalities or religious or political groups,,,,
+111,Egyptians,6,55,64,NORP,Nationalities or religious or political groups,,,,
+111,many years,6,86,96,DATE,Absolute or relative dates or periods,,,,
+111,Europeans,6,119,128,NORP,Nationalities or religious or political groups,,,,
+111,2,7,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+111,Geoffrey,8,9,17,PERSON,"People, including fictional",,,,
+111,Senda,8,22,27,PERSON,"People, including fictional",,,,

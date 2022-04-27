@@ -1,6 +1,6 @@
-page,text,p,start,end,type,description
-368,"Sunday, December 10, 1922",1,0,25,DATE,Absolute or relative dates or periods
-368,Byba,2,0,4,PERSON,"People, including fictional"
-368,Salvemini,3,0,9,PERSON,"People, including fictional"
-368,Van Marle,5,0,9,PERSON,"People, including fictional"
-368,about ⅔,6,1,8,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+368,"Sunday, December 10, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+368,Byba,2,0,4,PERSON,"People, including fictional",,,,
+368,Salvemini,3,0,9,PERSON,"People, including fictional",,,,
+368,The Marchesa Farinola,4,0,21,PERSON,"People, including fictional",,,,
+368,Van Marle,5,0,9,PERSON,"People, including fictional",,,,

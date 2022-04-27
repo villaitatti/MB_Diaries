@@ -1,6 +1,6 @@
-page,text,p,start,end,type,description
-060,"Sunday, February 5, 1922",1,0,24,DATE,Absolute or relative dates or periods
-060,Shellal,2,18,25,GPE,"Countries, cities, states"
-060,Temple of Kalabsha,3,36,54,FAC,"Buildings, airports, highways, bridges, etc."
-060,Isis,3,74,78,PERSON,"People, including fictional"
-060,Barbara,6,23,30,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+060,"Sunday, February 5, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+060,Shellal,2,18,25,GPE,"Countries, cities, states",,,,
+060,Temple of Kalabsha,3,36,54,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+060,Isis,3,74,78,PERSON,"People, including fictional",,,,
+060,Barbara,6,23,30,PERSON,"People, including fictional",,,,

@@ -1,21 +1,20 @@
-page,text,p,start,end,type,description
-340,"Sunday, November 12, 1922",1,0,25,DATE,Absolute or relative dates or periods
-340,Cameron,2,47,54,PERSON,"People, including fictional"
-340,Margaret Strong,3,0,15,PERSON,"People, including fictional"
-340,Laver,3,21,26,PERSON,"People, including fictional"
-340,Rothenstein,3,28,39,PERSON,"People, including fictional"
-340,Henderson,3,60,69,PERSON,"People, including fictional"
-340,two,3,98,101,CARDINAL,Numerals that do not fall under another type
-340,Gamberaia,3,119,128,PERSON,"People, including fictional"
-340,Henderson,4,12,21,PERSON,"People, including fictional"
-340,CreswellMr,5,5,15,PERSON,"People, including fictional"
-340,Laver,5,17,22,PERSON,"People, including fictional"
-340,HopkinsonMr,6,5,16,PERSON,"People, including fictional"
-340,Wickham,6,18,25,PERSON,"People, including fictional"
-340,VaughanJohnny,7,5,18,PERSON,"People, including fictional"
-340,PolkinghorneB.B.,8,5,21,PERSON,"People, including fictional"
-340,JuliaNicky,9,0,10,PERSON,"People, including fictional"
-340,Idesta PelletMrs,10,0,16,PERSON,"People, including fictional"
-340,Cameron,10,18,25,PERSON,"People, including fictional"
-340,Sturt,11,5,10,PERSON,"People, including fictional"
-340,Friday,13,27,33,DATE,Absolute or relative dates or periods
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+340,"Sunday, November 12, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+340,Margaret Strong,3,0,15,PERSON,"People, including fictional",,,,
+340,Laver,3,21,26,PERSON,"People, including fictional",,,,
+340,Rothenstein,3,28,39,PERSON,"People, including fictional",,,,
+340,Henderson,3,60,69,PERSON,"People, including fictional",,,,
+340,two,3,98,101,CARDINAL,Numerals that do not fall under another type,,,,
+340,Gamberaia,3,119,128,PERSON,"People, including fictional",,,,
+340,Henderson,4,12,21,PERSON,"People, including fictional",,,,
+340,CreswellMr,5,5,15,PERSON,"People, including fictional",,,,
+340,Laver,5,17,22,PERSON,"People, including fictional",,,,
+340,HopkinsonMr,6,5,16,PERSON,"People, including fictional",,,,
+340,Wickham,6,18,25,PERSON,"People, including fictional",,,,
+340,VaughanJohnny,7,5,18,PERSON,"People, including fictional",,,,
+340,PolkinghorneB.B.,8,5,21,PERSON,"People, including fictional",,,,
+340,JuliaNicky,9,0,10,PERSON,"People, including fictional",,,,
+340,Idesta PelletMrs,10,0,16,PERSON,"People, including fictional",,,,
+340,Cameron,10,18,25,PERSON,"People, including fictional",,,,
+340,Sturt,11,5,10,PERSON,"People, including fictional",,,,
+340,Friday,13,27,33,DATE,Absolute or relative dates or periods,,,,

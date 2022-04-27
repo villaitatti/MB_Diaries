@@ -1,13 +1,13 @@
-page,text,p,start,end,type,description
-337,"Thursday, November 9, 1922",1,0,26,DATE,Absolute or relative dates or periods
-337,Lizzie,3,0,6,PERSON,"People, including fictional"
-337,Placci,3,29,35,PERSON,"People, including fictional"
-337,Lazzaroni,3,46,55,PERSON,"People, including fictional"
-337,Botticelli,3,81,91,WORK_OF_ART,"Titles of books, songs, etc."
-337,2,3,203,204,CARDINAL,Numerals that do not fall under another type
-337,Titian,3,225,231,WORK_OF_ART,"Titles of books, songs, etc."
-337,Ross,4,10,14,PERSON,"People, including fictional"
-337,Hendersons,4,32,42,PERSON,"People, including fictional"
-337,Kitsons,4,47,54,PERSON,"People, including fictional"
-337,Gino Bolle,4,116,126,PERSON,"People, including fictional"
-337,Nicky,5,10,15,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+337,"Thursday, November 9, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+337,Lizzie,3,0,6,PERSON,"People, including fictional",,,,
+337,Placci,3,29,35,PERSON,"People, including fictional",,,,
+337,Lazzaroni,3,46,55,PERSON,"People, including fictional",,,,
+337,Botticelli,3,81,91,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+337,2,3,203,204,CARDINAL,Numerals that do not fall under another type,,,,
+337,Bart. Venetos,3,205,218,PERSON,"People, including fictional",,,,
+337,Titian,3,225,231,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+337,Ross,4,10,14,PERSON,"People, including fictional",,,,
+337,Kitsons,4,47,54,PERSON,"People, including fictional",,,,
+337,Gino Bolle,4,116,126,PERSON,"People, including fictional",,,,
+337,Nicky,5,10,15,PERSON,"People, including fictional",,,,

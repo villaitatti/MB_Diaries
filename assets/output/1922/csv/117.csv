@@ -1,12 +1,13 @@
-page,text,p,start,end,type,description
-117,"Monday, April 3, 1922",1,0,21,DATE,Absolute or relative dates or periods
-117,Duff Gordon,2,13,24,PERSON,"People, including fictional"
-117,Kitsons,2,76,83,PERSON,"People, including fictional"
-117,Philomène,2,88,97,PERSON,"People, including fictional"
-117,afternoon,2,123,132,TIME,Times smaller than a day
-117,Mikado,2,153,159,GPE,"Countries, cities, states"
-117,evening,2,163,170,TIME,Times smaller than a day
-117,Kitsons,3,4,11,NORP,Nationalities or religious or political groups
-117,Eliza,4,0,5,PERSON,"People, including fictional"
-117,half,5,22,26,CARDINAL,Numerals that do not fall under another type
-117,Fuad I,5,71,77,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+117,"Monday, April 3, 1922",1,0,21,DATE,Absolute or relative dates or periods,,,,
+117,Duff Gordon,2,13,24,PERSON,"People, including fictional",,,,
+117,Kitsons,2,76,83,PERSON,"People, including fictional",,,,
+117,Philomène,2,88,97,PERSON,"People, including fictional",,,,
+117,afternoon,2,123,132,TIME,Times smaller than a day,,,,
+117,citadel,2,136,143,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+117,Mikado,2,153,159,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+117,evening,2,163,170,TIME,Times smaller than a day,,,,
+117,Kitsons,3,4,11,NORP,Nationalities or religious or political groups,,,,
+117,Eliza,4,0,5,PERSON,"People, including fictional",,,,
+117,half,5,22,26,CARDINAL,Numerals that do not fall under another type,,,,
+117,Fuad I,5,71,77,PERSON,"People, including fictional",,,,

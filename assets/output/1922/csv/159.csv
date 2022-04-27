@@ -1,14 +1,14 @@
-page,text,p,start,end,type,description
-159,"Monday, May 15, 1922",1,0,20,DATE,Absolute or relative dates or periods
-159,Villino Medici,2,0,14,PERSON,"People, including fictional"
-159,Logan,2,20,25,PERSON,"People, including fictional"
-159,sunset,3,42,48,TIME,Times smaller than a day
-159,Logan,3,50,55,PERSON,"People, including fictional"
-159,Reg_,3,86,90,FAC,"Buildings, airports, highways, bridges, etc."
-159,the Val d’Arno Superiore,3,93,117,FAC,"Buildings, airports, highways, bridges, etc."
-159,first,3,144,149,ORDINAL,"""first"", ""second"", etc."
-159,5 weeks,3,158,165,DATE,Absolute or relative dates or periods
-159,the day,3,239,246,DATE,Absolute or relative dates or periods
-159,10,4,1,3,CARDINAL,Numerals that do not fall under another type
-159,The Oasis of Kargha,5,6,25,WORK_OF_ART,"Titles of books, songs, etc."
-159,Beadnell,5,30,38,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+159,"Monday, May 15, 1922",1,0,20,DATE,Absolute or relative dates or periods,,,,
+159,Villino Medici,2,0,14,PERSON,"People, including fictional",,,,
+159,Logan,2,20,25,PERSON,"People, including fictional",,,,
+159,sunset,3,42,48,TIME,Times smaller than a day,,,,
+159,Logan,3,50,55,PERSON,"People, including fictional",,,,
+159,Reg_,3,86,90,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+159,the Val d’Arno Superiore,3,93,117,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+159,first,3,144,149,ORDINAL,"""first"", ""second"", etc.",,,,
+159,5 weeks,3,158,165,DATE,Absolute or relative dates or periods,,,,
+159,the day,3,239,246,DATE,Absolute or relative dates or periods,,,,
+159,10,4,1,3,CARDINAL,Numerals that do not fall under another type,,,,
+159,The Oasis of Kargha,5,6,25,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+159,Beadnell,5,30,38,PERSON,"People, including fictional",,,,

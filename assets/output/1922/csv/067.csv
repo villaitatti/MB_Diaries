@@ -1,9 +1,8 @@
-page,text,p,start,end,type,description
-067,"Sunday, February 12, 1922",1,0,25,DATE,Absolute or relative dates or periods
-067,Ramasseum,3,0,9,FAC,"Buildings, airports, highways, bridges, etc."
-067,8,4,1,2,CARDINAL,Numerals that do not fall under another type
-067,Bonté,5,0,5,PERSON,"People, including fictional"
-067,the evening,5,14,25,TIME,Times smaller than a day
-067,2,6,1,2,CARDINAL,Numerals that do not fall under another type
-067,Karnac,7,0,6,PERSON,"People, including fictional"
-067,Kitson,7,27,33,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+067,"Sunday, February 12, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+067,8,4,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+067,Bonté,5,0,5,PERSON,"People, including fictional",,,,
+067,the evening,5,14,25,TIME,Times smaller than a day,,,,
+067,2,6,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+067,Karnac,7,0,6,PERSON,"People, including fictional",,,,
+067,Kitson,7,27,33,PERSON,"People, including fictional",,,,

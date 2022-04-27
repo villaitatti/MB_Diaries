@@ -1,5 +1,5 @@
-page,text,p,start,end,type,description
-173,"Monday, May 29, 1922",1,0,20,DATE,Absolute or relative dates or periods
-173,Egypt,3,34,39,GPE,"Countries, cities, states"
-173,Perkins,4,53,60,PERSON,"People, including fictional"
-173,the American Embassy,4,75,95,ORG,"Companies, agencies, institutions, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+173,"Monday, May 29, 1922",1,0,20,DATE,Absolute or relative dates or periods,,,,
+173,Egypt,3,34,39,GPE,"Countries, cities, states",,,,
+173,Perkins,4,53,60,PERSON,"People, including fictional",,,,
+173,the American Embassy,4,75,95,ORG,"Companies, agencies, institutions, etc.",,,,

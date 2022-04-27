@@ -1,18 +1,19 @@
-page,text,p,start,end,type,description
-057,"Thursday, February 2, 1922",1,0,26,DATE,Absolute or relative dates or periods
-057,Wadi Halfa,2,0,10,PERSON,"People, including fictional"
-057,Reached Wadi Halfa,3,7,25,FAC,"Buildings, airports, highways, bridges, etc."
-057,noon,3,29,33,TIME,Times smaller than a day
-057,Khartoum,3,77,85,GPE,"Countries, cities, states"
-057,McEnnery,3,135,143,PERSON,"People, including fictional"
-057,Temple,3,204,210,FAC,"Buildings, airports, highways, bridges, etc."
-057,Nile,3,304,308,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-057,Willock,4,39,46,PERSON,"People, including fictional"
-057,Baltimore,4,50,59,GPE,"Countries, cities, states"
-057,Von Wahrlich,4,61,73,PERSON,"People, including fictional"
-057,Swedish,4,125,132,NORP,Nationalities or religious or political groups
-057,Assuan,4,160,166,ORG,"Companies, agencies, institutions, etc."
-057,Sanderson,4,184,193,PERSON,"People, including fictional"
-057,Austrian,4,225,233,NORP,Nationalities or religious or political groups
-057,Wahrlich,4,319,327,PERSON,"People, including fictional"
-057,the Southern Cross,5,4,22,ORG,"Companies, agencies, institutions, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+057,"Thursday, February 2, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+057,Wadi Halfa,2,0,10,PERSON,"People, including fictional",,,,
+057,Reached Wadi Halfa,3,7,25,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+057,noon,3,29,33,TIME,Times smaller than a day,,,,
+057,Khartoum,3,77,85,GPE,"Countries, cities, states",,,,
+057,District,3,119,127,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+057,McEnnery,3,135,143,PERSON,"People, including fictional",,,,
+057,Temple,3,204,210,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+057,Nile,3,304,308,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+057,Willock,4,39,46,PERSON,"People, including fictional",,,,
+057,Baltimore,4,50,59,GPE,"Countries, cities, states",,,,
+057,Von Wahrlich,4,61,73,PERSON,"People, including fictional",,,,
+057,Swedish,4,125,132,NORP,Nationalities or religious or political groups,,,,
+057,Assuan,4,160,166,ORG,"Companies, agencies, institutions, etc.",,,,
+057,Sanderson,4,184,193,PERSON,"People, including fictional",,,,
+057,Austrian,4,225,233,NORP,Nationalities or religious or political groups,,,,
+057,Wahrlich,4,319,327,PERSON,"People, including fictional",,,,
+057,the Southern Cross,5,4,22,ORG,"Companies, agencies, institutions, etc.",,,,

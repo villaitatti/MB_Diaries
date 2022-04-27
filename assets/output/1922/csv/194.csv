@@ -1,7 +1,8 @@
-page,text,p,start,end,type,description
-194,"Monday, June 19, 1922",1,0,21,DATE,Absolute or relative dates or periods
-194,Perry,3,0,5,PERSON,"People, including fictional"
-194,Cox,4,0,3,PERSON,"People, including fictional"
-194,Allyn,5,0,5,PERSON,"People, including fictional"
-194,Alfred Nicholson,7,0,16,PERSON,"People, including fictional"
-194,Anreps,8,4,10,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+194,"Monday, June 19, 1922",1,0,21,DATE,Absolute or relative dates or periods,,,,
+194,Tatti,2,31,36,PERSON,"People, including fictional",,,,
+194,Perry,3,0,5,PERSON,"People, including fictional",,,,
+194,Cox,4,0,3,PERSON,"People, including fictional",,,,
+194,Allyn,5,0,5,PERSON,"People, including fictional",,,,
+194,Alfred Nicholson,7,0,16,PERSON,"People, including fictional",,,,
+194,Anreps,8,4,10,PERSON,"People, including fictional",,,,

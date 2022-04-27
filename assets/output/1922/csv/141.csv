@@ -1,8 +1,8 @@
-page,text,p,start,end,type,description
-141,"Thursday, April 27, 1922",1,0,24,DATE,Absolute or relative dates or periods
-141,Hewitt,3,7,13,PERSON,"People, including fictional"
-141,Rivers,5,13,19,PERSON,"People, including fictional"
-141,Instinct and the Unconscious,5,22,50,WORK_OF_ART,"Titles of books, songs, etc."
-141,3,6,1,2,CARDINAL,Numerals that do not fall under another type
-141,Karin,7,9,14,PERSON,"People, including fictional"
-141,Alys,7,19,23,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+141,"Thursday, April 27, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+141,Hewitt,3,7,13,PERSON,"People, including fictional",,,,
+141,Rivers,5,13,19,PERSON,"People, including fictional",,,,
+141,Instinct and the Unconscious,5,22,50,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+141,3,6,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+141,Karin,7,9,14,PERSON,"People, including fictional",,,,
+141,Alys,7,19,23,PERSON,"People, including fictional",,,,

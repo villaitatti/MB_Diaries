@@ -1,22 +1,23 @@
-page,text,p,start,end,type,description
-025,"Sunday, January 1, 1922",2,0,23,DATE,Absolute or relative dates or periods
-025,Cairo,2,25,30,GPE,"Countries, cities, states"
-025,Simaika Pasha,5,0,13,PERSON,"People, including fictional"
-025,9.30,5,31,35,TIME,Times smaller than a day
-025,(Labouchere) Mackintosh,5,46,69,PERSON,"People, including fictional"
-025,Jerusalem,5,134,143,GPE,"Countries, cities, states"
-025,Coptic Museum,5,178,191,ORG,"Companies, agencies, institutions, etc."
-025,2 hours,5,208,215,TIME,Times smaller than a day
-025,Roman,5,304,309,NORP,Nationalities or religious or political groups
-025,Storrs,6,11,17,PERSON,"People, including fictional"
-025,Pasha,6,27,32,PERSON,"People, including fictional"
-025,Copts,6,57,62,NORP,Nationalities or religious or political groups
-025,Tank,6,153,157,FAC,"Buildings, airports, highways, bridges, etc."
-025,Copts,6,179,184,NORP,Nationalities or religious or political groups
-025,3,6,215,216,CARDINAL,Numerals that do not fall under another type
-025,2 hrs,6,233,238,TIME,Times smaller than a day
-025,Franciscans,6,285,296,NORP,Nationalities or religious or political groups
-025,Copts,6,424,429,NORP,Nationalities or religious or political groups
-025,Catholic,6,497,505,NORP,Nationalities or religious or political groups
-025,Amr,7,43,46,GPE,"Countries, cities, states"
-025,Eliza,8,10,15,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+025,"Sunday, January 1, 1922",2,0,23,DATE,Absolute or relative dates or periods,,,,
+025,Cairo,2,25,30,GPE,"Countries, cities, states",,,,
+025,Simaika Pasha,5,0,13,PERSON,"People, including fictional",,,,
+025,9.30,5,31,35,TIME,Times smaller than a day,,,,
+025,(Labouchere) Mackintosh,5,46,69,PERSON,"People, including fictional",,,,
+025,Storrs,5,110,116,PERSON,"People, including fictional",,,,
+025,Jerusalem,5,134,143,GPE,"Countries, cities, states",,,,
+025,Coptic Museum,5,178,191,ORG,"Companies, agencies, institutions, etc.",,,,
+025,2 hours,5,208,215,TIME,Times smaller than a day,,,,
+025,Roman,5,304,309,NORP,Nationalities or religious or political groups,,,,
+025,Storrs,6,11,17,PERSON,"People, including fictional",,,,
+025,Copts,6,57,62,NORP,Nationalities or religious or political groups,,,,
+025,Holy Sepulchre,6,74,88,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+025,Tank,6,153,157,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+025,Copts,6,179,184,NORP,Nationalities or religious or political groups,,,,
+025,3,6,215,216,CARDINAL,Numerals that do not fall under another type,,,,
+025,2 hrs,6,233,238,TIME,Times smaller than a day,,,,
+025,Franciscans,6,285,296,NORP,Nationalities or religious or political groups,,,,
+025,Copts,6,424,429,NORP,Nationalities or religious or political groups,,,,
+025,Catholic,6,497,505,NORP,Nationalities or religious or political groups,,,,
+025,Amr,7,43,46,GPE,"Countries, cities, states",,,,
+025,Eliza,8,10,15,PERSON,"People, including fictional",,,,

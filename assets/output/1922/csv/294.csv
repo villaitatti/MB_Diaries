@@ -1,23 +1,23 @@
-page,text,p,start,end,type,description
-294,"Wednesday, September 27, 1922",1,0,29,DATE,Absolute or relative dates or periods
-294,Frankfürter Hof,2,0,15,PERSON,"People, including fictional"
-294,Dumont,3,15,21,PERSON,"People, including fictional"
-294,morning,3,34,41,TIME,Times smaller than a day
-294,Städelinstitut,3,45,59,FAC,"Buildings, airports, highways, bridges, etc."
-294,Italian,3,94,101,NORP,Nationalities or religious or political groups
-294,Vermeer,4,15,22,PERSON,"People, including fictional"
-294,Raphael Titian,4,34,48,PERSON,"People, including fictional"
-294,B. Veneto,4,63,72,ORG,"Companies, agencies, institutions, etc."
-294,Palma,4,88,93,FAC,"Buildings, airports, highways, bridges, etc."
-294,Vermeer,4,110,117,PERSON,"People, including fictional"
-294,Maître de Flémalle Crucifixion,4,163,193,FAC,"Buildings, airports, highways, bridges, etc."
-294,Dumonts,5,13,20,PERSON,"People, including fictional"
-294,Schwarz,5,22,29,PERSON,"People, including fictional"
-294,Richard,5,44,51,PERSON,"People, including fictional"
-294,Hesse,5,55,60,GPE,"Countries, cities, states"
-294,Schwarz,5,102,109,PERSON,"People, including fictional"
-294,Wiesbaden,5,154,163,GPE,"Countries, cities, states"
-294,Hänkels,5,175,182,PERSON,"People, including fictional"
-294,Hirsch,5,220,226,PERSON,"People, including fictional"
-294,Frankfort,5,238,247,GPE,"Countries, cities, states"
-294,Dumonts,6,22,29,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+294,"Wednesday, September 27, 1922",1,0,29,DATE,Absolute or relative dates or periods,,,,
+294,Frankfürter Hof,2,0,15,PERSON,"People, including fictional",,,,
+294,Dumont,3,15,21,PERSON,"People, including fictional",,,,
+294,morning,3,34,41,TIME,Times smaller than a day,,,,
+294,Städelinstitut,3,45,59,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+294,Italian,3,94,101,NORP,Nationalities or religious or political groups,,,,
+294,Raphael Titian,4,34,48,PERSON,"People, including fictional",,,,
+294,the B. Veneto Courtesan,4,59,82,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+294,Palma,4,88,93,PERSON,"People, including fictional",,,,
+294,Vermeer,4,110,117,PERSON,"People, including fictional",,,,
+294,the M. Caravaggio Bacchus,4,129,154,PERSON,"People, including fictional",,,,
+294,the Maître de Flémalle Crucifixion,4,159,193,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+294,Dumonts,5,13,20,PERSON,"People, including fictional",,,,
+294,Schwarz,5,22,29,PERSON,"People, including fictional",,,,
+294,Richard,5,44,51,PERSON,"People, including fictional",,,,
+294,Hesse,5,55,60,GPE,"Countries, cities, states",,,,
+294,Schwarz,5,102,109,PERSON,"People, including fictional",,,,
+294,Wiesbaden,5,154,163,GPE,"Countries, cities, states",,,,
+294,Hänkels,5,175,182,PERSON,"People, including fictional",,,,
+294,Hirsch,5,220,226,PERSON,"People, including fictional",,,,
+294,Frankfort,5,238,247,GPE,"Countries, cities, states",,,,
+294,Dumonts,6,22,29,PERSON,"People, including fictional",,,,

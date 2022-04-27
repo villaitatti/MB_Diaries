@@ -1,3 +1,5 @@
-page,text,p,start,end,type,description
-268,"Friday, September 1, 1922",1,0,25,DATE,Absolute or relative dates or periods
-268,Barbara,3,0,7,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+268,"Friday, September 1, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+268,Barbara,3,0,7,PERSON,"People, including fictional",,,,
+268,B.B.,4,30,34,PERSON,"People, including fictional",,,,
+268,Nicky,4,39,44,PERSON,"People, including fictional",,,,

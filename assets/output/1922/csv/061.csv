@@ -1,11 +1,10 @@
-page,text,p,start,end,type,description
-061,"Monday, February 6, 1922",1,0,24,DATE,Absolute or relative dates or periods
-061,Nile,2,12,16,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-061,Cataract,3,35,43,FAC,"Buildings, airports, highways, bridges, etc."
-061,2nd,3,83,86,ORDINAL,"""first"", ""second"", etc."
-061,Cataract,3,87,95,FAC,"Buildings, airports, highways, bridges, etc."
-061,Bonté,4,0,5,PERSON,"People, including fictional"
-061,the “Trades’ School”,4,54,74,ORG,"Companies, agencies, institutions, etc."
-061,wh,4,179,181,ORG,"Companies, agencies, institutions, etc."
-061,the Granite Quarries,4,229,249,FAC,"Buildings, airports, highways, bridges, etc."
-061,half,4,262,266,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+061,"Monday, February 6, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+061,St. Arabia,2,0,10,GPE,"Countries, cities, states",,,,
+061,Cataract,3,35,43,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+061,Cataract,3,87,95,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+061,Bonté,4,0,5,PERSON,"People, including fictional",,,,
+061,the “Trades’ School,4,54,73,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+061,wh,4,179,181,ORG,"Companies, agencies, institutions, etc.",,,,
+061,the Granite Quarries,4,229,249,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+061,half,4,262,266,CARDINAL,Numerals that do not fall under another type,,,,

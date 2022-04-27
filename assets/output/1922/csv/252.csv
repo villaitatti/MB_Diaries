@@ -1,18 +1,17 @@
-page,text,p,start,end,type,description
-252,"Wednesday, August 16, 1922",1,0,26,DATE,Absolute or relative dates or periods
-252,4,3,29,30,CARDINAL,Numerals that do not fall under another type
-252,Ray,3,41,44,PERSON,"People, including fictional"
-252,Sarah N[ordhoff,3,46,61,PERSON,"People, including fictional"
-252,The Road to Endor,4,6,23,WORK_OF_ART,"Titles of books, songs, etc."
-252,Barbara,4,28,35,PERSON,"People, including fictional"
-252,Hook,5,14,18,PERSON,"People, including fictional"
-252,Ray,6,14,17,PERSON,"People, including fictional"
-252,Marching On,6,21,32,WORK_OF_ART,"Titles of books, songs, etc."
-252,Ray,7,5,8,PERSON,"People, including fictional"
-252,150,7,14,17,MONEY,"Monetary values, including unit"
-252,Karin,8,0,5,PERSON,"People, including fictional"
-252,Psycho,8,37,43,WORK_OF_ART,"Titles of books, songs, etc."
-252,Analysis,8,44,52,WORK_OF_ART,"Titles of books, songs, etc."
-252,ten years,8,66,75,DATE,Absolute or relative dates or periods
-252,Sarah,9,5,10,PERSON,"People, including fictional"
-252,Sarah,9,194,199,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+252,"Wednesday, August 16, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+252,4,3,29,30,CARDINAL,Numerals that do not fall under another type,,,,
+252,Ray,3,41,44,PERSON,"People, including fictional",,,,
+252,Sarah,3,46,51,PERSON,"People, including fictional",,,,
+252,The Road to Endor,4,6,23,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+252,Barbara,4,28,35,PERSON,"People, including fictional",,,,
+252,Hook,5,14,18,PERSON,"People, including fictional",,,,
+252,Ray,6,14,17,PERSON,"People, including fictional",,,,
+252,Marching On,6,21,32,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+252,Ray,7,5,8,PERSON,"People, including fictional",,,,
+252,150,7,14,17,MONEY,"Monetary values, including unit",,,,
+252,Karin,8,0,5,PERSON,"People, including fictional",,,,
+252,Psycho-Analysis,8,37,52,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+252,ten years,8,66,75,DATE,Absolute or relative dates or periods,,,,
+252,Sarah,9,5,10,PERSON,"People, including fictional",,,,
+252,Sarah,9,194,199,PERSON,"People, including fictional",,,,

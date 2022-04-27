@@ -1,19 +1,20 @@
-page,text,p,start,end,type,description
-116,"Sunday, April 2, 1922",1,0,21,DATE,Absolute or relative dates or periods
-116,Cairo,2,24,29,GPE,"Countries, cities, states"
-116,Museum,3,0,6,ORG,"Companies, agencies, institutions, etc."
-116,noon,3,37,41,TIME,Times smaller than a day
-116,Khamseen,3,53,61,NORP,Nationalities or religious or political groups
-116,our last hour,3,160,173,TIME,Times smaller than a day
-116,4,3,222,223,TIME,Times smaller than a day
-116,the Fadawieh Mosque,3,227,246,FAC,"Buildings, airports, highways, bridges, etc."
-116,Abbasieh,3,250,258,GPE,"Countries, cities, states"
-116,Bramley,3,277,284,PERSON,"People, including fictional"
-116,Noel,3,312,316,PERSON,"People, including fictional"
-116,Greece,3,323,329,GPE,"Countries, cities, states"
-116,Villamarina,3,345,356,PERSON,"People, including fictional"
-116,Macdonell,3,379,388,PERSON,"People, including fictional"
-116,Kirkwood,3,395,403,PERSON,"People, including fictional"
-116,Cattaui Pascha,3,447,461,PERSON,"People, including fictional"
-116,Herraris,3,467,475,PERSON,"People, including fictional"
-116,Cresswell,3,548,557,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+116,"Sunday, April 2, 1922",1,0,21,DATE,Absolute or relative dates or periods,,,,
+116,Cairo,2,24,29,GPE,"Countries, cities, states",,,,
+116,Museum,3,0,6,ORG,"Companies, agencies, institutions, etc.",,,,
+116,noon,3,37,41,TIME,Times smaller than a day,,,,
+116,Khamseen,3,53,61,ORG,"Companies, agencies, institutions, etc.",,,,
+116,our last hour,3,160,173,TIME,Times smaller than a day,,,,
+116,4,3,222,223,TIME,Times smaller than a day,,,,
+116,the Fadawieh Mosque,3,227,246,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+116,Abbasieh,3,250,258,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+116,Bramley,3,277,284,PERSON,"People, including fictional",,,,
+116,Noel,3,312,316,PERSON,"People, including fictional",,,,
+116,Greece,3,323,329,GPE,"Countries, cities, states",,,,
+116,Villamarina,3,345,356,PERSON,"People, including fictional",,,,
+116,Macdonell,3,379,388,PERSON,"People, including fictional",,,,
+116,Kirkwood,3,395,403,PERSON,"People, including fictional",,,,
+116,de Sérionne,3,429,440,PERSON,"People, including fictional",,,,
+116,Cattaui Pascha,3,447,461,PERSON,"People, including fictional",,,,
+116,Herraris,3,467,475,PERSON,"People, including fictional",,,,
+116,Cresswell,3,548,557,PERSON,"People, including fictional",,,,

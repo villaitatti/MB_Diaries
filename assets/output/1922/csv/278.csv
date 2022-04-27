@@ -1,12 +1,11 @@
-page,text,p,start,end,type,description
-278,"Monday, September 11, 1922",1,0,26,DATE,Absolute or relative dates or periods
-278,Hotel du Theatre des Champs Elysées Paris,2,24,65,FAC,"Buildings, airports, highways, bridges, etc."
-278,Ray,3,0,3,PERSON,"People, including fictional"
-278,Duveens,3,62,69,PERSON,"People, including fictional"
-278,Billy Taylor’s,3,87,101,PERSON,"People, including fictional"
-278,William,3,263,270,PERSON,"People, including fictional"
-278,Ray,3,328,331,PERSON,"People, including fictional"
-278,Carey,4,14,19,PERSON,"People, including fictional"
-278,evening,4,40,47,TIME,Times smaller than a day
-278,Ray,4,52,55,PERSON,"People, including fictional"
-278,William] James’,5,6,21,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+278,"Monday, September 11, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+278,Hotel du Theatre des Champs Elysées Paris,2,24,65,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+278,Ray,3,0,3,PERSON,"People, including fictional",,,,
+278,Duveens,3,62,69,PERSON,"People, including fictional",,,,
+278,Billy Taylor’s,3,87,101,PERSON,"People, including fictional",,,,
+278,William,3,263,270,PERSON,"People, including fictional",,,,
+278,Ray,3,328,331,PERSON,"People, including fictional",,,,
+278,Carey,4,14,19,PERSON,"People, including fictional",,,,
+278,evening,4,40,47,TIME,Times smaller than a day,,,,
+278,Ray,4,52,55,PERSON,"People, including fictional",,,,

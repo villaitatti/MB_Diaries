@@ -1,11 +1,10 @@
-page,text,p,start,end,type,description
-229,"Monday, July 24, 1922",1,0,21,DATE,Absolute or relative dates or periods
-229,Gravina,2,0,7,PERSON,"People, including fictional"
-229,1 o’clock,2,16,25,TIME,Times smaller than a day
-229,Lanier,3,21,27,PERSON,"People, including fictional"
-229,Frau Bodanski,3,29,42,PERSON,"People, including fictional"
-229,Foch,3,48,52,PERSON,"People, including fictional"
-229,Odenski,3,61,68,PERSON,"People, including fictional"
-229,1,5,0,1,CARDINAL,Numerals that do not fall under another type
-229,2,6,18,19,CARDINAL,Numerals that do not fall under another type
-229,1,8,28,29,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+229,"Monday, July 24, 1922",1,0,21,DATE,Absolute or relative dates or periods,,,,
+229,Gravina,2,0,7,PERSON,"People, including fictional",,,,
+229,1 o’clock,2,16,25,TIME,Times smaller than a day,,,,
+229,Lanier,3,21,27,PERSON,"People, including fictional",,,,
+229,Frau Bodanski,3,29,42,PERSON,"People, including fictional",,,,
+229,Foch,3,48,52,PERSON,"People, including fictional",,,,
+229,Odenski,3,61,68,PERSON,"People, including fictional",,,,
+229,1,5,0,1,CARDINAL,Numerals that do not fall under another type,,,,
+229,2,6,18,19,CARDINAL,Numerals that do not fall under another type,,,,

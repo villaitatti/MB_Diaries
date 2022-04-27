@@ -1,16 +1,15 @@
-page,text,p,start,end,type,description
-079,"Friday, February 24, 1922",1,0,25,DATE,Absolute or relative dates or periods
-079,Robin Furness,3,4,17,PERSON,"People, including fictional"
-079,7.45,3,29,33,TIME,Times smaller than a day
-079,Luxor,4,0,5,ORG,"Companies, agencies, institutions, etc."
-079,morning,4,9,16,TIME,Times smaller than a day
-079,Karnac,4,18,24,PERSON,"People, including fictional"
-079,Medinet Habu,4,35,47,FAC,"Buildings, airports, highways, bridges, etc."
-079,the Cooks’ Rest House,4,101,122,FAC,"Buildings, airports, highways, bridges, etc."
-079,the night,5,59,68,TIME,Times smaller than a day
-079,5.30,5,91,95,TIME,Times smaller than a day
-079,Egyptian,5,167,175,NORP,Nationalities or religious or political groups
-079,months,5,286,292,DATE,Absolute or relative dates or periods
-079,Egyptian,6,15,23,NORP,Nationalities or religious or political groups
-079,Wordsworth,6,105,115,PERSON,"People, including fictional"
-079,days,6,187,191,DATE,Absolute or relative dates or periods
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+079,"Friday, February 24, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+079,Robin Furness,3,4,17,PERSON,"People, including fictional",,,,
+079,7.45,3,29,33,TIME,Times smaller than a day,,,,
+079,morning,4,9,16,TIME,Times smaller than a day,,,,
+079,Karnac,4,18,24,PERSON,"People, including fictional",,,,
+079,Medinet Habu,4,35,47,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+079,the Cooks’ Rest House,4,101,122,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+079,the night,5,59,68,TIME,Times smaller than a day,,,,
+079,5.30,5,91,95,TIME,Times smaller than a day,,,,
+079,Egyptian,5,167,175,NORP,Nationalities or religious or political groups,,,,
+079,months,5,286,292,DATE,Absolute or relative dates or periods,,,,
+079,Egyptian,6,15,23,NORP,Nationalities or religious or political groups,,,,
+079,Wordsworth,6,105,115,PERSON,"People, including fictional",,,,
+079,days,6,187,191,DATE,Absolute or relative dates or periods,,,,

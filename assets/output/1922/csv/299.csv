@@ -1,15 +1,15 @@
-page,text,p,start,end,type,description
-299,"Monday, October 2, 1922",1,0,23,DATE,Absolute or relative dates or periods
-299,LucerneAn,2,0,9,FAC,"Buildings, airports, highways, bridges, etc."
-299,a British Sunday,3,42,58,DATE,Absolute or relative dates or periods
-299,Police,3,64,70,ORG,"Companies, agencies, institutions, etc."
-299,Steinmeyer-Böhler,3,140,157,ORG,"Companies, agencies, institutions, etc."
-299,the day,3,230,237,DATE,Absolute or relative dates or periods
-299,Italian,3,288,295,NORP,Nationalities or religious or political groups
-299,a half an hour’s,3,443,459,TIME,Times smaller than a day
-299,B.B.,3,465,469,PERSON,"People, including fictional"
-299,Ercole Roberti,3,504,518,PERSON,"People, including fictional"
-299,12000 Swiss francs,3,523,541,MONEY,"Monetary values, including unit"
-299,Wendlandt,3,584,593,PERSON,"People, including fictional"
-299,Alys,4,0,4,PERSON,"People, including fictional"
-299,Logan,4,17,22,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+299,"Monday, October 2, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+299,LucerneAn,2,0,9,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+299,a British,3,42,51,DATE,Absolute or relative dates or periods,,,,
+299,Sunday,3,52,58,DATE,Absolute or relative dates or periods,,,,
+299,Steinmeyer-Böhler,3,140,157,ORG,"Companies, agencies, institutions, etc.",,,,
+299,the day,3,230,237,DATE,Absolute or relative dates or periods,,,,
+299,Italian,3,288,295,NORP,Nationalities or religious or political groups,,,,
+299,a half an hour’s nap,3,443,463,TIME,Times smaller than a day,,,,
+299,B.B.,3,465,469,PERSON,"People, including fictional",,,,
+299,Ercole Roberti,3,504,518,ORG,"Companies, agencies, institutions, etc.",,,,
+299,12000 Swiss francs,3,523,541,MONEY,"Monetary values, including unit",,,,
+299,Wendlandt,3,584,593,PERSON,"People, including fictional",,,,
+299,Alys,4,0,4,PERSON,"People, including fictional",,,,
+299,Logan,4,17,22,PERSON,"People, including fictional",,,,

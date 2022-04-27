@@ -1,7 +1,8 @@
-page,text,p,start,end,type,description
-274,"Thursday, September 7, 1922",1,0,27,DATE,Absolute or relative dates or periods
-274,St. Leonard’s Terrace S.W. 3,2,3,31,FAC,"Buildings, airports, highways, bridges, etc."
-274,Logan,4,21,26,PERSON,"People, including fictional"
-274,Britten,5,0,7,PERSON,"People, including fictional"
-274,Verry’s,5,27,34,PERSON,"People, including fictional"
-274,Jim Whitall,6,0,11,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+274,"Thursday, September 7, 1922",1,0,27,DATE,Absolute or relative dates or periods,,,,
+274,St. Leonard’s Terrace S.W.,2,3,29,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+274,3,2,30,31,CARDINAL,Numerals that do not fall under another type,,,,
+274,Logan,4,21,26,PERSON,"People, including fictional",,,,
+274,Britten,5,0,7,PERSON,"People, including fictional",,,,
+274,Verry’s—,5,27,35,ORG,"Companies, agencies, institutions, etc.",,,,
+274,Jim Whitall,6,0,11,PERSON,"People, including fictional",,,,

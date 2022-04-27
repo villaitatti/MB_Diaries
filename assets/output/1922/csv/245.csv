@@ -1,13 +1,14 @@
-page,text,p,start,end,type,description
-245,"Wednesday, August 9, 1922",1,0,25,DATE,Absolute or relative dates or periods
-245,Harwich,2,44,51,GPE,"Countries, cities, states"
-245,Städel,3,4,10,FAC,"Buildings, airports, highways, bridges, etc."
-245,the Sculpture Museum,3,15,35,ORG,"Companies, agencies, institutions, etc."
-245,morning,3,39,46,TIME,Times smaller than a day
-245,Tintoretto,3,72,82,WORK_OF_ART,"Titles of books, songs, etc."
-245,Baltic,3,112,118,NORP,Nationalities or religious or political groups
-245,Nicky,3,130,135,PERSON,"People, including fictional"
-245,Eliza,4,0,5,PERSON,"People, including fictional"
-245,12.15,4,21,26,TIME,Times smaller than a day
-245,midnight,4,57,65,TIME,Times smaller than a day
-245,Edith,5,7,12,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+245,"Wednesday, August 9, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+245,Holland,2,33,40,GPE,"Countries, cities, states",,,,
+245,Harwich,2,44,51,GPE,"Countries, cities, states",,,,
+245,Städel,3,4,10,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+245,the Sculpture Museum,3,15,35,ORG,"Companies, agencies, institutions, etc.",,,,
+245,morning,3,39,46,TIME,Times smaller than a day,,,,
+245,Tintoretto,3,72,82,PERSON,"People, including fictional",,,,
+245,Baltic,3,112,118,NORP,Nationalities or religious or political groups,,,,
+245,Nicky,3,130,135,PERSON,"People, including fictional",,,,
+245,Eliza,4,0,5,PERSON,"People, including fictional",,,,
+245,12.15,4,21,26,DATE,Absolute or relative dates or periods,,,,
+245,midnight,4,57,65,TIME,Times smaller than a day,,,,
+245,Edith,5,7,12,PERSON,"People, including fictional",,,,

@@ -1,8 +1,8 @@
-page,text,p,start,end,type,description
-285,"Monday, September 18, 1922",1,0,26,DATE,Absolute or relative dates or periods
-285,Turfan,2,0,6,PERSON,"People, including fictional"
-285,de Kok Coq,2,23,33,PERSON,"People, including fictional"
-285,Horne,2,98,103,PERSON,"People, including fictional"
-285,Claude Phillips,2,108,123,PERSON,"People, including fictional"
-285,the evening,3,3,14,TIME,Times smaller than a day
-285,Così fan,3,100,108,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+285,"Monday, September 18, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+285,Turfan,2,0,6,PERSON,"People, including fictional",,,,
+285,Horne,2,98,103,PERSON,"People, including fictional",,,,
+285,Claude Phillips,2,108,123,PERSON,"People, including fictional",,,,
+285,the evening,3,3,14,TIME,Times smaller than a day,,,,
+285,the En[t]führung aus dem Serail,3,26,57,ORG,"Companies, agencies, institutions, etc.",,,,
+285,Così fan tutti,3,100,114,WORK_OF_ART,"Titles of books, songs, etc.",,,,

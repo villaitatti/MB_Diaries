@@ -1,27 +1,28 @@
-page,text,p,start,end,type,description
-250,"Monday, August 14, 1922",1,0,23,DATE,Absolute or relative dates or periods
-250,morning,3,27,34,TIME,Times smaller than a day
-250,Alys,3,48,52,PERSON,"People, including fictional"
-250,Ray,3,109,112,PERSON,"People, including fictional"
-250,Barbara,3,117,124,PERSON,"People, including fictional"
-250,6,3,140,141,CARDINAL,Numerals that do not fall under another type
-250,Fareham,3,145,152,FAC,"Buildings, airports, highways, bridges, etc."
-250,Barbara,3,154,161,PERSON,"People, including fictional"
-250,ten years old,3,195,208,DATE,Absolute or relative dates or periods
-250,Saidee,4,0,6,PERSON,"People, including fictional"
-250,B.B.,5,0,4,PERSON,"People, including fictional"
-250,Nicky,5,9,14,PERSON,"People, including fictional"
-250,Magdeburg,5,18,27,GPE,"Countries, cities, states"
-250,2,6,1,2,CARDINAL,Numerals that do not fall under another type
-250,Alys,7,11,15,PERSON,"People, including fictional"
-250,Logan,7,17,22,PERSON,"People, including fictional"
-250,Sarah Nordhoff,7,28,42,PERSON,"People, including fictional"
-250,Julia,7,44,49,PERSON,"People, including fictional"
-250,Barbara,7,51,58,PERSON,"People, including fictional"
-250,Ann,7,60,63,PERSON,"People, including fictional"
-250,Christopher,7,65,76,PERSON,"People, including fictional"
-250,Judy,7,78,82,PERSON,"People, including fictional"
-250,2,7,84,85,CARDINAL,Numerals that do not fall under another type
-250,Lucy,7,94,98,PERSON,"People, including fictional"
-250,3,7,108,109,CARDINAL,Numerals that do not fall under another type
-250,15,8,0,2,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+250,"Monday, August 14, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+250,morning,3,27,34,TIME,Times smaller than a day,,,,
+250,Alys,3,48,52,PERSON,"People, including fictional",,,,
+250,Ray,3,109,112,PERSON,"People, including fictional",,,,
+250,Barbara,3,117,124,PERSON,"People, including fictional",,,,
+250,Fareham,3,145,152,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+250,Barbara,3,154,161,PERSON,"People, including fictional",,,,
+250,ten years old,3,195,208,DATE,Absolute or relative dates or periods,,,,
+250,Saidee,4,0,6,PERSON,"People, including fictional",,,,
+250,an evening,4,15,25,TIME,Times smaller than a day,,,,
+250,B.B.,5,0,4,PERSON,"People, including fictional",,,,
+250,Nicky,5,9,14,PERSON,"People, including fictional",,,,
+250,Magdeburg,5,18,27,GPE,"Countries, cities, states",,,,
+250,2,6,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+250,Alys,7,11,15,PERSON,"People, including fictional",,,,
+250,Logan,7,17,22,PERSON,"People, including fictional",,,,
+250,Me,7,24,26,PERSON,"People, including fictional",,,,
+250,Sarah Nordhoff,7,28,42,PERSON,"People, including fictional",,,,
+250,Julia,7,44,49,PERSON,"People, including fictional",,,,
+250,Barbara,7,51,58,PERSON,"People, including fictional",,,,
+250,Ann,7,60,63,PERSON,"People, including fictional",,,,
+250,Christopher,7,65,76,PERSON,"People, including fictional",,,,
+250,Judy,7,78,82,PERSON,"People, including fictional",,,,
+250,2,7,84,85,CARDINAL,Numerals that do not fall under another type,,,,
+250,Lucy,7,94,98,PERSON,"People, including fictional",,,,
+250,3,7,108,109,CARDINAL,Numerals that do not fall under another type,,,,
+250,15,8,0,2,CARDINAL,Numerals that do not fall under another type,,,,

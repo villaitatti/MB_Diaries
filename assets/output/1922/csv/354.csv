@@ -1,13 +1,13 @@
-page,text,p,start,end,type,description
-354,"Sunday, November 26, 1922",1,0,25,DATE,Absolute or relative dates or periods
-354,Naimi,2,0,5,PERSON,"People, including fictional"
-354,Kitson,3,13,19,PERSON,"People, including fictional"
-354,B.B.,5,16,20,PERSON,"People, including fictional"
-354,K.,5,30,32,PERSON,"People, including fictional"
-354,Nicky,5,39,44,PERSON,"People, including fictional"
-354,Monica,5,49,55,PERSON,"People, including fictional"
-354,Geoffrey,6,20,28,PERSON,"People, including fictional"
-354,Nicky,6,70,75,PERSON,"People, including fictional"
-354,Sybil,6,149,154,PERSON,"People, including fictional"
-354,Salvemini,7,0,9,PERSON,"People, including fictional"
-354,English,8,346,353,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+354,"Sunday, November 26, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+354,Naimi,2,0,5,PERSON,"People, including fictional",,,,
+354,Kitson,3,13,19,PERSON,"People, including fictional",,,,
+354,B.B.,5,16,20,PERSON,"People, including fictional",,,,
+354,K.,5,30,32,PERSON,"People, including fictional",,,,
+354,Nicky,5,39,44,PERSON,"People, including fictional",,,,
+354,Monica,5,49,55,PERSON,"People, including fictional",,,,
+354,Geoffrey,6,20,28,PERSON,"People, including fictional",,,,
+354,Nicky,6,70,75,PERSON,"People, including fictional",,,,
+354,Sybil,6,149,154,PERSON,"People, including fictional",,,,
+354,Salvemini,7,0,9,PERSON,"People, including fictional",,,,
+354,English,8,346,353,NORP,Nationalities or religious or political groups,,,,

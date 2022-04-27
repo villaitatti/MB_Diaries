@@ -1,15 +1,14 @@
-page,text,p,start,end,type,description
-053,"Sunday, January 29, 1922",1,0,24,DATE,Absolute or relative dates or periods
-053,Assuan,2,0,6,PERSON,"People, including fictional"
-053,Abdul Latif,3,14,25,PERSON,"People, including fictional"
-053,the morning,3,78,89,TIME,Times smaller than a day
-053,Coptic,3,98,104,NORP,Nationalities or religious or political groups
-053,sunset,3,122,128,TIME,Times smaller than a day
-053,Mechu,4,9,14,PERSON,"People, including fictional"
-053,Ben,4,16,19,PERSON,"People, including fictional"
-053,Se,4,24,26,PERSON,"People, including fictional"
-053,-,4,26,27,PERSON,"People, including fictional"
-053,Renpu,4,27,32,PERSON,"People, including fictional"
-053,Grenfell,4,34,42,WORK_OF_ART,"Titles of books, songs, etc."
-053,Nicky,5,0,5,PERSON,"People, including fictional"
-053,Bechirim,5,35,43,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+053,"Sunday, January 29, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+053,Assuan,2,0,6,PERSON,"People, including fictional",,,,
+053,Abdul Latif,3,14,25,PERSON,"People, including fictional",,,,
+053,Coptic,3,98,104,NORP,Nationalities or religious or political groups,,,,
+053,Tombs,4,0,5,PERSON,"People, including fictional",,,,
+053,Mechu,4,9,14,PERSON,"People, including fictional",,,,
+053,Ben,4,16,19,PERSON,"People, including fictional",,,,
+053,Se,4,24,26,PERSON,"People, including fictional",,,,
+053,-,4,26,27,PERSON,"People, including fictional",,,,
+053,Renpu,4,27,32,PERSON,"People, including fictional",,,,
+053,Grenfell,4,34,42,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+053,Nicky,5,0,5,PERSON,"People, including fictional",,,,
+053,Bechirim,5,35,43,NORP,Nationalities or religious or political groups,,,,

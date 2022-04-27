@@ -1,16 +1,17 @@
-page,text,p,start,end,type,description
-104,"Tuesday, March 21, 1922",1,0,23,DATE,Absolute or relative dates or periods
-104,neo-Catholic,4,258,270,NORP,Nationalities or religious or political groups
-104,Jesuitical,4,291,301,NORP,Nationalities or religious or political groups
-104,Abbé Meunier,4,340,352,PERSON,"People, including fictional"
-104,B.B.,5,0,4,PERSON,"People, including fictional"
-104,Nicky,5,9,14,PERSON,"People, including fictional"
-104,the Temple of the Sun,5,34,55,FAC,"Buildings, airports, highways, bridges, etc."
-104,1½ hours,5,69,77,TIME,Times smaller than a day
-104,Cannon,5,149,155,PERSON,"People, including fictional"
-104,Kitson,6,21,27,PERSON,"People, including fictional"
-104,2,6,55,56,CARDINAL,Numerals that do not fall under another type
-104,French,6,83,89,NORP,Nationalities or religious or political groups
-104,Kirkwood,6,135,143,PERSON,"People, including fictional"
-104,the Great Pyramid,6,170,187,FAC,"Buildings, airports, highways, bridges, etc."
-104,Patricolo,6,203,212,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+104,"Tuesday, March 21, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+104,neo-Catholic,4,258,270,NORP,Nationalities or religious or political groups,,,,
+104,Jesuitical,4,291,301,NORP,Nationalities or religious or political groups,,,,
+104,Abbé Meunier,4,340,352,PERSON,"People, including fictional",,,,
+104,B.B.,5,0,4,PERSON,"People, including fictional",,,,
+104,Nicky,5,9,14,PERSON,"People, including fictional",,,,
+104,the Temple of the Sun,5,34,55,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+104,1½ hours,5,69,77,TIME,Times smaller than a day,,,,
+104,Cannon,5,149,155,PERSON,"People, including fictional",,,,
+104,Kitson,6,21,27,PERSON,"People, including fictional",,,,
+104,2,6,55,56,CARDINAL,Numerals that do not fall under another type,,,,
+104,French,6,83,89,NORP,Nationalities or religious or political groups,,,,
+104,Kephren,6,104,111,PERSON,"People, including fictional",,,,
+104,Kirkwood,6,135,143,PERSON,"People, including fictional",,,,
+104,Pyramid,6,180,187,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+104,Patricolo,6,203,212,PERSON,"People, including fictional",,,,

@@ -1,7 +1,7 @@
-page,text,p,start,end,type,description
-169,"Thursday, May 25, 1922",1,0,22,DATE,Absolute or relative dates or periods
-169,Ray,2,0,3,PERSON,"People, including fictional"
-169,Ralph,2,8,13,PERSON,"People, including fictional"
-169,I Tatti,3,0,7,PERSON,"People, including fictional"
-169,Bernard,4,0,7,PERSON,"People, including fictional"
-169,Nicky,6,191,196,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+169,"Thursday, May 25, 1922",1,0,22,DATE,Absolute or relative dates or periods,,,,
+169,Ray,2,0,3,PERSON,"People, including fictional",,,,
+169,Ralph,2,8,13,PERSON,"People, including fictional",,,,
+169,Bernard,4,0,7,PERSON,"People, including fictional",,,,
+169,B.B.,6,150,154,PERSON,"People, including fictional",,,,
+169,Nicky,6,191,196,PERSON,"People, including fictional",,,,

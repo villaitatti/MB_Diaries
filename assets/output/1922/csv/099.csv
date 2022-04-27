@@ -1,7 +1,7 @@
-page,text,p,start,end,type,description
-099,"Thursday, March 16, 1922",1,0,24,DATE,Absolute or relative dates or periods
-099,Egypt,2,0,5,GPE,"Countries, cities, states"
-099,Day,3,0,3,DATE,Absolute or relative dates or periods
-099,Egypt,3,62,67,GPE,"Countries, cities, states"
-099,Minia,3,83,88,GPE,"Countries, cities, states"
-099,Jordan,3,96,102,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+099,"Thursday, March 16, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+099,Egypt,2,0,5,GPE,"Countries, cities, states",,,,
+099,Day,3,0,3,DATE,Absolute or relative dates or periods,,,,
+099,Egypt,3,62,67,GPE,"Countries, cities, states",,,,
+099,Minia,3,83,88,GPE,"Countries, cities, states",,,,
+099,Jordan,3,96,102,GPE,"Countries, cities, states",,,,

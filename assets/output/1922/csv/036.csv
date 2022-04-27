@@ -1,6 +1,5 @@
-page,text,p,start,end,type,description
-036,"Thursday, January 12, 1922",1,0,26,DATE,Absolute or relative dates or periods
-036,Cairo,2,0,5,GPE,"Countries, cities, states"
-036,Nicky,3,24,29,PERSON,"People, including fictional"
-036,Eliza,4,17,22,PERSON,"People, including fictional"
-036,Br Jennings Bramlys,5,4,23,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+036,"Thursday, January 12, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+036,Cairo,2,0,5,GPE,"Countries, cities, states",,,,
+036,Nicky,3,24,29,PERSON,"People, including fictional",,,,
+036,The Br Jennings Bramlys,5,0,23,PERSON,"People, including fictional",,,,

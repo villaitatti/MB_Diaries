@@ -1,12 +1,13 @@
-page,text,p,start,end,type,description
-258,"Tuesday, August 22, 1922",1,0,24,DATE,Absolute or relative dates or periods
-258,Alys Logan,3,0,10,PERSON,"People, including fictional"
-258,Sarah,3,15,20,PERSON,"People, including fictional"
-258,Salvemini,3,22,31,GPE,"Countries, cities, states"
-258,Salvemini,4,5,14,PERSON,"People, including fictional"
-258,Guido,4,37,42,PERSON,"People, including fictional"
-258,Anita,4,54,59,PERSON,"People, including fictional"
-258,B.B.,5,32,36,PERSON,"People, including fictional"
-258,Nicky,5,41,46,PERSON,"People, including fictional"
-258,Munich,5,50,56,GPE,"Countries, cities, states"
-258,Jo Duveen,5,62,71,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+258,"Tuesday, August 22, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+258,Big Chilling,2,24,36,PERSON,"People, including fictional",,,,
+258,Alys Logan,3,0,10,PERSON,"People, including fictional",,,,
+258,Sarah,3,15,20,PERSON,"People, including fictional",,,,
+258,Salvemini,3,22,31,PERSON,"People, including fictional",,,,
+258,Salvemini,4,5,14,PERSON,"People, including fictional",,,,
+258,Guido,4,37,42,PERSON,"People, including fictional",,,,
+258,Anita,4,54,59,PERSON,"People, including fictional",,,,
+258,B.B.,5,32,36,PERSON,"People, including fictional",,,,
+258,Nicky,5,41,46,PERSON,"People, including fictional",,,,
+258,Munich,5,50,56,GPE,"Countries, cities, states",,,,
+258,Jo Duveen,5,62,71,PERSON,"People, including fictional",,,,

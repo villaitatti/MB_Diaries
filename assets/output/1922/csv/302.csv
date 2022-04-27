@@ -1,11 +1,10 @@
-page,text,p,start,end,type,description
-302,"Thursday, October 5, 1922",1,0,25,DATE,Absolute or relative dates or periods
-302,Gazzada,2,0,7,ORG,"Companies, agencies, institutions, etc."
-302,the afternoon,4,3,16,TIME,Times smaller than a day
-302,Guido,4,33,38,PERSON,"People, including fictional"
-302,Bramantinos,4,50,61,PERSON,"People, including fictional"
-302,Mezzano,4,65,72,FAC,"Buildings, airports, highways, bridges, etc."
-302,Romanesque,4,81,91,NORP,Nationalities or religious or political groups
-302,Olgiate,4,102,109,FAC,"Buildings, airports, highways, bridges, etc."
-302,Guido,4,197,202,PERSON,"People, including fictional"
-302,the evening,5,28,39,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+302,"Thursday, October 5, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+302,the afternoon,4,3,16,TIME,Times smaller than a day,,,,
+302,Guido,4,33,38,PERSON,"People, including fictional",,,,
+302,Bramantinos,4,50,61,PERSON,"People, including fictional",,,,
+302,Mezzano,4,65,72,GPE,"Countries, cities, states",,,,
+302,Romanesque,4,81,91,NORP,Nationalities or religious or political groups,,,,
+302,Olgiate,4,102,109,GPE,"Countries, cities, states",,,,
+302,Guido,4,197,202,PERSON,"People, including fictional",,,,
+302,the evening,5,28,39,TIME,Times smaller than a day,,,,

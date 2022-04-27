@@ -1,6 +1,4 @@
-page,text,p,start,end,type,description
-377,"Tuesday, December 19, 1922",1,0,26,DATE,Absolute or relative dates or periods
-377,Muggy,2,0,5,PERSON,"People, including fictional"
-377,about ⅓,3,1,8,CARDINAL,Numerals that do not fall under another type
-377,Gianelli,3,45,53,PERSON,"People, including fictional"
-377,Biagi,3,64,69,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+377,"Tuesday, December 19, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+377,Muggy,2,0,5,PERSON,"People, including fictional",,,,
+377,Gianelli,3,45,53,PERSON,"People, including fictional",,,,

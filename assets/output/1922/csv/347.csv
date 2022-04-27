@@ -1,12 +1,12 @@
-page,text,p,start,end,type,description
-347,"Sunday, November 19, 1922",1,0,25,DATE,Absolute or relative dates or periods
-347,SalveminiSalvemini,2,0,18,PERSON,"People, including fictional"
-347,B.B.,3,15,19,PERSON,"People, including fictional"
-347,Flora,3,24,29,PERSON,"People, including fictional"
-347,Salvemini,4,0,9,PERSON,"People, including fictional"
-347,evening,4,27,34,TIME,Times smaller than a day
-347,England,4,55,62,GPE,"Countries, cities, states"
-347,English,5,16,23,LANGUAGE,Any named language
-347,English,5,79,86,LANGUAGE,Any named language
-347,Westminster Abbey,5,172,189,FAC,"Buildings, airports, highways, bridges, etc."
-347,England,5,311,318,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+347,"Sunday, November 19, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+347,SalveminiSalvemini,2,0,18,PERSON,"People, including fictional",,,,
+347,B.B.,3,15,19,PERSON,"People, including fictional",,,,
+347,Flora,3,24,29,PERSON,"People, including fictional",,,,
+347,Salvemini,4,0,9,PERSON,"People, including fictional",,,,
+347,the evening,4,23,34,TIME,Times smaller than a day,,,,
+347,England,4,55,62,GPE,"Countries, cities, states",,,,
+347,English,5,16,23,LANGUAGE,Any named language,,,,
+347,English,5,79,86,LANGUAGE,Any named language,,,,
+347,Westminster Abbey,5,172,189,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+347,the Unknown Soldier,5,227,246,PERSON,"People, including fictional",,,,

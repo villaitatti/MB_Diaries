@@ -1,13 +1,14 @@
-page,text,p,start,end,type,description
-322,"Wednesday, October 25, 1922",1,0,27,DATE,Absolute or relative dates or periods
-322,Placci,3,0,6,PERSON,"People, including fictional"
-322,B.B.,3,33,37,PERSON,"People, including fictional"
-322,BB,3,71,73,PERSON,"People, including fictional"
-322,Nicky,3,258,263,PERSON,"People, including fictional"
-322,Nicky,4,0,5,PERSON,"People, including fictional"
-322,Geoffrey,4,27,35,PERSON,"People, including fictional"
-322,Bardini,6,0,7,PERSON,"People, including fictional"
-322,Fra Angelico,6,35,47,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-322,BB,6,52,54,PERSON,"People, including fictional"
-322,Geoffrey,7,0,8,PERSON,"People, including fictional"
-322,Sybil,7,29,34,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+322,"Wednesday, October 25, 1922",1,0,27,DATE,Absolute or relative dates or periods,,,,
+322,Placci,3,0,6,PERSON,"People, including fictional",,,,
+322,B.B.,3,33,37,PERSON,"People, including fictional",,,,
+322,BB,3,71,73,PERSON,"People, including fictional",,,,
+322,.,3,73,74,PERSON,"People, including fictional",,,,
+322,Nicky,3,258,263,PERSON,"People, including fictional",,,,
+322,Nicky,4,0,5,PERSON,"People, including fictional",,,,
+322,Geoffrey,4,27,35,PERSON,"People, including fictional",,,,
+322,Bardini,6,0,7,PERSON,"People, including fictional",,,,
+322,Fra Angelico,6,35,47,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+322,BB,6,52,54,PERSON,"People, including fictional",,,,
+322,Geoffrey,7,0,8,PERSON,"People, including fictional",,,,
+322,Sybil,7,29,34,PERSON,"People, including fictional",,,,

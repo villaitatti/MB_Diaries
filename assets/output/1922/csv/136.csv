@@ -1,10 +1,10 @@
-page,text,p,start,end,type,description
-136,"Saturday, April 22, 1922",1,0,24,DATE,Absolute or relative dates or periods
-136,Venice Grand Hotel,2,0,18,FAC,"Buildings, airports, highways, bridges, etc."
-136,B.B.,3,0,4,PERSON,"People, including fictional"
-136,Nicky,3,9,14,PERSON,"People, including fictional"
-136,afternoon,3,48,57,TIME,Times smaller than a day
-136,Kerr Lawson,3,64,75,PERSON,"People, including fictional"
-136,Ex2,3,151,154,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-136,Sulley,4,22,28,PERSON,"People, including fictional"
-136,Blaydes,4,30,37,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+136,"Saturday, April 22, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+136,Venice Grand Hotel,2,0,18,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+136,B.B.,3,0,4,PERSON,"People, including fictional",,,,
+136,Nicky,3,9,14,PERSON,"People, including fictional",,,,
+136,afternoon,3,48,57,TIME,Times smaller than a day,,,,
+136,Kerr Lawson,3,64,75,PERSON,"People, including fictional",,,,
+136,Ex2,3,151,154,PRODUCT,"Objects, vehicles, foods, etc. (not services)",,,,
+136,Sulley,4,22,28,PERSON,"People, including fictional",,,,
+136,Blaydes,4,30,37,PERSON,"People, including fictional",,,,

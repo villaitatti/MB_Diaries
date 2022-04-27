@@ -1,7 +1,6 @@
-page,text,p,start,end,type,description
-185,"Saturday, June 10, 1922",1,0,23,DATE,Absolute or relative dates or periods
-185,Perrys,2,4,10,PERSON,"People, including fictional"
-185,Nicholson,3,0,9,PERSON,"People, including fictional"
-185,Nicholson,5,10,19,PERSON,"People, including fictional"
-185,Cairo,5,33,38,GPE,"Countries, cities, states"
-185,Dorsey,6,28,34,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+185,"Saturday, June 10, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+185,Perrys,2,4,10,PERSON,"People, including fictional",,,,
+185,Nicholson,3,0,9,PERSON,"People, including fictional",,,,
+185,Cairo,5,33,38,GPE,"Countries, cities, states",,,,
+185,Dorsey,6,28,34,PERSON,"People, including fictional",,,,

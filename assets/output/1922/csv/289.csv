@@ -1,6 +1,6 @@
-page,text,p,start,end,type,description
-289,"Friday, September 22, 1922",1,0,26,DATE,Absolute or relative dates or periods
-289,Karin,2,9,14,PERSON,"People, including fictional"
-289,B.B.,2,228,232,PERSON,"People, including fictional"
-289,Nicky,2,652,657,PERSON,"People, including fictional"
-289,Ariadne auf Naxos,2,1126,1143,WORK_OF_ART,"Titles of books, songs, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+289,"Friday, September 22, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+289,Karin,2,9,14,PERSON,"People, including fictional",,,,
+289,B.B.,2,228,232,PERSON,"People, including fictional",,,,
+289,Nicky,2,652,657,PERSON,"People, including fictional",,,,
+289,Ariadne auf Naxos,2,1126,1143,WORK_OF_ART,"Titles of books, songs, etc.",,,,

@@ -1,9 +1,9 @@
-page,text,p,start,end,type,description
-318,"Saturday, October 21, 1922",1,0,26,DATE,Absolute or relative dates or periods
-318,Naimi,3,0,5,PERSON,"People, including fictional"
-318,Ugo Gnoli,4,30,39,PERSON,"People, including fictional"
-318,Zangwills,5,10,19,PERSON,"People, including fictional"
-318,Naimi,5,21,26,PERSON,"People, including fictional"
-318,Gnoli,5,31,36,PERSON,"People, including fictional"
-318,Gnoli,5,65,70,PERSON,"People, including fictional"
-318,first,5,108,113,ORDINAL,"""first"", ""second"", etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+318,"Saturday, October 21, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+318,Naimi,3,0,5,PERSON,"People, including fictional",,,,
+318,Ugo Gnoli,4,30,39,PERSON,"People, including fictional",,,,
+318,Zangwills,5,10,19,PERSON,"People, including fictional",,,,
+318,Naimi,5,21,26,PERSON,"People, including fictional",,,,
+318,Gnoli,5,31,36,PERSON,"People, including fictional",,,,
+318,Gnoli,5,65,70,PERSON,"People, including fictional",,,,
+318,first,5,108,113,ORDINAL,"""first"", ""second"", etc.",,,,

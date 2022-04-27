@@ -1,6 +1,6 @@
-page,text,p,start,end,type,description
-151,"Sunday, May 7, 1922",1,0,19,DATE,Absolute or relative dates or periods
-151,Ray,2,0,3,PERSON,"People, including fictional"
-151,Logan,3,0,5,PERSON,"People, including fictional"
-151,Naima,4,0,5,PERSON,"People, including fictional"
-151,about a fourth,5,1,15,CARDINAL,Numerals that do not fall under another type
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+151,"Sunday, May 7, 1922",1,0,19,DATE,Absolute or relative dates or periods,,,,
+151,Ray,2,0,3,PERSON,"People, including fictional",,,,
+151,Logan,3,0,5,PERSON,"People, including fictional",,,,
+151,Naima,4,0,5,PERSON,"People, including fictional",,,,
+151,about a fourth,5,1,15,CARDINAL,Numerals that do not fall under another type,,,,

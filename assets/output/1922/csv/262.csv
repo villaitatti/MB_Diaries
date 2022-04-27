@@ -1,16 +1,16 @@
-page,text,p,start,end,type,description
-262,"Saturday, August 26, 1922",1,0,25,DATE,Absolute or relative dates or periods
-262,today,3,7,12,DATE,Absolute or relative dates or periods
-262,the fine day,3,13,25,DATE,Absolute or relative dates or periods
-262,yesterday,3,30,39,DATE,Absolute or relative dates or periods
-262,Alys,4,12,16,PERSON,"People, including fictional"
-262,B.B.,5,0,4,PERSON,"People, including fictional"
-262,Jo,5,17,19,PERSON,"People, including fictional"
-262,Carl Hamilton’s,5,64,79,PERSON,"People, including fictional"
-262,Verrocchio,5,80,90,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-262,Maltees,5,99,106,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
-262,Clarence Mackay,5,110,125,PERSON,"People, including fictional"
-262,2,6,1,2,CARDINAL,Numerals that do not fall under another type
-262,B.B.,7,24,28,PERSON,"People, including fictional"
-262,Nicky,7,33,38,PERSON,"People, including fictional"
-262,Munich,7,42,48,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+262,"Saturday, August 26, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+262,today,3,7,12,DATE,Absolute or relative dates or periods,,,,
+262,the fine day,3,13,25,DATE,Absolute or relative dates or periods,,,,
+262,yesterday,3,30,39,DATE,Absolute or relative dates or periods,,,,
+262,Alys,4,12,16,PERSON,"People, including fictional",,,,
+262,B.B.,5,0,4,ORG,"Companies, agencies, institutions, etc.",,,,
+262,Jo,5,17,19,PERSON,"People, including fictional",,,,
+262,Carl Hamilton’s,5,64,79,PERSON,"People, including fictional",,,,
+262,Verrocchio,5,80,90,PRODUCT,"Objects, vehicles, foods, etc. (not services)",,,,
+262,Maltees,5,99,106,PERSON,"People, including fictional",,,,
+262,Clarence Mackay,5,110,125,PERSON,"People, including fictional",,,,
+262,2,6,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+262,B.B.,7,24,28,PERSON,"People, including fictional",,,,
+262,Nicky,7,33,38,PERSON,"People, including fictional",,,,
+262,Munich,7,42,48,GPE,"Countries, cities, states",,,,

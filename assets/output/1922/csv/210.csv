@@ -1,26 +1,28 @@
-page,text,p,start,end,type,description
-210,"Wednesday, July 5, 1922",1,0,23,DATE,Absolute or relative dates or periods
-210,34000,2,30,35,CARDINAL,Numerals that do not fall under another type
-210,5000,2,37,41,CARDINAL,Numerals that do not fall under another type
-210,6,2,66,67,CARDINAL,Numerals that do not fall under another type
-210,34000,2,153,158,CARDINAL,Numerals that do not fall under another type
-210,two,2,182,185,CARDINAL,Numerals that do not fall under another type
-210,July 4,3,0,6,DATE,Absolute or relative dates or periods
-210,Verona,3,12,18,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-210,San Zeno,3,31,39,FAC,"Buildings, airports, highways, bridges, etc."
-210,Baptistery,3,48,58,FAC,"Buildings, airports, highways, bridges, etc."
-210,Byzantine,3,99,108,NORP,Nationalities or religious or political groups
-210,Karin,5,0,5,PERSON,"People, including fictional"
-210,10,5,17,19,TIME,Times smaller than a day
-210,Amoses,5,51,57,PERSON,"People, including fictional"
-210,Karersee,5,65,73,FAC,"Buildings, airports, highways, bridges, etc."
-210,28,5,138,140,CARDINAL,Numerals that do not fall under another type
-210,Dolomites,5,210,219,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-210,Predazzo,5,271,279,PERSON,"People, including fictional"
-210,Moena,5,281,286,PERSON,"People, including fictional"
-210,B.B.,5,306,310,ORG,"Companies, agencies, institutions, etc."
-210,hours,5,566,571,TIME,Times smaller than a day
-210,hours,5,576,581,TIME,Times smaller than a day
-210,Amos,5,625,629,PERSON,"People, including fictional"
-210,Spender,5,884,891,ORG,"Companies, agencies, institutions, etc."
-210,the “British Institute,5,914,936,ORG,"Companies, agencies, institutions, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+210,"Wednesday, July 5, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+210,34000,2,30,35,CARDINAL,Numerals that do not fall under another type,,,,
+210,5000,2,37,41,CARDINAL,Numerals that do not fall under another type,,,,
+210,6,2,66,67,CARDINAL,Numerals that do not fall under another type,,,,
+210,34000,2,153,158,CARDINAL,Numerals that do not fall under another type,,,,
+210,two,2,182,185,CARDINAL,Numerals that do not fall under another type,,,,
+210,July 4,3,0,6,DATE,Absolute or relative dates or periods,,,,
+210,Verona,3,12,18,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+210,San Zeno,3,31,39,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+210,Baptistery,3,48,58,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+210,Byzantine,3,99,108,NORP,Nationalities or religious or political groups,,,,
+210,BOLZANO,4,0,7,GPE,"Countries, cities, states",,,,
+210,Karin,5,0,5,PERSON,"People, including fictional",,,,
+210,10,5,17,19,CARDINAL,Numerals that do not fall under another type,,,,
+210,Amoses,5,51,57,PERSON,"People, including fictional",,,,
+210,Karersee,5,65,73,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+210,28,5,138,140,CARDINAL,Numerals that do not fall under another type,,,,
+210,Dolomites,5,210,219,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+210,Predazzo,5,271,279,PERSON,"People, including fictional",,,,
+210,Moena,5,281,286,PERSON,"People, including fictional",,,,
+210,B.B.,5,306,310,PERSON,"People, including fictional",,,,
+210,hours,5,566,571,TIME,Times smaller than a day,,,,
+210,hours,5,576,581,TIME,Times smaller than a day,,,,
+210,Amos,5,625,629,PERSON,"People, including fictional",,,,
+210,Ashburner,5,857,866,PERSON,"People, including fictional",,,,
+210,Spender,5,884,891,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+210,the “British Institute”,5,914,937,ORG,"Companies, agencies, institutions, etc.",,,,

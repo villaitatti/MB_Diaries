@@ -1,19 +1,18 @@
-page,text,p,start,end,type,description
-051,"Friday, January 27, 1922",1,0,24,DATE,Absolute or relative dates or periods
-051,Edfu,2,15,19,PERSON,"People, including fictional"
-051,Esna,3,4,8,GPE,"Countries, cities, states"
-051,Edfu,3,13,17,GPE,"Countries, cities, states"
-051,St. Paul Girard,3,28,43,PERSON,"People, including fictional"
-051,Edfu,3,65,69,GPE,"Countries, cities, states"
-051,Copt,3,190,194,NORP,Nationalities or religious or political groups
-051,2,3,222,223,CARDINAL,Numerals that do not fall under another type
-051,Arab,3,234,238,NORP,Nationalities or religious or political groups
-051,Greek,3,251,256,NORP,Nationalities or religious or political groups
-051,Temple,3,302,308,FAC,"Buildings, airports, highways, bridges, etc."
-051,Egyptian,3,333,341,NORP,Nationalities or religious or political groups
-051,Edfu,4,0,4,FAC,"Buildings, airports, highways, bridges, etc."
-051,St. Owen,4,62,70,FAC,"Buildings, airports, highways, bridges, etc."
-051,Reisner,5,5,12,PERSON,"People, including fictional"
-051,Gifford,5,15,22,PERSON,"People, including fictional"
-051,Egyptian,5,38,46,NORP,Nationalities or religious or political groups
-051,first,5,255,260,ORDINAL,"""first"", ""second"", etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+051,"Friday, January 27, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+051,Esna,3,4,8,GPE,"Countries, cities, states",,,,
+051,Edfu,3,13,17,GPE,"Countries, cities, states",,,,
+051,Abbé St. Paul Girard,3,23,43,PERSON,"People, including fictional",,,,
+051,Edfu,3,65,69,GPE,"Countries, cities, states",,,,
+051,Copt,3,190,194,GPE,"Countries, cities, states",,,,
+051,2,3,222,223,CARDINAL,Numerals that do not fall under another type,,,,
+051,Arab,3,234,238,NORP,Nationalities or religious or political groups,,,,
+051,Greek,3,251,256,NORP,Nationalities or religious or political groups,,,,
+051,Temple,3,302,308,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+051,Egyptian,3,333,341,NORP,Nationalities or religious or political groups,,,,
+051,Edfu,4,0,4,PRODUCT,"Objects, vehicles, foods, etc. (not services)",,,,
+051,St. Owen,4,62,70,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+051,Reisner,5,5,12,PERSON,"People, including fictional",,,,
+051,Gifford,5,15,22,PERSON,"People, including fictional",,,,
+051,Egyptian,5,38,46,NORP,Nationalities or religious or political groups,,,,
+051,first,5,255,260,ORDINAL,"""first"", ""second"", etc.",,,,

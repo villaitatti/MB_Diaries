@@ -1,16 +1,17 @@
-page,text,p,start,end,type,description
-304,"Saturday, October 7, 1922",1,0,25,DATE,Absolute or relative dates or periods
-304,Florence,4,8,16,GPE,"Countries, cities, states"
-304,7,4,20,21,TIME,Times smaller than a day
-304,Naimi,4,23,28,PERSON,"People, including fictional"
-304,Colombo,4,105,112,GPE,"Countries, cities, states"
-304,Janet,5,17,22,PERSON,"People, including fictional"
-304,David,5,66,71,PERSON,"People, including fictional"
-304,Lina,5,101,105,PERSON,"People, including fictional"
-304,Lina,5,138,142,PERSON,"People, including fictional"
-304,Naimi,5,218,223,PERSON,"People, including fictional"
-304,Naimi,6,0,5,PERSON,"People, including fictional"
-304,Bore,6,103,107,NORP,Nationalities or religious or political groups
-304,B.B.,7,0,4,PERSON,"People, including fictional"
-304,Nicky,7,9,14,PERSON,"People, including fictional"
-304,Milan,7,24,29,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+304,"Saturday, October 7, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+304,Tatti,2,31,36,PERSON,"People, including fictional",,,,
+304,Florence,4,8,16,GPE,"Countries, cities, states",,,,
+304,7,4,20,21,TIME,Times smaller than a day,,,,
+304,Naimi,4,23,28,PERSON,"People, including fictional",,,,
+304,Colombo,4,105,112,GPE,"Countries, cities, states",,,,
+304,Janet,5,17,22,PERSON,"People, including fictional",,,,
+304,David,5,66,71,PERSON,"People, including fictional",,,,
+304,Lina,5,101,105,PERSON,"People, including fictional",,,,
+304,Lina,5,138,142,PERSON,"People, including fictional",,,,
+304,Naimi,5,218,223,PERSON,"People, including fictional",,,,
+304,Naimi,6,0,5,PERSON,"People, including fictional",,,,
+304,Bore,6,103,107,NORP,Nationalities or religious or political groups,,,,
+304,B.B.,7,0,4,PERSON,"People, including fictional",,,,
+304,Nicky,7,9,14,PERSON,"People, including fictional",,,,
+304,Milan,7,24,29,GPE,"Countries, cities, states",,,,

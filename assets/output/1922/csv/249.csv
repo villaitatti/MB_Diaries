@@ -1,15 +1,15 @@
-page,text,p,start,end,type,description
-249,"Sunday, August 13, 1922",1,0,23,DATE,Absolute or relative dates or periods
-249,Warsash  Grey,2,0,13,PERSON,"People, including fictional"
-249,the end of 1918,3,102,117,DATE,Absolute or relative dates or periods
-249,the day,4,12,19,DATE,Absolute or relative dates or periods
-249,Nordhoff,4,67,75,PERSON,"People, including fictional"
-249,Saidee,4,86,92,PERSON,"People, including fictional"
-249,the Boy Scouts’ camp,5,38,58,ORG,"Companies, agencies, institutions, etc."
-249,Alys,5,74,78,PERSON,"People, including fictional"
-249,Julia,5,83,88,PERSON,"People, including fictional"
-249,Santayana,5,139,148,WORK_OF_ART,"Titles of books, songs, etc."
-249,Dickens,5,152,159,PERSON,"People, including fictional"
-249,B.B.,6,0,4,PERSON,"People, including fictional"
-249,Nicky,6,9,14,PERSON,"People, including fictional"
-249,Hildesheim,6,18,28,GPE,"Countries, cities, states"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+249,"Sunday, August 13, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+249,Warsash,2,0,7,PERSON,"People, including fictional",,,,
+249,the end of 1918,3,102,117,DATE,Absolute or relative dates or periods,,,,
+249,the day,4,12,19,DATE,Absolute or relative dates or periods,,,,
+249,Nordhoff,4,67,75,PERSON,"People, including fictional",,,,
+249,Saidee,4,86,92,PERSON,"People, including fictional",,,,
+249,the Boy Scouts’ camp,5,38,58,ORG,"Companies, agencies, institutions, etc.",,,,
+249,Alys,5,74,78,PERSON,"People, including fictional",,,,
+249,Julia,5,83,88,PERSON,"People, including fictional",,,,
+249,Santayana,5,139,148,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+249,Dickens,5,152,159,PERSON,"People, including fictional",,,,
+249,B.B.,6,0,4,PERSON,"People, including fictional",,,,
+249,Nicky,6,9,14,PERSON,"People, including fictional",,,,
+249,Hildesheim,6,18,28,ORG,"Companies, agencies, institutions, etc.",,,,

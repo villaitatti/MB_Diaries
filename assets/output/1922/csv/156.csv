@@ -1,9 +1,10 @@
-page,text,p,start,end,type,description
-156,"Friday, May 12, 1922",1,0,20,DATE,Absolute or relative dates or periods
-156,Logan,3,0,5,PERSON,"People, including fictional"
-156,Austrian,4,5,13,NORP,Nationalities or religious or political groups
-156,Tietze,4,32,38,GPE,"Countries, cities, states"
-156,Logan,5,0,5,PERSON,"People, including fictional"
-156,Villino,5,19,26,ORG,"Companies, agencies, institutions, etc."
-156,Ray,6,0,3,PERSON,"People, including fictional"
-156,B.B.,6,30,34,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+156,"Friday, May 12, 1922",1,0,20,DATE,Absolute or relative dates or periods,,,,
+156,Tatti,2,29,34,PERSON,"People, including fictional",,,,
+156,Logan,3,0,5,PERSON,"People, including fictional",,,,
+156,Austrian,4,5,13,NORP,Nationalities or religious or political groups,,,,
+156,Tietze,4,32,38,PERSON,"People, including fictional",,,,
+156,Logan,5,0,5,PERSON,"People, including fictional",,,,
+156,Villino,5,19,26,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+156,Ray,6,0,3,PERSON,"People, including fictional",,,,
+156,B.B.,6,30,34,PERSON,"People, including fictional",,,,

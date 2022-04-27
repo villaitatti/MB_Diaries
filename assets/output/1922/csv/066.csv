@@ -1,10 +1,10 @@
-page,text,p,start,end,type,description
-066,"Saturday, February 11, 1922",1,0,27,DATE,Absolute or relative dates or periods
-066,Winter Palace,2,0,13,FAC,"Buildings, airports, highways, bridges, etc."
-066,Bonté,3,0,5,PERSON,"People, including fictional"
-066,Kus,3,20,23,GPE,"Countries, cities, states"
-066,6.10 train,3,31,41,TIME,Times smaller than a day
-066,Mamour,3,270,276,PERSON,"People, including fictional"
-066,Karnak,4,0,6,GPE,"Countries, cities, states"
-066,Moonlight,4,24,33,WORK_OF_ART,"Titles of books, songs, etc."
-066,Nicky,4,35,40,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+066,"Saturday, February 11, 1922",1,0,27,DATE,Absolute or relative dates or periods,,,,
+066,Winter Palace,2,0,13,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+066,Bonté,3,0,5,PERSON,"People, including fictional",,,,
+066,Kus,3,20,23,PERSON,"People, including fictional",,,,
+066,6.10 train,3,31,41,TIME,Times smaller than a day,,,,
+066,Mamour,3,270,276,PERSON,"People, including fictional",,,,
+066,Karnak,4,0,6,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+066,Moonlight,4,24,33,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+066,Nicky,4,35,40,PERSON,"People, including fictional",,,,

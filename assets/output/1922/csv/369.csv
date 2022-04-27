@@ -1,10 +1,10 @@
-page,text,p,start,end,type,description
-369,"Monday, December 11, 1922",1,0,25,DATE,Absolute or relative dates or periods
-369,Eugenie Strong,2,0,14,PERSON,"People, including fictional"
-369,Eugenie,3,0,7,PERSON,"People, including fictional"
-369,2.30,3,19,23,TIME,Times smaller than a day
-369,the evening,3,78,89,TIME,Times smaller than a day
-369,3,4,1,2,CARDINAL,Numerals that do not fall under another type
-369,Margaret Strong,5,0,15,PERSON,"People, including fictional"
-369,Storrs,5,43,49,GPE,"Countries, cities, states"
-369,Nicky,5,93,98,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+369,"Monday, December 11, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+369,Eugenie Strong,2,0,14,PERSON,"People, including fictional",,,,
+369,Eugenie,3,0,7,PERSON,"People, including fictional",,,,
+369,2.30,3,19,23,TIME,Times smaller than a day,,,,
+369,the evening,3,78,89,TIME,Times smaller than a day,,,,
+369,3,4,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+369,Margaret Strong,5,0,15,PERSON,"People, including fictional",,,,
+369,Storrs,5,43,49,PERSON,"People, including fictional",,,,
+369,Nicky,5,93,98,PERSON,"People, including fictional",,,,

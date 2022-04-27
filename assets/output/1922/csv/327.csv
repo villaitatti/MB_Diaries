@@ -1,18 +1,18 @@
-page,text,p,start,end,type,description
-327,"Monday, October 30, 1922",1,0,24,DATE,Absolute or relative dates or periods
-327,Nicky,3,0,5,PERSON,"People, including fictional"
-327,Ross,4,12,16,PERSON,"People, including fictional"
-327,Enniskillen,4,93,104,PERSON,"People, including fictional"
-327,Kathleen Villiers,4,127,144,PERSON,"People, including fictional"
-327,Sybil,5,0,5,PERSON,"People, including fictional"
-327,Geoffrey,5,10,18,PERSON,"People, including fictional"
-327,Margaret] Strong,5,24,40,PERSON,"People, including fictional"
-327,Gerald Wellesley,5,50,66,PERSON,"People, including fictional"
-327,Aubrey Waterfield,5,84,101,PERSON,"People, including fictional"
-327,Wickliain,5,120,129,PERSON,"People, including fictional"
-327,Geoffrey,5,131,139,PERSON,"People, including fictional"
-327,Nicky,5,187,192,PERSON,"People, including fictional"
-327,Sybil,5,242,247,PERSON,"People, including fictional"
-327,Sybil,5,339,344,PERSON,"People, including fictional"
-327,Margaret],5,404,413,PERSON,"People, including fictional"
-327,Ronald Storrs,5,462,475,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+327,"Monday, October 30, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+327,Nicky,3,0,5,PERSON,"People, including fictional",,,,
+327,Ross,4,12,16,PERSON,"People, including fictional",,,,
+327,Enniskillen,4,93,104,PERSON,"People, including fictional",,,,
+327,Kathleen Villiers,4,127,144,PERSON,"People, including fictional",,,,
+327,Sybil,5,0,5,PERSON,"People, including fictional",,,,
+327,Geoffrey,5,10,18,PERSON,"People, including fictional",,,,
+327,[Margaret] Strong,5,23,40,PERSON,"People, including fictional",,,,
+327,Gerald Wellesley,5,50,66,PERSON,"People, including fictional",,,,
+327,Aubrey Waterfield,5,84,101,PERSON,"People, including fictional",,,,
+327,Wickliain,5,120,129,PERSON,"People, including fictional",,,,
+327,Geoffrey,5,131,139,PERSON,"People, including fictional",,,,
+327,Nicky,5,187,192,PERSON,"People, including fictional",,,,
+327,Sybil,5,242,247,PERSON,"People, including fictional",,,,
+327,Sybil,5,339,344,PERSON,"People, including fictional",,,,
+327,Margaret] Strong,5,404,420,PERSON,"People, including fictional",,,,
+327,Ronald Storrs,5,462,475,PERSON,"People, including fictional",,,,

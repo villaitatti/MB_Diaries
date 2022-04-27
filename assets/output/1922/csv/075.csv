@@ -1,23 +1,23 @@
-page,text,p,start,end,type,description
-075,"Monday, February 20, 1922",1,0,25,DATE,Absolute or relative dates or periods
-075,Hallowell,2,50,59,PERSON,"People, including fictional"
-075,Bonté,2,73,78,PERSON,"People, including fictional"
-075,Irish,2,100,105,NORP,Nationalities or religious or political groups
-075,Ten,2,170,173,CARDINAL,Numerals that do not fall under another type
-075,Ireland,2,188,195,GPE,"Countries, cities, states"
-075,the Great Pyramid,2,219,236,FAC,"Buildings, airports, highways, bridges, etc."
-075,Job,2,250,253,PERSON,"People, including fictional"
-075,Patricolo,3,22,31,PERSON,"People, including fictional"
-075,the morning,3,35,46,TIME,Times smaller than a day
-075,the Luxor Temple,3,59,75,FAC,"Buildings, airports, highways, bridges, etc."
-075,the afternoon,3,87,100,TIME,Times smaller than a day
-075,Medinet Habu,3,104,116,FAC,"Buildings, airports, highways, bridges, etc."
-075,the evening,3,147,158,TIME,Times smaller than a day
-075,Bohemian,3,164,172,NORP,Nationalities or religious or political groups
-075,B.B.,3,202,206,PERSON,"People, including fictional"
-075,Nicky,3,211,216,PERSON,"People, including fictional"
-075,11,3,229,231,TIME,Times smaller than a day
-075,Guido,4,9,14,PERSON,"People, including fictional"
-075,Ross,4,21,25,PERSON,"People, including fictional"
-075,Geoffrey,4,27,35,PERSON,"People, including fictional"
-075,Ammannati,4,37,46,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+075,"Monday, February 20, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+075,Hallowell,2,50,59,PERSON,"People, including fictional",,,,
+075,Bonté,2,73,78,PERSON,"People, including fictional",,,,
+075,Irish,2,100,105,NORP,Nationalities or religious or political groups,,,,
+075,Ten,2,170,173,CARDINAL,Numerals that do not fall under another type,,,,
+075,Ireland,2,188,195,GPE,"Countries, cities, states",,,,
+075,the Great Pyramid,2,219,236,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+075,Job,2,250,253,PERSON,"People, including fictional",,,,
+075,Patricolo,3,22,31,PERSON,"People, including fictional",,,,
+075,the morning,3,35,46,TIME,Times smaller than a day,,,,
+075,the Luxor Temple,3,59,75,ORG,"Companies, agencies, institutions, etc.",,,,
+075,the afternoon,3,87,100,TIME,Times smaller than a day,,,,
+075,Medinet Habu,3,104,116,ORG,"Companies, agencies, institutions, etc.",,,,
+075,the evening,3,147,158,TIME,Times smaller than a day,,,,
+075,Bohemian,3,164,172,NORP,Nationalities or religious or political groups,,,,
+075,B.B.,3,202,206,PERSON,"People, including fictional",,,,
+075,Nicky,3,211,216,PERSON,"People, including fictional",,,,
+075,11,3,229,231,TIME,Times smaller than a day,,,,
+075,Guido,4,9,14,PERSON,"People, including fictional",,,,
+075,Ross,4,21,25,PERSON,"People, including fictional",,,,
+075,Geoffrey,4,27,35,PERSON,"People, including fictional",,,,
+075,Ammannati,4,37,46,PERSON,"People, including fictional",,,,

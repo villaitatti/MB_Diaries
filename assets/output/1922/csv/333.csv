@@ -1,18 +1,16 @@
-page,text,p,start,end,type,description
-333,"Sunday, November 5, 1922",1,0,24,DATE,Absolute or relative dates or periods
-333,Naimi,2,18,23,PERSON,"People, including fictional"
-333,Glorious day,3,0,12,DATE,Absolute or relative dates or periods
-333,first,3,18,23,ORDINAL,"""first"", ""second"", etc."
-333,Kitson,3,30,36,PERSON,"People, including fictional"
-333,Julia,3,55,60,PERSON,"People, including fictional"
-333,Pellett,3,81,88,PERSON,"People, including fictional"
-333,Villa Medici,3,139,151,FAC,"Buildings, airports, highways, bridges, etc."
-333,Geoffrey,3,153,161,PERSON,"People, including fictional"
-333,Strong,4,12,18,PERSON,"People, including fictional"
-333,Ross,4,67,71,PERSON,"People, including fictional"
-333,Waterfields,5,4,15,PERSON,"People, including fictional"
-333,Lina,5,28,32,PERSON,"People, including fictional"
-333,night,5,70,75,TIME,Times smaller than a day
-333,Rome,5,85,89,GPE,"Countries, cities, states"
-333,Mussolini,5,122,131,PERSON,"People, including fictional"
-333,Observer,5,152,160,WORK_OF_ART,"Titles of books, songs, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+333,"Sunday, November 5, 1922",1,0,24,DATE,Absolute or relative dates or periods,,,,
+333,our first,3,14,23,DATE,Absolute or relative dates or periods,,,,
+333,Kitson,3,30,36,PERSON,"People, including fictional",,,,
+333,Julia,3,55,60,PERSON,"People, including fictional",,,,
+333,Pellett,3,81,88,PERSON,"People, including fictional",,,,
+333,Villa Medici,3,139,151,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+333,Geoffrey,3,153,161,PERSON,"People, including fictional",,,,
+333,Strong,4,12,18,PERSON,"People, including fictional",,,,
+333,Ross,4,67,71,PERSON,"People, including fictional",,,,
+333,Waterfields,5,4,15,PERSON,"People, including fictional",,,,
+333,Lina,5,28,32,PERSON,"People, including fictional",,,,
+333,night,5,70,75,TIME,Times smaller than a day,,,,
+333,Rome,5,85,89,GPE,"Countries, cities, states",,,,
+333,Mussolini,5,122,131,PERSON,"People, including fictional",,,,
+333,Observer,5,152,160,WORK_OF_ART,"Titles of books, songs, etc.",,,,

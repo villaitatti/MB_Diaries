@@ -1,16 +1,14 @@
-page,text,p,start,end,type,description
-387,"Friday, December 29, 1922",1,0,25,DATE,Absolute or relative dates or periods
-387,Smith College,4,23,36,ORG,"Companies, agencies, institutions, etc."
-387,Richard Bassett,4,43,58,PERSON,"People, including fictional"
-387,Cescas,5,14,20,PERSON,"People, including fictional"
-387,Acton,6,4,9,PERSON,"People, including fictional"
-387,SonsByba,6,19,27,PERSON,"People, including fictional"
-387,NiverMarchesa Farinola,7,4,26,PERSON,"People, including fictional"
-387,MargaretRenata Borgata,8,0,22,PERSON,"People, including fictional"
-387,Ballett,9,23,30,PERSON,"People, including fictional"
-387,Lenin,9,92,97,PERSON,"People, including fictional"
-387,Trotsky,9,102,109,PERSON,"People, including fictional"
-387,Wilson,9,144,150,PERSON,"People, including fictional"
-387,Lloyd George,9,155,167,PERSON,"People, including fictional"
-387,English,9,209,216,NORP,Nationalities or religious or political groups
-387,Wilson,9,231,237,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+387,"Friday, December 29, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+387,Smith College,4,23,36,ORG,"Companies, agencies, institutions, etc.",,,,
+387,Cescas,5,14,20,PERSON,"People, including fictional",,,,
+387,Acton,6,4,9,PERSON,"People, including fictional",,,,
+387,SonsByba,6,19,27,PERSON,"People, including fictional",,,,
+387,NiverMarchesa Farinola,7,4,26,PERSON,"People, including fictional",,,,
+387,MargaretRenata Borgata,8,0,22,PERSON,"People, including fictional",,,,
+387,Lenin,9,92,97,PERSON,"People, including fictional",,,,
+387,Trotsky,9,102,109,PERSON,"People, including fictional",,,,
+387,Wilson,9,144,150,PERSON,"People, including fictional",,,,
+387,Lloyd George,9,155,167,PERSON,"People, including fictional",,,,
+387,English,9,209,216,NORP,Nationalities or religious or political groups,,,,
+387,Wilson,9,231,237,PERSON,"People, including fictional",,,,

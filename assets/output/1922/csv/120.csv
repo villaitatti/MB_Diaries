@@ -1,11 +1,10 @@
-page,text,p,start,end,type,description
-120,"Thursday, April 6, 1922",1,0,23,DATE,Absolute or relative dates or periods
-120,Cairo,2,0,5,GPE,"Countries, cities, states"
-120,Museum,3,0,6,FAC,"Buildings, airports, highways, bridges, etc."
-120,the afternoon,3,41,54,TIME,Times smaller than a day
-120,mosques,3,81,88,FAC,"Buildings, airports, highways, bridges, etc."
-120,Philomène,3,90,99,PERSON,"People, including fictional"
-120,Mena House,3,122,132,FAC,"Buildings, airports, highways, bridges, etc."
-120,Pyramid,3,153,160,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-120,Conte V. de Gallarza,4,0,20,PERSON,"People, including fictional"
-120,Buddhism,4,109,117,ORG,"Companies, agencies, institutions, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+120,"Thursday, April 6, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+120,Cairo,2,0,5,GPE,"Countries, cities, states",,,,
+120,the afternoon,3,41,54,TIME,Times smaller than a day,,,,
+120,mosques,3,81,88,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+120,Philomène,3,90,99,PERSON,"People, including fictional",,,,
+120,Mena House,3,122,132,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+120,Pyramid,3,153,160,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+120,Conte V. de Gallarza,4,0,20,PERSON,"People, including fictional",,,,
+120,Buddhism,4,109,117,ORG,"Companies, agencies, institutions, etc.",,,,

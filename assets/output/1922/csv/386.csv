@@ -1,11 +1,10 @@
-page,text,p,start,end,type,description
-386,"Thursday, December 28, 1922",1,0,27,DATE,Absolute or relative dates or periods
-386,Bessie,3,0,6,PERSON,"People, including fictional"
-386,morning,4,14,21,TIME,Times smaller than a day
-386,Margaret],5,14,23,PERSON,"People, including fictional"
-386,Strong,5,24,30,PERSON,"People, including fictional"
-386,Bessie,5,80,86,PERSON,"People, including fictional"
-386,more than 30 years,5,234,252,DATE,Absolute or relative dates or periods
-386,Polkinghames,6,67,79,PERSON,"People, including fictional"
-386,Janet,6,89,94,PERSON,"People, including fictional"
-386,evening,7,9,16,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+386,"Thursday, December 28, 1922",1,0,27,DATE,Absolute or relative dates or periods,,,,
+386,Alys,2,31,35,PERSON,"People, including fictional",,,,
+386,Bessie,3,0,6,PERSON,"People, including fictional",,,,
+386,morning,4,14,21,TIME,Times smaller than a day,,,,
+386,Bessie,5,80,86,PERSON,"People, including fictional",,,,
+386,more than 30 years,5,234,252,DATE,Absolute or relative dates or periods,,,,
+386,Polkinghames,6,67,79,PERSON,"People, including fictional",,,,
+386,Janet,6,89,94,PERSON,"People, including fictional",,,,
+386,evening,7,9,16,TIME,Times smaller than a day,,,,

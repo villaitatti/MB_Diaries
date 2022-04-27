@@ -1,14 +1,14 @@
-page,text,p,start,end,type,description
-381,"Saturday, December 23, 19, 1922",1,0,31,DATE,Absolute or relative dates or periods
-381,A very dank damp,3,0,16,DATE,Absolute or relative dates or periods
-381,B.B.,3,22,26,PERSON,"People, including fictional"
-381,Bessie,3,57,63,PERSON,"People, including fictional"
-381,Janet,3,85,90,PERSON,"People, including fictional"
-381,the “Prinz der D,4,14,30,WORK_OF_ART,"Titles of books, songs, etc."
-381,Manolescu,4,37,46,PERSON,"People, including fictional"
-381,German,4,83,89,LANGUAGE,Any named language
-381,4,5,1,2,CARDINAL,Numerals that do not fall under another type
-381,Hutch,6,41,46,PERSON,"People, including fictional"
-381,Neith,6,51,56,PERSON,"People, including fictional"
-381,Miriam,6,61,67,PERSON,"People, including fictional"
-381,The Story of a Lover,6,189,209,WORK_OF_ART,"Titles of books, songs, etc."
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+381,"Saturday, December 23, 19, 1922",1,0,31,DATE,Absolute or relative dates or periods,,,,
+381,A very dank damp day,3,0,20,DATE,Absolute or relative dates or periods,,,,
+381,B.B.,3,22,26,PERSON,"People, including fictional",,,,
+381,Bessie,3,57,63,PERSON,"People, including fictional",,,,
+381,Janet,3,85,90,PERSON,"People, including fictional",,,,
+381,Prinz der D,4,19,30,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+381,Manolescu,4,37,46,PERSON,"People, including fictional",,,,
+381,German,4,83,89,LANGUAGE,Any named language,,,,
+381,4,5,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+381,Hutch,6,41,46,PERSON,"People, including fictional",,,,
+381,Neith,6,51,56,PERSON,"People, including fictional",,,,
+381,Miriam,6,61,67,PERSON,"People, including fictional",,,,
+381,The Story of a Lover,6,189,209,WORK_OF_ART,"Titles of books, songs, etc.",,,,

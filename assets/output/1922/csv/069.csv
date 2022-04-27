@@ -1,5 +1,6 @@
-page,text,p,start,end,type,description
-069,"Tuesday, February 14, 1922",1,0,26,DATE,Absolute or relative dates or periods
-069,Nicky,2,0,5,PERSON,"People, including fictional"
-069,B.B.,3,19,23,PERSON,"People, including fictional"
-069,Kitson,3,82,88,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+069,"Tuesday, February 14, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+069,Nicky,2,0,5,PERSON,"People, including fictional",,,,
+069,Luxor,3,8,13,GPE,"Countries, cities, states",,,,
+069,B.B.,3,19,23,PERSON,"People, including fictional",,,,
+069,Kitson,3,82,88,PERSON,"People, including fictional",,,,

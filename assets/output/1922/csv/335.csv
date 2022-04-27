@@ -1,20 +1,17 @@
-page,text,p,start,end,type,description
-335,"Tuesday, November 7, 1922",1,0,25,DATE,Absolute or relative dates or periods
-335,Cameron,2,23,30,PERSON,"People, including fictional"
-335,Placci,3,0,6,PERSON,"People, including fictional"
-335,B.B.,3,62,66,PERSON,"People, including fictional"
-335,Nicky,5,49,54,PERSON,"People, including fictional"
-335,Iris,5,56,60,PERSON,"People, including fictional"
-335,Byba,5,62,66,PERSON,"People, including fictional"
-335,Kitson,5,76,82,PERSON,"People, including fictional"
-335,Mario Bacciocchi,5,89,105,PERSON,"People, including fictional"
-335,Henderson,5,107,116,PERSON,"People, including fictional"
-335,Wickham,5,118,125,PERSON,"People, including fictional"
-335,Pinsent,5,130,137,PERSON,"People, including fictional"
-335,Cameron,5,148,155,PERSON,"People, including fictional"
-335,B.B.,5,157,161,PERSON,"People, including fictional"
-335,Aubrey,5,165,171,PERSON,"People, including fictional"
-335,Age,5,196,199,PERSON,"People, including fictional"
-335,M___wood,5,243,251,PERSON,"People, including fictional"
-335,Maurice Amos,6,9,21,PERSON,"People, including fictional"
-335,Patricolo,6,28,37,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+335,"Tuesday, November 7, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+335,Placci,3,0,6,PERSON,"People, including fictional",,,,
+335,B.B.,3,62,66,PERSON,"People, including fictional",,,,
+335,Nicky,5,49,54,PERSON,"People, including fictional",,,,
+335,Iris,5,56,60,PERSON,"People, including fictional",,,,
+335,Byba,5,62,66,PERSON,"People, including fictional",,,,
+335,Kitson,5,76,82,PERSON,"People, including fictional",,,,
+335,Mario Bacciocchi,5,89,105,PERSON,"People, including fictional",,,,
+335,Henderson,5,107,116,PERSON,"People, including fictional",,,,
+335,Wickham,5,118,125,PERSON,"People, including fictional",,,,
+335,Pinsent,5,130,137,PERSON,"People, including fictional",,,,
+335,Cameron,5,148,155,PERSON,"People, including fictional",,,,
+335,Aubrey,5,165,171,PERSON,"People, including fictional",,,,
+335,Age,5,196,199,PERSON,"People, including fictional",,,,
+335,Maurice Amos,6,9,21,PERSON,"People, including fictional",,,,
+335,Patricolo,6,28,37,PERSON,"People, including fictional",,,,

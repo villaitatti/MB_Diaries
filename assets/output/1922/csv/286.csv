@@ -1,21 +1,22 @@
-page,text,p,start,end,type,description
-286,"Tuesday, September 19, 1922",1,0,27,DATE,Absolute or relative dates or periods
-286,Hotel Bristol,2,24,37,ORG,"Companies, agencies, institutions, etc."
-286,Italian,6,0,7,NORP,Nationalities or religious or political groups
-286,Museum,6,76,82,FAC,"Buildings, airports, highways, bridges, etc."
-286,the afternoon,7,3,16,TIME,Times smaller than a day
-286,BB,7,17,19,PERSON,"People, including fictional"
-286,Herr Casserèr’s,7,37,52,ORG,"Companies, agencies, institutions, etc."
-286,Herr Blumenreich,7,117,133,PERSON,"People, including fictional"
-286,Casserèr,7,148,156,PERSON,"People, including fictional"
-286,Van Gogh’s,7,202,212,PERSON,"People, including fictional"
-286,BB,7,224,226,PERSON,"People, including fictional"
-286,Bellini,7,446,453,PERSON,"People, including fictional"
-286,Feast,7,457,462,WORK_OF_ART,"Titles of books, songs, etc."
-286,Botticelli,7,468,478,PERSON,"People, including fictional"
-286,Birth of Venus’,7,482,497,WORK_OF_ART,"Titles of books, songs, etc."
-286,Terry Fürholzer,8,0,15,PERSON,"People, including fictional"
-286,Karin,8,20,25,PERSON,"People, including fictional"
-286,Adrian,8,30,36,PERSON,"People, including fictional"
-286,Madame Pompadour,8,88,104,WORK_OF_ART,"Titles of books, songs, etc."
-286,Massari,8,134,141,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+286,"Tuesday, September 19, 1922",1,0,27,DATE,Absolute or relative dates or periods,,,,
+286,Hotel Bristol,2,24,37,ORG,"Companies, agencies, institutions, etc.",,,,
+286,Nicky,5,0,5,PERSON,"People, including fictional",,,,
+286,Italian,6,0,7,NORP,Nationalities or religious or political groups,,,,
+286,Museum,6,76,82,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+286,the afternoon,7,3,16,TIME,Times smaller than a day,,,,
+286,BB,7,17,19,PERSON,"People, including fictional",,,,
+286,Herr Casserèr’s,7,37,52,ORG,"Companies, agencies, institutions, etc.",,,,
+286,Herr Blumenreich,7,117,133,PERSON,"People, including fictional",,,,
+286,Casserèr,7,148,156,PERSON,"People, including fictional",,,,
+286,Van Gogh’s,7,202,212,PERSON,"People, including fictional",,,,
+286,BB,7,224,226,PERSON,"People, including fictional",,,,
+286,Bellini,7,446,453,PERSON,"People, including fictional",,,,
+286,Feast,7,457,462,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+286,Botticelli,7,468,478,PERSON,"People, including fictional",,,,
+286,Birth of Venus’,7,482,497,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+286,Terry Fürholzer,8,0,15,PERSON,"People, including fictional",,,,
+286,Karin,8,20,25,PERSON,"People, including fictional",,,,
+286,Adrian,8,30,36,PERSON,"People, including fictional",,,,
+286,Madame Pompadour,8,88,104,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+286,Massari,8,134,141,PERSON,"People, including fictional",,,,

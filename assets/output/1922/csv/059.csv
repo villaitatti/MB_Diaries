@@ -1,8 +1,8 @@
-page,text,p,start,end,type,description
-059,"Saturday, February 4, 1922",1,0,26,DATE,Absolute or relative dates or periods
-059,Wadi Halfa,2,0,10,GPE,"Countries, cities, states"
-059,5.30,3,6,10,TIME,Times smaller than a day
-059,Wadi Halfa,3,30,40,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-059,Sanderson,3,62,71,PERSON,"People, including fictional"
-059,Wahrlich,3,76,84,PERSON,"People, including fictional"
-059,the day,4,12,19,DATE,Absolute or relative dates or periods
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+059,"Saturday, February 4, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+059,Wadi Halfa,2,0,10,GPE,"Countries, cities, states",,,,
+059,5.30,3,6,10,TIME,Times smaller than a day,,,,
+059,Wadi Halfa,3,30,40,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+059,Sanderson,3,62,71,PERSON,"People, including fictional",,,,
+059,Wahrlich,3,76,84,PERSON,"People, including fictional",,,,
+059,the day,4,12,19,DATE,Absolute or relative dates or periods,,,,

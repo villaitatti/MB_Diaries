@@ -1,23 +1,23 @@
-page,text,p,start,end,type,description
-287,"Wednesday, September 20, 1922",1,0,29,DATE,Absolute or relative dates or periods
-287,B.B.,5,0,4,PERSON,"People, including fictional"
-287,Gallery,5,45,52,FAC,"Buildings, airports, highways, bridges, etc."
-287,Suarez,5,91,97,PERSON,"People, including fictional"
-287,Waley,5,106,111,PERSON,"People, including fictional"
-287,the Metropolitan Museum,5,117,140,ORG,"Companies, agencies, institutions, etc."
-287,Sassetta,5,193,201,PERSON,"People, including fictional"
-287,the afternoon,6,3,16,TIME,Times smaller than a day
-287,BB,6,17,19,PERSON,"People, including fictional"
-287,Meyergraefes,6,40,52,PERSON,"People, including fictional"
-287,Lahmann,6,141,148,PERSON,"People, including fictional"
-287,the Weisser Hirsch,6,153,171,ORG,"Companies, agencies, institutions, etc."
-287,Sanatorium,6,198,208,ORG,"Companies, agencies, institutions, etc."
-287,Italy,6,212,217,GPE,"Countries, cities, states"
-287,Vallombrosa,6,234,245,GPE,"Countries, cities, states"
-287,Doktor Sarre,7,0,12,PERSON,"People, including fictional"
-287,De Coq,7,90,96,PERSON,"People, including fictional"
-287,Babylon Samarra,7,154,169,ORG,"Companies, agencies, institutions, etc."
-287,Persia,7,194,200,GPE,"Countries, cities, states"
-287,Bokara,7,205,211,GPE,"Countries, cities, states"
-287,Samarcand,7,216,225,GPE,"Countries, cities, states"
-287,Denman Ross,7,299,310,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+287,"Wednesday, September 20, 1922",1,0,29,DATE,Absolute or relative dates or periods,,,,
+287,Nicky,4,0,5,PERSON,"People, including fictional",,,,
+287,B.B.,5,0,4,PERSON,"People, including fictional",,,,
+287,Gallery,5,45,52,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+287,Suarez,5,91,97,PERSON,"People, including fictional",,,,
+287,Waley,5,106,111,PERSON,"People, including fictional",,,,
+287,the Metropolitan Museum,5,117,140,ORG,"Companies, agencies, institutions, etc.",,,,
+287,Sassetta,5,193,201,PERSON,"People, including fictional",,,,
+287,the afternoon,6,3,16,TIME,Times smaller than a day,,,,
+287,BB,6,17,19,PERSON,"People, including fictional",,,,
+287,Meyergraefes,6,40,52,PERSON,"People, including fictional",,,,
+287,Lahmann,6,141,148,PERSON,"People, including fictional",,,,
+287,the Weisser Hirsch,6,153,171,ORG,"Companies, agencies, institutions, etc.",,,,
+287,Sanatorium,6,198,208,ORG,"Companies, agencies, institutions, etc.",,,,
+287,Italy,6,212,217,GPE,"Countries, cities, states",,,,
+287,Vallombrosa,6,234,245,GPE,"Countries, cities, states",,,,
+287,Doktor Sarre,7,0,12,PERSON,"People, including fictional",,,,
+287,De Coq,7,90,96,PERSON,"People, including fictional",,,,
+287,Persia,7,194,200,GPE,"Countries, cities, states",,,,
+287,Bokara,7,205,211,GPE,"Countries, cities, states",,,,
+287,Samarcand,7,216,225,GPE,"Countries, cities, states",,,,
+287,Denman Ross,7,299,310,PERSON,"People, including fictional",,,,

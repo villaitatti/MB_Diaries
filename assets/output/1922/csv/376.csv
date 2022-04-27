@@ -1,16 +1,17 @@
-page,text,p,start,end,type,description
-376,"Monday, December 18, 1922",1,0,25,DATE,Absolute or relative dates or periods
-376,Paget,3,5,10,PERSON,"People, including fictional"
-376,Young Leslie,3,15,27,PERSON,"People, including fictional"
-376,Colin Coote,4,4,15,PERSON,"People, including fictional"
-376,Times,4,25,30,ORG,"Companies, agencies, institutions, etc."
-376,Rome,4,48,52,GPE,"Countries, cities, states"
-376,Ray,4,73,76,PERSON,"People, including fictional"
-376,Balliol,4,88,95,GPE,"Countries, cities, states"
-376,Parliament,4,119,129,ORG,"Companies, agencies, institutions, etc."
-376,22,4,133,135,DATE,Absolute or relative dates or periods
-376,only 27,4,176,183,DATE,Absolute or relative dates or periods
-376,Lina Waterfield,4,237,252,PERSON,"People, including fictional"
-376,Observer,4,266,274,WORK_OF_ART,"Titles of books, songs, etc."
-376,Italian,4,278,285,NORP,Nationalities or religious or political groups
-376,Italian,4,350,357,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+376,"Monday, December 18, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+376,Eugenie Strong,2,40,54,PERSON,"People, including fictional",,,,
+376,Paget,3,5,10,PERSON,"People, including fictional",,,,
+376,Young Leslie,3,15,27,PERSON,"People, including fictional",,,,
+376,Colin Coote,4,4,15,PERSON,"People, including fictional",,,,
+376,Times,4,25,30,ORG,"Companies, agencies, institutions, etc.",,,,
+376,Rome,4,48,52,GPE,"Countries, cities, states",,,,
+376,Ray,4,73,76,PERSON,"People, including fictional",,,,
+376,Balliol,4,88,95,GPE,"Countries, cities, states",,,,
+376,Parliament,4,119,129,ORG,"Companies, agencies, institutions, etc.",,,,
+376,22,4,133,135,DATE,Absolute or relative dates or periods,,,,
+376,only 27,4,176,183,DATE,Absolute or relative dates or periods,,,,
+376,Lina Waterfield,4,237,252,PERSON,"People, including fictional",,,,
+376,Observer,4,266,274,WORK_OF_ART,"Titles of books, songs, etc.",,,,
+376,Italian,4,278,285,NORP,Nationalities or religious or political groups,,,,
+376,Italian,4,350,357,NORP,Nationalities or religious or political groups,,,,

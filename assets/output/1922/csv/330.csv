@@ -1,8 +1,9 @@
-page,text,p,start,end,type,description
-330,"Thursday, November 2, 1922",1,0,26,DATE,Absolute or relative dates or periods
-330,B.B.,3,12,16,PERSON,"People, including fictional"
-330,Geoffrey,3,29,37,PERSON,"People, including fictional"
-330,Gerald,3,47,53,PERSON,"People, including fictional"
-330,Sybil,3,77,82,PERSON,"People, including fictional"
-330,Hopkinson,3,182,191,PERSON,"People, including fictional"
-330,Patterson,3,240,249,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+330,"Thursday, November 2, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+330,B.B.,3,12,16,PERSON,"People, including fictional",,,,
+330,Geoffrey,3,29,37,PERSON,"People, including fictional",,,,
+330,Gerald,3,47,53,PERSON,"People, including fictional",,,,
+330,Sybil,3,77,82,PERSON,"People, including fictional",,,,
+330,Hopkinson,3,182,191,PERSON,"People, including fictional",,,,
+330,Patterson,3,240,249,PERSON,"People, including fictional",,,,
+330,Akuaton,4,20,27,WORK_OF_ART,"Titles of books, songs, etc.",,,,

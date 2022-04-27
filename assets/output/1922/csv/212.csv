@@ -1,14 +1,13 @@
-page,text,p,start,end,type,description
-212,"Friday, July 7, 1922",1,0,20,DATE,Absolute or relative dates or periods
-212,Hotel Regina-Palast,2,25,44,FAC,"Buildings, airports, highways, bridges, etc."
-212,Munich,3,0,6,GPE,"Countries, cities, states"
-212,Innsbruck,4,8,17,GPE,"Countries, cities, states"
-212,Bavarian,4,94,102,NORP,Nationalities or religious or political groups
-212,afternoon,4,142,151,TIME,Times smaller than a day
-212,Walchersee,4,251,261,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-212,Kochelsee,4,272,281,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-212,Würmsersee,4,293,303,LOC,"Non-GPE locations, mountain ranges, bodies of water"
-212,Munich,4,416,422,GPE,"Countries, cities, states"
-212,3,6,1,2,CARDINAL,Numerals that do not fall under another type
-212,Egyptian,7,164,172,NORP,Nationalities or religious or political groups
-212,Egyptian,7,292,300,NORP,Nationalities or religious or political groups
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+212,"Friday, July 7, 1922",1,0,20,DATE,Absolute or relative dates or periods,,,,
+212,Hotel Regina-Palast,2,25,44,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+212,Munich,3,0,6,GPE,"Countries, cities, states",,,,
+212,Innsbruck,4,8,17,GPE,"Countries, cities, states",,,,
+212,Bavarian,4,94,102,NORP,Nationalities or religious or political groups,,,,
+212,afternoon,4,142,151,TIME,Times smaller than a day,,,,
+212,Walchersee,4,251,261,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+212,Kochelsee,4,272,281,LOC,"Non-GPE locations, mountain ranges, bodies of water",,,,
+212,Munich,4,416,422,GPE,"Countries, cities, states",,,,
+212,3,6,1,2,CARDINAL,Numerals that do not fall under another type,,,,
+212,Egyptian,7,164,172,NORP,Nationalities or religious or political groups,,,,
+212,Egyptian,7,292,300,NORP,Nationalities or religious or political groups,,,,

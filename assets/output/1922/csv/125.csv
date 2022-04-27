@@ -1,6 +1,6 @@
-page,text,p,start,end,type,description
-125,"Tuesday, April 11, 1922",1,0,23,DATE,Absolute or relative dates or periods
-125,Cairo,2,0,5,GPE,"Countries, cities, states"
-125,Alfred,5,0,6,PERSON,"People, including fictional"
-125,Patricolo,5,11,20,PERSON,"People, including fictional"
-125,Devonshire,5,30,40,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+125,"Tuesday, April 11, 1922",1,0,23,DATE,Absolute or relative dates or periods,,,,
+125,Cairo,2,0,5,GPE,"Countries, cities, states",,,,
+125,Alfred,5,0,6,PERSON,"People, including fictional",,,,
+125,Patricolo,5,11,20,PERSON,"People, including fictional",,,,
+125,Devonshire,5,30,40,PERSON,"People, including fictional",,,,

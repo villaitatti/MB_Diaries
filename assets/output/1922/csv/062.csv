@@ -1,15 +1,15 @@
-page,text,p,start,end,type,description
-062,"Tuesday, February 7, 1922",1,0,25,DATE,Absolute or relative dates or periods
-062,All day,3,0,7,DATE,Absolute or relative dates or periods
-062,Baltimore,3,103,112,GPE,"Countries, cities, states"
-062,Weeds,3,118,123,PERSON,"People, including fictional"
-062,Long Island,3,128,139,GPE,"Countries, cities, states"
-062,Sanderson Tom Wahrlich’s,3,141,165,PERSON,"People, including fictional"
-062,Donald,3,178,184,PERSON,"People, including fictional"
-062,Washington State,3,189,205,GPE,"Countries, cities, states"
-062,First,4,0,5,ORDINAL,"""first"", ""second"", etc."
-062,Temples,4,14,21,FAC,"Buildings, airports, highways, bridges, etc."
-062,Kalapsha,4,25,33,FAC,"Buildings, airports, highways, bridges, etc."
-062,Barbara,4,74,81,PERSON,"People, including fictional"
-062,Luxor,5,8,13,GPE,"Countries, cities, states"
-062,night,5,17,22,TIME,Times smaller than a day
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+062,"Tuesday, February 7, 1922",1,0,25,DATE,Absolute or relative dates or periods,,,,
+062,All day,3,0,7,DATE,Absolute or relative dates or periods,,,,
+062,Willocks,3,90,98,PERSON,"People, including fictional",,,,
+062,Baltimore,3,103,112,GPE,"Countries, cities, states",,,,
+062,Weeds,3,118,123,PERSON,"People, including fictional",,,,
+062,Long Island,3,128,139,GPE,"Countries, cities, states",,,,
+062,Sanderson Tom Wahrlich’s,3,141,165,PERSON,"People, including fictional",,,,
+062,Donald,3,178,184,PERSON,"People, including fictional",,,,
+062,Washington State,3,189,205,GPE,"Countries, cities, states",,,,
+062,First,4,0,5,ORDINAL,"""first"", ""second"", etc.",,,,
+062,Kalapsha,4,25,33,GPE,"Countries, cities, states",,,,
+062,Barbara,4,74,81,PERSON,"People, including fictional",,,,
+062,Luxor,5,8,13,GPE,"Countries, cities, states",,,,
+062,night,5,17,22,TIME,Times smaller than a day,,,,

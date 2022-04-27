@@ -1,20 +1,19 @@
-page,text,p,start,end,type,description
-076,"Tuesday, February 21, 1922",1,0,26,DATE,Absolute or relative dates or periods
-076,Patricolo,3,0,9,PERSON,"People, including fictional"
-076,the Luxor Temple,5,3,19,FAC,"Buildings, airports, highways, bridges, etc."
-076,French,5,29,35,NORP,Nationalities or religious or political groups
-076,MM. Kuentz,5,44,54,PERSON,"People, including fictional"
-076,Bruyère,5,59,66,PERSON,"People, including fictional"
-076,Patricolo,5,71,80,PERSON,"People, including fictional"
-076,the morning,5,84,95,TIME,Times smaller than a day
-076,Karnac,5,117,123,GPE,"Countries, cities, states"
-076,the whole afternoon,5,128,147,TIME,Times smaller than a day
-076,Nicky,5,149,154,PERSON,"People, including fictional"
-076,Fair,5,173,177,FAC,"Buildings, airports, highways, bridges, etc."
-076,Arabs,5,267,272,NORP,Nationalities or religious or political groups
-076,the evening,6,3,14,TIME,Times smaller than a day
-076,Franklin,6,35,43,PERSON,"People, including fictional"
-076,Samuel,6,80,86,PERSON,"People, including fictional"
-076,the Commissioner for Palestine,6,95,125,PERSON,"People, including fictional"
-076,Balliol,6,146,153,ORG,"Companies, agencies, institutions, etc."
-076,Bertie,6,191,197,PERSON,"People, including fictional"
+page,text,p,start,end,type,description,wikidata,viaf,loc,notes
+076,"Tuesday, February 21, 1922",1,0,26,DATE,Absolute or relative dates or periods,,,,
+076,Patricolo,3,0,9,PERSON,"People, including fictional",,,,
+076,the Luxor Temple,5,3,19,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+076,French,5,29,35,NORP,Nationalities or religious or political groups,,,,
+076,MM. Kuentz,5,44,54,PERSON,"People, including fictional",,,,
+076,Bruyère,5,59,66,PERSON,"People, including fictional",,,,
+076,Patricolo,5,71,80,PERSON,"People, including fictional",,,,
+076,Karnac,5,117,123,PERSON,"People, including fictional",,,,
+076,the whole afternoon,5,128,147,TIME,Times smaller than a day,,,,
+076,Nicky,5,149,154,PERSON,"People, including fictional",,,,
+076,Fair,5,173,177,FAC,"Buildings, airports, highways, bridges, etc.",,,,
+076,Arabs,5,267,272,NORP,Nationalities or religious or political groups,,,,
+076,the evening,6,3,14,TIME,Times smaller than a day,,,,
+076,Franklin,6,35,43,PERSON,"People, including fictional",,,,
+076,Samuel,6,80,86,PERSON,"People, including fictional",,,,
+076,Palestine,6,116,125,GPE,"Countries, cities, states",,,,
+076,Balliol,6,146,153,ORG,"Companies, agencies, institutions, etc.",,,,
+076,Bertie,6,191,197,PERSON,"People, including fictional",,,,
