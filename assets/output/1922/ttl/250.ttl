@@ -1,0 +1,17 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/document/1922/250> .
+
+<https://mbdiaries.itatti.harvard.edu/document/1922/250> a Platform:File,
+        <https://mbdiaries.itatti.harvard.edu/ontology/Document> ;
+    rdfs:label "250"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "250.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime <http://www.researchspace.org/resource/admin> ;
+    prov:wasAttributedTo "2022-04-27T12:00:12"^^xsd:dateTime .
+
