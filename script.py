@@ -227,7 +227,7 @@ def ner(output_path):
 # Default paths
 cur_path = os.path.dirname(os.path.realpath(__file__))
 
-filenames = ['1915']
+filenames = ['1891-93']
 
 for filename in filenames:
 
