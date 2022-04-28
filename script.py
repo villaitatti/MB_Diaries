@@ -83,6 +83,18 @@ def write_csv(filename, body):
 
   df.to_csv(filename, index=False)
 
+def write_xlsx(filename, body):
+  create_dir(os.path.dirname(os.path.abspath(filename))) 
+  df = pd.DataFrame(
+      body, columns=['page', 'text', 'p', 'start', 'end', 'type', 'description'])
+
+  df['wikidata'] = ''
+  df['viaf'] = ''
+  df['loc'] = ''
+  df['notes'] = ''
+
+  df.to_excel(filename, index=False)
+
 def parse_pages(output_path ,pages, diary):
 
   regexp = r'\[[0-9]+\][\s]*'
@@ -210,6 +222,7 @@ def ner(output_path):
   nlp = spacy.load('en_core_web_trf')
   txt_path = os.path.join(output_path, 'txt')
   csv_path = os.path.join(output_path, 'csv')
+  xlsx_path = os.path.join(output_path, 'xslx')
 
   ner_body = []
 
@@ -222,12 +235,12 @@ def ner(output_path):
       ner_body_curr = execute_ner(nlp, f.read(), name_file)
       ner_body.append(ner_body_curr)
 
-      write_csv(os.path.join(csv_path,f'{name_file}.csv'), ner_body_curr)
+      write_xlsx(os.path.join(xlsx_path,f'{name_file}.xlsx'), ner_body_curr)
 
 # Default paths
 cur_path = os.path.dirname(os.path.realpath(__file__))
 
-filenames = ['1891-93']
+filenames = ['1922']
 
 for filename in filenames:
 
