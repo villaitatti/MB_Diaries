@@ -14,15 +14,30 @@ from rdflib import Graph, URIRef, namespace, Namespace, Literal
 sys.path.append('./assets')
 from convert import convert2text, convert2xml, convert2vec
 
-endpoint = 'http://localhost:10214/'
+endpoint = 'https://collection.itatti.harvard.edu/'
 
 nlp = spacy.load('en_core_web_trf')
 
 tmp1 = 'admin'
-tmp2 = 'admin'
+tmp2 = 'vitadmin'
 
-diary_image_ids = {
-  "1915": 491567726
+key_id = "id"
+key_index = "index"
+key_page_regex = "page_regex"
+key_offset = "offset"
+
+key_body = 'body'
+key_text = 'text'
+
+diary_data = {
+  "1915": {
+    key_id: 491567726,
+    key_page_regex: r'\[[0-9]+\][\s]*'
+  },
+  "1927": {
+    key_id: 491567726,
+    key_page_regex: r'^[\s]*\[[0-9]+\][\s]*$'
+  }
 }
 
 IIIF_server = 'https://ids.lib.harvard.edu/ids/iiif/'
@@ -105,7 +120,7 @@ def create_page_graph(diary_number, day):
 
   page_number = day['page']
   day_index = day['day']
-  day_number = int(day_index) + int(page_number) -1
+  day_number = page_number
 
   # Page
   PAGE_NODE = URIRef(f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}/page/{page_number}')
@@ -125,7 +140,7 @@ def create_page_graph(diary_number, day):
   g.add( (PAGE_NODE, CRM.P129i_is_subject_of, PAGE_NODE_DOCUMENT) ) 
 
   # Visual representation
-  IMAGE_NODE = URIRef(f'{IIIF_server}{int(diary_image_ids[diary_number])+int(day_number)}{IIIF_trailer}')
+  IMAGE_NODE = URIRef(f'{IIIF_server}{int(diary_data[diary_number][key_id])+int(day_number)}{IIIF_trailer}')
   g.add( (IMAGE_NODE, RDF.type, CRM.E38_Image) )
   g.add( (IMAGE_NODE, RDF.type, URIRef('http://www.researchspace.org/ontology/EX_Digital_Image')) )
   g.add( (PAGE_NODE, CRM.P183i_has_representation, IMAGE_NODE) )
@@ -163,7 +178,7 @@ def create_diary_graph(diary_number):
   g.add( (BASE_NODE, RDFS.label, Literal(diary_number, datatype=XSD.string)) )
 
   # Visual representation
-  IMAGE_NODE = URIRef(f'{IIIF_server}{int(diary_image_ids[diary_number]+1)}{IIIF_trailer}')
+  IMAGE_NODE = URIRef(f'{IIIF_server}{int(diary_data[diary_number][key_id]+1)}{IIIF_trailer}')
   g.add( (BASE_NODE, CRM.P183i_has_representation, IMAGE_NODE) )
   g.add( (IMAGE_NODE, RDF.type, CRM.E38_Image) )
   g.add( (IMAGE_NODE, RDF.type, URIRef('http://www.researchspace.org/ontology/EX_Digital_Image')) )
@@ -207,75 +222,58 @@ def write_xlsx(filename, body):
 
   df.to_excel(filename, index=False)
 
-def parse_pages(output_path, pages, diary, stop=None):
-
-  regexp = r'\[[0-9]+\][\s]*'
-  body = ''
-  body_html = ''
-  diary_page = None
-  day_number = 1
-  cnt = 0
-
-  days = []
-
-  # Turtle file for the diary
-  write_diary_graph(os.path.join(output_path, 'ttl', f'{diary}.ttl'), diary)
-
-
+def write_pages(output_path, pages):
+  
   for page in pages:
-    match = re.match(regexp, page)
+    
+    if key_text in page:
+      write_file(os.path.join(output_path, 'txt', f'{page[key_index]}.txt'), page[key_text])
 
-    if cnt == stop:
-      break
+  return pages
 
-    # if it's a paragraph containing a page heading 
-    # eg: "[025]"
-    if match:
-      if diary_page is not None:
 
-        # Text file
-        write_file(os.path.join(output_path, 'txt', f'{diary_page}.txt'), body)
+def parse_pages(output_path, paragraphs, diary, stop=None):
 
-        page_data = execute_ner(body, diary_page)
+  def update_page(page_index, page_body):
+    # Update body n-1 page
+    if page_index > 0:
+      pages[page_index-1][key_text] = page_body
 
-        # Check DATEs
-        for entry in page_data:
-          if entry[5] == 'DATE':
-            entry_string = entry[1]
-            day_regex = re.compile(r'(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)')
 
-            # It's a day!
-            if day_regex.search(entry_string):
-              print(f'Parsing day {day_number} [{diary_page}] ({entry_string})')
 
-              day = {
-                "day": day_number,
-                "page": diary_page,
-                "date": entry_string
-              }
+  page_start_regex = diary_data[diary][key_page_regex]
 
-              # Turtle file
-              write_day_graph(os.path.join(output_path, 'ttl', 'day', f'{day_number}.ttl'), diary, day)
-              write_page_graph(os.path.join(output_path, 'ttl', 'page', f'{diary_page}.ttl'), diary, day)
+  page_index = 0
+  page_body = ''
 
-              day_number += 1
+  pages = []
 
-        # HTML file
-        body_html = f'<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>{diary_page}</title>\n\t</head>\n\t<body>\n{body_html}</body></html>'
-        write_file(os.path.join(output_path, 'html', f'{diary_page}.html'), body_html)
+  for p in paragraphs:
 
-        body_html = ''
+    p = p.strip()
 
-      diary_page = re.sub(r'[\[\]\s]', '', match[0])
-      body = f'{re.sub(regexp, "", page)}\n'
-
-    # internal paragraphs
+    # Check if here there's the start of a page
+    page_match = re.match(page_start_regex, p)
+    if not page_match:
+      page_body += f'{p}\n'
+    
     else:
-      body += f'{page}\n'
-      body_html += f'\t\t<p>{page}</p>\n'
 
-    cnt += 1
+      # Add n page
+      pages.append({
+        key_index: re.sub(r'[\[\]]', '', p)
+      })
 
+      update_page(page_index, page_body)
+
+      page_index += 1
+      page_match = None
+      page_body = ''
+
+  update_page(page_index, page_body)
+
+  return pages
+ 
 def execute_ner(document, name):
 
   data = []
@@ -387,8 +385,8 @@ def ner(output_path):
 # Default paths
 cur_path = os.path.dirname(os.path.realpath(__file__))
 
-filenames = ['1915']
-stop = 50
+filenames = ['1927']
+stop = None
 
 for filename in filenames:
 
@@ -406,10 +404,9 @@ for filename in filenames:
   vec = convert2vec(file_input)
 
   # Execute page
-  days = parse_pages(output_path, vec, filename, stop)
+  pages = parse_pages(output_path, vec, filename, stop)
+  pages = write_pages(output_path, pages)
 
-  print(days)
-  
   # Upload
-  upload(output_path, filename, 'day', 'diary')
-  upload(output_path, filename, 'page', 'document')
+  #upload(output_path, filename, 'day', 'diary')
+  #upload(output_path, filename, 'page', 'document')
