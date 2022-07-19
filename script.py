@@ -10,9 +10,13 @@ import numpy as np
 import datetime
 import urllib
 from rdflib import Graph, URIRef, namespace, Namespace, Literal
+from dateutil.parser import parse
 
 sys.path.append('./assets')
 from convert import convert2text, convert2xml, convert2vec
+
+
+day_regex = r'(January?|February?|March?|April?|May?|June?|July?|August?|September?|October?|November?|December?)\s*\d*\S*\s*[0-9]{1,2}\s*\S+\s*[0-9]{4}\s*'
 
 endpoint = 'https://collection.itatti.harvard.edu/'
 
@@ -34,12 +38,27 @@ diary_data = {
     key_id: 491567726,
     key_page_regex: r'\[[0-9]+\][\s]*'
   },
+  "1926": {
+    key_id: 491567726,
+    key_page_regex: r'\[[0-9]+\][\s]*'
+  },
   "1927": {
     key_id: 491567726,
     key_page_regex: r'^[\s]*\[[0-9]+\][\s]*$'
-  }
+  },
+  "1930": {
+    key_id: 491567726,
+    key_page_regex: r'\[[0-9]+\][\s]*'
+  },
+  "1934": {
+    key_id: 491567726,
+    key_page_regex: r'\[[0-9]+\][\s]*'
+  },
+  "1935": {
+    key_id: 491567726,
+    key_page_regex: r'\[[0-9]+\][\s]*'
+  },
 }
-
 IIIF_server = 'https://ids.lib.harvard.edu/ids/iiif/'
 IIIF_trailer = '/full/full/0/default.jpg'
 
@@ -227,52 +246,45 @@ def write_pages(output_path, pages):
   for page in pages:
     
     if key_text in page:
-      write_file(os.path.join(output_path, 'txt', f'{page[key_index]}.txt'), page[key_text])
+      write_file(os.path.join(output_path, 'txt', f'day_{page[key_index]}.txt'), page[key_text])
 
   return pages
 
-
-def parse_pages(output_path, paragraphs, diary, stop=None):
-
-  def update_page(page_index, page_body):
-    # Update body n-1 page
-    if page_index > 0:
-      pages[page_index-1][key_text] = page_body
-
-
+def parse_pages(paragraphs, diary, stop=None):
 
   page_start_regex = diary_data[diary][key_page_regex]
 
-  page_index = 0
-  page_body = ''
+  day_index = 0
+  day_body = []
 
-  pages = []
+  days = []
 
+  # Start from the last paragraph to the first
+  paragraphs.reverse()
   for p in paragraphs:
 
-    p = p.strip()
+    # Prevent page annotation
+    if not re.match(page_start_regex, p):
 
-    # Check if here there's the start of a page
-    page_match = re.match(page_start_regex, p)
-    if not page_match:
-      page_body += f'{p}\n'
-    
-    else:
+      # Update page body
+      day_body.append(p)
 
-      # Add n page
-      pages.append({
-        key_index: re.sub(r'[\[\]]', '', p)
-      })
+      if re.search(day_regex, p):
 
-      update_page(page_index, page_body)
+        day_body.reverse()
 
-      page_index += 1
-      page_match = None
-      page_body = ''
+        days.append({
+          key_index: day_index,
+          key_text: '\n'.join(day_body)
+        })
 
-  update_page(page_index, page_body)
+        day_index += 1
+        day_body = []
 
-  return pages
+  for day in days:
+    day[key_index] = abs(len(days) - day[key_index])
+
+  return days
  
 def execute_ner(document, name):
 
@@ -404,7 +416,7 @@ for filename in filenames:
   vec = convert2vec(file_input)
 
   # Execute page
-  pages = parse_pages(output_path, vec, filename, stop)
+  pages = parse_pages(vec, filename, stop)
   pages = write_pages(output_path, pages)
 
   # Upload
