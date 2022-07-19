@@ -1,9 +1,11 @@
 import zipfile
+from docx2python import docx2python
 from xml.etree.ElementTree import XML
 
 WORD_NAMESPACE = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 PARA = WORD_NAMESPACE + 'p'
 TEXT = WORD_NAMESPACE + 't'
+COMMENT = WORD_NAMESPACE + 'comment'
 TABLE = WORD_NAMESPACE + 'tbl'
 ROW = WORD_NAMESPACE + 'tr'
 CELL = WORD_NAMESPACE + 'tc'
@@ -14,8 +16,19 @@ def convert2xml(path):
     p[index] = f'<p>{para}</p>'
   return '\n'.join(p)
 
+"""
 def convert2vec(path):
   return _parsedocx(path)
+"""
+
+def convert2vec(path):
+  parsed_doc = docx2python(path)
+
+  return {
+    "document": parsed_doc.document[1][0][0],
+    "footnotes": parsed_doc.footnotes[0][0]
+  }
+
 
 def convert2text(path):
   p = _parsedocx(path)
