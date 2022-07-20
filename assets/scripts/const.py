@@ -6,6 +6,17 @@ key_index = "index"
 key_page_regex_check = "page_regex"
 key_offset = "offset"
 
+key_document = "document"
+key_footnote = "footnote"
+
+footnote_fulltext = "fulltext"
+footnote_permalinks = "permalinks"
+footnote_type = "type"
+
+regex_href = r'<a\s+(?:[^>]*?\s+)?href=([\"\'])(.*?)\1'
+regex_footnote = r'footnote[\d]+'
+regex_footnote_id = r'-{4}[\w\d]*-{4}'
+
 key_body = 'body'
 key_text = 'text'
 

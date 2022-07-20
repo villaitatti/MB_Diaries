@@ -1,6 +1,7 @@
 import zipfile
 from docx2python import docx2python
 from xml.etree.ElementTree import XML
+import const
 
 WORD_NAMESPACE = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 PARA = WORD_NAMESPACE + 'p'
@@ -25,8 +26,8 @@ def convert2vec(path):
   parsed_doc = docx2python(path)
 
   return {
-    "document": parsed_doc.document[1][0][0],
-    "footnotes": parsed_doc.footnotes[0][0]
+    const.key_document: parsed_doc.document[1][0][0],
+    const.key_footnote: parsed_doc.footnotes[0][0]
   }
 
 

@@ -1,19 +1,20 @@
 
-from asyncore import write
-import sys
-import os
-import re
-from xml.dom import NamespaceErr
-import spacy
-import pandas as pd
-import numpy as np
 
+import numpy as np
+import pandas as pd
+import spacy
+from xml.dom import NamespaceErr
+import re
+import os
+import sys
+from asyncore import write
 
 sys.path.append('./assets/scripts')
 from convert import convert2text, convert2xml, convert2vec
 import const
 import utils
 import writer
+
 
 endpoint = 'https://collection.itatti.harvard.edu/'
 
@@ -23,11 +24,54 @@ nlp = spacy.load('en_core_web_trf')
 # Execute parsing data
 def do_pages(output_path, vec, diary):
 
-  pages = parse_pages(output_path, vec["document"], diary, stop)
+  # Parse and write page
+  pages = parse_pages(vec[const.key_document], diary, stop)
   pages = writer.write_pages(output_path, pages)
 
+  # Clean and parse footnotes
+  parse_footnotes(pages, clean_footnotes(vec[const.key_footnote]))
 
-def parse_pages(output_path, paragraphs, diary, stop=None):
+
+def clean_footnotes(footnotes):
+  dict_footnotes = {}
+
+  for page_footnotes in footnotes:
+    for footnote in page_footnotes:
+
+      try:
+        footnote_index = re.findall(const.regex_footnote, footnote)[0]
+        full_text = re.sub(const.regex_footnote, "", footnote).lower().replace(")\t","").strip()
+
+        # Create footnote
+        dict_footnotes[footnote_index] = {
+            const.footnote_fulltext: full_text
+        }
+
+        # If contains href
+        href_matches = re.findall(const.regex_href, full_text)
+        if href_matches:
+
+          # Save the links in href attribute
+          permalinks = [href[1] for href in href_matches]
+          dict_footnotes[footnote_index][const.footnote_permalinks] = permalinks
+
+          # If text contains Biblioteca Berenson
+          if "biblioteca berenson" in full_text:
+            dict_footnotes[footnote_index][const.footnote_type] = "Book"
+          else:
+            dict_footnotes[footnote_index][const.footnote_type] = "Person"
+
+        else:
+          dict_footnotes[footnote_index][const.footnote_type] = "Notes"
+
+      except IndexError as ex:
+        print(ex)
+        continue
+
+  return dict_footnotes
+
+
+def parse_pages(paragraphs, diary, stop=None):
 
   def update_page(page_index, page_body):
     # Update body n-1 page
@@ -66,6 +110,23 @@ def parse_pages(output_path, paragraphs, diary, stop=None):
   update_page(page_index, page_body)
 
   return pages
+
+
+def parse_footnotes(pages, footnotes):
+
+  # Link footnotes
+  for page in pages:
+
+    try:
+      # Search if there are footnotes in pages
+      for match in re.findall(const.regex_footnote_id, page[const.key_text]):
+        identifier = match.replace("----", "")
+
+        print(identifier)
+        print(footnotes[identifier])
+
+    except Exception as ex:
+      print(ex)
 
 
 def execute_ner(document, name):
@@ -121,6 +182,7 @@ def parse_metadata():
   # Create people_extracted.csv
   parse_people(df)
 
+
 def ner(output_path):
 
   txt_path = os.path.join(output_path, 'txt')
@@ -135,11 +197,11 @@ def ner(output_path):
 
     with open(os.path.join(txt_path, txt_file), 'r') as f:
 
-      ner_body_curr = execute_ner(nlp, f.read(), name_file)
+      ner_body_curr = execute_ner(f.read(), name_file)
       ner_body.append(ner_body_curr)
 
-      write_csv(os.path.join(csv_path, f'{name_file}.csv'), ner_body_curr)
-      write_xlsx(os.path.join(xlsx_path, f'{name_file}.xlsx'), ner_body_curr)
+      writer.write_csv(os.path.join(csv_path, f'{name_file}.csv'), ner_body_curr)
+      writer.write_xlsx(os.path.join(xlsx_path, f'{name_file}.xlsx'), ner_body_curr)
 
 
 # Default paths
