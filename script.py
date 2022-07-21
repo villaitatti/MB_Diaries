@@ -1,18 +1,16 @@
 
-
-
-import numpy as np
-import pandas as pd
-import spacy
-from xml.dom import NamespaceErr
-import re
-import os
-import sys
-from asyncore import write
 from spacy.lang.en import English
+from asyncore import write
+import sys
+import os
+import re
+from xml.dom import NamespaceErr
+import spacy
+import pandas as pd
+import numpy as np
 
+# Import the local scripts
 sys.path.append('./assets/scripts')
-
 import writer
 import utils
 import const
@@ -23,20 +21,20 @@ endpoint = 'https://collection.itatti.harvard.edu/'
 
 nlp = spacy.load('en_core_web_trf')
 
-# Construction 2
-
-
 # Execute parsing data
+
+
 def do_pages(output_path, vec, diary):
 
   # Parse and write page
-  pages = parse_pages(vec[const.key_document], diary, stop)
-  
+  pages = parse_pages(vec[const.key_document], diary)
+
   writer.write_pages(output_path, pages)
   writer.write_pages_html(output_path, pages)
 
   # Clean and parse footnotes
-  parse_footnotes(output_path, pages, clean_footnotes(vec[const.key_footnote]))
+  footnotes = parse_footnotes(pages, clean_footnotes(vec[const.key_footnote]))
+  writer.write_footnotes(output_path, footnotes)
 
 
 def clean_footnotes(footnotes):
@@ -79,50 +77,38 @@ def clean_footnotes(footnotes):
   return dict_footnotes
 
 
-def parse_pages(paragraphs, diary, stop=None):
-
-  def update_page(page_index, page_body):
-    # Update body n-1 page
-    if page_index > 0:
-      pages[page_index-1][const.key_text] = page_body
+def parse_pages(paragraphs, diary):
 
   page_start_regex = const.diary_data[diary][const.key_page_regex_check]
-
-  page_index = 0
-  page_body = ''
-
+  page_body = []
   pages = []
 
+  # Start from the last paragraph to the first
+  paragraphs.reverse()
   for p in paragraphs:
 
-    p = p.strip()
+    # Always add the paragraph (but remove page notation if is there)
+    page_body.append(re.sub(page_start_regex, '', p))
 
-    # Check if here there's the start of a page
-    page_match = re.match(page_start_regex, p)
-    if not page_match:
-      page_body += f'{p}\n'
+    # Save page if there's the page name
+    if re.match(page_start_regex, p):
+      # Transform page id in page index: from [019] to 19.
+      page_index = re.sub(const.regex_brackets, '',
+                          re.findall(page_start_regex, p)[0].strip())
 
-    else:
-      
-      tmp = re.findall(page_start_regex, page_match.string)[0].strip()
+      page_body.reverse()
 
-      # Add n page
       pages.append({
-          const.key_index: re.sub(r'[\[\]]', '', tmp)
+          const.key_index: page_index,
+          const.key_text: '\n'.join([body.strip() for body in page_body])
       })
 
-      update_page(page_index, page_body)
-
-      page_index += 1
-      page_match = None
-      page_body = ''
-
-  update_page(page_index, page_body)
+      page_body = []
 
   return pages
 
 
-def parse_footnotes(output_path, pages, footnotes):
+def parse_footnotes(pages, footnotes):
 
   elements = []
 
@@ -157,10 +143,7 @@ def parse_footnotes(output_path, pages, footnotes):
     except Exception as ex:
       print(ex)
 
-  df_footnotes = pd.DataFrame(elements, columns=[
-                              "Page number", "footnote id", "Last 4 words before footnote", "Footnote text", "Type", "Permalinks"])
-  df_footnotes.to_excel(os.path.join(output_path, "footnotes.xlsx"))
-  df_footnotes.to_csv(os.path.join(output_path, "footnotes.csv"))
+  return footnotes
 
 
 def execute_ner(document, name):
@@ -244,7 +227,6 @@ def ner(output_path):
 cur_path = os.path.dirname(os.path.realpath(__file__))
 
 filenames = ['1933']
-stop = None
 
 for filename in filenames:
 

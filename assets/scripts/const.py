@@ -16,6 +16,7 @@ footnote_type = "type"
 regex_href = r'<a\s+(?:[^>]*?\s+)?href=([\"\'])(.*?)\1'
 regex_footnote = r'footnote[\d]+'
 regex_footnote_id = r'-{4}[\w\d]*-{4}'
+regex_brackets = r'[\[\]]'
 
 key_body = 'body'
 key_text = 'text'
@@ -33,7 +34,9 @@ diary_data = {
         key_page_regex_check: r'^[\s]*\[[0-9]+\][\s]*$'
     },
     "1933": {
-        key_id: 491567726,
+        key_id: 493343491,
         key_page_regex_check: r'^[\s]*\[[0-9]+\][\s]*'
     }
 }
+
+header_footnotes = ["Page number", "footnote id", "Last 4 words before footnote", "Footnote text", "Type", "Permalinks"]
