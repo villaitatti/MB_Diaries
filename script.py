@@ -31,7 +31,9 @@ def do_pages(output_path, vec, diary):
 
   # Parse and write page
   pages = parse_pages(vec[const.key_document], diary, stop)
-  pages = writer.write_pages(output_path, pages)
+  
+  writer.write_pages(output_path, pages)
+  writer.write_pages_html(output_path, pages)
 
   # Clean and parse footnotes
   parse_footnotes(output_path, pages, clean_footnotes(vec[const.key_footnote]))

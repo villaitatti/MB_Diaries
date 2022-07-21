@@ -1,7 +1,8 @@
 import os
 import utils
 import pandas as pd
-from const import key_text, key_index
+import re
+from const import key_text, key_index, regex_footnote_id
 
 def write_file(filename, body):
 
@@ -46,3 +47,24 @@ def write_pages(output_path, pages):
                  f'{page[key_index]}.txt'), page[key_text])
 
   return pages
+
+  
+def write_pages_html(output_path, pages):
+  for page in pages:
+
+    if key_text in page:
+
+      # Split by \n and add <p>
+      lines = page[key_text].split('\n')
+      body = ''
+
+      for line in lines:
+        line = line.strip()
+        if line:
+          line = re.sub(regex_footnote_id, '', line)
+          body += f'\n\t\t<p>{line}<p>'
+
+      html = f'<html>\n\t<body>{body}\n\t</body>\n</html>'
+      
+      write_file(os.path.join(output_path, 'html',
+                 f'{page[key_index]}.html'), html)
