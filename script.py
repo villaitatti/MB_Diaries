@@ -1,5 +1,6 @@
 
 
+
 import numpy as np
 import pandas as pd
 import spacy
@@ -8,17 +9,21 @@ import re
 import os
 import sys
 from asyncore import write
+from spacy.lang.en import English
 
 sys.path.append('./assets/scripts')
-from convert import convert2text, convert2xml, convert2vec
-import const
-import utils
+
 import writer
+import utils
+import const
+from convert import convert2text, convert2xml, convert2vec
 
 
 endpoint = 'https://collection.itatti.harvard.edu/'
 
 nlp = spacy.load('en_core_web_trf')
+
+# Construction 2
 
 
 # Execute parsing data
@@ -29,7 +34,7 @@ def do_pages(output_path, vec, diary):
   pages = writer.write_pages(output_path, pages)
 
   # Clean and parse footnotes
-  parse_footnotes(pages, clean_footnotes(vec[const.key_footnote]))
+  parse_footnotes(output_path, pages, clean_footnotes(vec[const.key_footnote]))
 
 
 def clean_footnotes(footnotes):
@@ -40,7 +45,8 @@ def clean_footnotes(footnotes):
 
       try:
         footnote_index = re.findall(const.regex_footnote, footnote)[0]
-        full_text = re.sub(const.regex_footnote, "", footnote).lower().replace(")\t","").strip()
+        full_text = re.sub(const.regex_footnote, "",
+                           footnote).lower().replace(")\t", "").strip()
 
         # Create footnote
         dict_footnotes[footnote_index] = {
@@ -95,10 +101,12 @@ def parse_pages(paragraphs, diary, stop=None):
       page_body += f'{p}\n'
 
     else:
+      
+      tmp = re.findall(page_start_regex, page_match.string)[0].strip()
 
       # Add n page
       pages.append({
-          const.key_index: re.sub(r'[\[\]]', '', p)
+          const.key_index: re.sub(r'[\[\]]', '', tmp)
       })
 
       update_page(page_index, page_body)
@@ -112,21 +120,45 @@ def parse_pages(paragraphs, diary, stop=None):
   return pages
 
 
-def parse_footnotes(pages, footnotes):
+def parse_footnotes(output_path, pages, footnotes):
+
+  elements = []
 
   # Link footnotes
   for page in pages:
 
+    text = page[const.key_text]
+
     try:
       # Search if there are footnotes in pages
-      for match in re.findall(const.regex_footnote_id, page[const.key_text]):
+      for match in re.findall(const.regex_footnote_id, text):
         identifier = match.replace("----", "")
 
-        print(identifier)
-        print(footnotes[identifier])
+        before = text.split(match)[0]
+
+        nlp_tokenizer = English()
+        # Create a Tokenizer with the default settings for English
+        # including punctuation rules and exceptions
+        tokenizer = nlp_tokenizer.tokenizer
+
+        tokens = tokenizer(before)
+
+        if const.footnote_permalinks in footnotes[identifier]:
+          element = [page[const.key_index], identifier, tokens[-4:], footnotes[identifier][const.footnote_fulltext],
+                     footnotes[identifier][const.footnote_type], ', '.join(footnotes[identifier][const.footnote_permalinks])]
+        else:
+          element = [page[const.key_index], identifier, tokens[-4:], footnotes[identifier]
+                     [const.footnote_fulltext], footnotes[identifier][const.footnote_type], '']
+
+        elements.append(element)
 
     except Exception as ex:
       print(ex)
+
+  df_footnotes = pd.DataFrame(elements, columns=[
+                              "Page number", "footnote id", "Last 4 words before footnote", "Footnote text", "Type", "Permalinks"])
+  df_footnotes.to_excel(os.path.join(output_path, "footnotes.xlsx"))
+  df_footnotes.to_csv(os.path.join(output_path, "footnotes.csv"))
 
 
 def execute_ner(document, name):
@@ -200,8 +232,10 @@ def ner(output_path):
       ner_body_curr = execute_ner(f.read(), name_file)
       ner_body.append(ner_body_curr)
 
-      writer.write_csv(os.path.join(csv_path, f'{name_file}.csv'), ner_body_curr)
-      writer.write_xlsx(os.path.join(xlsx_path, f'{name_file}.xlsx'), ner_body_curr)
+      writer.write_csv(os.path.join(
+          csv_path, f'{name_file}.csv'), ner_body_curr)
+      writer.write_xlsx(os.path.join(
+          xlsx_path, f'{name_file}.xlsx'), ner_body_curr)
 
 
 # Default paths
