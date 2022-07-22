@@ -8,6 +8,7 @@ from xml.dom import NamespaceErr
 import spacy
 import pandas as pd
 import numpy as np
+import click
 
 # Import the local scripts
 sys.path.append('./assets/scripts')
@@ -207,37 +208,44 @@ def ner(output_path):
       writer.write_xlsx(os.path.join(
           xlsx_path, f'{name_file}.xlsx'), ner_body_curr)
 
+@click.command()
+@click.option('-d', 'diaries', required=True, multiple=True, help="Diaries to iterate. -d 1933 [-d 1933]")
+@click.option('-u', 'exec_upload', is_flag=True, help="Execute the upload", default=False)
+def exec(diaries, exec_upload):
+  cur_path = os.path.dirname(os.path.realpath(__file__))
 
-# Default paths
-cur_path = os.path.dirname(os.path.realpath(__file__))
-diaries = ['1933']
+  for diary in diaries:
+    print(f'### Executing year {diary} ###')
 
-for diary in diaries:
+    # Update default paths with specific
+    input_path = os.path.join(cur_path, 'assets', 'input')
+    output_path = os.path.join(cur_path, 'assets', 'output', diary)
 
-  print(f'### Executing year {diary} ###')
+    # Check if output_path exists
+    utils.create_dir(output_path)
 
-  # Update default paths with specific
-  input_path = os.path.join(cur_path, 'assets', 'input')
-  output_path = os.path.join(cur_path, 'assets', 'output', diary)
+    # Get text and footnote from a docx document
+    vec = convert2vec(os.path.join(input_path, f'{diary}.docx'))
 
-  # Check if output_path exists
-  utils.create_dir(output_path)
+    # Parse and write page
+    pages = parse_pages(vec[const.key_document], diary)
+    writer.write_pages(output_path, pages)
+    writer.write_pages_html(output_path, pages, diary)
 
-  # Get text and footnote from a docx document
-  vec = convert2vec(os.path.join(input_path, f'{diary}.docx'))
+    # Clean and parse footnotes
+    footnotes = parse_footnotes(pages, clean_footnotes(vec[const.key_footnote]))
+    writer.write_footnotes(output_path, footnotes)
 
-  # Parse and write page
-  pages = parse_pages(vec[const.key_document], diary)
-  writer.write_pages(output_path, pages)
-  writer.write_pages_html(output_path, pages)
+    # Create RDF Graphs for the pages
+    graphs = rdf.pages2graphs(diary, pages)
+    rdf.write_graphs(output_path, graphs)
 
-  # Clean and parse footnotes
-  footnotes = parse_footnotes(pages, clean_footnotes(vec[const.key_footnote]))
-  writer.write_footnotes(output_path, footnotes)
+    # Upload RDF graphs
+    if exec_upload:
+      upload.upload(output_path, diary)
+    
 
-  # Create RDF Graphs for the pages
-  graphs = rdf.pages2graphs(diary, pages)
-  rdf.write_graphs(output_path, graphs)
+if __name__ == '__main__':
+  exec()
+    
   
-  # Upload RDF graphs
-  upload.upload(output_path, diary)
