@@ -1,6 +1,3 @@
-tmp1 = 'admin'
-tmp2 = 'vitadmin'
-
 key_id = "id"
 key_index = "index"
 key_page_regex_check = "page_regex"
@@ -18,8 +15,15 @@ regex_footnote = r'footnote[\d]+'
 regex_footnote_id = r'-{4}[\w\d]*-{4}'
 regex_brackets = r'[\[\]]'
 
+turtle_ext = 'ttl'
+key_graph = 'graph'
+
 key_body = 'body'
 key_text = 'text'
+
+key_upload_username = 'username'
+key_upload_password = 'password'
+key_upload_endpoint = 'endpoint'
 
 IIIF_server = 'https://ids.lib.harvard.edu/ids/iiif/'
 IIIF_trailer = '/full/full/0/default.jpg'
@@ -34,7 +38,7 @@ diary_data = {
         key_page_regex_check: r'^[\s]*\[[0-9]+\][\s]*$'
     },
     "1933": {
-        key_id: 493343491,
+        key_id: 493343490,
         key_page_regex_check: r'^[\s]*\[[0-9]+\][\s]*'
     }
 }

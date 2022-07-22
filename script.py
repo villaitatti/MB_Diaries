@@ -13,7 +13,9 @@ import numpy as np
 sys.path.append('./assets/scripts')
 import writer
 import utils
+import upload
 import const
+import rdf
 from convert import convert2text, convert2xml, convert2vec
 
 
@@ -24,17 +26,24 @@ nlp = spacy.load('en_core_web_trf')
 # Execute parsing data
 
 
-def do_pages(output_path, vec, diary):
+def execute_pages(output_path, vec, diary):
 
   # Parse and write page
   pages = parse_pages(vec[const.key_document], diary)
-
   writer.write_pages(output_path, pages)
   writer.write_pages_html(output_path, pages)
 
   # Clean and parse footnotes
   footnotes = parse_footnotes(pages, clean_footnotes(vec[const.key_footnote]))
   writer.write_footnotes(output_path, footnotes)
+
+  # Create RDF Graphs for the pages
+  graphs = rdf.pages2graphs(diary, pages)
+  rdf.write_graphs(output_path, graphs)
+  
+  # Upload RDF graphs
+  upload.upload(output_path, diary)
+
 
 
 def clean_footnotes(footnotes):
@@ -225,7 +234,6 @@ def ner(output_path):
 
 # Default paths
 cur_path = os.path.dirname(os.path.realpath(__file__))
-
 filenames = ['1933']
 
 for filename in filenames:
@@ -244,8 +252,4 @@ for filename in filenames:
   vec = convert2vec(file_input)
 
   # Execute page
-  do_pages(output_path, vec, filename)
-
-  # Upload
-  #upload(output_path, filename, 'day', 'diary')
-  #upload(output_path, filename, 'page', 'document')
+  execute_pages(output_path, vec, filename)

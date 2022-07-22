@@ -4,6 +4,7 @@ import const
 import datetime
 from rdflib import Graph, URIRef, namespace, Namespace, Literal
 
+
 def write_day_graph(filename, diary, day):
 
   utils.create_dir(os.path.dirname(os.path.abspath(filename)))
@@ -25,6 +26,8 @@ def write_diary_graph(filename, diary):
   g.serialize(destination=filename, format='turtle')
 
 # Create graphs
+
+
 def create_day_graph(diary_number, day):
 
   g = Graph()
@@ -73,7 +76,7 @@ def create_day_graph(diary_number, day):
   return g
 
 
-def create_page_graph(diary_number, day):
+def create_page_graph(diary_number, page):
 
   g = Graph()
 
@@ -89,13 +92,11 @@ def create_page_graph(diary_number, day):
   RDFS = namespace.RDFS
   XSD = namespace.XSD
 
-  page_number = day['page']
-  day_index = day['day']
-  day_number = page_number
+  page_number = page[const.key_index]
 
   # Page
   PAGE_NODE = URIRef(
-      f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}/page/{page_number}')
+      f'https://mbdiaries.itatti.harvard.ed/resource/diary/{diary_number}/page/{page_number}')
 
   # Page File
   PAGE_NODE_DOCUMENT = URIRef(
@@ -106,7 +107,7 @@ def create_page_graph(diary_number, day):
   g.add((PAGE_NODE_DOCUMENT, RDF.type, URIRef(
       'https://mbdiaries.itatti.harvard.edu/ontology/Document')))
   g.add((PAGE_NODE_DOCUMENT, RDFS.label, Literal(
-      f'Document file of {page_number}.html', datatype=XSD.string)))
+      f'LDP Container of document file of {page_number}.html', datatype=XSD.string)))
   g.add((PAGE_NODE_DOCUMENT, PLATFORM.fileContext, URIRef(
       'http://www.researchspace.org/resource/TextDocuments')))
   g.add((PAGE_NODE_DOCUMENT, PLATFORM.fileName, Literal(
@@ -121,11 +122,17 @@ def create_page_graph(diary_number, day):
 
   # Visual representation
   IMAGE_NODE = URIRef(
-      f'{IIIF_server}{int(diary_data[diary_number][const.key_id])+int(day_number)}{IIIF_trailer}')
+      f'{const.IIIF_server}{int(const.diary_data[diary_number][const.key_id])+int(page_number)}{const.IIIF_trailer}')
   g.add((IMAGE_NODE, RDF.type, CRM.E38_Image))
   g.add((IMAGE_NODE, RDF.type, URIRef(
       'http://www.researchspace.org/ontology/EX_Digital_Image')))
   g.add((PAGE_NODE, CRM.P183i_has_representation, IMAGE_NODE))
+
+  
+  g.add((PAGE_NODE, RDF.type, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/Page')))
+  g.add((PAGE_NODE, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/part_of'), URIRef(f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}')))
+  
+  
 
   g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
   g.namespace_manager.bind('crm', CRM, override=True, replace=True)
@@ -177,3 +184,27 @@ def create_diary_graph(diary_number):
   g.namespace_manager.bind('prov', PROV, override=True, replace=True)
 
   return g
+
+
+def write_graphs(output_path, graphs):
+  for graph in graphs:
+    filename = os.path.join(output_path, const.turtle_ext, f'{graph[const.key_index]}.ttl')
+    utils.create_dir(os.path.dirname(os.path.abspath(filename)))
+    graph[const.key_graph].serialize(destination=filename, format='turtle')
+
+
+def pages2graphs(diary, pages):
+  graphs = []
+  for page in pages:
+    graphs.append({
+        const.key_index: page[const.key_index],
+        const.key_graph: create_page_graph(diary, page)
+    })
+
+  # Create Diary graph
+  graphs.append({
+    const.key_index: diary,
+    const.key_graph: create_diary_graph(diary)
+  }) 
+
+  return graphs

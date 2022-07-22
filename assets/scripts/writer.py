@@ -38,8 +38,8 @@ def write_pages(output_path, pages):
                  f'{page[key_index]}.txt'), page[key_text])
 
   return pages
-
   
+
 def write_pages_html(output_path, pages):
   for page in pages:
 
