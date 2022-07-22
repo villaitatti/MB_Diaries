@@ -26,7 +26,7 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1933", "-d", "1915", "-u"],
+      "args": ["-d", "1933", "-u"],
     }
   ]
 }
