@@ -5,11 +5,28 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Run MB Script",
+      "name": "help",
       "type": "python",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "args": ["--help"],
+    },
+    {
+      "name": "1933 no upload",
+      "type": "python",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1933"],
+    },
+    {
+      "name": "1933 with upload",
+      "type": "python",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1933", "-d", "1915", "-u"],
     }
   ]
 }
