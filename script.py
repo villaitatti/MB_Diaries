@@ -13,7 +13,6 @@ import click
 # Import the local scripts
 sys.path.append('./assets/scripts')
 import writer
-import utils
 import upload
 import const
 import rdf
@@ -222,7 +221,7 @@ def exec(diaries, exec_upload):
     output_path = os.path.join(cur_path, 'assets', 'output', diary)
 
     # Check if output_path exists
-    utils.create_dir(output_path)
+    writer.create_dir(output_path)
 
     # Get text and footnote from a docx document
     vec = convert2vec(os.path.join(input_path, f'{diary}.docx'))
@@ -236,12 +235,12 @@ def exec(diaries, exec_upload):
     footnotes = parse_footnotes(pages, clean_footnotes(vec[const.key_footnote]))
     writer.write_footnotes(output_path, footnotes)
 
-    # Create RDF Graphs for the pages
-    graphs = rdf.pages2graphs(diary, pages)
-    rdf.write_graphs(output_path, graphs)
-
-    # Upload RDF graphs
     if exec_upload:
+      # Create RDF Graphs for the pages
+      graphs = rdf.pages2graphs(diary, pages)
+      rdf.write_graphs(output_path, graphs)
+
+      # Upload RDF graphs
       upload.upload(output_path, diary)
     
 

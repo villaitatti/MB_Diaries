@@ -1,5 +1,5 @@
-import utils
 import os
+import writer
 import const
 import datetime
 from rdflib import Graph, URIRef, namespace, Namespace, Literal
@@ -7,21 +7,21 @@ from rdflib import Graph, URIRef, namespace, Namespace, Literal
 
 def write_day_graph(filename, diary, day):
 
-  utils.create_dir(os.path.dirname(os.path.abspath(filename)))
+  writer.create_dir(os.path.dirname(os.path.abspath(filename)))
   g = create_day_graph(diary, day)
   g.serialize(destination=filename, format='turtle')
 
 
 def write_page_graph(filename, diary, day):
 
-  utils.create_dir(os.path.dirname(os.path.abspath(filename)))
+  writer.create_dir(os.path.dirname(os.path.abspath(filename)))
   g = create_page_graph(diary, day)
   g.serialize(destination=filename, format='turtle')
 
 
 def write_diary_graph(filename, diary):
 
-  utils.create_dir(os.path.dirname(os.path.abspath(filename)))
+  writer.create_dir(os.path.dirname(os.path.abspath(filename)))
   g = create_diary_graph(diary)
   g.serialize(destination=filename, format='turtle')
 
@@ -111,7 +111,7 @@ def create_page_graph(diary_number, page):
   g.add((PAGE_NODE_DOCUMENT, PLATFORM.fileContext, URIRef(
       'http://www.researchspace.org/resource/TextDocuments')))
   g.add((PAGE_NODE_DOCUMENT, PLATFORM.fileName, Literal(
-      f'{page_number}.html', datatype=XSD.string)))
+      f'{diary_number}_{page_number}.html', datatype=XSD.string)))
   g.add((PAGE_NODE_DOCUMENT, PLATFORM.mediaType,
         Literal('form-data', datatype=XSD.string)))
   g.add((PAGE_NODE_DOCUMENT, PROV.wasAttributedTo, Literal(
@@ -189,7 +189,7 @@ def create_diary_graph(diary_number):
 def write_graphs(output_path, graphs):
   for graph in graphs:
     filename = os.path.join(output_path, const.turtle_ext, f'{graph[const.key_index]}.ttl')
-    utils.create_dir(os.path.dirname(os.path.abspath(filename)))
+    writer.create_dir(os.path.dirname(os.path.abspath(filename)))
     graph[const.key_graph].serialize(destination=filename, format='turtle')
 
 

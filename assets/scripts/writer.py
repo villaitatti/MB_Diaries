@@ -1,25 +1,28 @@
 import os
-import utils
 import pandas as pd
 import re
 from const import key_text, key_index, regex_footnote_id, header_footnotes
 
+def create_dir(dir_path):
+  if not os.path.exists(dir_path):
+    os.makedirs(dir_path)
+
 def write_file(filename, body):
 
-  utils.create_dir(os.path.dirname(os.path.abspath(filename)))
+  create_dir(os.path.dirname(os.path.abspath(filename)))
   with open(filename, 'w') as f:
     f.write(body)
     f.close()
 
 
 def write_csv(filename, body, header):
-  utils.create_dir(os.path.dirname(os.path.abspath(filename)))
+  create_dir(os.path.dirname(os.path.abspath(filename)))
   df = pd.DataFrame(body, columns=header)
   df.to_csv(filename, index=False)
 
 
 def write_xlsx(filename, body, header):
-  utils.create_dir(os.path.dirname(os.path.abspath(filename)))
+  create_dir(os.path.dirname(os.path.abspath(filename)))
   df = pd.DataFrame(body, columns=header)
   df.to_excel(filename, index=False)
 
@@ -40,7 +43,7 @@ def write_pages(output_path, pages):
   return pages
   
 
-def write_pages_html(output_path, pages):
+def write_pages_html(output_path, pages, diary):
   for page in pages:
 
     if key_text in page:
@@ -58,4 +61,4 @@ def write_pages_html(output_path, pages):
       html = f'<html>\n\t<body>{body}\n\t</body>\n</html>'
       
       write_file(os.path.join(output_path, 'html',
-                 f'{page[key_index]}.html'), html)
+                 f'{diary}_{page[key_index]}.html'), html)
