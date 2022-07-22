@@ -51,8 +51,9 @@ def write_pages_html(output_path, pages):
 
       for line in lines:
         line = line.strip()
-        line = re.sub(regex_footnote_id, '', line)
-        body += f'\n\t\t<p>{line}<p>'
+        if line:
+          line = re.sub(regex_footnote_id, '', line)
+          body += f'\n\t\t<p>{line}<p>'
 
       html = f'<html>\n\t<body>{body}\n\t</body>\n</html>'
       
