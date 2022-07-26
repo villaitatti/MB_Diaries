@@ -45,7 +45,11 @@ def upload(output_path, diary, config, type='document'):
 
     file_name = ttl_file.replace(f'.{const.turtle_ext}', '')
 
-    graph_name = f'https://mbdiaries.itatti.harvard.edu/{type}/{diary}/page/{file_name}/context'
+    if type == 'annotation':
+      graph_name = f'https://mbdiaries.itatti.harvard.edu/{type}/{file_name}/container/context'
+
+    else:
+      graph_name = f'https://mbdiaries.itatti.harvard.edu/{type}/{diary}/page/{file_name}/context'
 
     print(f'\n{graph_name}')
     graph_name = urllib.parse.quote(graph_name, safe='')

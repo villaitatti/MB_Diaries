@@ -34,18 +34,18 @@ def write_footnotes(output_path, footnotes):
 
 def write_pages(output_path, pages):
 
-  for page in pages:
+  for key, page in pages.items():
 
     if key_text in page:
       write_file(os.path.join(output_path, 'txt',
-                 f'{page[key_index]}.txt'), page[key_text])
+                 f'{key}.txt'), page[key_text])
 
   return pages
   
 
 def write_pages_html(output_path, pages, diary):
-  for page in pages:
 
+  for key, page in pages.items():
     if key_paragraphs in page:
 
       body = ''
@@ -53,9 +53,9 @@ def write_pages_html(output_path, pages, diary):
         line = re.sub(regex_footnote_id, "", line)
 
         if line:
-          body += f'\n\t\t<p>{line}<p>'
+          body += f'\n\t\t<p>{line}</p>'
 
       html = f'<html>\n\t<body>{body}\n\t</body>\n</html>'
       
       write_file(os.path.join(output_path, 'html',
-                 f'{diary}_{page[key_index]}.html'), html)
+                 f'{diary}_{key}.html'), html)

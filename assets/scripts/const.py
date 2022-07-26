@@ -9,6 +9,9 @@ key_footnote = "footnote"
 footnote_fulltext = "fulltext"
 footnote_permalinks = "permalinks"
 footnote_type = "type"
+footnote_index = 'index'
+footnote_start = 'start'
+footnote_end = 'end'
 
 regex_href = r'<a\s+(?:[^>]*?\s+)?href=([\"\'])(.*?)\1'
 regex_footnote = r'footnote[\d]+'
@@ -44,4 +47,10 @@ diary_data = {
     }
 }
 
-header_footnotes = ["Page number", "footnote id", "Last 4 words before footnote", "Footnote text", "Type", "Permalinks"]
+key_footnote_header_page = "Page number"
+key_footnote_header_id = "footnote id"
+key_footnote_header_before = 'Last 4 words before footnote'
+key_footnote_header_permalinks = 'Permalinks'
+key_footnote_header_type = "Type"
+
+header_footnotes = [key_footnote_header_page, key_footnote_header_id, key_footnote_header_before, "Footnote text", key_footnote_header_type, key_footnote_header_permalinks]

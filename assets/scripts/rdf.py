@@ -2,6 +2,7 @@ import os
 import writer
 import const
 import datetime
+from uuid import uuid4
 from rdflib import Graph, URIRef, namespace, Namespace, Literal
 
 
@@ -76,7 +77,7 @@ def create_day_graph(diary_number, day):
   return g
 
 
-def create_page_graph(diary_number, page):
+def create_page_graph(diary_number, page_number):
 
   g = Graph()
 
@@ -91,8 +92,6 @@ def create_page_graph(diary_number, page):
   RDF = namespace.RDF
   RDFS = namespace.RDFS
   XSD = namespace.XSD
-
-  page_number = page[const.key_index]
 
   # Page
   PAGE_NODE = URIRef(
@@ -114,9 +113,9 @@ def create_page_graph(diary_number, page):
       f'{diary_number}_{page_number}.html', datatype=XSD.string)))
   g.add((PAGE_NODE_DOCUMENT, PLATFORM.mediaType,
         Literal('form-data', datatype=XSD.string)))
-  g.add((PAGE_NODE_DOCUMENT, PROV.wasAttributedTo, Literal(
+  g.add((PAGE_NODE_DOCUMENT, PROV.generatedAtTime, Literal(
       datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S'), datatype=XSD.dateTime)))
-  g.add((PAGE_NODE_DOCUMENT, PROV.generatedAtTime, URIRef(
+  g.add((PAGE_NODE_DOCUMENT, PROV.wasAttributedTo, URIRef(
       'http://www.researchspace.org/resource/admin')))
   g.add((PAGE_NODE, CRM.P129i_is_subject_of, PAGE_NODE_DOCUMENT))
 
@@ -185,26 +184,139 @@ def create_diary_graph(diary_number):
 
   return g
 
+def create_annotation_graph(diary_number, annotation, identifier):
+
+  g = Graph()
+
+  # Namespaces
+  PLATFORM = Namespace('http://www.researchspace.org/resource/system/')
+  LDP = Namespace('http://www.w3.org/ns/ldp#')
+  OA = Namespace('http://www.w3.org/ns/oa#')
+  CRM = Namespace('http://www.cidoc-crm.org/cidoc-crm/')
+  OWL = Namespace(
+      'http://www.w3.org/2002/07/owl#')
+  CRMDIG = Namespace('http://www.ics.forth.gr/isl/CRMdig/')
+  PROV = Namespace('http://www.w3.org/ns/prov#')
+  RDF = namespace.RDF
+  RDFS = namespace.RDFS
+  XSD = namespace.XSD
+  
+  DATE_NOW = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
+
+  user_admin_uri = 'http://www.researchspace.org/resource/user/admin'
+  annotation_uri = f'https://mbdiaries.itatti.harvard.edu/annotation/{identifier}'
+  annotation_source_uri = f'https://mbdiaries.itatti.harvard.edu/document/{diary_number}/page/{annotation[const.key_footnote_header_page]}'
+
+  ANNOTATION_NODE = URIRef(annotation_uri)
+  ANNOTATION_CONTAINER_NODE = URIRef(f'{annotation_uri}/container')
+
+  # LDP container
+  g.add( (PLATFORM.formContainer, LDP.contains, ANNOTATION_CONTAINER_NODE) )
+  g.add( (ANNOTATION_CONTAINER_NODE, RDF.type, LDP.Resource) )
+  g.add( (ANNOTATION_CONTAINER_NODE, RDF.type, PROV.Entity) )
+  g.add( (ANNOTATION_CONTAINER_NODE, PROV.wasAttributedTo, URIRef(user_admin_uri)) )
+  g.add( (ANNOTATION_CONTAINER_NODE, PROV.generatedAtTime, Literal(DATE_NOW, datatype=XSD.dateTime)) )
+  
+  # Annotation
+  g.add( (ANNOTATION_NODE, RDF.type, OA.Annotation) ) 
+  g.add( (ANNOTATION_NODE, RDF.type, CRMDIG.D29_Annotation_Object) ) 
+  
+  # Annotation Event
+  annotation_event_uri = f'{annotation_source_uri}/annotation-event-{uuid4()}'
+  ANNOTATION_EVENT_NODE = URIRef(annotation_event_uri)
+  g.add( (ANNOTATION_EVENT_NODE, RDF.type, CRMDIG.D30_Annotation_Event) )
+  g.add( (ANNOTATION_EVENT_NODE, CRM.P14_carried_out_by, URIRef(user_admin_uri)) )
+  g.add( (ANNOTATION_NODE, CRMDIG.L48i_was_annotation_created_by, ANNOTATION_EVENT_NODE) )
+
+  # Annotation Event modification
+  annotation_event_modification_uri = f'{annotation_event_uri}/modifiedAt'
+  ANNOTATION_EVENT_MODIFICATION_NODE = URIRef(annotation_event_modification_uri)
+  g.add( (ANNOTATION_EVENT_MODIFICATION_NODE, CRM.P81b_begin_of_the_end, Literal(DATE_NOW, datatype=XSD.dateTime)) )
+  g.add( (ANNOTATION_EVENT_MODIFICATION_NODE, CRM.P81a_end_of_the_begin, Literal(DATE_NOW, datatype=XSD.dateTime)) )
+  g.add( (ANNOTATION_EVENT_NODE, CRM.P4_has_time_span, ANNOTATION_EVENT_MODIFICATION_NODE) )
+  
+  # Annotation target
+  annotation_target_uri = f'{annotation_source_uri}/range-source-{uuid4()}'
+  ANNOTATION_TARGET_NODE = URIRef(annotation_target_uri)
+  g.add( (ANNOTATION_TARGET_NODE, RDF.type, OA.SpecificResource) )
+  g.add( (ANNOTATION_TARGET_NODE, RDF.value, Literal(annotation[const.footnote_fulltext])) )
+  g.add( (ANNOTATION_TARGET_NODE, OA.hasSource, URIRef(annotation_source_uri)) )
+  g.add( (ANNOTATION_NODE, OA.hasTarget, ANNOTATION_TARGET_NODE) )
+
+  # Annotation range selector
+  annotation_range_selector_uri = f'{annotation_source_uri}/range-{uuid4()}'
+  ANNOTATION_RANGE_SELECTOR_NODE = URIRef(annotation_range_selector_uri)
+  g.add( (ANNOTATION_RANGE_SELECTOR_NODE, RDF.type, OA.RangeSelector) )  
+  g.add( (ANNOTATION_TARGET_NODE, OA.hasSelector, ANNOTATION_RANGE_SELECTOR_NODE) )
+
+  # Start selector
+  annotation_range_selector_start_uri = f'{annotation_source_uri}/xpath-{uuid4()}'
+  ANNOTATION_RANGE_SELECTOR_START_NODE = URIRef(annotation_range_selector_start_uri)
+  g.add( (ANNOTATION_RANGE_SELECTOR_START_NODE, RDF.value, Literal(f'/p[{annotation[const.footnote_index]}]')) )
+  g.add( (ANNOTATION_RANGE_SELECTOR_NODE, OA.hasStartSelector, ANNOTATION_RANGE_SELECTOR_START_NODE) )
+
+  # Start offset
+  annotation_range_selector_start_offset_uri = f'{annotation_source_uri}/offset-{uuid4()}'
+  ANNOTATION_RANGE_SELECTOR_START_OFFSET_NODE = URIRef(annotation_range_selector_start_offset_uri)
+  g.add( (ANNOTATION_RANGE_SELECTOR_START_OFFSET_NODE, RDF.type, OA.TextPositionSelector) )
+  g.add( (ANNOTATION_RANGE_SELECTOR_START_OFFSET_NODE, OA.start, Literal(annotation[const.footnote_start], datatype=XSD.nonNegativeInteger)) )
+  g.add( (ANNOTATION_RANGE_SELECTOR_START_OFFSET_NODE, OA.end, Literal(annotation[const.footnote_start], datatype=XSD.nonNegativeInteger)) )
+  g.add( (ANNOTATION_RANGE_SELECTOR_START_NODE, OA.refinedBy, ANNOTATION_RANGE_SELECTOR_START_OFFSET_NODE) )
+
+  # End selector
+  annotation_range_selector_end_uri = f'{annotation_source_uri}/xpath-{uuid4()}'
+  ANNOTATION_RANGE_SELECTOR_END_NODE = URIRef(annotation_range_selector_end_uri)
+  g.add( (ANNOTATION_RANGE_SELECTOR_END_NODE, RDF.type, OA.XPathSelector) )
+  g.add( (ANNOTATION_RANGE_SELECTOR_END_NODE, RDF.value, Literal(f'/p[{annotation[const.footnote_index]}]')) )
+  g.add( (ANNOTATION_RANGE_SELECTOR_NODE, OA.hasEndSelector, ANNOTATION_RANGE_SELECTOR_END_NODE) )
+
+  # End offset
+  annotation_range_selector_end_offset_uri = f'{annotation_source_uri}/offset-{uuid4()}'
+  ANNOTATION_RANGE_SELECTOR_END_OFFSET_NODE = URIRef(annotation_range_selector_end_offset_uri)
+  g.add( (ANNOTATION_RANGE_SELECTOR_END_OFFSET_NODE, RDF.type, OA.TextPositionSelector) )
+  g.add( (ANNOTATION_RANGE_SELECTOR_END_OFFSET_NODE, OA.start, Literal(annotation[const.footnote_end], datatype=XSD.nonNegativeInteger)) )
+  g.add( (ANNOTATION_RANGE_SELECTOR_END_OFFSET_NODE, OA.end, Literal(annotation[const.footnote_end], datatype=XSD.nonNegativeInteger)) )
+  g.add( (ANNOTATION_RANGE_SELECTOR_END_NODE, OA.refinedBy, ANNOTATION_RANGE_SELECTOR_END_OFFSET_NODE) )
+
+  # Body
+  annotation_body_uri = f'{annotation_uri}/body'
+  ANNOTATION_BODY_NODE = URIRef(annotation_body_uri)
+  g.add( (ANNOTATION_BODY_NODE, RDF.type, URIRef(f'https://mbdiaries.itatti.harvard.edu/ontology/{annotation[const.footnote_type]}')) )
+  g.add( (ANNOTATION_BODY_NODE, RDFS.label, Literal(annotation[const.footnote_fulltext], datatype=XSD.string)))
+  for permalink in annotation[const.footnote_permalinks]:
+    g.add( (ANNOTATION_BODY_NODE, OWL.sameAs, URIRef(permalink)) )
+  g.add( (ANNOTATION_NODE, OA.hasBody, ANNOTATION_BODY_NODE) )
+  
+  g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
+  g.namespace_manager.bind('crm', CRM, override=True, replace=True)
+  g.namespace_manager.bind('crmdig', CRMDIG, override=True, replace=True)
+  g.namespace_manager.bind('ldp', LDP, override=True, replace=True)
+  g.namespace_manager.bind('prov', PROV, override=True, replace=True)
+  g.namespace_manager.bind('oa', OA, override=True, replace=True)
+  g.namespace_manager.bind('owl', OWL, override=True, replace=True)
+
+  return g
 
 def write_graphs(output_path, graphs):
-  for graph in graphs:
-    filename = os.path.join(output_path, const.turtle_ext, f'{graph[const.key_index]}.ttl')
+  for key, graph in graphs.items():
+    filename = os.path.join(output_path, const.turtle_ext, f'{key}.ttl')
     writer.create_dir(os.path.dirname(os.path.abspath(filename)))
-    graph[const.key_graph].serialize(destination=filename, format='turtle')
+    graph.serialize(destination=filename, format='turtle')
 
+
+def footnotes2graphs(diary, footnotes):
+  graphs = {}
+  for key, footnote in footnotes.items():
+    graphs[key] = create_annotation_graph(diary, footnote, key)
+
+  return graphs
 
 def pages2graphs(diary, pages):
-  graphs = []
-  for page in pages:
-    graphs.append({
-        const.key_index: page[const.key_index],
-        const.key_graph: create_page_graph(diary, page)
-    })
+  graphs = {}
+  for key in pages.keys():
+    graphs[key] = create_page_graph(diary, key)
 
   # Create Diary graph
-  graphs.append({
-    const.key_index: diary,
-    const.key_graph: create_diary_graph(diary)
-  }) 
+  graphs[diary] = create_diary_graph(diary)
 
   return graphs
