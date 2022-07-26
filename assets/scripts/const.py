@@ -20,6 +20,7 @@ key_graph = 'graph'
 
 key_body = 'body'
 key_text = 'text'
+key_paragraphs = 'paragraphs'
 
 key_upload_username = 'username'
 key_upload_password = 'password'

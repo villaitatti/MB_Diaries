@@ -85,7 +85,8 @@ def parse_pages(paragraphs, diary):
 
       pages.append({
           const.key_index: page_index,
-          const.key_text: '\n'.join([body.strip() for body in page_body])
+          const.key_text: '\n'.join([body.strip() for body in page_body]),
+          const.key_paragraphs: [p.strip() for p in page_body]
       })
 
       page_body = []
