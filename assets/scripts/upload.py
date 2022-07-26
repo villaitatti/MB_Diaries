@@ -1,9 +1,10 @@
 import os
+
 import const
 import urllib
 import configparser
 
-def _get_credentials(type='localhost'):
+def _get_credentials(type):
   config = configparser.ConfigParser()
   try:
     path = os.path.join(os.path.abspath(os.getcwd()), 'assets', 'scripts', 'psw.ini')
@@ -35,10 +36,10 @@ def _post(filename, url, credentials):
   return f'POST\t{os.system(command)}'
 
 
-def upload(output_path, diary, type='document'):
+def upload(output_path, diary, config, type='document'):
 
   diary_dir = os.path.join(output_path, const.turtle_ext)
-  credentials = _get_credentials()
+  credentials = _get_credentials(config)
 
   for i, ttl_file in enumerate(os.listdir(diary_dir)):
 

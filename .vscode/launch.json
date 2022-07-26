@@ -27,6 +27,14 @@
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
       "args": ["-d", "1933", "-u"],
+    },
+    {
+      "name": "1933 with upload to collection.itatti",
+      "type": "python",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1933", "-u", "-c", "collection"],
     }
   ]
 }
