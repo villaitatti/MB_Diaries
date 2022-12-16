@@ -26,8 +26,8 @@ def convert2vec(path):
   parsed_doc = docx2python(path)
 
   return {
-    const.key_document: parsed_doc.document[1][0][0],
-    const.key_footnote: parsed_doc.footnotes[0][0]
+    const.key_document: parsed_doc.document[0][0][0],
+    #const.key_footnote: parsed_doc.footnotes[0][0]
   }
 
 

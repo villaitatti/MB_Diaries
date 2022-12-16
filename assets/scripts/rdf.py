@@ -129,6 +129,7 @@ def create_page_graph(diary_number, page_number):
 
   
   g.add((PAGE_NODE, RDF.type, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/Page')))
+  g.add((PAGE_NODE, RDFS.label, Literal(page_number, datatype=XSD.string)))
   g.add((PAGE_NODE, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/part_of'), URIRef(f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}')))
   
   

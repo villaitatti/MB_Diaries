@@ -17,7 +17,7 @@ import rdf
 from convert import convert2text, convert2xml, convert2vec
 
 
-nlp = spacy.load('en_core_web_trf')
+nlp = spacy.load('en_core_web_lg')
 
 
 def clean_footnotes(footnotes):
@@ -62,6 +62,16 @@ def clean_footnotes(footnotes):
 
 def parse_pages(paragraphs, diary):
 
+  def clear_data(p):
+    
+    # Remove tabs
+    p = p.replace(r"\t", '')
+
+    # Remove head and trail spaces
+    p = p.strip()
+    
+    return p
+
   page_start_regex = const.diary_data[diary][const.key_page_regex_check]
   page_body = []
   pages = {}
@@ -69,16 +79,23 @@ def parse_pages(paragraphs, diary):
   # Start from the last paragraph to the first
   paragraphs.reverse()
   for p in paragraphs:
-
+    
+    # Clear the paragraph  
+    p = clear_data(p)
+    
     # Always add the paragraph (but remove page notation if is there)
     page_body.append(re.sub(page_start_regex, '', p))
 
     # Save page if there's the page name
-    if re.match(page_start_regex, p):
+    if re.search(page_start_regex, p, flags=re.MULTILINE):
       # Transform page id in page index: from [019] to 19.
       page_index = re.sub(const.regex_brackets, '',
                           re.findall(page_start_regex, p)[0].strip())
 
+      # Set the index as int
+      page_index = int(page_index.strip())
+
+      # Reverse again the body
       page_body.reverse()
 
       pages[page_index] = {
@@ -271,6 +288,7 @@ def exec(diaries, exec_upload, config):
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary)
 
+  """
     try:
       # If footnotes_cleaned.tsv exist parse them
       df_footnotes_cleaned = pd.read_csv(os.path.join(output_path, 'footnotes_cleaned.tsv'), sep='\t', dtype={const.key_footnote_header_page: str})
@@ -288,17 +306,17 @@ def exec(diaries, exec_upload, config):
       footnotes = parse_footnotes(pages, clean_footnotes(vec[const.key_footnote]))
       writer.write_footnotes(output_path, footnotes)
       continue
+  """
 
-    """
-    # TODO: divide folder based on type eg: footnote, pages etc
-    # Create RDF Graphs for the pages
-    graphs = rdf.pages2graphs(diary, pages)
-    rdf.write_graphs(output_path, graphs)
 
-    # Upload RDF graphs
-    if exec_upload:
-      upload.upload(output_path, diary, config)
-    """
+  # TODO: divide folder based on type eg: footnote, pages etc
+  # Create RDF Graphs for the pages
+  graphs = rdf.pages2graphs(diary, pages)
+  rdf.write_graphs(output_path, graphs)
+
+  # Upload RDF graphs
+  if exec_upload:
+    upload.upload(output_path, diary, config)
     
 
 if __name__ == '__main__':
