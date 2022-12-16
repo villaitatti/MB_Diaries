@@ -78,21 +78,37 @@ def parse_pages(paragraphs, diary):
 
   # Start from the last paragraph to the first
   paragraphs.reverse()
+  
+  regex_digit = re.compile(r'\d+')
+  split_text = ''
+  
   for p in paragraphs:
     
     # Clear the paragraph  
     p = clear_data(p)
+    
+    if split_text:
+      page_body.append(split_text)
+      split_text = ''
     
     # Always add the paragraph (but remove page notation if is there)
     page_body.append(re.sub(page_start_regex, '', p))
 
     # Save page if there's the page name
     if re.search(page_start_regex, p, flags=re.MULTILINE):
+
+      split_p = re.split(page_start_regex, p)
+      if len(split_p) > 1 and split_p[0] and split_p[1]:
+        split_text = split_p[0]
+        page_body.append(split_p[1])
+      
+      
       # Transform page id in page index: from [019] to 19.
       page_index = re.sub(const.regex_brackets, '',
                           re.findall(page_start_regex, p)[0].strip())
 
       # Set the index as int
+      page_index = regex_digit.findall(page_index)[0]
       page_index = int(page_index.strip())
 
       # Reverse again the body

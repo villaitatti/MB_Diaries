@@ -48,6 +48,10 @@ diary_data = {
     "1894-95": {
       key_id: 420765526,
       key_page_regex_check: r'\[\s*\d+\s*\]'
+    },
+    "1895": {
+      key_id: 493295736,
+      key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘\.]*\]'
     }
 }
 

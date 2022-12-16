@@ -21,6 +21,14 @@
       "args": ["-d", "1894-95", "-u", "-c", "collection"],
     },
     {
+      "name": "1895",
+      "type": "python",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1895", "-u", "-c", "collection"],
+    },
+    {
       "name": "1933 no upload",
       "type": "python",
       "request": "launch",
