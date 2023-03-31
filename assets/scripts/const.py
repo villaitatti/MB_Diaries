@@ -45,12 +45,20 @@ diary_data = {
         key_id: 493343490,
         key_page_regex_check: r'^[\s]*\[[0-9]+\][\s]*'
     },
+    "1903": {
+        key_id: 493312270,
+        key_page_regex_check: r'\[\s*\d+\s*\]'
+    },
     "1894-95": {
       key_id: 420765526,
       key_page_regex_check: r'\[\s*\d+\s*\]'
     },
     "1895": {
       key_id: 493295736,
+      key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘\.]*\]'
+    },
+    "1897": {
+      key_id: 420766084,
       key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘\.]*\]'
     }
 }

@@ -29,6 +29,30 @@
       "args": ["-d", "1895", "-u", "-c", "collection"],
     },
     {
+      "name": "1897",
+      "type": "python",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1897", "-u", "-c", "collection"],
+    },
+    {
+      "name": "1903",
+      "type": "python",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1903", "-u", "-c", "collection"],
+    },
+    {
+      "name": "1915",
+      "type": "python",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1915", "-u", "-c", "collection"],
+    },
+    {
       "name": "1933 no upload",
       "type": "python",
       "request": "launch",
@@ -36,21 +60,5 @@
       "console": "integratedTerminal",
       "args": ["-d", "1933"],
     },
-    {
-      "name": "1933 with upload",
-      "type": "python",
-      "request": "launch",
-      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
-      "console": "integratedTerminal",
-      "args": ["-d", "1933", "-u"],
-    },
-    {
-      "name": "1933 with upload to collection.itatti",
-      "type": "python",
-      "request": "launch",
-      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
-      "console": "integratedTerminal",
-      "args": ["-d", "1933", "-u", "-c", "collection"],
-    }
   ]
 }
