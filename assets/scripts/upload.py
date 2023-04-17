@@ -52,12 +52,14 @@ def upload(output_path, diary, config):
         t = os.path.basename(os.path.normpath(dir_path))
 
         if t == 'diary':
-          graph_name += '/resource'
-
-        else:
-          graph_name += f'/diary/{diary}' 
+          graph_name += f'/resource/{t}/{file_name.replace(f".{const.turtle_ext}", "")}/context'
         
-        graph_name = f'{graph_name}/{t}/{file_name.replace(f".{const.turtle_ext}", "")}/context'
+        elif t == 'annotation':
+          graph_name += f'/diary/{diary}/{t}/{file_name.replace(f".{const.turtle_ext}", "")}/container/context' 
+        
+        else:
+          graph_name += f'/diary/{diary}/{t}/{file_name.replace(f".{const.turtle_ext}", "")}/context' 
+        
 
         print(f'\n{graph_name}') 
 

@@ -213,6 +213,8 @@ def create_annotation_graph(diary_number, annotation, identifier):
   g.add( (PLATFORM.formContainer, LDP.contains, ANNOTATION_CONTAINER_NODE) )
   g.add( (ANNOTATION_CONTAINER_NODE, RDF.type, LDP.Resource) )
   g.add( (ANNOTATION_CONTAINER_NODE, RDF.type, PROV.Entity) )
+  g.add( (ANNOTATION_CONTAINER_NODE, RDFS.label, Literal(
+    f"LDP Container of annotation in diary {diary_number} number {identifier}", datatype=XSD.string)) )
   g.add( (ANNOTATION_CONTAINER_NODE, PROV.wasAttributedTo, URIRef(user_admin_uri)) )
   g.add( (ANNOTATION_CONTAINER_NODE, PROV.generatedAtTime, Literal(DATE_NOW, datatype=XSD.dateTime)) )
   
