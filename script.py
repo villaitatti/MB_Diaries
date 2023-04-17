@@ -1,19 +1,21 @@
+# Import the local scripts
+import sys
+sys.path.append('./assets/scripts')
 
 from spacy.lang.en import English
 from asyncore import write
-import sys
+from collections import OrderedDict
 import os
 import re
 import spacy
 import pandas as pd
+import numpy as np
 import click
-
-# Import the local scripts
-sys.path.append('./assets/scripts')
-import writer
-import upload
-import const
 import rdf
+import const
+import upload
+import writer
+
 from convert import convert2text, convert2xml, convert2vec
 
 
@@ -60,37 +62,37 @@ def clean_footnotes(footnotes):
   return dict_footnotes
 
 
-def parse_pages(paragraphs, diary):
+def parse_pages(paragraphs, diary, l=-1):
 
   def clear_data(p):
-    
+
     # Remove tabs
     p = p.replace(r"\t", '')
 
     # Remove head and trail spaces
     p = p.strip()
-    
+
     return p
 
   page_start_regex = const.diary_data[diary][const.key_page_regex_check]
   page_body = []
-  pages = {}
+  pages = OrderedDict()
 
   # Start from the last paragraph to the first
   paragraphs.reverse()
-  
+
   regex_digit = re.compile(r'\d+')
   split_text = ''
-  
+
   for p in paragraphs:
-    
-    # Clear the paragraph  
+
+    # Clear the paragraph
     p = clear_data(p)
-    
+
     if split_text:
       page_body.append(split_text)
       split_text = ''
-    
+
     # Always add the paragraph (but remove page notation if is there)
     page_body.append(re.sub(page_start_regex, '', p))
 
@@ -101,8 +103,7 @@ def parse_pages(paragraphs, diary):
       if len(split_p) > 1 and split_p[0] and split_p[1]:
         split_text = split_p[0]
         page_body.append(split_p[1])
-      
-      
+
       # Transform page id in page index: from [019] to 19.
       page_index = re.sub(const.regex_brackets, '',
                           re.findall(page_start_regex, p)[0].strip())
@@ -121,11 +122,92 @@ def parse_pages(paragraphs, diary):
 
       page_body = []
 
+  if l != -1:
+    pages = OrderedDict(reversed(list(pages.items())))
+    while len(pages) > l:
+      pages.popitem()
+
   return pages
 
+def parse_note_1903_serialize_type(type):
+    if type == 'organization / group':
+      return 'organization'
+    elif type == 'visual art' or type == 'visual arts':
+      return 'visual_art'
+    else:
+      return type
+
+def parse_note_1903(row, pages):
+
+  regex_page = re.compile(r'[\d]{3,}')
+  
+  # Parse pages
+  entiy_page = row[const.note_header_page]
+  entity_value = row[const.note_header_entity]
+  entity_number = row[const.note_header_number]
+  entity_type = row[const.note_header_type]
+  note1 = row[const.note_header_descriptor]
+  note2 = row[const.note_header_context]
+  disambiguation1 = row[const.note_header_disambiguation1]
+  disambiguation2 = row[const.note_header_disambiguation2]
+  disambiguation3 = row[const.note_header_disambiguation3]  
+  
+  disambiguations = [disambiguation1, disambiguation2, disambiguation3]
+
+  description = f'Description: {note1}\n' if note1 else note1
+  context =  f'Context: {note2}' if note2 else note2
+
+  if entiy_page:
+    
+    page_number = int(regex_page.findall(entiy_page)[-1])
+
+    if page_number in pages:
+      current_page = pages[page_number]
+
+      for p in current_page[const.key_paragraphs]:
+        if entity_value in p:
+          return (entity_number, {
+            const.key_footnote_header_page: page_number,
+            const.footnote_type: parse_note_1903_serialize_type(entity_type),
+            const.footnote_fulltext: description+context,
+            const.footnote_permalinks: disambiguations,
+            const.footnote_index: current_page[const.key_paragraphs].index(p),
+            const.footnote_start: p.index(entity_value),
+            const.footnote_end: p.index(entity_value) + len(entity_value)
+          })
+  
+  return None
+
+
+def parse_notes(pages, diary_notes, diary, limit=-1):
+
+  df_diary_notes = pd.read_csv(diary_notes)
+  df_diary_notes = df_diary_notes.fillna('')
+
+  parsed_notes = {}
+  
+  for index, row in df_diary_notes.iterrows():
+
+    if index != -1 and index >= limit:
+      break
+
+    if diary == '1903':
+      note_parsed = parse_note_1903(row, pages)
+      
+    try:
+      note_parsed_id = note_parsed[0]
+      note_parsed_body = note_parsed[1]
+      parsed_notes[note_parsed_id] = note_parsed_body
+      
+    except Exception as e:
+      print(e)
+      continue
+            
+  return parsed_notes
 
 def check_cleaned(output_path):
   return os.path.exists(os.path.join(output_path, 'footnotes_cleaned.tsv'))
+
 
 def parse_footnotes(pages, footnotes):
 
@@ -168,9 +250,9 @@ def parse_footnotes(pages, footnotes):
 def parse_footnotes_cleaned(pages, footnotes):
 
   elements = {}
-  
+
   for footnote_id, row in footnotes.iterrows():
-    
+
     try:
       page_number = row[const.key_footnote_header_page]
       page = pages[page_number]
@@ -179,29 +261,31 @@ def parse_footnotes_cleaned(pages, footnotes):
       footnote_id_complete = f'----{footnote_id}----'
 
       # get page and offset
-      index = [idx for idx, s in enumerate(paragraphs) if footnote_id_complete in s][0]
+      index = [idx for idx, s in enumerate(
+          paragraphs) if footnote_id_complete in s][0]
       match = re.search(text.lower(), paragraphs[index].lower())
 
       elements[footnote_id] = {
-        const.key_footnote_header_page: page_number,
-        const.footnote_index: index,
-        const.footnote_start: match.start(),
-        const.footnote_end: match.end(),
-        const.footnote_fulltext: paragraphs[index][match.start():match.end()],
-        const.footnote_type: row[const.key_footnote_header_type],
-        const.footnote_permalinks: row[const.key_footnote_header_permalinks].split(', ')
+          const.key_footnote_header_page: page_number,
+          const.footnote_index: index,
+          const.footnote_start: match.start(),
+          const.footnote_end: match.end(),
+          const.footnote_fulltext: paragraphs[index][match.start():match.end()],
+          const.footnote_type: row[const.key_footnote_header_type],
+          const.footnote_permalinks: row[const.key_footnote_header_permalinks].split(
+              ', ')
       }
 
-      
     except Exception as ex:
       print(f'Error with {footnote_id}: {ex}')
       continue
 
     # Remove footnote to handle subsequent offsets
     finally:
-      re.sub(footnote_id_complete,'',paragraphs[index])
-      
+      re.sub(footnote_id_complete, '', paragraphs[index])
+
   return elements
+
 
 def execute_ner(document, name):
 
@@ -279,6 +363,7 @@ def ner(output_path):
       writer.write_xlsx(os.path.join(
           xlsx_path, f'{name_file}.xlsx'), ner_body_curr)
 
+
 @click.command()
 @click.option('-d', 'diaries', required=True, multiple=True, help="Diaries to iterate. -d 1933 [-d 1933]")
 @click.option('-u', 'exec_upload', is_flag=True, help="Execute the upload", default=False)
@@ -292,6 +377,7 @@ def exec(diaries, exec_upload, config):
     # Update default paths with specific
     input_path = os.path.join(cur_path, 'assets', 'input')
     output_path = os.path.join(cur_path, 'assets', 'output', diary)
+    diary_notes = os.path.join(input_path, const.key_notes_dir, f'{diary}.csv')
 
     # Check if output_path exists
     writer.create_dir(output_path)
@@ -300,42 +386,30 @@ def exec(diaries, exec_upload, config):
     vec = convert2vec(os.path.join(input_path, f'{diary}.docx'))
 
     # Parse and write page
-    pages = parse_pages(vec[const.key_document], diary)
+    pages = parse_pages(vec[const.key_document], diary, 1)
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary)
 
-  """
-    try:
-      # If footnotes_cleaned.tsv exist parse them
-      df_footnotes_cleaned = pd.read_csv(os.path.join(output_path, 'footnotes_cleaned.tsv'), sep='\t', dtype={const.key_footnote_header_page: str})
-      df_footnotes_cleaned = df_footnotes_cleaned.dropna()
-      df_footnotes_cleaned = df_footnotes_cleaned.set_index(const.key_footnote_header_id)
+    # Create RDF Graphs for the diary
+    diary_graphs = rdf.diary2graphs(diary)
+    rdf.write_graphs(output_path, diary_graphs, 'diary')
 
-      footnotes = parse_footnotes_cleaned(pages, df_footnotes_cleaned)
-      graphs = rdf.footnotes2graphs(diary, footnotes)
+    # Create RDF Graphs for the pages
+    pages_graphs = rdf.pages2graphs(diary, pages)
+    rdf.write_graphs(output_path, pages_graphs, 'document')
 
-      rdf.write_graphs(output_path, graphs)
-      if exec_upload:
-        upload.upload(output_path, diary, config, 'annotation')
-      
-    except FileNotFoundError:
-      footnotes = parse_footnotes(pages, clean_footnotes(vec[const.key_footnote]))
-      writer.write_footnotes(output_path, footnotes)
-      continue
-  """
+    # If there is a note file, parse them as well
+    if os.path.exists(diary_notes):
+      notes_parsed = parse_notes(pages, diary_notes, diary, 8)
+      notes = rdf.footnotes2graphs(diary, notes_parsed)
+      rdf.write_graphs(output_path, notes, 'annotation')
 
 
-  # TODO: divide folder based on type eg: footnote, pages etc
-  # Create RDF Graphs for the pages
-  graphs = rdf.pages2graphs(diary, pages)
-  rdf.write_graphs(output_path, graphs)
 
   # Upload RDF graphs
   if exec_upload:
     upload.upload(output_path, diary, config)
-    
+
 
 if __name__ == '__main__':
   exec()
-    
-  

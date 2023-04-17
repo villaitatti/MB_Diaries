@@ -26,8 +26,6 @@ def write_diary_graph(filename, diary):
   g = create_diary_graph(diary)
   g.serialize(destination=filename, format='turtle')
 
-# Create graphs
-
 
 def create_day_graph(diary_number, day):
 
@@ -99,14 +97,14 @@ def create_page_graph(diary_number, page_number):
 
   # Page File
   PAGE_NODE_DOCUMENT = URIRef(
-      f'https://mbdiaries.itatti.harvard.edu/document/{diary_number}/page/{page_number}')
+      f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}/document/{page_number}')
   g.add((PLATFORM.fileContainer, LDP.contains, PAGE_NODE_DOCUMENT))
   g.add((PAGE_NODE_DOCUMENT, RDF.type, PLATFORM.File))
   g.add((PAGE_NODE_DOCUMENT, RDF.type, LDP.Resource))
   g.add((PAGE_NODE_DOCUMENT, RDF.type, URIRef(
       'https://mbdiaries.itatti.harvard.edu/ontology/Document')))
   g.add((PAGE_NODE_DOCUMENT, RDFS.label, Literal(
-      f'LDP Container of document file of {page_number}.html', datatype=XSD.string)))
+      f'LDP Container of document file of {diary_number}_{page_number}.html', datatype=XSD.string)))
   g.add((PAGE_NODE_DOCUMENT, PLATFORM.fileContext, URIRef(
       'http://www.researchspace.org/resource/TextDocuments')))
   g.add((PAGE_NODE_DOCUMENT, PLATFORM.fileName, Literal(
@@ -205,8 +203,8 @@ def create_annotation_graph(diary_number, annotation, identifier):
   DATE_NOW = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
 
   user_admin_uri = 'http://www.researchspace.org/resource/user/admin'
-  annotation_uri = f'https://mbdiaries.itatti.harvard.edu/annotation/{identifier}'
-  annotation_source_uri = f'https://mbdiaries.itatti.harvard.edu/document/{diary_number}/page/{annotation[const.key_footnote_header_page]}'
+  annotation_uri = f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}/annotation/{identifier}'
+  annotation_source_uri = f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}/document/{annotation[const.key_footnote_header_page]}'
 
   ANNOTATION_NODE = URIRef(annotation_uri)
   ANNOTATION_CONTAINER_NODE = URIRef(f'{annotation_uri}/container')
@@ -285,7 +283,8 @@ def create_annotation_graph(diary_number, annotation, identifier):
   g.add( (ANNOTATION_BODY_NODE, RDF.type, URIRef(f'https://mbdiaries.itatti.harvard.edu/ontology/{annotation[const.footnote_type]}')) )
   g.add( (ANNOTATION_BODY_NODE, RDFS.label, Literal(annotation[const.footnote_fulltext], datatype=XSD.string)))
   for permalink in annotation[const.footnote_permalinks]:
-    g.add( (ANNOTATION_BODY_NODE, OWL.sameAs, URIRef(permalink)) )
+    if permalink:
+      g.add( (ANNOTATION_BODY_NODE, OWL.sameAs, URIRef(permalink)) )
   g.add( (ANNOTATION_NODE, OA.hasBody, ANNOTATION_BODY_NODE) )
   
   g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
@@ -298,10 +297,15 @@ def create_annotation_graph(diary_number, annotation, identifier):
 
   return g
 
-def write_graphs(output_path, graphs):
+def write_graphs(output_path, graphs, dir=None):
   for key, graph in graphs.items():
-    filename = os.path.join(output_path, const.turtle_ext, f'{key}.ttl')
+
+    dir_ttl_out = os.path.join(output_path, const.turtle_ext)
+    writer.create_dir(os.path.dirname(dir_ttl_out))
+
+    filename = os.path.join(dir_ttl_out, dir, f'{key}.ttl') if dir else os.path.join(dir_ttl_out, f'{key}.ttl')
     writer.create_dir(os.path.dirname(os.path.abspath(filename)))
+
     graph.serialize(destination=filename, format='turtle')
 
 
@@ -309,15 +313,15 @@ def footnotes2graphs(diary, footnotes):
   graphs = {}
   for key, footnote in footnotes.items():
     graphs[key] = create_annotation_graph(diary, footnote, key)
-
   return graphs
 
 def pages2graphs(diary, pages):
   graphs = {}
   for key in pages.keys():
     graphs[key] = create_page_graph(diary, key)
+  return graphs
 
-  # Create Diary graph
+def diary2graphs(diary):
+  graphs = {}
   graphs[diary] = create_diary_graph(diary)
-
   return graphs

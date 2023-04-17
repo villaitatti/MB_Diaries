@@ -36,28 +36,37 @@ def _post(filename, url, credentials):
   return f'POST\t{os.system(command)}'
 
 
-def upload(output_path, diary, config, type='document'):
+def upload(output_path, diary, config):
 
   diary_dir = os.path.join(output_path, const.turtle_ext)
   credentials = _get_credentials(config)
 
-  for i, ttl_file in enumerate(os.listdir(diary_dir)):
+  for (dir_path, dir_names, file_names) in os.walk(diary_dir, topdown=True):
+    
+    if len(file_names) > 0:
+      
+      # Iterate files
+      for file_name in file_names:
+        
+        graph_name = 'https://mbdiaries.itatti.harvard.edu'
+        t = os.path.basename(os.path.normpath(dir_path))
 
-    file_name = ttl_file.replace(f'.{const.turtle_ext}', '')
+        if t == 'diary':
+          graph_name += '/resource'
 
-    if type == 'annotation':
-      graph_name = f'https://mbdiaries.itatti.harvard.edu/{type}/{file_name}/container/context'
+        else:
+          graph_name += f'/diary/{diary}' 
+        
+        graph_name = f'{graph_name}/{t}/{file_name.replace(f".{const.turtle_ext}", "")}/context'
 
-    else:
-      graph_name = f'https://mbdiaries.itatti.harvard.edu/{type}/{diary}/page/{file_name}/context'
+        print(f'\n{graph_name}') 
 
-    print(f'\n{graph_name}')
-    graph_name = urllib.parse.quote(graph_name, safe='')
+        r_url = f'{credentials[const.key_upload_endpoint]}rdf-graph-store/?graph={graph_name}'
+        
+        # DELETE
+        print(_del(r_url, credentials))
 
-    r_url = f'{credentials[const.key_upload_endpoint]}rdf-graph-store/?graph={graph_name}'
-
-    # DEL
-    print(_del(r_url, credentials))
-
-    # PUT
-    print(_post(os.path.join(diary_dir, ttl_file), r_url, credentials))
+        # PUT
+        print(_post(os.path.join(dir_path, file_name), r_url, credentials))
+      
+    print(file_names)

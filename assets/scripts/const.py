@@ -5,6 +5,7 @@ key_offset = "offset"
 
 key_document = "document"
 key_footnote = "footnote"
+key_notes_dir = "notes"
 
 footnote_fulltext = "fulltext"
 footnote_permalinks = "permalinks"
@@ -70,3 +71,13 @@ key_footnote_header_permalinks = 'Permalinks'
 key_footnote_header_type = "Type"
 
 header_footnotes = [key_footnote_header_page, key_footnote_header_id, key_footnote_header_before, "Footnote text", key_footnote_header_type, key_footnote_header_permalinks]
+
+note_header_page = 'Diary Page'
+note_header_entity = 'Entity (Value)'
+note_header_number = 'Entity No.'
+note_header_type = 'Entity Type'
+note_header_descriptor = "Note 1 Descriptor"
+note_header_context = "Note 2 Context"
+note_header_disambiguation1 = "DIsambiguation URL 1"
+note_header_disambiguation2 = "DIsambiguation URL 2"
+note_header_disambiguation3 = "DIsambiguation URL 3"
