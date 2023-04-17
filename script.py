@@ -120,6 +120,7 @@ def parse_pages(paragraphs, diary, l=-1):
           const.key_paragraphs: [p.strip() for p in page_body]
       }
 
+      pages[page_index][const.key_paragraphs] = list(filter(None, pages[page_index][const.key_paragraphs]))
       page_body = []
 
   if l != -1:
@@ -146,6 +147,7 @@ def parse_note_1903(row, pages):
   entity_value = row[const.note_header_entity]
   entity_number = row[const.note_header_number]
   entity_type = row[const.note_header_type]
+  authority = row[const.note_header_authority]
   note1 = row[const.note_header_descriptor]
   note2 = row[const.note_header_context]
   disambiguation1 = row[const.note_header_disambiguation1]
@@ -154,8 +156,7 @@ def parse_note_1903(row, pages):
   
   disambiguations = [disambiguation1, disambiguation2, disambiguation3]
 
-  description = f'Description: {note1}\n' if note1 else note1
-  context =  f'Context: {note2}' if note2 else note2
+  text = entity_value if entity_value else note1
 
   if entiy_page:
     
@@ -169,9 +170,9 @@ def parse_note_1903(row, pages):
           return (entity_number, {
             const.key_footnote_header_page: page_number,
             const.footnote_type: parse_note_1903_serialize_type(entity_type),
-            const.footnote_fulltext: description+context,
+            const.footnote_fulltext: text,
             const.footnote_permalinks: disambiguations,
-            const.footnote_index: current_page[const.key_paragraphs].index(p),
+            const.footnote_index: current_page[const.key_paragraphs].index(p)+1,
             const.footnote_start: p.index(entity_value),
             const.footnote_end: p.index(entity_value) + len(entity_value)
           })
@@ -386,7 +387,7 @@ def exec(diaries, exec_upload, config):
     vec = convert2vec(os.path.join(input_path, f'{diary}.docx'))
 
     # Parse and write page
-    pages = parse_pages(vec[const.key_document], diary, 1)
+    pages = parse_pages(vec[const.key_document], diary, 10)
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary)
 
@@ -400,7 +401,7 @@ def exec(diaries, exec_upload, config):
 
     # If there is a note file, parse them as well
     if os.path.exists(diary_notes):
-      notes_parsed = parse_notes(pages, diary_notes, diary, 8)
+      notes_parsed = parse_notes(pages, diary_notes, diary, 50)
       notes = rdf.footnotes2graphs(diary, notes_parsed)
       rdf.write_graphs(output_path, notes, 'annotation')
 

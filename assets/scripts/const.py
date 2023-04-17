@@ -74,6 +74,7 @@ header_footnotes = [key_footnote_header_page, key_footnote_header_id, key_footno
 
 note_header_page = 'Diary Page'
 note_header_entity = 'Entity (Value)'
+note_header_authority = 'Authority Name'
 note_header_number = 'Entity No.'
 note_header_type = 'Entity Type'
 note_header_descriptor = "Note 1 Descriptor"

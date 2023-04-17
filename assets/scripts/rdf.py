@@ -221,7 +221,6 @@ def create_annotation_graph(diary_number, annotation, identifier):
   # Annotation
   g.add( (ANNOTATION_NODE, RDF.type, OA.Annotation) ) 
   g.add( (ANNOTATION_NODE, RDF.type, CRMDIG.D29_Annotation_Object) ) 
-  
   # Annotation Event
   annotation_event_uri = f'{annotation_source_uri}/annotation-event-{uuid4()}'
   ANNOTATION_EVENT_NODE = URIRef(annotation_event_uri)
