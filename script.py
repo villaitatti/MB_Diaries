@@ -18,6 +18,7 @@ import writer
 
 from convert import convert2text, convert2xml, convert2vec
 
+nlp_allowed_types = ['PERSON', "ORG", "FAC", "GPE", "LOC", "NORP", "DATE"]
 
 nlp = spacy.load('en_core_web_lg')
 
@@ -287,16 +288,46 @@ def parse_footnotes_cleaned(pages, footnotes):
 
   return elements
 
+def is_type_allowed(t):
+  return t in nlp_allowed_types
 
-def execute_ner(document, name):
+def normalize_Type(t):
+  new_t = ""
+  
+  if t == "PERSON":
+    new_t = "person"
+  if t == "ORG" or t == "NORP":
+    new_t = "organization"
+  if t == "FAC" or t == "GPE" or t == "LOC":
+    new_t = "location"
+  if t == "DATE":
+    new_t = "date"
 
-  data = []
-  pages = document.split('\n')
-  for idx, page in enumerate(pages):
-    doc = nlp(page)
-    for ent in doc.ents:
-      data.append([name, ent.text, idx+1, ent.start_char, ent.end_char,
-                  ent.label_, spacy.explain(ent.label_)])
+  return new_t
+
+def execute_ner(pages, name):
+
+  data = {}
+  i = 1
+  for page_number, page in pages.items():
+    ps = page["paragraphs"]
+    for p in ps:
+      
+      doc = nlp(p)
+      for ent in doc.ents:
+
+        if is_type_allowed(ent.label_):
+          data[i] = {
+            const.key_footnote_header_page: page_number,
+            const.footnote_fulltext : ent.text,
+            const.footnote_index: ps.index(p)+1,
+            const.footnote_start: ent.start_char,
+            const.footnote_end: ent.end_char,
+            const.footnote_type: normalize_Type(ent.label_),
+            const.footnote_permalinks: []
+          }
+
+          i+=1
 
   return data
 
@@ -387,7 +418,7 @@ def exec(diaries, exec_upload, config):
     vec = convert2vec(os.path.join(input_path, f'{diary}.docx'))
 
     # Parse and write page
-    pages = parse_pages(vec[const.key_document], diary, 10)
+    pages = parse_pages(vec[const.key_document], diary)
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary)
 
@@ -401,11 +432,14 @@ def exec(diaries, exec_upload, config):
 
     # If there is a note file, parse them as well
     if os.path.exists(diary_notes):
-      notes_parsed = parse_notes(pages, diary_notes, diary, 50)
-      notes = rdf.footnotes2graphs(diary, notes_parsed)
-      rdf.write_graphs(output_path, notes, 'annotation')
+      notes_parsed = parse_notes(pages, diary_notes, diary)
 
+    # Run NER to create annotations
+    else:
+      notes_parsed = execute_ner(pages, diary)
 
+    notes = rdf.footnotes2graphs(diary, notes_parsed)
+    rdf.write_graphs(output_path, notes, 'annotation')
 
   # Upload RDF graphs
   if exec_upload:

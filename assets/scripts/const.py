@@ -34,6 +34,10 @@ IIIF_server = 'https://ids.lib.harvard.edu/ids/iiif/'
 IIIF_trailer = '/full/full/0/default.jpg'
 
 diary_data = {
+    "1891": {
+        key_id: 420756310,
+        key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘]{3,}\]'
+    },
     "1915": {
         key_id: 491567726,
         key_page_regex_check: r'\[[0-9]+\][\s]*'
@@ -51,16 +55,16 @@ diary_data = {
         key_page_regex_check: r'\[\s*\d+\s*\]'
     },
     "1894-95": {
-      key_id: 420765526,
-      key_page_regex_check: r'\[\s*\d+\s*\]'
+        key_id: 420765526,
+        key_page_regex_check: r'\[\s*\d+\s*\]'
     },
     "1895": {
-      key_id: 493295736,
-      key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘\.]*\]'
+        key_id: 493295736,
+        key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘\.]*\]'
     },
     "1897": {
-      key_id: 420766084,
-      key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘\.]*\]'
+        key_id: 420766084,
+        key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘\.]*\]'
     }
 }
 
@@ -70,7 +74,8 @@ key_footnote_header_before = 'Last 4 words before footnote'
 key_footnote_header_permalinks = 'Permalinks'
 key_footnote_header_type = "Type"
 
-header_footnotes = [key_footnote_header_page, key_footnote_header_id, key_footnote_header_before, "Footnote text", key_footnote_header_type, key_footnote_header_permalinks]
+header_footnotes = [key_footnote_header_page, key_footnote_header_id, key_footnote_header_before,
+                    "Footnote text", key_footnote_header_type, key_footnote_header_permalinks]
 
 note_header_page = 'Diary Page'
 note_header_entity = 'Entity (Value)'

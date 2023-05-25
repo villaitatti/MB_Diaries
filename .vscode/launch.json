@@ -13,6 +13,14 @@
       "args": ["--help"],
     },
     {
+      "name": "1891",
+      "type": "python",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1891", "-u", "-c", "collection"],
+    },
+    {
       "name": "1894-95",
       "type": "python",
       "request": "launch",
