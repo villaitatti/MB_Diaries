@@ -18,7 +18,7 @@ import writer
 
 from convert import convert2text, convert2xml, convert2vec
 
-nlp_allowed_types = ['PERSON', "ORG", "FAC", "GPE", "LOC", "NORP", "DATE"]
+nlp_allowed_types = ['PERSON', "ORG", "LOC"]
 
 nlp = spacy.load('en_core_web_lg')
 
@@ -180,12 +180,52 @@ def parse_note_1903(row, pages):
   
   return None
 
+  
+def parse_note_1891(index, row, pages):
+  
+  entity_page = int(row[const.diaries['1891'][const.key_footnote_header_page]])
+  entity_paragraph = int(row[const.diaries['1891'][const.key_footnote_header_paragraph]])
+  entity_start = int(row[const.diaries['1891'][const.key_footnote_header_start]])
+  entity_end = int(row[const.diaries['1891'][const.key_footnote_header_end]])
+  
+  entity_value = row[const.diaries['1891'][const.key_footnote_header_value]]
+  entity_type = row[const.diaries['1891'][const.key_footnote_header_type]]
+  entity_wikidata = row[const.diaries['1891'][const.key_footnote_header_permalinks]]
+  entity_annotator = row[const.diaries['1891'][const.key_footnote_header_annotator]]
+
+  permalinks = [f'https://www.wikidata.org/wiki/{entity_wikidata}'] if entity_wikidata else []
+
+    
+  if entity_page in pages:
+    current_page = pages[entity_page]
+    
+    for p in current_page[const.key_paragraphs]:
+      if entity_value in p:
+        return (index, {
+          const.key_footnote_header_page: entity_page,
+          const.footnote_type: entity_type,
+          const.footnote_fulltext: entity_value,
+          const.footnote_annotator: entity_annotator.lower(),
+          const.footnote_permalinks: permalinks,
+          const.footnote_index: current_page[const.key_paragraphs].index(p)+1,
+          const.footnote_start: p.index(entity_value),
+          const.footnote_end: p.index(entity_value) + len(entity_value)
+        })
+
+  return None
+
 
 def parse_notes(pages, diary_notes, diary, limit=-1):
 
-  df_diary_notes = pd.read_csv(diary_notes)
-  df_diary_notes = df_diary_notes.fillna('')
 
+  df_diary_notes = pd.read_csv(diary_notes)
+  
+  df_diary_notes.sort_values(by=const.diaries[diary][const.key_footnote_header_page],ascending=True, inplace=True)
+  df_diary_notes.reset_index(drop=True, inplace=True)
+  df_diary_notes.fillna('', inplace=True)
+
+  print(df_diary_notes.head())
+  
   parsed_notes = {}
   
   for index, row in df_diary_notes.iterrows():
@@ -195,6 +235,9 @@ def parse_notes(pages, diary_notes, diary, limit=-1):
 
     if diary == '1903':
       note_parsed = parse_note_1903(row, pages)
+
+    if diary == '1891':
+      note_parsed = parse_note_1891(index, row, pages)
       
     try:
       note_parsed_id = note_parsed[0]
@@ -331,7 +374,6 @@ def execute_ner(pages, name):
 
   return data
 
-
 def parse_days(df):
   # get days
   days = df['text'].str.contains(',[0-9]{4}$', na=False)
@@ -430,9 +472,17 @@ def exec(diaries, exec_upload, config):
     pages_graphs = rdf.pages2graphs(diary, pages)
     rdf.write_graphs(output_path, pages_graphs, 'document')
 
+    """
+    notes_parsed = execute_ner(pages, diary)
+    print(notes_parsed)
+
+    df = pd.DataFrame.from_dict(notes_parsed, orient='index')
+    df.to_csv(os.path.join(output_path, 'ner.csv'), index=False)
+    """
+    
     # If there is a note file, parse them as well
     if os.path.exists(diary_notes):
-      notes_parsed = parse_notes(pages, diary_notes, diary)
+      notes_parsed = parse_notes(pages, diary_notes, diary, limit=20)
 
     # Run NER to create annotations
     else:

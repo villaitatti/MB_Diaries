@@ -7,6 +7,7 @@ key_document = "document"
 key_footnote = "footnote"
 key_notes_dir = "notes"
 
+footnote_annotator = "annotator"
 footnote_fulltext = "fulltext"
 footnote_permalinks = "permalinks"
 footnote_type = "type"
@@ -73,6 +74,11 @@ key_footnote_header_id = "footnote id"
 key_footnote_header_before = 'Last 4 words before footnote'
 key_footnote_header_permalinks = 'Permalinks'
 key_footnote_header_type = "Type"
+key_footnote_header_value = "Value"
+key_footnote_header_paragraph = "Paragraph"
+key_footnote_header_start = "Start"
+key_footnote_header_end = "End"
+key_footnote_header_annotator = "Annotator"
 
 header_footnotes = [key_footnote_header_page, key_footnote_header_id, key_footnote_header_before,
                     "Footnote text", key_footnote_header_type, key_footnote_header_permalinks]
@@ -87,3 +93,18 @@ note_header_context = "Note 2 Context"
 note_header_disambiguation1 = "DIsambiguation URL 1"
 note_header_disambiguation2 = "DIsambiguation URL 2"
 note_header_disambiguation3 = "DIsambiguation URL 3"
+
+
+
+diaries = {
+  "1891": {
+    key_footnote_header_page: 'Page #',
+    key_footnote_header_type: 'Type',
+    key_footnote_header_value: 'Entry',
+    key_footnote_header_paragraph: 'Paragraph #',
+    key_footnote_header_start: 'Start',
+    key_footnote_header_end: 'End',
+    key_footnote_header_annotator: 'Annotator',
+    key_footnote_header_permalinks: 'Wikidata ID'
+  }
+}

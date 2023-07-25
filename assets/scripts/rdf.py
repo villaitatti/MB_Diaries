@@ -202,7 +202,7 @@ def create_annotation_graph(diary_number, annotation, identifier):
   
   DATE_NOW = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
 
-  user_admin_uri = 'http://www.researchspace.org/resource/user/admin'
+  annotator_uri = f'http://www.researchspace.org/resource/user/{annotation[const.footnote_annotator]}' if annotation[const.footnote_annotator] is not None else 'http://www.researchspace.org/resource/user/admin'
   annotation_uri = f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}/annotation/{identifier}'
   annotation_source_uri = f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}/document/{annotation[const.key_footnote_header_page]}'
 
@@ -215,7 +215,7 @@ def create_annotation_graph(diary_number, annotation, identifier):
   g.add( (ANNOTATION_CONTAINER_NODE, RDF.type, PROV.Entity) )
   g.add( (ANNOTATION_CONTAINER_NODE, RDFS.label, Literal(
     f"LDP Container of annotation in diary {diary_number} number {identifier}", datatype=XSD.string)) )
-  g.add( (ANNOTATION_CONTAINER_NODE, PROV.wasAttributedTo, URIRef(user_admin_uri)) )
+  g.add( (ANNOTATION_CONTAINER_NODE, PROV.wasAttributedTo, URIRef(annotator_uri)) )
   g.add( (ANNOTATION_CONTAINER_NODE, PROV.generatedAtTime, Literal(DATE_NOW, datatype=XSD.dateTime)) )
   
   # Annotation
@@ -225,7 +225,7 @@ def create_annotation_graph(diary_number, annotation, identifier):
   annotation_event_uri = f'{annotation_source_uri}/annotation-event-{uuid4()}'
   ANNOTATION_EVENT_NODE = URIRef(annotation_event_uri)
   g.add( (ANNOTATION_EVENT_NODE, RDF.type, CRMDIG.D30_Annotation_Event) )
-  g.add( (ANNOTATION_EVENT_NODE, CRM.P14_carried_out_by, URIRef(user_admin_uri)) )
+  g.add( (ANNOTATION_EVENT_NODE, CRM.P14_carried_out_by, URIRef(annotator_uri)) )
   g.add( (ANNOTATION_NODE, CRMDIG.L48i_was_annotation_created_by, ANNOTATION_EVENT_NODE) )
 
   # Annotation Event modification
