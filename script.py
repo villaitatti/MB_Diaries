@@ -464,6 +464,26 @@ def exec(diaries, exec_upload, config):
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary)
 
+    # Add Locations found in pages only for 1891
+    if diary == '1891':
+      input_locations = os.path.join(input_path, 'notes', '1891_Locations.csv')
+
+      # Store WKT value
+      for i, row in pd.read_csv(input_locations).iterrows():
+        page = row[const.diaries[diary][const.key_footnote_header_page]]
+        wkt = row[const.diaries[diary][const.key_footnote_header_wkt]]
+        
+        # If there is no wkt, break
+        if wkt is None:
+          break
+
+        # If first time trying to add new wkt value, create empty array
+        if const.key_footnote_header_wkt not in pages[page]:
+          pages[page][const.key_footnote_header_wkt] = []
+          
+        # Append wkt value
+        pages[page][const.key_footnote_header_wkt].append(wkt)
+  
     # Create RDF Graphs for the diary
     diary_graphs = rdf.diary2graphs(diary)
     rdf.write_graphs(output_path, diary_graphs, 'diary')
