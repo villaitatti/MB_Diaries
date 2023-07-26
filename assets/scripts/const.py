@@ -79,6 +79,9 @@ key_footnote_header_paragraph = "Paragraph"
 key_footnote_header_start = "Start"
 key_footnote_header_end = "End"
 key_footnote_header_annotator = "Annotator"
+key_footnote_header_location_wkt = 'location_wkt'
+key_footnote_header_location_name = 'location_name'
+key_footnote_header_location_link = 'location_link'
 
 header_footnotes = [key_footnote_header_page, key_footnote_header_id, key_footnote_header_before,
                     "Footnote text", key_footnote_header_type, key_footnote_header_permalinks]
@@ -105,6 +108,9 @@ diaries = {
     key_footnote_header_start: 'Start',
     key_footnote_header_end: 'End',
     key_footnote_header_annotator: 'Annotator',
-    key_footnote_header_permalinks: 'Wikidata ID'
+    key_footnote_header_permalinks: 'Wikidata ID',
+    key_footnote_header_location_wkt: 'WKT',
+    key_footnote_header_location_name: 'Entry',
+    key_footnote_header_location_link: 'Wikidata ID'
   }
 }

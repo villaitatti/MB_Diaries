@@ -471,18 +471,19 @@ def exec(diaries, exec_upload, config):
       # Store WKT value
       for i, row in pd.read_csv(input_locations).iterrows():
         page = row[const.diaries[diary][const.key_footnote_header_page]]
-        wkt = row[const.diaries[diary][const.key_footnote_header_wkt]]
+
+        location_wkt = row[const.diaries[diary][const.key_footnote_header_location_wkt]]
+        location_name = row[const.diaries[diary][const.key_footnote_header_location_name]]
+        location_link = f'https://www.wikidata.org/wiki/{row[const.diaries[diary][const.key_footnote_header_location_link]]}'
         
         # If there is no wkt, break
-        if wkt is None:
+        if location_wkt is None:
           break
-
-        # If first time trying to add new wkt value, create empty array
-        if const.key_footnote_header_wkt not in pages[page]:
-          pages[page][const.key_footnote_header_wkt] = []
           
         # Append wkt value
-        pages[page][const.key_footnote_header_wkt].append(wkt)
+        pages[page][const.key_footnote_header_location_wkt] = location_wkt
+        pages[page][const.key_footnote_header_location_name] = location_name 
+        pages[page][const.key_footnote_header_location_link] = location_link
   
     # Create RDF Graphs for the diary
     diary_graphs = rdf.diary2graphs(diary)

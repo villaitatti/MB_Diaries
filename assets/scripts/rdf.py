@@ -75,7 +75,7 @@ def create_day_graph(diary_number, day):
   return g
 
 
-def create_page_graph(diary_number, page_number):
+def create_page_graph(diary_number, page_number, page):
 
   g = Graph()
 
@@ -125,9 +125,16 @@ def create_page_graph(diary_number, page_number):
       'http://www.researchspace.org/ontology/EX_Digital_Image')))
   g.add((PAGE_NODE, CRM.P183i_has_representation, IMAGE_NODE))
 
-  
+  if const.key_footnote_header_location_wkt in page:
+    g.add((PAGE_NODE, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/hasLocationWkt'), Literal(page[const.key_footnote_header_location_wkt]) ))
+  if const.key_footnote_header_location_name in page:
+    g.add((PAGE_NODE, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/hasLocationName'), Literal(page[const.key_footnote_header_location_name]) ))
+  if const.key_footnote_header_location_link in page:
+    g.add((PAGE_NODE, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/hasLocationLink'), Literal(page[const.key_footnote_header_location_link]) ))
+
   g.add((PAGE_NODE, RDF.type, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/Page')))
   g.add((PAGE_NODE, RDFS.label, Literal(page_number, datatype=XSD.string)))
+  #
   g.add((PAGE_NODE, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/part_of'), URIRef(f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}')))
   
   
@@ -318,8 +325,8 @@ def footnotes2graphs(diary, footnotes):
 
 def pages2graphs(diary, pages):
   graphs = {}
-  for key in pages.keys():
-    graphs[key] = create_page_graph(diary, key)
+  for key, page in pages.items():
+    graphs[key] = create_page_graph(diary, key, page)
   return graphs
 
 def diary2graphs(diary):
