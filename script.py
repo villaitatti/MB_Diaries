@@ -126,7 +126,7 @@ def parse_pages(paragraphs, diary, l=-1):
 
   # Start from the last paragraph to the first
   paragraphs.reverse()
-
+  
   for p in paragraphs:
 
     # Clear the paragraph using specific rules
@@ -155,6 +155,7 @@ def parse_pages(paragraphs, diary, l=-1):
         # Reverse again the body
         page_body.reverse()
 
+        # Page complete
         pages[page_index] = {
           const.key_text: ''.join([p[const.key_text] for p in page_body]),
           const.key_paragraphs: [p for p in page_body]
@@ -174,6 +175,11 @@ def parse_pages(paragraphs, diary, l=-1):
         page_body.append(_create_container(p))
 
   pages = OrderedDict(reversed(list(pages.items())))
+  
+  # If limit is set, return only the first l pages
+  if l != -1:
+    pages = {k: pages[k] for k in list(pages)[:l]}
+  
   return pages
 
 def parse_note_1903_serialize_type(type):
