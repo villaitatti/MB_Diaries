@@ -3,6 +3,9 @@ key_index = "index"
 key_page_regex_check = "page_regex"
 key_offset = "offset"
 
+key_paragraph = "p"
+key_header = "h3"
+
 key_document = "document"
 key_footnote = "footnote"
 key_notes_dir = "notes"
@@ -19,13 +22,15 @@ regex_href = r'<a\s+(?:[^>]*?\s+)?href=([\"\'])(.*?)\1'
 regex_footnote = r'footnote[\d]+'
 regex_footnote_id = r'-{4}[\w\d]*-{4}'
 regex_brackets = r'[\[\]]'
+regex_date = r'(\b\d{1,2}\D{0,3})?\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|(Nov|Dec)(?:ember)?)\D?(\d{1,2}\D?)?\D?((18[7-9]\d|20\d{2})|\d{2})'
 
 turtle_ext = 'ttl'
 key_graph = 'graph'
 
 key_body = 'body'
 key_text = 'text'
-key_paragraphs = 'paragraphs'
+key_type = 'type'
+key_paragraphs = 'content'
 
 key_upload_username = 'username'
 key_upload_password = 'password'
@@ -36,7 +41,7 @@ IIIF_trailer = '/full/full/0/default.jpg'
 
 diary_data = {
     "1891": {
-        key_id: 420756310,
+        key_id: 420756309,
         key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘]{3,}\]'
     },
     "1915": {

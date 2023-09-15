@@ -1,5 +1,6 @@
 # Import the local scripts
 import sys
+import dateutil
 sys.path.append('./assets/scripts')
 
 from spacy.lang.en import English
@@ -15,6 +16,7 @@ import rdf
 import const
 import upload
 import writer
+import timelib
 
 from convert import convert2text, convert2xml, convert2vec
 
@@ -22,6 +24,7 @@ nlp_allowed_types = ['PERSON', "ORG", "LOC"]
 
 nlp = spacy.load('en_core_web_lg')
 
+regex_date = re.compile(const.regex_date)
 
 def clean_footnotes(footnotes):
   dict_footnotes = {}
@@ -63,72 +66,114 @@ def clean_footnotes(footnotes):
   return dict_footnotes
 
 
+"""_summary_
+
+Parse the pages of the diary and return a dictionary with the following structure:
+{page_number: {text: <text>, content: [{text: <text>, type: <type>}, ... ]}
+
+"""
 def parse_pages(paragraphs, diary, l=-1):
 
-  def clear_data(p):
+  def _is_day(str, fuzzy=False):
+    try:
+      dateutil.parser.parse(str, fuzzy=fuzzy)
+      return True
+    except ValueError:
+      return False
+
+  def _create_container(text):
+    
+    if _is_day(text, True) and regex_date.search(text):
+      print(text)
+      t = const.key_header
+    else:
+      t = const.key_paragraph
+    
+    """
+    # By default the type is <p>
+    parsed_text = nlp(p)
+    t = const.key_paragraph
+    for ent in parsed_text.ents:
+      
+      # But if the type is date, change it to <h3>
+      if ent.label_ == 'DATE' and _is_day(ent.text):
+        t = const.key_header
+      
+      # TODO: add other types if needed
+    """ 
+
+    return {
+      const.key_text: text,
+      const.key_type: t
+    }
+
+  def _clean_text(text):
 
     # Remove tabs
-    p = p.replace(r"\t", '')
+    text = text.replace('\t', '')
 
-    # Remove head and trail spaces
-    p = p.strip()
+    # Remove < and > characters
+    text = text.replace('<', '').replace('>', '')
+    
+    return text.strip()
 
-    return p
+  page_start_regex = r'\[\s*\d+\s*[\s\w\,\’\‘]{3,}\]'
+  regex_digit = re.compile(r'\d+')
+  residual_text = ''
 
-  page_start_regex = const.diary_data[diary][const.key_page_regex_check]
-  page_body = []
   pages = OrderedDict()
+  page_body = []
 
   # Start from the last paragraph to the first
   paragraphs.reverse()
 
-  regex_digit = re.compile(r'\d+')
-  split_text = ''
-
   for p in paragraphs:
 
-    # Clear the paragraph
-    p = clear_data(p)
+    # Clear the paragraph using specific rules
+    p = _clean_text(p)
 
-    if split_text:
-      page_body.append(split_text)
-      split_text = ''
+    # Do only non empty strings
+    if p:
 
-    # Always add the paragraph (but remove page notation if is there)
-    page_body.append(re.sub(page_start_regex, '', p))
+      # Check if the paragraph contains the page notation
+      if re.search(page_start_regex, p, flags=re.MULTILINE):
 
-    # Save page if there's the page name
-    if re.search(page_start_regex, p, flags=re.MULTILINE):
+        # Check if the page notation is enclosed in text
+        split_p = re.split(page_start_regex, p)
+        if len(split_p) > 1 and split_p[0] and split_p[1]:
+          residual_text = split_p[0]
+          page_body.append(_create_container(split_p[1]))
 
-      split_p = re.split(page_start_regex, p)
-      if len(split_p) > 1 and split_p[0] and split_p[1]:
-        split_text = split_p[0]
-        page_body.append(split_p[1])
+        # Transform page id in page index: from [019] to 19.
+        page_index = re.sub(const.regex_brackets, '',
+                            re.findall(page_start_regex, p)[0].strip())
 
-      # Transform page id in page index: from [019] to 19.
-      page_index = re.sub(const.regex_brackets, '',
-                          re.findall(page_start_regex, p)[0].strip())
+        # Set the index as int
+        page_index = regex_digit.findall(page_index)[0]
+        page_index = int(page_index.strip())
 
-      # Set the index as int
-      page_index = regex_digit.findall(page_index)[0]
-      page_index = int(page_index.strip())
+        # Reverse again the body
+        page_body.reverse()
 
-      # Reverse again the body
-      page_body.reverse()
+        pages[page_index] = {
+          const.key_text: ''.join([p[const.key_text] for p in page_body]),
+          const.key_paragraphs: [p for p in page_body]
+        }
 
-      pages[page_index] = {
-          const.key_text: '\n'.join([body.strip() for body in page_body]),
-          const.key_paragraphs: [p.strip() for p in page_body]
-      }
+        pages[page_index][const.key_paragraphs] = list(filter(None, pages[page_index][const.key_paragraphs]))
+        page_body = []
 
-      pages[page_index][const.key_paragraphs] = list(filter(None, pages[page_index][const.key_paragraphs]))
-      page_body = []
+        # If, after splitting a paragraph, there is still text
+        # Add it to the next page body
+        if residual_text:
+          page_body.append(_create_container(residual_text))
+          residual_text = ''
+      
+      # If not, add the paragraph to the page
+      else:
+        page_body.append(_create_container(p))
 
-  if l != -1:
-    pages = OrderedDict(reversed(list(pages.items())))
-    while len(pages) > l:
-      pages.popitem()
-
+  pages = OrderedDict(reversed(list(pages.items())))
   return pages
 
 def parse_note_1903_serialize_type(type):
@@ -180,7 +225,6 @@ def parse_note_1903(row, pages):
   
   return None
 
-  
 def parse_note_1891(index, row, pages):
   
   entity_page = int(row[const.diaries['1891'][const.key_footnote_header_page]])
@@ -213,7 +257,6 @@ def parse_note_1891(index, row, pages):
         })
 
   return None
-
 
 def parse_notes(pages, diary_notes, diary, limit=-1):
 
@@ -252,7 +295,6 @@ def parse_notes(pages, diary_notes, diary, limit=-1):
 
 def check_cleaned(output_path):
   return os.path.exists(os.path.join(output_path, 'footnotes_cleaned.tsv'))
-
 
 def parse_footnotes(pages, footnotes):
 
@@ -464,6 +506,7 @@ def exec(diaries, exec_upload, config):
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary)
 
+    """
     # Add Locations found in pages only for 1891
     if diary == '1891':
       input_locations = os.path.join(input_path, 'notes', '1891_Locations.csv')
@@ -484,7 +527,8 @@ def exec(diaries, exec_upload, config):
         pages[page][const.key_footnote_header_location_wkt] = location_wkt
         pages[page][const.key_footnote_header_location_name] = location_name 
         pages[page][const.key_footnote_header_location_link] = location_link
-  
+    """
+
     # Create RDF Graphs for the diary
     diary_graphs = rdf.diary2graphs(diary)
     rdf.write_graphs(output_path, diary_graphs, 'diary')

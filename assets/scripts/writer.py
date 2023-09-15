@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 import re
-from const import key_text, key_index, regex_footnote_id, header_footnotes, key_paragraphs
+from const import key_text, key_index, regex_footnote_id, header_footnotes, key_paragraphs, key_type
 
 def create_dir(dir_path):
   if not os.path.exists(dir_path):
@@ -50,10 +50,7 @@ def write_pages_html(output_path, pages, diary):
 
       body = ''
       for line in page[key_paragraphs]:
-        line = re.sub(regex_footnote_id, "", line)
-
-        if line:
-          body += f'\n\t\t<p>{line}</p>'
+        body += f'\n\t\t<{line[key_type]}>{line[key_text]}</{line[key_type]}>'
 
       html = f'<html>\n\t<body>{body}\n\t</body>\n</html>'
       
