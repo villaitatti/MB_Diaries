@@ -75,7 +75,7 @@ def create_day_graph(diary_number, day):
   return g
 
 
-def create_page_graph(diary_number, page_number, page):
+def create_page_graph(diary_number, page_number, page, image):
 
   g = Graph()
 
@@ -118,8 +118,7 @@ def create_page_graph(diary_number, page_number, page):
   g.add((PAGE_NODE, CRM.P129i_is_subject_of, PAGE_NODE_DOCUMENT))
 
   # Visual representation
-  IMAGE_NODE = URIRef(
-      f'{const.IIIF_server}{int(const.diary_data[diary_number][const.key_id])+int(page_number)}{const.IIIF_trailer}')
+  IMAGE_NODE = URIRef(image)
   g.add((IMAGE_NODE, RDF.type, CRM.E38_Image))
   g.add((IMAGE_NODE, RDF.type, URIRef(
       'http://www.researchspace.org/ontology/EX_Digital_Image')))
@@ -133,11 +132,15 @@ def create_page_graph(diary_number, page_number, page):
     g.add((PAGE_NODE, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/hasLocationLink'), Literal(page[const.key_footnote_header_location_link]) ))
 
   g.add((PAGE_NODE, RDF.type, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/Page')))
+  g.add((PAGE_NODE, RDF.type, CRM['E22_Man-Made_Object']))
   g.add((PAGE_NODE, RDFS.label, Literal(page_number, datatype=XSD.string)))
-  #
   g.add((PAGE_NODE, URIRef('https://mbdiaries.itatti.harvard.edu/ontology/part_of'), URIRef(f'https://mbdiaries.itatti.harvard.edu/diary/{diary_number}')))
   
+  # Add date metadata
   
+  if const.key_metadata in page:
+    for current_metadata in page[const.key_metadata]:
+      g.add((PAGE_NODE, URIRef(f'https://mbdiaries.itatti.harvard.edu/ontology/{current_metadata["predicate"]}'), Literal(current_metadata['object'], datatype=XSD.date)))
 
   g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
   g.namespace_manager.bind('crm', CRM, override=True, replace=True)
@@ -148,7 +151,7 @@ def create_page_graph(diary_number, page_number, page):
   return g
 
 
-def create_diary_graph(diary_number):
+def create_diary_graph(diary_number, image):
 
   g = Graph()
 
@@ -175,8 +178,7 @@ def create_diary_graph(diary_number):
   g.add((BASE_NODE, RDFS.label, Literal(diary_number, datatype=XSD.string)))
 
   # Visual representation
-  IMAGE_NODE = URIRef(
-      f'{const.IIIF_server}{int(const.diary_data[diary_number][const.key_id]+1)}{const.IIIF_trailer}')
+  IMAGE_NODE = URIRef(image)
   g.add((BASE_NODE, CRM.P183i_has_representation, IMAGE_NODE))
   g.add((IMAGE_NODE, RDF.type, CRM.E38_Image))
   g.add((IMAGE_NODE, RDF.type, URIRef(
@@ -323,13 +325,15 @@ def footnotes2graphs(diary, footnotes):
     graphs[key] = create_annotation_graph(diary, footnote, key)
   return graphs
 
-def pages2graphs(diary, pages):
+def pages2graphs(diary, manifest, pages):
+  canvases = manifest['sequences'][0]['canvases']
   graphs = {}
   for key, page in pages.items():
-    graphs[key] = create_page_graph(diary, key, page)
+    graphs[key] = create_page_graph(diary, key, page, canvases[max(key-1,0)]['images'][0]['resource']['@id'])
   return graphs
 
-def diary2graphs(diary):
+def diary2graphs(diary, manifest):
+  front = manifest['sequences'][0]['canvases'][0]['images'][0]['resource']['@id']
   graphs = {}
-  graphs[diary] = create_diary_graph(diary)
+  graphs[diary] = create_diary_graph(diary, front)
   return graphs

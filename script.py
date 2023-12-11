@@ -17,6 +17,7 @@ import const
 import upload
 import writer
 import timelib
+import json
 
 from convert import convert2text, convert2xml, convert2vec
 
@@ -84,26 +85,12 @@ def parse_pages(paragraphs, diary, l=-1):
   def _create_container(text):
     
     if _is_day(text, True) and regex_date.search(text):
-      print(text)
       t = const.key_header
     else:
       t = const.key_paragraph
-    
-    """
-    # By default the type is <p>
-    parsed_text = nlp(p)
-    t = const.key_paragraph
-    for ent in parsed_text.ents:
-      
-      # But if the type is date, change it to <h3>
-      if ent.label_ == 'DATE' and _is_day(ent.text):
-        t = const.key_header
-      
-      # TODO: add other types if needed
-    """ 
 
     return {
-      const.key_text: text,
+      const.key_text: text.strip(),
       const.key_type: t
     }
 
@@ -140,7 +127,7 @@ def parse_pages(paragraphs, diary, l=-1):
 
         # Check if the page notation is enclosed in text
         split_p = re.split(page_start_regex, p)
-        if len(split_p) > 1 and split_p[0] and split_p[1]:
+        if len(split_p) > 1 and ( split_p[0] or split_p[1]):
           residual_text = split_p[0]
           page_body.append(_create_container(split_p[1]))
 
@@ -231,13 +218,48 @@ def parse_note_1903(row, pages):
   
   return None
 
+def parse_note_generic(index, row, pages):
+  entity_page = int(row[const.diaries['1891'][const.key_footnote_header_page]])
+  entity_value = row[const.diaries['1891'][const.key_footnote_header_value]]
+  entity_type = row[const.diaries['1891'][const.key_footnote_header_type]]
+
+
+
+  try:
+    entity_annotator = row[const.key_footnote_header_annotator]
+  except Exception:
+    entity_annotator = 'admin'
+
+  note = None
+
+  if entity_type == 'art':
+
+    # Get the current page
+    if entity_page in pages:
+      current_page = pages[entity_page]
+
+      # Check in each paragraph if it contains the entity
+      for p in current_page[const.key_paragraphs]:
+        start_index = p[const.key_text].lower().find(entity_value.lower())
+        if start_index != -1:
+          note = (index, {
+            const.key_footnote_header_page: entity_page,
+            const.footnote_type: entity_type,
+            const.footnote_fulltext: entity_value,
+            const.footnote_permalinks: [],
+            const.footnote_index: current_page[const.key_paragraphs].index(p)+1,
+            const.footnote_start: start_index,
+            const.footnote_end: start_index + len(entity_value),
+            const.footnote_annotator: entity_annotator.lower()
+          })
+          break
+
+  return note
+
 def parse_note_1891(index, row, pages):
   
   entity_page = int(row[const.diaries['1891'][const.key_footnote_header_page]])
-  entity_paragraph = int(row[const.diaries['1891'][const.key_footnote_header_paragraph]])
-  entity_start = int(row[const.diaries['1891'][const.key_footnote_header_start]])
-  entity_end = int(row[const.diaries['1891'][const.key_footnote_header_end]])
-  
+
   entity_value = row[const.diaries['1891'][const.key_footnote_header_value]]
   entity_type = row[const.diaries['1891'][const.key_footnote_header_type]]
   entity_wikidata = row[const.diaries['1891'][const.key_footnote_header_permalinks]]
@@ -266,38 +288,39 @@ def parse_note_1891(index, row, pages):
 
 def parse_notes(pages, diary_notes, diary, limit=-1):
 
-
-  df_diary_notes = pd.read_csv(diary_notes)
-  
-  df_diary_notes.sort_values(by=const.diaries[diary][const.key_footnote_header_page],ascending=True, inplace=True)
-  df_diary_notes.reset_index(drop=True, inplace=True)
-  df_diary_notes.fillna('', inplace=True)
-
-  print(df_diary_notes.head())
-  
   parsed_notes = {}
+
+  # Check if note file exists
+  if os.path.exists(diary_notes):
+
+    df_diary_notes = pd.read_csv(diary_notes)
+    
+    df_diary_notes.sort_values(by=const.diaries[diary][const.key_footnote_header_page],ascending=True, inplace=True)
+    df_diary_notes.reset_index(drop=True, inplace=True)
+    df_diary_notes.fillna('', inplace=True)
+    
+    for index, row in df_diary_notes.iterrows():
+
+      if limit != -1 and index >= limit:
+        break
+
+      note_parsed = parse_note_generic(index, row, pages)
+        
+      try:
+        note_parsed_id = note_parsed[0]
+        note_parsed_body = note_parsed[1]
+        parsed_notes[note_parsed_id] = note_parsed_body
+        
+      except Exception as e:
+        print(e)
+        continue
+
+  # Execute NER if needed
+  else:
+    print('No notes file found. NER should be executed...')
   
-  for index, row in df_diary_notes.iterrows():
-
-    if index != -1 and index >= limit:
-      break
-
-    if diary == '1903':
-      note_parsed = parse_note_1903(row, pages)
-
-    if diary == '1891':
-      note_parsed = parse_note_1891(index, row, pages)
-      
-    try:
-      note_parsed_id = note_parsed[0]
-      note_parsed_body = note_parsed[1]
-      parsed_notes[note_parsed_id] = note_parsed_body
-      
-    except Exception as e:
-      print(e)
-      continue
-            
   return parsed_notes
+  
 
 def check_cleaned(output_path):
   return os.path.exists(os.path.join(output_path, 'footnotes_cleaned.tsv'))
@@ -338,7 +361,6 @@ def parse_footnotes(pages, footnotes):
       print(ex)
 
   return elements
-
 
 def parse_footnotes_cleaned(pages, footnotes):
 
@@ -434,7 +456,6 @@ def parse_days(df):
   df_out.to_csv(os.path.join(output_path, 'csv', 'metadata.csv'), columns=[
                 'day', 'day_title', 'page', 'image_link'], index=False)
 
-
 def parse_people(df):
 
   print(df.head())
@@ -444,23 +465,27 @@ def parse_people(df):
   df_out.to_csv(os.path.join(output_path, 'csv', 'people_extracted.csv'), columns=[
                 'day', 'text', 'description', 'page', 'p', 'start', 'end'], index=False)
 
-
 def update_days(df):
   df['day'] = df['text'].str.contains(',[0-9]{4}$', na=False).cumsum()
   return df
 
-
-def parse_metadata():
-  df = pd.read_csv(file_metadata)
-
-  # Update the days
-  update_days(df)
-
-  # Create metadata.csv file with parsed days
-  parse_days(df)
-
-  # Create people_extracted.csv
-  parse_people(df)
+def parse_metadata(pages, diary, limit=-1):
+  
+  # Search for headers stored in page paragraphs
+  for index, page in pages.items():
+    
+    page_metadata = []
+    for paragraph in page[const.key_paragraphs]:
+      if paragraph[const.key_type] == 'h3':
+        page_metadata.append({
+          const.key_object: dateutil.parser.parse(paragraph[const.key_text], fuzzy=True).strftime('%Y-%m-%d'),
+          const.key_predicate: 'hasDate'
+        })
+        
+    if len(page_metadata) > 0 and const.key_metadata not in page[const.key_paragraphs]:
+      page[const.key_metadata] = page_metadata
+  
+  return pages
 
 
 def ner(output_path):
@@ -501,6 +526,8 @@ def exec(diaries, exec_upload, config):
     output_path = os.path.join(cur_path, 'assets', 'output', diary)
     diary_notes = os.path.join(input_path, const.key_notes_dir, f'{diary}.csv')
 
+    manifest = json.load(open(os.path.join(input_path, const.key_manifest_dir, f'{diary}.json')))
+    
     # Check if output_path exists
     writer.create_dir(output_path)
 
@@ -509,58 +536,22 @@ def exec(diaries, exec_upload, config):
 
     # Parse and write page
     pages = parse_pages(vec[const.key_document], diary)
+    writer.write_json(os.path.join(output_path, 'pages.json'), pages)
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary)
 
-    """
-    # Add Locations found in pages only for 1891
-    if diary == '1891':
-      input_locations = os.path.join(input_path, 'notes', '1891_Locations.csv')
-
-      # Store WKT value
-      for i, row in pd.read_csv(input_locations).iterrows():
-        page = row[const.diaries[diary][const.key_footnote_header_page]]
-
-        location_wkt = row[const.diaries[diary][const.key_footnote_header_location_wkt]]
-        location_name = row[const.diaries[diary][const.key_footnote_header_location_name]]
-        location_link = f'https://www.wikidata.org/wiki/{row[const.diaries[diary][const.key_footnote_header_location_link]]}'
-        
-        # If there is no wkt, break
-        if location_wkt is None:
-          break
-          
-        # Append wkt value
-        pages[page][const.key_footnote_header_location_wkt] = location_wkt
-        pages[page][const.key_footnote_header_location_name] = location_name 
-        pages[page][const.key_footnote_header_location_link] = location_link
-    """
-
     # Create RDF Graphs for the diary
-    diary_graphs = rdf.diary2graphs(diary)
+    diary_graphs = rdf.diary2graphs(diary, manifest)
     rdf.write_graphs(output_path, diary_graphs, 'diary')
 
-    # Create RDF Graphs for the pages
-    pages_graphs = rdf.pages2graphs(diary, pages)
+    # Create RDF Graphs for the pages including metadata if any
+    pages = parse_metadata(pages, diary)
+    pages_graphs = rdf.pages2graphs(diary, manifest, pages)
     rdf.write_graphs(output_path, pages_graphs, 'document')
 
-    """
-    notes_parsed = execute_ner(pages, diary)
-    print(notes_parsed)
-
-    df = pd.DataFrame.from_dict(notes_parsed, orient='index')
-    df.to_csv(os.path.join(output_path, 'ner.csv'), index=False)
-    """
-    
-    # If there is a note file, parse them as well
-    if os.path.exists(diary_notes):
-      notes_parsed = parse_notes(pages, diary_notes, diary, limit=20)
-
-    # Run NER to create annotations
-    else:
-      notes_parsed = execute_ner(pages, diary)
-
-    notes = rdf.footnotes2graphs(diary, notes_parsed)
-    rdf.write_graphs(output_path, notes, 'annotation')
+    #notes_parsed = parse_notes(pages, diary_notes, diary)
+    #notes = rdf.footnotes2graphs(diary, notes_parsed)
+    #rdf.write_graphs(output_path, notes, 'annotation')
 
   # Upload RDF graphs
   if exec_upload:
@@ -569,3 +560,5 @@ def exec(diaries, exec_upload, config):
 
 if __name__ == '__main__':
   exec()
+
+

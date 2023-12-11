@@ -25,3 +25,29 @@ Discussed difference between Belgians and Hollanders. Is it due to the hold of t
 
 Read L’Intruse by Maeterlingk, [sic] and compared it with Mrs. Augusta Webster’s Auspicious Day.
 ```
+
+
+```
+"""
+# Add Locations found in pages only for 1891
+if diary == '1891':
+  input_locations = os.path.join(input_path, 'notes', '1891_Locations.csv')
+
+  # Store WKT value
+  for i, row in pd.read_csv(input_locations).iterrows():
+    page = row[const.diaries[diary][const.key_footnote_header_page]]
+
+    location_wkt = row[const.diaries[diary][const.key_footnote_header_location_wkt]]
+    location_name = row[const.diaries[diary][const.key_footnote_header_location_name]]
+    location_link = f'https://www.wikidata.org/wiki/{row[const.diaries[diary][const.key_footnote_header_location_link]]}'
+    
+    # If there is no wkt, break
+    if location_wkt is None:
+      break
+      
+    # Append wkt value
+    pages[page][const.key_footnote_header_location_wkt] = location_wkt
+    pages[page][const.key_footnote_header_location_name] = location_name 
+    pages[page][const.key_footnote_header_location_link] = location_link
+"""
+```

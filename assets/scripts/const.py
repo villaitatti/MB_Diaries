@@ -9,6 +9,9 @@ key_header = "h3"
 key_document = "document"
 key_footnote = "footnote"
 key_notes_dir = "notes"
+key_manifest_dir = "manifests"
+
+key_title = "title"
 
 footnote_annotator = "annotator"
 footnote_fulltext = "fulltext"
@@ -30,7 +33,12 @@ key_graph = 'graph'
 key_body = 'body'
 key_text = 'text'
 key_type = 'type'
+key_date = 'date'
 key_paragraphs = 'content'
+key_metadata = 'metadata'
+
+key_object = 'object'
+key_predicate = 'predicate'
 
 key_upload_username = 'username'
 key_upload_password = 'password'
@@ -42,7 +50,8 @@ IIIF_trailer = '/full/full/0/default.jpg'
 diary_data = {
     "1891": {
         key_id: 420756309,
-        key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘]{3,}\]'
+        key_page_regex_check: r'\[\s*\d+\s*[\s\w\,\’\‘]{3,}\]',
+        key_title: "Diary 1, August 1891 - November 1893",
     },
     "1915": {
         key_id: 491567726,

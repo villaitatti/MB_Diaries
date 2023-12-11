@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import re
+import json
 from const import key_text, key_index, regex_footnote_id, header_footnotes, key_paragraphs, key_type
 
 def create_dir(dir_path):
@@ -19,6 +20,13 @@ def write_csv(filename, body, header):
   create_dir(os.path.dirname(os.path.abspath(filename)))
   df = pd.DataFrame(body, columns=header)
   df.to_csv(filename, index=False)
+
+def write_json(filename, body):
+  #write json file with indent 4  
+  create_dir(os.path.dirname(os.path.abspath(filename)))
+  with open(filename, 'w') as f:
+    json.dump(body, f, indent=4)
+    f.close() 
 
 
 def write_xlsx(filename, body, header):
