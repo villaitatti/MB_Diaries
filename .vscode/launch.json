@@ -6,67 +6,67 @@
   "configurations": [
     {
       "name": "help",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["--help"],
+      "args": ["--help"]
     },
     {
       "name": "1891",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1891", "-u", "-c", "collection"],
+      "args": ["-d", "1891", "-u", "-c", "collection"]
     },
     {
       "name": "1894-95",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1894-95", "-u", "-c", "collection"],
+      "args": ["-d", "1894-95"]
     },
     {
       "name": "1895",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1895", "-u", "-c", "collection"],
+      "args": ["-d", "1895", "-u", "-c", "collection"]
     },
     {
       "name": "1897",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1897", "-u", "-c", "collection"],
+      "args": ["-d", "1897", "-u", "-c", "collection"]
     },
     {
       "name": "1903",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1903", "-u", "-c", "collection"],
+      "args": ["-d", "1903", "-u", "-c", "collection"]
     },
     {
       "name": "1915",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1915", "-u", "-c", "collection"],
+      "args": ["-d", "1915", "-u", "-c", "collection"]
     },
     {
       "name": "1933 no upload",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1933", "-u", "-c", "collection"],
-    },
+      "args": ["-d", "1933", "-u", "-c", "collection"]
+    }
   ]
 }
