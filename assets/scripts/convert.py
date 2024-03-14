@@ -1,5 +1,6 @@
 import zipfile
 from docx2python import docx2python
+from docx import Document
 from xml.etree.ElementTree import XML
 import const
 
@@ -23,10 +24,11 @@ def convert2vec(path):
 """
 
 def convert2vec(path):
-  parsed_doc = docx2python(path)
+  #parsed_doc = docx2python(path)
+  parsed_doc = extract_paragraphs(path)
 
   return {
-    const.key_document: parsed_doc.document[0][0][0],
+    const.key_document: parsed_doc,
     #const.key_footnote: parsed_doc.footnotes[0][0]
   }
 
@@ -35,6 +37,25 @@ def convert2text(path):
   p = _parsedocx(path)
   return '\n'.join(p)
 
+def extract_paragraphs(docx_path):
+    """
+    Extracts paragraphs from a docx document, excluding footnotes and other non-main text elements.
+
+    Parameters:
+    docx_path (str): Path to the .docx file to be processed.
+
+    Returns:
+    list of str: A list containing the text of each extracted paragraph.
+    """
+    document = Document(docx_path)
+    paragraphs = []
+
+    for para in document.paragraphs:
+        text = para.text.strip()
+        if text:  # This checks if the paragraph is not just whitespace
+            paragraphs.append(text)
+
+    return paragraphs
 def _parsedocx(path):
   with zipfile.ZipFile(path) as docx:
     tree = XML(docx.read('word/document.xml'))
