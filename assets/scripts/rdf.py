@@ -5,16 +5,16 @@ import datetime
 from uuid import uuid4
 from rdflib import Graph, URIRef, namespace, Namespace, Literal
 
-BASE_URI = 'https://collection.itatti.harvard.edu/'
+BASE_URI = 'https://mbdiaries.itatti.harvard.edu/'
 RESOURCE = f'{BASE_URI}resource/'
 
 PLATFORM = Namespace('http://www.researchspace.org/resource/system/')
 LDP = Namespace('http://www.w3.org/ns/ldp#')
 CRM = Namespace('http://www.cidoc-crm.org/cidoc-crm/')
-DPUB_ANNOTATION = Namespace(
-    f'{BASE_URI}/document/annotation-schema/')
+DPUB_ANNOTATION = Namespace(f'{BASE_URI}document/annotation-schema/')
 CRMDIG = Namespace('http://www.ics.forth.gr/isl/CRMdig/')
 PROV = Namespace('http://www.w3.org/ns/prov#')
+MB_DIARIES = Namespace('https://mbdiaries.itatti.harvard.edu/ontology/')
 RDF = namespace.RDF
 RDFS = namespace.RDFS
 XSD = namespace.XSD
@@ -23,6 +23,8 @@ XSD = namespace.XSD
 """
 Utility functions for creating and writing RDF graphs.
 """
+
+
 def write_graphs(output_path, graphs, dir=None):
     """
     Writes a collection of graphs to files in turtle format.
@@ -50,6 +52,8 @@ def write_graphs(output_path, graphs, dir=None):
 """
 Create and write functions for diary graphs.
 """
+
+
 def write_diary_graph(filename, diary):
     """
     Writes a diary graph to a file in turtle format.
@@ -93,16 +97,14 @@ def create_diary_graph(diary_number, image):
     BASE_NODE = URIRef(diary_uri)
     g.add((PLATFORM.fileContainer, LDP.contains, BASE_NODE))
     g.add((BASE_NODE, RDF.type, CRM['E22_Man-Made-Object']))
-    g.add((BASE_NODE, CRM.P2_has_type, URIRef(
-        f'{BASE_URI}/ontology/Diary')))
+    g.add((BASE_NODE, CRM.P2_has_type, MB_DIARIES['Diary']))
     g.add((BASE_NODE, RDFS.label, Literal(diary_number, datatype=XSD.string)))
 
     # Visual representation
     IMAGE_NODE = URIRef(image)
     g.add((BASE_NODE, CRM.P183i_has_representation, IMAGE_NODE))
     g.add((IMAGE_NODE, RDF.type, CRM.E38_Image))
-    g.add((IMAGE_NODE, RDF.type, URIRef(
-        'http://www.researchspace.org/ontology/EX_Digital_Image')))
+    g.add((IMAGE_NODE, RDF.type, URIRef('http://www.researchspace.org/ontology/EX_Digital_Image')))
 
     g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
     g.namespace_manager.bind('crm', CRM, override=True, replace=True)
@@ -133,6 +135,8 @@ def diary2graphs(diary, manifest):
 """
 Create and write functions for page graphs.
 """
+
+
 def write_page_graph(filename, diary, day):
     """
     Writes a page graph to a file in turtle format.
@@ -178,12 +182,12 @@ def create_page_graph(diary_number, page_number, page, image):
 
     # Page File
     PAGE_NODE_DOCUMENT = URIRef(
-        f'{RESOURCE}diary/{diary_number}/document/{page_number}')
+        f'{BASE_URI}diary/{diary_number}/document/{page_number}')
     g.add((PLATFORM.fileContainer, LDP.contains, PAGE_NODE_DOCUMENT))
     g.add((PAGE_NODE_DOCUMENT, RDF.type, PLATFORM.File))
     g.add((PAGE_NODE_DOCUMENT, RDF.type, LDP.Resource))
     g.add((PAGE_NODE_DOCUMENT, RDF.type, URIRef(
-        f'{BASE_URI}/ontology/Document')))
+        f'{BASE_URI}ontology/Document')))
     g.add((PAGE_NODE_DOCUMENT, RDFS.label, Literal(
         f'LDP Container of document file of {diary_number}_{page_number}.html', datatype=XSD.string)))
     g.add((PAGE_NODE_DOCUMENT, PLATFORM.fileContext, URIRef(
@@ -206,26 +210,27 @@ def create_page_graph(diary_number, page_number, page, image):
     g.add((PAGE_NODE, CRM.P183i_has_representation, IMAGE_NODE))
 
     if const.key_footnote_header_location_wkt in page:
-        g.add((PAGE_NODE, URIRef(f'{BASE_URI}/ontology/hasLocationWkt'),
+        g.add((PAGE_NODE,  MB_DIARIES['hasLocationWkt'],
               Literal(page[const.key_footnote_header_location_wkt])))
     if const.key_footnote_header_location_name in page:
-        g.add((PAGE_NODE, URIRef(f'{BASE_URI}/ontology/hasLocationName'),
+        g.add((PAGE_NODE, MB_DIARIES['hasLocationName'],
               Literal(page[const.key_footnote_header_location_name])))
     if const.key_footnote_header_location_link in page:
-        g.add((PAGE_NODE, URIRef(f'{BASE_URI}/ontology/hasLocationLink'),
+        g.add((PAGE_NODE, URIRef(MB_DIARIES['hasLocationLink']),
               Literal(page[const.key_footnote_header_location_link])))
 
-    g.add((PAGE_NODE, RDF.type, URIRef(f'{BASE_URI}/ontology/Page')))
+    g.add((PAGE_NODE, RDF.type, MB_DIARIES['Page']))
     g.add((PAGE_NODE, RDF.type, CRM['E22_Man-Made_Object']))
     g.add((PAGE_NODE, RDFS.label, Literal(page_number, datatype=XSD.string)))
-    g.add((PAGE_NODE, URIRef(f'{BASE_URI}/ontology/part_of'),
+    g.add((PAGE_NODE, MB_DIARIES['index'], Literal(page_number, datatype=XSD.string)))
+    g.add((PAGE_NODE, MB_DIARIES['part_of'],
           URIRef(f'{RESOURCE}diary/{diary_number}')))
 
     # Add date metadata
 
     if const.key_metadata in page:
         for current_metadata in page[const.key_metadata]:
-            g.add((PAGE_NODE, URIRef(f'{BASE_URI}/ontology/{current_metadata["predicate"]}'), Literal(
+            g.add((PAGE_NODE, MB_DIARIES[{current_metadata["predicate"]}], Literal(
                 current_metadata['object'], datatype=XSD.date)))
 
     g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
@@ -233,6 +238,8 @@ def create_page_graph(diary_number, page_number, page, image):
     g.namespace_manager.bind('crmdig', CRMDIG, override=True, replace=True)
     g.namespace_manager.bind('ldp', LDP, override=True, replace=True)
     g.namespace_manager.bind('prov', PROV, override=True, replace=True)
+    g.namespace_manager.bind('mbdiaries-ontology',
+                             MB_DIARIES, override=True, replace=True)
 
     return g
 
@@ -260,6 +267,8 @@ def pages2graphs(diary, manifest, pages):
 """
 Create and write functions for annotation graphs.
 """
+
+
 def footnotes2graphs(diary, footnotes):
     """
     Converts a collection of footnotes into a collection of graphs.
@@ -417,8 +426,8 @@ def create_annotation_graph(diary_number, annotation, identifier):
     # Body
     annotation_body_uri = f'{annotation_uri}/body'
     ANNOTATION_BODY_NODE = URIRef(annotation_body_uri)
-    g.add((ANNOTATION_BODY_NODE, RDF.type, URIRef(
-        f'{BASE_URI}/ontology/{annotation[const.footnote_type]}')))
+    g.add((ANNOTATION_BODY_NODE, RDF.type,
+          MB_DIARIES[{annotation[const.footnote_type]}]))
     g.add((ANNOTATION_BODY_NODE, RDFS.label, Literal(
         annotation[const.footnote_fulltext], datatype=XSD.string)))
     for permalink in annotation[const.footnote_permalinks]:
@@ -435,6 +444,7 @@ def create_annotation_graph(diary_number, annotation, identifier):
     g.namespace_manager.bind('owl', OWL, override=True, replace=True)
 
     return g
+
 
 def create_day_graph(diary_number, day):
     """
@@ -458,21 +468,15 @@ def create_day_graph(diary_number, day):
     day_index = day['day']
 
     # Day
-    DAY_NODE = URIRef(
-        f'{RESOURCE}diary/{diary_number}/day/{day_index}')
+    DAY_NODE = URIRef(f'{RESOURCE}diary/{diary_number}/day/{day_index}')
     g.add((DAY_NODE, RDF.type, CRM['E22_Man-Made_Object']))
-    g.add((DAY_NODE, CRM.P2_has_type, URIRef(
-        f'{BASE_URI}/ontology/Day')))
-    g.add((DAY_NODE, RDFS.label, Literal(
-        f'Day #{day_index} ({day_date})', datatype=XSD.string)))
-    g.add((DAY_NODE, CRM.P46i_forms_part_of, URIRef(
-        f'{RESOURCE}diary/{diary_number}')))
-    g.add((DAY_NODE, URIRef(f'{BASE_URI}/ontology/order'),
-           Literal(day_index, datatype=XSD.integer)))
+    g.add((DAY_NODE, CRM.P2_has_type, MB_DIARIES['Day']))
+    g.add((DAY_NODE, RDFS.label, Literal(f'Day #{day_index} ({day_date})', datatype=XSD.string)))
+    g.add((DAY_NODE, CRM.P46i_forms_part_of, URIRef(f'{RESOURCE}diary/{diary_number}')))
+    g.add((DAY_NODE, MB_DIARIES['order'],Literal(day_index, datatype=XSD.integer)))
 
     # Page
-    PAGE_NODE = URIRef(
-        f'{RESOURCE}diary/{diary_number}/page/{page_number}')
+    PAGE_NODE = URIRef(f'{RESOURCE}diary/{diary_number}/page/{page_number}')
     g.add((DAY_NODE, CRM.P62i_is_depicted_by, PAGE_NODE))
 
     g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
