@@ -106,7 +106,7 @@ def parse_pages(paragraphs, diary, l=-1):
 
         return text.strip()
 
-    page_start_regex = r'\[\s*\d+\s*[\s\w\,\’\‘]{3,}\]'
+    page_start_regex = r'\[\d+[^\]]*\]'
     regex_digit = re.compile(r'\d+')
     residual_text = ''
 
@@ -422,7 +422,7 @@ def is_type_allowed(t):
     return t in nlp_allowed_types
 
 
-def normalize_Type(t):
+def normalize_type(t):
     new_t = ""
 
     if t == "PERSON":
