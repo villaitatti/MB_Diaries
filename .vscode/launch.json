@@ -26,7 +26,7 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1894-95", "-u", "-c", "collection"]
+      "args": ["-d", "1894-95", "-u", "-c", "collection", "-t", "Diary 2 - 1894-1895"]
     },
     {
       "name": "1895 | Execute full pipeline",
@@ -34,7 +34,7 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1895", "-u", "-c", "collection"]
+      "args": ["-d", "1895", "-u", "-c", "collection", "-t", "Diary 3 - 1895"]
     },
     {
       "name": "1897 | Execute full pipeline",

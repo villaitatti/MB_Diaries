@@ -75,7 +75,7 @@ def write_diary_graph(filename, diary):
     g.serialize(destination=filename, format='turtle')
 
 
-def create_diary_graph(diary_number, image):
+def create_diary_graph(diary_number, image, title):
     """
     Creates a diary graph in RDF format.
 
@@ -93,12 +93,16 @@ def create_diary_graph(diary_number, image):
 
     diary_uri = f'{RESOURCE}diary/{diary_number}'
 
+    # Rollback to the diary number
+    if title is None:
+        title = diary_number
+
     # Diary
     BASE_NODE = URIRef(diary_uri)
     g.add((PLATFORM.fileContainer, LDP.contains, BASE_NODE))
     g.add((BASE_NODE, RDF.type, CRM['E22_Man-Made-Object']))
     g.add((BASE_NODE, CRM.P2_has_type, MB_DIARIES['Diary']))
-    g.add((BASE_NODE, RDFS.label, Literal(diary_number, datatype=XSD.string)))
+    g.add((BASE_NODE, RDFS.label, Literal(title, datatype=XSD.string)))
 
     # Visual representation
     IMAGE_NODE = URIRef(image)
@@ -115,7 +119,7 @@ def create_diary_graph(diary_number, image):
     return g
 
 
-def diary2graphs(diary, manifest):
+def diary2graphs(diary, manifest, title):
     """
     Converts a diary into a collection of graphs.
 
@@ -128,7 +132,7 @@ def diary2graphs(diary, manifest):
     """
     front = manifest['sequences'][0]['canvases'][0]['images'][0]['resource']['@id']
     graphs = {}
-    graphs[diary] = create_diary_graph(diary, front)
+    graphs[diary] = create_diary_graph(diary, front, title)
     return graphs
 
 

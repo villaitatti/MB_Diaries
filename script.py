@@ -538,7 +538,8 @@ def ner(output_path):
 @click.option('-d', 'diaries', required=True, multiple=True, help="Diaries to iterate. -d 1933 [-d 1933]")
 @click.option('-u', 'exec_upload', is_flag=True, help="Execute the upload", default=False)
 @click.option('-c', 'config', help="Type of connection in config.ini to use", default="localhost")
-def exec(diaries, exec_upload, config):
+@click.option('-t', 'title', help="Name of the diary", default=None)
+def exec(diaries, exec_upload, config, title):
     cur_path = os.path.dirname(os.path.realpath(__file__))
 
     for diary in diaries:
@@ -564,7 +565,7 @@ def exec(diaries, exec_upload, config):
         writer.write_pages_html(output_path, pages, diary)
 
         # Create RDF Graphs for the diary
-        diary_graphs = rdf.diary2graphs(diary, manifest)
+        diary_graphs = rdf.diary2graphs(diary, manifest, title)
         rdf.write_graphs(output_path, diary_graphs, 'diary')
 
         # Create RDF Graphs for the pages including metadata if any
