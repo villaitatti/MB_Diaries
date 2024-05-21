@@ -179,6 +179,14 @@
       "args": ["-d", "1908", "-u", "-c", "collection", "-t", "1908", "-i", "12"]
     },
     {
+      "name": "1909 | Execute full pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1909", "-u", "-c", "collection", "-t", "1909", "-i", "13"]
+    },
+    {
       "name": "1915 | Execute full pipeline",
       "type": "debugpy",
       "request": "launch",
