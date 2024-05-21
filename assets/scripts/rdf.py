@@ -96,7 +96,7 @@ def create_diary_graph(diary_number, image, title, index):
     # Update diary title
     diary_title = f'Diary {index}'
     if title is not None:
-        diary_title = f'{diary_title} - {title}'
+        diary_title = f'{diary_title}, {title}'
 
     # Diary
     BASE_NODE = URIRef(diary_uri)
