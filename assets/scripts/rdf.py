@@ -75,7 +75,7 @@ def write_diary_graph(filename, diary):
     g.serialize(destination=filename, format='turtle')
 
 
-def create_diary_graph(diary_number, image, title):
+def create_diary_graph(diary_number, image, title, index):
     """
     Creates a diary graph in RDF format.
 
@@ -93,16 +93,18 @@ def create_diary_graph(diary_number, image, title):
 
     diary_uri = f'{RESOURCE}diary/{diary_number}'
 
-    # Rollback to the diary number
-    if title is None:
-        title = diary_number
+    # Update diary title
+    diary_title = f'Diary {index}'
+    if title is not None:
+        diary_title = f'{diary_title} - {title}'
 
     # Diary
     BASE_NODE = URIRef(diary_uri)
     g.add((PLATFORM.fileContainer, LDP.contains, BASE_NODE))
     g.add((BASE_NODE, RDF.type, CRM['E22_Man-Made-Object']))
     g.add((BASE_NODE, CRM.P2_has_type, MB_DIARIES['Diary']))
-    g.add((BASE_NODE, RDFS.label, Literal(title, datatype=XSD.string)))
+    g.add((BASE_NODE, RDFS.label, Literal(diary_title, datatype=XSD.string)))
+    g.add((BASE_NODE, MB_DIARIES['order'], Literal(index, datatype=XSD.integer)))
 
     # Visual representation
     IMAGE_NODE = URIRef(image)
@@ -115,11 +117,12 @@ def create_diary_graph(diary_number, image, title):
     g.namespace_manager.bind('crmdig', CRMDIG, override=True, replace=True)
     g.namespace_manager.bind('ldp', LDP, override=True, replace=True)
     g.namespace_manager.bind('prov', PROV, override=True, replace=True)
+    g.namespace_manager.bind('mbdiaries-ontology', MB_DIARIES, override=True, replace=True)
 
     return g
 
 
-def diary2graphs(diary, manifest, title):
+def diary2graphs(diary, manifest, title, index):
     """
     Converts a diary into a collection of graphs.
 
@@ -132,7 +135,7 @@ def diary2graphs(diary, manifest, title):
     """
     front = manifest['sequences'][0]['canvases'][0]['images'][0]['resource']['@id']
     graphs = {}
-    graphs[diary] = create_diary_graph(diary, front, title)
+    graphs[diary] = create_diary_graph(diary, front, title, index)
     return graphs
 
 

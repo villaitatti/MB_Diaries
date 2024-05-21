@@ -18,7 +18,7 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1891", "-u", "-c", "collection"]
+      "args": ["-d", "1891", "-u", "-c", "collection", "-t", "1891", "-i", "1"]
     },
     {
       "name": "1894-95 | Execute full pipeline",
@@ -26,7 +26,17 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1894-95", "-u", "-c", "collection", "-t", "Diary 2 - 1894-1895"]
+      "args": [
+        "-d",
+        "1894-95",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1894-1895",
+        "-i",
+        "2"
+      ]
     },
     {
       "name": "1895-96 | Execute full pipeline",
@@ -34,7 +44,17 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1895-96", "-u", "-c", "collection", "-t", "Diary 3, 1895-1896"]
+      "args": [
+        "-d",
+        "1895-96",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1895-1896",
+        "-i",
+        "3"
+      ]
     },
     {
       "name": "1896-98 | Execute full pipeline",
@@ -42,31 +62,71 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1896-98", "-u", "-c", "collection",  "-t", "Diary 4, 1896-1898"]
+      "args": [
+        "-d",
+        "1896-98",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1896-1898",
+        "-i",
+        "4"
+      ]
     },
     {
-        "name": "1898-99 | Execute full pipeline",
-        "type": "debugpy",
-        "request": "launch",
-        "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
-        "console": "integratedTerminal",
-        "args": ["-d", "1898-99", "-u", "-c", "collection",  "-t", "Diary 5, 1898-1899"]
+      "name": "1898-99 | Execute full pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": [
+        "-d",
+        "1898-99",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1898-1899",
+        "-i",
+        "5"
+      ]
     },
     {
-        "name": "1899-02 | Execute full pipeline",
-        "type": "debugpy",
-        "request": "launch",
-        "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
-        "console": "integratedTerminal",
-        "args": ["-d", "1899-02", "-u", "-c", "collection",  "-t", "Diary 6, 1899-1902"]
+      "name": "1899-02 | Execute full pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": [
+        "-d",
+        "1899-02",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1899-1902",
+        "-i",
+        "6"
+      ]
     },
     {
-        "name": "1902-03 | Execute full pipeline",
-        "type": "debugpy",
-        "request": "launch",
-        "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
-        "console": "integratedTerminal",
-        "args": ["-d", "1902-03", "-u", "-c", "collection",  "-t", "Diary 7, 1902-1903"]
+      "name": "1902-03 | Execute full pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": [
+        "-d",
+        "1902-03",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1902-1903",
+        "-i",
+        "7"
+      ]
     },
     {
       "name": "1903-04 | Execute full pipeline",
@@ -74,16 +134,34 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1903-04", "-u", "-c", "collection", "-t", "Diary 8, 1903-1904"]
+      "args": [
+        "-d",
+        "1903-04",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1903-1904",
+        "-i",
+        "8"
+      ]
     },
     {
-        "name": "1905 | Execute full pipeline",
-        "type": "debugpy",
-        "request": "launch",
-        "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
-        "console": "integratedTerminal",
-        "args": ["-d", "1905", "-u", "-c", "collection", "-t", "Diary 9, 1905"]
-      },
+      "name": "1905 | Execute full pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1905", "-u", "-c", "collection", "-t", "1905", "-i", "9"]
+    },
+    {
+      "name": "1906 | Execute full pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1906", "-u", "-c", "collection", "-t", "1906", "-i", "10"]
+    },
     {
       "name": "1915 | Execute full pipeline",
       "type": "debugpy",
