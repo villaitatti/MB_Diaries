@@ -192,7 +192,7 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1915", "-u", "-c", "collection"]
+      "args": ["-d", "1915", "-u", "-c", "collection",  "-t", "1915", "-i", "14"]
     },
     {
       "name": "1916 | Execute full pipeline",
@@ -200,7 +200,7 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1916", "-u", "-c", "collection"]
+      "args": ["-d", "1916", "-u", "-c", "collection",  "-t", "1916", "-i", "15"]
     },
     {
       "name": "1922 | Execute full pipeline",
