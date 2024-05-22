@@ -200,7 +200,7 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1916", "-u", "-c", "collection",  "-t", "1916", "-i", "15"]
+      "args": ["-d", "1916", "-u", "-c", "collection", "-t", "1916", "-i", "15"]
     },
     {
       "name": "1922 | Execute full pipeline",
@@ -208,7 +208,23 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1922", "-u", "-c", "collection"]
+      "args": ["-d", "1922", "-u", "-c", "collection", "-t", "1922", "-i", "16"]
+    },
+    {
+      "name": "1923 | Execute full pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1923", "-u", "-c", "collection", "-t", "1923", "-i", "17"]
+    },
+    {
+      "name": "1926 | Execute full pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1926", "-u", "-c", "collection", "-t", "1926", "-i", "18"]
     },
     {
       "name": "1933 | Execute full pipeline",
