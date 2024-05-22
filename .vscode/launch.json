@@ -240,7 +240,17 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1930-31", "-u", "-c", "collection", "-t", "1930-1931", "-i", "20"]
+      "args": [
+        "-d",
+        "1930-31",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1930-1931",
+        "-i",
+        "20"
+      ]
     },
     {
       "name": "1933 | Execute full pipeline",
@@ -248,7 +258,15 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1933", "-u", "-c", "collection"]
+      "args": ["-d", "1933", "-u", "-c", "collection", "-t", "1933", "-i", "21"]
+    },
+    {
+      "name": "1934 | Execute full pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+      "console": "integratedTerminal",
+      "args": ["-d", "1934", "-u", "-c", "collection", "-t", "1934", "-i", "22"]
     }
   ]
 }
