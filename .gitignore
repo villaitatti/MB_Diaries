@@ -131,3 +131,5 @@ dmypy.json
 .secret
 
 .DS_Store
+
+output/
