@@ -237,8 +237,31 @@ def create_page_graph(diary_number, page_number, page, image):
 
     if const.key_metadata in page:
         for current_metadata in page[const.key_metadata]:
-            g.add((PAGE_NODE, MB_DIARIES[{current_metadata["predicate"]}], Literal(
-                current_metadata['object'], datatype=XSD.date)))
+
+            if current_metadata["predicate"] == 'hasDate':
+
+                date_day = current_metadata['object']
+                DATE_DAY_NODE = URIRef(f'{RESOURCE}date/{date_day}')
+                
+                # transform date from yyyy-mm-dd format into DD Month YYYY
+                date_day = datetime.datetime.strptime(date_day, '%Y-%m-%d').strftime('%Y %B %d')
+                
+                # Store production date 
+                PAGE_PRODUCTION_NODE = URIRef(f'{RESOURCE}diary/{diary_number}/page/{page_number}/production')
+                g.add((PAGE_NODE, CRM.P108i_was_produced_by, PAGE_PRODUCTION_NODE))
+                g.add((PAGE_PRODUCTION_NODE, RDF.type, CRM.E12_Production))
+
+                PAGE_PRODUCTION_NODE_DATE = URIRef(f'{RESOURCE}diary/{diary_number}/page/{page_number}/production/date')
+                g.add((PAGE_PRODUCTION_NODE, CRM['P4_has_time-span'], PAGE_PRODUCTION_NODE_DATE))
+                g.add((PAGE_PRODUCTION_NODE_DATE, RDF.type, CRM.E52_Time_Span))
+                g.add((PAGE_PRODUCTION_NODE_DATE, CRM.P86_falls_within, DATE_DAY_NODE))
+            
+                g.add((DATE_DAY_NODE, RDF.type, CRM.E52_Time_Span))
+                g.add((DATE_DAY_NODE, RDFS.label, Literal(date_day, datatype=XSD.string)))
+            
+            else:
+                g.add((PAGE_NODE, MB_DIARIES[current_metadata["predicate"]], Literal(
+                    current_metadata['object'], datatype=XSD.string)))
 
     g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
     g.namespace_manager.bind('crm', CRM, override=True, replace=True)
@@ -363,7 +386,7 @@ def create_annotation_graph(diary_number, annotation, identifier):
           Literal(DATE_NOW, datatype=XSD.dateTime)))
     g.add((ANNOTATION_EVENT_MODIFICATION_NODE, CRM.P81a_end_of_the_begin,
           Literal(DATE_NOW, datatype=XSD.dateTime)))
-    g.add((ANNOTATION_EVENT_NODE, CRM.P4_has_time_span,
+    g.add((ANNOTATION_EVENT_NODE, CRM['P4_has_time-span'],
           ANNOTATION_EVENT_MODIFICATION_NODE))
 
     # Annotation target
