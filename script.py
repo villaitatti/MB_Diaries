@@ -77,36 +77,25 @@ Parse the pages of the diary and return a dictionary with the following structur
 
 def parse_pages(paragraphs, diary, l=-1):
 
-    def _is_day(str, fuzzy=False):
-        try:
-            dateutil.parser.parse(str, fuzzy=fuzzy)
-            return True
-        except ValueError:
-            return False
-
+    # check if text is an header, starting with const.key_header
+    def _is_day(str):
+        return str.startswith(const.key_note_header)
+        
     def _create_container(text):
 
-        if _is_day(text, True) and regex_date.search(text):
+        # Check if text is encalpsulated in <b> tags
+        if _is_day(text):
             t = const.key_header
+            text = text.replace(const.key_note_header, '')
         else:
             t = const.key_paragraph
-
+            
         return {
             const.key_text: text.strip(),
             const.key_type: t
         }
 
-    def _clean_text(text):
-
-        # Remove tabs
-        text = text.replace('\t', '')
-
-        # Remove < and > characters
-        text = text.replace('<', '').replace('>', '')
-
-        return text.strip()
-
-    page_start_regex = r'\[\d+[^\]]*\]'
+    page_start_regex = r'\[p\d+[^\]]*\]'
     regex_digit = re.compile(r'\d+')
     residual_text = ''
 
@@ -119,7 +108,7 @@ def parse_pages(paragraphs, diary, l=-1):
     for p in paragraphs:
 
         # Clear the paragraph using specific rules
-        p = _clean_text(p)
+        #p = _clean_text(p)
 
         # Do only non empty strings
         if p:
@@ -127,11 +116,13 @@ def parse_pages(paragraphs, diary, l=-1):
             # Check if the paragraph contains the page notation
             if re.search(page_start_regex, p, flags=re.MULTILINE):
 
+                """
                 # Check if the page notation is enclosed in text
                 split_p = re.split(page_start_regex, p)
                 if len(split_p) > 1 and (split_p[0] or split_p[1]):
                     residual_text = split_p[0]
                     page_body.append(_create_container(split_p[1]))
+                """
 
                 # Transform page id in page index: from [019] to 19.
                 page_index = re.sub(const.regex_brackets, '',
@@ -500,10 +491,14 @@ def parse_metadata(pages, diary, limit=-1):
         page_metadata = []
         for paragraph in page[const.key_paragraphs]:
             if paragraph[const.key_type] == 'h3':
-                page_metadata.append({
-                    const.key_object: dateutil.parser.parse(paragraph[const.key_text], fuzzy=True).strftime('%Y-%m-%d'),
-                    const.key_predicate: 'hasDate'
-                })
+                try:
+                    page_metadata.append({
+                        const.key_object: dateutil.parser.parse(paragraph[const.key_text], fuzzy=True).strftime('%Y-%m-%d'),
+                        const.key_predicate: const.key_note_header
+                    })
+                except dateutil.parser.ParserError as ex:
+                    print(ex)
+                    continue
 
         if len(page_metadata) > 0 and const.key_metadata not in page[const.key_paragraphs]:
             page[const.key_metadata] = page_metadata

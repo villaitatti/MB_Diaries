@@ -3,6 +3,8 @@ key_index = "index"
 key_page_regex_check = "page_regex"
 key_offset = "offset"
 
+key_note_header = '$$HEADER$$_'
+
 key_paragraph = "p"
 key_header = "h3"
 
@@ -24,7 +26,7 @@ footnote_end = 'end'
 regex_href = r'<a\s+(?:[^>]*?\s+)?href=([\"\'])(.*?)\1'
 regex_footnote = r'footnote[\d]+'
 regex_footnote_id = r'-{4}[\w\d]*-{4}'
-regex_brackets = r'[\[\]]'
+regex_brackets = r'[\[p\]]'
 regex_date = r'(\b\d{1,2}\D{0,3})?\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|(Nov|Dec)(?:ember)?)\D?(\d{1,2}\D?)?\D?((18[7-9]\d|20\d{2})|\d{2})'
 
 turtle_ext = 'ttl'

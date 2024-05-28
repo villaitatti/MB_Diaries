@@ -50,10 +50,15 @@ def extract_paragraphs(docx_path):
     document = Document(docx_path)
     paragraphs = []
 
+    # Bold text is indicated a day
     for para in document.paragraphs:
-        text = para.text.strip()
-        if text:  # This checks if the paragraph is not just whitespace
-            paragraphs.append(text)
+        
+        if para.text:
+            if para.runs:
+                if para.runs[0].bold:
+                    paragraphs.append(f'{const.key_note_header}{para.text}')
+                else:
+                    paragraphs.append(para.text)
 
     return paragraphs
 def _parsedocx(path):

@@ -238,7 +238,7 @@ def create_page_graph(diary_number, page_number, page, image):
     if const.key_metadata in page:
         for current_metadata in page[const.key_metadata]:
 
-            if current_metadata["predicate"] == 'hasDate':
+            if current_metadata["predicate"] == const.key_note_header:
 
                 date_day = current_metadata['object']
                 DATE_DAY_NODE = URIRef(f'{RESOURCE}date/{date_day}')
