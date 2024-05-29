@@ -14,7 +14,7 @@ import importmonkey
 
 importmonkey.add_path('assets/scripts/')
 
-from convert import convert2vec
+from convert import convert2vec, convert_text2vec
 import rdf
 import const
 import upload
@@ -552,7 +552,10 @@ def exec(diaries, exec_upload, config, title, index):
         writer.create_dir(output_path)
 
         # Get text and footnote from a docx document
-        vec = convert2vec(os.path.join(input_path, f'{diary}.docx'))
+        #vec = convert2vec(os.path.join(input_path, f'{diary}.docx'))
+        
+        # get text from txt document
+        vec = convert_text2vec(os.path.join(input_path, f'{diary}.txt'))
 
         # Parse and write page
         pages = parse_pages(vec[const.key_document], diary)

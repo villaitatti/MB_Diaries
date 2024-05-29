@@ -32,6 +32,13 @@ def convert2vec(path):
     #const.key_footnote: parsed_doc.footnotes[0][0]
   }
 
+def convert_text2vec(path):
+    with open (path, "r") as myfile:
+        d=myfile.readlines()
+    return {
+        const .key_document: d
+    }
+
 
 def convert2text(path):
   p = _parsedocx(path)
