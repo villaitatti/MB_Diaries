@@ -52,12 +52,21 @@ if diary == '1891':
 """
 ```
 
+## Clean .txt diaries
 
-Regex to remove empty lines `^\s*$\n` 
-Regex to get [p.] and update in new line: `(?<=.)(\[p[\d]{2,3}\])` and replace with `\n$1`
-Regex to prepend notation to days 
+Cleaning the diaries is a semi-automatic process. I am following these steps:
 
-*`^(?!\$\$HEADER\$\$_)(.*?\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4})`
-*`^(?!\$\$HEADER\$\$_)(.*?\b(?:Jan.|Feb.|Mar.|Apr.|May|June|Jul.|Aug.|Sept.|Oct.|Nov.|Dec.)\s+\d{1,2},\s+\d{4})`
-
-Replace `<>` with `[]`
+1. Detect page notations and separate them from paragraphs:
+    * find notations with `(\[0+[\d]+\])` and replace with `\n$1\n`
+    * prepend character p to the number
+        * find `[00` and replace with `[p`
+        * find `[0` and replace with `[p`
+    * check if some notations have been changed already
+        * Use `(?<=.)(\[p[\d]{2,3}\])` and update accordingly (e.g., add new line before or after)
+2. Check notation after notation using `\[p[\d]{2,3}\]` and check if something is missing 
+3. Remove empty lines finding `^\s*$\n` and replacing with empty line
+4. Find lines denoting days using the following regex and replace with `$$$HEADER$$$_$1`:
+    * `^(?!\$\$HEADER\$\$_)(.*?\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4})`
+    * `^(?!\$\$HEADER\$\$_)(.*?\b(?:Jan.|Feb.|Mar.|Apr.|May|June|Jul.|Aug.|Sept.|Oct.|Nov.|Dec.)\s+\d{1,2},\s+\d{4})`
+    * if needed update regex to match diary cases (e.g., Jun. instead of June)
+5. Find and replace `<` and `>` with `[` and `]`
