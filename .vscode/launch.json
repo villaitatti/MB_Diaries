@@ -75,7 +75,7 @@
       ]
     },
     {
-      "name": "1898-99 | Execute full pipeline",
+      "name": "5_1898-99 | Execute full pipeline",
       "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",

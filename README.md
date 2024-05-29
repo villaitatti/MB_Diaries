@@ -55,5 +55,9 @@ if diary == '1891':
 
 Regex to remove empty lines `^\s*$\n` 
 Regex to get [p.] and update in new line: `(?<=.)(\[p[\d]{2,3}\])` and replace with `\n$1`
-Regex to prepend notation to days `^(?!\$\$HEADER\$\$_)(.*?\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4})`
-or ^(?!\$\$HEADER\$\$_)(.*?\b(?:Jan.|Feb.|Mar.|Apr.|May|Jun.|Jul.|Aug.|Sep.|Oct.|Nov.|Dec.)\s+\d{1,2},\s+\d{4})
+Regex to prepend notation to days 
+
+*`^(?!\$\$HEADER\$\$_)(.*?\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4})`
+*`^(?!\$\$HEADER\$\$_)(.*?\b(?:Jan.|Feb.|Mar.|Apr.|May|June|Jul.|Aug.|Sept.|Oct.|Nov.|Dec.)\s+\d{1,2},\s+\d{4})`
+
+Replace `<>` with `[]`
