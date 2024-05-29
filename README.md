@@ -51,3 +51,7 @@ if diary == '1891':
     pages[page][const.key_footnote_header_location_link] = location_link
 """
 ```
+
+
+Regex to get [p.] and update in new line: `(?<=.)(\[p[\d]{2,3}\])` and replace with `\n$1`
+Regex to prepend notation to days `^(?!\$\$HEADER\$\$_)(.*?\b(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4})`
