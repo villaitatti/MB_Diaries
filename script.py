@@ -561,7 +561,7 @@ def exec(diaries, exec_upload, config, title, index):
         pages = parse_pages(vec[const.key_document], diary)
         writer.write_json(os.path.join(output_path, 'pages.json'), pages)
         writer.write_pages(output_path, pages)
-        writer.write_pages_html(output_path, pages, diary)
+        writer.write_pages_html(output_path, pages, diary, app_path='/Users/gspinaci/projects/mb_diaries/apps/MB_Diaries-app')
 
         # Create RDF Graphs for the diary
         diary_graphs = rdf.diary2graphs(diary, manifest, title, index)
