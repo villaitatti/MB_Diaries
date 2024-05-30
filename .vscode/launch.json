@@ -163,7 +163,7 @@
       "args": ["-d", "1906", "-u", "-c", "collection", "-t", "1906", "-i", "10"]
     },
     {
-      "name": "1907 | Execute full pipeline",
+      "name": "11_1907 | Execute full pipeline",
       "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
