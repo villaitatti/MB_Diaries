@@ -129,7 +129,7 @@
       ]
     },
     {
-      "name": "1903-04 | Execute full pipeline",
+      "name": "8_1903-04 | Execute full pipeline",
       "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
