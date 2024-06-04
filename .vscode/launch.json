@@ -195,7 +195,7 @@
       "args": ["-d", "1915", "-u", "-c", "collection", "-t", "1915", "-i", "14"]
     },
     {
-      "name": "1916 | Execute full pipeline",
+      "name": "15_1916 | Execute full pipeline",
       "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
