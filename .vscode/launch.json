@@ -275,6 +275,14 @@
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
       "args": ["-d", "1935", "-u", "-c", "collection", "-t", "1935", "-i", "23"]
-    }
+    },
+    {
+        "name": "24_1936 | Execute full pipeline",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
+        "console": "integratedTerminal",
+        "args": ["-d", "1936", "-u", "-c", "collection", "-t", "1936", "-i", "24"]
+      }
   ]
 }
