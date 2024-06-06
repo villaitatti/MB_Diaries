@@ -261,7 +261,7 @@
       "args": ["-d", "1933", "-u", "-c", "collection", "-t", "1933", "-i", "21"]
     },
     {
-      "name": "1934 | Execute full pipeline",
+      "name": "22_1934 | Execute full pipeline",
       "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
