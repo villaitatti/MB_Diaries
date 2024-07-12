@@ -241,6 +241,7 @@ def create_page_graph(diary_number, page_number, page, image):
             if current_metadata["predicate"] == const.key_note_header:
 
                 date_day = current_metadata['object']
+                old_day = date_day
                 DATE_DAY_NODE = URIRef(f'{RESOURCE}date/{date_day}')
                 
                 # transform date from yyyy-mm-dd format into DD Month YYYY
@@ -258,10 +259,11 @@ def create_page_graph(diary_number, page_number, page, image):
             
                 g.add((DATE_DAY_NODE, RDF.type, CRM.E52_Time_Span))
                 g.add((DATE_DAY_NODE, RDFS.label, Literal(date_day, datatype=XSD.string)))
+                g.add((DATE_DAY_NODE, RDF.value, Literal(old_day, datatype=XSD.date)))
             
             else:
                 g.add((PAGE_NODE, MB_DIARIES[current_metadata["predicate"]], Literal(
-                    current_metadata['object'], datatype=XSD.string)))
+                    old_day, datatype=XSD.string)))
 
     g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
     g.namespace_manager.bind('crm', CRM, override=True, replace=True)
