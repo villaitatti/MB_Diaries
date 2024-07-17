@@ -535,7 +535,8 @@ def ner(output_path):
 @click.option('-c', 'config', help="Type of connection in config.ini to use", default="localhost")
 @click.option('-t', 'title', help="Name of the diary", default=None)
 @click.option('-i', 'index', help="Index of the diary", default=None)
-def exec(diaries, exec_upload, config, title, index):
+@click.option('-iiif', 'iiif_manifest', help="URL of the IIIF Manifest", default=None)
+def exec(diaries, exec_upload, config, title, index, iiif_manifest):
     cur_path = os.path.dirname(os.path.realpath(__file__))
 
     for diary in diaries:
@@ -564,7 +565,7 @@ def exec(diaries, exec_upload, config, title, index):
         writer.write_pages_html(output_path, pages, diary, app_path='/Users/gspinaci/projects/mb_diaries/apps/MB_Diaries-app')
 
         # Create RDF Graphs for the diary
-        diary_graphs = rdf.diary2graphs(diary, manifest, title, index)
+        diary_graphs = rdf.diary2graphs(diary, manifest, title, index, iiif_manifest)
         rdf.write_graphs(output_path, diary_graphs, 'diary')
 
         # Create RDF Graphs for the pages including metadata if any

@@ -54,28 +54,7 @@ Create and write functions for diary graphs.
 """
 
 
-def write_diary_graph(filename, diary):
-    """
-    Writes a diary graph to a file in turtle format.
-
-    This function first creates a directory for the file if it doesn't exist.
-    Then it creates a diary graph for the given diary.
-    Finally, it serializes the graph and writes it to the specified file in turtle format.
-
-    Parameters:
-    filename (str): The name of the file to write the graph to.
-    diary (object): The diary object to create the diary graph from.
-
-    Returns:
-    None
-    """
-    writer.create_dir(os.path.dirname(os.path.abspath(filename)))
-    # Pass the missing argument 'filename'
-    g = create_diary_graph(filename, diary)
-    g.serialize(destination=filename, format='turtle')
-
-
-def create_diary_graph(diary_number, image, title, index):
+def create_diary_graph(diary_number, image, title, index, iiif_manifest):
     """
     Creates a diary graph in RDF format.
 
@@ -106,6 +85,9 @@ def create_diary_graph(diary_number, image, title, index):
     g.add((BASE_NODE, RDFS.label, Literal(diary_title, datatype=XSD.string)))
     g.add((BASE_NODE, MB_DIARIES['order'], Literal(index, datatype=XSD.integer)))
 
+    if iiif_manifest:
+        g.add((BASE_NODE, MB_DIARIES['iiif-manifest'], Literal(iiif_manifest, datatype=XSD.string)))
+
     # Visual representation
     IMAGE_NODE = URIRef(image)
     g.add((BASE_NODE, CRM.P183i_has_representation, IMAGE_NODE))
@@ -122,7 +104,7 @@ def create_diary_graph(diary_number, image, title, index):
     return g
 
 
-def diary2graphs(diary, manifest, title, index):
+def diary2graphs(diary, manifest, title, index, iiif_manifest):
     """
     Converts a diary into a collection of graphs.
 
@@ -135,7 +117,7 @@ def diary2graphs(diary, manifest, title, index):
     """
     front = manifest['sequences'][0]['canvases'][0]['images'][0]['resource']['@id']
     graphs = {}
-    graphs[diary] = create_diary_graph(diary, front, title, index)
+    graphs[diary] = create_diary_graph(diary, front, title, index, iiif_manifest)
     return graphs
 
 

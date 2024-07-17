@@ -35,7 +35,9 @@
         "-t",
         "1894-1895",
         "-i",
-        "2"
+        "2",
+        "-iiif",
+        "https://iiif.lib.harvard.edu/manifests/view/drs:420765293$1i"
       ]
     },
     {
