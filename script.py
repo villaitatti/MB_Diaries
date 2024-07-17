@@ -137,7 +137,7 @@ def parse_pages(paragraphs, diary, l=-1):
 
                 # Page complete
                 pages[page_index] = {
-                    const.key_text: ''.join([p[const.key_text] for p in page_body]),
+                    const.key_text: '\n'.join([p[const.key_text] for p in page_body]),
                     const.key_paragraphs: [p for p in page_body]
                 }
 
@@ -569,7 +569,7 @@ def exec(diaries, exec_upload, config, title, index):
 
         # Create RDF Graphs for the pages including metadata if any
         pages = parse_metadata(pages, diary)
-        pages_graphs = rdf.pages2graphs(diary, manifest, pages)
+        pages_graphs = rdf.pages2graphs(diary, manifest, pages, output_path)
         rdf.write_graphs(output_path, pages_graphs, 'document')
 
         # diary_notes = os.path.join(input_path, const.key_notes_dir, f'{diary}.csv')
