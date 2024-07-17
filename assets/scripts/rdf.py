@@ -144,7 +144,7 @@ Create and write functions for page graphs.
 """
 
 
-def write_page_graph(filename, diary, day):
+def write_page_graph(filename, diary, day, output_path):
     """
     Writes a page graph to a file in turtle format.
 
@@ -161,11 +161,11 @@ def write_page_graph(filename, diary, day):
     None
     """
     writer.create_dir(os.path.dirname(os.path.abspath(filename)))
-    g = create_page_graph(diary, day['page'], day['day'], day['image'])
+    g = create_page_graph(diary, day['page'], day['day'], day['image'], output_path)
     g.serialize(destination=filename, format='turtle')
 
 
-def create_page_graph(diary_number, page_number, page, image):
+def create_page_graph(diary_number, page_number, page, image, output):
     """
     Creates a page graph in RDF format.
 
@@ -229,9 +229,18 @@ def create_page_graph(diary_number, page_number, page, image):
     g.add((PAGE_NODE, RDF.type, MB_DIARIES['Page']))
     g.add((PAGE_NODE, RDF.type, CRM['E22_Man-Made_Object']))
     g.add((PAGE_NODE, RDFS.label, Literal(page_number, datatype=XSD.string)))
-    g.add((PAGE_NODE, MB_DIARIES['index'], Literal(page_number, datatype=XSD.string)))
+    g.add((PAGE_NODE, MB_DIARIES['index'], Literal(page_number, datatype=XSD.integer)))
     g.add((PAGE_NODE, MB_DIARIES['part_of'],
           URIRef(f'{RESOURCE}diary/{diary_number}')))
+
+    # Add fulltext
+    
+    # read txt file 
+    p = os.path.join(output, 'txt', f'{str(page_number)}.txt')
+    with open(p, 'r') as file:
+        page_text = file.read()
+
+        g.add((PAGE_NODE, RDF.value, Literal(page_text, datatype=XSD.string)))
 
     # Add date metadata
 
@@ -276,7 +285,7 @@ def create_page_graph(diary_number, page_number, page, image):
     return g
 
 
-def pages2graphs(diary, manifest, pages):
+def pages2graphs(diary, manifest, pages, output_path):
     """
     Converts a collection of pages into a collection of graphs.
 
@@ -292,7 +301,7 @@ def pages2graphs(diary, manifest, pages):
     graphs = {}
     for key, page in pages.items():
         graphs[key] = create_page_graph(
-            diary, key, page, canvases[max(key-1, 0)]['images'][0]['resource']['@id'])
+            diary, key, page, canvases[max(key-1, 0)]['images'][0]['resource']['@id'], output_path)
     return graphs
 
 
