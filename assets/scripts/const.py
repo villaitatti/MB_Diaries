@@ -114,7 +114,6 @@ note_header_disambiguation2 = "DIsambiguation URL 2"
 note_header_disambiguation3 = "DIsambiguation URL 3"
 
 
-
 diaries = {
   "1891": {
     key_footnote_header_page: 'Page #',
