@@ -84,6 +84,7 @@ def create_diary_graph(diary_number, image, title, index, iiif_manifest):
   g.add((BASE_NODE, CRM.P2_has_type, MB_DIARIES['Diary']))
   g.add((BASE_NODE, RDFS.label, Literal(diary_title, datatype=XSD.string)))
   g.add((BASE_NODE, MB_DIARIES['order'], Literal(index, datatype=XSD.integer)))
+  g.add((BASE_NODE, MB_DIARIES['is_published'], Literal(True, datatype=XSD.boolean)))
 
   if iiif_manifest:
     g.add((BASE_NODE, MB_DIARIES['iiif-manifest'],
