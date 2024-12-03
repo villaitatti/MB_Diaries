@@ -27,6 +27,101 @@ nlp = spacy.load('en_core_web_lg')
 regex_date = re.compile(const.regex_date)
 
 
+def _clean_vectors(vectors):
+    """
+    Clean vectors by extracting page markers into separate objects.
+
+    Args:
+        vectors (list): List of document objects with text and runs.
+
+    Returns:
+        list: New list of vectors with page markers separated.
+    """
+
+    def _split_runs_by_match(runs, match, before=False):
+      new_runs = []
+      for run in runs:
+        # If the match is exaclty the run
+        if match.start() >= run[const.KEY_START_POSITION] and match.end() <= run[const.KEY_END_POSITION]:
+          
+          
+          # If the match is the run
+          if match.start() == run[const.KEY_START_POSITION] and match.end() == run[const.KEY_END_POSITION]:
+            new_runs.append(run)
+            
+          # If the match is at the end of the run 
+          elif match.start() > run[const.KEY_START_POSITION] and match.end() == run[const.KEY_END_POSITION]:
+            new_runs.append({
+              const.KEY_VALUE: run[const.KEY_VALUE].replace(match.group(), ''),
+              const.KEY_TYPE: run[const.KEY_TYPE],
+              const.KEY_START_POSITION: run[const.KEY_START_POSITION],
+              const.KEY_END_POSITION: match.start()
+            })
+            
+          # If the match is in the run but not at the end
+          elif match.start() > run[const.KEY_START_POSITION] and match.end() < run[const.KEY_END_POSITION]:
+            new_runs.append({
+              const.KEY_VALUE: run[const.KEY_VALUE].split(match.group())[0] if before else run[const.KEY_VALUE].split(match.group())[1],
+              const.KEY_TYPE: run[const.KEY_TYPE],
+              const.KEY_START_POSITION: run[const.KEY_START_POSITION],
+              const.KEY_END_POSITION: match.start()
+            })
+        elif before and run[const.KEY_END_POSITION] < match.start():
+          new_runs.append(run)            
+        elif not before and run[const.KEY_START_POSITION] > match.end():
+          new_runs.append(run)
+          
+      return new_runs
+
+    def _get_run_with_page(runs, match):
+      tmp_run = None
+      for run in runs:
+        if match.start() >= run[const.KEY_START_POSITION] and match.end() <= run[const.KEY_END_POSITION]:
+          tmp_run = run.copy()
+          tmp_run[const.KEY_VALUE] = match.group()
+          return tmp_run
+
+    new_vectors = []
+
+    for vector in vectors[const.key_document]:
+        text = vector[const.KEY_TEXT]
+        runs = vector[const.KEY_RUNS]
+        
+        # Search for the page marker in the text
+        match = re.search(const.regex_page_pattern, text, flags=re.MULTILINE)
+        
+        if match:
+          split_match = re.split(const.regex_page_pattern, text)
+
+          # if the match has text before
+          if split_match[0]:
+            new_vectors.append({
+              const.KEY_TEXT: split_match[0],
+              const.KEY_RUNS: _split_runs_by_match(runs, match, before=True)
+            })
+          
+          # in any case, add the page marker
+          new_vectors.append({
+            const.KEY_TEXT: match.group(),
+            const.KEY_RUNS: _get_run_with_page(runs, match)
+          })
+          
+          # if the match has text after
+          if split_match[1]:
+            new_vectors.append({
+              const.KEY_TEXT: split_match[1],
+              const.KEY_RUNS: _split_runs_by_match(runs, match, before=False)
+            })
+            
+
+        else:
+            # If no page marker is found, add the vector as is
+            new_vectors.append(vector)
+
+    return {const.key_document: new_vectors}
+
+  
+
 def clean_footnotes(footnotes):
   dict_footnotes = {}
 
@@ -76,19 +171,6 @@ Parse the pages of the diary and return a dictionary with the following structur
 
 
 def parse_pages(paragraphs, limit=-1):
-  def _is_header(text):
-    """Check if a text starts with the note header key, indicating a header."""
-    return text.startswith(const.key_note_header)
-
-  def _create_paragraph_container(text):
-    """Encapsulate text as a header or paragraph."""
-    text_type = const.key_header if _is_header(text) else const.key_paragraph
-    clean_text = text.replace(const.key_note_header, '').strip(
-    ) if _is_header(text) else text.strip()
-    return {
-        const.key_text: clean_text,
-        const.key_type: text_type
-    }
 
   def _get_page_index(paragraph):
     # Extract page index from the page marker
@@ -113,36 +195,21 @@ def parse_pages(paragraphs, limit=-1):
 
   # Process paragraphs in reverse order
   for paragraph in reversed(paragraphs):
-    if not paragraph:
+    if not paragraph[const.KEY_TEXT]:
       continue
 
     # Check if the paragraph is a page marker
     # E.G., "[0255]"
-    if re.search(page_exact_pattern, paragraph, flags=re.MULTILINE):
+    if re.search(page_exact_pattern, paragraph[const.KEY_TEXT], flags=re.MULTILINE):
 
-      page_index = _get_page_index(paragraph)
+      page_index = _get_page_index(paragraph[const.KEY_TEXT])
       
       _save_page(page_content, page_index)
       page_content = []
-
-    # check if the paragraph contains a page marker 
-    # E.G., "Why should we put [0225] faithfulness above it?"
-    elif re.search(page_pattern, paragraph, flags=re.MULTILINE):
-      page_index = _get_page_index(paragraph)
-
-      paragraph_splits = re.split(page_pattern, paragraph)
-      
-      page_content.append(_create_paragraph_container(paragraph_splits[1]))
-
-      _save_page(page_content, page_index)
-      page_content = []
-      
-      # Store the residual text
-      page_content.append(_create_paragraph_container(paragraph_splits[0]))
       
     # Otherwise, add the paragraph to the current page
     else:
-      page_content.append(_create_paragraph_container(paragraph))
+      page_content.append(paragraph)
 
   # Reverse pages back to original order and apply limit if needed
   pages = OrderedDict(reversed(pages.items()))
@@ -478,15 +545,14 @@ def parse_metadata(pages, diary, limit=-1):
 
     page_metadata = []
     for paragraph in page[const.key_paragraphs]:
-      if paragraph[const.key_type] == 'h3':
-        try:
-          page_metadata.append({
-              const.key_object: dateutil.parser.parse(paragraph[const.key_text], fuzzy=True).strftime('%Y-%m-%d'),
-              const.key_predicate: const.key_note_header
-          })
-        except dateutil.parser.ParserError as ex:
-          print(ex)
-          continue
+      try:
+        page_metadata.append({
+            const.key_object: dateutil.parser.parse(paragraph[const.key_text], fuzzy=True).strftime('%Y-%m-%d'),
+            const.key_predicate: const.key_note_header
+        })
+      except dateutil.parser.ParserError as ex:
+        print(ex)
+        continue
 
     if len(page_metadata) > 0 and const.key_metadata not in page[const.key_paragraphs]:
       page[const.key_metadata] = page_metadata
@@ -542,6 +608,10 @@ def exec(diaries, exec_upload, config, title, index, iiif_manifest):
 
     # Get text and footnote from a docx document
     vec = convert2vec(os.path.join(input_path, f'{diary}.docx'))
+
+    # Clean vectors
+    vec = _clean_vectors(vec)
+    writer.write_json(os.path.join(output_path, 'vectors.json'), vec)
 
     # Parse and write page
     pages = parse_pages(vec[const.key_document])

@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import re
 import json
-from const import key_text, key_index, regex_footnote_id, header_footnotes, key_paragraphs, key_type
+import const
 
 
 def create_dir(dir_path):
@@ -39,7 +39,7 @@ def write_xlsx(filename, body, header):
 
 
 def write_footnotes(output_path, footnotes):
-  df_footnotes = pd.DataFrame(footnotes, columns=header_footnotes)
+  df_footnotes = pd.DataFrame(footnotes, columns=const.header_footnotes)
 
   df_footnotes.to_excel(os.path.join(output_path, "footnotes.xlsx"))
   df_footnotes.to_csv(os.path.join(output_path, "footnotes.csv"))
@@ -49,9 +49,9 @@ def write_pages(output_path, pages):
 
   for key, page in pages.items():
 
-    if key_text in page:
+    if const.key_text in page:
       write_file(os.path.join(output_path, 'txt',
-                 f'{key}.txt'), page[key_text])
+                 f'{key}.txt'), page[const.key_text])
 
   return pages
 
@@ -59,12 +59,23 @@ def write_pages(output_path, pages):
 def write_pages_html(output_path, pages, diary, app_path=None):
 
   for key, page in pages.items():
-    if key_paragraphs in page:
+    if const.key_paragraphs in page:
 
       body = ''
-      for line in page[key_paragraphs]:
-        body += f'\n\t\t<{line[key_type]
-                          }>{line[key_text]}</{line[key_type]}>'
+      for line in page[const.key_paragraphs]:
+        body += f'\n\t\t<p>'
+        
+        for run in line[const.KEY_RUNS]:
+          if run[const.KEY_TYPE] == const.KEY_BOLD:
+            body += f'<b>{run[const.KEY_VALUE]}</b>'
+          elif run[const.KEY_TYPE] == const.KEY_ITALIC:
+            body += f'<i>{run[const.KEY_VALUE]}</i>'
+          elif run[const.KEY_TYPE] == const.KEY_UNDERLINE:
+            body += f'<u>{run[const.KEY_VALUE]}</u>'
+          else:
+            body += run[const.KEY_VALUE]
+        
+        body += f'</p>'
 
       html = f'<html>\n\t<body>{body}\n\t</body>\n</html>'
 

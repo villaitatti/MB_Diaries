@@ -129,3 +129,18 @@ diaries = {
     key_footnote_header_location_link: 'Wikidata ID'
   }
 }
+
+KEY_VALUE = 'value'
+KEY_TYPE = 'type'
+KEY_TEXT = 'text'
+KEY_RUNS = 'runs'
+
+KEY_BOLD = 'bold'
+KEY_ITALIC = 'italic'
+KEY_UNDERLINE = 'underline'
+KEY_STRIKE = 'strike'
+
+KEY_START_POSITION = 'start_position'
+KEY_END_POSITION = 'end_position'
+
+regex_page_pattern = r'\[p?\d+[^\]]*\]'
