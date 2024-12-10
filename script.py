@@ -2,9 +2,10 @@ from collections import OrderedDict
 from spacy.lang.en import English
 import dateutil.parser
 import pandas as pd
-import json
+import logging
 import click
 import spacy
+import json
 import re
 import sys
 import os
@@ -19,6 +20,8 @@ import upload
 import const
 import rdf
 
+# Set up logging
+
 
 nlp_allowed_types = ['PERSON', "ORG", "LOC"]
 
@@ -28,146 +31,83 @@ regex_date = re.compile(const.regex_date)
 
 
 def _clean_vectors(vectors):
-    """
-    Clean vectors by extracting page markers into separate objects.
+  """
+  Clean vectors by extracting page markers into separate objects.
 
-    Args:
-        vectors (list): List of document objects with text and runs.
+  Args:
+      vectors (list): List of document objects with text and runs.
 
-    Returns:
-        list: New list of vectors with page markers separated.
-    """
+  Returns:
+      list: New list of vectors with page markers separated.
+  """
 
-    def _split_runs_by_match(runs, match, before=False):
-      new_runs = []
-      for run in runs:
-        # If the match is exaclty the run
-        if match.start() >= run[const.KEY_START_POSITION] and match.end() <= run[const.KEY_END_POSITION]:
-          
-          
-          # If the match is the run
-          if match.start() == run[const.KEY_START_POSITION] and match.end() == run[const.KEY_END_POSITION]:
-            new_runs.append(run)
-            
-          # If the match is at the end of the run 
-          elif match.start() > run[const.KEY_START_POSITION] and match.end() == run[const.KEY_END_POSITION]:
-            new_runs.append({
-              const.KEY_VALUE: run[const.KEY_VALUE].replace(match.group(), ''),
-              const.KEY_TYPE: run[const.KEY_TYPE],
-              const.KEY_START_POSITION: run[const.KEY_START_POSITION],
-              const.KEY_END_POSITION: match.start()
-            })
-            
-          # If the match is in the run but not at the end
-          elif match.start() > run[const.KEY_START_POSITION] and match.end() < run[const.KEY_END_POSITION]:
-            new_runs.append({
-              const.KEY_VALUE: run[const.KEY_VALUE].split(match.group())[0] if before else run[const.KEY_VALUE].split(match.group())[1],
-              const.KEY_TYPE: run[const.KEY_TYPE],
-              const.KEY_START_POSITION: run[const.KEY_START_POSITION],
-              const.KEY_END_POSITION: match.start()
-            })
-        elif before and run[const.KEY_END_POSITION] < match.start():
-          new_runs.append(run)            
-        elif not before and run[const.KEY_START_POSITION] > match.end():
-          new_runs.append(run)
-          
-      return new_runs
-
-    def _get_run_with_page(runs, match):
-      tmp_run = None
-      for run in runs:
-        if match.start() >= run[const.KEY_START_POSITION] and match.end() <= run[const.KEY_END_POSITION]:
-          tmp_run = run.copy()
-          tmp_run[const.KEY_VALUE] = match.group()
-          return tmp_run
-
-    new_vectors = []
-
-    for vector in vectors[const.key_document]:
-        text = vector[const.KEY_TEXT]
-        runs = vector[const.KEY_RUNS]
-        
-        # Search for the page marker in the text
-        match = re.search(const.regex_page_pattern, text, flags=re.MULTILINE)
-        
-        if match:
-          split_match = re.split(const.regex_page_pattern, text)
-
-          # if the match has text before
-          if split_match[0]:
-            new_vectors.append({
-              const.KEY_TEXT: split_match[0],
-              const.KEY_RUNS: _split_runs_by_match(runs, match, before=True)
-            })
-          
-          # in any case, add the page marker
-          new_vectors.append({
-            const.KEY_TEXT: match.group(),
-            const.KEY_RUNS: _get_run_with_page(runs, match)
-          })
-          
-          # if the match has text after
-          if split_match[1]:
-            new_vectors.append({
-              const.KEY_TEXT: split_match[1],
-              const.KEY_RUNS: _split_runs_by_match(runs, match, before=False)
-            })
-            
-
-        else:
-            # If no page marker is found, add the vector as is
-            new_vectors.append(vector)
-
-    return {const.key_document: new_vectors}
-
+  def _update_run_text(run, text):
+    new_run = run.copy()  # Or use deepcopy if nested structures exist
+    new_run[const.KEY_VALUE] = text
+    return new_run
   
 
-def clean_footnotes(footnotes):
-  dict_footnotes = {}
+  new_vectors = []
 
-  for page_footnotes in footnotes:
-    for footnote in page_footnotes:
+  for vector in vectors[const.key_document]:
+    new_vector = {}
+    runs = vector[const.KEY_RUNS]
+    
+    for run in runs:
+      text = run[const.KEY_VALUE]
+      matches = list(re.finditer(const.regex_page_pattern, text, flags=re.MULTILINE))
+      
+      # If there is no match, add the current run to the vector
+      if len(matches) == 0:
+        new_vector[const.KEY_RUNS] = [] if const.KEY_RUNS not in new_vector else new_vector[const.KEY_RUNS]
+        new_vector[const.KEY_RUNS].append(run)
+      
+      # Otherwise, split the text into multiple runs
+      else:
+        for match in matches:
+          # add the text before to the current vector, with a run
+          # and store the current vector
+          before_text = text[:match.start()]
+          if before_text:
+            new_vector[const.KEY_RUNS] = [] if const.KEY_RUNS not in new_vector else new_vector[const.KEY_RUNS]
+            new_vector[const.KEY_RUNS].append(_update_run_text(run, before_text))
+            new_vectors.append(new_vector)
+            new_vector = {}
+            
+          # case in which the page marker is the only text in the run
 
-      try:
-        footnote_index = re.findall(const.regex_footnote, footnote)[0]
-        full_text = re.sub(const.regex_footnote, "",
-                           footnote).lower().replace(")\t", "").strip()
+          # if there are other runs stored
+          if const.KEY_RUNS in new_vector and len(new_vector[const.KEY_RUNS]) > 0:
+            new_vectors.append(new_vector)
+            new_vector = {}
+          
+          # Add the page marker to a new vector
+          # and store the current vector
+          match_text = text[match.start():match.end()]
+          new_vector[const.KEY_RUNS] = [_update_run_text(run, match_text)]
+          new_vectors.append(new_vector)
+          new_vector = {}
+          
+          # Add the next text to the current vector
+          # The next text should the text until the end of the current text or the start of the next page marker.
+          # Do not store the current vector here, because it may be updated in the next iteration
+          next_match_start = matches[matches.index(match) + 1].start() if matches.index(match) + 1 < len(matches) else len(text)
+          after_text = text[match.end():min(len(text), next_match_start)]
+          if after_text:
+            new_vector[const.KEY_RUNS] = [] if const.KEY_RUNS not in new_vector else new_vector[const.KEY_RUNS]
+            new_vector[const.KEY_RUNS].append(_update_run_text(run, after_text))
 
-        # Create footnote
-        dict_footnotes[footnote_index] = {
-            const.footnote_fulltext: full_text
-        }
+    # Store the current vector if it has not been stored yet
+    if new_vector:
+      new_vectors.append(new_vector)
+      new_vector = {}
+      
 
-        # If contains href
-        href_matches = re.findall(const.regex_href, full_text)
-        if href_matches:
+  # Update text for each vector
+  for vector in new_vectors:
+    vector[const.KEY_TEXT] = ' '.join(run[const.KEY_VALUE] for run in vector[const.KEY_RUNS])
 
-          # Save the links in href attribute
-          permalinks = [href[1] for href in href_matches]
-          dict_footnotes[footnote_index][const.footnote_permalinks] = permalinks
-
-          # If text contains Biblioteca Berenson
-          if "biblioteca berenson" in full_text:
-            dict_footnotes[footnote_index][const.footnote_type] = "Book"
-          else:
-            dict_footnotes[footnote_index][const.footnote_type] = "Person"
-
-        else:
-          dict_footnotes[footnote_index][const.footnote_type] = "Notes"
-
-      except IndexError as ex:
-        print(ex)
-        continue
-
-  return dict_footnotes
-
-
-"""_summary_
-
-Parse the pages of the diary and return a dictionary with the following structure:
-{page_number: {text: <text>, content: [{text: <text>, type: <type>}, ... ]}
-
-"""
+  return {const.key_document: new_vectors}
 
 
 def parse_pages(paragraphs, limit=-1):
@@ -582,6 +522,20 @@ def ner(output_path):
       writer.write_xlsx(os.path.join(
           xlsx_path, f'{name_file}.xlsx'), ner_body_curr)
 
+def _check_number_pages(pages):
+  for i in range(len(pages)):
+    if i not in pages.keys():
+      # create error log
+      error = f'Page {i} is missing'
+      logging.error(error)
+      print(error)
+
+def _check_number_html_pages(pages, diary, output_path):
+  for i in range(len(pages)):
+    if not os.path.exists(os.path.join(output_path, "html", f'{diary}_{i}.html')):
+      error = f'HTML page {i} is missing'
+      logging.error(error)
+      print(error)
 
 @click.command()
 @click.option('-d', 'diaries', required=True, multiple=True, help="Diaries to iterate. -d 1933 [-d 1933]")
@@ -599,6 +553,10 @@ def exec(diaries, exec_upload, config, title, index, iiif_manifest):
     # Update default paths with specific
     input_path = os.path.join(cur_path, 'assets', 'input', diary)
     output_path = os.path.join(cur_path, 'assets', 'output', diary)
+    
+    os.makedirs(output_path, exist_ok=True)
+
+    logging.basicConfig(filename=os.path.join(output_path, 'error.log'), level=logging.ERROR)
 
     manifest = json.load(
         open(os.path.join(input_path, f'{diary}.json')))
@@ -615,10 +573,16 @@ def exec(diaries, exec_upload, config, title, index, iiif_manifest):
 
     # Parse and write page
     pages = parse_pages(vec[const.key_document])
+    # check from 0 to len(pages) if there is a page missing
+    
+    _check_number_pages(pages)
+    
     writer.write_json(os.path.join(output_path, 'pages.json'), pages)
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary,
                             app_path='/Users/gspinaci/projects/mb_diaries/apps/MB_Diaries-app')
+
+    _check_number_html_pages(pages, diary, output_path)
 
     # Create RDF Graphs for the diary
     diary_graphs = rdf.diary2graphs(
@@ -626,7 +590,7 @@ def exec(diaries, exec_upload, config, title, index, iiif_manifest):
     rdf.write_graphs(output_path, diary_graphs, 'diary')
 
     # Create RDF Graphs for the pages including metadata if any
-    pages = parse_metadata(pages, diary)
+    #pages = parse_metadata(pages, diary)
     pages_graphs = rdf.pages2graphs(diary, manifest, pages, output_path)
     rdf.write_graphs(output_path, pages_graphs, 'document')
 
