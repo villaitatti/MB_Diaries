@@ -2,6 +2,7 @@ import os
 
 import const
 import configparser
+from tqdm import tqdm
 
 BASE_URI = 'https://mbdiaries.itatti.harvard.edu'
 
@@ -88,34 +89,29 @@ def upload(output_path, diary, config):
   for (dir_path, dir_names, file_names) in os.walk(diary_dir, topdown=True):
 
     if len(file_names) > 0:
-
-      # Iterate files
-      for file_name in file_names:
+      # Iterate files with progress bar
+      for file_name in tqdm(file_names, desc="Uploading files", unit="file"):
 
         graph_name = BASE_URI
         t = os.path.basename(os.path.normpath(dir_path))
 
         if t == 'diary':
-          graph_name += f'/resource/{t}/{
-            file_name.replace(f".{const.turtle_ext}", "")}/context'
+          graph_name += f'/resource/{t}/{file_name.replace(f".{const.turtle_ext}", "")}/context'
 
         elif t == 'annotation':
-          graph_name += f'/diary/{diary}/{t}/{file_name.replace(
-            f".{const.turtle_ext}", "")}/container/context'
+          graph_name += f'/diary/{diary}/{t}/{file_name.replace(f".{const.turtle_ext}", "")}/container/context'
 
         else:
-          graph_name += f'/diary/{diary}/{t}/{
-            file_name.replace(f".{const.turtle_ext}", "")}/context'
+          graph_name += f'/diary/{diary}/{t}/{file_name.replace(f".{const.turtle_ext}", "")}/context'
 
-        print(f'\n{graph_name}')
+        #print(f'\n{graph_name}')
 
-        r_url = f'{credentials[const.key_upload_endpoint]
-                   }rdf-graph-store/?graph={graph_name}'
+        r_url = f'{credentials[const.key_upload_endpoint]}rdf-graph-store/?graph={graph_name}'
 
         # DELETE
-        print(_del(r_url, credentials))
+        _del(r_url, credentials)
 
         # PUT
-        print(_post(os.path.join(dir_path, file_name), r_url, credentials))
+        _post(os.path.join(dir_path, file_name), r_url, credentials)
 
     print(file_names)
