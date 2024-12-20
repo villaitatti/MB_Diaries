@@ -127,8 +127,8 @@ def parse_pages(paragraphs, limit=-1):
         const.key_paragraphs: page_content
     }
 
-  page_pattern = r'\[p?\d+[^\]]*\]'
-  page_exact_pattern = r'^\[p?\d+[^\]]*\]$'
+  page_pattern = r'\[p?0*\d{,3}\]'
+  page_exact_pattern = rf'^{page_pattern}$'
   page_index_pattern = re.compile(r'\d+')
   pages = OrderedDict()
   page_content = []
