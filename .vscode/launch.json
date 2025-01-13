@@ -36,6 +36,8 @@
         "1894-1895",
         "-i",
         "2",
+        "-gdoc",
+        "1MV4eYJIirkq4wKPp1FGDdpzzlx-EylpU",
         "-iiif",
         "https://iiif.lib.harvard.edu/manifests/view/drs:420765293$1i"
       ]
@@ -49,7 +51,7 @@
       "args": [
         "-d",
         "1895-96",
-        "-u",
+        //"-u",
         "-c",
         "collection",
         "-t",

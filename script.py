@@ -19,6 +19,7 @@ import writer
 import upload
 import const
 import rdf
+import requests
 
 # Set up logging
 
@@ -28,6 +29,17 @@ nlp_allowed_types = ['PERSON', "ORG", "LOC"]
 nlp = spacy.load('en_core_web_lg')
 
 regex_date = re.compile(const.regex_date)
+
+def download_google_doc(file_id, output_path):
+  download_url = f'https://docs.google.com/uc?export=download&id={file_id}'
+  response = requests.get(download_url)
+  
+  if response.status_code == 200:
+    with open(output_path, 'wb') as f:
+      f.write(response.content)
+    print(f'Downloaded document to {output_path}')
+  else:
+    print(f'Failed to download document. Status code: {response.status_code}')
 
 
 def _clean_vectors(vectors):
@@ -543,8 +555,9 @@ def _check_number_html_pages(pages, diary, output_path):
 @click.option('-c', 'config', help="Type of connection in config.ini to use", default="localhost")
 @click.option('-t', 'title', help="Name of the diary", default=None)
 @click.option('-i', 'index', help="Index of the diary", default=None)
+@click.option('-gdoc', 'google_doc', help="The Google Doc file ID", default=None)
 @click.option('-iiif', 'iiif_manifest', help="URL of the IIIF Manifest", default=None)
-def exec(diaries, exec_upload, config, title, index, iiif_manifest):
+def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest):
   cur_path = os.path.dirname(os.path.realpath(__file__))
 
   for diary in diaries:
@@ -553,6 +566,11 @@ def exec(diaries, exec_upload, config, title, index, iiif_manifest):
     # Update default paths with specific
     input_path = os.path.join(cur_path, 'assets', 'input', diary)
     output_path = os.path.join(cur_path, 'assets', 'output', diary)
+    docx_path = os.path.join(input_path, f'{diary}.docx')
+
+    # Download the Google Doc ID is provided
+    if google_doc:
+      download_google_doc(google_doc, docx_path)
     
     os.makedirs(output_path, exist_ok=True)
 
@@ -565,7 +583,7 @@ def exec(diaries, exec_upload, config, title, index, iiif_manifest):
     writer.create_dir(output_path)
 
     # Get text and footnote from a docx document
-    vec = convert2vec(os.path.join(input_path, f'{diary}.docx'))
+    vec = convert2vec(docx_path)
 
     # Clean vectors
     vec = _clean_vectors(vec)
