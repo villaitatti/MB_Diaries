@@ -51,13 +51,15 @@
       "args": [
         "-d",
         "1895-96",
-        //"-u",
+        "-u",
         "-c",
         "collection",
         "-t",
         "1895-1896",
         "-i",
-        "3"
+        "3",
+        "-gdoc",
+        "12x4qDF9kZZQkdV1977mYZnT17ooqmKPc",
       ]
     },
     {
