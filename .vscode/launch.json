@@ -71,13 +71,15 @@
       "args": [
         "-d",
         "1896-98",
-        "-u",
+        //"-u",
         "-c",
         "collection",
         "-t",
         "1896-1898",
         "-i",
-        "4"
+        "4",
+        //"-gdoc",
+        //"1ScbntU6rpR7ISp1R4qFGjEtonoFC5AZp"
       ]
     },
     {
@@ -95,7 +97,9 @@
         "-t",
         "1898-1899",
         "-i",
-        "5"
+        "5",
+        "-gdoc",
+        "1SNgPLsyQtpiens7P5np5Jk0u7dpx4ihH"
       ]
     },
     {
@@ -113,7 +117,9 @@
         "-t",
         "1899-1902",
         "-i",
-        "6"
+        "6",
+        "-gdoc",
+        "1SCRW4f3uqCHlBBwgSOQbLBxsmYyxgjVw"
       ]
     },
     {
