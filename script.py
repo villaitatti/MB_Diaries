@@ -122,7 +122,7 @@ def _clean_vectors(vectors):
   return {const.key_document: new_vectors}
 
 
-def parse_pages(paragraphs, limit=-1):
+def parse_pages(paragraphs, limit=-1, regex=None):
 
   def _get_page_index(paragraph):
     # Extract page index from the page marker
@@ -139,7 +139,11 @@ def parse_pages(paragraphs, limit=-1):
         const.key_paragraphs: page_content
     }
 
-  page_pattern = r'\[p?0*\d{,3}\]'
+  if regex:
+    page_pattern = regex
+  else:
+    page_pattern = r'\[p?0*\d{,3}\]'
+  
   page_exact_pattern = rf'^{page_pattern}$'
   page_index_pattern = re.compile(r'\d+')
   pages = OrderedDict()
@@ -553,7 +557,8 @@ def _check_number_pages(pages):
 @click.option('-i', 'index', help="Index of the diary", default=None)
 @click.option('-gdoc', 'google_doc', help="The Google Doc file ID", default=None)
 @click.option('-iiif', 'iiif_manifest', help="URL of the IIIF Manifest", default=None)
-def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest):
+@click.option('-r', 'regex', help="Regex pattern for pages", default=None)
+def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest, regex):
   cur_path = os.path.dirname(os.path.realpath(__file__))
 
   for diary in diaries:
@@ -586,7 +591,7 @@ def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest):
     writer.write_json(os.path.join(output_path, 'vectors.json'), vec)
 
     # Parse and write page
-    pages = parse_pages(vec[const.key_document])
+    pages = parse_pages(vec[const.key_document], regex=regex)
     # check from 0 to len(pages) if there is a page missing
     
     _check_number_pages(pages)
@@ -595,8 +600,6 @@ def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest):
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary,
                             app_path='/Users/gspinaci/projects/mb_diaries/apps/MB_Diaries-app')
-
-    _check_number_html_pages(pages, diary, output_path)
 
     # Create RDF Graphs for the diary
     diary_graphs = rdf.diary2graphs(

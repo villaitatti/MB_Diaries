@@ -139,7 +139,9 @@
         "-i",
         "7",
         "-gdoc",
-        "1SPDFwOeJWhlClbiIW2C7q_YPSroQ5MEk"
+        "1SPDFwOeJWhlClbiIW2C7q_YPSroQ5MEk",
+        "-r",
+        "\\[p\\d+\\]"
       ]
     },
     {
