@@ -535,19 +535,15 @@ def ner(output_path):
           xlsx_path, f'{name_file}.xlsx'), ner_body_curr)
 
 def _check_number_pages(pages):
-  for i in range(len(pages)):
+  highest_page = max(pages.keys())
+  for i in range(highest_page):
+    line = f'Page {i}'
     if i not in pages.keys():
-      # create error log
-      error = f'Page {i} is missing'
-      logging.error(error)
-      print(error)
-
-def _check_number_html_pages(pages, diary, output_path):
-  for i in range(len(pages)):
-    if not os.path.exists(os.path.join(output_path, "html", f'{diary}_{i}.html')):
-      error = f'HTML page {i} is missing'
-      logging.error(error)
-      print(error)
+      line += ' \t\tMISSING'
+      logging.error(line)
+    else:
+      logging.debug(line)
+    print(line)
 
 @click.command()
 @click.option('-d', 'diaries', required=True, multiple=True, help="Diaries to iterate. -d 1933 [-d 1933]")
