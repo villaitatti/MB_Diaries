@@ -170,7 +170,20 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1905", "-u", "-c", "collection", "-t", "1905", "-i", "9"]
+      "args": [
+        "-d", 
+        "1905", 
+        "-u", 
+        "-c", 
+        "collection", 
+        "-t", 
+        "1905", 
+        "-i", 
+        "9",
+        "-gdoc",
+        "1STs03BFM-VWsqamKuZJUMC7zz5iBRbpm"
+      
+      ]
     },
     {
       "name": "10_1906 | Execute full pipeline",
