@@ -238,7 +238,19 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1909", "-u", "-c", "collection", "-t", "1909", "-i", "13"]
+      "args": [
+        "-d", 
+        "1909", 
+        "-u", 
+        "-c", 
+        "collection", 
+        "-t", 
+        "1909", 
+        "-i", 
+        "13",
+        "-gdoc",
+        "1RXVmS0cib-wzxprFE4vxKsM3PK2IiaQ0"
+      ]
     },
     {
       "name": "14_1915 | Execute full pipeline",
