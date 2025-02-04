@@ -59,7 +59,7 @@
         "-i",
         "3",
         "-gdoc",
-        "12x4qDF9kZZQkdV1977mYZnT17ooqmKPc",
+        "12x4qDF9kZZQkdV1977mYZnT17ooqmKPc"
       ]
     },
     {
@@ -77,7 +77,7 @@
         "-t",
         "1896-1898",
         "-i",
-        "4",
+        "4"
         //"-gdoc",
         //"1ScbntU6rpR7ISp1R4qFGjEtonoFC5AZp"
       ]
@@ -171,18 +171,17 @@
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
       "args": [
-        "-d", 
-        "1905", 
-        "-u", 
-        "-c", 
-        "collection", 
-        "-t", 
-        "1905", 
-        "-i", 
+        "-d",
+        "1905",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1905",
+        "-i",
         "9",
         "-gdoc",
         "1STs03BFM-VWsqamKuZJUMC7zz5iBRbpm"
-      
       ]
     },
     {
@@ -192,14 +191,14 @@
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
       "args": [
-        "-d", 
-        "1906", 
-        "-u", 
-        "-c", 
-        "collection", 
-        "-t", 
-        "1906", 
-        "-i", 
+        "-d",
+        "1906",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1906",
+        "-i",
         "10",
         "-gdoc",
         "1SUSlj70W5pPoZEBPrcWdBqVB64JdUT9Y"
@@ -211,7 +210,19 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1907", "-u", "-c", "collection", "-t", "1907", "-i", "11"]
+      "args": [
+        "-d", 
+        "1907", 
+        "-u", 
+        "-c", 
+        "collection", 
+        "-t", 
+        "1907", 
+        "-i", 
+        "11",
+        "-gdoc",
+        "1RPqaJo4uX2vo5CSRhNQHqdZRqHW34Qad"
+      ]
     },
     {
       "name": "12_1908 | Execute full pipeline",

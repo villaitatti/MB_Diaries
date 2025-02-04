@@ -70,3 +70,6 @@ Cleaning the diaries is a semi-automatic process. I am following these steps:
     * `^(?!\$\$HEADER\$\$_)(.*?\b(?:Jan.|Feb.|Mar.|Apr.|May|June|Jul.|Aug.|Sept.|Oct.|Nov.|Dec.)\s+\d{1,2},\s+\d{4})`
     * if needed update regex to match diary cases (e.g., Jun. instead of June)
 5. Find and replace `<` and `>` with `[` and `]`
+
+
+Also, the passing from Microsoft Words to Google docs seems to introduce `\u00a0` characters. replace them
