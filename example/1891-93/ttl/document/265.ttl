@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/265> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/265> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "265"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/265/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/265> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756635/full/full/0/default.jpg> ;
+    rdf:value """attack of pain in the night - attended with that common delusion that the covers were slipping off. I took some brandy which sent me to sleep. It was the severest pain I have ever had except childbirth, or when the dentist is actually touching a nerve in a tooth.
+Tuesday April 26. ‘92. Albergo Nazionale. Volterra
+We visited several Churches, etc., in the morning.At Santa Caterina, in the seminary attached to it, we found a wonderful altar piece in many compartments by Simone Martini. It was half hidden, and dreadfully neglected. Bernhard roused the head of the Seminary, an unassuming young priest, to great interest in it, and he promised to clean it and set it up together in the form of an altar. We saw, too, some wonderful Ghirlandaios, best of all a St. Rock, of whom no one makes mention.Then we came here, a 3 hours railway journey, with 2 hours staging at the end.I read a stupid American novel, finished my  Creighton  and began his “ Cardinal Wolsey. ”Bernhard read von Reumont.When we reached here, we loitered about the town for a while, and dropped in at the Duomo, and saw some most interesting pictures, among them a fine Signorelli.We had a nice dinner, seasoned with hunger, and in the evening we polished up the Bassano and read."""^^xsd:string ;
+    mbdiaries-ontology:index 265 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756635/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/265/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_265"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/265/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/265/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-26> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday April 26. ‘92. Albergo Nazionale. Volterra..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/265> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_265.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_265.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-26> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-26> a crm:E52_Time_Span ;
+    rdfs:label "April 26, 1992"^^xsd:string ;
+    rdf:value "1992-04-26"^^xsd:date .
+

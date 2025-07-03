@@ -1,0 +1,54 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/272> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/272> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "272"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/272/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/272> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756649/full/full/0/default.jpg> ;
+    rdf:value """x  Wednesday May 11. ’92 Albergo Discordia Bergamo
+☞ (This is really  Tuesday’s  record)  ☜
+San Bartolomeo, San Spirito and San Giovanni, with  culminatingly  beautiful Lottos. We were adorably happy over them. We saw other churches, including the wonderful Tiepolos in the Colleoni Chapel, and the Lotto intarsias.In the afternoon we saw the Gallery, and had an enchanting walk up to the  Castello . Worked in the evening.
+*  Thursday May 12. 1892 Bergamo
+After various Churches we went to the Gallery.After lunch we wrote till 4 when we went to Trescorre to see the Lottos, and then to the Suardi’s other villa to see another Lotto. Passed Costa and Frizzoni in the train coming back.Finished our Guide in the evening.
+>  Friday May 13. 1892 Milano
+Brera, Poldi-Pezzoli, Borromeo Collection, Tiepolo’s and a Church -I was tired but happy.We talked to Jens Thiis - Conservateur de la Musée de sculture à Christiana in """^^xsd:string ;
+    mbdiaries-ontology:index 272 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756649/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/272/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_272"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/272/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/272/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1992-05-11> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "x  Wednesday May 11. ’92 Albergo Discordia Bergamo..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/272> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_272.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_272.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1992-05-11> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1992-05-11> a crm:E52_Time_Span ;
+    rdfs:label "May 11, 1992"^^xsd:string ;
+    rdf:value "1992-05-11"^^xsd:date .
+

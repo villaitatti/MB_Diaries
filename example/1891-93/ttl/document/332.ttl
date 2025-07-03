@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/332> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/332> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "332"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/332/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/332> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756753/full/full/0/default.jpg> ;
+    rdf:value """various things. We went together after lunch to see the Lorenzo da Viterbos, an astonishing and utterly unknown painter almost equal to Melozzo!Drove out at sunset to Santa Maria della Quercia and saw the cloisters again.
+Thursday Nov. 17. 1892. Aquila Bianca Orvieto
+Drove here from Viterbo, lunching at Bolsena.There is a beautiful Church façade put up by Leo X while he was Cardinal, and other interesting things. We stopped at Montefiascone by the way and saw the Romanesque church, S. Flaviano, and the domes Church by Sanmichele.Found this a nice hotel. The day was as warm as summer, and the drive was enchanting.
+x  Friday Nov. 18. 1892 Orvieto
+Saw the Duomo and enjoyed the façade, although it is gothic! - to the utmost. The interior is splendid, in spite of the inadequate choir and the horrible mistake of slitting in windows between the side chapels. The Signorellis disappointed me. I expected to be  carried away ,  and instead, the faults of composition and the lack of decorative effect bothered me, in spite of the wonderful """^^xsd:string ;
+    mbdiaries-ontology:index 332 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756753/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/332/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_332"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/332/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/332/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-17> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday Nov. 17. 1892. Aquila Bianca Orvieto..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/332> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_332.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_332.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-17> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-17> a crm:E52_Time_Span ;
+    rdfs:label "November 17, 1892"^^xsd:string ;
+    rdf:value "1892-11-17"^^xsd:date .
+

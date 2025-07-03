@@ -1,0 +1,56 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/423> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/423> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "423"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/423/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/423> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756897/full/full/0/default.jpg> ;
+    rdf:value """ Wednesday Sept. 27. 1893. Venice
+Went to S. Cassiano and the Correr in the morning and to S. Giorgio Maggiore and the Redentore in the afternoon.Read Ranke.
+Thursday Sept. 28. 1893. Venice
+Spent the morning at the Academy and San Giorgio degli Schiavone. [ sic ]
+In the afternoon went to the Salute and the Seminary and San Giobbe.Met Willy Peel and Vaughan Williams.
+Friday Sept. 29. 1893. Venice
+Churches (I forget what) and Torcello in the afternoon.I went with Marion to see the “Serva Amorosa” by Goldoni, and enjoyed it immensely. What is natural acting in Italy is the humble stage convention in England. Here it is the very life, but adapted; there it is the very thing Hamlet lectured the players against.
+Saturday Sept. 30. 1893. Venice
+Academy, Santa Catarina, Madonna dell’Orto.Bernhard’s proof came and we corrected them. Great fun seeing first book in print."""^^xsd:string ;
+    mbdiaries-ontology:index 423 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756897/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/423/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_423"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/423/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/423/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-09-27> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Wednesday Sept. 27. 1893. Venice..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/423> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_423.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_423.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-09-27> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-09-27> a crm:E52_Time_Span ;
+    rdfs:label "September 27, 1893"^^xsd:string ;
+    rdf:value "1893-09-27"^^xsd:date .
+

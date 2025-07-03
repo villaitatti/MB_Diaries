@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/307> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/307> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "307"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/307/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/307> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756719/full/full/0/default.jpg> ;
+    rdf:value """in with a gold chain fastened across it, that no one else may profane the holy resting place! After the Academy we went, still with Mrs. and Miss Sperry, to Murano and saw S. Pietro, Santa Maria dei Angeli, and the Duomo.I am still on  Charles V , and Bernhard is reading Eastlake’s  History of Oil Painting .
+x  Venice. Tuesday Oct. 4. 1892 .
+San Giuliano, San Salvador, and Santa Maria Mater Domini, in the morning. In the afternoon we went back to San Salvador and the sacristan actually took down the horrible affair on the High Altar and we saw the glorious Titian Resurrection.Then we went to San Zaccaria and came home and finished the Morelli article.In the evening we called for Mrs. Sperry and her daughter and went out on the lagoon in the moonlight. They are a pathetic pair: the old mother fancying she is living for her daughter, dragging her old bones about the Continent to please her which	 the daughter feels - “O, if I were only free to go my own way and be with people of my own age, how happy I should be!”"""^^xsd:string ;
+    mbdiaries-ontology:index 307 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756719/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/307/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_307"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/307/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/307/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-04> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "x  Venice. Tuesday Oct. 4. 1892 ...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/307> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_307.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_307.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-04> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-04> a crm:E52_Time_Span ;
+    rdfs:label "October 04, 1892"^^xsd:string ;
+    rdf:value "1892-10-04"^^xsd:date .
+

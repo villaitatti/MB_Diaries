@@ -1,0 +1,56 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/262> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/262> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "262"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/262/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/262> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756629/full/full/0/default.jpg> ;
+    rdf:value """* Wednesday April 20. 1892. Hotel de Russie Viareggio
+Wrote and walked.Bernhard finished “ Les Soeurs Vatard”  by Huysmans
+and began “ Marthe. ”
+Thursday - April 21. 1892 Viareggio
+Finished our “Venetians” on the beach in the morning.Walked in the woods in the afternoon.Type-wrote in evening. I tried to cheat Bernhard, but repented.
+*  Friday April 22. 1892. Albergo di Corona. Lucca
+We came over in the 11 o’clock train and lurked about the town all the afternoon, dropping in at all the Churches and the Gallery, and taking a general view.Towards sunset we walked all about the lovely town walls.
+Saturday April 23. 1892. Lucca. 
+Took notes on the pictures in the morning - and after lunch in the Gallery. Then we took the steam tram to Ponte a Mariano, and there made a bargain with a reluctant cabby to take us up to La Pieve di Brancoli. After declaring that he would not walk with us there for four francs, he drove us there for three, but it was indeed a climb! At the top we found a quaint 12th century Church, with rude """^^xsd:string ;
+    mbdiaries-ontology:index 262 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756629/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/262/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_262"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/262/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/262/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-04-20> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "* Wednesday April 20. 1892. Hotel de Russie Viareg..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/262> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_262.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_262.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-04-20> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-04-20> a crm:E52_Time_Span ;
+    rdfs:label "April 20, 1892"^^xsd:string ;
+    rdf:value "1892-04-20"^^xsd:date .
+

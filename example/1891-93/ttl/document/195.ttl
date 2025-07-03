@@ -1,0 +1,37 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/195> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/195> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "195"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/195> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756537/full/full/0/default.jpg> ;
+    rdf:value """It is due to thee that I should lovingly and tenderly (sic!) as a father press these things upon thee.
+More than all thee could hope to gain pecuniarily by self support would be lost by the expenses and inconveniences of a separated life. I earnestly advise thee to make the best of thy home. Thee made a false step by refusing the counsel of thy parents and it has turned out only less bad than we expected. And now at this crisis of thy life, yet more earnestly and with far more certainty as to the terrible results, we entreat thee not to desert thy children and family, and involve us all in social ruin. In thy conspicuous position, concealment of the facts of thy absence and the circumstances of thy travelling cannot be hoped for.
+In much sorrow, but also much love
+Thy Father
+“I would simply say to her, use thy allowance decently and not against the primary instincts of nature. It is thine, but not to ruin us all by buying dynamite.” I cannot think it """^^xsd:string ;
+    mbdiaries-ontology:index 195 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756537/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/195> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_195.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_195.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

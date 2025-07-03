@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/340> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/340> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "340"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/340/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/340> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756761/full/full/0/default.jpg> ;
+    rdf:value """ Tuesday Jan. 3. 1893.  Florence
+Bernhard discovered he had earned £200 by getting Burke’s picture for him for 600 instead of 800. Burke is going to invest it for him. We feel rich, and for once kindness and gratitude have met. We sang Burke’s praises to each other all day long.I had a German lesson while Bernhard shopped for me. Then we walked in the Cascine. After tea, I made up an account while he wrote to Burke, and after dinner we looked at photographs and read.He has just finished and I am just beginning  Ranke’s Histoire de France .
+Wednesday. Jan. 4. 1893. Florence
+I began Perry’s Greek Literature . It is one of the most fascinating books I ever read.Studied German and wrote to Lady Eastlake, while Bernhard went to the Panciatichi Gallery. After lunch we walked through the Uffizi and Pitti and over Bellosguardo, meeting Mr. Way who was walking there alone looking sad.After tea Bernhard called on William James, whom he found as charming as ever, but full of vain talk """^^xsd:string ;
+    mbdiaries-ontology:index 340 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756761/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/340/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_340"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/340/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/340/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-01-03> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Tuesday Jan. 3. 1893.  Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/340> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_340.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_340.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-01-03> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-01-03> a crm:E52_Time_Span ;
+    rdfs:label "January 03, 1893"^^xsd:string ;
+    rdf:value "1893-01-03"^^xsd:date .
+

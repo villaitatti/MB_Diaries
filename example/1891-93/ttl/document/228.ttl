@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/228> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/228> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "228"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/228> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756585/full/full/0/default.jpg> ;
+    rdf:value "Costa and Giovanni were there. Half way through Costa said, “I am boring myself to death,” and went out. We followed his example very shortly.We discussed the heinousness of various offences rather hotly. I must say that going about with prostitutes seems to me about the worst and hatefullest personal vice a man can have, but B. does not agree with me! Some things make me boil over with indignation. Mother wrote in a letter to Alys, which Alys sent me, that if Alys wanted to go to a certain party, she would send Jessie or Lucy to bring her home in a cab -! Alys is a great strapping young woman of 24, bigger than either of the servants, and fully as well able to take care of herself. Moreover, servants are far more likely to be accosted than ladies. But they are poor, so it doesn’t matter. I know society is organized so - but I hate to realize that  mother  gives it her approval. She would not have before she came to England. Then the utter indignity for a girl like Alys, who calls herself “free,” of being sent for - I would rather be Lucy or Jessie than a helpless "^^xsd:string ;
+    mbdiaries-ontology:index 228 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756585/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/228> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_228.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_228.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

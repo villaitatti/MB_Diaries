@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/295> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/295> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "295"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/295/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/295> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756695/full/full/0/default.jpg> ;
+    rdf:value """ Thursday September 8. 1892. Paris
+Went to Louvre and met Hapgood and Thiis. Later Florentines and drawings. Bernhard took Prof. Bôcher to the Luxembourg and I took Frank Whitall and Will Nicholson (first cousins whose births I can remember, now tall young men with incipient moustaches!) to the Pharmacie, New Sorbonne, Hotel de Ville, etc. Frank, like so many intellectual Americans, knew about twice as much of what Art  ought  to be as people who have studied it for years!In the evening we went for the third time to hear  Les Troyens  at the Opéra Comique. Marie Delna sang, more gloriously than ever, and we were simply enraptured with the music.
+x  Friday Sept. 9. 1892. Paris
+Louvre in the morning, Hapgood and Thiis. Umbrian School. Lunched with Hapgood who came here and looked over the Lionardo book and talked.Then we drove with him in the Bois and Bernhard talked “doctrine” which Hapgood drank in. He is astonishingly honest and free from vanity. We dined together. We discussed  genre  and came to the conclusion that the term has no meaning now. Bernhard compared the growth of Art to  hair.  It depends on the general state of the body (Society), yet has an independent growth from itself. It is a capital idea. I mean it clears up a great deal for me that had been confused. I read  Rosario in the evening, and Bernhard  Charles Demailly ."""^^xsd:string ;
+    mbdiaries-ontology:index 295 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756695/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/295/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_295"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/295/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/295/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-08> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Thursday September 8. 1892. Paris..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/295> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_295.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_295.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-08> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-08> a crm:E52_Time_Span ;
+    rdfs:label "September 08, 1892"^^xsd:string ;
+    rdf:value "1892-09-08"^^xsd:date .
+

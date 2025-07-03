@@ -1,0 +1,37 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/318> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/318> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "318"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/318> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756739/full/full/0/default.jpg> ;
+    rdf:value """Monday Oct. 24. 1892.** Albergo Milano. Macerata  diretto da Cesare Fratini
+Drove again to Recanati. On the way we bought some grapes of several intelligent contadine. They asked where we came from. “Inghilterra” - They looked blank “Non avete sentito mai dell’Inghilterra?” -“No, Signore, mai, mai!” We succeeded in seeing the Lottos this time and found them very interesting.We walked out to look at a wonderful view of snow mountains. A young woman with a baby followed us. We told her we were from America and asked her if she had ever heard of America - “Chi lo sa!” was her answer. We drove on here, reaching here about 6. The cooking is simply marvellous here! …Flea powder, applied lavishly, banishes fleas, but it is horribly dirty. Still I prefer dirt to fleas!
+Tuesday Oct. 25. Macerata
+Drove to Monte San Giusto and saw a Crucifixion by Lotto which is perhaps his masterpiece.They had no coffee in the town! As it was a festa, the  whole  population followed us everywhere and cheered us when we drove off. I suppose they had never seen a female “forestiere” before. On our way back we took in Pansula, where we discovered a Crivelli!
+We both seem rather cross these days, and I am unhappy except when I am at work. Each little thing I see keeps reminding me of """^^xsd:string ;
+    mbdiaries-ontology:index 318 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756739/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/318> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_318.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_318.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

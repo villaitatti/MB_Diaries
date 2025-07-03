@@ -1,0 +1,58 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/421> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/421> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "421"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/421/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/421> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756895/full/full/0/default.jpg> ;
+    rdf:value """people shouting all night.
+Monday Sept. 18. ‘93. Roma. Cittadella
+We have enjoyed Vicenza to the full! Walked out to the Villa Valmarana, Rotonda, and Monte Berico.Came here in the evening train.
+Tuesday Sept. 19. 1893. Stella d’Oro. Treviso
+Saw Cittadella, Campo San Pierro and Castelfranco.Came here and strolled about.
+x  Wednesday Sept. 20. Europa, Conegliano
+“Did” Treviso and came here.Saw the Cima collection (documents and manuscripts) in the Municipio and made the acquaintance of the priest who got up the Cima festival.
+Thursday Sept. 21. 1893. Monaco. Venice
+Went to Serravalle and Ceneda, Susegana and Colalto. Such a golden day - none of us had ever seen the like!Came here.
+Friday Sept. 22. 93. Venice
+St. Mark’s, S. Giovanni in Bragora.Train. I met Mr. and Mrs. Massingham. Sir H.[enry] Layard’s in the afternoon.Bernhard called on Mlle Jakowska and Hapgood and I “gondoled”."""^^xsd:string ;
+    mbdiaries-ontology:index 421 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756895/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/421/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_421"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/421/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/421/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1993-09-18> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday Sept. 18. ‘93. Roma. Cittadella..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/421> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_421.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_421.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1993-09-18> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1993-09-18> a crm:E52_Time_Span ;
+    rdfs:label "September 18, 1993"^^xsd:string ;
+    rdf:value "1993-09-18"^^xsd:date .
+

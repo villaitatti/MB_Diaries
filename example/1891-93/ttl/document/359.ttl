@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/359> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/359> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "359"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/359/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/359> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756781/full/full/0/default.jpg> ;
+    rdf:value """ Friday Feb. 10. 1893. 
+A completely Loeserized day. He lunched with us, and spent the afternoon - it was raining - and we dined with him and spent the evening.We read Mallarmé - a goose.Bernhard discovered that a puzzling picture in the National Gallery is by Balducci. He is reading  Rabelais , and I  Tristram Shandy . I had a sweet little letter from Ray, written all of her own accord when she heard I was ill, and some pictures from her. I sent her the Donatello San Giovannino of Faenza to give Miss Irene as a Valentine. Ray’s letter said “Dearest Mary, We are going to the pantomime and the Zoo. Do you love me very truly? I love you a hundred dollars. That would buy a nice castle. Thy loving Ray.”
+Saturday Feb. 11. 1893. 
+Worked on Lotto, went to the Pitti, walked to San Domenico, came home and worked on Lotto.Costa called, and I went to dine with the James. They had a dinner party, to my horror. It was curious that a sculptor named ‘Oberyst’ (?), whom I had refused to meet at Loeser’s, and who had equally refused to meet me, should have been there. Mrs. James insisted on our talking together, and finally the rest of the company sat silent to listen as we discussed Ekkehardt and Potapenko and Huysmans and Besnard. I laid down pure “Doctrine” to his flabergastment.Bernhard spent the evening with Costa."""^^xsd:string ;
+    mbdiaries-ontology:index 359 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756781/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/359/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_359"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/359/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/359/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-10> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Friday Feb. 10. 1893. ..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/359> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_359.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_359.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-10> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-10> a crm:E52_Time_Span ;
+    rdfs:label "February 10, 1893"^^xsd:string ;
+    rdf:value "1893-02-10"^^xsd:date .
+

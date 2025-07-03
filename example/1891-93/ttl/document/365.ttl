@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/365> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/365> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "365"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/365/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/365> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756790/full/full/0/default.jpg> ;
+    rdf:value """shy of mentioning the different parts of the body by name that discussion was difficult.We walked in the Boboli Gardens together, and then continued the Lotto catalogue, the typo-paper having come. I finished  Tristram Shandy  and Bernhard entered upon Vol. II of  Rabelais .
+Monday Feb. 20. 1893. 
+Finished Mrs. Bywater’s notes, and went to Santa Trinità and the Uffizi in the morning. We both discovered a drawing by Amico Aspertini. After lunch we continued the Lotto and then took a walk in the Cascine.I called on Miss Britten while Bernhard wrote to Fields.Then we did some more Lotto. In the evening Bernhard called on the Forbes and I studied German.He made me angry - though it would puzzle me to explain  why ! - by maintaining that humanity  had  to push up just so many “geniuses” in each direction and that if one died another would come inevitably to take  exactly  his place. Charles V, for example, was bound to have a Titian, Julius II a Michelangelo."""^^xsd:string ;
+    mbdiaries-ontology:index 365 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756790/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/365/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_365"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/365/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/365/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-20> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday Feb. 20. 1893. ..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/365> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_365.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_365.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-20> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-20> a crm:E52_Time_Span ;
+    rdfs:label "February 20, 1893"^^xsd:string ;
+    rdf:value "1893-02-20"^^xsd:date .
+

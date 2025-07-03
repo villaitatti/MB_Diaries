@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/247> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/247> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "247"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/247/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/247> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756608/full/full/0/default.jpg> ;
+    rdf:value """our Lotto in the evening and Bernhard finished Creighton and read  Lady Eastlake  on M ichelangelo .I called on Gertrude. She bores me nearly to death. She seemed so honest at first, but now I see little but affectation of a peculiarly sickening kind because it calls itself “noble ideas.” Really she is old enough to drop that juvenile rot.I read  Confessions d’un Amant  by Prévost - a very poor affair.
+Wednesday March 30. 1892 .
+Uffizi in the morning. I felt rather ill, so Bernhard went on to the Pitti alone. I rested. After luncheon he wrote for three hours.I went to see Gertrude and then wrote my story.I read  Lady Eastlake  on  Michelangelo  and Bernhard read  Lorenzo di Medici  by  Reumont . We worked on and  finished  ! our Giorgione in the evening.Bernhard is truly an angel about the Hampton Court Catalogue. When I showed him my mournful outburst of a few pages back, he decided to relieve my woe at any cost, though he didn’t at all believe in the affair. So he began to work. Now he says he really enjoys it. It is nice of him, how nice no one but I can know!
+He had a letter this morning from his friend Cram, accepting his article on Correggio, asking for one on the Venetians."""^^xsd:string ;
+    mbdiaries-ontology:index 247 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756608/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/247/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_247"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/247/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/247/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-30> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Wednesday March 30. 1892 ...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/247> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_247.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_247.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-30> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-30> a crm:E52_Time_Span ;
+    rdfs:label "March 30, 1892"^^xsd:string ;
+    rdf:value "1892-03-30"^^xsd:date .
+

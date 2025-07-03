@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/356> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/356> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "356"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/356/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/356> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756777/full/full/0/default.jpg> ;
+    rdf:value """fatal fluency. Nothing he says sticks, it is all so glib, so easy, like a “leader” in the daily paper, as easy to read as it is to forget. Eastlake has a fatal common-sense, which accounts for his failure as a writer. People like their art served up with mystery. This common sense will be Bernhard’s ruin, unless the public has more of it than it had in Sir Charles Eastlake’s day.I had such a nice letter from dear old Lady Eastlake, really the most delightful old person alive. How she loves Italy - She said, “How glad I am there is a lady who can take up where  I  left off and pursue the absorbingly interesting road much further and much abler!”
+*  Tuesday Feb. 7. 1893.  Florence
+Worked on Lotto and then met Costa at the Academy and pursued a lively Botticelli argument, Costa wishing to exclude as not """^^xsd:string ;
+    mbdiaries-ontology:index 356 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756777/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/356/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_356"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/356/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/356/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-07> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "*  Tuesday Feb. 7. 1893.  Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/356> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_356.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_356.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-07> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-07> a crm:E52_Time_Span ;
+    rdfs:label "February 07, 1893"^^xsd:string ;
+    rdf:value "1893-02-07"^^xsd:date .
+

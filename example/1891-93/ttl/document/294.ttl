@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/294> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/294> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "294"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/294/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/294> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756693/full/full/0/default.jpg> ;
+    rdf:value """*  Monday Sept. 5. 1892 14 rue de la Grande Chaumière Paris
+Went to Durand-Ruel’s with Burke and Hapgood in the morning and saw a marvellous Whistler. It beggared everything. Saw the “Indépendants” who might be called the Imitators.Went to the Chapel of St Vincent de Paul and were much impressed with the Flandrins.They evidently inspired Puvis.After lunch I shopped and wrote an article on the Women’s Exposition, and Burke came in after dinner.
+x  Tuesday Sept. 6. 1892. Paris
+Louvre. Bernhard lectured on Milanese to Thiis, Burke, Hapgood and myself. I went to the doctor’s, who gave a favourable verdict and made us happy. Bernhard read and swore at Freeman’s  History of Italy in the evening, while I wrote. It is edited by Freeman, written by one Hunt.
+Wednesday. Sept. 7. 1892. Paris
+Went with Burke and Hapgood to Fontainebleau 9.15. We enjoyed the architecture of the Chateau immensely, but were disappointed to find no real Rossos, as Signor Frizzoni had said there were 6 fine ones. Found a Fra Paolino in the Chapelle de la Trinité - a Pietà.After lunch we wandered about in the Park and enjoyed ourselves, and then came home at 5.Burke went to London 8.35.I read  Poggio’s letter from Baden in the train, and enraged myself with George Moore’s article on Monet and School in the “Speaker.”"""^^xsd:string ;
+    mbdiaries-ontology:index 294 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756693/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/294/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_294"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/294/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/294/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-05> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "*  Monday Sept. 5. 1892 14 rue de la Grande Chaumi..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/294> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_294.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_294.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-05> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-05> a crm:E52_Time_Span ;
+    rdfs:label "September 05, 1892"^^xsd:string ;
+    rdf:value "1892-09-05"^^xsd:date .
+

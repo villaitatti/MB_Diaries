@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/113> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/113> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "113"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/113> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756430/full/full/0/default.jpg> ;
+    rdf:value """boy sitting by a blue mountain lake.
+3  Dagnau-Bouverets , A Madonna and Child, a study in the reflection of green leaves and sunlight upon a white dress, a small landscape and a woman sitting in the open air.1  Whistler , painted in ’66! ships and sea in twilight. 3  Meissoniers , painted in ‘’55. A Detaille almost as good. 2  Bonnats , the Samson of this year’s Salon, and an Italian child. 5  Manets . Several of  Millets ,  Troyon ,  Daubigny ,  Corot ,  Diaz ,  Hamel Jacques,  etc.Some deliciously decorative  Ribarz ,  Dagnaux ,  Breslau ,  Ribot ,  Hagborg ,  Meunier ,  Stéveres ,  Israels ,  Mesdag ,  Roederstein ,  Agache ,  Dinet ,  Blanche ,  L’Hermitte ,  Courtois ,  Gervex ,  Puvis de Chavannes ,  Dupré , and many others were represented.We """^^xsd:string ;
+    mbdiaries-ontology:index 113 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756430/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/113> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_113.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_113.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:25"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

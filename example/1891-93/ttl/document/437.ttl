@@ -1,0 +1,60 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/437> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/437> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "437"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/437/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/437> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756911/full/full/0/default.jpg> ;
+    rdf:value """[
+Prof. Frans Wickhoff,  Anerspergerstrasse 2 III , Vienna
+John M. Robertson, 157 Broadhurst Gardens, W. Hampstead N.W.
+Mrs. H. W. Massingham, Pleasant View, Nightingale Lane, S.W.
+W. P. Garrison, New York Nation, 208 Broadway, New York
+Mrs. <Emma> Andrews, The Reef, Newport, R.I. <his mistress>
+Leoni Dott. Giulio, Medico Chirurgo, Padova
+H. Hapgood, Gr. Hamburger Strasse 18/19 I
+F. A. F. C. Went, Proeptation voor Suikerriet in West Java, Kagok Te Tegal
+Miss Amanda Head, 91 Onslow Square, S.W.
+Cosmo Monkhouse, 11 St. George’s Terrace, N.W.
+Arthur S. Strong,
+7 St. John’s Road, Putney Hill, S.W."""^^xsd:string ;
+    mbdiaries-ontology:index 437 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756911/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/437/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_437"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/437/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/437/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1991-05-26> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Miss Amanda Head, 91 Onslow Square, S.W...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/437> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_437.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_437.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1991-05-26> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1991-05-26> a crm:E52_Time_Span ;
+    rdfs:label "May 26, 1991"^^xsd:string ;
+    rdf:value "1991-05-26"^^xsd:date .
+

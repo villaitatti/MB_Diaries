@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/229> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/229> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "229"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/229/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/229> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756586/full/full/0/default.jpg> ;
+    rdf:value """creature of 24 who can’t go about London alone. - But such thoughts are too sickening.I went to see Gertrude.B. began Vol. II of Creighton’s  History of the Papacy .
+*  Friday March 11. 1892. Florence
+Uffizi – Shopping -B. lunched here.Edith Carpenter’s cousin, Miss Mary Foote, called here. She talked thoroughly New Englandy gossip about Edith’s moral qualities and described Bond as “so just”- It amused me immensely. She thought every man ought to go into business.We had a rather lazy evening, with music, etc.I am reading Hawthorne’s “ Wonder Book ”to Ray.I wrote more of my story. B. read the Revue de Deux Mondes upon the recent Rembrandt books.
+Saturday March 12. 1892. 
+San Spirito, several other Churches and the Uffizi in the morning.In the afternoon we walked out to a convent school, La Quiete, near Castello to see some Ridolfo Ghirlandaios. It was a beautiful afternoon.In the evening I wrote my story and read  En ménage .B. continued with Creighton. Began  Tanglewood Tales with Ray."""^^xsd:string ;
+    mbdiaries-ontology:index 229 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756586/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/229/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_229"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/229/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/229/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-11> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "*  Friday March 11. 1892. Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/229> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_229.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_229.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-11> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-11> a crm:E52_Time_Span ;
+    rdfs:label "March 11, 1892"^^xsd:string ;
+    rdf:value "1892-03-11"^^xsd:date .
+

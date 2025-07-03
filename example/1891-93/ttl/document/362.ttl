@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/362> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/362> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "362"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/362/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/362> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756786/full/full/0/default.jpg> ;
+    rdf:value """*  Thursday Feb. 16. 1893.  Florence
+We worked on our Lotto. After lunch we walked around by Carreggi [ sic ] to San Domenico across the fields. It was very hot. Mr. Jenkins came to tea. He told us of his experience as his father’s election agent in Cornwall, which gave him such a horror of politics that he would not say a word about Gladstone’s Home Rule Bill. Talk of the electorate being pure!! On the whole I think it was purer to buy votes by playing on people’s avarice than upon their snobbishness.
+Friday Feb. 17. 1893. 
+Bernhard called on Senator Comparetti whom he found editing the earliest Code, a Cretan tablet dating from about 600 B.C. After lunch we walked over the Bellosguardo hills and then came back and grappled with our Introduction to Lotto.Bernhard was rather cast down at discovering what a treacherous friend Loeser is. It came out in this way. The picture-dealer """^^xsd:string ;
+    mbdiaries-ontology:index 362 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756786/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/362/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_362"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/362/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/362/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-16> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "*  Thursday Feb. 16. 1893.  Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/362> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_362.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_362.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-16> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-16> a crm:E52_Time_Span ;
+    rdfs:label "February 16, 1893"^^xsd:string ;
+    rdf:value "1893-02-16"^^xsd:date .
+

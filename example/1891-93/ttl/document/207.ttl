@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/207> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/207> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "207"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/207/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/207> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756552/full/full/0/default.jpg> ;
+    rdf:value """and history. I shall  never  oppress my daughter!
+Saturday. February 6. 1892.
+I breathe freely at last, for mother is gone. She is so good and kind, but it is deadly to live with people who disapprove of you - and who are religious. Still, if she didn’t try to interfere with me, and do it effectively by worrying over me, for I  hate  to give her pain - I could enjoy her so much, even her stupidities, such as talking about women being a “later evolution than man”- and her belief in prayer. I took her to see the famous Giotto’s in S. Maria Novella before she started – Ruskin’s Giottos – which is about like saying servant girls’ diamonds. She thought it must be a crazy joke.
+Then I went to B. - but I was so ill, being just taken unwell that I could do nothing.We spent the afternoon and evening together, and entered in the Venetians here, looked at photos of Ghirlandajo and read his article on ‘the function of science of art criticism’ -I began “ Les Messieurs Golovleff”  by Chtchédrine.
+Yes, I must learn to be honest."""^^xsd:string ;
+    mbdiaries-ontology:index 207 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756552/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/207/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_207"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/207/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/207/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-02-06> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Saturday. February 6. 1892...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/207> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_207.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_207.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-02-06> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-02-06> a crm:E52_Time_Span ;
+    rdfs:label "February 06, 1892"^^xsd:string ;
+    rdf:value "1892-02-06"^^xsd:date .
+

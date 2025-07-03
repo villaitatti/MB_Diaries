@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/425> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/425> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "425"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/425/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/425> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756899/full/full/0/default.jpg> ;
+    rdf:value """become so weary of her selfish life that she has decided to give it up and establish a baby-farm for poor children, with Miss Lowndes and other friends to help her - the “sisters” to wear a uniform, etc.! It is an awful blow, I cannot deny. The only answer we have to make to men who say that they are the only ones who carry on the world’s intellectual life is “O wait till women have a fair chance!” Miss Sellers’ chance has been splendid, but an intellectual life evidently bored her. For the one woman of her generation who perhaps might have become a scholar to give it up and take to an occupation any other woman could perform is a great loss. But who knows how much of it is due to her early Catholic training? A good deal, I suspect. Also it may be in part a diversion of the sexual instinct which seeks satisfaction in a sort of delegated maternity.
+Thursday Oct. 5. 1893. Venice
+Writing and Academy. Visit to Marion.Bernhard called on Miss Jackowska. Wrote and read.
+Friday Oct. 6. 1893. Venice. 
+Visited Churches - S. Giovanni in Bragora, S. Francesco della Vigna, and San Zanipolo. Read and saw at Theatre Goldoni’s “ Barufe delle chiozzote ”."""^^xsd:string ;
+    mbdiaries-ontology:index 425 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756899/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/425/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_425"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/425/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/425/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-10-05> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday Oct. 5. 1893. Venice..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/425> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_425.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_425.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-10-05> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-10-05> a crm:E52_Time_Span ;
+    rdfs:label "October 05, 1893"^^xsd:string ;
+    rdf:value "1893-10-05"^^xsd:date .
+

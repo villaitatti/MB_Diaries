@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/124> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/124> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "124"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/124/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/124> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756442/full/full/0/default.jpg> ;
+    rdf:value """fresco in Sant’Anastasia. We spent all our time there, face to face with it, till it was time for the 4.20 train to Venice.Read Isabellaand Charles V,German in the train.Arrived in Venice - !! - sunset – moonrise time.Walked in the Piazza and had a gondola ride after dinner.
+Saturday Sept.  19. 91. Hotel Monaco. Venice
+Went to St Mark’s, San Zaccharia (Bellini), Santa Maria Formosa (Palma), San Giovanni e Paolo (Lombardi) before luncheon.After went to Layard’s and took notes for 2 1/2 hours.Revised Correggio article in evening."""^^xsd:string ;
+    mbdiaries-ontology:index 124 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756442/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/124/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_124"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/124/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/124/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1991-09-19> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Saturday Sept.  19. 91. Hotel Monaco. Venice..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/124> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_124.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_124.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:25"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1991-09-19> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1991-09-19> a crm:E52_Time_Span ;
+    rdfs:label "September 19, 1991"^^xsd:string ;
+    rdf:value "1991-09-19"^^xsd:date .
+

@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/242> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/242> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "242"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/242/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/242> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756601/full/full/0/default.jpg> ;
+    rdf:value """* Sunday March 20. 1892 Pensione Tognazzi. Siena
+I awoke at 6.30 and saw the glorious hills and mountains in the early morning mist and the brilliant sunshine.We had breakfast at 8.30 and then went out to the Municipio where we looked at the Sodomas and Lorenzettis and Beccafumis. Then to the Duomo and home for lunch.In the afternoon we walked out to the Osservanti, where we saw lovely altar-piece by one of the Della Robbia, the Coronation of the Virgin with Saints. It was a lovely walk.In the evening we wrote our Lotto and read. I am reading the second volume of  Creighton .
+Monday March 21. ’92 Siena
+In the morning we went to San Spirito and the Servi, ending up at the Opera del Duomo. There we quarrelled, because I did not think Duccio’s compositions so beautiful as Bernhard thought them. In the afternoon we had the most heavenly and delicious drive to Belcaro. What an afternoon - such sunshine - “such shapes of sky and plain ”-!In the evening we wrote our introduction to our Hampton Court Guide and I wrote my Linden story.Read  Creighton  and  Vasari .Our quarrel was not serious.
+Tuesday March 22. ’92 Siena 
+Went to S. Agostino to see Perugino and Sodoma.Coming back to Perugino has all the charm of """^^xsd:string ;
+    mbdiaries-ontology:index 242 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756601/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/242/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_242"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/242/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/242/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-20> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "* Sunday March 20. 1892 Pensione Tognazzi. Siena..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/242> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_242.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_242.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-20> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-20> a crm:E52_Time_Span ;
+    rdfs:label "March 20, 1892"^^xsd:string ;
+    rdf:value "1892-03-20"^^xsd:date .
+

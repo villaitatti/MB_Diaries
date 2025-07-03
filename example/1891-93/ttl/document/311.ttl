@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/311> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/311> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "311"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/311/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/311> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756726/full/full/0/default.jpg> ;
+    rdf:value """Tuesday Oct. 11. 1892 Venice
+My money came, but less than half of what I expected, which cast a gloom over our plans and over us. We went to S. Zaccaria to negociate [ sic ] about an old picture frame we went to get for Burke.Then we went to the Seminario, and I being tired came in, while Bernhard went to the Doge’s Palace.After lunch we went to the Academy.Then Bernhard concluded his purchase of the frame and I added to my book - which I shall call The Book.Read  Robertson  and  Eastlake . Bernhard wrote to Maude.
+Wednesday Oct. 12. 1892.Venice
+Gallery in morning and Doge’s Palace in the afternoon.Bernhard sent off the frame to Burke after much trouble.I finished  Charles V .Packed and wrote in the evening.
+Thursday Oct. 13. 92. Hotel San Marco. Ravenna
+Arrived in Padua at 10. Saw Santa Giustina and the splendid Paolo, the Santo, and the Gallery. Then Bernhard discovered an Alvise Vivarini, and I a Licinio. He also found that Speranza’s pictures (last year’s attributions) were done by Filippo da Verona, a sad discovery! Then we went to the Arena and saw the Giottos and came in by the 3 o’clock train, arriving at 7.30.I read Morley’s  Diderot, written in a vulgar newspaper style, but very interesting."""^^xsd:string ;
+    mbdiaries-ontology:index 311 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756726/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/311/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_311"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/311/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/311/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-11> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday Oct. 11. 1892 Venice..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/311> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_311.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_311.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-11> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-11> a crm:E52_Time_Span ;
+    rdfs:label "October 11, 1892"^^xsd:string ;
+    rdf:value "1892-10-11"^^xsd:date .
+

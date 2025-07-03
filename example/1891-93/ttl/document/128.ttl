@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/128> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/128> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "128"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/128> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756447/full/full/0/default.jpg> ;
+    rdf:value """gondola with Costa and his brother to Torcello, which was enchanting - and to Burano, where we had great fun with the children. The boatmen lost the way coming home so that we were rather late.
+Thursday Oct. 1. Hotel Murano  Venice
+I was tired, and unhappy - B. went alone to the Correr - with Costa.In the afternoon I had a swim in the Lagoon and we went to S. Giorgio Maggiore. What magnificent architecture! and Ruskin says it “is not worth a moment’s notice”-!We read Villiers de l’Isle Adam, “ Nouveaux Contes Cruels” and “ La Révolte ” - also a  Russian Priest  by  Potapenko . B. went to the Piazza and met Costa who had an article by Claude Phillipps on Morelli, good in manner but poor in matter.
+X X X"""^^xsd:string ;
+    mbdiaries-ontology:index 128 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756447/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/128> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_128.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_128.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:25"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

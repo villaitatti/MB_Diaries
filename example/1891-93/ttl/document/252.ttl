@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/252> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/252> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "252"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/252/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/252> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756614/full/full/0/default.jpg> ;
+    rdf:value """* Wednesday April 6. ‘92 Florence
+Uffizi and Bargello. Met Loeser and Parry.Karin ill, and all the afternoon flew by in doctor and medicine and nursing. Miss Britten called.In the evening we finished our Palma, and Bernhard finished Creighton.I told Parry that the Arundel Chromesare like opera tunes on a barrel organ. I must have taken this from Bernhard, I am sure. He is such a dear! He writes every day for three hours, in spite of the heat and general flabbyness of the weather.
+Thursday April 7. ’92 Florence.
+Met at 10 at the Uffizi. After a while Mr. Parry joined us, and we looked at many things, chiefly portraits in the Uffizi and in the Pitti.Bernhard wrote, while I took care of Karin in the afternoon. Then Parry came and we discussed photographs. His great idea is somehow to wake Oxford up to a real study of the Renaissance. He is a nice boy.In the evening we went over and finished our  Tintoretto , and read poetry, chiefly Matthew Arnold.
+*  Friday April 8. 1892. 
+We went to Prato with Parry, and after luncheon drove over to Poggio a Cajano. We missed our train on the way back and drove home. We all enjoyed it very much, and Bernhard and I liked Parry. He is a very “English”, that is to say Protestant, Catholic – very – he even believes in Divorce! And he hates the """^^xsd:string ;
+    mbdiaries-ontology:index 252 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756614/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/252/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_252"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/252/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/252/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-06> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "* Wednesday April 6. ‘92 Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/252> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_252.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_252.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-06> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-06> a crm:E52_Time_Span ;
+    rdfs:label "April 06, 1992"^^xsd:string ;
+    rdf:value "1992-04-06"^^xsd:date .
+

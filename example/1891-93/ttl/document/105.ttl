@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/105> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/105> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "105"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/105> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756414/full/full/0/default.jpg> ;
+    rdf:value "lyrical. The temple itself is really an astonishing bit of architecture, carried out with good taste and unpretentiousness. The lines are perhaps a trifle too rigid, but certainly only inferior to the lines in the Parthenon and the Museum. In proportions, it is very much like the Parthenon, only it looks a little tamer. But, after all, it makes up by being perfectly preserved and “herrlich wie am ersten Tag.” The situation is hardly to be surpassed, and the idea of placing it on a splendid platform against the hillside is magnificent. But it is curious that looked at from below, the wonderful series of stairs leading up to the Temple, look rather too much like the steps let down from a huge carriage.  Drove out to the Walhalla (there was a steam tram!) which was startling and surprising. We walked up through a pine forest and came suddenly upon the white Doric columns of the temple flashing in the sunlight. As we walked about it looking at the profilation of the columns and the beautiful view of the plain and the Danube through them, our delight was almost [105] lyrical. The temple itself is really an astonishing bit of architecture, carried out with good taste and unpretentiousness. The lines are perhaps a trifle too rigid, but certainly only inferior to the lines in the Parthenon and the Museum. In proportions, it is very much like the Parthenon, only it looks a little tamer. But, after all, it makes up by being perfectly preserved and “herrlich wie am ersten Tag.” The situation is hardly to be surpassed, and the idea of placing it on a splendid platform against the hillside is magnificent. But it is curious that looked at from below, the wonderful series of stairs leading up to the Temple, look rather too much like the steps let down from a huge carriage. "^^xsd:string ;
+    mbdiaries-ontology:index 105 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756414/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/105> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_105.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_105.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:25"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

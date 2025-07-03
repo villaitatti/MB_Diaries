@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/244> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/244> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "244"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/244/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/244> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756604/full/full/0/default.jpg> ;
+    rdf:value """At 130 we started out with the horse and little trap and drove to S. Ansano in Dofana about 9 miles away. There we found a very nice Peruzzi in a dear little country Church, a Madonna and Child, somehow recalling the decision and  chic  of Bronzino.We went to see a little octagonal chapel built by Peruzzi close by, said by Baedeker to contain a Pietro Lorenzetti. This, however, was taken to the Belle Arti ten years ago. We did not get back till 6.30. It was a delicious drive!In the evening we worked and read.
+*  Thursday March 24. ‘92 Pensione Tognazzi. Siena
+In the morning we went to the house of Catherine of Siena (built by Peruzzi), to the Baptistry and then to the Libraria del Duomo. There we looked over the illuminated Missals of Liberale. Then we looked at the Pinturicchios.After lunch, we went to have a last look at the Belle Arti, and then bought some photographs, and some little toys. Then we took a walk, ending up with another glimpse at the Sodoma, Balducci and Pacchia in San Spirito.In the evening worked and read as usual, and so endeth our happy week.Bernhard said it is as absurd to take our ideas of ordinary Roman thought and conversation from their orations, as to imagine that they always stood in the poses of their sculpture. """^^xsd:string ;
+    mbdiaries-ontology:index 244 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756604/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/244/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_244"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/244/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/244/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1992-03-24> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "*  Thursday March 24. ‘92 Pensione Tognazzi. Siena..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/244> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_244.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_244.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1992-03-24> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1992-03-24> a crm:E52_Time_Span ;
+    rdfs:label "March 24, 1992"^^xsd:string ;
+    rdf:value "1992-03-24"^^xsd:date .
+

@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/199> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/199> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "199"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/199/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/199> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756542/full/full/0/default.jpg> ;
+    rdf:value """Mother still here. It is a great bore.
+Thursday. January 28. 1892. Florence.
+Academy and Churches in the morning.Walked in the afternoon, called on Gertrude, who was horribly ill and nervous.Took tea with B. at Loeser’s.
+Friday. Jan. 29. 1892 
+Wrote to the Michael Field’s and copied B.’s criticism of Huysmans’  À Rebours .
+Studied all the Filippo Lippi’s. Tea together and a walk.
+Saturday. Jan. 30. 1892
+Went to Prato by the 10 o’clock steam tram. Saw the Gaddi’s, etc., in San Francesco, also the frescoes in the Duomo and the Gallery.Then went to the wonderful little Church by Giuliano di San Gallo, which was more overwhelmingly beautiful than ever. We had tea together and then a little walk.In the evening we dined at Loeser’s with """^^xsd:string ;
+    mbdiaries-ontology:index 199 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756542/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/199/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_199"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/199/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/199/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-01-28> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday. January 28. 1892. Florence...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/199> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_199.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_199.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-01-28> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-01-28> a crm:E52_Time_Span ;
+    rdfs:label "January 28, 1892"^^xsd:string ;
+    rdf:value "1892-01-28"^^xsd:date .
+

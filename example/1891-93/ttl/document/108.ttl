@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/108> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/108> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "108"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/108> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756424/full/full/0/default.jpg> ;
+    rdf:value "impressed us as wonderful, especially the Monets! Then there was a vast array of Böcklins and Lehnbachs - and any number of Americans, Spanish, Dutch, etc., to which we gave merely a hasty glance. The exhibition closed at 6 and we walked to the Propylaia and sat a long time on the steps of the Glyptothek, discussing the latest Parisian fad, the artistic society of the Rosy Cross founded by San  Peladan  in the interests of “Beauty”. I found the Besnard sunset disfigured by the pert, grinning girl in the foreground. B. said I would not feel so in ten years. We shall see! (n.b. I came round to his opinion in a day or two!!!!)"^^xsd:string ;
+    mbdiaries-ontology:index 108 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756424/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/108> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_108.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_108.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:25"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

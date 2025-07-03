@@ -1,0 +1,54 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/326> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/326> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "326"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/326/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/326> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756747/full/full/0/default.jpg> ;
+    rdf:value """x  Tuesday Nov. 8. 1892. Todi
+Bernhard’s long desire is accomplished - we have seen the Church at Todi. To our surprise, Todi itself turns out to be a more important town, with a fine gothic cathedral, Renaissance palaces, a well-preserved side of a Roman Basilica, etc.The hotel is impossible, but the Restaurant (del Teatro) is good, and they found us sleeping places in a palace close by S. Fortunato. We drove here, starting on 8 and reaching here at 1.30. We “did” Diruta on the way, finding a  Fiorenzo  and an Eusebio. We spent all the afternoon in and around the glorious church….
+x x x x x
+! ! ! !
+It was one of the Great Experiences of our lives. Drive 25 francs.
+Wednesday Nov. 9. 1892. Belle Arti. Perugia
+We saw Todi in the morning - all too hurriedly, and started at 12.Stopped at S. M. di Consolazione again of course- and also saw another fine church, from 1591 outside another gate.Reached here about 5.30 and dined at the  Progresso , which seems rather nicer than this place. Wrote letters, but were rather tired and sleepy."""^^xsd:string ;
+    mbdiaries-ontology:index 326 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756747/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/326/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_326"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/326/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/326/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-08> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "x  Tuesday Nov. 8. 1892. Todi..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/326> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_326.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_326.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-08> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-08> a crm:E52_Time_Span ;
+    rdfs:label "November 08, 1892"^^xsd:string ;
+    rdf:value "1892-11-08"^^xsd:date .
+

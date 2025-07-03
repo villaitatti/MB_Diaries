@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/217> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/217> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "217"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/217> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756572/full/full/0/default.jpg> ;
+    rdf:value "Gamba, but I invented an excuse. She is a great gossip, and I don’t want to meet her. She is said besides to be noted for “Lesbianism” - qui ne me plait pas du tout - Still of course that is not my affair.B. told me that Musgrave is a great haunter of brothels. He said one day to B. and Loeser that whenever he felt he did not want a woman, he knew he was ill, and that when he wanted one, he usually had one. Wouldn’t mother’s and Alys’ hair stand on end if they knew he was that kind of a man, and they had so much enjoyed his society and had described him as “a perfect gentleman”! What I hate more about him is that he judges all women by the women he meets in brothels. He said once that the thoughts of all women were centered about the small part of their body occupied by their sexual organs. It was months after I heard that before I could bear the thought of him. Mais, enfin, qu’est que ça me fait? He has translated Dante very well, and you can’t expect too much of one person - but I  LOATHE  him, and I wish he’d get syphilis and die in tortures! B. dined with Loeser and I called on Gertrude and wrote my Cedars Book. "^^xsd:string ;
+    mbdiaries-ontology:index 217 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756572/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/217> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_217.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_217.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

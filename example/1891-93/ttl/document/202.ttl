@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/202> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/202> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "202"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/202> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756545/full/full/0/default.jpg> ;
+    rdf:value "Way in the evening who reproached him with ‘enjoying her with only two of his senses, sight and hearing.’ She said she could easily fall in love with him. To her all life is wasted that is not spent in sexual love, but she has been stupid enough to idealize it beyond the limits set by nature - to dream of it as something which is to satisfy her being  entirely . Naturally her husband (who is charming) fails to meet the claims of this Ideal, and she seems frankly to be on the look-out for some one else. She thought she had found it in B. and she is rather puzzled that he does not respond, and can only explain it by thinking that his continual brain-work has ‘atrophied what makes him most really a  Man .’ It is a pity she cannot fall in love with Loeser - they would make an admirable pair, or no, they would not, for he pretends to be intellectual, and she has no pretence to be anything but sensual, "^^xsd:string ;
+    mbdiaries-ontology:index 202 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756545/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/202> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_202.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_202.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

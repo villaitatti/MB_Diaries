@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/189> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/189> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "189"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/189/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/189> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756529/full/full/0/default.jpg> ;
+    rdf:value """*  Saturday. January 9. 1892. Florence
+Uffizi.Saw Loeser. Rainy still.Tea with B. and Loeser. Unwell. Tired.
+Sunday. Jan. 10. 1892.
+Received Mr. Pennell’s article on the Vienna Gallery. Went to the Bargello and afterwards to B.’s rooms - where we semi-quarrelled because he would not answer Mr. Pennell. He was an angel, and promised to write every day.In the afternoon I helped Gertrude get off to the Home, and we took a little walk together, and then came back and answered Mr. Pennell’s article, and sent it off to the “Nation”.
+Monday. Jan. 11. 1892. Florence
+Uffizi in morning.Called on Gertrude.Tea with B. who went to see Costa, and then dined with Loeser, who was 28.
+Tuesday. Jan. 12. ‘92 . 
+Uffizi - finished Venetians there.We called on Costa in the afternoon, and re-wrote our Paris Bordone article in the evening, and wrote to the Michael Fields."""^^xsd:string ;
+    mbdiaries-ontology:index 189 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756529/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/189/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_189"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/189/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/189/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-01-09> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "*  Saturday. January 9. 1892. Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/189> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_189.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_189.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-01-09> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-01-09> a crm:E52_Time_Span ;
+    rdfs:label "January 09, 1892"^^xsd:string ;
+    rdf:value "1892-01-09"^^xsd:date .
+

@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/345> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/345> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "345"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/345/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/345> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756766/full/full/0/default.jpg> ;
+    rdf:value """my separation from B.F.C.C. so that it may come from my side, and not be concealed as if we were ashamed of it.Read Ranke and Perry and Huysmans’ “ Sac au Dos .” Lunched with Loeser and walked over Bellosguardo.
+x  Saturday. Jan. 14. 1893.  Florence
+Went over sculpture, etc., photographs in the morning.Walked in the Cascine in the afternoon.Read poetry of Charles d’Orleans, Perry, Ranke.Bernhard has just finished  Morley’s Diderot ,and is reading  Voltaire and  Tristram Shandy . Mrs. James, Loeser told us, had kept his dinner party waiting half an hour because the dressmaker had not sent home her “body” in time. The “body” turned out to be a red cashmere blouse. She told me that she  longed  to get back to Cambridge to set up a small chicken farm.Walking in the Cascine we composed this """^^xsd:string ;
+    mbdiaries-ontology:index 345 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756766/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/345/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_345"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/345/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/345/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-01-14> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "x  Saturday. Jan. 14. 1893.  Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/345> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_345.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_345.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-01-14> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-01-14> a crm:E52_Time_Span ;
+    rdfs:label "January 14, 1893"^^xsd:string ;
+    rdf:value "1893-01-14"^^xsd:date .
+

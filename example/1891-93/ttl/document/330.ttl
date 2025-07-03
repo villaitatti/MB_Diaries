@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/330> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/330> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "330"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/330/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/330> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756751/full/full/0/default.jpg> ;
+    rdf:value """ Sunday Nov. 13. 1892. Albergo Lucini. Spoleto
+Saw the Pinacoteca at Foligno and the Ottaviano Nelli frescoes in the Municipio and came by the 10.30 train to Trevi - a desolate town in a sharp conical hill. There were Lo Spagnas to be seen, a fine altar by Rocco da Vicenza, and a good modern church - Lunch at a little trattoria was charged 3 francs. “Credo che due cinquanta è basta,” Bernhard said - and there was no opposition. The Italian way of doing business!It rained as we left Trevi in a carriage (8 francs), but cleared up and we saw the charming little Temple on the Clitumnus, and the Springs, and some Lo Spagnas in S. Giacomo - these by candle-light.Arrived here to a hotel starred by Baedeker - which alas! has changed hands and is now fearfully poor.
+Monday. Europa. Terni - Nov. 14. 1892 . 
+Saw the Duomo with its splendid porch -a Canonico escorted us to the ruins, etc., and then sent us his two books - one against Darwinism and the other against cremation, with wishes for a “vita lunga e piena di felicità.” Saw S. Agostino and S. Pietro in the afternoon and came here.Quarrelled - or rather were cross. The door of S. Pietro is  splendid ."""^^xsd:string ;
+    mbdiaries-ontology:index 330 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756751/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/330/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_330"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/330/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/330/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-13> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Sunday Nov. 13. 1892. Albergo Lucini. Spoleto..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/330> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_330.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_330.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-13> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-13> a crm:E52_Time_Span ;
+    rdfs:label "November 13, 1892"^^xsd:string ;
+    rdf:value "1892-11-13"^^xsd:date .
+

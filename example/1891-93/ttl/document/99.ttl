@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/99> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/99> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "99"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/99/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/99> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756408/full/full/0/default.jpg> ;
+    rdf:value """and read Morelli on Munich and Robertson’s Charles V. Discussed local Christianity. B. shaved off his moustache!
+Regensberg Sept.  1. 1891.
+Hotel Goldner Kreuz, Regensberg
+An old inn. Delightfully large room.
+Pleasant journey from Dresden, 8.45 to 5.45.Finished Goncourt’s Journal, read Pierre Loti’s “ Le Livre de Pitié et de la Mort ,”et Villier de Lisle Adam’s “ Histoires insolites . ”Studied German. Read Charles V . Reached Ratisbon in time for a sunset on bridge over the Danube. Saw Cathedral, which had resemblances to Notre Dame de Paris. Late Gothic but on the whole good - for Gothic! Sent notes on Frankfort to Michael Fields in evening."""^^xsd:string ;
+    mbdiaries-ontology:index 99 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756408/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/99/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_99"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/99/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/99/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1891-09-01> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Regensberg Sept.  1. 1891...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/99> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_99.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_99.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:25"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1891-09-01> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1891-09-01> a crm:E52_Time_Span ;
+    rdfs:label "September 01, 1891"^^xsd:string ;
+    rdf:value "1891-09-01"^^xsd:date .
+

@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/426> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/426> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "426"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/426/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/426> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756900/full/full/0/default.jpg> ;
+    rdf:value """x  Saturday Oct. 7. 1893. Venice. Albergo Monaco.
+S. Stefano, S. Polo, S. Silvestro.Lido in the afternoon - and I had a glorious swim.I finished Horatio Brown’s  History of Venice and began  Goldoni’s Memoirs . Wrote, etc.
+Sunday Oct. 8. ‘93. Venice
+Went to the Correr and Querini-Stampalia.Bernhard went to the Lido in the afternoon and I called on Marion. In the evening I wrote and sent off to the “Evening Post” a little article called “At a Venetian Theatre”.Read two of  Balzac’s Plays .
+Monday Oct. 9. ‘93. Venice
+Corrected proofs of Renaissance Architecture article for the “Free Review.” Went to Doge’s Palace. In the afternoon Bernhard went with Guarizzo (sacristan of Madonna dell’Orto) to see hideous nothings in private galleries and I wrote my Bassano for the Hampton Court Guide. Made lists of Savoldo and Licinio in the evening. Read Goldoni, etc.
+*  Tuesday Oct. 10. ‘93. Venice
+Correr - S. Simeon Profeta, Scalzi, S. Giacomo dell’Orio in the morning. S. Zaccaria, Carmine, S. Barnabà in the afternoon. Read and saw Goldoni’s “ Bona Madre .”"""^^xsd:string ;
+    mbdiaries-ontology:index 426 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756900/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/426/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_426"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/426/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/426/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-10-07> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "x  Saturday Oct. 7. 1893. Venice. Albergo Monaco...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/426> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_426.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_426.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-10-07> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-10-07> a crm:E52_Time_Span ;
+    rdfs:label "October 07, 1893"^^xsd:string ;
+    rdf:value "1893-10-07"^^xsd:date .
+

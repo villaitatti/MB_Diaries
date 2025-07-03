@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/224> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/224> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "224"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/224/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/224> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756580/full/full/0/default.jpg> ;
+    rdf:value """*  Tuesday March 1. 1892. Hotel Globa e Londra Pistoia
+We studied Verocchio, Lorenzo di Credi and Ridolfo Ghirlandaio in the Uffizi in the morning.In the afternoon we went to Pistoia.I read  Creighton  on the way, and B. read Symonds’ “ Essays, Speculative and Suggestive .”After a vermouth we walked about and looked at the town.We had a delicious evening before a fire - I reading Creighton and B.  Huysmans’ “En rade ,”a sort of more realistic, because less romantic and epic “La Terre”-It was delightful -!
+*  Wednesday March 2. 92 Florence
+We “did” Pistoia, studying especially the Lorenzo di Credi in the Duomo. How fascinating it is to feel that you really  possess  a fresh town!In the evening we arranged our photographs in the new covers. We were tired.
+Thursday March 3. ‘92 
+We met in the Strozzi Chapel.B. was lazy, so we went to Alinari’s and then to his rooms, where I wrote to Edith and he arranged photographs. Emma went out in the afternoon so I took care of Karin.B. came to tea, we had a small stroll, and then continued our photograph work.In the evening I read Creighton and he """^^xsd:string ;
+    mbdiaries-ontology:index 224 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756580/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/224/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_224"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/224/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/224/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-01> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "*  Tuesday March 1. 1892. Hotel Globa e Londra Pis..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/224> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_224.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_224.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-01> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-01> a crm:E52_Time_Span ;
+    rdfs:label "March 01, 1892"^^xsd:string ;
+    rdf:value "1892-03-01"^^xsd:date .
+

@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/91> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/91> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "91"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/91/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/91> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756400/full/full/0/default.jpg> ;
+    rdf:value """Wednesday ,  Aug. 19. 1891
+Went early to gallery and went carefully through the Venetian School from Gentile da Fabriano and Antonio Vivarini to Tiepolo. Also the Veronese school.
+Thursday August 20. 1891. Berlin
+Florentine School at the gallery - As we were looking at a fake “Pisanello”, an American young man asked why it was fake. We were too busy to stop, but we asked him to lunch. His turned out to be from New Brunswick, and his name was Van Dyck - a circumstance which naturally led him to take """^^xsd:string ;
+    mbdiaries-ontology:index 91 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756400/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/91/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_91"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/91/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/91/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1891-08-19> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Wednesday ,  Aug. 19. 1891..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/91> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_91.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_91.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:25"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1891-08-19> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1891-08-19> a crm:E52_Time_Span ;
+    rdfs:label "August 19, 1891"^^xsd:string ;
+    rdf:value "1891-08-19"^^xsd:date .
+

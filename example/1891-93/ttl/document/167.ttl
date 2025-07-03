@@ -1,0 +1,41 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/167> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/167> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "167"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/167> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756503/full/full/0/default.jpg> ;
+    rdf:value """philanthropy made me waste two valuable hours upon him. He was très embêtant, and cast a dreadful gloom over me. His state of mind – that of a man “trained” at Oxford in literary traditions puffed out with arrogance, catching the trail of a new science and contending with it, and thinking that of course, as an  Oxford  man, he  must  understand it! – was amusing; but a little goes a long way! He was particularly anxious to be assured that Morelli really was the latest thing, and that he was “recognized” – but a Fiji islander would have found it as easy to understand what Morelli was 
+[165 bis]
+about. It made me sad.
+Miss Cooke and Mrs. Clarke, whom I took around the gallery on Sunday, were very much struck by the likeness of the youngest man in Giorgione’s  Three Astrologers  to Bernhard, and also by certain nuances of likeness in the  St. Sebastian  attributed to Correggio. It is very curious. Giorgione’s  Shepherd  at Hampton Court looked so like him, and the young man in the  Three Ages , and the Portrait by Botticelli in the Louvre. Miss Cooke’s “favourites” are the St. Sebastian and “das grosse Eccehomobild” by Titian. Mrs. Clarke liked Correggio’s  Ganymede  best.
+I took tea with Janet. She is in a curious state of mind. She is naturally an intellectual but she has tried too much to squeeze 
+[165 ter]
+herself into a moral mould, and the result is a painful contortion, and she doesn’t know where she is. She is shocking by dependence. She wants some one to tell her what to think, but when they tell her, she grows stiff and angry if the thoughts don’t fit into her perfectly narrow and impossible moral mould. So she is unhappy and undecided, enjoying nothing, useless, except as her husband’s “ helpmeet ”. Her sister who is here is in love with a man younger than herself, and Janet was in a rage over it. She thought it so “low” and “degrading” and utterly incomprehensible, not “ideal” in it.
+Women, women? Why shouldn’t a woman love a man younger than herself? Janet’s remark was so characteristic. “I can easily imagine falling in love with a man 50 years old. He would represent all my ideals.” “Falling in love with your head”, I replied, and it made her angry, I fear.
+In the evening we read Ibsen’s  Fest auf Solhaug ."""^^xsd:string ;
+    mbdiaries-ontology:index 167 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756503/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/167> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_167.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_167.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

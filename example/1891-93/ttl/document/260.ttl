@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/260> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/260> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "260"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/260/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/260> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756625/full/full/0/default.jpg> ;
+    rdf:value """Darwin to Painting”, they laughed politely in such a way that he felt sure they had never heard of Darwin.In the meantime I called on Mlle Miranda, and then (by special invitation) on Mrs. Way, who again flirted with me in so utterly bewitching a manner that I quite lost my head. She is adorable for an occasional tête-à-tête.In the evening we worked and Costa called.
+Monday April 18. 1892. Hotel de Russie. Viareggio
+I came here with Emma and the children, while Bernhard (very wisely!) remained behind to have a last look at the pictures and to show them to Mlle Fleury.The journey was awful. We had 18 packages, some of them HUGE!! The sea was roaring in the sand when we came, and the wind blew a hurricane. When you forget the discomfort, it was very beautiful.
+What a sham it is to think of us richer people as really more refined than poorer people. I never felt it more keenly (though I have often felt it) than tonight. Emma walked out with me to the other hotel where I engaged a room for Bernhard “Why doesn’t he stay at our hotel?” she asked -“Mrs. Smith thinks it better for us to stay in different hotels” I replied. “Well, I never!” she exclaimed """^^xsd:string ;
+    mbdiaries-ontology:index 260 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756625/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/260/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_260"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/260/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/260/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-04-18> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday April 18. 1892. Hotel de Russie. Viareggio..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/260> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_260.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_260.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-04-18> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-04-18> a crm:E52_Time_Span ;
+    rdfs:label "April 18, 1892"^^xsd:string ;
+    rdf:value "1892-04-18"^^xsd:date .
+

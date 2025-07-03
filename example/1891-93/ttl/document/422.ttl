@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/422> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/422> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "422"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/422/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/422> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756896/full/full/0/default.jpg> ;
+    rdf:value """ Saturday Sept. 23. 1893. Albergo Monaco.Venice
+I called on Marion Lawrence and her mother, and met Bernhard and “Fafnir” (as we call Hapgood) at the Carmini at noon.In the afternoon they went to the Lido and I took the Massinghams to Sir Henry Layard’s, the Sina Palace, and Santa Maria dei Miracoli. They were enchanted - and I think I got them a little de-Ruskinized.Ray on reaching Haslemere whispered to mother, “Is Mary here?”
+Sunday Sept. 24. 1893. Venice
+Took the Massinghams around the Academy. I dined with them in the evening and Bernhard dined with Ruth Mercier and her friend.
+Monday Sept. 25. 1893. Venice
+Doge’s Palace in the morning.Swim in the Lido with Marion and her mother in the afternoon.Bernhard took Hapgood to San Rocco.
+Tuesday Sept. 26. 1893. Venice
+S. Maria Formosa, S. Maria dei Miracoli, and S. Giovanni e Paolo in the morning.Murano in the afternoon.Bernhard is writing a review of the Conegliano  Monograph on Cima .Finished Vol. I of  Ranke’s History of Reformation ."""^^xsd:string ;
+    mbdiaries-ontology:index 422 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756896/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/422/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_422"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/422/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/422/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-09-23> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Saturday Sept. 23. 1893. Albergo Monaco.Venice..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/422> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_422.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_422.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-09-23> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-09-23> a crm:E52_Time_Span ;
+    rdfs:label "September 23, 1893"^^xsd:string ;
+    rdf:value "1893-09-23"^^xsd:date .
+

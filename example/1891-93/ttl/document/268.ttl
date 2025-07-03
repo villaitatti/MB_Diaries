@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/268> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/268> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "268"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/268> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756641/full/full/0/default.jpg> ;
+    rdf:value """*  Sunday May 1. 1892.Albergo dell’Aquila, Poggibonsi
+We walked out to Mont’Oliveto and found several interesting ‘quadri’ there, and then on to Santa Lucia, where we found a Benozzo and a Fra Paolino. Again the village came to watch us with polite but raging curiosity. We got caught in a thunder storm walking back.Finished our Municipio notes, and S. Agostino, had a glimpse of 2 other churches, and of the enchanting wash-place outside the old gate, and then drove here through the rain. What an enchanting country - and now full of “living odours.”We walked up, still in the rain, to San Lucchese, and found a truly astonishing Gerino in the Church. The “Signore” who owned the old monastery would not let us see Gerino’s fresco in the Refectory, but with the aid of a sympathetic priest and of his young brother, we managed to peep at it through a hole in a sort of barn door.Coming back, we heard nightingales singing near an operatic Grotto - arches and ivy and clear water and all complete, and tried to experience the proper emotions. We were not successful, but probably the scene will arrange itself suitably, emotions and all, in our memories."""^^xsd:string ;
+    mbdiaries-ontology:index 268 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756641/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/268> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_268.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_268.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

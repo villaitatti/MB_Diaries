@@ -1,0 +1,61 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/427> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/427> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "427"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/427/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/427> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756901/full/full/0/default.jpg> ;
+    rdf:value """ Wednesday Oct. 11. ‘93. Venice
+Salute, Santo Spirito, Gesuati, S. Trovaso and S. Sebastiano in the morning. Met Miss Mercier and Miss Jackowska. Called on Marion.Read and saw Goldoni’s “ Burbero Benefico .”Did not sleep for fleas.
+Thursday Oct. 12. ‘93. Venice
+Academy with Miss Ruth Mercier in the morning.Visited the antiquary shops. Called on Miss Mercier and Mlle Jackowska in the evening.
+Friday Oct. 13. ‘93. Venice
+Correr. No trace of Morelli’s Lotto document. Wrote Hampton Court. Called on Marion and her mother in the evening.
+Saturday Oct. 14. 93. Venic e
+S. Maria Mater Domini, S. Marziale, Gesuiti, S. Giovanni e Paolo in the morning.Writing. Very miserable letters from home. Wired to B.F.C.C. in Paris. Bernhard sent to Nation an article on “ Isochromatic Photography and Venetian Art ”.
+Sunday Oct. 15. ‘93. Venice
+Hampton Court - Went to San Rocco.Walked all over Venice for exercise! Bernhard called on Mlle Mercier while I wrote.
+Monday Oct. 15 
+[16]
+. ‘93. Venice
+Wrote my Hampton Court while Bernhard went to S. Pietro, S. Giuseppe, etc. Went to  Mestre  and  Spinea  in the afternoon.Packed.(3.50 francs drive Mestre to Spinea)."""^^xsd:string ;
+    mbdiaries-ontology:index 427 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756901/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/427/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_427"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/427/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/427/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1993-10-11> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Wednesday Oct. 11. ‘93. Venice..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/427> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_427.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_427.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1993-10-11> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1993-10-11> a crm:E52_Time_Span ;
+    rdfs:label "October 11, 1993"^^xsd:string ;
+    rdf:value "1993-10-11"^^xsd:date .
+

@@ -1,0 +1,54 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/317> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/317> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "317"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/317/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/317> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756738/full/full/0/default.jpg> ;
+    rdf:value """either in the Theatre or Municipio, but in the Churches we saw two Giovanni Santis and two Peruginos, one with charming predelle.We reached Ancona at 7.
+Friday Oct. 21. 1892. Ancona.
+The heavens were opened, but we swam up to S. Domenico and had an hour and a half over the glorious Titian there. Then we had an hour in the Pinacoteca. After lunch I finished my article for “The Women’s Herald”-Bernhard went to the Duomo. I went later, when I had finished my writing, thinking I might join him there, but we missed. Hence a dreadful quarrel, which made us both unhappy.
+Saturday Oct. 22. 1892. Ancona
+Spent the day at Jesi, where we saw a great many wonderful Lottos.
+Sunday Oct. 23. 1892. Ancona
+Loreto 9-12.30.Saw the Melozzos, Signorellis and Lottos.Drove to Recanati. We found the librarian (a priest) away for the day, and so we could not see the Lottos! Great rage and useless indignation. """^^xsd:string ;
+    mbdiaries-ontology:index 317 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756738/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/317/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_317"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/317/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/317/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-21> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Friday Oct. 21. 1892. Ancona...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/317> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_317.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_317.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-21> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-21> a crm:E52_Time_Span ;
+    rdfs:label "October 21, 1892"^^xsd:string ;
+    rdf:value "1892-10-21"^^xsd:date .
+

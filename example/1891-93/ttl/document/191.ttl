@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/191> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/191> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "191"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/191/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/191> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756532/full/full/0/default.jpg> ;
+    rdf:value """the evening we re-wrote our Bonifazio.
+Saturday. Jan. 16. ‘92 Florence
+Finished the Venetians in the Pitti.B. went to see Costa and I to see Gertrude.He did not come to dinner, and I read Vol. I of  Yriarte’s César Borgia . B. invented the word “ Pruritanic .” He went to hear Le Barbier de Seville with Loeser.
+Sunday. Jan. 17.  92. Florence
+Bargello in the morning -Tea with Loeser at 24 Lungarno Acciajuoli, Bernhard’s room, after the two had been to call on the Ways - a proceeding which they compared to a Turkish Bath. Bernhard said that Mrs. Way sighed delightfully. Loeser was rather nice.In the evening I read  Layard and Crowe and Cavalcaselle  on  Lorenzo Monaco , and Prescott’s description of  Charles VIII  in Italy. Missed Bernhard."""^^xsd:string ;
+    mbdiaries-ontology:index 191 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756532/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/191/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_191"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/191/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/191/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1992-01-16> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Saturday. Jan. 16. ‘92 Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/191> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_191.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_191.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1992-01-16> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1992-01-16> a crm:E52_Time_Span ;
+    rdfs:label "January 16, 1992"^^xsd:string ;
+    rdf:value "1992-01-16"^^xsd:date .
+

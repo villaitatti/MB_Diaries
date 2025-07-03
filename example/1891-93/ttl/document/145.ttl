@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/145> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/145> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "145"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/145> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756468/full/full/0/default.jpg> ;
+    rdf:value "very simplicity is a quality which Giotto has in common with the bas-relief. This is simply saying that Giotto had not yet got free from the style of painting which was nothing but the Alexandrine bas-relief in paint. Certain things in these frescoes are types for the whole school – as, for instance, arranging the heads in a line – which is found throughout the whole Tuscan school - The sleeping soldiers and the resurrection may have been in Mantegna’s mind when he painted his Resurrection, and the composition of the Baptism is certainly identical with Bellini’s and Cima’s. which we also find in Japanese art. In a curious way his peasants, even to their clothes, and his way of treating landscape and animals, is also Japanese. Giotto as well as the Japanese looked upon a picture as the means of expressing one idea – so they mentally abbreviate the scene – simplify it. From one point of view, of course – the point of view of atmosphere – these pictures are as much bas-reliefs as if they were in marble – and this [145] very simplicity is a quality which Giotto has in common with the bas-relief. This is simply saying that Giotto had not yet got free from the style of painting which was nothing but the Alexandrine bas-relief in paint. Certain things in these frescoes are types for the whole school – as, for instance, arranging the heads in a line – which is found throughout the whole Tuscan school - The sleeping soldiers and the resurrection may have been in Mantegna’s mind when he painted his Resurrection, and the composition of the Baptism is certainly identical with Bellini’s and Cima’s."^^xsd:string ;
+    mbdiaries-ontology:index 145 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756468/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/145> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_145.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_145.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

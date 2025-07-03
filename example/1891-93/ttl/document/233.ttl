@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/233> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/233> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "233"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/233> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756591/full/full/0/default.jpg> ;
+    rdf:value "It would be hard for me to put into words the unhappiness that comes over me sometimes when I see that, even where he has solemnly promised to do it, and where there is every motive to lead him to work, Bernhard will not take the trouble. We often quarrel over it. If I could make up my mind to it, it would be easier. But he promises me each time that he  will  do it, and is hurt and discouraged when I cannot believe him. I  can’ t do the work. I would so gladly. Of course when I see him like this in regard to the Hampton Court Guide, I cannot help foreseeing that it will be equally easy for him all along to find excuses for not doing any work of the kind. It is so easy to think that it will be hard to get things published, or that nobody wants them, about anything he is likely to write. I see that the same thing will happen to the Vasari he sometimes talks of writing next summer. He is unwilling to do work that is disagreeable, and writing is disagreeable to him. I think he is wrong, and it makes me unhappy. I cannot blame myself for having set my heart on doing the Hampton Court Guide, for at one time he was as enthusiastic as I over it, and he has promised me, so many times, to do it this winter. What have we done? We have "^^xsd:string ;
+    mbdiaries-ontology:index 233 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756591/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/233> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_233.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_233.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

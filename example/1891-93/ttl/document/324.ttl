@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/324> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/324> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "324"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/324/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/324> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756745/full/full/0/default.jpg> ;
+    rdf:value """beautiful - and suggesting what a Roman street may have looked like. The Loggia was the finest reconstruction of Roman architecture Bernhard had seen. We saw too some fine terra-cottas modelled by Andrea Sansovino.Very tired - went early to bed.
+Friday Nov. 4. 1892. Nazionale Cortona
+Took the 8.25 train and arrived here about 9.Found a B[artolomeo] della Gatta and enjoyed the pictures and architecture as much as is possible when followed by an army of dirty, sniffing, shuffling, curious, greedy (and needy) hangers on.In the afternoon we drove to Castiglione (Castel Fiorentino) to see B. della Gatta - I wrote this too soon, we did not go, but spent several hours instead enjoying the marvellous Signorellis in S. Niccolo.Then I sat on the town wall and saw the sunset while Bernhard explored two of the Renaissance Churches.We had a nice dinner at the  Garibaldi .
+Saturday Nov. 5. 1892. Belle Arti. Perugia
+We got up early and I managed to get to both the marvellous churches Bernhard had seen the day before - Santa Maria Nuova and Santa Maria """^^xsd:string ;
+    mbdiaries-ontology:index 324 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756745/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/324/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_324"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/324/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/324/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-04> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Friday Nov. 4. 1892. Nazionale Cortona..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/324> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_324.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_324.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-04> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-04> a crm:E52_Time_Span ;
+    rdfs:label "November 04, 1892"^^xsd:string ;
+    rdf:value "1892-11-04"^^xsd:date .
+

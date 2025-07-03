@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/203> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/203> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "203"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/203/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/203> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756547/full/full/0/default.jpg> ;
+    rdf:value """except sentimental, perhaps. She thinks women ought to die at 45! I wonder if she will feel so when  she  attains that age. She will be simply  awful  at 35, unless she is too conventional and cowardly.
+*  Tuesday Feb. 2. 1892. Florence.
+Saw the Alessio Baldovinettis in the morning (at the tomb of the Rucellai) and Santa Annunziata and the frescoes at San Minato, in the afternoon.The rain has come on again.Grandma told Karin today that it was not “genteel” to talk of the smell of things you were eating. Karin replied, with admirable impudence, “We talk about whatever we like to talk about.” Read several volumes of  Maupassant’s short stories , and  Burckhardt . B. read  Perry’s Greek Literature .
+*  [ Wednes ] day Feb. 3. ‘92
+Saw the Alessio Baldovinetti at San Niccolò.Then at the Uffizi studied him and Domenico Veneziano and the Polaijuoli and Loeser’s famous false Pontormo’s.
+Musgrave called on me. """^^xsd:string ;
+    mbdiaries-ontology:index 203 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756547/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/203/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_203"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/203/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/203/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-02-02> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "*  Tuesday Feb. 2. 1892. Florence...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/203> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_203.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_203.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-02-02> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-02-02> a crm:E52_Time_Span ;
+    rdfs:label "February 02, 1892"^^xsd:string ;
+    rdf:value "1892-02-02"^^xsd:date .
+

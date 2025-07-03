@@ -1,0 +1,86 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/254> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/254> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "254"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/254/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/254> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756616/full/full/0/default.jpg> ;
+    rdf:value """Correspondence of Motley
+Dante
+Mrs. Oliphant
+Life of Keats
+Yankee at Arthur’s Court Mark Twain
+In God’s Way Björnson
+Sidney Margaret Deland
+Miss Nobody of Nowhere Gunter
+The Aspern Papers. James
+Sandra Belloni. G. Meredith
+One of Our Conquerors
+A teacher of the Violin. Shorthouse
+-
+Russian Peasantry - Stepniak
+Trials of a Country Parson. Jessop
+The Massage Case C. Burnett
+Romance of a French Parsonage Betham-Edwards
+Gallagher and Other Stories Davis
+Hotel d’Angleterr ,  etc. Falconer
+The World’s Disease  -  Haggard Lang
+Hauntings,
+Amour Dure
+di Vernon Lee
+Story of a Spring Morning Molesworth
+Sunny Stories, J. Payne
+3 by Frank Stockton
+Physiologie de l’amour moderne by Bourget
+(in which B. said she would be terribly disappointed as it is not prurient)
+Tartarin deTarascon, Daudet
+Middlemarch(translated!!)
+Several of Tolstoi
+Paroles sincères Coppée
+La Parisienne au point de vue de l’amour  Zed
+Sarah Jewett(translated!!)
+Roman d’un InfantLoti
+Carmen Sylva “Qui Frappe?”
+This out of all Modern literature, French and English !!!
+Sunday April 10. ‘92 Florence
+Pitti in the morning. Bernhard wrote as usual and I gave Emma a rest, as she was quite worn out with Karin’s wakefulness.Parry came to tea at B.’s.Edith Kendall and her brother came to dine with me. They insisted on arguing about Women’s Rights. I only said one thing worth remembering, it was a comparison of the present waking up of women to the consciousness of personality to what happened in the Renaissance.B. called on Loeser."""^^xsd:string ;
+    mbdiaries-ontology:index 254 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756616/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/254/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_254"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/254/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/254/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-10> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Sunday April 10. ‘92 Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/254> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_254.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_254.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-10> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-10> a crm:E52_Time_Span ;
+    rdfs:label "April 10, 1992"^^xsd:string ;
+    rdf:value "1992-04-10"^^xsd:date .
+

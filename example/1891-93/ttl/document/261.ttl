@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/261> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/261> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "261"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/261/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/261> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756627/full/full/0/default.jpg> ;
+    rdf:value """quite astonished – 
+“Do you think so too, Madam?” she asked. “No”- I said - “Of course not”- “Neither do I” she said “When I went for my holiday to Brighton with my young man, we stayed in longings together and had the same sitting room. It was all right.”
+And to think that the advantage we get from being “superior” is that our women can’t be trusted as much as women like Emma.
+Bernhard very much enjoyed his visit to the Uffizi with Mlle Fleury. She told him that painters now-a-days have their architecture and perspective all drawn for them by people especially trained to it.
+*  Tuesday April 19. ‘92 Viareggio
+Bernhard came at 9.30, and I met him at the station. The history of our day is walks interspersed with writing our Venetians - or rather the other way about.It was gloriously sunny in the afternoon, and after a rest, we walked in the pine forest. The children were enchanted with the sand and the waves."""^^xsd:string ;
+    mbdiaries-ontology:index 261 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756627/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/261/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_261"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/261/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/261/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-19> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "*  Tuesday April 19. ‘92 Viareggio..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/261> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_261.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_261.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-19> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-19> a crm:E52_Time_Span ;
+    rdfs:label "April 19, 1992"^^xsd:string ;
+    rdf:value "1992-04-19"^^xsd:date .
+

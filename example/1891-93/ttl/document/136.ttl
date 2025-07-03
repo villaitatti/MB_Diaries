@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/136> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/136> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "136"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/136/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/136> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756457/full/full/0/default.jpg> ;
+    rdf:value """ Tuesday Oct. 13. 91. Hotel Monaco. Venice
+Went in the morning with Costa to the Correr, and took the Bellini photographs to compare. After luncheon went to the American Consul’s and got my permit to go to the Galleries. It was pouring.We went to Florian’s where B. read Gebhardt’s article in the Revue de Deux Mondes called “L’état d’une âme a l’an 1000.”Read Shakespeare in evening and finished notes. Began “ L’Ève future .”B. finished “Dans l’Inde” by Chevrillon.
+Wednesday Oct. 14. ‘91 Venice
+Academy in the morning - met Costa.Ducal Palace after luncheon and then went on the lagoons with Costa and discussed English poetry and Tolstoi. Finished  L’Ève future , to be compared to a  Jules Verne .Began Mrs. Oliphant’s “ Makers of Venice ”."""^^xsd:string ;
+    mbdiaries-ontology:index 136 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756457/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/136/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_136"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/136/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/136/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1991-10-13> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Tuesday Oct. 13. 91. Hotel Monaco. Venice..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/136> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_136.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_136.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1991-10-13> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1991-10-13> a crm:E52_Time_Span ;
+    rdfs:label "October 13, 1991"^^xsd:string ;
+    rdf:value "1991-10-13"^^xsd:date .
+

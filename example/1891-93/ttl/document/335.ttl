@@ -1,0 +1,57 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/335> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/335> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "335"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/335/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/335> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756756/full/full/0/default.jpg> ;
+    rdf:value """German lesson. Unwell.Bernhard went to the Pitti and discovered a  Lo Spagna , and went to Fiesole with Costa in the afternoon. They both came in to tea. Quadri  in the evening.
+Friday Nov. 25. 1892 Florence
+Another lesson.Read De Brosses’ “ Lettres sur l’Italie ”- Bernhard went to see churches and we worked on our Quadri.
+Saturday Nov. 26. 1892. Florence
+De Brosses and Quadri . Costa his brother came to tea.A propos of England becoming Catholic B. said, “They will never put their whole literature on the Index - nor their history!”
+Sunday Nov. 27. 1892. Florence
+Worked on photographs and then went out to the Pitti, where I re-discovered the  Lo Spagna .Met Jenkins at lunch.Bernhard spent part of the afternoon at Costa’s, looking over books, and came here to tea with Jenkins.Afterwards we continued our Quadri and began  Geymüller’ s book on St. Peter’s. Tired.
+x  Monday Nov. 28. 1892. Florence
+I was not feeling well, so I scarcely went out, except to lunch and dinner.
+Bernhard went to """^^xsd:string ;
+    mbdiaries-ontology:index 335 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756756/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/335/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_335"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/335/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/335/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-25> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Friday Nov. 25. 1892 Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/335> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_335.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_335.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-25> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-25> a crm:E52_Time_Span ;
+    rdfs:label "November 25, 1892"^^xsd:string ;
+    rdf:value "1892-11-25"^^xsd:date .
+

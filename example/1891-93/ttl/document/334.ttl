@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/334> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/334> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "334"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/334/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/334> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756755/full/full/0/default.jpg> ;
+    rdf:value """As it is offered to God, it taken no account of the congregation. From this side Catholicism is delightful; even I, who  hate  it inexpressibly because it is ruining - or nearly ruining my life, feel a tenderness and delight in it from this point of view. I have been so busy hating it, however, and dreading it for Ray, that, until this morning, I have not been able to enjoy anything about it. We came in the 11 o’clock train here, reaching here 2.30.After much grappling I found nice rooms, 14 Lungarno Acciajuoli, for 75 francs a month, “tutto compreso”.Began Thomas Adolphus Hare, “ Lenten Journey ”- but went to bed early being tired. 
+Tuesday Nov. 22. 1892.14 Lungarno Acciajuoli Florence
+Settled in our separate appartments, unpacking, etc., all the morning.
+Worked on our  Quadri  and I finished the “ Lenten Journey .”
+*  Wednesday Nov. 23. 1892. 14 ste. Florence
+Costa came in the morning and told us about his trip with Frizzoni to Spain. We went to the Uffizi and ‘glimped’ about.Worked a little more on our  Quadri . I felt rather ill.
+Thursday Nov. 24. 1892. Florence
+I read Ibsen’s “Emperor and Galilean”and had a """^^xsd:string ;
+    mbdiaries-ontology:index 334 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756755/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/334/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_334"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/334/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/334/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-22> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday Nov. 22. 1892.14 Lungarno Acciajuoli Flore..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/334> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_334.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_334.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-22> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-11-22> a crm:E52_Time_Span ;
+    rdfs:label "November 22, 1892"^^xsd:string ;
+    rdf:value "1892-11-22"^^xsd:date .
+

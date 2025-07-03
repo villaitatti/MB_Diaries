@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/151> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/151> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "151"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/151/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/151> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756475/full/full/0/default.jpg> ;
+    rdf:value """fine, mild weather. The last part of the afternoon we spent in the Eremitani before the Mantegna frescoes.B. was awfully sick in the night.
+Friday Oct. 30. ‘91 Padua.
+We spent the day at Vicenza, but did not have time to enjoy Palladio very much, because there were so many pictures to be seen. It was a day to be remembered by me, because I first became aware of Mantegna as a really great painter - There was also a fine Buonconsiglio """^^xsd:string ;
+    mbdiaries-ontology:index 151 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756475/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/151/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_151"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/151/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/151/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1991-10-30> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Friday Oct. 30. ‘91 Padua...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/151> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_151.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_151.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1991-10-30> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1991-10-30> a crm:E52_Time_Span ;
+    rdfs:label "October 30, 1991"^^xsd:string ;
+    rdf:value "1991-10-30"^^xsd:date .
+

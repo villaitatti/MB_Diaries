@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/89> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/89> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "89"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/89> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756398/full/full/0/default.jpg> ;
+    rdf:value "less impressive is Christ and the Magdalen, neatly and clearly done, but treated in a wonderfully, religious way. The figure of Christ at any rate is full of that humility, and sense of wonder at his own self that Rembrandt more than once gives to the face and form of Jesus. The Magdalen is a Dutch woman of Rembrandt’s own time. Very interesting also are two portraits of Rembrandt’s earliest days, one of Hugo Grotius, a clean, fresh bit of painting, and one of Grotius’ wife. Her portrait we should scarcely have known for  The most fascinating Rembrandt is the landscape. One would like to know where he got such a landscape. It is a scene for some strange mysterious tale in Stevenson’s best fashion. Scarcely [089] less impressive is Christ and the Magdalen, neatly and clearly done, but treated in a wonderfully, religious way. The figure of Christ at any rate is full of that humility, and sense of wonder at his own self that Rembrandt more than once gives to the face and form of Jesus. The Magdalen is a Dutch woman of Rembrandt’s own time. Very interesting also are two portraits of Rembrandt’s earliest days, one of Hugo Grotius, a clean, fresh bit of painting, and one of Grotius’ wife. Her portrait we should scarcely have known for "^^xsd:string ;
+    mbdiaries-ontology:index 89 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756398/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/89> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_89.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_89.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:25"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

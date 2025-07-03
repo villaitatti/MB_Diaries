@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/246> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/246> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "246"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/246/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/246> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756607/full/full/0/default.jpg> ;
+    rdf:value """ Saturday. March 26. ’92. Florence
+Rain beginning again. Met at Pitti.Wrote and read in afternoon.Lotto in evening. Story.
+Sunday March 27. ‘92 
+Took Emma and the children to the Gallery in the morning. Karin was much bored. The only really delightful thing to her was climbing on the seats. Ray liked the picture stories and the two Heads of Medusa. But sculpture interested her much more - and even Karin went so far as to kiss the Boar’s snout. In the afternoon I wrote and read to Ray and went to see Gertrude.Bernhard began his Preface to the Hampton Court Guide and wrote 3 hours. What a dear he is! He is getting really interested in it.In the evening we worked upon our Lotto.Both read  Creighton  vol. III.Wrote my story.
+Monday March 28. ’92.
+Pitti in the morning.B. wrote again for 3 hours, and read Eastlake’s  Fine Arts . I finished Creighton Vol. III.We wrote our Lotto.I called on Miss Britten, who was out.B. called on Loeser.
+*  Tuesday March 29. ‘92
+Uffizi in the morning. I tried copying ears, but without much success.In the afternoon Bernhard again wrote for three hours.We finished """^^xsd:string ;
+    mbdiaries-ontology:index 246 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756607/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/246/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_246"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/246/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/246/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1992-03-26> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Saturday. March 26. ’92. Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/246> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_246.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_246.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1992-03-26> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1992-03-26> a crm:E52_Time_Span ;
+    rdfs:label "March 26, 1992"^^xsd:string ;
+    rdf:value "1992-03-26"^^xsd:date .
+

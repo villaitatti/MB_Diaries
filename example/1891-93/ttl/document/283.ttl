@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/283> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/283> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "283"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/283/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/283> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756671/full/full/0/default.jpg> ;
+    rdf:value """ Thursday July 14. 1892 Paris
+We are reading aloud Creighton’s clear little book on “The Elizabethan Age”. The “Mikes” went yesterday.
+… “The one element thee seems to leave out is thy duty to other people. I mean the fact that in marrying thee took upon thyself certain duties towards thy husband and children that it seems to me ought to be fulfilled at whatever sacrifice to thyself. (!!!) Of course these may be old-fashioned ideas of mine, but such as they are, I cannot get rid of them. It seems to me thee ought as a wife to help Frank forward in his plans of life as far as thee possibly can and the ought to make things as easy for him as possible.”… And now for myself - I recognize all thee says, and have no doubt it is all true. But the fact is I was brought up to believe that it was a wife’s  duty  to love her husband, and if she could not really love him, it was her  duty  to pretend she did. All the trend of my whole religious experience until within the last few years was to make me believe that as a wife the first """^^xsd:string ;
+    mbdiaries-ontology:index 283 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756671/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/283/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_283"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/283/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/283/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-07-14> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Thursday July 14. 1892 Paris..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/283> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_283.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_283.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-07-14> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-07-14> a crm:E52_Time_Span ;
+    rdfs:label "July 14, 1892"^^xsd:string ;
+    rdf:value "1892-07-14"^^xsd:date .
+

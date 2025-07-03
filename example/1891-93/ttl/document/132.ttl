@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/132> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/132> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "132"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/132> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756452/full/full/0/default.jpg> ;
+    rdf:value "cobweb and candle-grease of ages. The sacristan appeared enraged when he caught me. He said the picture belonged to the Academy and no one was allowed to touch it. Presently - to my intense surprise - he invited us to come tomorrow and wash it - saying he would supply the water and sponge and ladder.We went on to S. Barnabà and S. Trovaso and then came back to lunch.After lunch we went to S. Giovanni e Paolo, taking the Buonsignori photographs, and we were all convinced that the altar-piece there is by him.Then we went to San Marco and saw the organ shutters by Gentile Bellini in the work-shop and the bronze doors, and then had tea at  Met Costa at S. Pantaleone and after studying the Antonio di Murano there went in to the Carmine. There in the absence of the sacristan, I cleaned the lower part of the Lotto from the dust and [132] cobweb and candle-grease of ages. The sacristan appeared enraged when he caught me. He said the picture belonged to the Academy and no one was allowed to touch it. Presently - to my intense surprise - he invited us to come tomorrow and wash it - saying he would supply the water and sponge and ladder.We went on to S. Barnabà and S. Trovaso and then came back to lunch.After lunch we went to S. Giovanni e Paolo, taking the Buonsignori photographs, and we were all convinced that the altar-piece there is by him.Then we went to San Marco and saw the organ shutters by Gentile Bellini in the work-shop and the bronze doors, and then had tea at "^^xsd:string ;
+    mbdiaries-ontology:index 132 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756452/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/132> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_132.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_132.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:25"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

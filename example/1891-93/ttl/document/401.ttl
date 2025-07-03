@@ -1,0 +1,54 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/401> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/401> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "401"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/401/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/401> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756845/full/full/0/default.jpg> ;
+    rdf:value """ * Wednesday May 10. 1893. Rome
+Field better, and we all went to the Rospigliosiand enjoyed the Lotto.Then Bernhard and I finished the architecture article. I typed it in the afternoon while Bernhard called on Wickhoff.Then we took tea with Miss Sellers and her friend and they took us to the Villa Medici. We were sitting in the ilex grove and just going to smoke, when M. Guillaume the Director, a precise, polite, neat old man, joined us and insisted on trailing us all over “the grounds”.In the evening we read the “Architecture” to Michael Field.
+Thursday May 11. 1893. Rome
+Went to the Colosseum, where Bernhard compared Christianity to the solar system. Wandered about among Churches -Went to the Doria Gallery and Torlonia. In the afternoon Bernhard and I took Miss Sellers and her friend to the Massarenti collection and then to S. Peter’s.Dead tired at night.
+Friday May 12. 1893. Rome
+Santa Maria del Popolo -Saw Mr. Mond’s collection and met Miss Hertz -
+In the afternoon drove along the Appian way."""^^xsd:string ;
+    mbdiaries-ontology:index 401 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756845/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/401/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_401"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/401/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/401/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-05-10> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " * Wednesday May 10. 1893. Rome..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/401> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_401.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_401.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-05-10> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-05-10> a crm:E52_Time_Span ;
+    rdfs:label "May 10, 1893"^^xsd:string ;
+    rdf:value "1893-05-10"^^xsd:date .
+

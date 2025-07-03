@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/299> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/299> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "299"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/299/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/299> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756703/full/full/0/default.jpg> ;
+    rdf:value """the Church. Not finding them, we walked in to the house of the Sacristan, and knocked up the woman who had let us into the Church. She and her husband and her children and a horde of friends came out with a candle. When we got to the seat, she began a long and animated description of having seen a boy go by and snatch up something which she thought was a purse, and which, when she came up he “fut’ in tasca.” At this word her husband gave her a nudge, and the whole party burst into laughter. Fresh from Diderot, I understood the joke, and could not help laughing too!A railway man joined the group, and he took my card and said he knew the boy and would get it and send it on. Then we all parted with hand-shakings and compliments, and we came back while the party with their candle remained a long time on the spot acting the scene over again and studying my card. The dialect is hard to understand. Bernhard says it is like trying to read fine print with very dusty glasses.I read “ Oliver Cromwell”  by F. W. Cornish, B.  Liaisons dangereuses .
+>Monday Sept. 19. 1892. Albergo Concordia. Bergamo
+Left Varallo at 9 and Novara at 11.35, reaching Milan at 1.10.After lunch we spent a very short hour and a half in the Brera and then came on at 4.30 to Bergamo.Here, letters from London started us talking over our difficulties, which made us both very unhappy, or rather, stirred up the unhappiness there was in us."""^^xsd:string ;
+    mbdiaries-ontology:index 299 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756703/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/299/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_299"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/299/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/299/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-19> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text ">Monday Sept. 19. 1892. Albergo Concordia. Bergamo..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/299> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_299.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_299.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-19> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-19> a crm:E52_Time_Span ;
+    rdfs:label "September 19, 1892"^^xsd:string ;
+    rdf:value "1892-09-19"^^xsd:date .
+

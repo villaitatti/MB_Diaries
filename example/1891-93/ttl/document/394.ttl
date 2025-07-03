@@ -1,0 +1,49 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/394> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/394> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "394"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/394/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/394> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756834/full/full/0/default.jpg> ;
+    rdf:value """ Monday - April 24. 1893. Florence
+I had a rather threatening letter from B.F.C.C. and Bernhard a discouraged one from his sister, about his father’s failing health. As this means great distress for them, we determined to send them £100 - part of the money which Burke gave Bernhard on the Pier di Cosimo picture - Bernhard having saved him £200 on it. We had laid this by, meaning to use it to print one of our books this summer, but it seemed impossible to be happy while they were in want.I took Michael Field to the Medici Tomb, the Baptistery, the Opera del Duomo and the Bargello, all of which we enjoyed exceedingly.I forgot, by the way, to note a little incident which happened when Christina and I were in the Bargello, looking at the Donatello “Amor”, the little boy with wings and a tail. A peasant woman with a shawl over her head was gazing at it curiously, and at last turned to me and asked “È un santo?”- “Si, si,” I answered, “Sant’Amore”- and she walked away quite satisfied! In the afternoon I joined the Mikes in the Uffizi, while Bernhard went to see Dr Baldwin, who said there was nothing the matter with him.At tea """^^xsd:string ;
+    mbdiaries-ontology:index 394 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756834/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/394/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_394"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/394/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/394/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-04-24> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Monday - April 24. 1893. Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/394> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_394.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_394.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-04-24> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1893-04-24> a crm:E52_Time_Span ;
+    rdfs:label "April 24, 1893"^^xsd:string ;
+    rdf:value "1893-04-24"^^xsd:date .
+

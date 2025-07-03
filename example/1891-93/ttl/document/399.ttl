@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/399> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/399> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "399"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/399> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756842/full/full/0/default.jpg> ;
+    rdf:value """study Renaissance art. How interesting it is to trace, as one can do here, Renaissance architecture and decoration straight back to Roman models.In the afternoon we went out to the Baths of Caracalla and talked.In the evening we read Robert Bridges -and “Michael” was the only one left to say a word in his defence - and that a feeble one. “Field” she calls “The Walls of Jericho”, for she crumbles to ruins when she tries “new” doctrine. That is so brave and sincere of her, she does not stand up for her old opinions. She groaned and said it made her fear that their volume which is just being issued, “A Book of Verses underneath the Bough,” will receive but a Lenten welcome - But why should one tolerate Elizabethan copies nowadays anymore than we should tolerate say ante  plein air  painting in France? Then Bridges has  nothing to say .
+I have had such disquieting news from London, my heart sinks within me. B.F.C.C. keeps on Emma, when she is  proud  to be a bad nurse for the children, and now he threatens to sue for a divorce. I feel as if it would kill me to leave Ray entirely to such a brute, poor innocent creature! Yet I cannot live without Bernhard. B.F.C.C. is very cruel and brutal. I could not have thought he would make the  children  suffer, at any rate."""^^xsd:string ;
+    mbdiaries-ontology:index 399 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756842/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/399> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_399.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_399.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

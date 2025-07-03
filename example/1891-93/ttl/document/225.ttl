@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/225> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/225> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "225"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/225/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/225> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756581/full/full/0/default.jpg> ;
+    rdf:value """read Crowe and Cavalcaselle and Morelli. Still tired.
+Friday. March 4. 1892. Florence
+Uffizi - drawings and Bronzino. I stole off and enjoyed myself among the Venetians for a while!We finished arranging photographs here in the afternoon and took a little walk.I went to see Gertrude.Read Creighton. B. read Huysmans’ “ En ménage” and Eastlake’s  Literature of the Fine Arts .”
+Saturday March 5. ‘92
+I was unwell and felt very ill.Went to B.’s and helped arrange his photographs.
+Began our Lotto article.He went to Castello to see the Ridolfo Ghirlandaio’s and I went to see Gertrude. Her Swiss maid Julia used to be a waitress at a hotel. She said there was not a man who came who did not try to seduce her. She disliked gentlemen least, because they were polite and understood No. She utterly refused to hear of such a thing as a chaste man! O it is so easy to forgive where there is love, so it does not need forgiveness, but the very beauty of that somehow makes the other so disgusting. How it turns my heart to bitterness and I know what I am writing of. But worse still, to try to seduce a girl because she has to work for her living and belongs to a lower class - Ugh! It  is  horrid. It is uncivilized."""^^xsd:string ;
+    mbdiaries-ontology:index 225 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756581/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/225/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_225"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/225/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/225/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-04> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Friday. March 4. 1892. Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/225> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_225.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_225.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-04> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-03-04> a crm:E52_Time_Span ;
+    rdfs:label "March 04, 1892"^^xsd:string ;
+    rdf:value "1892-03-04"^^xsd:date .
+

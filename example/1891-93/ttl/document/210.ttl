@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/210> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/210> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "210"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/210> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756564/full/full/0/default.jpg> ;
+    rdf:value """“emancipated” people - so called - If all a victim to the latest fashion in Ideals! Probably I am in part that. Sometimes I have just the feeling which is complementary to what I have felt sleeping in the prairies under the open sky. Then I seemed to feel the great swirl of the revolving earth - bearing me along. And so in my ideas and conduct - at times, I realize that I am caught in the swirl, merely a tiny creature at the top, carried irresistibly on by the inevitable rush of ideas. My discontent, my rebellion, even my mistakes sometimes seem less individual than typical. But, curiously, I  care  all the more, for my sensations at least are my own, and I begin to know sweet from bitter and happiness from unhappiness. I never had such a consciousness of  Life  as I have now, when I realize how little any actions are “free-willed”.
+Uffizi in the morning and further work on the """^^xsd:string ;
+    mbdiaries-ontology:index 210 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756564/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/210> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_210.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_210.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

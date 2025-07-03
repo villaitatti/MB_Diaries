@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/181> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/181> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "181"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/181> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756520/full/full/0/default.jpg> ;
+    rdf:value """Read  Crowe and Cavacaselle Masaccio  in evening.
+Saturday. Dec. 26. 9’1 Florence
+Further notes on the Titians in the Uffizi.Began type-writing catalogue of Florence Galleries.B. asked the Ways to tea in the afternoon, and I felt absurdly excited at the idea of meeting her, for he had said so much about how fascinating she was and how much he liked her. Moreover, the fact that she had offered to become his “maitresse” interested me. She also felt intensely curious about me – and the result was funny to a degree. We each were left with the comfortable feeling of superiority, she feeling that I had no “charm” – absolutely none – and I feeling that she had little taste and no intellect. It was hard for me not to have “moral” prejudices against her –  so  hard, for she is the kind of woman - flirtatious and over-dressed and over-mannered - from whom """^^xsd:string ;
+    mbdiaries-ontology:index 181 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756520/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/181> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_181.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_181.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

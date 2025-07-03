@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/263> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/263> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "263"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/263> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756631/full/full/0/default.jpg> ;
+    rdf:value """stone figures, like children’s figures of men, carved on the lintels.
+It had also an interesting font and a pulpit in the Pisan style, and behind the High Altar an excellent terra cotta plaque of St. George and the dragon, of the della Robbia school. The dragon was quite Japanese in colour, and in form too. Our visit aroused wild interest, and we were invited in to the priest’s house where we partook of wine and honey cakes, no doubt such fare as they ate in Homer’s day. They asked us if we came from Lucca, evidently the greatest metropolis they could imagine, and as far away as they could conveniently think of. The elder priest was fat and Boccaccioesque, and took snuff. His favourite was a young chaplain who had a “gran’ingenio” for languages, and was actually learning English. He even said for our benefit, and to astonish the others, “Are you En-gleesh?” and “Good Bye.” The jovial priest explained the crown of priests gathered in his parlour by the fact that it was a festival in his church, and they always visited each other """^^xsd:string ;
+    mbdiaries-ontology:index 263 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756631/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/263> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_263.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_263.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

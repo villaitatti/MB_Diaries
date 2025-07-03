@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/284> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/284> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "284"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/284> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756673/full/full/0/default.jpg> ;
+    rdf:value "and foremost duty of my life was to make my husband happy and to minister to his peculiarities and yield to his demands. I can see now that this was a very exaggerated view, but at the time it seemed to be the only Divine view -- (!!) and my life has been one long struggle to conform to it. I was taught that if I pretended to love, the love would come, and every rising of independence in my nature seemed to me a direct and wilful [ sic ] sin.  It was my very desire to do right  that led me into the things that seem to thee so wrong. I have always deplored it unspeakably, but have thought it was innate wickedness in me that made things what they were. I cannot expect thee to understand me, but this may perhaps account to thee for two things: (I) my own life of submission to shams; and (II) my determination never to give you any false consciences if I could help it. In both I have been extreme no doubt, and had I lived in this generation, things would have been clearer to me. But this is my excuse, such as it is …There is one difficulty I have always had to contend with that thee is spared, and that is father’s  nerves . At the least opposition he has always become so nervous that one’s pity was at once excited, and it seemed worthwhile to do anything to save him from such suffering. Many a night in the past I have been waked up by hearing him leave the house half dressed in the middle of the night and walking up and down the garden, or, in the country, up and down in the roads for hours together. And I never knew whether he would not "^^xsd:string ;
+    mbdiaries-ontology:index 284 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756673/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/284> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_284.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_284.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

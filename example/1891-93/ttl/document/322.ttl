@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/322> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93/page/322> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "322"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/322/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/322> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756743/full/full/0/default.jpg> ;
+    rdf:value """ Saturday Oct. 29. 1892 Albergo Campana Fabriano
+“Did” Matelica. Quarrelled.Drove to Albacina and came by train to Fabriano. There was little to see here, but we found some Filippo da Veronas in the Pinacoteca.I began to write my article on “ The March of Ancona ” for the Woman’s Herald.Bernhard is reading  Diderot ’s short stories, and I am finishing  Vol. IV of Creighton .Was unwell.
+x  Sunday Oct. 30. 1892. Fabriano
+Drove through the mist to Arcevia and saw two Signorellis. It was about 20 miles and took all day.On the way back we “did” Sassoferrato.Tired and sleepy - slept 12 hours.
+x  Monday Oct. 31. 9’2. Albergo Cannoniera. Città di Castello
+Went to Gubbio and had three delightful hours there.Letters from Burke and Maude.Came here and wandered about the town enjoying the architecture, particularly of the Duomo and of the Palaces.I read “ The General’s Daughter ” by Potapenckoand  Morley’s second volume of Diderot .
+x  Tuesday Nov. 1. 1892. Città di Castello.
+Saw Churches and the Pinacoteca. Discovered a Pier dei Franceschi.Rain came on.Bernhard finished “ The General’s Daughter ,” and walked out to S. Maria di Belvedere - after we had seen a charming little Palazzino in the """^^xsd:string ;
+    mbdiaries-ontology:index 322 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756743/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/322/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1891-93_322"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/322/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/322/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-29> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text " Saturday Oct. 29. 1892 Albergo Campana Fabriano..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/322> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1891-93_322.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1891-93_322.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T13:36:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-29> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1892-10-29> a crm:E52_Time_Span ;
+    rdfs:label "October 29, 1892"^^xsd:string ;
+    rdf:value "1892-10-29"^^xsd:date .
+

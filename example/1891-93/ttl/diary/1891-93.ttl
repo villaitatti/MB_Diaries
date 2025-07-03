@@ -1,0 +1,19 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420756310/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> a crm:E22_Man-Made-Object ;
+    rdfs:label "Diary 1, 1891-1893"^^xsd:string ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756310/full/full/0/default.jpg> ;
+    crm:P2_has_type mbdiaries-ontology:Diary ;
+    mbdiaries-ontology:is_published true ;
+    mbdiaries-ontology:order 1 .
+
