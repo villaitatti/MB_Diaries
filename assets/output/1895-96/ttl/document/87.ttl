@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/87> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/87> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "87"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/87> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295823/full/full/0/default.jpg> ;
+    rdf:value """out of his eyes and hanging on his long white beard at the loss of her whom he described to me as his “dearest idol.” Dawn was flushing the mountains as she died, but the stars were still bright, and the air that came in the open window was fresh and still. It was very noble and poetic. I quoted our dear Walt to her (she first made me read him), “No array of words can say how much I am at peace about life and about death”, and she smiled at me to say that was her own attitude. 
+Well - I came home again, after happy, happy days with the children - but days in """^^xsd:string ;
+    mbdiaries-ontology:index 87 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295823/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/87> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_87.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_87.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

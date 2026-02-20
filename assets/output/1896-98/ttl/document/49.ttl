@@ -1,0 +1,38 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/49> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/49> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "49"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/49> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766135/full/full/0/default.jpg> ;
+    rdf:value """We worked on it in the evening till I was tired to death, and the ungrateful wretch Bernhard then quarrelled with me for being tired. Such is the payment of unselfishness!!
+Sunday Dec. 13. 1896.
+Again I slaved over the “Venetians” - but this time with a better result, for after quarrelling with me violently, Bernhard made up very sweetly and we accomplished the feat of working together the whole Inaevening without a jar!
+I have ordered cases of Mr. Morgan’s excellent wine to be sent to the Robertsons, to Christina Bremner and to Helen Hopekirk. I love to think how they will enjoy it. I am reading Rousseau’s  Confessions  and Bernhard is reading  Swift  and  Mrs. Ady’s Life of Millet . 
+Monday Dec. 14.96. 
+I went to the Modern Exhibition - horrible, awful - unspeakable. I simply can’t write about it for the Gazette. Maud will write for the Studio, and she is very pleased to get the job. Afterwards I went to Placci’s and heard some Haydn and Mozart’s 3rd Symphony. Bernhard dined with the Jeaffresons at the Villa Angeli. """^^xsd:string ;
+    mbdiaries-ontology:index 49 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766135/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/49> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_49.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_49.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

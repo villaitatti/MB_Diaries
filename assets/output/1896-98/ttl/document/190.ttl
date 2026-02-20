@@ -1,0 +1,38 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/190> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/190> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "190"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/190> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766276/full/full/0/default.jpg> ;
+    rdf:value """Monday Dec. 20. 1897. Villa Rosa. Fiesole.
+Work in the morning and curiosity shops in the afternoon. Mr. Morgan called when we got back. Bernhard lent him £300 to enlarge his business buying white wine to sell in England. In the evening we read some  very queer  stories in Genesis!
+Tuesday Dec. 21. 1897.
+We began to pack up a little. Bernhard went off to Vicenza to get the Loschi Giorgione for Mrs. Gardner. 
+Wednesday Dec. 22. 1897. 
+Began our moving! Calorifer lighted in the new house – an  awful  odour! """^^xsd:string ;
+    mbdiaries-ontology:index 190 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766276/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/190> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_190.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_190.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/76> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95/page/76> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "76"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/76/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/76> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420765602/full/full/0/default.jpg> ;
+    rdf:value """Thursday Dec. 6.  94 Paris 3 rue de Beaume  
+Met Loeser in the Louvre drawings. Saw Dreyfus’ things. Loeser dined here and we went to the  Chat Noir  to see it and Fragerolle’s things - which are after all prettier in books. Felt horribly respectable and out of it. Too serious. 
+Friday Dec. 7. 94
+B.B.  took  Miss Anstruther Thompson to the Louvre, and I paid a nice call upon M. Reinach. Lunched with Loeser at the Boeuf à la Mode - ate too much. Bernhard dined with the Toys. 
+Saturday Dec. 8.  94.
+B.B. took the Bywaters to the Luxembourg. I read Michelet at the Bibliothèque Centrale, and was awfully amused at his criticism of Michelangelo. Sturges came to tea, and he and Loeser stayed to dinner and till 10, chatting, while B.B. went to dine with the Perrys. Loeser told of Royce’s little boy who was taught nothing about religion or death. One day """^^xsd:string ;
+    mbdiaries-ontology:index 76 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420765602/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/76/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1894-95_76"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/76/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/76/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1994-12-07> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Friday Dec. 7. 94..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/76> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1894-95_76.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1894-95_76.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:03:23"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1994-12-07> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1994-12-07> a crm:E52_Time_Span ;
+    rdfs:label "December 07, 1994"^^xsd:string ;
+    rdf:value "1994-12-07"^^xsd:date .
+

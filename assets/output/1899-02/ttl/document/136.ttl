@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/136> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/136> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "136"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/136/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/136> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296640/full/full/0/default.jpg> ;
+    rdf:value """Thursday Nov. 1st 1900. Frullino. Florence
+The cook and some underground acquaintances of his came up with a picture for sale – not Lorenzo Monaco, after all, but, B.B. thinks, a Giottino. Rather fine. We offered £500. Mr. Morgan and Mrs. and Miss Cracroft came to lunch, and we had some Bach – an organ prelude and fugue in E minor – and so on. Then I called with the Cracrofts on Maud Cruttwell and met Miss Paterson and Miss Lowndes. Called on Mrs. Thrupp, and then on the Mortons who have given notice to all their servants and want my Rosa. They are terribly fussy. B.B. bicycled over and called on them earlier. 
+Wrote to Dowdeswell proposing a sort of partnership, and to Heinemann proposing a book on the unpublished Italian pictures in England. 
+No word about the children. The suspense is painful. But at the worst, it is  nothing  compared to this time last year! 
+Friday Nov. 2. 1900. Second Anniversary of Evalyne’s Death.
+A telegram from Mother says the decision about the children is deferred for a """^^xsd:string ;
+    mbdiaries-ontology:index 136 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296640/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/136/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1899-02_136"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/136/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/136/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1900-11-01> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday Nov. 1st 1900. Frullino. Florence..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/136> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_136.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_136.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1900-11-01> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1900-11-01> a crm:E52_Time_Span ;
+    rdfs:label "November 01, 1900"^^xsd:string ;
+    rdf:value "1900-11-01"^^xsd:date .
+

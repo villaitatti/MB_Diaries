@@ -1,0 +1,60 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/159> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/159> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "159"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/159/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/159> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313447/full/full/0/default.jpg> ;
+    rdf:value """Friday, May 17, 1907
+Glorious.
+The youngsters swimming in morning. Emily, May H., Mrs. Radford and I enjoying it  à la limite de dilatation .
+Dr. Heath went to see Mrs. Ross and also to the hospital.
+They (the children) played leap-frog and cricked in their bathing-dresses. After lunch they motored, and they all dined out in the wood except Dr. H. and me. I felt tired. However, we sat up till 1, when they came in.
+The Spalding  père et mère  came up to call.
+Margaret (it’s too bad of me to have seen it!) “Now for the human beings who are perhaps as beautiful in their way as the place they live in.
+Mrs. Berenson is the most attractive, philosophic, harmonious, sympathetic woman I’ve seen. She is really wonderful. Mr. Houghton calls her a Fairy Godmother — she is. She keeps everybody happy, everybody orderly, and often slips a song or a piece of poetry into the frolic — which is lovely. She reads to us too.
+Karin is splendid, as sympathetic and sensitive as anyone we know.
+Then Miss Dawson is just splendid here, dancing and twiddling like the youngest of us. But you will wonder about “us” who have to be kept orderly, etc. Who are we?
+We are a party of 6 counting Karin and me. Cecil Pinsent, Alice Houghton, a niece, who is a strong, wonderful sun-burnt creature like a Ceres, but really a nurse.
+Albert Spalding, a real prodigy violinist with a public reputation and darting brown eyes, almost terribly quick and emotional.
+And last but very near my heart Hugh Morgan, a  perfect  angel, a Bedalian, an architect, knowing the names of  our  architects, with a voice like Dick Rathbone’s, blue eyes like David’s, but above all a sweetness and fondness and sensitiveness, and though he is 22, the charm of a young boy. He loves me too, and makes me wreaths and is always dropping into my cup and plate, so that (this is rather terrifying to me) when Albert heard two of the party were engaged (Cecil and Alice, really) he thought it was Hugh and me!!!"""^^xsd:string ;
+    mbdiaries-ontology:index 159 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313447/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/159/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_159"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/159/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/159/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-05-17> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Friday, May 17, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/159> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_159.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_159.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-05-17> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-05-17> a crm:E52_Time_Span ;
+    rdfs:label "May 17, 1907"^^xsd:string ;
+    rdf:value "1907-05-17"^^xsd:date .
+

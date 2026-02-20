@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/98> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95/page/98> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "98"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/98/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/98> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420765624/full/full/0/default.jpg> ;
+    rdf:value """Sunday. February 10. 1895. Villa Rosa. Fiesole
+Letter from Reinach saying Bernhard’s article after all can’t go in the Revue archéologique. Disappointment. Loeser and Emily came to lunch, and we walked and talked. We read the Knights in the evening. Bernhard was feeling low and said, “I can never write again.” He is like a tree. His leaves haven’t begun to put out yet, and he thinks the winter past will endure facon. By June he will be in full leaf, and will hate to tear himself away from Fiesole. 
+Emily said, when I told her the S. Marco Giotto was genuine, “Why, it has so many traditions about it being Giotto. I never thought it could be genuine!” - quite naively. 
+Monday. Feb. 11. 1895.
+Began article on Lafenestre’s “Florence”. It rained, but I went into Florence and had a """^^xsd:string ;
+    mbdiaries-ontology:index 98 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420765624/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/98/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1894-95_98"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/98/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/98/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1895-02-10> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Sunday. February 10. 1895. Villa Rosa. Fiesole..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/98> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1894-95_98.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1894-95_98.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:03:23"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1895-02-10> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1895-02-10> a crm:E52_Time_Span ;
+    rdfs:label "February 10, 1895"^^xsd:string ;
+    rdf:value "1895-02-10"^^xsd:date .
+

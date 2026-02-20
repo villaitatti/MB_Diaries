@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/181> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/181> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "181"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/181> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295917/full/full/0/default.jpg> ;
+    rdf:value "[ Italian intrigue] simultaneously with her new lover’s bursting out with all sorts of extravagances. The coincidence caused so much talk that at last Guiccioli, as Prefect, had to threaten her that unless the diamonds were forthcoming, the Law would “take its course.” The diamonds were found. In the meantime Crispi fell and Rudinì became Prime Minister. The Lady went to him and demanded the dimissioni of Guiccioli for the affront he had put upon her. She said if he was not dismissed, she would publish letters incriminating not only Crispi’s son but Crispi himself, and that this would look as if Rudinì were trying to kick a fallen enemy, and would produce strong feeling against him. So Rudinì promised to give Guiccioli the sack. Thereupon the heroine of the story repaired to the "^^xsd:string ;
+    mbdiaries-ontology:index 181 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295917/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/181> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_181.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_181.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

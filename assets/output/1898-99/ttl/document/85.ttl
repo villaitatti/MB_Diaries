@@ -1,0 +1,37 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/85> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99/page/85> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "85"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/85> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296207/full/full/0/default.jpg> ;
+    rdf:value """Bernhard arriving at the same time on their bicycles. Mrs. Scott-Barber told us many stories of the “closeness” of the little Poet Laureate. He arranged with a stable that he should have a carriage and horses for £310 a month, and he insisted on having a reduction for months that hadn’t the full complement of 31 days. Miss Cruttwell called. 
+Saturday Oct. 22.98. 
+Mr. and Mrs. Benn came to lunch, and Benn and Bernhard and Bertie went for a long and delightful walk. Alys and I bicycled down to Florence and shopped.
+Sunday Oct. 23.98. 
+Mr. Power came to give me a singing lesson and stayed to lunch. Blair Fairchild also came, and we called at """^^xsd:string ;
+    mbdiaries-ontology:index 85 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296207/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/85> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1898-99_85.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1898-99_85.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:48:37"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

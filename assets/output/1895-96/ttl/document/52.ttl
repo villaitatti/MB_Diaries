@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/52> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/52> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "52"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/52> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295788/full/full/0/default.jpg> ;
+    rdf:value """[ End of friendship with Michael Field]
+subordinating our human sides to the little work we may be able to do! 
+This rupture is final, for Bernhard says that even if they try to make it up he will tell them what he really thinks - how he regards Michael as a foolish, uneducated, provincial fussy old maid, whose physical presence gets horribly on his nerves, and how he has only kept on so long on Field’s account - not because she is a poet - for she is not - but because she is a thinker. However, seeing that no wife could be more cowardly and acquiescent than Field before Michael’s superior physical energy, and that therefore she is to be counted  nul  in any human relationship, he cannot see that there is the least inducement to resume relations. 
+I am not so severe, because I really love them both, and find it hard to break if off like this. """^^xsd:string ;
+    mbdiaries-ontology:index 52 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295788/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/52> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_52.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_52.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

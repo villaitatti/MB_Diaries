@@ -1,0 +1,60 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/60> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/60> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "60"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/60/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/60> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313348/full/full/0/default.jpg> ;
+    rdf:value """Thursday, Feb. 7, 1907
+Fine and warmer.
+Finished D-L indexing. Bernhard wrote two or three more paragraphs and seemed to feel encouraged. Karin’s good spirits have come “bubbling” back, in spite of her trouble with her ears. She is reading Meredith and George Elio and beginning to think about them as style and construction. She is very clever.
+Mrs. Crawshay writes good letters. Today she speaks of chamber music “performed somewhere — of the size and population of a railway station” and says she means to come to Rome “when every stone there has a rose bending over it” Best of all,
+Last Day of Holidays
+Short Conversation between first little pink boy, Jacky Crawshay, and second little cherub mouthed boy, Crinks Johnstone — overhead by “Impasse” seated behind and underneath them in a hansom (destruction national Gallery)
+Jacky (patronisingly) “Have you see our new Velasquez, Crinks?”
+Crinks “No. Oh yes, if you mean that woman on her back” — (!)
+Jacky “I don’t think it good, Crinks, do you?”
+Crinks (flattered) “No, it’s beastly rotten, isn’t it?”
+By and by Jacky said sweetly, “Mummie, if it’s quite the same thing to you, as Crinks and I know the National Gallery so well, shall we go instead to the Hippodrome?”
+We did, only returning in time to dress for the Pantomine!
+Miss Blood and Neith came to dine. but it dragged."""^^xsd:string ;
+    mbdiaries-ontology:index 60 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313348/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/60/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_60"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/60/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/60/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-02-07> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, Feb. 7, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/60> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_60.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_60.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-02-07> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-02-07> a crm:E52_Time_Span ;
+    rdfs:label "February 07, 1907"^^xsd:string ;
+    rdf:value "1907-02-07"^^xsd:date .
+

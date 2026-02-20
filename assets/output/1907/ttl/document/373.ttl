@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/373> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/373> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "373"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/373/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/373> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313661/full/full/0/default.jpg> ;
+    rdf:value """Tuesday, Dec. 17, 1907
+Glorious.
+Algar.
+Bernhard went in to attend his Commission on the frescoes at Santa Maria Novella, and visited the Carmine and Pitti.
+He had lunch with the Serristori, and talked with Rembielinski about Karin. R. says that local tuberculosis is not hard to cure, and that it is not inherited. What she has might happen to anyone. But if her hearing goes,I wonder if she will care to live. I shouldn’t. Poor, poor child. But I must get a different, brave frame of mind before tomorrow.
+Mather came to lunch, and then I walked alone to Fiesole and called on Miss Paterson. Bernhard called on Miss Priestley and had a walk with her.
+Algar goes on telling us strange tales of our friends and acquaintances. There is a man in the Borgo de’ Pinti called Pasquale, who provides boys — Enfants Jésus — for the Brotherhood, and Horne is commonly reported to have three a week from the Pasquale establishment. Algar says Horne’s favourite artistic discourse is about whether Leonardo was or wasn’t.
+Algar has fallen in love with Mme von Heiroth, and is earnestly praying (?) her husband may not return for awhile."""^^xsd:string ;
+    mbdiaries-ontology:index 373 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313661/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/373/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_373"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/373/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/373/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-12-17> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday, Dec. 17, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/373> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_373.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_373.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-12-17> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-12-17> a crm:E52_Time_Span ;
+    rdfs:label "December 17, 1907"^^xsd:string ;
+    rdf:value "1907-12-17"^^xsd:date .
+

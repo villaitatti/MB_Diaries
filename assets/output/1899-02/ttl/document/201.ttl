@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/201> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/201> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "201"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/201> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296705/full/full/0/default.jpg> ;
+    rdf:value "man who had dined with them, a telegram came from Douglas saying he had landed, and was very much disappointed at not finding them there. Mrs. Robinson threw the cards on the floor and went off into wild hysterics, and Kate didn’t know what would happen. The young man, to give Joe something to do, jammed a hat on her head and dragged her out into the street, telling her she must go to a telegraph office and telegraph to Douglas. They went down the street, he dragging her, and Joe with her hat on the side of her head, waving a pocket-handkerchief, sobbing and declaring that her heart was broken and she wished she was dead, and she couldn’t telegraph or anything. It was Saturday night and the street was full of drunken women, and Joe, Kate said, behaved just like one of them. When they had gone another telegram arrived saying Douglas would come up that night, so Kate rushed after them almost hatless, and found them in the Victoria telegraph office, the young man trying to get Joe to telegraph, and Joe weeping and protesting, and everyone staring at her. Then they had to rush out and buy some food – it was then midnight –  Logan sends a description of one of the usual [0200] horrible muddles of the Kinsellas. “I saw Kate yesterday and heard about their misadventures in meeting Douglas on his arrival from South Africa. The boat was expected on Friday, and they expected to be back Friday night, so they went to Southampton without any luggage. They got into the wrong train, had to be hustled out, wandered all over Waterloo from one platform to another; and when they reached Southampton there was no sign of the ship. They spent the day staring at the bulletin-board till their eyes cracked, then had to sleep without any luggage in the noisy hotel, were waked by mistake at dawn the next day, and, after spending Saturday again staring at the bulletin-board, they were nearly dead. Then the hotel-porter told them that the boat would not be in till Sunday afternoon, and it occurred to them to come up and sleep at home, and go down again on Sunday to meet it. Without asking for more authentic information, they rushed up to town; and that evening, when they were playing cards after dinner with a young [0201] man who had dined with them, a telegram came from Douglas saying he had landed, and was very much disappointed at not finding them there. Mrs. Robinson threw the cards on the floor and went off into wild hysterics, and Kate didn’t know what would happen. The young man, to give Joe something to do, jammed a hat on her head and dragged her out into the street, telling her she must go to a telegraph office and telegraph to Douglas. They went down the street, he dragging her, and Joe with her hat on the side of her head, waving a pocket-handkerchief, sobbing and declaring that her heart was broken and she wished she was dead, and she couldn’t telegraph or anything. It was Saturday night and the street was full of drunken women, and Joe, Kate said, behaved just like one of them. When they had gone another telegram arrived saying Douglas would come up that night, so Kate rushed after them almost hatless, and found them in the Victoria telegraph office, the young man trying to get Joe to telegraph, and Joe weeping and protesting, and everyone staring at her. Then they had to rush out and buy some food – it was then midnight – "^^xsd:string ;
+    mbdiaries-ontology:index 201 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296705/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/201> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_201.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_201.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

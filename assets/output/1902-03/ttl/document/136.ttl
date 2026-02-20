@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/136> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/136> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "136"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/136> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310065/full/full/0/default.jpg> ;
+    rdf:value """people like Mrs. Kerr-Lawson and Mr. Houghton, feels she is not quite a lady - it is a very curious thing. I hardly know in what it consists, but there it is, a feeling that rises up in us all. B.B. is the only person who likes her; and fortunately she takes care to be at her best with him.
+I walked back with Peggy Cracroft, who had written an awfully decent letter to Alys about poor Alys’ depression (which she suffered from horribly almost the whole of her visit). Peggy had it herself for years, and suffered the very tortures of hell.
+I forgot to say that I called on the Hornes and found Mrs. Horne worse (I think she is dying). Herbert confessed to Uric Acid and its consequent frightful depression. He came up to have tea with Bernhard.
+The doctor remained to dine. He is not very clever, but he is an enthusiastic worker. He simply revelled in the feeling that he was having a """^^xsd:string ;
+    mbdiaries-ontology:index 136 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310065/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/136> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_136.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_136.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

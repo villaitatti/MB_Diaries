@@ -1,0 +1,49 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/59> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/59> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "59"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/59/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/59> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312329/full/full/0/default.jpg> ;
+    rdf:value """interesting and un-boring society becomes when you have  something to get out of it . Perhaps it’s a mistake to live with no stakes in social life.
+Then Miss Reed, one of Gertrude’s middle-aged, middle-class female friends, called with her sister Mrs. Morss, who used to be a very pretty girl in Bernhard’s youth, and who gave him a month of dreams. Alas, “Love likes not the falling fruit from the withered tree” - and rather the ripened fruit from the bulky tree. Then Mrs. Pringsheim called, and then, oh then, Mrs. Longyear, the millionaire Christian Scientist. She is very Franciscan in her ecstatic love of Humanity and individuals, in her contentment with (what she thinks are) God’s ways, and in her hatred of books. “What do I want of books?” she cried. “I  know .” She spoke continually of herself and God as one - it was like 2 + 2 = 4, and sin and disease and death along with God and """^^xsd:string ;
+    mbdiaries-ontology:index 59 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312329/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/59/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1903-04_59"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/59/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/59/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/2004-02-02> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Then Miss Reed, one of Gertrude’s middle-aged, mid..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/59> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_59.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_59.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/2004-02-02> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/2004-02-02> a crm:E52_Time_Span ;
+    rdfs:label "February 02, 2004"^^xsd:string ;
+    rdf:value "2004-02-02"^^xsd:date .
+

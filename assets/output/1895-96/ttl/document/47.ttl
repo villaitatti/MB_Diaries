@@ -1,0 +1,39 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/47> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/47> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "47"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/47> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295783/full/full/0/default.jpg> ;
+    rdf:value """[ French novels ]
+wilderness - that is another thing! All I can do is to tell you the things we, in our present state of culture and in the fulness of our years, consider great works, and about the others to give you  reminiscing  notes. 
+Our great works are few! What we like now are all Flaubert, comme chef d’oeuvre  Madame Bovary .  Bouvard et Pécuchet  is a horrible warning not to be a philistine. There remain also two short stories by Huysmans,  À Vau-l’ Eau and  Un Dilemma .
+We can’t read the de Goncourts now, but once we thought  Manette Salomon  a great book. 
+Zola I suppose you must read a little, but limit yourself to the  Contes à Ninon , and his epic  Germinal . Ça suffit .
+Bourget is of course beneath contempt. 
+Read Guy de Maupassant’s  Boule de Suif ; it is really a masterpiece, and he has never done anything else to equal it. """^^xsd:string ;
+    mbdiaries-ontology:index 47 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295783/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/47> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_47.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_47.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

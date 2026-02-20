@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1908/document/344> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1908/page/344> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "344"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1908/page/344/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1908/document/344> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493338287/full/full/0/default.jpg> ;
+    rdf:value """Tuesday, Nov. 17, 1908
+Hotel Somerset, Boston 
+Went with Miss Morgan, Bessie and Elsie to Fenway Court and saw the pictures. Lots of jolly talk.
+Dined with Mr. Swift, who had Isabella and Mr. and Mrs. John  Gray . B.B. wrote to Miss Fairfax: … “this rather womanless town. Of course there is a great abundance of females, and they are very distinguished, very cultured and imposing. But they seem to have carefully rid themselves of all feminine charm. I have noted but one faintest smouldering of something  else . We dined with a bachelor friend, no longer young. There was a very talkative lady, but something in the air made me remark to Mary afterwards that if we were not in sacred, puritanical Boston, but in wicked Europe, I should have believed that my bachelor friend and the talkative lady were, or rather had been, lovers. Mary was naughty enough to assure me she had no doubt they were. I feel a sort of tendresse for them, as the only human couple in Boston. Of course human nature, particularly man’s part of it, must out, here as elsewhere. I understand that the cocotte flourishes in this sacred city. But here she too becomes, nay  is  a Bostonian. She is very cultured, very musical, and for all I know very philanthropic. Boston has the glory of reviving the Greek  hetaira .”"""^^xsd:string ;
+    mbdiaries-ontology:index 344 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1908> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493338287/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/344/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1908_344"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1908/page/344/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/344/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1908-11-17> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday, Nov. 17, 1908"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/document/344> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1908_344.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1908_344.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:38:11"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1908-11-17> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1908-11-17> a crm:E52_Time_Span ;
+    rdfs:label "November 17, 1908"^^xsd:string ;
+    rdf:value "1908-11-17"^^xsd:date .
+

@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/13> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99/page/13> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "13"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/13/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/13> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296135/full/full/0/default.jpg> ;
+    rdf:value """Bernhard and I went on bicycles to I Cedri, to see the Laureate – who was out. Coming home, we got lost among bleak Tuscan hills, and arrived here by moonlight.
+Tuesday April 5. 1898.
+The Frys arrived at 3, and after tea I called on the Mortons, who were in bed as usual, and as striving as ever after culture. 
+Wednesday April 6. 1898. 
+Music lesson and a call on Mrs. Halsey, where I found the Hornes. In the evening we had an animated discussion about Greek art vs. Velasquez, Roger Fry contending that Greek art, involving a finer attitude to the world, was higher """^^xsd:string ;
+    mbdiaries-ontology:index 13 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296135/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/13/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1898-99_13"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/13/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/13/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1898-04-05> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday April 5. 1898...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/13> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1898-99_13.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1898-99_13.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:48:37"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1898-04-05> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1898-04-05> a crm:E52_Time_Span ;
+    rdfs:label "April 05, 1898"^^xsd:string ;
+    rdf:value "1898-04-05"^^xsd:date .
+

@@ -1,0 +1,42 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/188> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/188> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "188"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/188> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295924/full/full/0/default.jpg> ;
+    rdf:value """[ Paris.  Madame André]
+Saturday, June 19 <20>, 1896, 3 rue de Beaune
+Went to Louvre and in the afternoon drove on the Bois. I was  wretchedly  ill.
+Sunday, June 20 <21>, 1896  
+Bernhard spent the day with Miss Farnham at Rambouillet and I wandered over the Louvre and read “ The Heart of Midlothian ”, an awfully boring book for Scott. We walked a great deal in the evening, along the Seine, although I felt ill. Met Miss Lowndes. 
+Monday, June 21 <22>, 1896
+Went to see Madame André’s collection, but she would scarcely show us any of Italians. She has a good eye for the effective and much courage, rather than real taste. Tea with Reinach. 
+* Tuesday, June 22 <23>, 1896
+Saw the Pourtalès things. Not many Italians, however.
+Called on Bonnat and """^^xsd:string ;
+    mbdiaries-ontology:index 188 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295924/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/188> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_188.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_188.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

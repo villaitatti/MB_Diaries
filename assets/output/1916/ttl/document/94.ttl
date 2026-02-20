@@ -1,0 +1,37 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1916/document/94> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1916/page/94> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "94"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1916/document/94> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493308985/full/full/0/default.jpg> ;
+    rdf:value """Monday, April 3, I Tatti
+Cecil Pinsent, Geoffrey at Sybil’ s
+Fine 
+Got some work alone in the morning. Marcella came up for Geoffrey bushing in upon me to tell me she had told endless lies to get off. She is so full of herself, she has no idea of the impression she makes. Her mother telephoned later and I went to the music. And caught them spooning in a rather abandoned way. At tea Prince Paul came. She has no other social manner than to do her brilliant stunt or else sit silent and detached. She and Geoffrey went off into the Laghetto, where she took off her clothes. He thinks it is a sort of Lesbian  cult  of the beautiful female body (she is beautiful), rather than any  malizia  that leads her to these unusual demonstrations It is damned foolish. 
+Prince Paul stayed a long time. He said he had never felt well for one hour in his life. What hard luck."""^^xsd:string ;
+    mbdiaries-ontology:index 94 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1916> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493308985/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/document/94> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1916_94.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1916_94.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T17:11:14"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

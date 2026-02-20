@@ -1,0 +1,38 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1916/document/65> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1916/page/65> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "65"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1916/document/65> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493308956/full/full/0/default.jpg> ;
+    rdf:value """indicibles. Peut-être rien ne vous embellit autant que cette confiance de l’âme qui parle… l ’ âme qui ne parle jamais, qui fait parler l’opportunité pour elle, elle parle enfin avec sa bouche parfaite, et sa parole si rare rassemble à un chant qui caresse tout l’ être engourdi…… 
+Adieu mon bon, je t’ai écrit avant de me lever, car je voulais répondre immédiatement à ta dernière lettre.
+A very remarkable letter, although on reading it sounds a little unreal or like a pretty exercise on a theme. She is lining up to an idea she has of herself, a sort of spiritual pose. 
+However it impresses me, for most women in the circumstances would flame with jealousy and finding their utmost allurements had no banished the vague but insistent impression of another woman. 
+Called with Geoffrey on Mrs. Cameron.
+Started for Florence at 8.55. """^^xsd:string ;
+    mbdiaries-ontology:index 65 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1916> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493308956/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/document/65> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1916_65.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1916_65.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T17:11:14"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

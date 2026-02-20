@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/39> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/39> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "39"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/39> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766125/full/full/0/default.jpg> ;
+    rdf:value """[At the top of the page, a clipping from a newspaper pasted down: ‘Ballade of the new art criticism’.]
+Monday Nov. 30. 1896. 
+Mrs. Buttles called with her daughter. I fell into a sort of open-eyed sleep, but presently she began to talk gossip about Janet Dodge’s relations, all of whom she knew very well, and so she was more interesting, as they seem to have been a house - like the line of Atreus - doomed to crime and suffering. 
+We worked over our lists for the German Edition of the “Florentine Painters” ,  and at 7.30 we all three were at the Palmerino. Miss Paget was nice. She told us how she was brought up Deistically, not on the Bible, but on George Count’s “Constitution of Man”, a treatise on Divine Law mixed with Phrenology. She imagined God as a “Being” continually occupied in framing Laws, both """^^xsd:string ;
+    mbdiaries-ontology:index 39 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766125/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/39> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_39.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_39.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

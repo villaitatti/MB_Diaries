@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/219> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/219> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "219"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/219/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/219> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313507/full/full/0/default.jpg> ;
+    rdf:value """Tuesday, July 16, 1907
+Hot. Fine.
+Went to Heath’s. Again he boasted of his operation, and I broke down and cried, and said I was so afraid Karin was going to be deaf. Even then he said triumphantly, “Now you see how poor the old method was, and what a glorious discovery I have made!” I could have killed him, really. And all the time he thinks he is in love with me, and keeps saying I am the only person he has ever cared about in his life. Ugh, what an awful person.
+I lunched with the Kerr-Lawsons and Mr. Davis. Lawson promised to do a design for the cover of Karin’s book.
+Houghton came and had tea with me. he said Ellie was “very silent”.
+I had dinner with Karin and Mary, and then they went off to Karin’s first lip-reading lesson. Poor child!"""^^xsd:string ;
+    mbdiaries-ontology:index 219 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313507/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/219/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_219"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/219/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/219/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-07-16> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday, July 16, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/219> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_219.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_219.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-07-16> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-07-16> a crm:E52_Time_Span ;
+    rdfs:label "July 16, 1907"^^xsd:string ;
+    rdf:value "1907-07-16"^^xsd:date .
+

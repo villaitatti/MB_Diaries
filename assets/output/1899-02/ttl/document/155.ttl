@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/155> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/155> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "155"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/155> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296659/full/full/0/default.jpg> ;
+    rdf:value "Saturdays and played always Bach. Early in March Mrs. Baldwin (ex Mrs. Parker Deacon) and her fascinating daughter Gladys came and they were with us for two weeks here and we with them for some time at Siena. At Siena Jephson joined us, eager to refute some disgusting slanders the Eyres had set afloat about him. He came back with us to the Tatti, and Trevy and his Dutch wife came for a week, and then I went to England for 4 weeks, B.B. to Nervi to visit Donna Laura for two weeks, and Jephson to the Riviera, and then to England, where I saw him several times. He was ill and depressed, but I got very fond of him. There is something awfully nice about him, and I like him for being so “correct”. I had a most enchanting time with Mother and Grace and her children, altogether the most delightful Easter  [0155] Saturdays and played always Bach. Early in March Mrs. Baldwin (ex Mrs. Parker Deacon) and her fascinating daughter Gladys came and they were with us for two weeks here and we with them for some time at Siena. At Siena Jephson joined us, eager to refute some disgusting slanders the Eyres had set afloat about him. He came back with us to the Tatti, and Trevy and his Dutch wife came for a week, and then I went to England for 4 weeks, B.B. to Nervi to visit Donna Laura for two weeks, and Jephson to the Riviera, and then to England, where I saw him several times. He was ill and depressed, but I got very fond of him. There is something awfully nice about him, and I like him for being so “correct”. I had a most enchanting time with Mother and Grace and her children, altogether the most delightful Easter "^^xsd:string ;
+    mbdiaries-ontology:index 155 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296659/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/155> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_155.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_155.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

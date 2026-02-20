@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/47> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/47> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "47"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/47> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766133/full/full/0/default.jpg> ;
+    rdf:value """temperament, and afterwards she played the ouvertures of Figaro and Don Giovanni, and the Adagio from the Second Symphony. She plays very well, with a sensitive touch. She was in an unconcealable rage with Miss Paget, to whom she  hates  to play, and whom she regards as “un tempérament absolument anti-musicien.” Janet also came to lunch, and we had a long walk. In the evening Bernhard took Horne to dine at the Rasponis with the Pasolini and Placci. A great deal of amateur “art-talk” went on, but they were vivacious and kindly. Logan and I stayed at home and discussed our childish reminiscences and our early friends. 
+Wednesday Dec. 9.96.
+Bernhard took Madame de Montebello to the Uffizi. She talked a lot of rot to him about Semito-Celtic symbolism and physiognomy, and made him come back cursing at the state people’s minds are in when they haven’t been to a university. I took Miss Paget to hear Janet’s  spinet, which she liked, and then I haunted Curiosity shops with Logan. """^^xsd:string ;
+    mbdiaries-ontology:index 47 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766133/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/47> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_47.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_47.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

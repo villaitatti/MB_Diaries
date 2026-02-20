@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/46> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/46> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "46"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/46> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295782/full/full/0/default.jpg> ;
+    rdf:value """a really un-sordid life, and almost we feel we might attain it. And then these troubles come tugging at our heart-strings and pulling us back. 
+A letter from Loeser says a great many petty and disagreeable things, showing he has been cherishing envy and malice for years, regularly storing up venom. The one funny thing is that he says he regards Bernhard’s “self-blinding conceit” as pathological, and at times feels more pity than contempt - precisely our attitude to him! He says the “Lotto” is a “treatment of an Italian master that would disgrace even an Ullmann or a Venturi!” Ma. 
+Non ragioniam’ di lui .
+A letter from Janet [Dodge] asks me what to read in French, and I have sent her the following reply - “We are not sorry for the mass of modern French literature we have waded through, but to plunge you into that"""^^xsd:string ;
+    mbdiaries-ontology:index 46 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295782/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/46> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_46.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_46.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

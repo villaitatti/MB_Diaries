@@ -1,0 +1,57 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/51> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/51> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "51"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/51/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/51> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309980/full/full/0/default.jpg> ;
+    rdf:value """were adorable, especially Field, who grows more beautiful every year, with an inner content and tranquillity. Bernhard compared Carlyle to baroque architecture.
+Monday June 9. 1902.
+Dinner with the Robinsons. Douglas has changed since coming back from South Africa, and cares only for Sport. Rain and cold.
+Tuesday June 10. 1902.
+Windsor - all day working over the drawings, chiefly measuring. Cold.
+Wednesday June 11. 1902.
+Concert at new Cathedral - a most glorious interior. Splendid effects of space and light.
+Called on Lawson. Rain.
+Thursday June 12. 1902.
+Oxford with Roger Fry - in a dismal rain. Gladys was to have come, but we wired her not to. We spent all our time in the Christ Church Library cataloguing the drawings. Logan came over. """^^xsd:string ;
+    mbdiaries-ontology:index 51 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309980/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/51/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1902-03_51"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/51/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/51/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1902-06-09> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday June 9. 1902...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/51> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_51.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_51.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:51"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1902-06-09> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1902-06-09> a crm:E52_Time_Span ;
+    rdfs:label "June 09, 1902"^^xsd:string ;
+    rdf:value "1902-06-09"^^xsd:date .
+

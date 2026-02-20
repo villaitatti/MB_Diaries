@@ -1,0 +1,37 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/89> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/89> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "89"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/89> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296593/full/full/0/default.jpg> ;
+    rdf:value """that he was the author of our Madonna in San Francesco! In the afternoon, we had a delightful walk out of the Porta Camollia, first road to left and home by the Fonte Branda. Chatted in the evening with Henry Farrer and a Foreign Office clerk, Mr.  Syong .
+Friday, Oct. 6.99. Frullino Florence
+Came home by early train. Found despairing letters from Alys saying all Lady Henry’s pleasure is destroyed by Lord Henry’s having come to Venice. I wired inviting her and Mr. Saunders here, tho’ Alys says Mr. Saunders is an uncultivated, rude, narrow, middle-class prig. Lady Henry, however, adores him. In the evening we had one of the nicest talks we have ever had!
+Saturday Oct. 7.’99
+Bernhard went to Milan, to go to the Gazzada on a visit. I began my Louvre Guide. Finished  Sense and Sensibility .  """^^xsd:string ;
+    mbdiaries-ontology:index 89 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296593/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/89> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_89.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_89.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

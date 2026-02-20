@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/185> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/185> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "185"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/185/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/185> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312455/full/full/0/default.jpg> ;
+    rdf:value """Monday Feb. 22. 04
+Long conclave with Rachel and Senda, which ended by our deciding to take the responsibility of educating Ray for a few years abroad - in Greek things, if she seems to take to it. It means at least £300 additional a year. I called on Mrs. Tyler and wept with her over Gertrude’s death. I called in Cambridge with Senda in the afternoon on the Münsterbergs, Puffers, Nortons, Warrens.We came out and dined with the Warrens (she was a Smith College girl, Salomé Machado), and met again Prof. Lauman. Pleasant-ish, but Salomé never lets you get into a real talk with anyone. She keeps her guests “circulating”. A Mr. Owen, President of the Sophomore Class gave me  le clou of Western cordiality (he comes from Kansas): “We  mean to like the person, and we’re going to , unless we just  can’t ”. Of course it is just the opposite of the attitude in a settled busy social life, like England - unless riches and talent open the way.
+B.B. saw Dove and heard a lot about Mrs. Piper. """^^xsd:string ;
+    mbdiaries-ontology:index 185 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312455/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/185/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1903-04_185"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/185/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/185/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/2004-02-22> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday Feb. 22. 04..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/185> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_185.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_185.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/2004-02-22> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/2004-02-22> a crm:E52_Time_Span ;
+    rdfs:label "February 22, 2004"^^xsd:string ;
+    rdf:value "2004-02-22"^^xsd:date .
+

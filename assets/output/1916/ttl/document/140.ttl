@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1916/document/140> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1916/page/140> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "140"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1916/page/140/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1916/document/140> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309031/full/full/0/default.jpg> ;
+    rdf:value """Friday, June 2, 1916, Fiuggi
+Rain and shine
+Too rainy to do much, but towards evening Geoffrey and I walked on the hill below Acuto and enjoyed the beautiful plain. I have lost interest in the matter of Marcella, so thrilling to him – it seems to me silly, now that I feel fairly sure it isn’t dangerous. She writes such empty rhetorical letters, and is altogether such a foolish young woman that I can’t go on talking about her. Naturally it is Geoffrey’s greatest adventure and he is bending all his energies to making it successful and staving off a tragic or ugly ending. But even so it’s rather foolish and wastes a lot of time. 
+June 3-4 [pages cut off]"""^^xsd:string ;
+    mbdiaries-ontology:index 140 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1916> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309031/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/page/140/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1916_140"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1916/page/140/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/page/140/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1916-06-02> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Friday, June 2, 1916"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/document/140> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1916_140.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1916_140.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T17:11:14"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1916-06-02> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1916-06-02> a crm:E52_Time_Span ;
+    rdfs:label "June 02, 1916"^^xsd:string ;
+    rdf:value "1916-06-02"^^xsd:date .
+

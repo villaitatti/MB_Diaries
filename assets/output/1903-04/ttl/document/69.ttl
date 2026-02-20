@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/69> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/69> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "69"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/69> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312339/full/full/0/default.jpg> ;
+    rdf:value """found a nice little collection of Italians given by Mr. Edward Forbes - most of them old friends - the coveted but lost Niccolò d’Alunno I saw at Siena, the big Girolamo di Benvenuto we saw at Rome, and the fra Diamante that kicked about Florence so long. Besides this there was a lovely Antoniazzo tabernacolo (the curator, Mr. Moore, got quite angry when we told him this was Antoniazzo, and swore it was a Filippino), a small early Correggio, a Fr. Santacroce, and a miserably repainted Rondinelli figuring as a Bellini.
+Mrs. Gardner drove us back, and with Mr. Loeb to Green Hill for lunch, and Mr.
+Dwight came. Afterwards we called on Mr. Bowlker and Mrs Robinson, and I had a long talk with Mrs. Tyler about poor Gertrude, who has to have an operation on her breast before long. """^^xsd:string ;
+    mbdiaries-ontology:index 69 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312339/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/69> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_69.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_69.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

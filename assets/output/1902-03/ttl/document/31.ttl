@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/31> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/31> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "31"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/31> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309960/full/full/0/default.jpg> ;
+    rdf:value """Duchess of Marlborough was nearly broken-hearted because the Duke would make such wild love to her. Was it true! All in all, I never knew a person who told so many lies as that beautiful and radiant creature.
+Then we had Mr. Britten for three weeks, with his amusing stories, his really rather extraordinary culture, and the hopeless narrowness of his Catholicism. And with him dear Mr. and Mrs. Nowers. We had delicious weather, and they all seemed to enjoy their holiday. Prince Hohenlohe and Zina dined here one night, and the Davis party took up some of our time. I am now in the midst of a controversy """^^xsd:string ;
+    mbdiaries-ontology:index 31 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309960/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/31> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_31.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_31.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:51"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

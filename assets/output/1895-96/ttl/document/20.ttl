@@ -1,0 +1,37 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/20> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/20> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "20"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/20> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295756/full/full/0/default.jpg> ;
+    rdf:value """[ Mrs. Burke. Charley Nordhoff ]
+at all well and scarcely dare to stir from the house, so I stayed in and read the “Spectator” and picked out Wagner from the music Placci left.
+We discussed Mrs. Burke at dinner, a propos of her unexplained idea of going to Munich or coming here - alone. The poor thing has not succeeded in really making a single friend. Maud positively dislikes her, as did all those who knew her at Munich.
+In the evening we read in “Man and Woman” about women and hypnotic phenomena.
+Saidie Nordhoff wrote me of her eldest son Charley (8 years old).. “Charley slept in my room last night (owing to walls being coloured), and went to sleep happily with a mouth-organ and a bag of marbles disposed conveniently under his pillow. On waking, he rolled his eyes over toward me and remarked shrewdly before they were fairly opened, “I wouldn’t give you for marbles or mouth-organs, or anything in the world. I know a boy who would give his Mother for three cows and a bull, but I wouldn’t even for  that !” """^^xsd:string ;
+    mbdiaries-ontology:index 20 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295756/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/20> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_20.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_20.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

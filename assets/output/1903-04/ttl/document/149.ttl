@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/149> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/149> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "149"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/149> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312419/full/full/0/default.jpg> ;
+    rdf:value """known B.B. when he was a beautiful youth, and had sat with him under the Sicilian olives hearing him read Theocritus in the days before he became a bald-headed, pedantic married man. Mrs. Caton and I winked at each other, for we saw very well that she meant to say she had drunk the cup at the full, and we were having only the dregs!
+Going away, her spite broke out, and in reply to some civility of her hostess she said, “O, I’m nothing now, it’s all the Berensons”, to which B.B. “O Mrs. Jack, that’s another of your  usual whopping fibs !” which sent the entire company into fits of laughter, and left Mrs. Gardner no way of escape. Of a truth, her lying is spoken of everywhere; she hasn’t a grain of truth anywhere in her whole nature. """^^xsd:string ;
+    mbdiaries-ontology:index 149 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312419/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/149> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_149.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_149.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

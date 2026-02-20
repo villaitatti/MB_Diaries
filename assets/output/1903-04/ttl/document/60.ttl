@@ -1,0 +1,49 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/60> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/60> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "60"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/60/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/60> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312330/full/full/0/default.jpg> ;
+    rdf:value """herself are like 2 + 2 = 5. (This is her strongest argument.) She is very fat, with huge paws squeezed into white gloves that wouldn’t button, and one wondered if her double, God, also looked that way. But all the same her good spirits, and affectionateness were attractive, life- enhancing. She said she would like to take poor B.B. in her arms and cuddle him there till his poor tired nerves felt that God and he were one and that sickness did not exist.
+She is going to take us to a Christian Science meeting - and we want to learn something about it, for Bernhard has an awful fear that it may become the religion of the future. It has such a pull over all other religions, for instead of resignations here and bliss to come, it teaches immediate bliss. You are to be well and happy and """^^xsd:string ;
+    mbdiaries-ontology:index 60 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312330/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/60/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1903-04_60"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/60/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/60/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/2005-02-02> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "herself are like 2 + 2 = 5. (This is her strongest..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/60> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_60.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_60.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/2005-02-02> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/2005-02-02> a crm:E52_Time_Span ;
+    rdfs:label "February 02, 2005"^^xsd:string ;
+    rdf:value "2005-02-02"^^xsd:date .
+

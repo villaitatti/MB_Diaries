@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/191> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/191> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "191"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/191/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/191> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312461/full/full/0/default.jpg> ;
+    rdf:value """with Mrs. Montgomery Sears in the evening. Miss Eva Palmer (New York) recited Poe, and horrid modern love poems, and Mrs. Fiske Warren gave some of her genre sketches. I didn’t care for either ofd these ladies, but Miss Palmer has wonderful hair and a beautiful profile. Before dinner, Mrs. Longyear took B.B. to see a Mr. Ayer (Cherry Pectoral, etc.) who  almost  bought some Italian pictures. Mrs. Longyear is going to Christian Science him into it, she says!
+Wednesday March 2. 04. Somerset Boston 
+Packing and last calls. Mr. Fox to lunch, but Bernhard was kept by the Ayers. Old Mr. Ayer (82) said he had never thought of buying any Old Masters, but if B.B. would find him some modern pictures he liked, he didn’t mind what he paid 20, 30, 40 thousand dollars. B.B. said he was not a dealer, however, and it ended.
+We came on here, Mrs. Gardner coming to the station to see us off. I left out """^^xsd:string ;
+    mbdiaries-ontology:index 191 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312461/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/191/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1903-04_191"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/191/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/191/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/2004-03-02> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Wednesday March 2. 04. Somerset Boston ..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/191> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_191.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_191.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/2004-03-02> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/2004-03-02> a crm:E52_Time_Span ;
+    rdfs:label "March 02, 2004"^^xsd:string ;
+    rdf:value "2004-03-02"^^xsd:date .
+

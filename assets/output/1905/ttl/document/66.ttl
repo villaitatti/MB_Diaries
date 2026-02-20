@@ -1,0 +1,63 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1905/document/66> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1905/page/66> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "66"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1905/page/66/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1905/document/66> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312780/full/full/0/default.jpg> ;
+    rdf:value """Monday, Apr. 24, 1905
+Afternoon rainy.
+Cold in head. Stayed in bed with cold all day. The young ones went to the Bargello.
+After lunch we talked, Willy really splendid, so sane, so reasonable. Nice boy, so awfully intelligent. Ray and Miss Bakewell don’t know what to make of him.
+Mr. G. Lowes Dickinson arrived at 4.
+B.B. went to Placci’s for tea and music on that awful old piano.
+The youngsters explored the quarried and had tea at La Doccia. They came home friendlier and even chaffing each other.
+I got up for dinner, and we talked with Dickinson of Santayana in the evening.
+Tuesday, Apr. 25, 1905
+Cold.
+In bed, chest very sore. Miss Bakewell went.
+Dickinson came and Thorold came to dine with him. Ray and Willy drove to Sesto.
+Wednesday, Apr. 26, 1905
+Mr. Benn to lunch.
+B.B. and Dickinson walked to Mr. Cannon’s. Miss James called.
+Senda returned — very depressing, poor child."""^^xsd:string ;
+    mbdiaries-ontology:index 66 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1905> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312780/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/66/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1905_66"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1905/page/66/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/66/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1905-04-24> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, Apr. 24, 1905"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/document/66> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1905_66.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1905_66.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:26:58"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1905-04-24> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1905-04-24> a crm:E52_Time_Span ;
+    rdfs:label "April 24, 1905"^^xsd:string ;
+    rdf:value "1905-04-24"^^xsd:date .
+

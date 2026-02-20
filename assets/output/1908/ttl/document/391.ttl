@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1908/document/391> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1908/page/391> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "391"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1908/document/391> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493338334/full/full/0/default.jpg> ;
+    rdf:value """cousin rushed from the room as pale as death. He went to the s0-called Contessa Raimondi and asked how she could pursuit such a thing, betraying the hero into marrying an illegitimate girl with a lover, who had already killed one unwelcome baby, and had passed the night before with her lover. (This he knew from the brothers, who had intercepted a note from Caroli which the maid was carrying up on a tray under a napkin. The brothers had gone to wait for Caroli with their guns, meaning to kill him, but he had come in by another way.) La Giannone said she couldn’t help it, she counted for nothing in the house, her voice was never listened to. Then Torelli went back and told the whole story to Garibaldi, who, as soon as his knee was better, went off without seeing his wife. The invasion of Sicily with the Mille was the result of his desperation of what he had done. He wanted to risk his life. Without La Raimondi  imbroglio  he would never have gone!
+They never met again. When G. wanted to remarry he was set on a divorce, and would have gone even to the Pope to get it! But it turned out that under Austrian law they had not gone through all the necessary formalities, so the marriage could be dissolved if they both agreed. But by this time, """^^xsd:string ;
+    mbdiaries-ontology:index 391 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1908> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493338334/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/document/391> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1908_391.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1908_391.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:38:11"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

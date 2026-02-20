@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/66> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/66> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "66"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/66> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766152/full/full/0/default.jpg> ;
+    rdf:value """husband’s sake - he is so good, so severely moral, he can’t bear to hear such things mentioned.” This is not the Morgan we know, who can listen to Miss Cruttwell discussing the advisability of having a liaison with your mother-in-law, without turning a hair. 
+In the evening the Lovetts came to dinner.  Lovett told us of a co-Professor of his at Chicago who accepted the job of editing Paradise Lost, and read it  for the first and last time  in the train going to Boston. Lovett himself,  for a “Professor of English Literature”, seemed remarkably ignorant. He is stupid too – for he had read 4 volumes of Creighton and never once thought whether he liked any of the Popes or not! Mrs. Lovett is unspeakable. We read L’Allegro, Penseroso and the Ode.
+Friday Feb. 5.’97. Fiesole. Villa Rosa 
+Music lesson, and then Bernhard and I met at the Hornes and heard some duets with the Viol di braccia and harpsichord – charming old music. In the evening we read “Paradise Regained” .  """^^xsd:string ;
+    mbdiaries-ontology:index 66 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766152/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/66> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_66.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_66.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

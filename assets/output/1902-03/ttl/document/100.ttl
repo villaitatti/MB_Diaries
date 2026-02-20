@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/100> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/100> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "100"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/100/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/100> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310029/full/full/0/default.jpg> ;
+    rdf:value """I Tatti, Monday, Nov. 23 
+[24]
+. 1902.
+Music, and took Zangwill and Alice to call on Gertrude. She is a great talker, and has I think although an amusing yet an essentially vulgar way of taking life. We had to listen to a long tale of the cook’s hysterics. Then she talked Art with Zangwill like a silly female goose. The parish gave a Cat Concert last night to the Parocco, who is to be translated to another sphere. They had whistles, and combs and tin pans, and shouted “Evviva la partenza del Parocco!” Roberto was greatly excited telling us about it.
+Alas, Zangwill and his dirty rude ways is thoroughly “on my nerves”. I must never have another visit from him. He never shuts a door, not his """^^xsd:string ;
+    mbdiaries-ontology:index 100 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310029/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/100/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1902-03_100"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/100/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/100/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1902-05-26> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text ". 1902...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/100> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_100.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_100.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1902-05-26> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1902-05-26> a crm:E52_Time_Span ;
+    rdfs:label "May 26, 1902"^^xsd:string ;
+    rdf:value "1902-05-26"^^xsd:date .
+

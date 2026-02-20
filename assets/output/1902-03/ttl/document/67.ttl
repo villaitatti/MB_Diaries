@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/67> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/67> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "67"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/67> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309996/full/full/0/default.jpg> ;
+    rdf:value "good-humoured fainéant, Don Guido and the plucky little Baronessa Wyndspear, née Caracciolo, whose husband has gambled away nearly the whole of her large fortune. A bright, sweet, gay little creature, with warm frank eyes, whose glances were obviously dangerous to Don Guido’s peace of mind, as we all noticed. Donna Carmelita was enchanted, for she longs to have him loose the chains of the fat, bourgeois Mme. Bozzotti who has held him for 15 years, and ruined his life for him. Donna Camillla says that all her cousin’s talk on the subject is pure “furberia”, as she is delighted to have this magnificent place descend to  The party consisted of that awful Donna Camilla Gropallo, a cousin of most Italians Ludovico Bassi, a [p067] good-humoured fainéant, Don Guido and the plucky little Baronessa Wyndspear, née Caracciolo, whose husband has gambled away nearly the whole of her large fortune. A bright, sweet, gay little creature, with warm frank eyes, whose glances were obviously dangerous to Don Guido’s peace of mind, as we all noticed. Donna Carmelita was enchanted, for she longs to have him loose the chains of the fat, bourgeois Mme. Bozzotti who has held him for 15 years, and ruined his life for him. Donna Camillla says that all her cousin’s talk on the subject is pure “furberia”, as she is delighted to have this magnificent place descend to "^^xsd:string ;
+    mbdiaries-ontology:index 67 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309996/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/67> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_67.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_67.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

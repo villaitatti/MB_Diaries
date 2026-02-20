@@ -1,0 +1,65 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1906/document/76> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1906/page/76> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "76"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1906/page/76/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1906/document/76> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309477/full/full/0/default.jpg> ;
+    rdf:value """Monday, May 7, 1906
+Glorious.
+Emily, Mr. Britten.
+B.B. at Milan.
+Houghton came with his motor and took us over the Consuma pass. It was indescribably beautiful, and Edmond seemed nicer than ever. Emily and I sat till nearly midnight under the trees, in the moonlight reciting poetry - Omar Khayam, Lycidas, Ode to Nightingale, and ballads.
+Wrote Mother, Logan, Ray, Karin, Mr. Cannon, Miss Weisse, Miss March Phillipps, Miss Howard, etc. 
+Tuesday, May 8, 1906
+Fine. 
+Emily Britten
+The guardaroba took fire at midnight and I thought all the house was going to burn down. I had the pictures, statues, photographs and books carried out, but the  pompieri  arrived in time to save everything except the  guardaroba.  All the linen was burnt and various other things. We sat smoking under the cypresses till 4.30.
+B.B. arrived in the afternoon.
+Wednesday, May 9, 1906
+Fine.
+Emily, Britten.
+Boring day with insurance people, etc. Mme Serristori and M. Rembelinski spent the afternoon most agreeably with B.B. Miss Sheepshanks called.
+Algar came to dine.
+Ordered all new linen -
+Fafner wrote, “I thought you were wonderful last night. You are the most buoyant creature in the world, so capable of life, you ought to have a million incarnations.”"""^^xsd:string ;
+    mbdiaries-ontology:index 76 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1906> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309477/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/76/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1906_76"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1906/page/76/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/76/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-07> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, May 7, 1906"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/document/76> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1906_76.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1906_76.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:30:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-07> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-07> a crm:E52_Time_Span ;
+    rdfs:label "May 07, 1906"^^xsd:string ;
+    rdf:value "1906-05-07"^^xsd:date .
+

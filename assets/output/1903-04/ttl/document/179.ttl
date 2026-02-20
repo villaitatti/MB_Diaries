@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/179> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/179> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "179"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/179> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312449/full/full/0/default.jpg> ;
+    rdf:value """take away all the profits of the entire scheme. We had heard that Mr. Hanna rushed it through in the interests of the railways he represents, because he knows the Canal isn’t practicable, and doesn’t want it to be! But Mr. Parmelu said this could hardly be so, for Mr. Hanna is more interested in shipping than in railroads. However, the Government is going to pay forty millions, and I daresay M. Buena Varilla will get a slice of it.
+We called also on the Ross-Perrys - an abominably lower middle house - and then on Mrs. Slater and on the Stickneys. At Mrs. Slater’s I meet a very interesting man, Mr. Berry, an ardent admirer of Walt Whitman, and we had a good talk about poetry. One does meet interesting people everywhere over here, cordial, loving to talk, gregarious, really pleased to meet one Bernhard found Miss Stickney very nice too. """^^xsd:string ;
+    mbdiaries-ontology:index 179 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312449/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/179> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_179.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_179.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

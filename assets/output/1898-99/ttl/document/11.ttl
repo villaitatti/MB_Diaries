@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/11> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99/page/11> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "11"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/11> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296133/full/full/0/default.jpg> ;
+    rdf:value "still more forbidding, who organizes ballets every year in provincial towns under the name of “Miss Pattie.” Her charm for Mr. Headlam seems to be that she bullies him. She is most rude to his friends, and whenever they begin to talk of anything that interests him and them, she says “Well – I’m going to bed I’m so bored with your talk.” Then he feels very sad and says “O, well, we won’t talk about it any more.” She never goes to hear him lecture or preach, and takes not the slightest interest in any of his work. Withal, she is thoroughly ‘respectable’, and, as Horne says, takes good care to let him know it. If she weren’t, he says, much would be forgiven her. They are coming to Florence tomorrow, but  Horne came for the day, going with us for a pleasant call at Poggio, where we met Count Hochberg. He told us a good deal about Stuart Headlam and the ballet-dancer with whom he “keeps company”, as it were. She is a lady of forbidding aspect, and manners [0011] still more forbidding, who organizes ballets every year in provincial towns under the name of “Miss Pattie.” Her charm for Mr. Headlam seems to be that she bullies him. She is most rude to his friends, and whenever they begin to talk of anything that interests him and them, she says “Well – I’m going to bed I’m so bored with your talk.” Then he feels very sad and says “O, well, we won’t talk about it any more.” She never goes to hear him lecture or preach, and takes not the slightest interest in any of his work. Withal, she is thoroughly ‘respectable’, and, as Horne says, takes good care to let him know it. If she weren’t, he says, much would be forgiven her. They are coming to Florence tomorrow, but "^^xsd:string ;
+    mbdiaries-ontology:index 11 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296133/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/11> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1898-99_11.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1898-99_11.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:48:37"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

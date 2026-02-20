@@ -1,0 +1,38 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/110> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/110> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "110"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/110> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766196/full/full/0/default.jpg> ;
+    rdf:value """the art of the un-aesthetic; but taken consciously as subjective it is perhaps the highest form of beauty. 
+By the way, it is very “half educated” to distinguish between active and contemplative life. Without either the other perishes. So let us throw stones at neither”.
+————
+We had an enchanting walk to our Tree, the air and sunshine perfect – “A day in April never came so sweet.” Coming back we found Miss Taylor and her deadly, deadly parents, who paid an unduly long call. Worked in the evening. 
+* Thursday. April 8. 97. Villa Rosa. Fiesole
+Bernhard went with Horne to the drawings, lunched with him, then to the Corsini and Palazzo Vecchio, and then to call on Benn. """^^xsd:string ;
+    mbdiaries-ontology:index 110 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766196/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/110> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_110.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_110.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1908/document/215> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1908/page/215> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "215"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1908/page/215/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1908/document/215> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493338158/full/full/0/default.jpg> ;
+    rdf:value """Saturday, July 11, 1908
+Copseham Esher. 
+Fine. 
+Went to B.F.A. to see the exhibition of Miniatures. Scott joined me there.
+B.B. hurried off to Duveen’s, and then to lunch at the Sassoons where he met at last Rinaldo Hahn, whom he liked. 
+Scott and I went to South Kensington and had lunch there, and got awfully tired. 
+Then Bernhard and I came here. Cook has improved, and Marnie would be quite charming if she didn’t bang on the piano nearly all the time, making talk almost impossible. 
+She told a good story of two tramps about to enter a house, but holding back because of a fierce dog. No.1 said, “Go along! Don’t mind the dog. You know their bark is always worse than their bite.” No. 2 “Yes. You know it, and I know it, but the question is whether the dog knows it.”"""^^xsd:string ;
+    mbdiaries-ontology:index 215 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1908> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493338158/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/215/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1908_215"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1908/page/215/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/215/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1908-07-11> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Saturday, July 11, 1908"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/document/215> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1908_215.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1908_215.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:38:11"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1908-07-11> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1908-07-11> a crm:E52_Time_Span ;
+    rdfs:label "July 11, 1908"^^xsd:string ;
+    rdf:value "1908-07-11"^^xsd:date .
+

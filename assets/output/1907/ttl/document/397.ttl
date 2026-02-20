@@ -1,0 +1,92 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/397> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/397> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "397"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/397> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313685/full/full/0/default.jpg> ;
+    rdf:value """list of names mostly in alphabetical order
+H. Andersen
+Alfred Benn
+Britten
+The Cooks
+M. Cruttwell
+N. Erichsen
+G. Ellis
+E. Fabbri
+Dr. Heath
+Lucien Henraux
+Albert Henraux
+H. Horne
+Kerr-Lawsons
+Eva. McLaren
+Em. Moòr
+Mrs. Nickerson
+S. Nordhoff
+The Nowers
+Obrist
+Lucy Perkins
+The Perrys
+March Phillipps
+Papafava
+Robertson
+The Robinsons
+Rotherstein
+Mrs. Sears
+Lady Henry Somerset
+D. Tovey
+Wallas
+The Spragues
+Count Papafava
+B.B.’s Ladyloves!
+Lady Sassoon
+Baronne Lambert
+Contessa Serristori
+Agnes Steffenburg
+Donna Laura Gropallo
+Ethel Harrison
+Mrs. Crawshay
+Mrs. J. Leslie
+[040 2 ] Christmas presents
+Servants £25
+Postino 10
+Capo Posta 10
+Contadino 10
+Lattaio 5
+Poggio Gherardi 5
+Macellaio 3
+Pane 3
+Carbone 3
+Maria 10
+Beppina 2
+Priest 0
+Triulzi
+Mar. 1 to March 1st
+Mar. 21 to April 1st
+April 25 to May 1
+May 19 to June 1"""^^xsd:string ;
+    mbdiaries-ontology:index 397 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313685/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/397> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_397.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_397.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

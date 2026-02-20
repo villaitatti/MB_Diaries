@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/64> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/64> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "64"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/64> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295800/full/full/0/default.jpg> ;
+    rdf:value """[ Duccio] 
+how is it that a picture “convinces us of reality?” Real things arouse those muscular and internal sensations which are the continuous accompaniment of our lives. “Real” pictures must therefore make an appeal to our muscles and our vital functions. But Duccio’s appeal only to the intellect and to the sense of pathos. His figures are as flat as a Burne Jones - a very lovely kind of postage stamp. He  illustrates  in a lovely fashion, as far as psychological interpretation is concerned. He succeeds in making his faces expressive. But, as a matter of fact, faces are the least important in the essential muscular appeal. For  that , those articulations in which force is particularly expressed - shoulder, hip, wrist and ankle, must be accentuated. Duccio, however, concentrates all his strength on facial expression. In the Deposition, the man who ought to be pulling out the nails is too busy showing his grief to attend to the action. The hands are sometimes held up so as to  prevent  your believing in the reality of it. """^^xsd:string ;
+    mbdiaries-ontology:index 64 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295800/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/64> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_64.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_64.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

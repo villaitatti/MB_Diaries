@@ -1,0 +1,54 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/106> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/106> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "106"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/106/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/106> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310035/full/full/0/default.jpg> ;
+    rdf:value """I Tatti. Saturday, Nov. 29. 1902.
+In bed all day. Bernhard drove with Alice to Anchet[t]a, and called on Adelaide Placci.
+Finished (with regret) vol. 4 of Creighton’s Papacy. Did all Bergamo notes.
+Sunday. Nov. 30. 1902.
+In bed. Colonna, Doria, Stuttgart, Frankfurt notes. Read Creighton. Kerr-Lawsons to dine. She looked very ill - 15 years older, her face all fallen into a wrinkled mask. I am afraid she has consumption.
+Monday December 1. 1902 .
+Zangwill went away, and I began to disinfect his room, which smells like a fox’s den! Last night he forgot to shut his door, and the wind slammed it to and from till I had to get up and shut it. I am thankful he is gone. The house feels cleaner at once. All his wit and broad-mindedness and sympathy """^^xsd:string ;
+    mbdiaries-ontology:index 106 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310035/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/106/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1902-03_106"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/106/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/106/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1902-11-29> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "I Tatti. Saturday, Nov. 29. 1902...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/106> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_106.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_106.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1902-11-29> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1902-11-29> a crm:E52_Time_Span ;
+    rdfs:label "November 29, 1902"^^xsd:string ;
+    rdf:value "1902-11-29"^^xsd:date .
+

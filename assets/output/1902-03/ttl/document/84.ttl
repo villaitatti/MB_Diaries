@@ -1,0 +1,56 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/84> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/84> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "84"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/84/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/84> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310013/full/full/0/default.jpg> ;
+    rdf:value """about which Blaydes hasn’t taken the very least trouble - any more than about keeping up his own, the lazy brute. Alice is a girl of a great deal of character. Both B.B. and I like her very much.
+I Tatti, Monday, Nov. 11 
+[10]
+. 1902.
+Don Guido arrived, suffering from lumbago. I put him in an easy chair and showed him photographs, while Alice and B.B. drove down to town, went to Costantini’s and had tea with Gertrude. Mrs. Ross called. Wrote to Karin. Bernhard wrote to Otto Gutekunst. Finished  Le Rouge et le Noir .
+Tuesday, Nov. 12 
+[11]
+1902
+Worked and corrected proof. It is really too great a bore to put down the letters I write. I have to write about 10 a day. Gronau came to lunch """^^xsd:string ;
+    mbdiaries-ontology:index 84 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310013/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/84/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1902-03_84"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/84/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/84/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1902-05-26> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text ". 1902...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/84> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_84.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_84.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1902-05-26> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1902-05-26> a crm:E52_Time_Span ;
+    rdfs:label "May 26, 1902"^^xsd:string ;
+    rdf:value "1902-05-26"^^xsd:date .
+

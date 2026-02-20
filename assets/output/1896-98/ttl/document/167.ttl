@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/167> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/167> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "167"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/167> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766253/full/full/0/default.jpg> ;
+    rdf:value "set on wrong somehow, and now it is turned to one side. Lady Layard is a very bad sleeper, and sometimes at 4 or 5 in the morning she gets so angry at the idea of other people sleeping that she rushes upstairs and pulls the covers off the maids. Then she comes down and sits on the bed and plays a guitar hung to her neck by a ribbon for hours. Then she told of two brothers and 3 old aunts who lived together. The young men read some socialist alarmist books, and said they were afraid to live in England, in view of the inevitable social war. So they persuaded their aunts to consent to go away. The aunts said they must go to a place  We went to the new house and raged at the workmen. Logan arrived at 5.30 and we had a most amusing evening of chat. Miss Fletcher had told him all sorts of amusing stories of people in Venice, and in what she calls “Hell on The Hill” – Asolo. In one palace in Venice is a man living who tried to cut his throat. His head was [0167] set on wrong somehow, and now it is turned to one side. Lady Layard is a very bad sleeper, and sometimes at 4 or 5 in the morning she gets so angry at the idea of other people sleeping that she rushes upstairs and pulls the covers off the maids. Then she comes down and sits on the bed and plays a guitar hung to her neck by a ribbon for hours. Then she told of two brothers and 3 old aunts who lived together. The young men read some socialist alarmist books, and said they were afraid to live in England, in view of the inevitable social war. So they persuaded their aunts to consent to go away. The aunts said they must go to a place "^^xsd:string ;
+    mbdiaries-ontology:index 167 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766253/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/167> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_167.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_167.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

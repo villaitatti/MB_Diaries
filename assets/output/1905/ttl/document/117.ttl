@@ -1,0 +1,68 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1905/document/117> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1905/page/117> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "117"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1905/page/117/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1905/document/117> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312831/full/full/0/default.jpg> ;
+    rdf:value """Thursday, Sept. 28, 1905
+Cloudy with rain.
+An unfortunate day. The roads were atrocious and maimed the motor, and Placci was simply abominable, he can be as disagreeable at he can be charming.
+We saw Tortona, which was not interesting, except for the Macrino, and Casale Monferrat, which was horrid, and then the Sanctuary of Crea, with  lovely  views.
+We got here at 9 wet through, and not having paid the call on the Visconti-Venostas that Placci had set his heart on.
+Friday, Sept. 29, 1905
+Middling.
+Placci woke up in a good humour, and said so, as if that was all there was in it. he is a baby.
+The motor was mending, after those horrible roads. B.B. and I spent the morning pumping the amiable Vesme.
+In the afternoon we went to Santena to see the Visconti-Venostas and
+found them all there, the old man and his wife and the three boys. Wrote Mother, Michael and Platonoff.
+Saturday, Sept. 30, 1905
+Fine.
+Left at 7.30. Saw Chieri, the delightful old abbey of Vezzolano, Cavagnola. Lunched at Vercelli. Saw Grignasco, Gattinara, Romagnano, Borgvasia,
+Valduggia and Zuarona and slept at Varallo, a terrible night (for me) of fleas.
+Fine.
+Sunday, Oct. 1, 1905
+Ray goes up to Newnham!
+Climbed Sacro Monte and saw Varallo. Saw Loreto (chapel), Omdoneo and returned to  x Oropa, where we lunched.
+Lucien enchanted with it. Saw Novara and Vigevano, but got to Milan late, on account of breakages.
+Milan and Motoring"""^^xsd:string ;
+    mbdiaries-ontology:index 117 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1905> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312831/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/117/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1905_117"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1905/page/117/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/117/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1905-09-28> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, Sept. 28, 1905"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/document/117> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1905_117.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1905_117.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:26:58"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1905-09-28> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1905-09-28> a crm:E52_Time_Span ;
+    rdfs:label "September 28, 1905"^^xsd:string ;
+    rdf:value "1905-09-28"^^xsd:date .
+

@@ -1,0 +1,38 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/39> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99/page/39> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "39"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/39> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296161/full/full/0/default.jpg> ;
+    rdf:value """Saturday May 20. [i.e. 21.] 1898. 
+Miss Taylor came to lunch. I almost like her. Went with Miss Cruttwell and Miss Priestley to call at the Villa Giramonte on the Burne-Murdochs – a lovely place. In the evening we went to see the Duse in  Hedda Gabbler , a part she did not in the least understand, and which she acted as if it had been Magda or Nora. Obrist is engaged to a girl named Marie Louise Lampe (!) of Leipzig. 
+Sunday May 21. [i.e. 22.]98.
+Miss Lowndes came to lunch and was very nice. We called on the Rosses and met Baron Strum and his wife. The Kerr-Lawsons dined here. 
+Monday May 22. [i.e. 23.]98 
+One absurd succession of callers: the  Paris , Miss Priestley, Mrs. Langton and her sister, Frau von der Hellen, Miss Liddell and her friend. Read some of  Bernard Shaw’s plays . """^^xsd:string ;
+    mbdiaries-ontology:index 39 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296161/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/39> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1898-99_39.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1898-99_39.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:48:37"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

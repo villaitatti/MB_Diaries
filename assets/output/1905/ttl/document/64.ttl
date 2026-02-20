@@ -1,0 +1,56 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1905/document/64> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1905/page/64> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "64"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1905/page/64/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1905/document/64> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312778/full/full/0/default.jpg> ;
+    rdf:value """Monday, Apr. 17, 1905
+Went to town with Ray and Miss Bakewell. Saw the Pazzi and Santa Croce.
+Houghton and the two Radford girls called on Ray, and a so-called socialist who divorced his wife to marry a lady who calls herself Carrie Rand called on us, prompted thereto by an interest in Walt Whitman. He, Mr. Herron, is a mild, fierce doctrinaire.
+M. C. Cingria to dine, who amused us all immensely with his youthful boasting and paradox.
+Tuesday, Apr. 18, 1905
+Spent day at Labouchères with B.B. and Ray — very boring!
+Went to Pergolesi Stabat Mater and then to tea with Parmelees, Logans, etc.
+Evening of metaphysical talk.
+Wednesday, Apr. 19, 1905 Did errands while Ray and Miss B. went to Pitti. Afternoon to Annunziata music and Innocenti, etc."""^^xsd:string ;
+    mbdiaries-ontology:index 64 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1905> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312778/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/64/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1905_64"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1905/page/64/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/64/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1905-04-17> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, Apr. 17, 1905"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/document/64> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1905_64.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1905_64.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:26:58"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1905-04-17> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1905-04-17> a crm:E52_Time_Span ;
+    rdfs:label "April 17, 1905"^^xsd:string ;
+    rdf:value "1905-04-17"^^xsd:date .
+

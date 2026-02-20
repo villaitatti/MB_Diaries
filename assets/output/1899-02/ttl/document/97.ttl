@@ -1,0 +1,37 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/97> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/97> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "97"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/97> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296601/full/full/0/default.jpg> ;
+    rdf:value """and met Count Stroganoff, Mme. de Turenne, and Mrs. Wagner’s daughter, the Contessa Gravina, with whom he struck up a lively flirtation. He then called on the Placcis, and found Adelaide busting with hatred of Donna Laura and the Contessa Zucchini. Spent the evening correcting proofs for 2 d  edition Florentines.
+Tuesday Nov. 14.99.
+Tremendous excitements over the Assisi picture, and complications with the Bank. Bernhard called on the Serristoris. Fry stayed all night to see the Leonids, but there were none.
+Wednesday Nov. 15.99.
+Went to the Uffizi with Grace. Bernhard had tea with the Countess Gravina, daughter of Mme. Wagner and either Wagner or von Bulow. Hearing he was an art-critic, she asked him if he attended Miss Zimmern’s lectures! No Leonids, though again I stayed awake to watch for them! """^^xsd:string ;
+    mbdiaries-ontology:index 97 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296601/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/97> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_97.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_97.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1916/document/80> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1916/page/80> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "80"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1916/page/80/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1916/document/80> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493308971/full/full/0/default.jpg> ;
+    rdf:value """she doesn’t know if she is stupid .  They walked together while BB and I entertained Frizzoni. When the latter and the Capitano went down in the motor ,  BB and I were so tired we just crept off by ourselves.  In the evening, Marcella, tired too, perhaps, was more like a human being, and BB liked her very much. I quite loved her, though I still feel something very strange about her, and especially about her relations with men. Then she dyes her hair, which is very strange for a young girl, and her eyes are hard and glittering. But there’s something else simple and good and very noble in her.
+Monday, March 13, 1916, I Tatti
+Rain, sun Rainstorm 
+Today BB and I had a walk, and then the Countess Serristori came. We all cried at the thought of the war. We could talk about it, it was a strain. 
+BB dined with Sybil. He had a letter from B[elle] G[reene], who wants to come to Italy, but BB doesn’t want her to on account of Sybil!! """^^xsd:string ;
+    mbdiaries-ontology:index 80 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1916> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493308971/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/page/80/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1916_80"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1916/page/80/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/page/80/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1916-03-13> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, March 13, 1916"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/document/80> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1916_80.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1916_80.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T17:11:14"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1916-03-13> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1916-03-13> a crm:E52_Time_Span ;
+    rdfs:label "March 13, 1916"^^xsd:string ;
+    rdf:value "1916-03-13"^^xsd:date .
+

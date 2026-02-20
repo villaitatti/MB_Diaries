@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/31> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/31> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "31"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/31> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296535/full/full/0/default.jpg> ;
+    rdf:value """leave the house. He even teazed her about the Marchese di Viti. He said he hadn’t been able to make children, but he had made books. Her mother was there and drew Bernhard aside to speak against Miss Paget’s selfishness, her grasping ways, her habit of spying on Mme. Pasolini. Mme. Pasolini sang her song of reform in taxation.
+Saturday March 4.99
+Logan and I went with Andersen to the Terme. We enjoyed the  Apollo  and liked Andersen. We bought a Balducci! Bernhard took the Grazzioli to the Stanze and she took him to lunch with her “residuary lover”, the Duca di Camastro, who has rooms that made Bernhard sick with envy. 
+In the afternoon we hunted antiquities, then Bernhard and I went to Stroganoff’s, while the Robinsons, """^^xsd:string ;
+    mbdiaries-ontology:index 31 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296535/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/31> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_31.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_31.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

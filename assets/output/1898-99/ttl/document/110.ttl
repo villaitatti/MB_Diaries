@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/110> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99/page/110> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "110"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/110/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/110> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296232/full/full/0/default.jpg> ;
+    rdf:value """Wednesday Dec. 7. 1898. Frullino. Florence.
+Another lovely day, warm as summer. But we did not walk through the woods as yesterday, reviving  par moments  those exquisite sensations that belonged to the dawn of life, and which the odours of decaying leaves and of pines and of the damp earth now and then call up. Bernhard went grubbing in the archives and then left a card on Lady Edmond Fitzmaurice, and I walked by the highway to Settignano and called on Mrs. Fairchild and Satey. Coming home, I stopped for a minute at Poggio Gherardo. Lina was looking lovely. In the evening we worked at our Minor Painters. 
+Thursday Dec. 8. 1898. 
+Walked down in the rain to see the Panciatichi pictures, shown us by a quaint and original old lady, the Marchesa Paolucci. """^^xsd:string ;
+    mbdiaries-ontology:index 110 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296232/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/110/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1898-99_110"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/110/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/110/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1898-12-07> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Wednesday Dec. 7. 1898. Frullino. Florence...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/110> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1898-99_110.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1898-99_110.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:48:37"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1898-12-07> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1898-12-07> a crm:E52_Time_Span ;
+    rdfs:label "December 07, 1898"^^xsd:string ;
+    rdf:value "1898-12-07"^^xsd:date .
+

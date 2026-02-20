@@ -1,0 +1,72 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1905/document/91> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1905/page/91> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "91"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1905/page/91/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1905/document/91> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312805/full/full/0/default.jpg> ;
+    rdf:value """Thursday, July 13, 1905
+Paris. Fine 26º.
+Shopped with Ray. Lunched with the Bernard Henraux’ — she, painted and dyed (although a pretty, young woman) devoting herself to making vulgar statues of nude women and worse portraits.
+Shopped some more. B.B. went out with Hubert in the morning and saw “Les Arts Décoratifs”.
+Rembrelinski called in afternoon — two hours.
+Went to Reinachs’ in evening. Mme. Reinach worse than ever — all three of us bored stiff.
+Rachel Berenson and Miss Goldmarck called.
+Friday, July 14, 1905
+Fine.
+Ray went off at 12 to reach London at 9. She was suffering dreadfully from her rheumatism.
+We lunched with Mrs. and Miss Gibbs.
+Went to Versailles at 4.30 and found Miss De Wolfe looking charming, Miss Marbury ill and low with swollen face, and Miss Pierpont Morg
+there, a nice fresh wholesome young woman of 31, who finds us dames a most welcome escape from her father’s tyranny.
+Saw the moonlight on the Grand Terrace.
+Saturday, July 15, 1905
+Fine.
+Went to Louvre. Lunched with Rembelinski and DuBos at Laurent’s.
+Called on the Baronne Gustave Rothschild. Her salon was so crowded with priceless bric à brac that it looked hideous.
+Went to Potoska’s palace, where he never lives, to see Count Stroganoff. Went to “Les Arts Décoratifs”.
+Rachel came. Dined with Reinachs and M.  Homolle .
+Sunday, July 16, 1905
+Rain-storm.
+B.B. went to Louvre with Hubert. I rested and packed.
+Lunched with M. Ephrussi — wonderful Russian fish! Reinachs, Du Bos, Maud Cruttwell, M. Stuers, M. Kergoe ?? M. Rembelinski.
+Rachel dined here."""^^xsd:string ;
+    mbdiaries-ontology:index 91 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1905> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312805/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/91/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1905_91"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1905/page/91/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/91/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1905-07-13> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, July 13, 1905"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/document/91> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1905_91.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1905_91.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:26:58"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1905-07-13> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1905-07-13> a crm:E52_Time_Span ;
+    rdfs:label "July 13, 1905"^^xsd:string ;
+    rdf:value "1905-07-13"^^xsd:date .
+

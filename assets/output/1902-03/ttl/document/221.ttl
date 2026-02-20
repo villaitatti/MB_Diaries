@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/221> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/221> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "221"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/221> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310150/full/full/0/default.jpg> ;
+    rdf:value """Senda Berenson arrived on the 5th and Bernhard on the 7th and Bertie on the 9th, Alys being already here. Bertie has gone, I think he feels restless away from London, he is so excited about Free Trade. Ray has Winnie, and they are putting Kingshotts in order for the Michael Fields. I have been too ill to attend to it, so I persuaded them it was “Fun”.
+Bernhard came home quite happy at having drawn just the right line in regard to the Countess Serristori, and escaped a heartache, while remaining very fond of her. He saw her constantly after I left. He is much pleased with his Wisdom, and I wonder and admire. I am sure  I  should have had an attack!
+Poor old Jephson is out of his Rest Cure again, but the doctor forbids his marriage till January - if then. he says Miss Head is “very sweet and considerate”, so I hope all is going on well.
+We expect the Frys at High Buildings today, and the Trevys here tomorrow."""^^xsd:string ;
+    mbdiaries-ontology:index 221 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310150/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/221> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_221.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_221.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

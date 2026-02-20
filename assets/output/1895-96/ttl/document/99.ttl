@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/99> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/99> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "99"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/99/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/99> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295835/full/full/0/default.jpg> ;
+    rdf:value """<Saturday, Feb. 8, 1896, Bologna>
+Bianchi, which he insisted was a Francia. Terrible man and terrible family. I began  Rob Roy .
+Sunday, Feb. 9, 1896, Bologna 
+We revisited old scenes in Bologna- saw the famous “Bologna head”, which seemed to us rather that of a youth than a woman’s - enjoyed Niccolo dell’Arca, etc. etc. 
+* Monday, Feb. 10, 1896, Bologna
+We went to Ferrara, and besides seeing and enjoying a wonderful  Pietà  by Mazzoni, we saw Sr. Vendeghini’s  collection, etc. etc. 
+Tuesday, Feb. 11, 1896, Villa Rosa, Fiesole 
+We spent the morning at Imola, pleasantly enough, though there is little to see there. It was very hot! Then we came home, delighted to get into the country again, with a real view from our windows. We finished Lowes’ “ Development of Parliament in the XIX Century ”."""^^xsd:string ;
+    mbdiaries-ontology:index 99 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295835/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/99/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1895-96_99"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/99/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/99/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1896-02-09> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Sunday, Feb. 9, 1896"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/99> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_99.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_99.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1896-02-09> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1896-02-09> a crm:E52_Time_Span ;
+    rdfs:label "February 09, 1896"^^xsd:string ;
+    rdf:value "1896-02-09"^^xsd:date .
+

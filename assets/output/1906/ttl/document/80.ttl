@@ -1,0 +1,61 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1906/document/80> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1906/page/80> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "80"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1906/page/80/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1906/document/80> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309481/full/full/0/default.jpg> ;
+    rdf:value """Monday, May 21, 1906
+Pouring, cold.
+Emily.
+Worked and got place Index done as far as V.
+Mrs. Meade to lunch. Placci and his nephew Albert Henraux came to tea, and I drove in and brought old Mrs. Jephson-Norreys up to call on Aunt Janet. Then B.B. and I had a walk. Saw Gladys, divinely beautiful, in town. To think of her not telling us! It is very sad.
+Wrote Mother, Willy.
+x x x Tuesday, May 22, 1906
+Cloudy then clearing but cool.
+Bernhard motored to Monte Guffone, Montespertoli, Castelfiorentino, San Miniato and Empoli with contessa Serristori and Rembelinski. I saw a lawyer about the Insurance, called on Mrs. McLean and did various errands. Emily and I finished the Place Index of the North Italians. Hutchins called in evening.
+Wrote Mother, Aunty Lill, Bain, Kelly, Don Guido.
+Wednesday, May 23, 1906
+Fine. Clear. Warmer.
+Had to go in to the  Pretorio  about Fire. Took Mrs. Ross and “Mme Lucille” and Dr. Kindsay to Doccia. Gladys of course failed to keep her engagement with B.B. but Mrs. Baldwin called. She says Gladys says she is engaged to Lord Brooks, and it is probably a lie. The Houghtons also called - such a contrast - but I prefer the frumpy Houghtons. We all dined at Poggio, and “Lucille” was too awful. She is a very vulgar woman.
+Wrote Mother, Logan."""^^xsd:string ;
+    mbdiaries-ontology:index 80 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1906> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309481/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/80/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1906_80"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1906/page/80/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/80/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-21> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, May 21, 1906"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/document/80> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1906_80.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1906_80.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:30:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-21> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-21> a crm:E52_Time_Span ;
+    rdfs:label "May 21, 1906"^^xsd:string ;
+    rdf:value "1906-05-21"^^xsd:date .
+

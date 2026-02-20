@@ -1,0 +1,38 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1916/document/93> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1916/page/93> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "93"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1916/document/93> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493308984/full/full/0/default.jpg> ;
+    rdf:value """Sunday, April 2, Tatti
+Geoffrey Scott, Naima Löfroth
+Glorious
+Mrs. Kryal and Miss Flint (the dancing teacher) came to lunch. I was very sleepy. Geoffrey and Marcella went to the Laghetto from 4-8. It left him still amused and still cynical. She is famous for a hair, but vowed she never lied Geoffrey anyone “con cui stava.” Symptomatic remark. 
+B.B. and Naima and I had a glorious walk in the heights. It was really beautiful.
+Bernard has begun to write “A appreciation of Leonardo’s paintings.” It may be very amusing. If only he wrote better it would be  really  delicious. """^^xsd:string ;
+    mbdiaries-ontology:index 93 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1916> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493308984/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/document/93> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1916_93.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1916_93.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T17:11:14"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/125> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99/page/125> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "125"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/125> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296247/full/full/0/default.jpg> ;
+    rdf:value "pushing, journalistic publisher! This bears out the impression of her I have not been able to avoid getting, in spite of her lover’s praises. I think Love, while it no doubt revealed to him much that was lovely in her, which would have escaped an unloving eye, blinded him to those defects which impressed others so unfavourably, defects which seem to be the ruling traits, after all. Whether W. didn’t really care so much for her as he thought – for he said it was “life and death” to him, or whether he is merely stunned at the overwhelming ruin and feels the calm people are said to feel in a lion’s jaws, I don’t know; but at any rate he  We called on the Rosses and Lina and wished them a Merry Christmas, and then walked home through the woods. On returning, I found a letter from Wilfrid Blaydes saying that his adored Magda is going – to marry Mr. Heinemann – that contemptible, vulgar, [0125] pushing, journalistic publisher! This bears out the impression of her I have not been able to avoid getting, in spite of her lover’s praises. I think Love, while it no doubt revealed to him much that was lovely in her, which would have escaped an unloving eye, blinded him to those defects which impressed others so unfavourably, defects which seem to be the ruling traits, after all. Whether W. didn’t really care so much for her as he thought – for he said it was “life and death” to him, or whether he is merely stunned at the overwhelming ruin and feels the calm people are said to feel in a lion’s jaws, I don’t know; but at any rate he "^^xsd:string ;
+    mbdiaries-ontology:index 125 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296247/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/125> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1898-99_125.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1898-99_125.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:48:37"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

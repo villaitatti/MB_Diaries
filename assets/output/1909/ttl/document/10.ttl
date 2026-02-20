@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1909/document/10> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1909/page/10> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "10"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1909/document/10> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493338431/full/full/0/default.jpg> ;
+    rdf:value """to see us and Florence Reynolds with Ray, who is staying with her.Bernhard went into that Talking Shop, Duveen’s. They said no one in America had the influence Bernhard has on the sale of pictures!
+Ray and Karin came and we all went to the Fields’ to see New York from Brooklyn Heights. Karin came back to go with a friend to the Hippodrome, but the rest of us stayed on to dinner, though B.B. and I were in agony with indigestion, and I had a beastly cold coming on. Ray watched us with cynical young eyes.
+She wrote me the other day, “They ask me why I believe in Suffrage? I find it hard to answer, oddly enough, and I am searching in my head for a formula. The reasons I pour forth from the platform are not my reasons """^^xsd:string ;
+    mbdiaries-ontology:index 10 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1909> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493338431/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1909/document/10> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1909_10.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1909_10.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:48:40"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

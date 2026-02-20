@@ -1,0 +1,54 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/37> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/37> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "37"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/37/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/37> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313325/full/full/0/default.jpg> ;
+    rdf:value """Tuesday, Jan. 15, 1907
+Fine. Colder.
+Did no work because we looked over all the Mino da Fiesole photographs to see where ours comes in. We were surprised to find how few things of his there are. Ours is as good as any. We must have it! But the eyes are queer.
+In the afternoon we went to town and I shopped and saw the lawyer about the insurance while Bernhard went to Horne’s to see a new “Desiderio” he has found. He bought a beautiful bas relief of <the> head of little John for forty lire!! Called on the Labouchères.
+The Houghtons came to dine, bringing  that nice young architect, Pinsent .
+Houghton told of a friend of his, a mathematician at Cambridge,who said that he could not take the Communion as he was a vegetarian! He also said he had been vaccinated and confirmed, but neither of them “took”.
+Fafner  came in and told me the tale of Edström, and the resulting quarrel and his quarrel with Leo Stein. He stayed till midnight. I was interested, but so sleepy I dropped off a dozen times while he was talking.  He always wants to make love to me, but it bores me dreadfully."""^^xsd:string ;
+    mbdiaries-ontology:index 37 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313325/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/37/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_37"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/37/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/37/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-01-15> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday, Jan. 15, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/37> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_37.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_37.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-01-15> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-01-15> a crm:E52_Time_Span ;
+    rdfs:label "January 15, 1907"^^xsd:string ;
+    rdf:value "1907-01-15"^^xsd:date .
+

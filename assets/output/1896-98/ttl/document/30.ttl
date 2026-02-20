@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/30> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/30> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "30"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/30> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766116/full/full/0/default.jpg> ;
+    rdf:value """x Friday Nov. 20. 1896. Villa Rosa Fiesole
+I had a music lesson from Buonamici, and then did some soul-destroying shopping, called at Janet’s and drove home with Bernhard. He did not like the sound of Janet’s spinet, was disturbed by its  buzz , but I liked it rather better than before. 
+Saturday Nov. 21. 1896.
+Worked on the photos in the morning. Maud says she must give up doing them - it is too mechanical a work for her noble intellect that revels in Plato and Havelock Ellis, and even for the £10 we arranged for, she does not want to go on with it. Of course I made it easy for her, and indeed I was greatly relieved for she has seemed to be bursting with suppressed fury ever since she came. She snaps us both up and sets us right on every conceivable subject, from “Bloody Mary” to the acquaintances and friends we have. She has really grown into something too strange and wonderful. She says Plato is the first person who ever """^^xsd:string ;
+    mbdiaries-ontology:index 30 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766116/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/30> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_30.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_30.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:23:35"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

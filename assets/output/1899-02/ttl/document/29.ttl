@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/29> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/29> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "29"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/29> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296533/full/full/0/default.jpg> ;
+    rdf:value """haired old Norwegian painter who can talk scandal delightfully, dance on the tightrope, and looks exactly like Guido Reni’s Christ on the Cross!! Bernhard is worried about the Holbeins.
+* Thursday March 2.99.
+Logan and I explored the Antiquity shops on the quays, but found nothing much. Bernhard went with the Duchessa [Grazioli] to Frascati and had lunch with her boy. He enjoyed himself very much. They talked about  Love . 
+Logan and I drove with Mr. Robinson on the Campagna. I had tea with Miss Halsey, who told me about Magda’s wedding, and how Heinemann hung a diamond necklace around her neck at the breakfast. The Grazzioli says people wonder why  he  married her, because (she says) her “adventures” since she was 15 have been notorious in Rome. The Father owes his position to his courage in getting people out of scrapes. """^^xsd:string ;
+    mbdiaries-ontology:index 29 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296533/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/29> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_29.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_29.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

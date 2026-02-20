@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/202> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95/page/202> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "202"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/202> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420765728/full/full/0/default.jpg> ;
+    rdf:value """“Florentine Painters will be like a voice gone out of Fiesole  urbi et orbi , telling what the element of pleasure is in figure painting; and sufficient unto the day is the evil thereof, you will say when you peruse it.!
+We are reading D’Annunzio’s Virgins of the Rocks, which, though prose, has the cadence and rhythm of Virgil’s divinest verse. It breathes myrrh and frankincense, which the new Magi have just brought to this latest born but not least in the kingdom of Judah.
+Psychology is more and more absorbing me. Tell Field that as she loves me and herself I urge her to get the large edition of  James’ Psychology  and to read it diligently. Great shall be the fruit thereof. We are now of man’s estate, and lo! it is time to put off childish things.
+I have re-read  Madame Bovary  recently. I was overawed by its greatness. It ought to go into the Bible, the Bible up to date,  bien entendu , after the Book of Ruth. I am now reading  Bouvard et Pécuchet , which unfinished and ever prosaic """^^xsd:string ;
+    mbdiaries-ontology:index 202 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420765728/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/202> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1894-95_202.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1894-95_202.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:03:23"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

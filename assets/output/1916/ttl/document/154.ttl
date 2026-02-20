@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1916/document/154> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1916/page/154> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "154"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1916/page/154/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1916/document/154> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309045/full/full/0/default.jpg> ;
+    rdf:value """[Tuesday, June 20, 1916, I Tatti]
+0-12.
+Magda had been for 10 months running a hospital in Belgium.She was most interesting. Trench was a bore. She had seen a woman crucified at a door with her breasts cut off, a child with both hands clipped off, another child transfixed to a barn-door with huge knife, and a mother with a child dead in her arms, shot by the commanding officer (German) as his answer to spare her husband for the sake of the 4 children – “there will be only 3 now”. The woman was crazy and no one could get the child out of her arms. 
+June 21-24 pages cut away"""^^xsd:string ;
+    mbdiaries-ontology:index 154 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1916> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309045/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/page/154/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1916_154"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1916/page/154/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/page/154/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1916-06-20> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday, June 20, 1916"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/document/154> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1916_154.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1916_154.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T17:11:14"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1916-06-20> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1916-06-20> a crm:E52_Time_Span ;
+    rdfs:label "June 20, 1916"^^xsd:string ;
+    rdf:value "1916-06-20"^^xsd:date .
+

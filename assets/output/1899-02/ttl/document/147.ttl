@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/147> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/147> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "147"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/147/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/147> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296651/full/full/0/default.jpg> ;
+    rdf:value """Wednesday Nov. 21. 1900.
+Shopping in morning. Villa afternoon. Fabbri came to dinner and was very nice, so nice that Logan, who meant to retire to his own study after dinner, stayed to talk till 11. Fabbri is one of the most sympathetic people we know – he reads and looks and feels for himself. Like us, the exhibition of Rodin’s things at Paris finished him forever for Fabbri, but he was loath to believe that it was bad taste spoiling even good bits of plastic form. Fabbri does not care for Puvis. I suspect he lacks all appreciation for space-composition, for he spoke with aversion of Perugino and indifference of Raphael. 
+Thursday Nov. 22. 1900.
+Captain Jephson, Lina and Rezia Rasponi to lunch. It was very amusing. I called on Mrs. Thrupp and Gertrude Morton and on Rosa. """^^xsd:string ;
+    mbdiaries-ontology:index 147 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296651/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/147/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1899-02_147"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/147/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/147/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1900-11-21> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Wednesday Nov. 21. 1900...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/147> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_147.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_147.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1900-11-21> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1900-11-21> a crm:E52_Time_Span ;
+    rdfs:label "November 21, 1900"^^xsd:string ;
+    rdf:value "1900-11-21"^^xsd:date .
+

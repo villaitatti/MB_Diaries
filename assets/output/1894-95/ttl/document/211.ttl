@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/211> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95/page/211> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "211"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/211/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/211> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420765737/full/full/0/default.jpg> ;
+    rdf:value """Letter from Michael 
+Michael writes (to me) one of two fine sentences: “Now I envy you (my envy is only Bunyan’s when he saw the pilgrims’ jolly in heaven - which, when I beheld, I wished myself among them - not in the least a desire to put a serpent in their midst) settling down to your hills and winter plain, double your share of stars by night, and such an amplitude of coloured air by day … I - we - find with years that the eye needs a few quite simple outlines - and the mind - how few books. The mind learns the secret, St. Francis’ secret, of holy poverty, and trips the world blithely without a sous.” She also quotes from Coleridge’s letters: “the folly of sinning against our first and pure impressions! It is the sin against  our own  ghost at least.”
+Tuesday  Oct. 29. 1895. Fiesole.
+Quiet day of work. Colnaghi’s partner came to see Bernhard on business, and he also had a long walk with Mr. Benn. I went to town to shop. I read one of Placci’s stories (printed in the Illustrazione) but alas! did not like it in any way. """^^xsd:string ;
+    mbdiaries-ontology:index 211 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420765737/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/211/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1894-95_211"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/211/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/211/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1895-10-29> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday  Oct. 29. 1895. Fiesole...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/211> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1894-95_211.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1894-95_211.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:03:23"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1895-10-29> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1895-10-29> a crm:E52_Time_Span ;
+    rdfs:label "October 29, 1895"^^xsd:string ;
+    rdf:value "1895-10-29"^^xsd:date .
+

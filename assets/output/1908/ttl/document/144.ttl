@@ -1,0 +1,54 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1908/document/144> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1908/page/144> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "144"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1908/page/144/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1908/document/144> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493338087/full/full/0/default.jpg> ;
+    rdf:value """XX Friday, May 1, 1908
+Hotel de Londres, La Cava.
+Glorious.
+A terrible motor-ride of 4 hours, over  impossible , dusty and jolting roads, till at noon a wheel gave out, and we had lunch in a divinely flowered field near Paestum. What air, what mountains — and what a lunch!
+Ethel played with Castel Maurigi’s hair, and they exchanged glances every now and then which clearly meant “Tonight —!!”
+We had 3 1/2 hours at the Temples. The one to Poseidon is a marvellous transfiguration of Common Sense, and you feel as if nothing more were needed in the universe by plain, reasonable Weight and Support. Oh yes, and colour too, and light. 
+We watched the shadows coming, and the rooks, and then came back to this most comfortable hotel to dine and sleep (?). We had the discretion to be tired, and went to bed early. As I was unwell and racked with pain from the  awful  road, I was very glad to do so. """^^xsd:string ;
+    mbdiaries-ontology:index 144 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1908> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493338087/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/144/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1908_144"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1908/page/144/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/144/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1908-05-01> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Friday, May 1, 1908"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/document/144> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1908_144.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1908_144.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:38:11"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1908-05-01> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1908-05-01> a crm:E52_Time_Span ;
+    rdfs:label "May 01, 1908"^^xsd:string ;
+    rdf:value "1908-05-01"^^xsd:date .
+

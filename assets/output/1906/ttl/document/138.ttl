@@ -1,0 +1,60 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1906/document/138> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1906/page/138> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "138"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1906/page/138/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1906/document/138> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309539/full/full/0/default.jpg> ;
+    rdf:value """Monday, Nov. 26, 1906
+B.B. lunched with Lady Sassoon.
+I had to spend the afternoon at the dentist’s.
+Emily and the Rothensteins came to dinner. W. R. is very interesting to talk to on art.
+Tuesday, Nov. 27, 1906
+Miss Cracroft called at 11.
+The Michael Fields came to lunch, but somehow they were rather tiresome, and B.B. had an awful cold. Dentist.
+We had tea at the B.F.A. with Holroyd and Alban Head and Marsh and Lytton.
+Dined with Claude Phillips.  Deadly !
+Wednesday, Nov. 28, 1906
+Went to Oxford and helped unpack etc. House in dreadful confusion. Dined with G.[eoffrey]S.[cott] who saw me off. Not very satisfactory, but still working towards a cleaning-up.
+B.B. dined with Lady Sassoon.
+Ascot - Cambridge - London"""^^xsd:string ;
+    mbdiaries-ontology:index 138 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1906> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309539/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/138/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1906_138"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1906/page/138/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/138/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1906-11-26> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, Nov. 26, 1906"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/document/138> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1906_138.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1906_138.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:30:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1906-11-26> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1906-11-26> a crm:E52_Time_Span ;
+    rdfs:label "November 26, 1906"^^xsd:string ;
+    rdf:value "1906-11-26"^^xsd:date .
+

@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/139> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/139> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "139"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/139> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312409/full/full/0/default.jpg> ;
+    rdf:value """Mrs. Gardner, nor she us, until we met by accident. She is here with Proctor, who played at the Symphony (Concerto by Liszt), and was to play tonight, only the Mayor closed the hall, as the police regulations about fire were not complied with in the building. (17 theatres are closed; they have taken fright from the accident.) We spent the morning and evening with them, resting in the afternoon. We spoke of a newspaper paragraph which heralded our visit, describing us as “friends of Mrs. Jack Gardner”, and Proctor broke out that he was tired to death and furious at being always tagged onto her by the papers. I thought she looked very sad and old. He played to us in the evening, Beethoven, Scarlatti, the A minor Toccata and Fugue of Bach and some horrid Liszt.
+I am sleeping in a “wardrobe bed” """^^xsd:string ;
+    mbdiaries-ontology:index 139 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312409/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/139> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_139.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_139.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

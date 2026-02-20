@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1908/document/99> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1908/page/99> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "99"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1908/page/99/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1908/document/99> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493338042/full/full/0/default.jpg> ;
+    rdf:value """Tuesday, Mar. 17, 1908
+Iffley.
+Karin came and we met Mrs. Stewart and shopped, and went to Iffley at 4.55. Mother seemed not at all well. I gave an oyster lunch to Karin and Helen and Scott and Keynes and Cecil Pinsent. 
+Bernhard went to Rome, leaving Logan at I Tatti. He fell into the arms of Rembielinski, Pio, the Serristoris, D’Annunzio, Liechtenstein, etc. at the Grand Hotel. 
+[Note that the entries made in Iffley are brief.] """^^xsd:string ;
+    mbdiaries-ontology:index 99 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1908> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493338042/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/99/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1908_99"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1908/page/99/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/99/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1908-03-17> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday, Mar. 17, 1908"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/document/99> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1908_99.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1908_99.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:38:11"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1908-03-17> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1908-03-17> a crm:E52_Time_Span ;
+    rdfs:label "March 17, 1908"^^xsd:string ;
+    rdf:value "1908-03-17"^^xsd:date .
+

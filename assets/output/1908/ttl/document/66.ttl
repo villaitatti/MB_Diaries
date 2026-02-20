@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1908/document/66> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1908/page/66> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "66"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1908/page/66/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1908/document/66> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493338009/full/full/0/default.jpg> ;
+    rdf:value """Thursday, Feb. 13, 1908
+Glorious.
+“Carrand Master”.
+Worked. Discovered that a puzzling little picture in the Louvre was by Giovanni Francesco da Rimini, and wrote an article for the  Rassegna  about it. 
+Bernhard and I called on Miss MacLeod and Kitty Margesson, then on the Burne Murdocks, who are living most squalidly in an enormous old convent-villa, and then on Miss Priestley to hear her niece play, which she did very well, the Mendelssohn Variations and some Chopin, having the usual Litchitzki defect of neglecting the classics. 
+Then we ordered the dinner for Sunday at Doney’s, and found a copy of La Grande Grèce at Loescher’s, to our surprise and delight!"""^^xsd:string ;
+    mbdiaries-ontology:index 66 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1908> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493338009/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/66/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1908_66"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1908/page/66/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/66/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1908-02-13> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, Feb. 13, 1908"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/document/66> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1908_66.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1908_66.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:38:11"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1908-02-13> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1908-02-13> a crm:E52_Time_Span ;
+    rdfs:label "February 13, 1908"^^xsd:string ;
+    rdf:value "1908-02-13"^^xsd:date .
+

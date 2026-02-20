@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/141> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/141> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "141"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/141/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/141> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296645/full/full/0/default.jpg> ;
+    rdf:value """This considerably relieves the financial strain. My spirits were coming back, and this completed the cure, and I felt very jolly all day. In the morning I took Rosa to install her with the Mortons at the Villa Mezzaratta. She seemed contented. Benn and Maud and Miss Lowndes came to lunch, and after visiting the Tatti we went to hear Miss Cracroft play. It was the first of a series of little recitals I have arranged for her. It went off very well. She gave us the Fantasia and Fugue in G minor, and analyzed them a little. She played gloriously.
+Sunday Nov. 11. 1900.
+Saw upholsters and carpenters in the morning. Called on Mortons, Cracrofts, Miss Blood, the Rosses in the afternoon. We found Miss Blood furiously calm over the servant question, telling us, in her sharp high voice with emphatic """^^xsd:string ;
+    mbdiaries-ontology:index 141 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296645/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/141/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1899-02_141"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/141/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/141/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1900-11-11> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Sunday Nov. 11. 1900...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/141> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_141.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_141.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1900-11-11> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1900-11-11> a crm:E52_Time_Span ;
+    rdfs:label "November 11, 1900"^^xsd:string ;
+    rdf:value "1900-11-11"^^xsd:date .
+

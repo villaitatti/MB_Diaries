@@ -1,0 +1,65 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1906/document/95> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1906/page/95> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "95"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1906/page/95/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1906/document/95> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309496/full/full/0/default.jpg> ;
+    rdf:value """Thursday, June 28, 1906
+Fine. Warmer.
+Drove to Wartenstein (Gloggnitz), Prince Fr. Liechtenstein’s château - a lovely drive. We had a pleasant three hours there, though he sat us in the hottest room of the house! Drive back lovely. Walked till dinner.
+Wrote Mother, Mr. Theodore Davis, Mr. Britten, Miss Ffoulkes, Frizzoni, Mrs. Labouchère, Don Guido, Placci.
+Friday, June 29, 1906
+Fine. Rain storm. Cooler
+Lazy day, walking, reading, writing and talking.
+Wrote Mother, Mr. Cannon, Sally Harlan, Bain, Mr. Sawyer Ned Warren.
+Saturday, June 30, 1906
+Cool, cloudy.
+Hotel Tegetthoff, I. Johannesgasse 23, Vienna.
+Down with Influenza alas. But I struggled out and saw Baron  Tuche ’s nice collection, and went to the gallery.
+Wrote Mother.
+Sunday, July 1, 1906
+Cool.
+In bed. Read endless novels.  Marcel Tinayn  very poor. Prince Liechtenstein called for B.B. and took him to Figdor, Miller Aichholz, Czernin etc. collections.
+Wrote Mother.
+Vienna"""^^xsd:string ;
+    mbdiaries-ontology:index 95 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1906> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309496/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/95/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1906_95"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1906/page/95/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/95/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1906-06-28> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, June 28, 1906"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/document/95> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1906_95.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1906_95.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:30:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1906-06-28> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1906-06-28> a crm:E52_Time_Span ;
+    rdfs:label "June 28, 1906"^^xsd:string ;
+    rdf:value "1906-06-28"^^xsd:date .
+

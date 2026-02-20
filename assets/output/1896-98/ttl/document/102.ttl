@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/102> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/102> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "102"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/102> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766188/full/full/0/default.jpg> ;
+    rdf:value """Sunday Mar. 28. 1897. Villa Rosa. Fiesole. 
+Kraus played his beastly Brass Band morning and afternoon, and the contadini he has put in over my head pounded nails and clattered about in heavy boots – and the end was I gave Kraus notice I would not stay after next December. We took a long walk – to the Tree – to wear off our rage, and returned in an idyllic frame of mind. The Lovetts came to dinner, he formal and refined and intelligent as usual, she coarser, fatter, and more hopelessly heavy than ever. 
+Monday, Mar. 29.97.
+Count Emo Capodalista [i.e. Capodilista] came to lunch, and was charming. We liked him so much. The two Miss Ogilvys came to Bernhard’s to have tea, but I went down and called on Miss Littell """^^xsd:string ;
+    mbdiaries-ontology:index 102 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766188/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/102> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_102.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_102.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

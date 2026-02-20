@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/372> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/372> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "372"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/372/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/372> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313660/full/full/0/default.jpg> ;
+    rdf:value """Monday, Dec. 16, 1907
+Gloriously fine.
+Algar.
+I feel perfectly cast down about poor Karin, and hardly know how I shall be able to meet her and help her bear her trouble. Well, I must.
+Dora De Rudini came to lunch, fearfully well dressed, and looking pretty, but like a cocotte, and her manners and talk were scarcely those of a lady. She had a walk with B.B. and told him she hadn’t a shred of love left for her husband, and that she now considered him  stupid  — the last straw. But she means to stick by him as long as he will let her, and then, if he insists on a separation, she will get a divorce.
+I called on Mrs. Ross and then drove to town with Algar and Mme von Heiroth.
+In the evening we talked, Lagar telling us incredible tales of the “abnormous” tastes and practices of his acquaintances. He says that when the Duchess Massari was about to be married, she asked her sister, Checcina [Francesca?] D’Orsay, what it was all about, and the Count and Countess D’Orsay thereon gave her tableau vivant in the drawing-room.
+He spoke of Charlie Inglefield, who as a gentle man and a professional as well, who used to have half of both houses at his teas in Baker St. till he was advised by a friend in authority to leave the country. He is now in Milan — is that why Pritchard is there?"""^^xsd:string ;
+    mbdiaries-ontology:index 372 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313660/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/372/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_372"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/372/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/372/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-12-16> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, Dec. 16, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/372> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_372.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_372.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-12-16> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-12-16> a crm:E52_Time_Span ;
+    rdfs:label "December 16, 1907"^^xsd:string ;
+    rdf:value "1907-12-16"^^xsd:date .
+

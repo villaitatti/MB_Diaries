@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/44> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/44> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "44"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/44/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/44> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296548/full/full/0/default.jpg> ;
+    rdf:value """with the Hookers, Freedman (that bore!), Percy Fielding and Logan. Then we came up and had tea at Bernhard’s with Placci and young Visconti Venosta ( such  a clever, nice boy) and Guido Marti, a so-called poet, nephew to Nencioni. Then a little stroll, and, in the evening, Jacopo Bellini photographs. Bernhard is reading Boswell, and I  Gosse’s Life of Gray .
+x Easter Sunday April 2. 1899. Frullino. Florence
+Mr. and Mrs. Gutekunst came to lunch and she was really dreadful. Her one idea is an insipid sort of flirting. Otto sang – a very fine voice and nice musical feeling. I took them to call at Poggio Gherardo and then walked home alone in a beautiful sunset. Ned Warren had tea with Bernhard, who, in a short call at Poggio had been taken an unwilling captive by the …
+pages 30-31 cut away  heading on p. 32: ‘April 3, 1899 We drove with’]"""^^xsd:string ;
+    mbdiaries-ontology:index 44 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296548/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/44/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1899-02_44"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/44/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/44/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1899-04-03> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "April 3, 1899"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/44> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_44.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_44.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1899-04-03> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1899-04-03> a crm:E52_Time_Span ;
+    rdfs:label "April 03, 1899"^^xsd:string ;
+    rdf:value "1899-04-03"^^xsd:date .
+

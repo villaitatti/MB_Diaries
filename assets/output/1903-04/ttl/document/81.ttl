@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/81> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/81> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "81"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/81> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312351/full/full/0/default.jpg> ;
+    rdf:value """left cards on people who were
+leaving cards on other people, on Mrs. Barrett Wendell, Mrs. Rogers, Mrs. Endicott Peabody, Mrs. Burr, Mrs. Parkman. We met again at Miss Robins’, also with Santayana, who came from Cambridge in the car with B.B. Miss Robins was flustered and chattering and inconsequential, and evidently  very  much relieved to her that we were too busy to accept any further invitation from her.
+We dined at the James’, with Mr. Denman Ross, Mr. Minturn, Miss Coombe and Mrs. Godwin. It was very disappointing not to see more of William James himself, he seemed nervous and abstracted. Mr. Ross, who walked to the car with us, says he always is at a “party”. I had a nice talk with Mr. Ross, who wants to teach people to think in colours, masses, and balances. But he doesn’t care for Titian’s  Europa , """^^xsd:string ;
+    mbdiaries-ontology:index 81 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312351/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/81> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_81.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_81.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

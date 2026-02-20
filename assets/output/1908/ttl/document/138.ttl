@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1908/document/138> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1908/page/138> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "138"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1908/page/138/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1908/document/138> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493338081/full/full/0/default.jpg> ;
+    rdf:value """Saturday, Apr. 25, 1908
+Cold. Heavy rain.
+Got Venetian photographs in order.
+Bernhard went to call on Mrs. Cooper Hewitt and beautiful Mrs. Edward Thomas. Mrs. Cooper Hewitt went to the gallery with him, in spite of having an awful asthma. 
+Cannon called on me, very affectionate, but afflicted with long-winded aphasia as usual. He stayed till 5.30 and then Britten arrived from Venice.
+Heavy snow in England!! """^^xsd:string ;
+    mbdiaries-ontology:index 138 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1908> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493338081/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/138/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1908_138"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1908/page/138/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/138/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1908-04-25> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Saturday, Apr. 25, 1908"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/document/138> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1908_138.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1908_138.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:38:11"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1908-04-25> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1908-04-25> a crm:E52_Time_Span ;
+    rdfs:label "April 25, 1908"^^xsd:string ;
+    rdf:value "1908-04-25"^^xsd:date .
+

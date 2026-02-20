@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/169> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/169> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "169"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/169/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/169> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295905/full/full/0/default.jpg> ;
+    rdf:value """[ Rome]
+Monday, May 11, 1896 
+Went to the Corsini in the morning, and drove in the afternoon, ending up at Santa Maria Maggiore.
+Bernhard dined with his old friend Pritchard, and Miss Sellers and I chatted. Placci sent a charming review of the  Florentine Painters . 
+x Tuesday, May 12, 1896
+Went to the museums on the Capitol in the morning. Bernhard took Miss Farnham to Frascati and Albano and Miss Sellers lunched with the Stillmans. I went to the English Embassy, Santa Maria del Popolo (a  splendid  bronze) and did some errands. Mr. Benn sent the Ms. of his  Greek Philosophy . 
+Wednesday, May 13, 1896
+We went to St. Peter’s and the Sixtine Chapel in the morning - Bernhard and Eugénie went to Sen. Baraccio in the afternoon, and then we had tea at Miss Edwardes, who said she did not like the nude in sculpture. she could stand the male figure, but not the female. Afterwards we drove to Santa Croce in Gerusalemme, the Villa Volkanski and San Giovanni Laterano. Dr. Hellig and Dr Loewy called on Eugénie at dinner. We chatted on the terrace in the evening. """^^xsd:string ;
+    mbdiaries-ontology:index 169 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295905/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/169/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1895-96_169"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/169/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/169/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1896-05-11> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, May 11, 1896"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/169> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_169.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_169.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1896-05-11> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1896-05-11> a crm:E52_Time_Span ;
+    rdfs:label "May 11, 1896"^^xsd:string ;
+    rdf:value "1896-05-11"^^xsd:date .
+

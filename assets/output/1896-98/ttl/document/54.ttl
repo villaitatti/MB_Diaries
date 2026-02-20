@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/54> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/54> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "54"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/54> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766140/full/full/0/default.jpg> ;
+    rdf:value """stayed and stayed - but he stayed longer, and we had a few minutes talk. He drove down to Florence with Logan and me, raging against Miss Paget. Logan and I had tea with Miss Cruttwell. He then went to haunt the old shops, and I took Maud and did some errands, ending up with a call on the Buttles. 
+Pleasant as the day was, the evening was best of all, for Logan read us “The Poetry of Shakspeare” (selected for the Golden Urn). It was delightful to be lifted away at once from everything sordid. Then he read us his arrogant introduction – a delicious bit of writing – and some of his “Tragic Walks”, which we really liked. We decided on the contents of the first number, which will soon be issued.
+Tuesday Dec. 22. 1896. Fiesole.
+I worked nearly all day. Miss Kolb came to lunch and Salvemini to dinner - greatly """^^xsd:string ;
+    mbdiaries-ontology:index 54 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766140/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/54> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_54.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_54.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

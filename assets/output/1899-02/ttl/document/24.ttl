@@ -1,0 +1,56 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/24> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/24> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "24"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/24/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/24> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296528/full/full/0/default.jpg> ;
+    rdf:value """Saturday Feb. 18.’99. Frullino. Florence.
+I called on Janet Dodge and Mrs. Ross. Mme. Rasponi called here, and was pleasant, and even witty, but her mind hops terribly 
+“over the land and over the sea,
+As if it would never stop.”
+Miss Blood, Fairchild and Kerr-Lawson had tea with Bernhard. 
+Sunday Feb. 19. 1899.
+Logan called on Mme. Rasponi to consult about her formal garden. I began  Trevelyan’s American Revolution ,  and read Bernhard’s chapter on Filippino, Amico and Alunno. We went to the Cherubini Concert  prova  and heard the VIII Symphony. Then Placci took us for an enchanting drive, on which, unfortunately, I caught a cold.
+x Monday Feb. 20. 1899.
+Bernhard has Mrs. Caulfield and her son to tea – pushing Philistines. Logan and I had tea with the Hornes and Benn """^^xsd:string ;
+    mbdiaries-ontology:index 24 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296528/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/24/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1899-02_24"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/24/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/24/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1899-02-19> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Sunday Feb. 19. 1899...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/24> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_24.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_24.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1899-02-19> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1899-02-19> a crm:E52_Time_Span ;
+    rdfs:label "February 19, 1899"^^xsd:string ;
+    rdf:value "1899-02-19"^^xsd:date .
+

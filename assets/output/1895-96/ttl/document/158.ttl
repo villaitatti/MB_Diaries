@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/158> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/158> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "158"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/158/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/158> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295894/full/full/0/default.jpg> ;
+    rdf:value """[ Placci. Miss Sellers]
+Monday, Apr. 27, 1896
+I finished the first draft of my Studio book-reviews. Placci came to lunch and we talked politics chiefly, boring Miss Sellers nearly to death. She dislikes Placci, and the bitterness of her comments upon him infected me, so that he seemed to me rather commonplace and unimportant and a little too fond of mentioning grand names. She told her feelings to Bernhard, but I hope it will not cause his affection to wane, for he really loves Placci. Mr. Perry came soon after lunch, and told us, but in rather a dry way, about his experiences with the medium, Mrs. Piper, the one with whom the American Society for Psychical Research has had such extraordinary results. 
+After this I went for a drive with Miss Sellers to Castel del Poggio. I am afraid she really is too variable in spirits to get on with easily. She torments herself about all sorts of unnecessary things, and takes little enjoyment in """^^xsd:string ;
+    mbdiaries-ontology:index 158 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295894/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/158/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1895-96_158"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/158/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/158/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1896-04-27> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, Apr. 27, 1896"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/158> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_158.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_158.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1896-04-27> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1896-04-27> a crm:E52_Time_Span ;
+    rdfs:label "April 27, 1896"^^xsd:string ;
+    rdf:value "1896-04-27"^^xsd:date .
+

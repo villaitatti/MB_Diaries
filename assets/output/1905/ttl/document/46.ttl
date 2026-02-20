@@ -1,0 +1,61 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1905/document/46> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1905/page/46> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "46"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1905/page/46/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1905/document/46> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312760/full/full/0/default.jpg> ;
+    rdf:value """Monday, Feb. 20, 1905
+Wrote Reinach, Ephrussi, Luther  Munday , Mrs Rowland, Willy, Home. Countess Gravina, Rita Michiel and Pia Fabbricotti came to lunch.
+Rain and snow, so we stayed in and read and worked, B.B. grappling (at
+present unsuccessfully) with Mantegna.
+Tuesday, Feb. 21, 1905 Wrote Reinach, Cagnola, Horne, Home, Algar, Placci.
+Began review for Gazette and worked over Dr. Ludwig’s articles in
+Jarhbuch. Bernhard still on Mantegna.
+Prince Hohenlohe and Zina came to lunch, he very witty, she most charming. Drove down with them and did some errants. B.B. called on Benn, and I drove over and brought him back. Lawson and Kit Turner
+came in in evening, latter very keen about English agriculture. Most interesting!
+Wednesday, Feb. 22, 1905
+Wrote Florence Reynolds, Britten, Miss Erichsen, Trevys, Horne, Guido, Mr. Brush.
+Worked on Ludwig in the morning. B.B. on Magtegna.
+Donna Camilla Gropallo called with Risi Visconti, to tell us that after incredible efforts she has arranged for her sister’s play to be given next week.
+Then Senda and I went to town. I called on Mme. de Platanoff, and called to ask how Horne was (he is ill) and we both called on Miss Cohen."""^^xsd:string ;
+    mbdiaries-ontology:index 46 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1905> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312760/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/46/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1905_46"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1905/page/46/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/46/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1905-02-20> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, Feb. 20, 1905"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/document/46> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1905_46.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1905_46.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:26:58"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1905-02-20> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1905-02-20> a crm:E52_Time_Span ;
+    rdfs:label "February 20, 1905"^^xsd:string ;
+    rdf:value "1905-02-20"^^xsd:date .
+

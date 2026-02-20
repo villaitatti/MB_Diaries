@@ -1,0 +1,54 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1908/document/194> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1908/page/194> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "194"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1908/page/194/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1908/document/194> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493338137/full/full/0/default.jpg> ;
+    rdf:value """Saturday, June 20, 1908
+I Tatti. 
+Rain then fine.
+Agnes Steffenburg.
+Settled electric lamp-stands, etc.  Worked . Sirèn came and talked lots of rot about “Black Magic”, Reincarnation. Mme. Blavatski etc. — the usual affair. He is a disciple of “The Purple Mother” (Mrs. Tingley) at Point Loma,  California . Houghtons came in morning. 
+I went to town and called on Ady Placci, Mrs. MacLean (out) and Mascha. Did some errands. Agnes came up with  me . Mrs. Ross came to dine. She said Ray’s name stood very high in the Tripos list!!!
+Mrs. Cornell said that, being interested in Natural History, she asked a boy to bring her a certain kind of snake, alive. The next day he brought it in a bottle, but it seemed dead when she took it out. The boy protested he had put it in alive. She smelt the bottle, and there was a strong odour of brandy, and she said, “Well, he must be drunk.” “Does he see men?” asked the boy! """^^xsd:string ;
+    mbdiaries-ontology:index 194 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1908> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493338137/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/194/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1908_194"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1908/page/194/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/page/194/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1908-06-20> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Saturday, June 20, 1908"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1908/document/194> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1908_194.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1908_194.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:38:11"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1908-06-20> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1908-06-20> a crm:E52_Time_Span ;
+    rdfs:label "June 20, 1908"^^xsd:string ;
+    rdf:value "1908-06-20"^^xsd:date .
+

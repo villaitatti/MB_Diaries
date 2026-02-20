@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/86> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/86> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "86"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/86/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/86> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313374/full/full/0/default.jpg> ;
+    rdf:value """Thursday, Mar. 7, 1907
+Windy. Clearer.
+Chatted with Maud and Mrs. Rice. They think everybody grows worse as they get older, and say money is the one important thing. Maud told me of Lady Borthwick, whose daughters call her “Ostro”, from  inchiostro , she is so like black ink. Gabrielle — a daughter — made a story of her going to heaven, flying up with Percy, her lap-dog. She went to call on the Virgin and entertained her with tales of her servants and their misdoings, and Gabrielle drew a picture of them sitting in the fields of Paradise hob-nobbing over a pot of tea, and the Virgin was saying, “Yes, even I, the Mother of God, have much ado to be served”. Lady Borthwick was invited to dine with God and was much pleased when she found she was to be taken out to dinner by St. Peter!
+Burton came to take picture post-card of the Villa , and the Serristori just returned from Rome spent an hour telling us the latest gossip of that gay place, where they are all in debt, all in love with the wives or husbands of others, and all know it about each other, but think their own affairs are secret. From the outside, it seems an  incredible  existence, but I am not sure that ours leads to much more. But then I have really no notion what human life is  for  … probably 0."""^^xsd:string ;
+    mbdiaries-ontology:index 86 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313374/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/86/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_86"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/86/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/86/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-03-07> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, Mar. 7, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/86> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_86.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_86.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-03-07> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-03-07> a crm:E52_Time_Span ;
+    rdfs:label "March 07, 1907"^^xsd:string ;
+    rdf:value "1907-03-07"^^xsd:date .
+

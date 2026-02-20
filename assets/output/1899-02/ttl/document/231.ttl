@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/231> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/231> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "231"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/231/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/231> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296735/full/full/0/default.jpg> ;
+    rdf:value """[three lines of text cut out of the page]. 
+Bernhard and Logan walked over to the Benn’s new Villa. I had my music lesson. 
+Thursday, March 13, 1902, I Tatti
+Suddenly Gladys came (the day Logan went away) and she has been filling our time and thoughts. She is radiant and sphinx-like. Strange likenesses to her mother flit across her face. Placci has come to adore. She has been marvellous. I shall begin my new volume with my impressions of her. 
+Otherwise we were living quietly, working, seeing a few neighbours, hearing a little music. I plodded through  Miss Martineau’s Autobiography  and read  Hudson’s Naturalist on the La Plata  and we all read Sidney Lee’s Shakespeare  and various odds and ends. 
+Last Sunday Mounteney wrote a very nice letter, saying we should try, but give it """^^xsd:string ;
+    mbdiaries-ontology:index 231 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296735/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/231/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1899-02_231"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/231/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/231/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1902-03-13> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, March 13, 1902"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/231> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_231.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_231.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1902-03-13> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1902-03-13> a crm:E52_Time_Span ;
+    rdfs:label "March 13, 1902"^^xsd:string ;
+    rdf:value "1902-03-13"^^xsd:date .
+

@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/97> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/97> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "97"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/97> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310026/full/full/0/default.jpg> ;
+    rdf:value """without a fire. Miss Lipps discoursing on medical details - tumours, childbirths, etc. Poor Gertrude - she seemed down, and no wonder. Her family do not let her have a penny of money - it all comes through Miss Lipps. I lent her 2 lire!!
+My music-lesson consisted of a weeping-fit on the part of the poor brave, at last broken-down Maestra. Her beastly niece Mathilde is writing to all her friends complaining of her aunt’s having turned her out, and begging for money.
+It was nice to get home. Last year I was all for people, this year I want only peace and quiet for work. Bernhard rather needs people, but they bore him so, they seem so hard-baked, he can predict all their ideas. Even Zangwill, à la longue, with his Jewish craze and his indiscriminating taste, becomes a burden. """^^xsd:string ;
+    mbdiaries-ontology:index 97 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310026/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/97> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_97.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_97.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

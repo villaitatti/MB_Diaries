@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/168> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/168> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "168"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/168/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/168> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296672/full/full/0/default.jpg> ;
+    rdf:value """Thursday May 23. 1901. I Tatti
+Lina came to lunch and was very sweet.  She spoke in a charmingly frank way about having been in love with Aubrey Waterfield, and was rejoicing at being free from the feeling. We went in to see the Duca di Brindisi’s pictures and some others, and called on the Benns. Placci came to dinner, and was very nice, but I think he was decidedly sleepy. 
+Friday May 24. 1901.
+B.B. wakes up in the morning always feeling quite indifferent to life, or, if anything, bored at the thought of going on. He says he would like to  stop  here and now. He feels no real warmth towards anyone but me. Even Gladys has faded out of his grasp. 
+We called on the Kiplings, but did not find them – then went to Dr. Pieraccini (10 Via Buffalini), who said the usual """^^xsd:string ;
+    mbdiaries-ontology:index 168 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296672/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/168/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1899-02_168"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/168/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/page/168/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1901-05-23> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday May 23. 1901. I Tatti..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/168> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_168.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_168.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1901-05-23> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1901-05-23> a crm:E52_Time_Span ;
+    rdfs:label "May 23, 1901"^^xsd:string ;
+    rdf:value "1901-05-23"^^xsd:date .
+

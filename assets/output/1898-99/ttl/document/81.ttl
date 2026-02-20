@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/81> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99/page/81> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "81"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/81/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/81> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296203/full/full/0/default.jpg> ;
+    rdf:value """Monday Oct. 3. 1898. Hotel S. Lorenzo. Verona. 
+Spent the day travelling, but by a most comfortable train, leaving Munich at 10 and reaching here at 7, lunching and having tea in the train, and having a mock examination of the luggage also in the train. I studied Greek and was absorbed in Mommsen’s account of the Gracchi. Bernhard read Homer. Horne endured life. He seems really unable to read a serious book. Vol. I of Mommsen has been entirely too much for him. 
+Tuesday Oct. 4.98. Verona 
+Saw churches in the morning and drove to Marcellise in the afternoon. Horne commence à donner sur nos nerfs – with his slowness and his mania for taking down all inscriptions, no matter how unimportant. He takes hold of almost everything – except Italian architecture – by the """^^xsd:string ;
+    mbdiaries-ontology:index 81 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1898-99> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296203/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/81/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1898-99_81"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/81/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/page/81/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1898-10-03> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday Oct. 3. 1898. Hotel S. Lorenzo. Verona. ..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1898-99/document/81> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1898-99_81.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1898-99_81.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:48:37"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1898-10-03> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1898-10-03> a crm:E52_Time_Span ;
+    rdfs:label "October 03, 1898"^^xsd:string ;
+    rdf:value "1898-10-03"^^xsd:date .
+

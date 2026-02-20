@@ -1,0 +1,67 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1906/document/77> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1906/page/77> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "77"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1906/page/77/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1906/document/77> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309478/full/full/0/default.jpg> ;
+    rdf:value """Thursday, May 10, 1906
+Fine.
+Emily, Britten.
+Insurance and boring things. Began notes. Miss March Phillipps called - a goose. Also Algar and his amusing cousin Norma Labouchère. The Hapgoods and a young friend of their, Mr. Washburn, and Miss Sheepshanks came to dine. Sat under trees till midnight.
+Ce coquin de Printemps made us rather silly!
+Friday, May 11, 1906
+Fine and then rain.
+Emily, Britten.
+Tried to work. The notes are a bore! C’est ce coquin de printemps! The still more boring Gravina came to lunch, and Emily and I, yearning horribly, went with her to call on Mme Turri. Dined with Mrs. Ross, Dent and Miss Erichsen. Rembelinski called on B.B. from 3-71
+Wrote Mother, Guido, Christina, Scott.
+Saturday, May 12, 1906
+Stromy, clearing.
+Emily, Britten.
+Lunched with Hapgoods. B.B. stayed behind and walked with Neith, and I took Britten and Mr. Washburn to the Uffizi. Drove Placci up. Miss Howard and Miss Redfield called. Placci very rudely insisted in talking to B.B. and it was a mauvais quart d’heure till I could get general conversation started.
+Wrote Mother, Kelly, Middlemore, Harter, Andersen, E. Richardson.
+Sunday, May 13, 1906
+Fairish
+Emily, Britten.
+The Wheelers and Agnes to lunch. Fabbri called. Emily and I called on Mrs. Underwood Johnson at the “Blue Nuns” at Fiesole. Poor silly fluffy thing!
+Wrote Mother, Mrs. Berenson."""^^xsd:string ;
+    mbdiaries-ontology:index 77 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1906> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309478/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/77/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1906_77"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1906/page/77/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/77/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-10> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, May 10, 1906"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/document/77> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1906_77.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1906_77.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:30:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-10> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-10> a crm:E52_Time_Span ;
+    rdfs:label "May 10, 1906"^^xsd:string ;
+    rdf:value "1906-05-10"^^xsd:date .
+

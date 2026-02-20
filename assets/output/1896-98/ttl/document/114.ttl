@@ -1,0 +1,39 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/114> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/114> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "114"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/114> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766200/full/full/0/default.jpg> ;
+    rdf:value """Monday April 12. 1897. Villa Rosa. Fiesole.
+Mr. Benn and Mr. Blaydes came to lunch. Benn told us about the ideas and ideals of his youth in the sixties – Mill, George Eliot, and Tennyson, “St. Paul’s for architecture and Schiller for the drama.” Afterwards we took a walk, and then I went down and met Christina Bremner, who arrived soon after 7. 
+Tuesday April 13. 1897.
+Perry came to tea. I called on Mrs. Halsey, and saw the lawyer.
+April 14.97. Wednesday. 
+Bernhard’s letter to Reinach: “Now, because I write that I  enjoy  Homer, you lecture me for an Epicurean. If I had told you that I worked two hours every day at Homer, you’d have thought me [0115  ‘Letter to Reinach’ ] very fine. Yet I have done this, only, because I have done it intelligently, and therefore with great enjoyment, you think I am wicked! 
+As for publishing, I cannot publish more than I am doing of the quality I care for. Remember my work is valuable because it is strictly my own, the result, not of cram and of undigested knowledge but of a vast artistic experience. In one season I have done a book on the Central Italian Painters, saying things never said before, systematizing in the lists attributions never made before. That finished, I am now hard at work on the Florentine drawings. Remember, these have never been treated systematically as a continuum, and when at all, in dilettante-ish fashion, as in Morelli’s  ipse dixit  mode. I am gathering them together from all the corners of the earth, attributing them properly – an almost gigantic task – interpreting, demonstrating """^^xsd:string ;
+    mbdiaries-ontology:index 114 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766200/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/114> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_114.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_114.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

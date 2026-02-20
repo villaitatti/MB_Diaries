@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/75> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/75> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "75"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/75> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296579/full/full/0/default.jpg> ;
+    rdf:value """bought his Parenzano in its fine frame for 600 lire. Cavenaghi promised to teach me his craft whenever I would come to learn. The Lawsons left.
+Monday June 26.99. Grand Hotel. Andermatt
+I offered Frizzoni £2,000 for his Bellini, and he was  awfully  tempted. ’Tis a really “sacred” picture. Cavenaghi helped me buy a pearl cross, and at 12.30 we left Milan. Loeser was on the train and he and Bernhard had a long talk, in which Loeser admitted his violent hatred, but could assign no ground for it but that he took “an entirely different view of art” and “felt he must keep his independence”. They established at least a truce. Then we came here. Loeser lent us and I read  Santayana’s  “Lucifer”, but I did not care for it as poetry. """^^xsd:string ;
+    mbdiaries-ontology:index 75 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296579/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/75> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_75.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_75.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

@@ -1,0 +1,68 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1905/document/77> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1905/page/77> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "77"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1905/page/77/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1905/document/77> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312791/full/full/0/default.jpg> ;
+    rdf:value """Thursday, June 1, 1905, Ascension Day
+Ray lunched with Florence. Mrs. McPherson lunched here with Senda and me, awful old guy.
+B.B. lunched at the Serristoris with Rembrelinski and they three had a delightful afternoon at Pistoia in the motor.
+I drove to town, picked up Ray, called on  Salome , and then went to
+Thorolds.
+Ray began to read Meredith,  The Egoist . She thinks it is the nippingest book she ever read. She longs for Willy to read it!!
+Friday, June 2, 1905
+Fine.
+Pottered round with errands and packed. Got all the trunk keys. Houghton too ill to start on motor trip.
+B.B. wrote to Mrs. Longyear about the Lotto.
+We discovered that Willy is Meredith’s “Egoist”.
+Saturday, June 3, 1905
+Fine.
+Bernhard called on the Countess d’Orsay. Florence and her sister called.
+The Houghtons and Miss Steffenburg came for the night, and Dicky Dana came to dinner. We sat out on the lawn — the first night it has been warm enough to do so.
+Sunday, June 4, 1905
+Fine.
+The Houghtons and Ray and I came off in the motor. Lunched at Lucca and spent the night in Mr. Sargaint’s studio at Forte dei Marmi [Forti di Marmi].
+Ray had a swim.	Ray began to steer.
+Ray’s 18th birthday.
+Motoring with Ray"""^^xsd:string ;
+    mbdiaries-ontology:index 77 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1905> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312791/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/77/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1905_77"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1905/page/77/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/77/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1905-06-01> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, June 1, 1905"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/document/77> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1905_77.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1905_77.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:26:58"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1905-06-01> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1905-06-01> a crm:E52_Time_Span ;
+    rdfs:label "June 01, 1905"^^xsd:string ;
+    rdf:value "1905-06-01"^^xsd:date .
+

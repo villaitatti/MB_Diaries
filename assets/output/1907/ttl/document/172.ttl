@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/172> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/172> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "172"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/172/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/172> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313460/full/full/0/default.jpg> ;
+    rdf:value """Thursday, May 30, 1907
+Settignano. Cooler. Rain but clearing later.
+Began the Perugia article  sul serio . Mrs. Morss and her sister Miss Reid came to tea, also Miss Brown of Wellesley. My! but they were dull!
+Then Bernhard and I drove to the Lorettino, taking the doctor, and picking up Cecil, who came back to dine. He thinks the house could be made very comfortable.
+Had ecstatic letters from Ray about the motor trip. Also letter from Kelly in Tokyo, and a rather pathetic sort of letter from Dr. Heath who “can’t forget the Festa”. Another from Geoffrey, who was so ill at Oxford that he thought he was going to “drift out to sea altogether”. He has gone up into the Cotswolds."""^^xsd:string ;
+    mbdiaries-ontology:index 172 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313460/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/172/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_172"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/172/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/172/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-05-30> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, May 30, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/172> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_172.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_172.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-05-30> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-05-30> a crm:E52_Time_Span ;
+    rdfs:label "May 30, 1907"^^xsd:string ;
+    rdf:value "1907-05-30"^^xsd:date .
+

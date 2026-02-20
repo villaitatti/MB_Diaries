@@ -1,0 +1,58 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/174> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/174> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "174"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/174/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/174> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295910/full/full/0/default.jpg> ;
+    rdf:value """[ ROME and NAPLES]
+Tuesday, May 19, 1896, Hotel Hassler, Rome
+Visited churches and the Ac[ademy] di San Luca. Started to drive in the afternoon - but I was not well enough. Bernhard and Miss Sellers lunched at the Pasolinis.
+Wednesday, May 20, 1896 
+Saw the Doria and Colonna galleries, and made a lot of discoveries. Lunched, all three, with “Antonio e Etta Di Viti De Marco”, and talked about political economy. A horrid little painter maned Mancini was there. Mr. Brewster dined with us - pleasant in manner, but a little dull. He has a daughter of 21 who is an architect. In the afternoon I went to the Medici gardens. 
+Thursday, May 21, 1896  
+Churches and Corsini drawings in the morning. In the afternoon a visit to Mr. Brewster’s to see some fine busts by Hildebrand. Costa came and drove us out to the Villa Madama, but it was closed. In the evening Prof. Löwy and the Stillmans called.
+Friday, May 22, 1896 
+I was really ill, and kept in the house all day. Bernhard and Miss Sellers went to the Vatican and the Terme. 
+Saturday, May 23, 1896 
+The same story. They drove to the Villa Madama. """^^xsd:string ;
+    mbdiaries-ontology:index 174 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295910/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/174/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1895-96_174"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/174/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/174/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1896-05-19> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday, May 19, 1896"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/174> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_174.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_174.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1896-05-19> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1896-05-19> a crm:E52_Time_Span ;
+    rdfs:label "May 19, 1896"^^xsd:string ;
+    rdf:value "1896-05-19"^^xsd:date .
+

@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/167> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95/page/167> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "167"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/167> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420765693/full/full/0/default.jpg> ;
+    rdf:value """Whistler’s Portrait of his Mother; 4. Carrière’s Maternal Love. These seem to be “the last word”, for they have been the same now for years. But almost anything might perish sooner than that great Manet. 
+It is delightful how sympathetically our taste works together. We generally feel the same, Bernhard of course more consciously, and sometimes ahead. But I am a close second. When our minds get to working so well in harness it will be truly delightful all round. At present we tend to fight, as in those old days over the writing of the Hampton Court Guide.
+We are reading  Maeterlinck’s Pelléas et Mélisande . It is just like the Allandine et Palomides, but cruder. """^^xsd:string ;
+    mbdiaries-ontology:index 167 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420765693/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/167> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1894-95_167.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1894-95_167.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:03:23"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

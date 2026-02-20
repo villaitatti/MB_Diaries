@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/147> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/147> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "147"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/147/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/147> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295883/full/full/0/default.jpg> ;
+    rdf:value """[ Mrs. Buttles]
+both Egyptologists. Horne and Bernhard had a real gorge of connoisseuring. 
+Saturday, Apr. 18, 1896 
+Bernhard started at 7 for Forlì, where there is a reputed Titian for sale. 
+I was really ill with a cold, and stayed in bed all day, although many people came in the afternoon: Miss Buttles to sing, bringing her mother and sister, Edith and Bryson, Lion and Bobby, and Miss Horne to listen. Mr. Morgan called, but Alys sent word I was ill, for she felt she really could not stand him along with Ma Buttles, who was in fine trim, retailing the prices, material and makes of all the dresses Miss Whaling has bought in Florence, and the amount of material used in Hasseurs’ drawers. 
+Poor Miss Sellers was much cut up by a bitter letter from Mr. Strong, who said he had spent his last day wandering about Fiesole in the hope of meeting her. She allows herself to be depressed by his bitterness. But, if he knew, it does not advance his cause! """^^xsd:string ;
+    mbdiaries-ontology:index 147 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295883/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/147/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1895-96_147"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/147/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/147/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1896-04-18> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Saturday, Apr. 18, 1896"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/147> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_147.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_147.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1896-04-18> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1896-04-18> a crm:E52_Time_Span ;
+    rdfs:label "April 18, 1896"^^xsd:string ;
+    rdf:value "1896-04-18"^^xsd:date .
+

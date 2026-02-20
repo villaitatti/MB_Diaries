@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/206> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/206> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "206"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/206> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295942/full/full/0/default.jpg> ;
+    rdf:value """I rested. (Placci called on the Princess Doria, a little English woman of notorious wickedness, each of whose children has a different father, and who runs strange woman lovers at the same time, who entertains kings and emperors and cares nothing about it, completely wrapped up in her vices and thinking for interest chiefly of the physiological and pathological sides of abnormal passions - rather favouring anarchists from a feeling that if anarchy were the leading philosophy she would need no excuses (“Vice as a mental aperient”, a good title for an essay) -
+Bernhard and Cook bought photos, and poked about picture shops. Then we rested, and in the evening for three hours (without Cook) had a most interesting real talk - one of the few that was not an “argument”, but a searching together for the point - about music. We started from the question “What makes a tune vulgar?” Placci said incidentally that his devotion to Wagner """^^xsd:string ;
+    mbdiaries-ontology:index 206 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295942/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/206> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_206.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_206.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

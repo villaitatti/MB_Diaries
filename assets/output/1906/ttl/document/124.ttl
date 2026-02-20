@@ -1,0 +1,63 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1906/document/124> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1906/page/124> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "124"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1906/page/124/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1906/document/124> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309525/full/full/0/default.jpg> ;
+    rdf:value """Monday, Oct. 8, 1906
+Fine.
+I Tatti.
+Mrs. Gardner.
+Went to Uffizi, and then to lunch with the Labouchères, who were most amusing. Labby said that D’Annunzio looked a “cross between a Vampire and a waiter in a third class restaurant”. He said Dora’s style of dressing combined a cocotte and hearse-horse.
+Called at Brauer’s, and Mrs. G.[ardner], protesting bankruptcy, spent about four hundred pounds.
+Tuesday, Oct. 9, 1906
+V. VI.
+Fine
+I Tatti
+Mrs. Gardner, Joseph Linden Smith.
+Mrs. G.[ardner] went to town in morning. Brauer came up and made us a very flattering offer for our tabernacle. Mrs. G. and Jo Smith came up to lunch, and we sat under the cypresses. Placci and Lucien came to tea and stayed to dinner. The Hapgoods and Mrs. Thorold came to dine and we managed general conversation - though we were nine - on “the Art of Life” B.B. said abstain. Fafner enjoy.  Wm . Thorold resign.
+Wednesday, Oct. 10, 1906
+Fine.
+Simplon train.
+Packed. Started at 3. They would not register our luggage through, but only to Milan. We ought to have had an hour at Milan, but of course our train was late - 50 minutes late. By terrific bribery, though, we did get our luggage through, and come on. Train dawdles  endlessly  - could easily save 4 or 5 hours. I suppose it is in conspiracy with the other lines."""^^xsd:string ;
+    mbdiaries-ontology:index 124 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1906> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309525/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/124/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1906_124"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1906/page/124/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/124/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1906-10-08> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, Oct. 8, 1906"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/document/124> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1906_124.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1906_124.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:30:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1906-10-08> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1906-10-08> a crm:E52_Time_Span ;
+    rdfs:label "October 08, 1906"^^xsd:string ;
+    rdf:value "1906-10-08"^^xsd:date .
+

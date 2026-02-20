@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/103> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/103> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "103"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/103> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296607/full/full/0/default.jpg> ;
+    rdf:value """we have ever had”, for I was there. We were happy!
+I cannot even now tell how I feel about his death. At times it is  awful  to me. But it is such a comfort to have the children under circumstances of  our  choosing, and so infinitely better for them in every possible way, that of course the feeling of relief is stronger than any other. He left them to the sole charge of their German governess, a stupid girl just 21, and they were never to go to any other school than the tenth-rate Catholic preparatory one he was sending them to, and were to be trained to earn their own living – with no education! How he  could  – ! 
+I left them most happily established with Mother, the governess remaining on, and came back here about two weeks ago, stopping """^^xsd:string ;
+    mbdiaries-ontology:index 103 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296607/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/103> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_103.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_103.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/45> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/45> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "45"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/45/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/45> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313333/full/full/0/default.jpg> ;
+    rdf:value """Wednesday, Jan. 23, 1907
+Very cold and windy.
+Type-wrote the Leonardo-Milan part of B.B.’s manuscript. It is  full  of ideas, but so briefly set down, how can anyone understand them?
+Dr. Giglioli and  Dr. Stori  came and cut the growth off my wrist,  out  of it, rather. It hurt like fury and I yelled for all I was worth. I was very indignant too, for I had begged for ether, and they had promised me it shouldn’t hurt. And it  did . It was only five minutes, but those five minutes were awful.
+However, I would go through it every day  gladly  if I could get rid of the fear that poor old Karin may be deaf. She is awfully anxious about it — I don’t know what to do. “What is to become of me?” the poor thing writes. And “I don’t know what would become of me sometimes when I feel as if my life was all hopeless, if I didn’t know that I had you and Gram and Ray ready to put up with me, even as deaf as a stone.”
+She also says “I have forgotten lots of things already. It is an awful affliction, but do not call it carelessness, for I do care most awfully —  afterwards !”"""^^xsd:string ;
+    mbdiaries-ontology:index 45 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313333/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/45/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_45"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/45/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/45/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-01-23> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Wednesday, Jan. 23, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/45> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_45.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_45.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-01-23> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-01-23> a crm:E52_Time_Span ;
+    rdfs:label "January 23, 1907"^^xsd:string ;
+    rdf:value "1907-01-23"^^xsd:date .
+

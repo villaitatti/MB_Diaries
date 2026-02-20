@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/162> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/162> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "162"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/162> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310091/full/full/0/default.jpg> ;
+    rdf:value """are so fully developed, and look so strong and athletic is because no one of them comes out of college a virgin!!! The young men students and the professors are their lovers, but they don’t abuse the privilege, but only use it enough to keep them in blooming health. La Duse thought it such an admirable system!! Who was galling her? Or was it merely her Latin view of the situation?
+Carlo played to us Walkyrie, but he plays like the old scratch.
+Emily and I drove down to our dressmaker and to see poor Mrs. Horne. I saw also the lawyer, as our landlord died last night, old Temple Leader, and who knows what mischief there will be to pay with his Italian heirs?
+We like Gilbert Murray more and more. He is a thorough gentleman, and very highly intellectualized. """^^xsd:string ;
+    mbdiaries-ontology:index 162 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310091/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/162> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_162.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_162.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

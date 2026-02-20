@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/163> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/163> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "163"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/163/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/163> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310092/full/full/0/default.jpg> ;
+    rdf:value """Tuesday  March  3. 1903. Settignano
+Music in the afternoon. Mrs. Forbes-Mosse sang from “Figaro” - charmingly! She brought with her a quaint, 1830 looking young German artist named Vogeler-Worpswede. After the music I walked to Settignano with Peggy Cracroft, and called on Christina.
+Wednesday  March 4. 1903.
+I took Logan and Emily and Murray and Norman to the Uffizi, and I think we all enjoyed ourselves. Norman came up to lunch. He spoke with extreme contempt of Mr. Strong, and regret of Eugénie.
+Coming away, we met D’Annunzio, who was presented to me. We took Sir William Markby to call on the Benns. Then B.B. and Norman went to see Miss Lowndes, and I went on to Fiesole to see """^^xsd:string ;
+    mbdiaries-ontology:index 163 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310092/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/163/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1902-03_163"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/163/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/163/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1903-03-03> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday  March  3. 1903. Settignano..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/163> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_163.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_163.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1903-03-03> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1903-03-03> a crm:E52_Time_Span ;
+    rdfs:label "March 03, 1903"^^xsd:string ;
+    rdf:value "1903-03-03"^^xsd:date .
+

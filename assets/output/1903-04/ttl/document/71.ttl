@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/71> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/71> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "71"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/71/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/71> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312341/full/full/0/default.jpg> ;
+    rdf:value """Bigelow, etc. After they had gone, we had a nice talk against that odious minx, Mollie Osgood, full of sympathy for the nice young Englishman she has entrapped. She “caught” him within a fortnight from the day they met. And they will be married within 3 months. The Perry girls said she was bad-tempered and conceited beyond words.
+Then we went to Brookline and had a very pleasant evening, barring Bernhard’s fatigue, with Helen Hopekirk Wilson and her husband. She played to us Debussy and César Franck, and then one divine Bach. She is an enchanting creature! 
+Tuesday Nov. 17. 1903.
+We went through some of the Greek bronzes etc. with Mr. Robinson, who is well-informed and interesting. They are getting quite a choice collection of """^^xsd:string ;
+    mbdiaries-ontology:index 71 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312341/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/71/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1903-04_71"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/71/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/71/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1903-11-17> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday Nov. 17. 1903...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/71> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_71.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_71.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1903-11-17> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1903-11-17> a crm:E52_Time_Span ;
+    rdfs:label "November 17, 1903"^^xsd:string ;
+    rdf:value "1903-11-17"^^xsd:date .
+

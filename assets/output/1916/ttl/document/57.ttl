@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1916/document/57> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1916/page/57> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "57"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1916/page/57/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1916/document/57> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493308948/full/full/0/default.jpg> ;
+    rdf:value """Saturday, February 19, 1916, Paris
+In bed with cold
+Letter to Paul Bouget (authentic!) 
+Monsieur  -  Excusez la liberté que je prends de vous adresser cette lettre étrange. Voici le fait: j’ai 42 ans, je suis père de 4 enfants. J’aime ma femme qui m’adore, les circonstances ont voulu que je sois resté en relations quotidiennes avec une jeune fille qu’insensiblement je suis arrivé à aimer et qui m’aime. Ces relations, longtemps chastes, auraient pu changer si je n’étais  devenue impuissant et cette impuissance qui se n’était jamais manifesté est désormais égale à l’égard de ma femme légitime et de celle qui, par scrupule d’abord, n’est jamais devenue ma maitresse.
+Je me suis adressé à un médecin spécialiste (dont par discrétion je tairai le nom et que je connaissais nullement) et, après un échange de correspondances nombreuse, il termine nos relation par la lettre suivante dont je vous prie d’excuser les termes, pas trop flatteuses, dont je suis gratifié: 
+«Cher Monsieur, intelligent et cultivé, intéressant et indécis. Les circonstances actuelles (je viens d’être mobilisé) sont si peu favorables, vous avez un si grand besoin à être documenté pour que votre documentation entraine votre conviction. Factum essentiel au succès, que je préfère y senonar. Plus tard si on peut encore faire quelque chose, ma bonne volonté vous reste acquise. 
+Avec regrets, je garderai un très bon souvenir de vous….»
+Voulez vous, Monsieur le psychologue, essayer de me donner un conseil? L’écrivain rissira-t-il """^^xsd:string ;
+    mbdiaries-ontology:index 57 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1916> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493308948/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/page/57/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1916_57"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1916/page/57/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/page/57/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1916-02-19> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Saturday, February 19, 1916"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/document/57> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1916_57.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1916_57.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T17:11:14"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1916-02-19> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1916-02-19> a crm:E52_Time_Span ;
+    rdfs:label "February 19, 1916"^^xsd:string ;
+    rdf:value "1916-02-19"^^xsd:date .
+

@@ -1,0 +1,54 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/84> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/84> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "84"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/84/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/84> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313372/full/full/0/default.jpg> ;
+    rdf:value """Sunday, Mar. 3, 1907
+Grey.
+We were talking abut the middle-aged ladies who fall in love, and I asked what did they really want. B.B. said they wanted a place for their ideals to perch on, as they were tired of flaying about in the air, “And having found the place”, he added, “they generally foul it and fly off again”  Comme c’est vrai !
+We worked ourselves quick sick over the Bonfigli - Boccatio - Girolamo Boccatio - Matteo da Gualdo - Caporali muddle. It is awful to work with photographs for gradually they usurp the place of the originals.
+Miss Wolcott, a school teacher from Denver (where Bessie is) came to call, bringing with her an old American judge named Lefevre. She had a sweet voice.
+While they were here a painter named McBride and a Californian architect named Ratcliff called (sent by Miss Hogarth). They seemed interesting and keen.
+I felt rather ill, I am sorry to say, but I hope it is nothing serious."""^^xsd:string ;
+    mbdiaries-ontology:index 84 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313372/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/84/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_84"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/84/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/84/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-03-03> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Sunday, Mar. 3, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/84> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_84.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_84.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-03-03> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-03-03> a crm:E52_Time_Span ;
+    rdfs:label "March 03, 1907"^^xsd:string ;
+    rdf:value "1907-03-03"^^xsd:date .
+

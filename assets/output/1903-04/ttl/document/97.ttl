@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/97> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/97> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "97"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/97/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/97> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312367/full/full/0/default.jpg> ;
+    rdf:value """really must meet, you would like him so much - he has been tried five times for murder. He only resented it the last time, when they accused him of hiring “a nigger to kill a man - ‘as if I couldn’t do my killing myself!’ ”
+Then B.B. and I hurried off to meet. Billy Taylor, such a nice lad of 21, and talk to him about his future, that agonizing subject to a boy of his age. Both Bernhard and I thought what a fine fellow he was, and what a good husband he would make for Ray - if ever! But Bernhard said it would be fatal for them to meet  now.
+Monday Nov. 30. 1903. Hotel Somerset Boston 
+B.B. went to the Museum, and I went with Mrs. Rogers to see her home for underpaid shop-girls, and its splendid matron, Miss Sarah """^^xsd:string ;
+    mbdiaries-ontology:index 97 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312367/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/97/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1903-04_97"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/97/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/page/97/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1903-11-30> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday Nov. 30. 1903. Hotel Somerset Boston ..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/97> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_97.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_97.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1903-11-30> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1903-11-30> a crm:E52_Time_Span ;
+    rdfs:label "November 30, 1903"^^xsd:string ;
+    rdf:value "1903-11-30"^^xsd:date .
+

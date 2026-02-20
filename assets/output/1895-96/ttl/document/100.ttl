@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/100> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/100> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "100"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/100/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/100> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295836/full/full/0/default.jpg> ;
+    rdf:value """[ Edith Burroughs]
+Wednesday, Feb. 12, 1896, Fiesole 
+Papers, letters, photographs in the morning. In the afternoon we went to town and upset our tempers at the dilatory Florentine shop-keepers. In the evening we read “ Tintern Abbey”  – Lamb – “Emma” and the papers. A good name for a (bad) painter would be  Colpevole da Imola .
+Thursday, Feb. 13, 1896
+Ill again - d-- it! Arranged photos in the morning. Moped the rest of the day. Bryson and Edith Burroughs came to dinner and to spend the night. Edith told us her early experiences trying to get money - how she painted sachets at two cents apiece, made models for inkstands for $2.00 (which cost her $1.90), painted on “bolting cloth” at 10 cents, carried her models all over New York, etc. etc. But with youth and health, such experiences are light!"""^^xsd:string ;
+    mbdiaries-ontology:index 100 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295836/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/100/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1895-96_100"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/100/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/100/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1896-02-12> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Wednesday, Feb. 12, 1896"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/100> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_100.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_100.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1896-02-12> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1896-02-12> a crm:E52_Time_Span ;
+    rdfs:label "February 12, 1896"^^xsd:string ;
+    rdf:value "1896-02-12"^^xsd:date .
+

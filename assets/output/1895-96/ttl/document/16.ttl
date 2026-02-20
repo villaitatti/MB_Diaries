@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/16> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/16> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "16"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/16> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295752/full/full/0/default.jpg> ;
+    rdf:value """as “a sort of Danaë business” - isn’t that a perfect Public School phrase?” 
+Of Ruskin he says, “Frederick Harrison is right, Ruskin can write, but his ideas! They remind me of Alban and Aunty Lill.”
+Mrs. Buttles and her daughter Nettie came up after lunch. Bernhard took a walk with the daughter, and I endured the mother for a weary disgusted hour. She is a vain, grossly selfish, disgustingly material woman. Was she studying Italian with her daughters? No, she didn’t want to learn  anything ! As to her daughters, they think, she told me, of her first in  everything  – (much as one thinks of a mad dog before crossing a street he is running along, Bernhard said!) They promised to give her a ring if she didn’t get in a funk on the """^^xsd:string ;
+    mbdiaries-ontology:index 16 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295752/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/16> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_16.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_16.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

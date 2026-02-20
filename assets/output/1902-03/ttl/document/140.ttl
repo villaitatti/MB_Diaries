@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/140> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/140> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "140"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/140/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/140> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310069/full/full/0/default.jpg> ;
+    rdf:value """I Tatti. Friday  Jan. 16. 1903 .
+I took Mr. Stogdon to the Medici Tombs, and then called on Gertrude and had my music lesson and drove Christina and Alice Blaydes up to lunch. Alice had received a wireless message from Marconi from Canada, and was greatly elated. But as she becomes more familiar she is losing some of her silent tack, and she rattled on at lunch about that dirty little bookseller Voynitch being in love with her and his wife terribly jealous and so on, quite happy and contented and unaware of the mental comments we were making. She also let out that she felt she was “getting ahead” of me in Florentine society - I suppose by going to dine at the Calderonis!! But what a mind it must be under that mass of beautiful (dyed) hair!
+We had Bach and Beethoven in the afternoon, and corrected proofs till dinner.
+Saturday Jan. 17. 1903.
+Went in to the Innocenti to see the document about “Alunno di Domenico”. """^^xsd:string ;
+    mbdiaries-ontology:index 140 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310069/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/140/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1902-03_140"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/140/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/140/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1903-01-16> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "I Tatti. Friday  Jan. 16. 1903 ...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/140> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_140.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_140.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1903-01-16> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1903-01-16> a crm:E52_Time_Span ;
+    rdfs:label "January 16, 1903"^^xsd:string ;
+    rdf:value "1903-01-16"^^xsd:date .
+

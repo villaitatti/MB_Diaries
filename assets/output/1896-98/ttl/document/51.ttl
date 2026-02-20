@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/51> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/51> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "51"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/51> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766137/full/full/0/default.jpg> ;
+    rdf:value """called on the Benns. They are getting to be great friends, and I am so glad.
+* Thursday Dec. 17. 1896. 
+A wet day, with our first hint of snow. Bernhard and I paid a flying call on the Lovetts. Miss Kolb came to dinner, and was quite fascinating! She is distinctly “our kind”. How she hates Miss Paget! And with good reason - Miss Paget is playing her usual nasty tricks she plays on people who are unlucky enough to get into her power. She makes the poor girl weep nearly every day of her life. She even won’t let her have enough wood, but Miss Kolb is sharp enough to confess to a  delight  in stealing it from the woodbox, when Zerlina, the maid, chances to leave it open! She was witty and entertaining """^^xsd:string ;
+    mbdiaries-ontology:index 51 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766137/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/51> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_51.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_51.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

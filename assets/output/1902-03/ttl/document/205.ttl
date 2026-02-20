@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/205> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/205> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "205"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/205> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310134/full/full/0/default.jpg> ;
+    rdf:value """. 
+Logan writes: “Douglas and Joe have met Gladys Deacon and Douglas is fascinated by her. A friend of theirs met her at a dinner party at the house of some Catholics; and the Duke of Norfolk was there. She calls the Duke “Marie”, which is one of his names, and she played all sorts of games with him, putting an antimacassar on his head, and making him pretend he was the Pope, while the Kincellas’ friend she dressed up as the King, and then they acted a long interview between Pope and King. After than Miss Deacon said, “Marie has another game he loves to play - play your game, Marie.” Thereupon the Duke went out of the room, took off his coat, and came in on all fours, with a large green cushion on his back, and trolled around the room like a dog. Doesn’t it seem incredible - a man of 60, the greatest nobleman, and the most honoured and respected, in England! """^^xsd:string ;
+    mbdiaries-ontology:index 205 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310134/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/205> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_205.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_205.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

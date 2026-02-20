@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/121> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/121> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "121"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/121> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766207/full/full/0/default.jpg> ;
+    rdf:value """charming. Then I took the rampart walk with Blaydes, and returned to find the Reinachs already here. Cook also brought a young electrician named Dent to tea. The Reinachs stayed to dinner, and we talked about French poetry. Reinach recited Lamartine and Racine, and reviled Verlaine and all the other real poetry of his native land.
+Bernhard said that in the Academy this morning Mme. Reinach impulsively exclaimed before the cast of the Moses, “Pourquoi a-t-il ces cornes? Il n’était pas marié!” Poor Reinach was awfully embarrassed, “Tu es vraiment d’un naïveté extraordinaire, ma chère!” 
+Wednesday Apr. 21. 1897.
+Cook went, and Bernhard and Christina went in to town to visit some churches with the Reinachs and a large party of French people they had gathered together, among them a Mme. Perrer, who """^^xsd:string ;
+    mbdiaries-ontology:index 121 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766207/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/121> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_121.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_121.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

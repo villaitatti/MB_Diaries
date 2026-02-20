@@ -1,0 +1,55 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/371> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/371> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "371"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/371/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/371> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313659/full/full/0/default.jpg> ;
+    rdf:value """Sunday, Dec. 15, 1907
+I Tatti. Very warm. Beautiful.
+Algar, Mme v. Heiroth.
+It was absurdly pleasant to wake up in  our own  house. Everything seemed more delightful, and I was very happy until the post came, bringing a letter from Alys, who had gone with Karin and Dr. Heath to consult another specialist, Dr. Jenkins, who gave the worst account of her left ear, “the new ear” we have hoped so much from. He seemed to think it could never hear again, and, worse than that, that there was tuberculosis of the bone. This cast me down so utterly that I have wanted all day just to take Karin in my arms and die, both of us, before she suffers more.
+I thought I should go out alone, but I decided to stay and receive Gordon Craig and his friend Carr, and Placci, who all came to lunch.
+Placci tried to interview Craig, but of course without result, as well get a running stream to explain its course.  C’est un fou enfermé  was Placci’s verdict when Craig had bid us an embittered farewell, embittered by his being forced to see we did not mean to devote our lives and fortunes to him.
+Mr. Morgan and Mr. __ Knight called, la Baronne de Favrot and Miss Maedongal.
+Bernhard dined with Mme Narischkine, and we three had an amusing talk. It is two a.m. but I am afraid to go to bed for haunting thoughts of darling Karin."""^^xsd:string ;
+    mbdiaries-ontology:index 371 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313659/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/371/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_371"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/371/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/371/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-12-15> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Sunday, Dec. 15, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/371> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_371.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_371.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-12-15> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-12-15> a crm:E52_Time_Span ;
+    rdfs:label "December 15, 1907"^^xsd:string ;
+    rdf:value "1907-12-15"^^xsd:date .
+

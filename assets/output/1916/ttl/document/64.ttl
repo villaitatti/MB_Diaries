@@ -1,0 +1,35 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1916/document/64> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1916/page/64> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "64"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1916/document/64> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493308955/full/full/0/default.jpg> ;
+    rdf:value """en disant que je serais une femme idéal, et quelque uns une mère merveilleuse (!). je vois que je puis peut être en dehors de ces deux choses, que j’accomplirais avec conscience mais avec peu d’enthousiasme, parfois avec beaucoup d’ennui. Je ne me sens pas faite par certains bonheurs, qui peut être sont très grands quoique très partagés. Je me sens parfois excitée, lointaine, pleine d’une grandeur informe et stupide qui regarde le bonheur d’autrui sans pouvoir y toucher. Je suis un être intérmédiane spirituellement, analytique, contemplatif mobile et géneralisateur, la  femme  s’y perd en ne gardant que la sensibilité et l’esprit d’intuition. 
+Ne te fais donc aucune idée sur la possibilité de ma souffrance ou de ma joie personnelle. Je me sens des essences infinies qui accourant toujours due rendre la balance. 
+Cher ami, c’est déjà si extraordinaire de pouvoir se parler ainsi, sans arrière-pensée de se montre dans la parfaite nudité de notre pensée, qu’il m’en revient une sorte de bonheur complet une paix et une beauté intérieur """^^xsd:string ;
+    mbdiaries-ontology:index 64 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1916> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493308955/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/document/64> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1916_64.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1916_64.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T17:11:14"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1907/document/36> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1907/page/36> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "36"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1907/page/36/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1907/document/36> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493313324/full/full/0/default.jpg> ;
+    rdf:value """Monday, Jan. 14, 1907
+Colder. Cloudy, clearing late.
+Did Costa and Amico Aspertini and Timoteo Viti.
+We are  awfully  tempted by that Mino.
+At lunch Algar told us of some friends of his. The wife had a lover, who was also the husband’s friend. After a while she told her husband, and he, having his own game, expressed his approval, and shelters her in every way, even travelling with them, to keep up appearances, when they do for trips. Sometimes he takes another lady for himself. The thing has gone on for 15 years, and they all seem very happy. The two men went out to the Boer War, and the lover nurses the husband through a dangerous attack of enteric. The wife consulted a palmist, who said she would soon be a widow, whereat he was delighted. This casts a rather lurid light. However, as she did not become a widow, she remains “an ideal wife”, for of course she is endlessly grateful to him. The children don’t know. The only point the husband insisted on was that there were to be no children by the lover, which has involved several abortions. What a tale!"""^^xsd:string ;
+    mbdiaries-ontology:index 36 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1907> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493313324/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/36/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1907_36"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1907/page/36/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/page/36/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1907-01-14> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, Jan. 14, 1907"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1907/document/36> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1907_36.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1907_36.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:31:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1907-01-14> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1907-01-14> a crm:E52_Time_Span ;
+    rdfs:label "January 14, 1907"^^xsd:string ;
+    rdf:value "1907-01-14"^^xsd:date .
+

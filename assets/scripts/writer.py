@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import re
 import json
-import const
+from . import const
 
 
 def create_dir(dir_path):

@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/135> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/135> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "135"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/135/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/135> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310064/full/full/0/default.jpg> ;
+    rdf:value """here to have tea. He seemed exceedingly dull, and as silent as an oyster - it might have been shyness, but it seemed like flatness. He is one of those Catholics - how I loathe the whole lot - except just Britten, whose taste and character, after all, were formed before he was caught by the odious ring. Mr. and Mrs. Perkins called also, and I gave her a nice dress to wear in America. She is a plucky creature, but what a terrible burden she has taken on her shoulders. She is tremendously  straight , and has the habit of standing up and facing disagreeable truths. It began to pour.
+Monday, Jan. 12. 1903.
+Still pouring in torrents, but by afternoon it was clearer, and I went to town and called on Mme. de Platonoff, shopped and went in to Gertrude’s. I cast a gloom on her by telling her that Alys had  not relished a very malicious little story she told her about the Dukes. I thought it might serve as a warning. But it is too late for any of my people to like her - they all detest her. Everyone, even """^^xsd:string ;
+    mbdiaries-ontology:index 135 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310064/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/135/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1902-03_135"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/135/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/135/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1903-01-12> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, Jan. 12. 1903...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/135> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_135.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_135.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1903-01-12> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1903-01-12> a crm:E52_Time_Span ;
+    rdfs:label "January 12, 1903"^^xsd:string ;
+    rdf:value "1903-01-12"^^xsd:date .
+

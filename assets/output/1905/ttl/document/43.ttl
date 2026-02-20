@@ -1,0 +1,62 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1905/document/43> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1905/page/43> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "43"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1905/page/43/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1905/document/43> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312757/full/full/0/default.jpg> ;
+    rdf:value """Thursday, Feb. 9, 1905 Willy and the Etruscan Museum.
+Splendid talk after lunch.
+Countess Serristori, who gave B.B.’s aesthetic theories in a brilliantly clear way, but B.B. and I knew she would take up with the bad as readily as with the good.
+Nice talk with Willy.
+Friday, Feb. 10, 1905
+IV
+Churches, etc. with Willy.
+Music: Miss Harwood, Calderoni, Houghton, Horne, Gronau, Contessa Gravina.
+Horne stayed on to dinner and Willy told about college scrapes.
+Saturday, Feb. 11, 1905
+Worked for Reinach.
+Went in with Willy, shopped and called on Houghtons. We lunched with Horne and came home tired out.
+Jolly talk. Willy so intelligent! B.B. says colour in art is “ideated temperature”.
+Sunday, Feb. 12, 1905
+Senda and Willy took drive. I called on Mrs. Ross. B.B. walked with Agnes Steffenburg who came to lunch. Thorold, Houghtons and Lawson to dine."""^^xsd:string ;
+    mbdiaries-ontology:index 43 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1905> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312757/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/43/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1905_43"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1905/page/43/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/43/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1905-02-09> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, Feb. 9, 1905"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/document/43> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1905_43.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1905_43.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:26:58"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1905-02-09> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1905-02-09> a crm:E52_Time_Span ;
+    rdfs:label "February 09, 1905"^^xsd:string ;
+    rdf:value "1905-02-09"^^xsd:date .
+

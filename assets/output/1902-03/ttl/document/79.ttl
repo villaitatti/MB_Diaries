@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/79> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/79> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "79"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/79> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310008/full/full/0/default.jpg> ;
+    rdf:value "the afternoon. The talk was on those old topics of Immortality and Duty, but her eagerness and vivacity and clearness vivified them again, and her face was that of an intelligent child at that wonderful time when the mind is clear impersonal and voracious and the senses not awake. Placci grows more ‘clerical,’ and is sinking rapidly into the intellectual frumpiness of middle-age. But he is extremely genial. He told me that the Lee-Hamiltons are trying to make their expected child a Genius. For this purpose, they say, the Mother must commune with the greatest spirits and intellects of the world; so every day, for several hours, Mrs. Lee Hamilton sits with closed eyes and strained attention listening to the words that fall from  Who is wonderful is the Contessa Serristori, who came to tea with Placci and Calderoni in [p079] the afternoon. The talk was on those old topics of Immortality and Duty, but her eagerness and vivacity and clearness vivified them again, and her face was that of an intelligent child at that wonderful time when the mind is clear impersonal and voracious and the senses not awake. Placci grows more ‘clerical,’ and is sinking rapidly into the intellectual frumpiness of middle-age. But he is extremely genial. He told me that the Lee-Hamiltons are trying to make their expected child a Genius. For this purpose, they say, the Mother must commune with the greatest spirits and intellects of the world; so every day, for several hours, Mrs. Lee Hamilton sits with closed eyes and strained attention listening to the words that fall from "^^xsd:string ;
+    mbdiaries-ontology:index 79 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310008/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/79> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_79.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_79.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

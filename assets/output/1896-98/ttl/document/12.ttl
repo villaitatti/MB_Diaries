@@ -1,0 +1,37 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/12> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/12> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "12"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/12> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766096/full/full/0/default.jpg> ;
+    rdf:value """Dr. Stuart Tidey, an English resident doctor, came up to tea. The great fact in his family seems to be that his wife is niece to Oscar Browning, and he kept alluding to this every few minutes: 
+How far that little candle sheds his beams!
+So shines an “O. B.” in this lower-middle-class world!
+Also came Mr. and Mrs. Lovett, he a fresh-faced young “Professor of Literature” from the University of Chicago - she with pretty hair, a genial but heavy sensuous temperament and a baby two months old whom she is nursing, and whom she keeps at night — modo Americano — to the ruin of her own sleep. They are Fafner’s friends. 
+Janet seems, on impartial consideration, a remarkably silly little person, sensitive to beauty, but too preoccupied with herself to develop any real taste or feeling. Beatrice Horne has more in her, but is painfully inexpressive. """^^xsd:string ;
+    mbdiaries-ontology:index 12 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766096/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/12> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_12.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_12.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

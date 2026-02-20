@@ -1,0 +1,41 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/90> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02/page/90> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "90"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/90> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493296594/full/full/0/default.jpg> ;
+    rdf:value """no entries until
+Wednesday Oct. 25.’99. Frullino Florence
+Bernhard came back after charming visits to Cagniola, the Salàs, Prince Pio, etc. He counts Donna Laura Gropallo and Cagniola and Girolamo Salà and Donna Carmelita Zucchini as real friends. I was glad to get him back!
+Thursday Oct. 26.99.
+Lunched with Rosses and called on Lawsons. A sort of dullness fell on us, which explained itself in the evening when a very heavy cold fastened on Bernhard.
+Friday Oct. 27.99.
+Bernhard stayed in bed reading old Spectators and all the conceivable literature about Michelangelo.
+Saturday Oct. 28.99.
+Last night I persuaded him to have a hot bath, and just as he got out, he fainted away. It was terrible! """^^xsd:string ;
+    mbdiaries-ontology:index 90 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1899-02> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493296594/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1899-02/document/90> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1899-02_90.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1899-02_90.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:52:15"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

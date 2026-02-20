@@ -1,0 +1,38 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/67> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/67> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "67"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/67> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766153/full/full/0/default.jpg> ;
+    rdf:value """Saturday Feb. 6.97. 
+Logan and I called on Baroness French, and bought some pretty silver. Miss Kolb arrived unexpectedly in my absence, but stayed in bed with a headache. Instead of reading, Bernhard and I corrected the proofs of his third edition of the Venetians.
+Sunday Feb. 7.97.
+Rain. We had some music, and Janet Dodge came up, bearing reports via Miss Taylor, of venomous things Miss Cruttwell says about Bernhard. She seems to be going the way of Loeser, and Bernhard predicts a speedy partnership between them. In the evening we read  Samson Agonistes  and had some music. 
+Monday Feb. 8. 1897.
+Logan and I lunched at the Morgans – dull! dull! dull! Miss Paget called - then Bernhard and I drove down to Florence. Lovely sunshine. We met Miss Kolb at Janet’s and heard some tinkling spinet. """^^xsd:string ;
+    mbdiaries-ontology:index 67 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766153/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/67> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_67.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_67.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

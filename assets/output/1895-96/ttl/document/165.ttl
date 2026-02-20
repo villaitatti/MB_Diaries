@@ -1,0 +1,50 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/165> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/165> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "165"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/165/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/165> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295901/full/full/0/default.jpg> ;
+    rdf:value """[ Miss Sellers. Empoli]
+* Monday, May 4, 1896, Albergo del Sole, Empoli
+Miss Sellers wavering up and down about starting. If she were less charming it would have been unendurable, but we both like her so much we do not quite lose our patience with her. Bernhard says that if he were by way of falling in love again, he would do so with her, and I can only commend his taste. It was finally decided that we should go to Siena for two days, and meet her at Chiusi Thursday night. So we started. We made a mistake about the train, and had to stay here, at Empoli. We saw the Botticinis and the other pictures, had a very nice dinner. In the middle of the night, a noisy night on a main street anyhow, the carts came to empty the cess pools. I draw a veil over the consequent uproar and odour! """^^xsd:string ;
+    mbdiaries-ontology:index 165 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295901/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/165/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1895-96_165"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/165/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/page/165/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1896-05-04> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, May 4, 1896"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/165> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_165.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_165.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1896-05-04> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1896-05-04> a crm:E52_Time_Span ;
+    rdfs:label "May 04, 1896"^^xsd:string ;
+    rdf:value "1896-05-04"^^xsd:date .
+

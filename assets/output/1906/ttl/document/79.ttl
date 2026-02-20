@@ -1,0 +1,68 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1906/document/79> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1906/page/79> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "79"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1906/page/79/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1906/document/79> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309480/full/full/0/default.jpg> ;
+    rdf:value """Thursday, May 17, 1906
+Rain then fine
+Emily.
+Riri Visconti came to lunch - deadly as usual, B.B. not saying a word.
+He and I called on Mrs. Meades (Jacob Abbot’s niece!) and then went to Lady Paget’s to tea with an awful scratch lot of people. But the place is very lovely and I’m glad to have seen it. Called on Serristori to say the new Michelangelo in The Academy is one!
+Insurance people off 1/2 of loss!
+Wrote Janet, Willy, Mother, Ray and Karin.
+Friday, May 18, 1906
+Cloudy, cold.
+Emily.
+Boring day, interrupted by 100 things all morning. Mr. Everett of the Pennsylvania University came too early to lunch, Mrs. Jephsen- Ninys  too late.
+Wrangle over Insurance - too disgusting - boring, boringissimo call from Virginia Hartshome and some old Cope girls. Except for Emily, a beastly day.
+Wrote Mother, Mounteney.
+* Saturday, May 19, 1906
+Rain. Cleared. Wind.
+Motored with Serristori and Placci to Campi [Bisenzio], Artimino and Carmig[n]ano. Those villas are wonderful! Got back to tea with Serristori. Placci very annoying.
+Wrote Mother, Ray, Mrs. Gardner.
+Sunday, May 20, 1906
+Rain, very cold .
+Agnes lunch. Called on Mrs. Ross and her niece “Mme Lucille” (Lady Duff Gordon). Algar and Fr. Rivers to dine.
+Wrote Mother, Mrs. Berenson."""^^xsd:string ;
+    mbdiaries-ontology:index 79 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1906> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309480/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/79/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1906_79"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1906/page/79/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/79/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-17> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, May 17, 1906"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/document/79> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1906_79.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1906_79.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:30:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-17> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1906-05-17> a crm:E52_Time_Span ;
+    rdfs:label "May 17, 1906"^^xsd:string ;
+    rdf:value "1906-05-17"^^xsd:date .
+

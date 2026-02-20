@@ -1,0 +1,33 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/199> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/199> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "199"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/199> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295935/full/full/0/default.jpg> ;
+    rdf:value "[ Miss Sellers] that it could not be emptied save by bailing the water out, and that whenever she lighted a fire she must also heat the waters, was annoying, no doubt! But the explanation was not an excuse. Walking to the tram she said to me, “What a pity you have the reputation in Germany of being such friends with Gronau. It gives them all a very queer idea of the Villa to know that you have him staying there. He is counted a most vulgar little man here, and a great  poseur .” The glee with which she said this, the hardly-to-be-restrained pleasure at the idea that we were taken in by a  poseur  that the Germans saw through, the delight that people  should  think meanly of us, was so funny as to be really painful. As a matter of fact, Gronau, though personally disagreeable enough, is not a poseur. With us he was as simple and modest as a man can be. What makes Germans call him that must be that he goes in for being a generally cultured man before being a Fachmann. "^^xsd:string ;
+    mbdiaries-ontology:index 199 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295935/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/199> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_199.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_199.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

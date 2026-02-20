@@ -1,0 +1,36 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/160> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/160> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "160"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/160> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766246/full/full/0/default.jpg> ;
+    rdf:value """came to tea. In the evening I finished a short article on the new Pollaiuolo fresco.
+Wilfrid Blaydes sent me two telegrams from Siena. The letter I wrote to him on Tuesday got lost somehow. I am very unhappy and distressed at the thought that perhaps he finds after all that he does love me, in spite of everything, and that this is making him wretched. But perhaps I am wrong, for he told me again and again that his love was dead. 
+Saturday Nov. 13. 1897. Villa Rosa. Fiesole
+I wrote to him saying I  choose  my life as it is, without him. He sent another telegram asking me to get a letter from the Florence post office which I did in the afternoon. It said he """^^xsd:string ;
+    mbdiaries-ontology:index 160 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766246/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/160> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_160.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_160.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

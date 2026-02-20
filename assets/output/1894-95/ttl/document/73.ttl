@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/73> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95/page/73> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "73"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/73> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420765599/full/full/0/default.jpg> ;
+    rdf:value """Yes, it is clear if I wish to be a thinking being I must metaphysicize.
+Obrist left Sept. 7. Christina Bremner arrived on the 8th and we had a week in Dresden, a day in the Spreewald, 4 days in Berlin, and 8 in Holland. I enjoyed Franz Hals to the full. Then home until Nov. (for this time see file of B.B.’s letters, and the children’s “Thinking Lessons”) Nov. 4 I came to Paris and stayed with Berty Russell until the 14th, a dear, dear boy, and very clever.  Then I went to Munich and saw H[ermann] O[brist] and made some friends there, especially Miss Goudstikker.  Strange"""^^xsd:string ;
+    mbdiaries-ontology:index 73 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420765599/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/73> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1894-95_73.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1894-95_73.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:03:23"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

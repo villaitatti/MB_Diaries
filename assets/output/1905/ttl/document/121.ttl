@@ -1,0 +1,63 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1905/document/121> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1905/page/121> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "121"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1905/page/121/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1905/document/121> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312835/full/full/0/default.jpg> ;
+    rdf:value """Thursday, Oct. 12, 1905
+Fine.
+Cam to Florence. The “direttissimo” was an hour and a quarter late. It was delicious to get home.
+Friday, Oct. 13, 1905
+Fine.
+Called on Mrs. Nickerson. Placci and Lucien came to tea, and young art student named Martin Bernath called, a Hungarian with no money, who cannot do anything but study art! His great interest is the influence of Flemish art upon Italian!! B.B. gave him 50 fr. and felt awful not to promise to aid him through life.
+Called on Mrs. Ross in the evening.
+Saturday, Oct. 14, 1905
+Robert Herrick, the Chicago novelist, came to lunch, and i went down afterwards to see his wife who is ill.
+I also called on those two angels, the Houghtons, who gave me a fine
+grotesque for our vasca, in return for our spoiling their motor for the summer!!
+Wrote Toubell, Bremner.
+Sunday, Oct. 15, 1905
+Fine.
+Worked. Took Mrs. Nickerson and her (boring) friend Miss Hogarth to Mrs. Ross’ animal show. Mr. Browning was there. Bernhard had a walk.
+Wrote Lucy Perkins."""^^xsd:string ;
+    mbdiaries-ontology:index 121 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1905> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312835/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/121/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1905_121"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1905/page/121/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/page/121/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1905-10-12> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Thursday, Oct. 12, 1905"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1905/document/121> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1905_121.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1905_121.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:26:58"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1905-10-12> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1905-10-12> a crm:E52_Time_Span ;
+    rdfs:label "October 12, 1905"^^xsd:string ;
+    rdf:value "1905-10-12"^^xsd:date .
+

@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/13> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96/page/13> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "13"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/13> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493295749/full/full/0/default.jpg> ;
+    rdf:value """Loeser and Miss Farnham came to lunch, the latter the victim of an invalid mother who drags her about from “Cure” to “Cure”- But the type is poor and feeble anyhow - hard and superficial, and given to platitudes. Maud, however, finds “something in her”, but I think Maud is lonely and welcomes friends at almost any cost. She sang unpleasantly but played her accompaniments pretty well. But for several hours it was a decided bore. 
+In the evening Bernhard and I dined at the Palmerino. Vernon was truly charming. She spoke of Placci’s descriptions of “high life” as “the magnificence of a Toynbee Hall Traveller”, and said the clothes seemed to have been turned once. She told us """^^xsd:string ;
+    mbdiaries-ontology:index 13 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1895-96> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493295749/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1895-96/document/13> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1895-96_13.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1895-96_13.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:45:04"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

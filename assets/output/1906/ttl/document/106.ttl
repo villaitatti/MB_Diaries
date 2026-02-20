@@ -1,0 +1,60 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1906/document/106> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1906/page/106> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "106"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1906/page/106/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1906/document/106> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493309507/full/full/0/default.jpg> ;
+    rdf:value """Monday, Aug. 6, 1906
+Fine.
+Fernhurst
+Swimming - Got Karin and Mary a pony. Logan and Scott and I spent afternoon at  Beechentote .
+Tuesday, Aug. 7, 1906
+Fine. Warm.
+Fernhurst
+The Kellys arrived in Miss Kelly’s motor to lunch. Swam in afternoon. Watched tennis and croquet.
+Kelly played Bach and the “Appassionata” in evening.
+Wednesday, Aug. 8, 1906
+Hot.
+Fernhurst
+Drove with Scott and Kelly to Midhurst to meet Riri Visconti Venosta, who did not come, but arrived by a later train. Music from Kelly after lunch and again in evening. Schumann Variations after which (23 minutes) we all composed our thoughts. Ray gave breakfast parties at Newnham, Grace interviewed her cook, Gertrude thought of all the people her boys might have given mumps to, etc."""^^xsd:string ;
+    mbdiaries-ontology:index 106 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1906> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493309507/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/106/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1906_106"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1906/page/106/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/page/106/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1906-08-06> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Monday, Aug. 6, 1906"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1906/document/106> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1906_106.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1906_106.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T16:30:26"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1906-08-06> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1906-08-06> a crm:E52_Time_Span ;
+    rdfs:label "August 06, 1906"^^xsd:string ;
+    rdf:value "1906-08-06"^^xsd:date .
+

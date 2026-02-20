@@ -1,0 +1,44 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/129> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98/page/129> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "129"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/129> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420766215/full/full/0/default.jpg> ;
+    rdf:value """Friday June 4.97. Ray’s tenth Birthday
+Another morning of depressed, hopeless sort of talk. In the afternoon I had a music lesson, then called on Placci, who is under the weather, then saw Orsi and did some errands, and called on Dr. Littell, and then came up to dine here with Miss Cruttwell. Bernhard met Miss Blood at 5:30 and took a lovely walk with her, dining afterwards at the Gamberaia. It is her 29th birthday. He came home in rather better spirits.
+Saturday June 5. 1897.
+We lunched at Mrs. Ross’ and Bernhard sat for his portrait. Miss Taylor came to dinner. 
+Sunday June 6.
+I called on some American cousins at 
+[0130 118]
+the Savoy and on the Buttles. Bernhard felt ill, but Placci, who came to dinner, lightened him up a little. He is full of his experiments to find out the effect of music on the breathing, a very interesting subject. 
+Monday June 7. 1897. Fiesole 
+Bernhard called on the Buttles, and I went to see the Eyres about the new Villas, and left a card at the Ogilvys.
+Tuesday June 8. 1897. 
+We dined with Miss Blood at the Gamberaia – on the terrace and walked back through the woods in the moonlight. """^^xsd:string ;
+    mbdiaries-ontology:index 129 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1896-98> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420766215/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1896-98/document/129> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1896-98_129.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1896-98_129.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T11:24:01"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+

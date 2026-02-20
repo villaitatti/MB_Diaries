@@ -1,0 +1,52 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/24> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95/page/24> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "24"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/24/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/24> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420765550/full/full/0/default.jpg> ;
+    rdf:value """Tuesday March 20. 1894. Florence.
+Wrote innumerable letters while Bernhard read Hegel. One of his friends sent him a review of his book from the Boston Morning Herald, a most favourable review which says that “every line is full of meaning and power”. Jenkyns came after lunch and went with me to get some silver toilet things - a present from Aunty Lill. I found a long absurd letter from Loeser in which he says (by way of winning my favour?) that “he feels toward Berenson the most vigorous contempt.” He is an ass.
+Bernhard went to call on the Forbes. 
+Wednesday March 21. 1894. Florence.
+I took Miss Hallowell to the Pazzi Chapel. She enjoyed it, but seemed to enjoy still more talking about life in general. She told me of a man whom she had refused to marry, an artist, who went to Paris. There, she heard, he had set up a definite “maîtresse” with a view to getting over his feeling for Miss H. She was terribly concerned """^^xsd:string ;
+    mbdiaries-ontology:index 24 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420765550/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/24/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1894-95_24"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/24/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/24/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1894-03-20> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Tuesday March 20. 1894. Florence...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/24> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1894-95_24.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1894-95_24.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:03:23"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1894-03-20> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1894-03-20> a crm:E52_Time_Span ;
+    rdfs:label "March 20, 1894"^^xsd:string ;
+    rdf:value "1894-03-20"^^xsd:date .
+

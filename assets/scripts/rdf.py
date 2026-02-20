@@ -1,6 +1,6 @@
 import os
-import writer
-import const
+from . import writer
+from . import const
 import datetime
 from uuid import uuid4
 from rdflib import Graph, URIRef, namespace, Namespace, Literal
@@ -230,41 +230,61 @@ def create_page_graph(diary_number, page_number, page, image, output):
 
     g.add((PAGE_NODE, RDF.value, Literal(page_text, datatype=XSD.string)))
 
-  # Add date metadata
-
+  # Add E12 Production with date metadata
   if const.key_metadata in page:
     for current_metadata in page[const.key_metadata]:
-
       if current_metadata["predicate"] == const.key_note_header:
-
+        
         date_day = current_metadata['object']
-        old_day = date_day
-        DATE_DAY_NODE = URIRef(f'{RESOURCE}date/{date_day}')
-
-        # transform date from yyyy-mm-dd format into DD Month YYYY
-        date_day = datetime.datetime.strptime(
-          date_day, '%Y-%m-%d').strftime('%Y %B %d')
-
-        # Store production date
+        original_text = current_metadata.get('original_text', '')
+        confidence = current_metadata.get('confidence', 'medium')
+        
+        # Create E12 Production for the page (E22_Man-Made_Object)
         PAGE_PRODUCTION_NODE = URIRef(
-          f'{RESOURCE}diary/{diary_number}/page/{page_number}/production')
+          f'{BASE_URI}diary/{diary_number}/page/{page_number}/production')
         g.add((PAGE_NODE, CRM.P108i_was_produced_by, PAGE_PRODUCTION_NODE))
         g.add((PAGE_PRODUCTION_NODE, RDF.type, CRM.E12_Production))
+        g.add((PAGE_PRODUCTION_NODE, RDFS.label, Literal(
+          f'Production of page {diary_number}_{page_number}', datatype=XSD.string)))
 
-        PAGE_PRODUCTION_NODE_DATE = URIRef(
-          f'{RESOURCE}diary/{diary_number}/page/{page_number}/production/date')
-        g.add((PAGE_PRODUCTION_NODE,
-              CRM['P4_has_time-span'], PAGE_PRODUCTION_NODE_DATE))
-        g.add((PAGE_PRODUCTION_NODE_DATE, RDF.type, CRM.E52_Time_Span))
-        g.add((PAGE_PRODUCTION_NODE_DATE, CRM.P86_falls_within, DATE_DAY_NODE))
-
+        # Create E52 Time-Span for the production
+        PRODUCTION_TIMESPAN_NODE = URIRef(
+          f'{BASE_URI}diary/{diary_number}/page/{page_number}/production/timespan')
+        g.add((PAGE_PRODUCTION_NODE, CRM['P4_has_time-span'], PRODUCTION_TIMESPAN_NODE))
+        g.add((PRODUCTION_TIMESPAN_NODE, RDF.type, CRM.E52_Time_Span))
+        
+        # Create specific date node
+        DATE_DAY_NODE = URIRef(f'{RESOURCE}date/{date_day}')
+        g.add((PRODUCTION_TIMESPAN_NODE, CRM.P86_falls_within, DATE_DAY_NODE))
+        
+        # Date node properties
         g.add((DATE_DAY_NODE, RDF.type, CRM.E52_Time_Span))
-        g.add((DATE_DAY_NODE, RDFS.label, Literal(date_day, datatype=XSD.string)))
-        g.add((DATE_DAY_NODE, RDF.value, Literal(old_day, datatype=XSD.date)))
+        g.add((DATE_DAY_NODE, RDF.value, Literal(date_day, datatype=XSD.date)))
+        
+        # Transform date for human-readable label
+        try:
+          formatted_date = datetime.datetime.strptime(date_day, '%Y-%m-%d').strftime('%B %d, %Y')
+          g.add((DATE_DAY_NODE, RDFS.label, Literal(formatted_date, datatype=XSD.string)))
+        except ValueError:
+          g.add((DATE_DAY_NODE, RDFS.label, Literal(date_day, datatype=XSD.string)))
+        
+        # Add original text and confidence as annotations
+        if original_text:
+          g.add((PRODUCTION_TIMESPAN_NODE, MB_DIARIES['original_date_text'], 
+                Literal(original_text, datatype=XSD.string)))
+        
+        g.add((PRODUCTION_TIMESPAN_NODE, MB_DIARIES['date_confidence'], 
+              Literal(confidence, datatype=XSD.string)))
+        
+        # Add the date directly to the document (Platform:File)
+        g.add((PAGE_NODE_DOCUMENT, MB_DIARIES['has_date'], DATE_DAY_NODE))
+        
+        break  # Only process the first date found per page
 
       else:
-        g.add((PAGE_NODE, MB_DIARIES[current_metadata["predicate"]], Literal(
-            old_day, datatype=XSD.string)))
+        # Handle other metadata predicates
+        g.add((PAGE_NODE, MB_DIARIES[current_metadata["predicate"]], 
+              Literal(current_metadata['object'], datatype=XSD.string)))
 
   g.namespace_manager.bind('Platform', PLATFORM, override=True, replace=True)
   g.namespace_manager.bind('crm', CRM, override=True, replace=True)

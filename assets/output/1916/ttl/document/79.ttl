@@ -1,0 +1,51 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1916/document/79> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1916/page/79> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "79"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1916/page/79/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1916/document/79> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493308970/full/full/0/default.jpg> ;
+    rdf:value """Sunday, March 12, 1916, I Tatti
+N[aima] L[öfroth] Marcella Michela
+Marcella “performed” very brilliantly for me alone in the morning, telling about her brother-in-law’s experiences as commander of an Italian sub-marine.  She also performed at lunch for the benefit of Dr. Crescenzi, whom I invited to get as a husband for Naima, who is so convinced by my argument against her lonely life that she would like to marry him. Her intentions being strictly honorable, she is afraid to seem forward and ask him to come and see her. So I sent him some Hospital supplies (from America), and on the strength of it invited him to come up. A really nice man, good and clever and strong. She would be lucky. He took him to call on Mrs. Ross later. 
+Marcella had her young Roman sailor friend, Capitano Tuttino, who spent the afternoon with her, the one she wrote so blandly to Geoffrey about as being like a nice younger brother. He is 28 and is clearly in love with her and if """^^xsd:string ;
+    mbdiaries-ontology:index 79 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1916> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493308970/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/page/79/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1916_79"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1916/page/79/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/page/79/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1916-03-12> ;
+    mbdiaries-ontology:date_confidence "high"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Sunday, March 12, 1916"^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1916/document/79> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1916_79.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1916_79.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T17:11:14"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1916-03-12> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1916-03-12> a crm:E52_Time_Span ;
+    rdfs:label "March 12, 1916"^^xsd:string ;
+    rdf:value "1916-03-12"^^xsd:date .
+

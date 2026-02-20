@@ -1,0 +1,53 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/98> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03/page/98> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "98"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/98/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/98> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493310027/full/full/0/default.jpg> ;
+    rdf:value """I Tatti. Friday Nov. 21. 1902.
+Miss Cracroft came to lunch, and afterwards played Bach and Beethoven. The only people we asked up to hear her were Mrs. Le Strange and the Toys. Mrs. Toy distinguished herself by finding that the Bach Prelude wanted the Gounod Aria to “fill it out”. It sounded to her just like an accompaniment.
+Later I went to see Mrs. Ross. Bernhard has  gained  ten pounds in weight.
+Saturday Nov. 22. 1902 .
+Lovely weather. Drove round Fiesole with Bernhard and Alice. Zangwill went to lunch with the Lee-Hamiltons. Mrs. Ross called in the morning, and Oswald Sirèn.
+Zangwill is having a great season of woe with his lady love, because someone warned her against him as a husband, quoting something out of one of his “Without Prejudice” essays to the effect that the only result of enforcing the same """^^xsd:string ;
+    mbdiaries-ontology:index 98 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1902-03> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493310027/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/98/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1902-03_98"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/98/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/page/98/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1902-11-21> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "I Tatti. Friday Nov. 21. 1902...."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1902-03/document/98> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1902-03_98.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1902-03_98.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:25:52"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1902-11-21> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1902-11-21> a crm:E52_Time_Span ;
+    rdfs:label "November 21, 1902"^^xsd:string ;
+    rdf:value "1902-11-21"^^xsd:date .
+

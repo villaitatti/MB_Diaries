@@ -1,7 +1,7 @@
 import zipfile
 from docx import Document
 from xml.etree.ElementTree import XML
-import const
+from . import const
 
 WORD_NAMESPACE = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 PARA = WORD_NAMESPACE + 'p'

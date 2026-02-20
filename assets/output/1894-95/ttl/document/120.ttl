@@ -1,0 +1,54 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/120> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95/page/120> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "120"^^xsd:string ;
+    crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/120/production> ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/120> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420765646/full/full/0/default.jpg> ;
+    rdf:value """Wednesday April 3 1895. Fiesole
+The von der Hellens came to lunch and talked interestingly about “Kleiner Eyolf”. Mr. and Mrs. Hapgood came to tea. 
+Thursday April 4. 95 
+Mrs. Lowndes and Miss Dodge came to lunch, and Miss Thompson to the lecture afterwards on the Pollaiuoli and Alessio Baldovinetti. A walk and long bitter talk with Bernhard. All night long I tried hard to put things in their real proportions. The predominant thing is that we love each other. Everything else is secondary and can be arranged. I suffered very acutely in the night thinking how different I was from the kind of person I think I am.
+Friday April 5.  95.
+All the morning talking. I hope an impression is really made on me! I mean to start on with fresh heart. 
+Placci came to lunch and tea and was as charming as usual. Bernhard called on Theodore Davis and his party. We read my essay on “Art Criticism” in the evening. """^^xsd:string ;
+    mbdiaries-ontology:index 120 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1894-95> .
+
+<https://ids.lib.harvard.edu/ids/iiif/420765646/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/120/production> a crm:E12_Production ;
+    rdfs:label "Production of page 1894-95_120"^^xsd:string ;
+    crm:P4_has_time-span <https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/120/production/timespan> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/page/120/production/timespan> a crm:E52_Time_Span ;
+    crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1895-04-03> ;
+    mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
+    mbdiaries-ontology:original_date_text "Wednesday April 3 1895. Fiesole..."^^xsd:string .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1894-95/document/120> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1894-95_120.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1894-95_120.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T14:03:23"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
+    mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1895-04-03> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/date/1895-04-03> a crm:E52_Time_Span ;
+    rdfs:label "April 03, 1895"^^xsd:string ;
+    rdf:value "1895-04-03"^^xsd:date .
+

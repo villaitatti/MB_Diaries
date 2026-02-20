@@ -1,0 +1,34 @@
+@prefix Platform: <http://www.researchspace.org/resource/system/> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+@prefix mbdiaries-ontology: <https://mbdiaries.itatti.harvard.edu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/176> .
+
+<https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04/page/176> a crm:E22_Man-Made_Object,
+        mbdiaries-ontology:Page ;
+    rdfs:label "176"^^xsd:string ;
+    crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/176> ;
+    crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/493312446/full/full/0/default.jpg> ;
+    rdf:value """as ever. Mr. Waggaman was in a rage about the District of Columbia wanting to tax him for his gallery as personal property - when he as it open every Sunday, and lends it continually for charities. If they carry out their intention he will sell it at auction in New York, and so Washington will tax its best collection out of existence!
+We came back, changed clothes, and then went to lunch at Senator Henry Cabot Lodge’s. Mrs. Adams and Miss Bigelow and Mr. and Mme Buena Varilla were there - he the deus ex machina of the whole Panama business. Mr. Lodge has a nice picture b y  Zaganelli, a Madonna enthroned with four saints, and a Cardinal by Dirck Bouts. His son, at the head of the American Egypt exploring committee, was a very interesting young man, but, poor thing, he suffers from neuritis of the """^^xsd:string ;
+    mbdiaries-ontology:index 176 ;
+    mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1903-04> .
+
+<https://ids.lib.harvard.edu/ids/iiif/493312446/full/full/0/default.jpg> a crm:E38_Image,
+        <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<https://mbdiaries.itatti.harvard.edu/diary/1903-04/document/176> a Platform:File,
+        ldp:Resource,
+        mbdiaries-ontology:Document ;
+    rdfs:label "LDP Container of document file of 1903-04_176.html"^^xsd:string ;
+    Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
+    Platform:fileName "1903-04_176.html"^^xsd:string ;
+    Platform:mediaType "form-data"^^xsd:string ;
+    prov:generatedAtTime "2025-05-26T15:29:19"^^xsd:dateTime ;
+    prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
+
