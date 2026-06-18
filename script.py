@@ -7,19 +7,13 @@ import click
 import spacy
 import json
 import re
-import sys
 import os
-
-# Add 'assets/scripts' to the system path
-script_path = os.path.join(os.path.dirname(__file__), 'assets', 'scripts')
-sys.path.append(script_path)
-
-from convert import convert2vec
-import writer
-import upload
-import const
-import rdf
 import requests
+from docx import Document
+
+from assets.scripts.convert import convert2vec
+from assets.scripts import writer, upload, const, rdf
+from assets.scripts.concatenate import concatenate_diary_pages
 
 # Set up logging
 
@@ -29,6 +23,7 @@ nlp_allowed_types = ['PERSON', "ORG", "LOC"]
 nlp = spacy.load('en_core_web_lg')
 
 regex_date = re.compile(const.regex_date)
+missing_whitespace_pattern = re.compile(r'(?<=\w)([.!?;,:])(?![A-Z]\.)(?=\w)')
 
 def download_google_doc(file_id, output_path):
   download_url = f'https://docs.google.com/uc?export=download&id={file_id}'
@@ -58,6 +53,23 @@ def _clean_vectors(vectors):
     new_run[const.KEY_VALUE] = text
     return new_run
   
+  def _clean_paragraph_leading_space(runs):
+    """
+    Remove leading whitespace from the first run in a paragraph.
+    
+    Args:
+        runs (list): List of runs in a paragraph.
+    
+    Returns:
+        list: Runs with leading whitespace removed from first run.
+    """
+    if runs and len(runs) > 0:
+      # Remove leading whitespace from first run only
+      first_run = runs[0].copy()
+      first_run[const.KEY_VALUE] = first_run[const.KEY_VALUE].lstrip()
+      runs[0] = first_run
+    
+    return runs
 
   new_vectors = []
 
@@ -115,11 +127,122 @@ def _clean_vectors(vectors):
       new_vector = {}
       
 
-  # Update text for each vector
+  # Clean leading whitespace from first run in each paragraph and update text
   for vector in new_vectors:
-    vector[const.KEY_TEXT] = ' '.join(run[const.KEY_VALUE] for run in vector[const.KEY_RUNS])
+    if const.KEY_RUNS in vector:
+      vector[const.KEY_RUNS] = _clean_paragraph_leading_space(vector[const.KEY_RUNS])
+    vector[const.KEY_TEXT] = ''.join(run[const.KEY_VALUE] for run in vector[const.KEY_RUNS]).strip()
 
   return {const.key_document: new_vectors}
+
+
+def _fix_missing_whitespace(pages):
+  """
+  Detect and fix missing whitespace after punctuation within page paragraphs.
+
+  Args:
+      pages (OrderedDict): Pages produced by parse_pages.
+
+  Returns:
+      tuple: (pages, log_entries) pages with fixes applied and log entries describing fixes.
+  """
+
+  log_entries = []
+
+  for page_number, page in pages.items():
+    page_updated = False
+    paragraphs = page.get(const.key_paragraphs, [])
+
+    for paragraph_index, paragraph in enumerate(paragraphs, start=1):
+      runs = paragraph.get(const.KEY_RUNS, [])
+      paragraph_updated = False
+
+      for idx, run in enumerate(runs):
+        value = run.get(const.KEY_VALUE, '')
+        if not value:
+          continue
+
+        matches = list(missing_whitespace_pattern.finditer(value))
+        if not matches:
+          continue
+
+        allowed_positions = set()
+        for match in matches:
+          pos = match.start()
+          prev_char = value[pos - 1] if pos > 0 else ''
+          next_char = value[pos + 1] if pos + 1 < len(value) else ''
+
+          # Skip numeric decimals/timestamps like 9.20
+          if prev_char.isdigit() and next_char.isdigit():
+            continue
+
+          allowed_positions.add(pos)
+
+        if not allowed_positions:
+          continue
+
+        paragraph_updated = True
+        page_updated = True
+        original_value = value
+
+        new_chars = []
+        for char_index, char in enumerate(value):
+          new_chars.append(char)
+          if char_index in allowed_positions:
+            # Insert a space unless already present
+            if char_index + 1 < len(value) and value[char_index + 1] != ' ':
+              new_chars.append(' ')
+
+        new_value = ''.join(new_chars)
+
+        # Update run with new value
+        updated_run = run.copy()
+        updated_run[const.KEY_VALUE] = new_value
+        runs[idx] = updated_run
+
+        # Record log entry for each allowed position
+        for pos in allowed_positions:
+          start = max(0, pos - 20)
+          end = min(len(original_value), pos + 21)
+          context = original_value[start:end].strip()
+          log_entries.append({
+              'page': page_number,
+              'paragraph': paragraph_index,
+              'context': context
+          })
+
+      if paragraph_updated:
+        paragraph[const.KEY_RUNS] = runs
+        paragraph[const.KEY_TEXT] = ''.join(run[const.KEY_VALUE] for run in runs).strip()
+
+    if page_updated:
+      page[const.key_paragraphs] = paragraphs
+      page[const.key_text] = '\n'.join(p[const.KEY_TEXT] for p in paragraphs)
+
+  return pages, log_entries
+
+
+def _write_missing_whitespace_log(log_entries, output_path):
+  """
+  Write missing whitespace log entries to a file for manual review.
+
+  Args:
+      log_entries (list): Entries produced by _fix_missing_whitespace.
+      output_path (str): Directory where the log file should be written.
+  """
+
+  log_path = os.path.join(output_path, 'missing_whitespace_report.log')
+
+  with open(log_path, 'w', encoding='utf-8') as log_file:
+    if not log_entries:
+      log_file.write('No missing whitespace issues detected.\n')
+      return
+
+    log_file.write('Missing whitespace issues detected:\n')
+    for entry in log_entries:
+      log_file.write(
+          f"Page {entry['page']}, Paragraph {entry['paragraph']}: {entry['context']}\n"
+      )
 
 
 def parse_pages(paragraphs, limit=-1, regex=None):
@@ -378,6 +501,34 @@ def parse_footnotes(pages, footnotes):
       print(ex)
 
   return elements
+def _write_concatenated_docx(concatenated_file, output_docx_path):
+  """
+  Create a DOCX document from a concatenated diary text file.
+
+  Args:
+      concatenated_file (str): Path to the concatenated text file.
+      output_docx_path (str): Destination path for the generated DOCX.
+  """
+
+  if not concatenated_file or not os.path.exists(concatenated_file):
+    print(f"Concatenated file not found: {concatenated_file}")
+    return
+
+  doc = Document()
+
+  # Remove the default empty paragraph from a new document
+  if doc.paragraphs:
+    p = doc.paragraphs[0]._element
+    p.getparent().remove(p)
+
+  with open(concatenated_file, 'r', encoding='utf-8') as src:
+    for line in src.read().splitlines():
+      doc.add_paragraph(line.rstrip())
+
+  os.makedirs(os.path.dirname(output_docx_path), exist_ok=True)
+  doc.save(output_docx_path)
+  print(f"Created DOCX: {output_docx_path}")
+
 
 
 def parse_footnotes_cleaned(pages, footnotes):
@@ -494,23 +645,148 @@ def update_days(df):
   return df
 
 
-def parse_metadata(pages, diary, limit=-1):
-
-  # Search for headers stored in page paragraphs
-  for index, page in pages.items():
-
-    page_metadata = []
-    for paragraph in page[const.key_paragraphs]:
+def parse_metadata(pages, diary, output_path, limit=-1):
+  """
+  Enhanced metadata parsing that extracts dates from HTML files using multiple patterns.
+  
+  Args:
+      pages (dict): Dictionary of pages
+      diary (str): Diary identifier
+      output_path (str): Path to output directory
+      limit (int): Limit for processing (-1 for no limit)
+  
+  Returns:
+      dict: Updated pages with metadata
+  """
+  
+  def is_valid_diary_date(parsed_date, diary_name):
+    """
+    Validate if a parsed date is reasonable for the given diary period.
+    
+    Args:
+        parsed_date (datetime): The parsed date
+        diary_name (str): The diary identifier (e.g., "1891-93", "1935")
+    
+    Returns:
+        bool: True if the date is valid for this diary period
+    """
+    year = parsed_date.year
+    
+    # Extract expected year range from diary name
+    if '-' in diary_name:
+      # Handle ranges like "1891-93", "1896-98"
+      start_year, end_year = diary_name.split('-')
+      start_year = int(start_year)
+      # Handle 2-digit end years
+      if len(end_year) == 2:
+        if int(end_year) < 50:  # Assume 00-49 means 20xx, 50-99 means 19xx
+          end_year = int(f"20{end_year}")
+        else:
+          end_year = int(f"19{end_year}")
+      else:
+        end_year = int(end_year)
+    else:
+      # Handle single years like "1935"
       try:
-        page_metadata.append({
-            const.key_object: dateutil.parser.parse(paragraph[const.key_text], fuzzy=True).strftime('%Y-%m-%d'),
-            const.key_predicate: const.key_note_header
-        })
-      except dateutil.parser.ParserError as ex:
-        print(ex)
-        continue
+        start_year = end_year = int(diary_name)
+      except ValueError:
+        # If we can't parse the diary name, use a broad historical range
+        start_year, end_year = 1850, 1950
+    
+    # Allow some flexibility (±5 years) for diary periods
+    return (start_year - 5) <= year <= (end_year + 5)
+  
+  # Define comprehensive date patterns
+  date_patterns = [
+    # Header dates: <h3>Tuesday, June 18, 1935, I Tatti</h3>
+    r'<h3>([A-Za-z]+,?\s+[A-Za-z]+\.?\s+\d{1,2},?\s+\d{4})',
+    # Paragraph dates: Tuesday, Feb. 11, 1896, Villa Rosa, Fiesole
+    r'<p>([A-Za-z]+,?\s+[A-Za-z]+\.?\s+\d{1,2},?\s+\d{4})',
+    # Short dates: 10 Jan. 1872
+    r'<p>(\d{1,2}\s+[A-Za-z]+\.?\s+\d{4})',
+    # European format: 20 Jan. 1876
+    r'(\d{1,2}\s+[A-Za-z]+\.?\s+\d{4})',
+    # Full format with day: Monday, April 24, 1933
+    r'([A-Za-z]+,\s+[A-Za-z]+\s+\d{1,2},\s+\d{4})',
+    # Abbreviated format: Apr. 23, 1907
+    r'([A-Za-z]+\.?\s+\d{1,2},\s+\d{4})'
+  ]
+  
+  html_path = os.path.join(output_path, 'html')
+  
+  # Process each page
+  for page_number, page in pages.items():
+    if limit != -1 and page_number > limit:
+      break
+      
+    page_metadata = []
+    
+    # Try to read corresponding HTML file
+    html_file = os.path.join(html_path, f'{diary}_{page_number}.html')
+    if os.path.exists(html_file):
+      try:
+        with open(html_file, 'r', encoding='utf-8') as f:
+          html_content = f.read()
+          
+        # Try each date pattern
+        dates_found = []
+        for pattern in date_patterns:
+          matches = re.findall(pattern, html_content, re.IGNORECASE)
+          for match in matches:
+            # Clean up the match (remove HTML tags, extra spaces)
+            clean_match = re.sub(r'<[^>]+>', '', match).strip()
+            if clean_match and clean_match not in dates_found:
+              dates_found.append(clean_match)
+        
+        # Parse found dates
+        for date_text in dates_found:
+          try:
+            # Try to parse the date
+            parsed_date = dateutil.parser.parse(date_text, fuzzy=True)
+            
+            # Validate the date is reasonable for this diary
+            if is_valid_diary_date(parsed_date, diary):
+              page_metadata.append({
+                  const.key_object: parsed_date.strftime('%Y-%m-%d'),
+                  const.key_predicate: const.key_note_header,
+                  'original_text': date_text,
+                  'confidence': 'high'
+              })
+              print(f"Found date in page {page_number}: {date_text} -> {parsed_date.strftime('%Y-%m-%d')}")
+            else:
+              print(f"Rejected invalid date for diary {diary} in page {page_number}: {date_text} -> {parsed_date.strftime('%Y-%m-%d')}")
+              
+          except (dateutil.parser.ParserError, ValueError) as ex:
+            print(f"Could not parse date '{date_text}' in page {page_number}: {ex}")
+            continue
+            
+      except Exception as ex:
+        print(f"Error reading HTML file {html_file}: {ex}")
+    
+    # Fallback: try to parse dates from paragraph text (original method) with validation
+    if not page_metadata:
+      for paragraph in page[const.key_paragraphs]:
+        try:
+          parsed_date = dateutil.parser.parse(paragraph[const.key_text], fuzzy=True)
+          
+          # Validate the date is reasonable for this diary
+          if is_valid_diary_date(parsed_date, diary):
+            page_metadata.append({
+                const.key_object: parsed_date.strftime('%Y-%m-%d'),
+                const.key_predicate: const.key_note_header,
+                'original_text': paragraph[const.key_text][:50] + '...',
+                'confidence': 'medium'
+            })
+            print(f"Fallback date parsing for page {page_number}: {parsed_date.strftime('%Y-%m-%d')}")
+            break  # Only take the first successful parse per page
+          else:
+            print(f"Rejected invalid fallback date for diary {diary} in page {page_number}: {parsed_date.strftime('%Y-%m-%d')}")
+            
+        except dateutil.parser.ParserError:
+          continue
 
-    if len(page_metadata) > 0 and const.key_metadata not in page[const.key_paragraphs]:
+    # Store metadata if found
+    if page_metadata:
       page[const.key_metadata] = page_metadata
 
   return pages
@@ -558,7 +834,9 @@ def _check_number_pages(pages):
 @click.option('-gdoc', 'google_doc', help="The Google Doc file ID", default=None)
 @click.option('-iiif', 'iiif_manifest', help="URL of the IIIF Manifest", default=None)
 @click.option('-r', 'regex', help="Regex pattern for pages", default=None)
-def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest, regex):
+@click.option('--concatenate', is_flag=True, default=False,
+              help="Concatenate diary txt files into a single file with page markers.")
+def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest, regex, concatenate):
   cur_path = os.path.dirname(os.path.realpath(__file__))
 
   for diary in diaries:
@@ -588,14 +866,20 @@ def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest, 
 
     # Clean vectors
     vec = _clean_vectors(vec)
+
+    # Parse pages
+    pages = parse_pages(vec[const.key_document], regex=regex)
+
+    # Fix missing whitespace issues and log them
+    pages, missing_whitespace_log = _fix_missing_whitespace(pages)
+    _write_missing_whitespace_log(missing_whitespace_log, output_path)
+
+    # Persist vectors after any cleanup
     writer.write_json(os.path.join(output_path, 'vectors.json'), vec)
 
-    # Parse and write page
-    pages = parse_pages(vec[const.key_document], regex=regex)
     # check from 0 to len(pages) if there is a page missing
-    
     _check_number_pages(pages)
-    
+
     writer.write_json(os.path.join(output_path, 'pages.json'), pages)
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary,
@@ -607,7 +891,16 @@ def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest, 
     rdf.write_graphs(output_path, diary_graphs, 'diary')
 
     # Create RDF Graphs for the pages including metadata if any
-    #pages = parse_metadata(pages, diary)
+    pages = parse_metadata(pages, diary, output_path)
+    if concatenate:
+      regex_pattern = regex if regex else r'\[p?0*\d{,3}\]'
+      concatenation_outputs = concatenate_diary_pages(
+          diary, pages, output_path, regex_pattern=regex_pattern)
+      concatenated_file = concatenation_outputs.get('text_path') if concatenation_outputs else None
+      if concatenated_file:
+        output_docx_file = os.path.join(output_path, f'{diary}.docx')
+        _write_concatenated_docx(concatenated_file, output_docx_file)
+    writer.write_json(os.path.join(output_path, 'pages.json'), pages)
     pages_graphs = rdf.pages2graphs(diary, manifest, pages, output_path)
     rdf.write_graphs(output_path, pages_graphs, 'document')
 

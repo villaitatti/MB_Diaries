@@ -63,19 +63,20 @@ def write_pages_html(output_path, pages, diary, app_path=None):
 
       body = ''
       for line in page[const.key_paragraphs]:
-        body += f'\n\t\t<p>'
-        
+        # Join runs with a single space, mirroring how KEY_TEXT is built
+        # (whitespace-only docx runs are dropped during extraction).
+        run_fragments = []
         for run in line[const.KEY_RUNS]:
           if run[const.KEY_TYPE] == const.KEY_BOLD:
-            body += f'<b>{run[const.KEY_VALUE]}</b>'
+            run_fragments.append(f'<b>{run[const.KEY_VALUE]}</b>')
           elif run[const.KEY_TYPE] == const.KEY_ITALIC:
-            body += f'<i>{run[const.KEY_VALUE]}</i>'
+            run_fragments.append(f'<i>{run[const.KEY_VALUE]}</i>')
           elif run[const.KEY_TYPE] == const.KEY_UNDERLINE:
-            body += f'<u>{run[const.KEY_VALUE]}</u>'
+            run_fragments.append(f'<u>{run[const.KEY_VALUE]}</u>')
           else:
-            body += run[const.KEY_VALUE]
-        
-        body += f'</p>'
+            run_fragments.append(run[const.KEY_VALUE])
+
+        body += '\n\t\t<p>' + ''.join(run_fragments).strip() + '</p>'
 
       html = f'<html>\n\t<body>{body}\n\t</body>\n</html>'
 

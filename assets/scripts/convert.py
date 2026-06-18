@@ -63,8 +63,9 @@ def _extract_paragraph(para):
   runs = []
   current_position = 0  # To track the position of each run in the paragraph
   for run in para.runs:
-    run_text = run.text.strip()
-    if run_text:
+    # Keep every non-empty run, including whitespace-only runs, so that the
+    # concatenation of run values reproduces the original paragraph text.
+    if run.text:
       # Get the run's information and append it to the runs list
       run_data = _extract_run(run, current_position)
       runs.append(run_data)
