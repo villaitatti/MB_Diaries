@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Transcription fixes — 1916</title>
+<style>
+  :root {
+    --bg: #faf8f5; --fg: #2a2420; --muted: #766f66; --border: #e3ddd3;
+    --card: #ffffff; --del-bg: #fbe7e7; --del-fg: #8a2b2b;
+    --ins-bg: #e6f3e8; --ins-fg: #1e5c2f; --accent: #7a5230;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 4rem; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Georgia, serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin: 0 0 0.25rem; }
+  .subtitle { color: var(--muted); margin: 0 0 2rem; font-size: 0.95rem; }
+  .stats { display: flex; gap: 1.5rem; margin-bottom: 2.5rem; flex-wrap: wrap; }
+  .stat { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+           padding: 0.9rem 1.2rem; min-width: 120px; }
+  .stat .n { font-size: 1.6rem; font-weight: 600; }
+  .stat .l { font-size: 0.8rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 1rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+  .fix { background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+          padding: 1rem 1.25rem; margin-bottom: 0.9rem; }
+  .fix .meta { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.5rem; }
+  .fix .meta code { background: none; color: var(--accent); font-weight: 600; }
+  .fix .note { margin-bottom: 0.6rem; }
+  .example { display: grid; grid-template-columns: 2.4rem 1fr; gap: 0.3rem 0.6rem; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.88rem; }
+  .example .tag { color: var(--muted); text-align: right; padding-top: 0.15rem; }
+  .example .line { background: #f4f1ec; border-radius: 6px; padding: 0.35rem 0.6rem; overflow-x: auto; white-space: pre-wrap; word-break: break-word; }
+  del { background: var(--del-bg); color: var(--del-fg); text-decoration: none; border-radius: 3px; padding: 0 0.1rem; }
+  ins { background: var(--ins-bg); color: var(--ins-fg); text-decoration: none; border-radius: 3px; padding: 0 0.1rem; font-weight: 600; }
+  .reviewed { background: var(--card); border: 1px solid var(--border); border-left: 4px solid #c9a35c;
+               border-radius: 8px; padding: 0.7rem 1rem; margin-bottom: 0.6rem; font-size: 0.92rem; }
+  .reviewed .label { font-weight: 600; color: var(--accent); }
+  .empty { color: var(--muted); font-style: italic; }
+  .sources { margin-top: 3rem; font-size: 0.78rem; color: var(--muted); }
+  .sources code { background: #f0ece5; padding: 0.05rem 0.35rem; border-radius: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Transcription fixes — 1916</h1>
+  <p class="subtitle">Source: <code>assets/input/1916/1916.docx</code></p>
+
+  <div class="stats">
+    <div class="stat"><div class="n">8</div><div class="l">Fixes applied</div></div>
+    <div class="stat"><div class="n">4</div><div class="l">Reviewed, no fix needed</div></div>
+  </div>
+
+  <h2>Fixes applied</h2>
+  <div class="fix"><div class="meta"><code>1916-01</code> <code>p.1824</code> &mdash; missing space: Viola/and</div><div class="example"><div class="tag">before</div><div class="line">Mr. Eyre and Violaand her husband</div><div class="tag">after</div><div class="line">Mr. Eyre and Viola<ins> </ins>and her husband</div></div></div>
+<div class="fix"><div class="meta"><code>1916-02</code> <code>p.450</code> &mdash; missing space after inline page marker [061]</div><div class="example"><div class="tag">before</div><div class="line">avec un peu de [061]travail, être conservée</div><div class="tag">after</div><div class="line">avec un peu de [061]<ins> </ins>travail, être conservée</div></div></div>
+<div class="fix"><div class="meta"><code>1916-03</code> <code>p.451</code> &mdash; missing space after inline page marker [062]</div><div class="example"><div class="tag">before</div><div class="line">tu l’aimera sans [062]contrainte, et il n’y aura pas besoin de</div><div class="tag">after</div><div class="line">tu l’aimera sans [062]<ins> </ins>contrainte, et il n’y aura pas besoin de</div></div></div>
+<div class="fix"><div class="meta"><code>1916-04</code> <code>p.1631</code> &mdash; missing space between initials: S[cott]/C[ecil] (marginal presence note)</div><div class="example"><div class="tag">before</div><div class="line">S[cott]C[ecil]</div><div class="tag">after</div><div class="line">S[cott]<ins> </ins>C[ecil]</div></div></div>
+<div class="fix"><div class="meta"><code>1916-05</code> <code>p.1646</code> &mdash; missing space between initials: S[cott]/C[ecil] (marginal presence note)</div><div class="example"><div class="tag">before</div><div class="line">S[cott]C[ecil]</div><div class="tag">after</div><div class="line">S[cott]<ins> </ins>C[ecil]</div></div></div>
+<div class="fix"><div class="meta"><code>1916-06</code> <code>p.1655</code> &mdash; missing space between initials: S[cott]/C[ecil] (marginal presence note)</div><div class="example"><div class="tag">before</div><div class="line">S[cott]C[ecil]</div><div class="tag">after</div><div class="line">S[cott]<ins> </ins>C[ecil]</div></div></div>
+<div class="fix"><div class="meta"><code>1916-07</code> <code>p.1663</code> &mdash; missing space between initials: S[cott]/C[ecil] (marginal presence note)</div><div class="example"><div class="tag">before</div><div class="line">S[cott]C[ecil]</div><div class="tag">after</div><div class="line">S[cott]<ins> </ins>C[ecil]</div></div></div>
+<div class="fix"><div class="meta"><code>1916-08</code> <code>p.1669</code> &mdash; missing space between initials: S[cott]/C[ecil] (marginal presence note)</div><div class="example"><div class="tag">before</div><div class="line">S[cott]C[ecil]</div><div class="tag">after</div><div class="line">S[cott]<ins> </ins>C[ecil]</div></div></div>
+
+  <h2>Reviewed, no fix needed</h2>
+  <div class="reviewed"><span class="label">p.194</span> &quot;A heavy cold overcame me&quot; — scanner flags `over` + `came` as a possible word-glue compound, but &quot;overcame&quot; is a single, correctly spelled English word. Left as-is.</div>
+<div class="reviewed"><span class="label">p.1060</span> &quot;Duchess of Southerland&quot; — scanner flags `Souther` + `and` (tail end happens to spell the &quot;and&quot; glue-suffix), but &quot;Southerland&quot; is a single word (the diarist&#x27;s spelling of the surname/title). Left as-is.</div>
+<div class="reviewed"><span class="label">p.1061</span> &quot;Duchess of Rutland&quot; — same false-positive pattern as p.1060 (`Rutl` + `and`); &quot;Rutland&quot; is a single word/title. Left as-is.</div>
+<div class="reviewed"><span class="label">p.1084</span> &quot;before they overtook me&quot; — scanner flags `over` + `took`, but &quot;overtook&quot; is a single, correctly spelled English word. Left as-is.</div>
+
+  
+
+  <div class="sources">Generated from: <code>transcription_fixes_changelog.md</code></div>
+</div>
+</body>
+</html>

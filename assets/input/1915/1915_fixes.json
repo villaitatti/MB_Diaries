@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1915-01",
+    "note": "missing space after ellipsis+period before capitalized word",
+    "find": "the rest of my stay….The fact is,",
+    "replace": "the rest of my stay…. The fact is,"
+  },
+  {
+    "id": "1915-02",
+    "note": "missing space between two bracketed-initial name expansions",
+    "find": "N[aima]L[öfrot]",
+    "replace": "N[aima] L[öfrot]"
+  }
+]

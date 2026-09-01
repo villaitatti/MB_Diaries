@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-01T10:11:17.187862+00:00",
+  "docx": "assets/input/1898-99/1898-99.docx",
+  "fixes_file": "assets/scripts/fixes/1898-99_fixes.json",
+  "results": [
+    {
+      "id": "1898-99-01",
+      "page": null,
+      "note": "double period glued to next sentence's capital letter",
+      "find": "Villa Viviani..Janet lunched",
+      "replace": "Villa Viviani. Janet lunched",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1898-99-02",
+      "page": null,
+      "note": "missing space before page marker [0117]",
+      "find": "evening.[0117]",
+      "replace": "evening. [0117]",
+      "status": "APPLIED"
+    }
+  ]
+}

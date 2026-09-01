@@ -1,0 +1,4 @@
+[
+  {"id": "1903-04-01", "note": "missing space before page marker [183] glued inside Brookline", "find": "Brook[183] line", "replace": "Brook [183] line"},
+  {"id": "1903-04-02", "note": "missing space before page marker [199]", "find": "a.m.[199]", "replace": "a.m. [199]"}
+]

@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-09-01T10:11:17.524771+00:00",
+  "docx": "assets/input/1899-02/1899-02.docx",
+  "fixes_file": "assets/scripts/fixes/1899-02_fixes.json",
+  "results": [
+    {
+      "id": "1899-02-01",
+      "page": null,
+      "note": "double period glued to next sentence's capital letter",
+      "find": "Poggio..Bernhard met",
+      "replace": "Poggio. Bernhard met",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1899-02-02",
+      "page": null,
+      "note": "missing space after quote mark opening quoted letter excerpt",
+      "find": "…”I wrote thus far",
+      "replace": "…” I wrote thus far",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1899-02-03",
+      "page": null,
+      "note": "page marker glued inside the word white-haired on both sides",
+      "find": "white-[0029]haired",
+      "replace": "white- [0029] haired",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1899-02-04",
+      "page": null,
+      "note": "page marker glued to adjacent editorial bracket note",
+      "find": "[0232][three lines",
+      "replace": "[0232] [three lines",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1899-02-05",
+      "page": null,
+      "note": "word-glue compound: ardour + the",
+      "find": "ardourthe question",
+      "replace": "ardour the question",
+      "status": "APPLIED"
+    }
+  ]
+}

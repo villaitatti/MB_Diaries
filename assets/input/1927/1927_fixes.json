@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1927-01",
+    "note": "missing space between \"ourselves\" and \"and\"",
+    "find": "ourselvesand it was a welcome rest",
+    "replace": "ourselves and it was a welcome rest"
+  },
+  {
+    "id": "1927-02",
+    "note": "missing space between \"Fabre-Luce\" and \"and\"",
+    "find": "Fabre-Luceand Marcel",
+    "replace": "Fabre-Luce and Marcel"
+  }
+]

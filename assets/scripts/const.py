@@ -29,6 +29,15 @@ regex_footnote_id = r'-{4}[\w\d]*-{4}'
 regex_brackets = r'[\[p\]]'
 regex_date = r'(\b\d{1,2}\D{0,3})?\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|(Nov|Dec)(?:ember)?)\D?(\d{1,2}\D?)?\D?((18[7-9]\d|20\d{2})|\d{2})'
 
+# Missing-whitespace-after-punctuation, as applied automatically by
+# _fix_missing_whitespace() in script.py. Shared here so the standalone
+# scanner (assets/scripts/scan_transcription_issues.py) can tell which
+# glued-text issues the pipeline will already fix at runtime vs. which ones
+# it deliberately skips (its `(?![A-Z]\.)` exception, meant to avoid breaking
+# abbreviations like "U.S.", also skips extremely common glued names like
+# "B." for Bernhard) and therefore need a source-text fix.
+regex_missing_whitespace = r'(?<=\w)([.!?;,:])(?![A-Z]\.)(?=\w)'
+
 turtle_ext = 'ttl'
 key_graph = 'graph'
 

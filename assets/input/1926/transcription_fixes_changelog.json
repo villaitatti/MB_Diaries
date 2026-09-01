@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-09-01T10:05:49.296933+00:00",
+  "docx": "assets/input/1926/1926.docx",
+  "fixes_file": "assets/scripts/fixes/1926_fixes.json",
+  "results": [
+    {
+      "id": "1926-01",
+      "page": null,
+      "note": "missing space after page marker [39]",
+      "find": "[39]Monday,",
+      "replace": "[39] Monday,",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1926-02",
+      "page": null,
+      "note": "missing space after page marker [40]",
+      "find": "[40]Tuesday,",
+      "replace": "[40] Tuesday,",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1926-03",
+      "page": null,
+      "note": "missing space after page marker [41]",
+      "find": "[41]Wednesday,",
+      "replace": "[41] Wednesday,",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1926-04",
+      "page": null,
+      "note": "missing space after page marker [42]",
+      "find": "[42]Thursday,",
+      "replace": "[42] Thursday,",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1926-05",
+      "page": null,
+      "note": "missing space after page marker [43]",
+      "find": "[43]Friday,",
+      "replace": "[43] Friday,",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1926-06",
+      "page": null,
+      "note": "missing space after page marker [44]",
+      "find": "[44]Saturday,",
+      "replace": "[44] Saturday,",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1926-07",
+      "page": null,
+      "note": "missing space after page marker [45]",
+      "find": "[45]Sunday,",
+      "replace": "[45] Sunday,",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1926-08",
+      "page": null,
+      "note": "missing space after page marker [46]",
+      "find": "[46]Monday,",
+      "replace": "[46] Monday,",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1926-09",
+      "page": null,
+      "note": "missing space after page marker [56]",
+      "find": "[56]Thursday,",
+      "replace": "[56] Thursday,",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1926-10",
+      "page": null,
+      "note": "missing space after ellipsis",
+      "find": "“not a lady”...It make finish him",
+      "replace": "“not a lady”... It make finish him",
+      "status": "APPLIED"
+    }
+  ]
+}

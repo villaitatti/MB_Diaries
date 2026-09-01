@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-01T10:10:38.978982+00:00",
+  "docx": "assets/input/1934/1934.docx",
+  "fixes_file": "assets/scripts/fixes/1934_fixes.json",
+  "results": [
+    {
+      "id": "1934-01",
+      "page": null,
+      "note": "wrong-direction quotation mark used to open “Henry Esmond” (right double quote instead of left)",
+      "find": "more ”Henry Esmond”, but",
+      "replace": "more “Henry Esmond”, but",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1934-02",
+      "page": null,
+      "note": "doubled opening bracket on page marker [172]",
+      "find": "[[172] Monday, June 4, 1934",
+      "replace": "[172] Monday, June 4, 1934",
+      "status": "APPLIED"
+    }
+  ]
+}

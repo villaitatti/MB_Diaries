@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-01T10:11:01.708069+00:00",
+  "docx": "assets/input/1894-95/1894-95.docx",
+  "fixes_file": "assets/scripts/fixes/1894-95_fixes.json",
+  "results": [
+    {
+      "id": "1894-95-01",
+      "page": null,
+      "note": "missing space after closing quote before capital letter",
+      "find": "in a bowl!”Another Baptist",
+      "replace": "in a bowl!” Another Baptist",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-02",
+      "page": null,
+      "note": "missing space after colon in date header",
+      "find": "1894. :Hotel de France",
+      "replace": "1894. : Hotel de France",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-03",
+      "page": null,
+      "note": "missing space before page marker [090]",
+      "find": "Fin du Paganism.[090]",
+      "replace": "Fin du Paganism. [090]",
+      "status": "APPLIED"
+    }
+  ]
+}

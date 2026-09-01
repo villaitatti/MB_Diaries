@@ -1,0 +1,8 @@
+[
+  {
+    "id": "1922-01",
+    "note": "missing space after ellipsis before quoted-letter excerpt",
+    "find": "….From a letter to Neith",
+    "replace": "…. From a letter to Neith"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-01T10:09:26.313243+00:00",
+  "docx": "assets/input/1906/1906.docx",
+  "fixes_file": "assets/scripts/fixes/1906_fixes.json",
+  "results": [
+    {
+      "id": "1906-01",
+      "page": null,
+      "note": "missing space after closing parenthesis and period before capitalized word",
+      "find": "church).Then to San Valentino",
+      "replace": "church). Then to San Valentino",
+      "status": "APPLIED"
+    }
+  ]
+}

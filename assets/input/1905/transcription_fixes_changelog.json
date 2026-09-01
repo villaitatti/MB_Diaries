@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-01T10:11:18.126055+00:00",
+  "docx": "assets/input/1905/1905.docx",
+  "fixes_file": "assets/scripts/fixes/1905_fixes.json",
+  "results": [
+    {
+      "id": "1905-01",
+      "page": null,
+      "note": "missing space after page marker [032]",
+      "find": "[032]January",
+      "replace": "[032] January",
+      "status": "APPLIED"
+    }
+  ]
+}

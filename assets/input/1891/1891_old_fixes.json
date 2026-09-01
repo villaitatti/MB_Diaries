@@ -1,0 +1,4 @@
+[
+  {"id": "1891_old-01", "note": "missing space after page marker [0105]", "find": "[0105]lyrical", "replace": "[0105] lyrical"},
+  {"id": "1891_old-02", "note": "missing space after closing quote before capital letter", "find": "– – –!”Who doesn’t at any rate", "replace": "– – –!” Who doesn’t at any rate"}
+]

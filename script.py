@@ -23,7 +23,7 @@ nlp_allowed_types = ['PERSON', "ORG", "LOC"]
 nlp = spacy.load('en_core_web_lg')
 
 regex_date = re.compile(const.regex_date)
-missing_whitespace_pattern = re.compile(r'(?<=\w)([.!?;,:])(?![A-Z]\.)(?=\w)')
+missing_whitespace_pattern = re.compile(const.regex_missing_whitespace)
 
 def download_google_doc(file_id, output_path):
   download_url = f'https://docs.google.com/uc?export=download&id={file_id}'

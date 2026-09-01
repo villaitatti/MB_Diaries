@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-01T10:09:26.427471+00:00",
+  "docx": "assets/input/1909/1909.docx",
+  "fixes_file": "assets/scripts/fixes/1909_fixes.json",
+  "results": [
+    {
+      "id": "1909-01",
+      "page": null,
+      "note": "missing space after closing curly quote and exclamation mark before capitalized word",
+      "find": "“Radiozone”!A Mr. Eno",
+      "replace": "“Radiozone”! A Mr. Eno",
+      "status": "APPLIED"
+    }
+  ]
+}

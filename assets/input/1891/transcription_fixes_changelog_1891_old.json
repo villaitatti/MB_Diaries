@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-01T10:11:01.426234+00:00",
+  "docx": "assets/input/1891/1891_old.docx",
+  "fixes_file": "assets/scripts/fixes/1891_old_fixes.json",
+  "results": [
+    {
+      "id": "1891_old-01",
+      "page": null,
+      "note": "missing space after page marker [0105]",
+      "find": "[0105]lyrical",
+      "replace": "[0105] lyrical",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1891_old-02",
+      "page": null,
+      "note": "missing space after closing quote before capital letter",
+      "find": "– – –!”Who doesn’t at any rate",
+      "replace": "– – –!” Who doesn’t at any rate",
+      "status": "APPLIED"
+    }
+  ]
+}

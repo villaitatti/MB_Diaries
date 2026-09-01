@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1916-01",
+    "page": 1824,
+    "note": "missing space: Viola/and",
+    "find": "Mr. Eyre and Violaand her husband",
+    "replace": "Mr. Eyre and Viola and her husband"
+  },
+  {
+    "id": "1916-02",
+    "page": 450,
+    "note": "missing space after inline page marker [061]",
+    "find": "avec un peu de [061]travail, être conservée",
+    "replace": "avec un peu de [061] travail, être conservée"
+  },
+  {
+    "id": "1916-03",
+    "page": 451,
+    "note": "missing space after inline page marker [062]",
+    "find": "tu l’aimera sans [062]contrainte, et il n’y aura pas besoin de",
+    "replace": "tu l’aimera sans [062] contrainte, et il n’y aura pas besoin de"
+  }
+]

@@ -1,0 +1,4 @@
+[
+  {"id": "1898-99-01", "note": "double period glued to next sentence's capital letter", "find": "Villa Viviani..Janet lunched", "replace": "Villa Viviani. Janet lunched"},
+  {"id": "1898-99-02", "note": "missing space before page marker [0117]", "find": "evening.[0117]", "replace": "evening. [0117]"}
+]

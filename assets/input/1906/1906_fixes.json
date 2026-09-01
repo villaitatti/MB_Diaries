@@ -1,0 +1,8 @@
+[
+  {
+    "id": "1906-01",
+    "note": "missing space after closing parenthesis and period before capitalized word",
+    "find": "church).Then to San Valentino",
+    "replace": "church). Then to San Valentino"
+  }
+]

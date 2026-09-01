@@ -1,0 +1,3 @@
+[
+  {"id": "1895-96-01", "note": "missing space after closing quote before capital letter", "find": "strangers -”Bernhard began", "replace": "strangers -” Bernhard began"}
+]

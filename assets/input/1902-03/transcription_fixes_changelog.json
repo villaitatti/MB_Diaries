@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-01T10:11:17.755371+00:00",
+  "docx": "assets/input/1902-03/1902-03.docx",
+  "fixes_file": "assets/scripts/fixes/1902-03_fixes.json",
+  "results": [
+    {
+      "id": "1902-03-01",
+      "page": null,
+      "note": "stray comma glued to place name after date, missing space",
+      "find": "1902.,Siena",
+      "replace": "1902. Siena",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1902-03-02",
+      "page": null,
+      "note": "stray extra period glued to weekday header",
+      "find": "1902. .Sunday",
+      "replace": "1902. Sunday",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1902-03-03",
+      "page": null,
+      "note": "missing space before page marker [p030]",
+      "find": "refreshment.[p030]",
+      "replace": "refreshment. [p030]",
+      "status": "APPLIED"
+    }
+  ]
+}

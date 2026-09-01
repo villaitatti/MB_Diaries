@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-01T10:09:17.950606+00:00",
+  "docx": "assets/input/1922/1922.docx",
+  "fixes_file": "assets/scripts/fixes/1922_fixes.json",
+  "results": [
+    {
+      "id": "1922-01",
+      "page": null,
+      "note": "missing space after ellipsis before quoted-letter excerpt",
+      "find": "….From a letter to Neith",
+      "replace": "…. From a letter to Neith",
+      "status": "APPLIED"
+    }
+  ]
+}

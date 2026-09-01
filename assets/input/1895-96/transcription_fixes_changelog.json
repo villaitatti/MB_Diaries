@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-01T10:11:01.877505+00:00",
+  "docx": "assets/input/1895-96/1895-96.docx",
+  "fixes_file": "assets/scripts/fixes/1895-96_fixes.json",
+  "results": [
+    {
+      "id": "1895-96-01",
+      "page": null,
+      "note": "missing space after closing quote before capital letter",
+      "find": "strangers -”Bernhard began",
+      "replace": "strangers -” Bernhard began",
+      "status": "APPLIED"
+    }
+  ]
+}

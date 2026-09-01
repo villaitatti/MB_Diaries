@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-09-01T10:10:32.391003+00:00",
+  "docx": "assets/input/1916/1916.docx",
+  "fixes_file": "assets/scripts/fixes/1916_fixes.json",
+  "results": [
+    {
+      "id": "1916-01",
+      "page": 1824,
+      "note": "missing space: Viola/and",
+      "find": "Mr. Eyre and Violaand her husband",
+      "replace": "Mr. Eyre and Viola and her husband",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1916-02",
+      "page": 450,
+      "note": "missing space after inline page marker [061]",
+      "find": "avec un peu de [061]travail, être conservée",
+      "replace": "avec un peu de [061] travail, être conservée",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1916-03",
+      "page": 451,
+      "note": "missing space after inline page marker [062]",
+      "find": "tu l’aimera sans [062]contrainte, et il n’y aura pas besoin de",
+      "replace": "tu l’aimera sans [062] contrainte, et il n’y aura pas besoin de",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1916-04",
+      "page": 1631,
+      "note": "missing space between initials: S[cott]/C[ecil] (marginal presence note); applied via direct paragraph-index script, not the JSON-driven CLI, because all 5 occurrences are byte-identical paragraphs with no unique context",
+      "find": "S[cott]C[ecil]",
+      "replace": "S[cott] C[ecil]",
+      "status": "APPLIED",
+      "method": "direct_index_script"
+    },
+    {
+      "id": "1916-05",
+      "page": 1646,
+      "note": "missing space between initials: S[cott]/C[ecil] (marginal presence note); applied via direct paragraph-index script, not the JSON-driven CLI, because all 5 occurrences are byte-identical paragraphs with no unique context",
+      "find": "S[cott]C[ecil]",
+      "replace": "S[cott] C[ecil]",
+      "status": "APPLIED",
+      "method": "direct_index_script"
+    },
+    {
+      "id": "1916-06",
+      "page": 1655,
+      "note": "missing space between initials: S[cott]/C[ecil] (marginal presence note); applied via direct paragraph-index script, not the JSON-driven CLI, because all 5 occurrences are byte-identical paragraphs with no unique context",
+      "find": "S[cott]C[ecil]",
+      "replace": "S[cott] C[ecil]",
+      "status": "APPLIED",
+      "method": "direct_index_script"
+    },
+    {
+      "id": "1916-07",
+      "page": 1663,
+      "note": "missing space between initials: S[cott]/C[ecil] (marginal presence note); applied via direct paragraph-index script, not the JSON-driven CLI, because all 5 occurrences are byte-identical paragraphs with no unique context",
+      "find": "S[cott]C[ecil]",
+      "replace": "S[cott] C[ecil]",
+      "status": "APPLIED",
+      "method": "direct_index_script"
+    },
+    {
+      "id": "1916-08",
+      "page": 1669,
+      "note": "missing space between initials: S[cott]/C[ecil] (marginal presence note); applied via direct paragraph-index script, not the JSON-driven CLI, because all 5 occurrences are byte-identical paragraphs with no unique context",
+      "find": "S[cott]C[ecil]",
+      "replace": "S[cott] C[ecil]",
+      "status": "APPLIED",
+      "method": "direct_index_script"
+    }
+  ]
+}

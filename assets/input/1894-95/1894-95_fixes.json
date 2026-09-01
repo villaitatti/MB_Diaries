@@ -1,0 +1,5 @@
+[
+  {"id": "1894-95-01", "note": "missing space after closing quote before capital letter", "find": "in a bowl!”Another Baptist", "replace": "in a bowl!” Another Baptist"},
+  {"id": "1894-95-02", "note": "missing space after colon in date header", "find": "1894. :Hotel de France", "replace": "1894. : Hotel de France"},
+  {"id": "1894-95-03", "note": "missing space before page marker [090]", "find": "Fin du Paganism.[090]", "replace": "Fin du Paganism. [090]"}
+]

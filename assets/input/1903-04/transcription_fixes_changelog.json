@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-01T10:11:17.929855+00:00",
+  "docx": "assets/input/1903-04/1903-04.docx",
+  "fixes_file": "assets/scripts/fixes/1903-04_fixes.json",
+  "results": [
+    {
+      "id": "1903-04-01",
+      "page": null,
+      "note": "missing space before page marker [183] glued inside Brookline",
+      "find": "Brook[183] line",
+      "replace": "Brook [183] line",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1903-04-02",
+      "page": null,
+      "note": "missing space before page marker [199]",
+      "find": "a.m.[199]",
+      "replace": "a.m. [199]",
+      "status": "APPLIED"
+    }
+  ]
+}

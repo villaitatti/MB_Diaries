@@ -1,0 +1,8 @@
+[
+  {
+    "id": "1909-01",
+    "note": "missing space after closing curly quote and exclamation mark before capitalized word",
+    "find": "“Radiozone”!A Mr. Eno",
+    "replace": "“Radiozone”! A Mr. Eno"
+  }
+]

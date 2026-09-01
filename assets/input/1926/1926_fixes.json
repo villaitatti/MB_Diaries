@@ -1,0 +1,12 @@
+[
+  {"id": "1926-01", "note": "missing space after page marker [39]", "find": "[39]Monday,", "replace": "[39] Monday,"},
+  {"id": "1926-02", "note": "missing space after page marker [40]", "find": "[40]Tuesday,", "replace": "[40] Tuesday,"},
+  {"id": "1926-03", "note": "missing space after page marker [41]", "find": "[41]Wednesday,", "replace": "[41] Wednesday,"},
+  {"id": "1926-04", "note": "missing space after page marker [42]", "find": "[42]Thursday,", "replace": "[42] Thursday,"},
+  {"id": "1926-05", "note": "missing space after page marker [43]", "find": "[43]Friday,", "replace": "[43] Friday,"},
+  {"id": "1926-06", "note": "missing space after page marker [44]", "find": "[44]Saturday,", "replace": "[44] Saturday,"},
+  {"id": "1926-07", "note": "missing space after page marker [45]", "find": "[45]Sunday,", "replace": "[45] Sunday,"},
+  {"id": "1926-08", "note": "missing space after page marker [46]", "find": "[46]Monday,", "replace": "[46] Monday,"},
+  {"id": "1926-09", "note": "missing space after page marker [56]", "find": "[56]Thursday,", "replace": "[56] Thursday,"},
+  {"id": "1926-10", "note": "missing space after ellipsis", "find": "“not a lady”...It make finish him", "replace": "“not a lady”... It make finish him"}
+]
