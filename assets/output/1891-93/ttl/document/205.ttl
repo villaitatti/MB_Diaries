@@ -14,7 +14,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "205"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/205> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756549/full/full/0/default.jpg> ;
-    rdf:value "many people quickly outgrow! So she instinctively hates garlands, and feels as if they couldn’t be really artistic, because her grandmother used to arrange flowers in garlands. When I came back I had tea with B. and we took a walk. He and Musgrave came to dinner, and M. read us his really excellent translation of Dante - a great improvement upon the preceding translation. His elocutionary “way of reading” it almost spoiled it unfortunately, and he anticipated all our compliments by exclaiming himself - “What beautiful poetry!” “What subtle rhymes”- “What music in this line”, etc., etc. I was dishonest about my supposed “ teetotalism ”, partly from cowardice, but much more from the kindly desire to spare her pain, poor mother - whose universe is founded on the principle, “It is wicked to drink”- although she  eats  zabaiones!"^^xsd:string ;
+    rdf:value "many people quickly outgrow! So she instinctively hates garlands, and feels as if they couldn’t be really artistic, because her grandmother used to arrange flowers in garlands. When I came back I had tea with B. and we took a walk. He and Musgrave came to dinner, and M. read us his really excellent translation of Dante - a great improvement upon the preceding translation. His elocutionary “way of reading” it almost spoiled it unfortunately, and he anticipated all our compliments by exclaiming himself - “What beautiful poetry!” “What subtle rhymes”- “What music in this line”, etc., etc. I was dishonest about my supposed “teetotalism”, partly from cowardice, but much more from the kindly desire to spare her pain, poor mother - whose universe is founded on the principle, “It is wicked to drink”- although she eats zabaiones!"^^xsd:string ;
     mbdiaries-ontology:index 205 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -28,6 +28,6 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_205.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

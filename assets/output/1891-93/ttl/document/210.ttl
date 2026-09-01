@@ -14,8 +14,8 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "210"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/210> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756564/full/full/0/default.jpg> ;
-    rdf:value """“emancipated” people - so called - If all a victim to the latest fashion in Ideals! Probably I am in part that. Sometimes I have just the feeling which is complementary to what I have felt sleeping in the prairies under the open sky. Then I seemed to feel the great swirl of the revolving earth - bearing me along. And so in my ideas and conduct - at times, I realize that I am caught in the swirl, merely a tiny creature at the top, carried irresistibly on by the inevitable rush of ideas. My discontent, my rebellion, even my mistakes sometimes seem less individual than typical. But, curiously, I  care  all the more, for my sensations at least are my own, and I begin to know sweet from bitter and happiness from unhappiness. I never had such a consciousness of  Life  as I have now, when I realize how little any actions are “free-willed”.
-Uffizi in the morning and further work on the """^^xsd:string ;
+    rdf:value """“emancipated” people - so called - If all a victim to the latest fashion in Ideals! Probably I am in part that. Sometimes I have just the feeling which is complementary to what I have felt sleeping in the prairies under the open sky. Then I seemed to feel the great swirl of the revolving earth - bearing me along. And so in my ideas and conduct - at times, I realize that I am caught in the swirl, merely a tiny creature at the top, carried irresistibly on by the inevitable rush of ideas. My discontent, my rebellion, even my mistakes sometimes seem less individual than typical. But, curiously, I care all the more, for my sensations at least are my own, and I begin to know sweet from bitter and happiness from unhappiness. I never had such a consciousness of Life as I have now, when I realize how little any actions are “free-willed”.
+Uffizi in the morning and further work on the"""^^xsd:string ;
     mbdiaries-ontology:index 210 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -29,6 +29,6 @@ Uffizi in the morning and further work on the """^^xsd:string ;
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_210.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

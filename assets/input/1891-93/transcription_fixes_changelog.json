@@ -1,0 +1,1103 @@
+{
+  "generated_at": "2026-09-01T10:30:23.994076+00:00",
+  "docx": "assets/input/1891-93/1891-93.docx",
+  "fixes_file": "assets/input/1891-93/1891-93_fixes.json",
+  "results": [
+    {
+      "id": "113a",
+      "page": 113,
+      "note": "doubled apostrophe/quote before year abbreviation",
+      "find": "painted in ‘’55.",
+      "replace": "painted in ’55.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "113b",
+      "page": 113,
+      "note": "missing space after 'etc.'",
+      "find": "etc.Some deliciously decorative",
+      "replace": "etc. Some deliciously decorative",
+      "status": "APPLIED"
+    },
+    {
+      "id": "120a",
+      "page": 120,
+      "note": "missing space: Cavazzolas/while",
+      "find": "the Cavazzolaswhile B. studied",
+      "replace": "the Cavazzolas while B. studied",
+      "status": "APPLIED"
+    },
+    {
+      "id": "122a",
+      "page": 122,
+      "note": "missing space before 'Saw St. Andrea'",
+      "find": "(1 1/2 hours).Saw St. Andrea",
+      "replace": "(1 1/2 hours). Saw St. Andrea",
+      "status": "APPLIED"
+    },
+    {
+      "id": "123a",
+      "page": 123,
+      "note": "missing space: Bernhard/wrote",
+      "find": "Bernhardwrote about Giulio Romano",
+      "replace": "Bernhard wrote about Giulio Romano",
+      "status": "APPLIED"
+    },
+    {
+      "id": "123b",
+      "page": 123,
+      "note": "missing space: Gertrude/decided",
+      "find": "A letter from Gertrudedecided me",
+      "replace": "A letter from Gertrude decided me",
+      "status": "APPLIED"
+    },
+    {
+      "id": "124a",
+      "page": 124,
+      "note": "missing space: Isabella/and",
+      "find": "Read Isabellaand Charles V",
+      "replace": "Read Isabella and Charles V",
+      "status": "APPLIED"
+    },
+    {
+      "id": "126a",
+      "page": 126,
+      "note": "missing space: Lotto./B.",
+      "find": "the influence of Dürer upon Lotto.B. and I talked",
+      "replace": "the influence of Dürer upon Lotto. B. and I talked",
+      "status": "APPLIED"
+    },
+    {
+      "id": "128a",
+      "page": 128,
+      "note": "missing space after '-!'",
+      "find": "a moment’s notice”-!We read Villiers",
+      "replace": "a moment’s notice”-! We read Villiers",
+      "status": "APPLIED"
+    },
+    {
+      "id": "136a",
+      "page": 136,
+      "note": "missing space after quoted title",
+      "find": "l’an 1000.”Read Shakespeare",
+      "replace": "l’an 1000.” Read Shakespeare",
+      "status": "APPLIED"
+    },
+    {
+      "id": "136b",
+      "page": 136,
+      "note": "missing space: future.\"/B.",
+      "find": "Began “L’Ève future.”B. finished",
+      "replace": "Began “L’Ève future.” B. finished",
+      "status": "APPLIED"
+    },
+    {
+      "id": "136c",
+      "page": 136,
+      "note": "missing space: Verne./Began",
+      "find": "compared to a Jules Verne.Began Mrs. Oliphant’s",
+      "replace": "compared to a Jules Verne. Began Mrs. Oliphant’s",
+      "status": "APPLIED"
+    },
+    {
+      "id": "139a",
+      "page": 139,
+      "note": "missing space: Chevrillon./B.",
+      "find": "by André Chevrillon.B. read Horatio Brown",
+      "replace": "by André Chevrillon. B. read Horatio Brown",
+      "status": "APPLIED"
+    },
+    {
+      "id": "142a",
+      "page": 142,
+      "note": "missing space after quoted title",
+      "find": "Les Diaboliques”.B. finished Bourget’s",
+      "replace": "Les Diaboliques”. B. finished Bourget’s",
+      "status": "APPLIED"
+    },
+    {
+      "id": "145a",
+      "page": 145,
+      "note": "missing space before inline page marker [146]",
+      "find": "and Cima’s.[146] Afterwards",
+      "replace": "and Cima’s. [146] Afterwards",
+      "status": "APPLIED"
+    },
+    {
+      "id": "149a",
+      "page": 149,
+      "note": "stray period before comma ('was a fraud.,')",
+      "find": "the gallery there was a fraud., the town",
+      "replace": "the gallery there was a fraud, the town",
+      "status": "APPLIED"
+    },
+    {
+      "id": "151a",
+      "page": 151,
+      "note": "missing space: frescoes./B.",
+      "find": "before the Mantegna frescoes.B. was awfully sick",
+      "replace": "before the Mantegna frescoes. B. was awfully sick",
+      "status": "APPLIED"
+    },
+    {
+      "id": "155a",
+      "page": 155,
+      "note": "stray space + missing space around line-separator artifact",
+      "find": "All Souls’ Day. ‘ 91 Albergo della Spada",
+      "replace": "All Souls’ Day. ’91 Albergo della Spada",
+      "status": "APPLIED"
+    },
+    {
+      "id": "158a",
+      "page": 158,
+      "note": "missing space after '??'",
+      "find": "is it Savoldo or Pordenone??Then we saw",
+      "replace": "is it Savoldo or Pordenone?? Then we saw",
+      "status": "APPLIED"
+    },
+    {
+      "id": "160a",
+      "page": 160,
+      "note": "missing space after quoted title",
+      "find": "“Nouveau Monde”and Flaubert’s",
+      "replace": "“Nouveau Monde” and Flaubert’s",
+      "status": "APPLIED"
+    },
+    {
+      "id": "164a",
+      "page": 164,
+      "note": "missing space after exclamation/quote",
+      "find": "so schön!!!”Tea with Janet",
+      "replace": "so schön!!!” Tea with Janet",
+      "status": "APPLIED"
+    },
+    {
+      "id": "166a",
+      "page": 166,
+      "note": "missing space after quoted title",
+      "find": "Richepin’s “Cauchemars”and “Les Soeurs Hédouin”",
+      "replace": "Richepin’s “Cauchemars” and “Les Soeurs Hédouin”",
+      "status": "APPLIED"
+    },
+    {
+      "id": "177a",
+      "page": 177,
+      "note": "missing space: Costa./B.",
+      "find": "took tea with B. and Costa.B. had been at Alinari’s",
+      "replace": "took tea with B. and Costa. B. had been at Alinari’s",
+      "status": "APPLIED"
+    },
+    {
+      "id": "179a",
+      "page": 179,
+      "note": "missing space: Ferrari./At",
+      "find": "B. finished Voigt and began Ferrari.At 7 went to Arezzo",
+      "replace": "B. finished Voigt and began Ferrari. At 7 went to Arezzo",
+      "status": "APPLIED"
+    },
+    {
+      "id": "180a",
+      "page": 180,
+      "note": "missing space: Yvette/and",
+      "find": "Guy de Maupassant’s Yvetteand other stories",
+      "replace": "Guy de Maupassant’s Yvette and other stories",
+      "status": "APPLIED"
+    },
+    {
+      "id": "180b",
+      "page": 180,
+      "note": "missing space: Gatta./Took",
+      "find": "especially to see Bartolomeo della Gatta.Took the train",
+      "replace": "especially to see Bartolomeo della Gatta. Took the train",
+      "status": "APPLIED"
+    },
+    {
+      "id": "180c",
+      "page": 180,
+      "note": "missing space: 91 Florence/Christmas",
+      "find": "Friday. Dec. 25. 91 FlorenceChristmas",
+      "replace": "Friday. Dec. 25. 91 Florence Christmas",
+      "status": "APPLIED"
+    },
+    {
+      "id": "181a",
+      "page": 181,
+      "note": "missing space: Galleries./B.",
+      "find": "catalogue of Florence Galleries.B. asked the Ways",
+      "replace": "catalogue of Florence Galleries. B. asked the Ways",
+      "status": "APPLIED"
+    },
+    {
+      "id": "183a",
+      "page": 183,
+      "note": "missing space after quoted word",
+      "find": "We read “Candide”today and some",
+      "replace": "We read “Candide” today and some",
+      "status": "APPLIED"
+    },
+    {
+      "id": "184a",
+      "page": 184,
+      "note": "missing space after quoted word",
+      "find": "pre-Lockian “Substance”.Musgrave called on B.",
+      "replace": "pre-Lockian “Substance”. Musgrave called on B.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "185a",
+      "page": 185,
+      "note": "missing space: evening./B.",
+      "find": "re-write our Titian article in the evening.B. had a cold",
+      "replace": "re-write our Titian article in the evening. B. had a cold",
+      "status": "APPLIED"
+    },
+    {
+      "id": "186a",
+      "page": 186,
+      "note": "missing space: pictures./B.",
+      "find": "Unpacked books and pictures.B. reading Ferrari.",
+      "replace": "Unpacked books and pictures. B. reading Ferrari.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "186b",
+      "page": 186,
+      "note": "missing space: faults!)/But",
+      "find": "quarrelled – (both our faults!)But I went down",
+      "replace": "quarrelled – (both our faults!) But I went down",
+      "status": "APPLIED"
+    },
+    {
+      "id": "187a",
+      "page": 187,
+      "note": "missing space: Uffizi./Walk and B.'s./B.",
+      "find": "Uffizi.Walk. Tea at B.’s.B. called at Ways.",
+      "replace": "Uffizi. Walk. Tea at B.’s. B. called at Ways.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "188a",
+      "page": 188,
+      "note": "missing space: morning./Called",
+      "find": "Uffizi in morning.Called on Gertrude and found her worse.B. and I went",
+      "replace": "Uffizi in morning. Called on Gertrude and found her worse. B. and I went",
+      "status": "APPLIED"
+    },
+    {
+      "id": "190a",
+      "page": 190,
+      "note": "missing space: Bordone./B.",
+      "find": "finished re-writing our Paris Bordone.B. went to Costa’s",
+      "replace": "finished re-writing our Paris Bordone. B. went to Costa’s",
+      "status": "APPLIED"
+    },
+    {
+      "id": "190b",
+      "page": 190,
+      "note": "missing space: afternoon./B.",
+      "find": "Mr. Mitchell called in afternoon.B. called on Costa -",
+      "replace": "Mr. Mitchell called in afternoon. B. called on Costa -",
+      "status": "APPLIED"
+    },
+    {
+      "id": "190c",
+      "page": 190,
+      "note": "missing space: cross./B. and Costa./It",
+      "find": "some pictures which made B. cross.B. called on Costa.It was dreadfully raining",
+      "replace": "some pictures which made B. cross. B. called on Costa. It was dreadfully raining",
+      "status": "APPLIED"
+    },
+    {
+      "id": "193a",
+      "page": 193,
+      "note": "missing space: Bonifacio./B.",
+      "find": "we finished our Bonifacio.B. said most people",
+      "replace": "we finished our Bonifacio. B. said most people",
+      "status": "APPLIED"
+    },
+    {
+      "id": "197a",
+      "page": 197,
+      "note": "missing space after quoted word",
+      "find": "“Greek Literature” by Perryand even",
+      "replace": "“Greek Literature” by Perry and even",
+      "status": "APPLIED"
+    },
+    {
+      "id": "197b",
+      "page": 197,
+      "note": "missing space: Angelico./Called",
+      "find": "Read Vasari’s Life of Fra Angelico.Called on Gertrude",
+      "replace": "Read Vasari’s Life of Fra Angelico. Called on Gertrude",
+      "status": "APPLIED"
+    },
+    {
+      "id": "197c",
+      "page": 197,
+      "note": "missing space: far./B.",
+      "find": "before we had gone very far.B. dined with Loeser",
+      "replace": "before we had gone very far. B. dined with Loeser",
+      "status": "APPLIED"
+    },
+    {
+      "id": "200a",
+      "page": 200,
+      "note": "missing space after quoted question",
+      "find": "“Why do you like caviar?”B. Parce que",
+      "replace": "“Why do you like caviar?” B. Parce que",
+      "status": "APPLIED"
+    },
+    {
+      "id": "200b",
+      "page": 200,
+      "note": "missing space: Gozzoli./B.",
+      "find": "Read Vasari’s life of Benozzo Gozzoli.B. went to see",
+      "replace": "Read Vasari’s life of Benozzo Gozzoli. B. went to see",
+      "status": "APPLIED"
+    },
+    {
+      "id": "201a",
+      "page": 201,
+      "note": "missing space: [sic]/After",
+      "find": "Andrea del Castagna. [sic]After my Italian lesson",
+      "replace": "Andrea del Castagna. [sic] After my Italian lesson",
+      "status": "APPLIED"
+    },
+    {
+      "id": "201b",
+      "page": 201,
+      "note": "missing space: Certosa./B.",
+      "find": "we walked to Certosa.B. lunched with Loeser",
+      "replace": "we walked to Certosa. B. lunched with Loeser",
+      "status": "APPLIED"
+    },
+    {
+      "id": "201c",
+      "page": 201,
+      "note": "missing space: !!/B.",
+      "find": "a terrible tragedy all through her life – – – – !!B. called on Mrs.",
+      "replace": "a terrible tragedy all through her life – – – – !! B. called on Mrs.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "206a",
+      "page": 206,
+      "note": "missing space after quoted word",
+      "find": "Let’s play she just came.”Sensible child!",
+      "replace": "Let’s play she just came.” Sensible child!",
+      "status": "APPLIED"
+    },
+    {
+      "id": "208a",
+      "page": 208,
+      "note": "missing space after quoted phrase",
+      "find": "personal “declaration of independence”.B. dined at Loeser’s",
+      "replace": "personal “declaration of independence”. B. dined at Loeser’s",
+      "status": "APPLIED"
+    },
+    {
+      "id": "209a",
+      "page": 209,
+      "note": "missing space after quoted title",
+      "find": "“The Knight Errant.”We worked at it",
+      "replace": "“The Knight Errant.” We worked at it",
+      "status": "APPLIED"
+    },
+    {
+      "id": "212a",
+      "page": 212,
+      "note": "missing space: evening./B.",
+      "find": "our Correggio in the evening.B. enthusiastic about writing",
+      "replace": "our Correggio in the evening. B. enthusiastic about writing",
+      "status": "APPLIED"
+    },
+    {
+      "id": "213a",
+      "page": 213,
+      "note": "missing space: Verocchio./B.",
+      "find": "studying the Credi and Verocchio.B. lunched here",
+      "replace": "studying the Credi and Verocchio. B. lunched here",
+      "status": "APPLIED"
+    },
+    {
+      "id": "214a",
+      "page": 214,
+      "note": "missing space after quoted title",
+      "find": "“History of Taste in Italian Pictures.”B. spoke of Henry James’",
+      "replace": "“History of Taste in Italian Pictures.” B. spoke of Henry James’",
+      "status": "APPLIED"
+    },
+    {
+      "id": "216a",
+      "page": 216,
+      "note": "missing space: Sarto's./B.",
+      "find": "at the Andrea del Sarto’s.B. had a letter from Ned Warren",
+      "replace": "at the Andrea del Sarto’s. B. had a letter from Ned Warren",
+      "status": "APPLIED"
+    },
+    {
+      "id": "218a",
+      "page": 218,
+      "note": "missing space: read./B.",
+      "find": "I have no chance to read.B. had a bad headache",
+      "replace": "I have no chance to read. B. had a bad headache",
+      "status": "APPLIED"
+    },
+    {
+      "id": "220a",
+      "page": 220,
+      "note": "missing space: it./B. was to have",
+      "find": "there are some good things in it.B. was to have dined",
+      "replace": "there are some good things in it. B. was to have dined",
+      "status": "APPLIED"
+    },
+    {
+      "id": "224a",
+      "page": 224,
+      "note": "missing space: Karin./B. came",
+      "find": "so I took care of Karin.B. came to tea",
+      "replace": "so I took care of Karin. B. came to tea",
+      "status": "APPLIED"
+    },
+    {
+      "id": "225a",
+      "page": 225,
+      "note": "missing space after quoted title",
+      "find": "Huysmans’ “En ménage”and Eastlake’s Literature",
+      "replace": "Huysmans’ “En ménage” and Eastlake’s Literature",
+      "status": "APPLIED"
+    },
+    {
+      "id": "229a",
+      "page": 229,
+      "note": "missing space: ménage./B.",
+      "find": "I wrote my story and read En ménage.B. continued with Creighton",
+      "replace": "I wrote my story and read En ménage. B. continued with Creighton",
+      "status": "APPLIED"
+    },
+    {
+      "id": "229b",
+      "page": 229,
+      "note": "missing space: Tales/with (OCR: 'anglewood Taleswith')",
+      "find": "Began Tanglewood Taleswith Ray.",
+      "replace": "Began Tanglewood Tales with Ray.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "230a",
+      "page": 230,
+      "note": "missing space after quoted title",
+      "find": "“My Trivial Life and Misfortune,”and B. went on with Creighton",
+      "replace": "“My Trivial Life and Misfortune,” and B. went on with Creighton",
+      "status": "APPLIED"
+    },
+    {
+      "id": "240a",
+      "page": 240,
+      "note": "missing space: quarrel-y./B.",
+      "find": "we were rather quarrel-y.B. came to tea.",
+      "replace": "we were rather quarrel-y. B. came to tea.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "240b",
+      "page": 240,
+      "note": "missing space: Gertrude./B. lunched",
+      "find": "I called on Gertrude.B. lunched with Jenkins",
+      "replace": "I called on Gertrude. B. lunched with Jenkins",
+      "status": "APPLIED"
+    },
+    {
+      "id": "241a",
+      "page": 241,
+      "note": "missing space: Tognazzi/Siena",
+      "find": "* Friday March 18. 1892. Pensione TognazziSiena",
+      "replace": "* Friday March 18. 1892. Pensione Tognazzi Siena",
+      "status": "APPLIED"
+    },
+    {
+      "id": "242a",
+      "page": 242,
+      "note": "missing space: Vasari./Our quarrel",
+      "find": "Read Creighton and Vasari.Our quarrel was not serious.",
+      "replace": "Read Creighton and Vasari. Our quarrel was not serious.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "245a",
+      "page": 245,
+      "note": "missing space: morning./B. read",
+      "find": "a glorious morning.B. read “My Trivial Life and Misfortune”",
+      "replace": "a glorious morning. B. read “My Trivial Life and Misfortune”",
+      "status": "APPLIED"
+    },
+    {
+      "id": "246a",
+      "page": 246,
+      "note": "missing space: morning./B. wrote again",
+      "find": "Pitti in the morning.B. wrote again for 3 hours",
+      "replace": "Pitti in the morning. B. wrote again for 3 hours",
+      "status": "APPLIED"
+    },
+    {
+      "id": "246b",
+      "page": 246,
+      "note": "missing space: out./B. called on Loeser",
+      "find": "I called on Miss Britten, who was out.B. called on Loeser.",
+      "replace": "I called on Miss Britten, who was out. B. called on Loeser.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "247a",
+      "page": 247,
+      "note": "missing space: Michelangelo./I called",
+      "find": "read Lady Eastlake on Michelangelo.I called on Gertrude.",
+      "replace": "read Lady Eastlake on Michelangelo. I called on Gertrude.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "248a",
+      "page": 248,
+      "note": "missing space: morning./B. came to lunch",
+      "find": "Uffizi in the morning.B. came to lunch and wrote his Venetian introduction",
+      "replace": "Uffizi in the morning. B. came to lunch and wrote his Venetian introduction",
+      "status": "APPLIED"
+    },
+    {
+      "id": "177u",
+      "page": 177,
+      "note": "book title should be underlined per source manuscript",
+      "find": "“La Civilisation en Italie au temps de la Renaissance”",
+      "replace": "<underline>“La Civilisation en Italie au temps de la Renaissance”</underline>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-01",
+      "page": null,
+      "note": "missing space after quoted title (found in follow-up scan)",
+      "find": "im Licht.”Gallery closed",
+      "replace": "im Licht.” Gallery closed",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-02",
+      "page": null,
+      "note": "missing space after quoted title, x2 in same sentence",
+      "find": "insolites.”Studied German.Read Charles V",
+      "replace": "insolites.” Studied German. Read Charles V",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-03",
+      "page": null,
+      "note": "missing space after dash run",
+      "find": "London -----!Gallery in the morning",
+      "replace": "London -----! Gallery in the morning",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-04",
+      "page": null,
+      "note": "missing space after inline page marker [181]",
+      "find": "in the afternoon. [181]Read Crowe",
+      "replace": "in the afternoon. [181] Read Crowe",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-05",
+      "page": null,
+      "note": "missing space after '!!' and after '11!', x2",
+      "find": "her own!!The nurse came at 11!Children restless",
+      "replace": "her own!! The nurse came at 11! Children restless",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-06",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "Suggestive.”After a vermouth",
+      "replace": "Suggestive.” After a vermouth",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-07",
+      "page": null,
+      "note": "missing space after ”-!",
+      "find": "sky and plain ”-!In the evening",
+      "replace": "sky and plain ”-! In the evening",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-08",
+      "page": null,
+      "note": "missing space after ”---!!",
+      "find": "commands”---!!We went to the Uffizi",
+      "replace": "commands”---!! We went to the Uffizi",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-09",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "our “Venetian School.”Bernhard read Hennequin’s",
+      "replace": "our “Venetian School.” Bernhard read Hennequin’s",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-10",
+      "page": null,
+      "note": "missing space after quoted title and after 'Reumont.', x2",
+      "find": "his “Cardinal Wolsey.”Bernhard read von Reumont.When we reached",
+      "replace": "his “Cardinal Wolsey.” Bernhard read von Reumont. When we reached",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-11",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "full of “living odours.”We walked up",
+      "replace": "full of “living odours.” We walked up",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-12",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "Symonds’ “Catholic Reaction”Finished our Titian",
+      "replace": "Symonds’ “Catholic Reaction” Finished our Titian",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-13",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "manuscript of “The Venetian School.”Mr. Burke arrived.",
+      "replace": "manuscript of “The Venetian School.” Mr. Burke arrived.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-14",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "Trollope’s “The Life We Live.”J’ai assez de Margueritte",
+      "replace": "Trollope’s “The Life We Live.” J’ai assez de Margueritte",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-15",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "Mrs. Creighton’s “Black Prince.”It is curious",
+      "replace": "Mrs. Creighton’s “Black Prince.” It is curious",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-16",
+      "page": null,
+      "note": "missing space after '?-!'",
+      "find": "But I wonder if it was?-!Bernhard seemed very ill",
+      "replace": "But I wonder if it was?-! Bernhard seemed very ill",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-17",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "Finished the “Black Prince.”Read Mrs. Jameson",
+      "replace": "Finished the “Black Prince.” Read Mrs. Jameson",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-18",
+      "page": null,
+      "note": "missing space after parenthesis",
+      "find": "Lido (where I had a swim).In evening I began my",
+      "replace": "Lido (where I had a swim). In evening I began my",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-19",
+      "page": null,
+      "note": "missing space after parenthesis",
+      "find": "for the drive).We found this a splendid hotel",
+      "replace": "for the drive). We found this a splendid hotel",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-20",
+      "page": null,
+      "note": "missing space after quoted phrase",
+      "find": "month, “tutto compreso”.Began Thomas Adolphus Hare",
+      "replace": "month, “tutto compreso”. Began Thomas Adolphus Hare",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-21",
+      "page": null,
+      "note": "missing space: France/and (word glue) and after '(Browning).'",
+      "find": "Ranke’s Histoire de la Franceand “Balaustion’s Adventure” (Browning).He delighted",
+      "replace": "Ranke’s Histoire de la France and “Balaustion’s Adventure” (Browning). He delighted",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-22",
+      "page": null,
+      "note": "missing space after quoted phrase",
+      "find": "using such words as “banalities” and “mollify”.We both wrote",
+      "replace": "using such words as “banalities” and “mollify”. We both wrote",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-23",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "Browne’s [sic] “History of Venice.”The latter we began",
+      "replace": "Browne’s [sic] “History of Venice.” The latter we began",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-24",
+      "page": null,
+      "note": "missing space after '!!'",
+      "find": "the joys of solitude!!Mr. Murray came back",
+      "replace": "the joys of solitude!! Mr. Murray came back",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-25",
+      "page": null,
+      "note": "missing space after quoted word",
+      "find": "arranged for a “class.”Mother writes that Marion",
+      "replace": "arranged for a “class.” Mother writes that Marion",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-26",
+      "page": null,
+      "note": "missing space after inline page marker [381]",
+      "find": "own books!!) [381]In the afternoon",
+      "replace": "own books!!) [381] In the afternoon",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-27",
+      "page": null,
+      "note": "missing space after single-quoted phrase",
+      "find": "loafer ideas’.I met Christina",
+      "replace": "loafer ideas’. I met Christina",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-28",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "finished “The Lady from the Sea.”Miss Willard sent",
+      "replace": "finished “The Lady from the Sea.” Miss Willard sent",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-29",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "paper, “Il Fieramosca.”Frizzoni is staying",
+      "replace": "paper, “Il Fieramosca.” Frizzoni is staying",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-30",
+      "page": null,
+      "note": "missing space after quoted phrase",
+      "find": "of the “struggle for life”.While Bernhard was enjoying",
+      "replace": "of the “struggle for life”. While Bernhard was enjoying",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-31",
+      "page": null,
+      "note": "missing space after parenthesis",
+      "find": "to the Uffizi (I think).He called on Fabbri",
+      "replace": "to the Uffizi (I think). He called on Fabbri",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-32",
+      "page": null,
+      "note": "missing space after '!' and after quoted title, x2",
+      "find": "dinner is a fraud!I read “La Maison Tellier.”Bernhard is reading",
+      "replace": "dinner is a fraud! I read “La Maison Tellier.” Bernhard is reading",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-33",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "Vol. II of his “Italian Literature.”Costa came in the evening",
+      "replace": "Vol. II of his “Italian Literature.” Costa came in the evening",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-34",
+      "page": null,
+      "note": "missing space after quoted word",
+      "find": "in the spirit of “the Master”.We were speaking",
+      "replace": "in the spirit of “the Master”. We were speaking",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-35",
+      "page": null,
+      "note": "missing space after single-quoted word",
+      "find": "than Washington’.Michael Field and I went",
+      "replace": "than Washington’. Michael Field and I went",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-36",
+      "page": null,
+      "note": "missing space after quoted word",
+      "find": "all over “the grounds”.In the evening we read",
+      "replace": "all over “the grounds”. In the evening we read",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-37",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "Moriarty’s “Dean Swift.”We came to Cornuda",
+      "replace": "Moriarty’s “Dean Swift.” We came to Cornuda",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-38",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "called “At a Venetian Theatre”.Read two of Balzac’s",
+      "replace": "called “At a Venetian Theatre”. Read two of Balzac’s",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-39",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "Goldoni’s “Burbero Benefico.”Did not sleep",
+      "replace": "Goldoni’s “Burbero Benefico.” Did not sleep",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-40",
+      "page": null,
+      "note": "missing space after quoted phrase",
+      "find": "Per- silinus”.Read Ranke and “Mantova e Urbino”",
+      "replace": "Per- silinus”. Read Ranke and “Mantova e Urbino”",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-41",
+      "page": null,
+      "note": "missing space after quoted phrase",
+      "find": "as a “vortex of thought and feeling.”Wrote and read.",
+      "replace": "as a “vortex of thought and feeling.” Wrote and read.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-42",
+      "page": null,
+      "note": "missing space after quoted title",
+      "find": "sent it to the “Chronicle.”Bernhard reading Diderot’s",
+      "replace": "sent it to the “Chronicle.” Bernhard reading Diderot’s",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-43",
+      "page": null,
+      "note": "missing space after quoted word",
+      "find": "for the “outlook.”Talked with a girl",
+      "replace": "for the “outlook.” Talked with a girl",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-44",
+      "page": null,
+      "note": "missing space: France/the (word glue)",
+      "find": "History of Francethe volume on the Renaissance",
+      "replace": "History of France the volume on the Renaissance",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-45",
+      "page": null,
+      "note": "missing space: Davis/has (word glue)",
+      "find": "Also a certain Mr. Theodore Davishas written to him",
+      "replace": "Also a certain Mr. Theodore Davis has written to him",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-46",
+      "page": null,
+      "note": "missing space: friends/in (word glue)",
+      "find": "He went to see his American friendsin the evening",
+      "replace": "He went to see his American friends in the evening",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-47",
+      "page": null,
+      "note": "missing space: Rospigliosi/and (word glue)",
+      "find": "we all went to the Rospigliosiand enjoyed the Lotto",
+      "replace": "we all went to the Rospigliosi and enjoyed the Lotto",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-48",
+      "page": null,
+      "note": "missing space: Burke/while and Montauto/and (word glue, x2)",
+      "find": "He called on Miss Burkewhile I went up to the Villa Montautoand sat on the wall",
+      "replace": "He called on Miss Burke while I went up to the Villa Montauto and sat on the wall",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b2-49",
+      "page": null,
+      "note": "missing space: Lawrence/came (word glue)",
+      "find": "Marion Lawrencecame and bored me nearly to death",
+      "replace": "Marion Lawrence came and bored me nearly to death",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-01",
+      "page": null,
+      "note": "missing space: Republic/and (word glue)",
+      "find": "Bought Motley’s Dutch Republicand read introduction.",
+      "replace": "Bought Motley’s Dutch Republic and read introduction.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-02",
+      "page": null,
+      "note": "missing space: Adam/and (word glue) — was in original list (item 131) but never actually fixed",
+      "find": "Villiers de l’Isle Adamand Richepin’s",
+      "replace": "Villiers de l’Isle Adam and Richepin’s",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-03",
+      "page": null,
+      "note": "missing space after dash before 'and'",
+      "find": "Prescott’s “Ferdinand and Isabella”-and wrote to Evalyne.",
+      "replace": "Prescott’s “Ferdinand and Isabella”- and wrote to Evalyne.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-04",
+      "page": null,
+      "note": "missing space: Lorenzo/and (word glue)",
+      "find": "read Edith’s Lorenzoand jotted down",
+      "replace": "read Edith’s Lorenzo and jotted down",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-05",
+      "page": null,
+      "note": "missing space: sulfonal/and (word glue)",
+      "find": "I took sulfonaland slept like a top",
+      "replace": "I took sulfonal and slept like a top",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-06",
+      "page": null,
+      "note": "missing space: Rameau/and (word glue)",
+      "find": "Bernhard read Le Neveau de Rameauand I read Jacques",
+      "replace": "Bernhard read Le Neveau de Rameau and I read Jacques",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-07",
+      "page": null,
+      "note": "missing space: Potapencko/and (word glue)",
+      "find": "Daughter” by Potapenckoand Morley’s second volume",
+      "replace": "Daughter” by Potapencko and Morley’s second volume",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-08",
+      "page": null,
+      "note": "missing space: Voltaire/and (word glue)",
+      "find": "is reading Voltaireand Tristram Shandy",
+      "replace": "is reading Voltaire and Tristram Shandy",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-09",
+      "page": null,
+      "note": "missing space: Vallee/and (word glue)",
+      "find": "Lys dans la Valléeand was enchanted by it",
+      "replace": "Lys dans la Vallée and was enchanted by it",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-10",
+      "page": null,
+      "note": "missing space: Notebooks/and (word glue)",
+      "find": "read Hawthorne’s Italian Notebooksand his Marble Faun",
+      "replace": "read Hawthorne’s Italian Notebooks and his Marble Faun",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-11",
+      "page": null,
+      "note": "missing space: Vedders/and and Mond,/and (word glue, x2)",
+      "find": "called on the Veddersand Mond,and Michael and I took a walk",
+      "replace": "called on the Vedders and Mond, and Michael and I took a walk",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b3-12",
+      "page": null,
+      "note": "missing space: Venice/and (word glue)",
+      "find": "History of Veniceand began Goldoni’s Memoirs",
+      "replace": "History of Venice and began Goldoni’s Memoirs",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b4-01",
+      "page": null,
+      "note": "missing space before line-separator artifact in date header (inconsistent with sibling entries)",
+      "find": "Wednesday Sept. 14. 1892. Hotel Centrale. Turin",
+      "replace": "Wednesday Sept. 14. 1892.  Hotel Centrale. Turin",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b5-01",
+      "page": null,
+      "note": "missing space before inline page marker [115]",
+      "find": "the Besnard sunset over the water.[115] Took the night train to Verona.",
+      "replace": "the Besnard sunset over the water. [115] Took the night train to Verona.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b5-02",
+      "page": null,
+      "note": "missing space before inline page marker [199]",
+      "find": "I should be content not to see her again.[199] Mother still here.",
+      "replace": "I should be content not to see her again. [199] Mother still here.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b5-03",
+      "page": null,
+      "note": "missing space after inline page marker [290]",
+      "find": "[290]14 rue de la Grande Chaumière. Paris.",
+      "replace": "[290] 14 rue de la Grande Chaumière. Paris.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "b5-04",
+      "page": null,
+      "note": "missing space before inline page marker [305]",
+      "find": "The brush work in places was not unlike Besnard.[305] After lunch",
+      "replace": "The brush work in places was not unlike Besnard. [305] After lunch",
+      "status": "APPLIED"
+    }
+  ]
+}

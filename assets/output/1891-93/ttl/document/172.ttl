@@ -14,7 +14,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "172"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/172> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756509/full/full/0/default.jpg> ;
-    rdf:value "system of Robert Browning”) his prophet, and metaphysics the only proper study of Man. He was just girding up his loins to read Kant, in order to get a “basis for religion” and an “explanation of the Moral Law.” (Well! well, do I know the “school” to which this painting belongs!!) I told him that Metaphysics was the last resort for ennui or for prejudice. He gasped, and turned wondering eyes upon me, and when, at some little length I explained my meaning, he said – oh  how  helplessly, how absurdly English!! - “Yes, you are right, but please tell me what I  am  to study.” Imagine Costa (who is just his age), or anybody who is  alive , asking such a question! It frightened "^^xsd:string ;
+    rdf:value "system of Robert Browning”) his prophet, and metaphysics the only proper study of Man. He was just girding up his loins to read Kant, in order to get a “basis for religion” and an “explanation of the Moral Law.” (Well! well, do I know the “school” to which this painting belongs!!) I told him that Metaphysics was the last resort for ennui or for prejudice. He gasped, and turned wondering eyes upon me, and when, at some little length I explained my meaning, he said – oh how helplessly, how absurdly English!! - “Yes, you are right, but please tell me what I am to study.” Imagine Costa (who is just his age), or anybody who is alive, asking such a question! It frightened"^^xsd:string ;
     mbdiaries-ontology:index 172 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -28,6 +28,6 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_172.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

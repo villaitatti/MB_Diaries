@@ -22,8 +22,8 @@ Che si fugge tuttavia
 Chi vuol esser lieto, sia,
 Di doman’ non c’è certezza."
 Wrote to Edith in the evening and studied Italian.
-Monday Feb. 1 st . 1892. Florence
-A glorious spring day! Took mother and the children to the cloister of Santa Maria Novella, and then B. and I went to S. Apollonia and S. Egidio to see Andrea del Castagna. [ sic ]After my Italian lesson we walked to Certosa.B. lunched with Loeser - who talked much about his former mistress, an actress in Germany. He said he could never love her ‘because owing to the birth of a child (not his) her vagina was too large for him. He said it would be a terrible tragedy all through her life – – – – !!B. called on Mrs. """^^xsd:string ;
+Monday Feb. 1st. 1892. Florence
+A glorious spring day! Took mother and the children to the cloister of Santa Maria Novella, and then B. and I went to S. Apollonia and S. Egidio to see Andrea del Castagna. [sic]After my Italian lesson we walked to Certosa.B. lunched with Loeser - who talked much about his former mistress, an actress in Germany. He said he could never love her ‘because owing to the birth of a child (not his) her vagina was too large for him. He said it would be a terrible tragedy all through her life – – – – !!B. called on Mrs."""^^xsd:string ;
     mbdiaries-ontology:index 201 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -37,7 +37,7 @@ A glorious spring day! Took mother and the children to the cloister of Santa Mar
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/201/production/timespan> a crm:E52_Time_Span ;
     crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-02-01> ;
     mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
-    mbdiaries-ontology:original_date_text "Monday Feb. 1 st . 1892. Florence..."^^xsd:string .
+    mbdiaries-ontology:original_date_text "Monday Feb. 1st. 1892. Florence..."^^xsd:string .
 
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/201> a Platform:File,
         ldp:Resource,
@@ -46,7 +46,7 @@ A glorious spring day! Took mother and the children to the cloister of Santa Mar
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_201.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-02-01> .
 

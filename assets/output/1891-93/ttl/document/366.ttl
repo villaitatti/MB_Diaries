@@ -15,8 +15,8 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/366/production> ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/366> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756791/full/full/0/default.jpg> ;
-    rdf:value """x  Tuesday Feb. 21. 1893. Florence
-Lotto – Bargello: German, while Bernhard called on Costa. He found at the National Library that The Nation had printed his Stillman letter, with the information that it closed the controversy - as indeed it did. Loeser came to Costa’s and congratulated Bernhard upon it, but with a manner and look which betrayed that he felt very sick over it, and would give anything if Stillman had only had the best of it. After some more Lotto, I called on Lady Carlysle, who kept me a long time. I enjoyed it, as she asked me many questions about my studies. On the whole, in spite of her belief that I have a strong natural vocation for politics, I think I convinced her that I was not idle, nor likely to be a mere dead weight in the world. In the evening we did some more Lotto and read  Pater’ s  Winckelmann  - a rather disconnected affair - full of good things however."""^^xsd:string ;
+    rdf:value """x Tuesday Feb. 21. 1893. Florence
+Lotto – Bargello: German, while Bernhard called on Costa. He found at the National Library that The Nation had printed his Stillman letter, with the information that it closed the controversy - as indeed it did. Loeser came to Costa’s and congratulated Bernhard upon it, but with a manner and look which betrayed that he felt very sick over it, and would give anything if Stillman had only had the best of it. After some more Lotto, I called on Lady Carlysle, who kept me a long time. I enjoyed it, as she asked me many questions about my studies. On the whole, in spite of her belief that I have a strong natural vocation for politics, I think I convinced her that I was not idle, nor likely to be a mere dead weight in the world. In the evening we did some more Lotto and read Pater’s Winckelmann - a rather disconnected affair - full of good things however."""^^xsd:string ;
     mbdiaries-ontology:index 366 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -30,7 +30,7 @@ Lotto – Bargello: German, while Bernhard called on Costa. He found at the Nati
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/366/production/timespan> a crm:E52_Time_Span ;
     crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-21> ;
     mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
-    mbdiaries-ontology:original_date_text "x  Tuesday Feb. 21. 1893. Florence..."^^xsd:string .
+    mbdiaries-ontology:original_date_text "x Tuesday Feb. 21. 1893. Florence..."^^xsd:string .
 
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/366> a Platform:File,
         ldp:Resource,
@@ -39,7 +39,7 @@ Lotto – Bargello: German, while Bernhard called on Costa. He found at the Nati
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_366.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-02-21> .
 

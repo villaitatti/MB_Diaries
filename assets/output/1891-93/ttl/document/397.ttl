@@ -15,12 +15,12 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/397/production> ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/397> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756839/full/full/0/default.jpg> ;
-    rdf:value """*  Monday 31 [May 1] 1893. Perugia
-A heavenly day, after all the rains. We revisited the Signorelli, saw the Cambio and San Bernardino and scrambled about the walls. After lunch Bernhard wrote his “Architecture”, being inspired by the fact that the “Nation” has just printed his article on Vasari, paying him £6.2/5 for it. I finished “ Manette Salomon ”- Then we walked with the Mikes to S. Pietro, and round about in the country, getting endless enchanting views. After dinner wrote.
+    rdf:value """* Monday 31 [May 1] 1893. Perugia
+A heavenly day, after all the rains. We revisited the Signorelli, saw the Cambio and San Bernardino and scrambled about the walls. After lunch Bernhard wrote his “Architecture”, being inspired by the fact that the “Nation” has just printed his article on Vasari, paying him £6.2/5 for it. I finished “Manette Salomon”- Then we walked with the Mikes to S. Pietro, and round about in the country, getting endless enchanting views. After dinner wrote.
 Tuesday May 2. 1893. Albergo della Posta. Foligno
-We had a wonderful morning at  Assisi .Then Bernhard and I went to  Foligno  by train while “M.F.” drove to Spello. We met at  Spello , and walked out to S. Girolamo, where a nightingale was singing in the wood. Never has there been a more beautiful day.
+We had a wonderful morning at Assisi.Then Bernhard and I went to Foligno by train while “M.F.” drove to Spello. We met at Spello, and walked out to S. Girolamo, where a nightingale was singing in the wood. Never has there been a more beautiful day.
 Wednesday May 3. 1893. Hotel Suisse. Rome
-We got up at 4.30 and took the 5.30 train to  Spoleto , where we had 4 hours of rapturous enjoyment. Then we came here, a hot dusty journey."""^^xsd:string ;
+We got up at 4.30 and took the 5.30 train to Spoleto, where we had 4 hours of rapturous enjoyment. Then we came here, a hot dusty journey."""^^xsd:string ;
     mbdiaries-ontology:index 397 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -43,7 +43,7 @@ We got up at 4.30 and took the 5.30 train to  Spoleto , where we had 4 hours of 
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_397.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-05-02> .
 

@@ -14,7 +14,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "102"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/102> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756411/full/full/0/default.jpg> ;
-    rdf:value """20 Jan. 1876. Hier soir, dans le fumoir de la princesse, au causait de Rossini, quelqu’un parle d’une lettre écrite par lui à Paganini, le lendemain de sa première audition, lettre dans laquelle le  maestro  est tout entier. Il lui disait qu’il n’avait pleuré que trois fois dans sa vie: une première fois, lorsqu’il avait eu son premier opéra sifflé; une seconde fois, lorsque, dans un partie avec ses amis, il avait laissé tomber dans le lac de Garde, une dinde truffée; enfin la troisième fois, en l’entendant la veille.
+    rdf:value """20 Jan. 1876. Hier soir, dans le fumoir de la princesse, au causait de Rossini, quelqu’un parle d’une lettre écrite par lui à Paganini, le lendemain de sa première audition, lettre dans laquelle le maestro est tout entier. Il lui disait qu’il n’avait pleuré que trois fois dans sa vie: une première fois, lorsqu’il avait eu son premier opéra sifflé; une seconde fois, lorsque, dans un partie avec ses amis, il avait laissé tomber dans le lac de Garde, une dinde truffée; enfin la troisième fois, en l’entendant la veille.
 3 Juillet 1870 …il faut pour faire quelque chose de bon littérairement, que tous les sens soient des fenêtres grandes ouvertes."""^^xsd:string ;
     mbdiaries-ontology:index 102 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
@@ -29,6 +29,6 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_102.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

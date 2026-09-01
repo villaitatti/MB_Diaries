@@ -16,9 +16,9 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/375> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756805/full/full/0/default.jpg> ;
     rdf:value """him furiously raging over Vernon Lee’s “Vanitas” which contains a complete microscopic dissection of his brother the novelist, “the most incomprehensible, indelicate, indecent thing conceivable.” All this sounded odd from the brother of the man whose “Miss Birdseye” was such a patent caricature of his father’s old friend, Miss Peabody.
-In the evening we read “ Rosmersholm ” and I read “Hedda Gabler”.
+In the evening we read “Rosmersholm” and I read “Hedda Gabler”.
 Thursday March 9. 1893.
-Went to the Uffizi and studied Florentine drawings. Worked on the Lotto. Finished Rosmersholm and compared it with Solness - Bernhard called on the Scotts and I went to San Miniato. After tea we grappled with the Lotto, and quarrelled, as usual when we write together! in the evening read “ Vanitas ,” which didn’t strike us as very bad. I also read the other two stories, one at night, and the other in morning."""^^xsd:string ;
+Went to the Uffizi and studied Florentine drawings. Worked on the Lotto. Finished Rosmersholm and compared it with Solness - Bernhard called on the Scotts and I went to San Miniato. After tea we grappled with the Lotto, and quarrelled, as usual when we write together! in the evening read “Vanitas,” which didn’t strike us as very bad. I also read the other two stories, one at night, and the other in morning."""^^xsd:string ;
     mbdiaries-ontology:index 375 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -41,7 +41,7 @@ Went to the Uffizi and studied Florentine drawings. Worked on the Lotto. Finishe
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_375.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-03-09> .
 

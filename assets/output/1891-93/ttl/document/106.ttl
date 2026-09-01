@@ -14,7 +14,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "106"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/106> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756415/full/full/0/default.jpg> ;
-    rdf:value "The interior was unexpectedly pleasant, rich, but not over-decorated. Most of the busts are very poor, and the choice of them seems to have been made after a “scheme of his own.” The polychromatic decoration of the Ionic columns and of the Caryatides (Valkyris) was quite likely genuinely Greek, and certainly very agreeable. What a spot! The Temple faces a wide, wide plain, through which winds the blue Danube. On each side smaller hills covered with green pines flank the central one where the Temple stands. The columns in the sunshine looked like Paul Veronese’s marbles. Driving back we saw it rosy with the sunset. A thing not to miss.  ☜"^^xsd:string ;
+    rdf:value "The interior was unexpectedly pleasant, rich, but not over-decorated. Most of the busts are very poor, and the choice of them seems to have been made after a “scheme of his own.” The polychromatic decoration of the Ionic columns and of the Caryatides (Valkyris) was quite likely genuinely Greek, and certainly very agreeable. What a spot! The Temple faces a wide, wide plain, through which winds the blue Danube. On each side smaller hills covered with green pines flank the central one where the Temple stands. The columns in the sunshine looked like Paul Veronese’s marbles. Driving back we saw it rosy with the sunset. A thing not to miss. ☜"^^xsd:string ;
     mbdiaries-ontology:index 106 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -28,6 +28,6 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_106.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

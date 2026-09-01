@@ -14,7 +14,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "146"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/146> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756469/full/full/0/default.jpg> ;
-    rdf:value """Afterwards, we went to the Scuola d [ e ] i Carmini - and after luncheon to the Gallery and the Church of St. Antony, and then took a walk on the walls. Letters came from “Michael Field” in the evening, and we annotated the Louvre Catalogue for Logan.
+    rdf:value """Afterwards, we went to the Scuola d[e]i Carmini - and after luncheon to the Gallery and the Church of St. Antony, and then took a walk on the walls. Letters came from “Michael Field” in the evening, and we annotated the Louvre Catalogue for Logan.
 Tuesday Oct. 27 Hotel Croce d’Oro Padua
 Went to Duomo and Bishop’s Palace and discovered Montagnana! Then to Santa Maria in Vanzo, then Sanmichele. In the afternoon we finished our notes on the Gallery and went to the Scuola del Santo."""^^xsd:string ;
     mbdiaries-ontology:index 146 ;
@@ -30,6 +30,6 @@ Went to Duomo and Bishop’s Palace and discovered Montagnana! Then to Santa Mar
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_146.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

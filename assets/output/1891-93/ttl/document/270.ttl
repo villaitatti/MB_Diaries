@@ -15,8 +15,8 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/270/production> ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/270> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756645/full/full/0/default.jpg> ;
-    rdf:value """on with his  Michelet , and I read “ La Fille Eliza”  by Edmond de Goncourt - a depressing psychological study, which tastes too much of the note-book to be a really great novel.
-*  Thursday May 5. 1892. Hotel Pellegrino Bologna
+    rdf:value """on with his Michelet, and I read “La Fille Eliza” by Edmond de Goncourt - a depressing psychological study, which tastes too much of the note-book to be a really great novel.
+* Thursday May 5. 1892. Hotel Pellegrino Bologna
 Went to many Churches in the morning and to the Gallery in the afternoon. Afterwards we walked out to S. Michele in Bosco, and then along woody paths where the nightingales were singing their bravest. A lovely day. Wrote our Bissolo in the evening. Talked to some Boston ladies at dinner, who adored Guido Reni.
 Friday May 6. 1892. Hotel d’Italia. Modena
 Came at 10.35 to Modena and saw the Duomo. After lunch we went to the Gallery, still unhung after ten years of storage! and reviled in the Dossos. We discovered a Licinio.
@@ -35,7 +35,7 @@ It was pouring in the morning, but we conscientiously “did” Piacenza, enjoyi
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/270/production/timespan> a crm:E52_Time_Span ;
     crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-05-05> ;
     mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
-    mbdiaries-ontology:original_date_text "*  Thursday May 5. 1892. Hotel Pellegrino Bologna..."^^xsd:string .
+    mbdiaries-ontology:original_date_text "* Thursday May 5. 1892. Hotel Pellegrino Bologna..."^^xsd:string .
 
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/270> a Platform:File,
         ldp:Resource,
@@ -44,7 +44,7 @@ It was pouring in the morning, but we conscientiously “did” Piacenza, enjoyi
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_270.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-05-05> .
 

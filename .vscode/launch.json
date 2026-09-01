@@ -13,12 +13,21 @@
       "args": ["--help"]
     },
     {
-      "name": "1891 | Execute full pipeline",
+      "name": "1_1891-93 | Execute full pipeline",
       "type": "debugpy",
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1891", "-u", "-c", "collection", "-t", "1891", "-i", "1"]
+      "args": [
+        "-d", "1891-93",
+        "-u",
+        "-c", "collection",
+        "-t", "1891-1893",
+        "-i", "1",
+        "-gdoc", "1SxlJdSGYxPfv19j32XvIL0zH4v_YE7jo",
+        "-r", "\\[\\d{3,}\\]",
+        "--concatenate"
+      ]
     },
     {
       "name": "2_1894-95 | Execute full pipeline",
@@ -37,9 +46,7 @@
         "-i",
         "2",
         "-gdoc",
-        "1MV4eYJIirkq4wKPp1FGDdpzzlx-EylpU",
-        "-iiif",
-        "https://iiif.lib.harvard.edu/manifests/view/drs:420765293$1i"
+        "1MV4eYJIirkq4wKPp1FGDdpzzlx-EylpU"
       ]
     },
     {
@@ -71,15 +78,15 @@
       "args": [
         "-d",
         "1896-98",
-        //"-u",
+        "-u",
         "-c",
         "collection",
         "-t",
         "1896-1898",
         "-i",
-        "4"
-        //"-gdoc",
-        //"1ScbntU6rpR7ISp1R4qFGjEtonoFC5AZp"
+        "4",
+        "-gdoc",
+        "1ScbntU6rpR7ISp1R4qFGjEtonoFC5AZp"
       ]
     },
     {
@@ -211,14 +218,14 @@
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
       "args": [
-        "-d", 
-        "1907", 
-        "-u", 
-        "-c", 
-        "collection", 
-        "-t", 
-        "1907", 
-        "-i", 
+        "-d",
+        "1907",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1907",
+        "-i",
         "11",
         "-gdoc",
         "1RPqaJo4uX2vo5CSRhNQHqdZRqHW34Qad"
@@ -230,7 +237,19 @@
       "request": "launch",
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
-      "args": ["-d", "1908", "-u", "-c", "collection", "-t", "1908", "-i", "12"]
+      "args": [
+        "-d",
+        "1908",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1908",
+        "-i",
+        "12",
+        "-gdoc",
+        "1Va55YHOqyy9aGH3pe_19Oj9tPibThSqt"
+      ]
     },
     {
       "name": "13_1909 | Execute full pipeline",
@@ -239,14 +258,14 @@
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
       "args": [
-        "-d", 
-        "1909", 
-        "-u", 
-        "-c", 
-        "collection", 
-        "-t", 
-        "1909", 
-        "-i", 
+        "-d",
+        "1909",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1909",
+        "-i",
         "13",
         "-gdoc",
         "1RXVmS0cib-wzxprFE4vxKsM3PK2IiaQ0"
@@ -267,14 +286,14 @@
       "program": "/Users/gspinaci/projects/mb_diaries/MB_Diaries/script.py",
       "console": "integratedTerminal",
       "args": [
-        "-d", 
-        "1916", 
-        "-u", 
-        "-c", 
-        "collection", 
-        "-t", 
-        "1916", 
-        "-i", 
+        "-d",
+        "1916",
+        "-u",
+        "-c",
+        "collection",
+        "-t",
+        "1916",
+        "-i",
         "15",
         "-gdoc",
         "1RsHtHQlLWR-916n6ftaFrgOlQOCy8vxa"

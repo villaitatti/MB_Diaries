@@ -15,9 +15,9 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/244/production> ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/244> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756604/full/full/0/default.jpg> ;
-    rdf:value """At 130 we started out with the horse and little trap and drove to S. Ansano in Dofana about 9 miles away. There we found a very nice Peruzzi in a dear little country Church, a Madonna and Child, somehow recalling the decision and  chic  of Bronzino. We went to see a little octagonal chapel built by Peruzzi close by, said by Baedeker to contain a Pietro Lorenzetti. This, however, was taken to the Belle Arti ten years ago. We did not get back till 6.30. It was a delicious drive! In the evening we worked and read.
-*  Thursday March 24. ‘92 Pensione Tognazzi. Siena
-In the morning we went to the house of Catherine of Siena (built by Peruzzi), to the Baptistry and then to the Libraria del Duomo. There we looked over the illuminated Missals of Liberale. Then we looked at the Pinturicchios. After lunch, we went to have a last look at the Belle Arti, and then bought some photographs, and some little toys. Then we took a walk, ending up with another glimpse at the Sodoma, Balducci and Pacchia in San Spirito. In the evening worked and read as usual, and so endeth our happy week. Bernhard said it is as absurd to take our ideas of ordinary Roman thought and conversation from their orations, as to imagine that they always stood in the poses of their sculpture. """^^xsd:string ;
+    rdf:value """At 130 we started out with the horse and little trap and drove to S. Ansano in Dofana about 9 miles away. There we found a very nice Peruzzi in a dear little country Church, a Madonna and Child, somehow recalling the decision and chic of Bronzino. We went to see a little octagonal chapel built by Peruzzi close by, said by Baedeker to contain a Pietro Lorenzetti. This, however, was taken to the Belle Arti ten years ago. We did not get back till 6.30. It was a delicious drive! In the evening we worked and read.
+* Thursday March 24. ‘92 Pensione Tognazzi. Siena
+In the morning we went to the house of Catherine of Siena (built by Peruzzi), to the Baptistry and then to the Libraria del Duomo. There we looked over the illuminated Missals of Liberale. Then we looked at the Pinturicchios. After lunch, we went to have a last look at the Belle Arti, and then bought some photographs, and some little toys. Then we took a walk, ending up with another glimpse at the Sodoma, Balducci and Pacchia in San Spirito. In the evening worked and read as usual, and so endeth our happy week. Bernhard said it is as absurd to take our ideas of ordinary Roman thought and conversation from their orations, as to imagine that they always stood in the poses of their sculpture."""^^xsd:string ;
     mbdiaries-ontology:index 244 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -31,7 +31,7 @@ In the morning we went to the house of Catherine of Siena (built by Peruzzi), to
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/244/production/timespan> a crm:E52_Time_Span ;
     crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1992-03-24> ;
     mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
-    mbdiaries-ontology:original_date_text "*  Thursday March 24. ‘92 Pensione Tognazzi. Siena..."^^xsd:string .
+    mbdiaries-ontology:original_date_text "* Thursday March 24. ‘92 Pensione Tognazzi. Siena..."^^xsd:string .
 
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/244> a Platform:File,
         ldp:Resource,
@@ -40,7 +40,7 @@ In the morning we went to the house of Catherine of Siena (built by Peruzzi), to
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_244.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1992-03-24> .
 

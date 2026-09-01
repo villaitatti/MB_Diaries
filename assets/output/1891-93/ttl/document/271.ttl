@@ -14,13 +14,13 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "271"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/271> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756647/full/full/0/default.jpg> ;
-    rdf:value """*  Sunday May 8. Hotel Cambria. Brescia
+    rdf:value """* Sunday May 8. Hotel Cambria. Brescia
 We saw the churches in the morning, and then nearly killed each other quarrelling. But we made it up in the cathedral where we studied the frescoes. Then we came to Brescia. I finished Symonds’ “Catholic Reaction,” and began Michelet’s “Renaissance”. B. is going the other way.
 Monday May 9. Albergo Concordia. Bergamo
 After a dozen churches and two important galleries there wasn’t much left of us, but what there was, came here in the evening.
->  Tuesday May 10. Bergamo
+> Tuesday May 10. Bergamo
 We tried to go to Alsano in the morning, but were deceived as to the train, so, after wasting an hour (reading, however) and much temper, we came back and worked on our book. In the afternoon we did get there, but it was too wet and dark to see the Lotto. Bernhard wasted much vital energy upon a vain quarrel with the Railway Company. In the evening we wrote.
-All this was Wednesday .  ☜"""^^xsd:string ;
+All this was Wednesday. ☜"""^^xsd:string ;
     mbdiaries-ontology:index 271 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -34,6 +34,6 @@ All this was Wednesday .  ☜"""^^xsd:string ;
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_271.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

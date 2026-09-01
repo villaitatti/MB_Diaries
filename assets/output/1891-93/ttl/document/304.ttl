@@ -14,9 +14,9 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "304"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/304> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756713/full/full/0/default.jpg> ;
-    rdf:value """ Venice Albergo Monaco. Thursday 9. 29.92
-Saw the Loschi Giorgione, Christ bearing Cross - repainted but unmistakable. Then we drove up the Monte Berico and saw the Montagnas and the made-over Paolo, which is not so much made over as to have lost his characteristics. Then  we went to the Villa Valmarana and saw the Tiepolos. This is the plan of the small villa -
-a Palladian building of one story and attics - a summer villa, with its small rooms decorated in fresco by Tiepolo, with the nearest approach to  genre  he could get. Louis XV, minuette  genre , deliciously human and sympathetic even if fashionable. In some scenes he was very close to Longhi. The other villa at the end of the garden was filled with his frescoes too, the story of Dido, gods and goddesses, etc. The brush work in places was not unlike Besnard."""^^xsd:string ;
+    rdf:value """Venice Albergo Monaco. Thursday 9. 29.92
+Saw the Loschi Giorgione, Christ bearing Cross - repainted but unmistakable. Then we drove up the Monte Berico and saw the Montagnas and the made-over Paolo, which is not so much made over as to have lost his characteristics.Then we went to the Villa Valmarana and saw the Tiepolos. This is the plan of the small villa -
+a Palladian building of one story and attics - a summer villa, with its small rooms decorated in fresco by Tiepolo, with the nearest approach to genre he could get. Louis XV, minuette genre, deliciously human and sympathetic even if fashionable. In some scenes he was very close to Longhi. The other villa at the end of the garden was filled with his frescoes too, the story of Dido, gods and goddesses, etc. The brush work in places was not unlike Besnard."""^^xsd:string ;
     mbdiaries-ontology:index 304 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -30,6 +30,6 @@ a Palladian building of one story and attics - a summer villa, with its small ro
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_304.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

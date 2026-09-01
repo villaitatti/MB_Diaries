@@ -14,7 +14,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "236"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/236> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756594/full/full/0/default.jpg> ;
-    rdf:value "the end without beginning - Now, we are assured of a certain amount of money, at least we will probably have it, so that I could easily say - “O, why should I bother myself with these stupid children’s stories”- But I want us to be independent. It is horrible to me to take money from Frank. No doubt it is a kind of pride, but I want everyone who knows us to feel that we are able to be independent. And if we are, if one of my books succeeded, I should be sorry to have it all  my  work. B. had a little while ago a feeling as if he would like to show everyone that he is worth something. Well, I would like it too, and very much. I would not like it, if I thought it would be really bad for him. But alas! I feel that it would be good for him, and that it is the nicest thing for him to do, now that he no longer goes among people to give them his ideas - and especially when he makes a point of  not  giving them. I feel stupid, as if I could not exactly reach the bottom of the feeling I have about this. But I have a strong "^^xsd:string ;
+    rdf:value "the end without beginning - Now, we are assured of a certain amount of money, at least we will probably have it, so that I could easily say - “O, why should I bother myself with these stupid children’s stories”- But I want us to be independent. It is horrible to me to take money from Frank. No doubt it is a kind of pride, but I want everyone who knows us to feel that we are able to be independent. And if we are, if one of my books succeeded, I should be sorry to have it all my work. B. had a little while ago a feeling as if he would like to show everyone that he is worth something. Well, I would like it too, and very much. I would not like it, if I thought it would be really bad for him. But alas! I feel that it would be good for him, and that it is the nicest thing for him to do, now that he no longer goes among people to give them his ideas - and especially when he makes a point of not giving them. I feel stupid, as if I could not exactly reach the bottom of the feeling I have about this. But I have a strong"^^xsd:string ;
     mbdiaries-ontology:index 236 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -28,6 +28,6 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_236.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

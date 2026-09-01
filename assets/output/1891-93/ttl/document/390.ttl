@@ -15,9 +15,9 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/390/production> ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/390> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756827/full/full/0/default.jpg> ;
-    rdf:value """takes all my time and energy to keep him in a good humour. Men are all like that, I suppose” - a gentle sigh. We walked in the Cascine, I worked in the evening, while Bernhard called on the Forbes.“ Corso dei Fiori .
-S unday April 16. 1893. Florence
-Catalogue. Bernhard took Mrs. Bywater to the Uffizi, but he surprised me first by a very early visit to announce that his article on Carl Frey had been accepted by the Editor of the Nation and pronounced “very acceptable”. Also a certain Mr. Theodore Davishas written to him asking him to come at once to Rome and advise him about buying certain pictures - for a payment, of course. It may be an opening. We worked and worked and took a little walk in the Cascine - Bernhard dined with the Bywaters and Senator Comparetti. I dined alone at Doney’s. Their five franc dinner is a fraud! I read “ La Maison Tellier .”Bernhard is reading  Symonds ’ Vol. on “ The Fine Arts”  and I Vol. II of his “ Italian Literature . ”Costa came in the evening, stayed till midnight. He starts for Paris tomorrow."""^^xsd:string ;
+    rdf:value """takes all my time and energy to keep him in a good humour. Men are all like that, I suppose” - a gentle sigh. We walked in the Cascine, I worked in the evening, while Bernhard called on the Forbes.“Corso dei Fiori.
+Sunday April 16. 1893. Florence
+Catalogue. Bernhard took Mrs. Bywater to the Uffizi, but he surprised me first by a very early visit to announce that his article on Carl Frey had been accepted by the Editor of the Nation and pronounced “very acceptable”. Also a certain Mr. Theodore Davishas written to him asking him to come at once to Rome and advise him about buying certain pictures - for a payment, of course. It may be an opening. We worked and worked and took a little walk in the Cascine - Bernhard dined with the Bywaters and Senator Comparetti. I dined alone at Doney’s. Their five franc dinner is a fraud! I read “La Maison Tellier.”Bernhard is reading Symonds’ Vol. on “The Fine Arts” and I Vol. II of his “Italian Literature.”Costa came in the evening, stayed till midnight. He starts for Paris tomorrow."""^^xsd:string ;
     mbdiaries-ontology:index 390 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -31,7 +31,7 @@ Catalogue. Bernhard took Mrs. Bywater to the Uffizi, but he surprised me first b
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/390/production/timespan> a crm:E52_Time_Span ;
     crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-04-16> ;
     mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
-    mbdiaries-ontology:original_date_text "S unday April 16. 1893. Florence..."^^xsd:string .
+    mbdiaries-ontology:original_date_text "Sunday April 16. 1893. Florence..."^^xsd:string .
 
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/390> a Platform:File,
         ldp:Resource,
@@ -40,7 +40,7 @@ Catalogue. Bernhard took Mrs. Bywater to the Uffizi, but he surprised me first b
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_390.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-04-16> .
 

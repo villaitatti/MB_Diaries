@@ -33,8 +33,8 @@ Trials of a Country Parson. Jessop
 The Massage Case C. Burnett
 Romance of a French Parsonage Betham-Edwards
 Gallagher and Other Stories Davis
-Hotel d’Angleterr ,  etc. Falconer
-The World’s Disease  -  Haggard Lang
+Hotel d’Angleterr, etc. Falconer
+The World’s Disease - Haggard Lang
 Hauntings,
 Amour Dure
 di Vernon Lee
@@ -76,7 +76,7 @@ Pitti in the morning. Bernhard wrote as usual and I gave Emma a rest, as she was
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_254.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1992-04-10> .
 

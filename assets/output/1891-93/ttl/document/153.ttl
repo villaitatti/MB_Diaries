@@ -14,7 +14,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "153"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/153> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756478/full/full/0/default.jpg> ;
-    rdf:value "outside and the Bassanis painting in the churches and gallery. There is very little in the churches, but the gallery is delightful. No gallery is better lighted, or with a nicer custode, and in the long room there is scarcely anything that is rubbish. Jacopo Bassano has nearly 20 pictures there, many of them among his very, very best. We saw Ruskin’s and Browning’s signatures in the visitors’ book. But the astonishing thing was the look of the town  An early train took us to Bassano, where we spent the morning imbibing Bassanesque views [153] outside and the Bassanis painting in the churches and gallery. There is very little in the churches, but the gallery is delightful. No gallery is better lighted, or with a nicer custode, and in the long room there is scarcely anything that is rubbish. Jacopo Bassano has nearly 20 pictures there, many of them among his very, very best. We saw Ruskin’s and Browning’s signatures in the visitors’ book. But the astonishing thing was the look of the town "^^xsd:string ;
+    rdf:value "outside and the Bassanis painting in the churches and gallery. There is very little in the churches, but the gallery is delightful. No gallery is better lighted, or with a nicer custode, and in the long room there is scarcely anything that is rubbish. Jacopo Bassano has nearly 20 pictures there, many of them among his very, very best. We saw Ruskin’s and Browning’s signatures in the visitors’ book. But the astonishing thing was the look of the town An early train took us to Bassano, where we spent the morning imbibing Bassanesque views [153] outside and the Bassanis painting in the churches and gallery. There is very little in the churches, but the gallery is delightful. No gallery is better lighted, or with a nicer custode, and in the long room there is scarcely anything that is rubbish. Jacopo Bassano has nearly 20 pictures there, many of them among his very, very best. We saw Ruskin’s and Browning’s signatures in the visitors’ book. But the astonishing thing was the look of the town"^^xsd:string ;
     mbdiaries-ontology:index 153 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -28,6 +28,6 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_153.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

@@ -17,7 +17,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdf:value """a Rembrandt. It is so firm and free from effects of atmosphere.
 Finally I shall scarcely forget a little landscape by the elder Vermeer, a thing severe, quiet, with plenty of sky and spaciousness.
 In the afternoon we were in the fast express to Berlin, reading Motley and studying German as we rushed thro’ the pretty towns, or past woods of white birch.
-[0087-0088: small notes written by Bernhard  using a fountain pen with an Italic nib]
+[0087-0088: small notes written by Bernhard  using a fountain pen with an Italic nib]
 [recto 0087]
 Some people answer as if they were shutting the door with a bang.
 Mothers …
@@ -42,6 +42,6 @@ Feminine saint of type of 3 dancing women. This is on way to coronation in the l
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_90.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

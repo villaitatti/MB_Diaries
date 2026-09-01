@@ -17,11 +17,11 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756815/full/full/0/default.jpg> ;
     rdf:value """about Christina’s newspaper experiences, and rather despairingly about Bernhard’s books. After dinner Bernhard called on the Forbes and Christina and I chatted about her trip, etc.
 Sunday March 26. 1893. Florence
-Went to the Bargello, which Christina enjoyed. Wrote home. Bernhard called on Mr. Benson and talked about Signorelli, and wrote to his sister. After tea we walked on Bellosguardo and after dinner read  Browning .
-* 
+Went to the Bargello, which Christina enjoyed. Wrote home. Bernhard called on Mr. Benson and talked about Signorelli, and wrote to his sister. After tea we walked on Bellosguardo and after dinner read Browning.
+*
 Monday March 27. 1893.
 Duomo and Annunziata and Innocenti in the morning. Saw a Luca della Robbia in the Innocenti we had never studied before, a great beauty! Worked on Lotto.
-Walked to San Miniato, and worked on Lotto again. Read aloud  Ghosts  (Ibsen) in the evening, while Bernhard looked at photographs. Christina calls him “The Law” or else “The Eternal Light”. He has been deliciously entertaining ever since she has been here. A third person often wakes up conversation. Two people alone tend to become quiet."""^^xsd:string ;
+Walked to San Miniato, and worked on Lotto again. Read aloud Ghosts (Ibsen) in the evening, while Bernhard looked at photographs. Christina calls him “The Law” or else “The Eternal Light”. He has been deliciously entertaining ever since she has been here. A third person often wakes up conversation. Two people alone tend to become quiet."""^^xsd:string ;
     mbdiaries-ontology:index 382 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -44,7 +44,7 @@ Walked to San Miniato, and worked on Lotto again. Read aloud  Ghosts  (Ibsen) in
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_382.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-03-26> .
 

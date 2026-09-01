@@ -14,8 +14,8 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "149"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/149> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756473/full/full/0/default.jpg> ;
-    rdf:value """are alone worth a visit. At the corners are towers, of which Cima or Carpaccio’s most wild dreams of fortifications are not too wild. But  s o picturesque, so quaint, so really beautiful, with the circle of lines and the broad grassy moat, with the narrow stream of water with the women washing and the geese and turkeys and donkeys cropping the grass. Then we found Buonconsiglio in his glory!
-After Montagnana we went to Rovigo, but I draw a veil, for the gallery there was a fraud., the town was not pretty - our train did not start till after 8 - and we were """^^xsd:string ;
+    rdf:value """are alone worth a visit. At the corners are towers, of which Cima or Carpaccio’s most wild dreams of fortifications are not too wild. But so picturesque, so quaint, so really beautiful, with the circle of lines and the broad grassy moat, with the narrow stream of water with the women washing and the geese and turkeys and donkeys cropping the grass. Then we found Buonconsiglio in his glory!
+After Montagnana we went to Rovigo, but I draw a veil, for the gallery there was a fraud., the town was not pretty - our train did not start till after 8 - and we were"""^^xsd:string ;
     mbdiaries-ontology:index 149 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -29,6 +29,6 @@ After Montagnana we went to Rovigo, but I draw a veil, for the gallery there was
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_149.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

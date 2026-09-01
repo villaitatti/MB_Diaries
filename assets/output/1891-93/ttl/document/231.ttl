@@ -14,7 +14,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdfs:label "231"^^xsd:string ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/231> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756588/full/full/0/default.jpg> ;
-    rdf:value "the successes. Yet when we grow old, we won’t look back upon our famous books, on the flattery we have had, but to our early loves, to our real enjoyments , perhaps after those in which the intellect has had little part. I shall never forget the charm of these days, not only for the awakening of my intellect, delightful as it is to begin to think freely, but because Bernhard looked in such and such a way, and spoke in sweet, deep tones, and because Ray came every evening and laid her selfish little head against my knees, while I read the Wonder Book to her. Ah! How happy, happy I am. Truly this is a marvellous year. There is only one cloud, and that is that in spite of our promises, we never seem to work upon our Hampton Court Guide. We planned to do so much this winter, and Bernhard has often promised he would have it ready for me to take back to London when I go - but I doubt it - Alas! it will make everything much, much harder for me. Still I could bear that well enough it I were really convinced that it is not worth spending time over, but I am not convinced of that."^^xsd:string ;
+    rdf:value "the successes. Yet when we grow old, we won’t look back upon our famous books, on the flattery we have had, but to our early loves, to our real enjoyments, perhaps after those in which the intellect has had little part. I shall never forget the charm of these days, not only for the awakening of my intellect, delightful as it is to begin to think freely, but because Bernhard looked in such and such a way, and spoke in sweet, deep tones, and because Ray came every evening and laid her selfish little head against my knees, while I read the Wonder Book to her. Ah! How happy, happy I am. Truly this is a marvellous year. There is only one cloud, and that is that in spite of our promises, we never seem to work upon our Hampton Court Guide. We planned to do so much this winter, and Bernhard has often promised he would have it ready for me to take back to London when I go - but I doubt it - Alas! it will make everything much, much harder for me. Still I could bear that well enough it I were really convinced that it is not worth spending time over, but I am not convinced of that."^^xsd:string ;
     mbdiaries-ontology:index 231 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -28,6 +28,6 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_231.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

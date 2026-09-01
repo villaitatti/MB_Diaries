@@ -15,7 +15,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/84> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756393/full/full/0/default.jpg> ;
     rdf:value """Monday August 17. 9
-Went to the gallery in the forenoon, and found that a hail-storm a month ago had smashed the glass-roofs of the large halls, and that the pictures in them therefore were invisible. But we told the custodian we must see them even in the dark. He took us on tiptoe to the Palma, and left us at our request. As we were going out we bumped against two officials. Mutual surprise. They tried to be indignant, then assured us we had risked our lives, because glass was still falling from the roofs. Told them they must know well that when you """^^xsd:string ;
+Went to the gallery in the forenoon, and found that a hail-storm a month ago had smashed the glass-roofs of the large halls, and that the pictures in them therefore were invisible. But we told the custodian we must see them even in the dark. He took us on tiptoe to the Palma, and left us at our request. As we were going out we bumped against two officials. Mutual surprise. They tried to be indignant, then assured us we had risked our lives, because glass was still falling from the roofs. Told them they must know well that when you"""^^xsd:string ;
     mbdiaries-ontology:index 84 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -29,6 +29,6 @@ Went to the gallery in the forenoon, and found that a hail-storm a month ago had
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_84.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

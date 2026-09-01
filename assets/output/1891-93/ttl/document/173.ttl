@@ -15,7 +15,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/173> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756510/full/full/0/default.jpg> ;
     rdf:value """me so, for he looked so limp and eager for advice, that I only said - “Whatever you would really enjoy. Metaphysics, if you think you would like it” - and fled.
-[a newspaper clipping is pasted down,  containing extracts from E. de Goncourt]
+[a newspaper clipping is pasted down,  containing extracts from E. de Goncourt]
 E. de Goncourt"""^^xsd:string ;
     mbdiaries-ontology:index 173 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
@@ -30,6 +30,6 @@ E. de Goncourt"""^^xsd:string ;
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_173.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

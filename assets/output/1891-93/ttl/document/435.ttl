@@ -16,12 +16,12 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/435> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756909/full/full/0/default.jpg> ;
     rdf:value """What he does in private he very seldom does in public, as both the Michaels and Maude noticed last summer. There is absolutely no use in letting it go on. Of course if after such an outbreak he should say, “Forgive me for being so rough. I did not notice you were busy,” I could not hold out. But instead he blames me for being silent, calls me unsociable, complains of my beastly temper and goes off in a huff. Naturally, all this makes it more than easy for me to hold to my plan of showing displeasure when he is brutally rude!
-Today has been spent in getting settled. Bernhard read “ Guy Mannering ”
+Today has been spent in getting settled. Bernhard read “Guy Mannering”
 If he will suggest to me some method of curing him of this bad habit of anger - something less painful (for I am going to bed very unhappy), I shall gladly try it.
 Friday and Saturday Nov. 17-18. ‘93. Florence
-Quite rainy days of reading and writing. Went to Uffizi. Reading  Dante , Graf’s “ Attraverso il Cinquecento ,” and Ruskin. Bernhard reading  Dante  and  Vasari .I began an article on the new Morelli translation.
+Quite rainy days of reading and writing. Went to Uffizi. Reading Dante, Graf’s “Attraverso il Cinquecento,” and Ruskin. Bernhard reading Dante and Vasari.I began an article on the new Morelli translation.
 Sunday Nov. 19. ‘93. Florence
-Ray said she got mixed up with all the people she had to name. “There’s father, that’s one; Miss Clare, two; Mary, 3; Grandma Smith, 4; Grandma Costelloe, 5; Karin, 6.” “But which does thee love the best?” Without a moment’s hesitation she said, “The one that begins with M.” Then turning to Karin, “That’s Mother, you know.” The darling! Received """^^xsd:string ;
+Ray said she got mixed up with all the people she had to name. “There’s father, that’s one; Miss Clare, two; Mary, 3; Grandma Smith, 4; Grandma Costelloe, 5; Karin, 6.” “But which does thee love the best?” Without a moment’s hesitation she said, “The one that begins with M.” Then turning to Karin, “That’s Mother, you know.” The darling! Received"""^^xsd:string ;
     mbdiaries-ontology:index 435 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -44,7 +44,7 @@ Ray said she got mixed up with all the people she had to name. “There’s fath
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_435.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1993-11-19> .
 

@@ -15,10 +15,10 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/339/production> ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/339> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756760/full/full/0/default.jpg> ;
-    rdf:value """Gagliardi’s Pier di Cosimo. Bernhard says he is one of the profoundest thinkers of our generation. I saw the Mikes and they were so comforting and sympathetic. I spent Thursday in Paris with Maude, and reached here at 6.40 this evening. I went to the Brera in the morning, between trains. We were  so  glad to see each other that is it no use speaking of it!
-*  Sunday. Jan. 1. 1893.  Florence
-Read and walked up to San Miniato and enjoyed ourselves. We have both read  Ranke’s History of the Popes , and Bernhard has read Philippson’s  History of the Counter Reformation . I am hurrying up to learn German so that I can read it, and fill up the intellectual gulf that my ignorance of German creates between us. He has also read  Merimée ’s novel about  Charles IX .
-*  Monday. Jan. 2. 1893. 
+    rdf:value """Gagliardi’s Pier di Cosimo. Bernhard says he is one of the profoundest thinkers of our generation. I saw the Mikes and they were so comforting and sympathetic. I spent Thursday in Paris with Maude, and reached here at 6.40 this evening. I went to the Brera in the morning, between trains. We were so glad to see each other that is it no use speaking of it!
+* Sunday. Jan. 1. 1893.  Florence
+Read and walked up to San Miniato and enjoyed ourselves. We have both read Ranke’s History of the Popes,and Bernhard has read Philippson’s History of the Counter Reformation.I am hurrying up to learn German so that I can read it, and fill up the intellectual gulf that my ignorance of German creates between us. He has also read Merimée’s novel about Charles IX.
+* Monday. Jan. 2. 1893.
 Read Ibsen’s new Play, “Master Builder Solness,”but did not quite see through it. Walked and talked and were happy."""^^xsd:string ;
     mbdiaries-ontology:index 339 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
@@ -33,7 +33,7 @@ Read Ibsen’s new Play, “Master Builder Solness,”but did not quite see thro
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/339/production/timespan> a crm:E52_Time_Span ;
     crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-01-01> ;
     mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
-    mbdiaries-ontology:original_date_text "*  Sunday. Jan. 1. 1893.  Florence..."^^xsd:string .
+    mbdiaries-ontology:original_date_text "* Sunday. Jan. 1. 1893.  Florence..."^^xsd:string .
 
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/339> a Platform:File,
         ldp:Resource,
@@ -42,7 +42,7 @@ Read Ibsen’s new Play, “Master Builder Solness,”but did not quite see thro
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_339.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-01-01> .
 

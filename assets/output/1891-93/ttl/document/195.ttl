@@ -18,7 +18,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
 More than all thee could hope to gain pecuniarily by self support would be lost by the expenses and inconveniences of a separated life. I earnestly advise thee to make the best of thy home. Thee made a false step by refusing the counsel of thy parents and it has turned out only less bad than we expected. And now at this crisis of thy life, yet more earnestly and with far more certainty as to the terrible results, we entreat thee not to desert thy children and family, and involve us all in social ruin. In thy conspicuous position, concealment of the facts of thy absence and the circumstances of thy travelling cannot be hoped for.
 In much sorrow, but also much love
 Thy Father
-“I would simply say to her, use thy allowance decently and not against the primary instincts of nature. It is thine, but not to ruin us all by buying dynamite.” I cannot think it """^^xsd:string ;
+“I would simply say to her, use thy allowance decently and not against the primary instincts of nature. It is thine, but not to ruin us all by buying dynamite.” I cannot think it"""^^xsd:string ;
     mbdiaries-ontology:index 195 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -32,6 +32,6 @@ Thy Father
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_195.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

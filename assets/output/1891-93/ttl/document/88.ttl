@@ -17,7 +17,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     rdf:value """and bride groom are charming beyond words.
 Other things never to be forgotten are the Vermeer and some of the Rembrandts.
 The Vermeer had that wonderful purity and tenderness of colouring which makes his work seem so much like the finest porcelain. In this as in the other pictures, the same light blue, the same tints of sage and pea green, and the same effects of atmosphere.
-The most fascinating Rembrandt is the landscape. One would like to know where he got such a landscape. It is a scene for some strange mysterious tale in Stevenson’s best fashion. Scarcely """^^xsd:string ;
+The most fascinating Rembrandt is the landscape. One would like to know where he got such a landscape. It is a scene for some strange mysterious tale in Stevenson’s best fashion. Scarcely"""^^xsd:string ;
     mbdiaries-ontology:index 88 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -31,6 +31,6 @@ The most fascinating Rembrandt is the landscape. One would like to know where he
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_88.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

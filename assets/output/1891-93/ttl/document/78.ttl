@@ -15,7 +15,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/78> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756387/full/full/0/default.jpg> ;
     rdf:value """Paul Potter, etc. Scoorel. Saw a wonderful majolica plate, with a round representation of a scene somewhat similar to Botticelli’s “Calumny”. Very Timote-esque. The coat of arms was like this:[drawing]
-Lunched at Krasnapolski’s - good coffee. Went to the Six gallery (Heerengracht 511) and saw two Vanmeer van Delft’s - a woman pouring out water, and a street scene. This makes 11 of his pictures which B. has seen, e. g., 1 at the Hague, """^^xsd:string ;
+Lunched at Krasnapolski’s - good coffee. Went to the Six gallery (Heerengracht 511) and saw two Vanmeer van Delft’s - a woman pouring out water, and a street scene. This makes 11 of his pictures which B. has seen, e. g., 1 at the Hague,"""^^xsd:string ;
     mbdiaries-ontology:index 78 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -29,6 +29,6 @@ Lunched at Krasnapolski’s - good coffee. Went to the Six gallery (Heerengracht
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_78.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

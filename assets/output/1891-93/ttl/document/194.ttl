@@ -16,7 +16,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756536/full/full/0/default.jpg> ;
     rdf:value """14.I. 92.
 My dear daughter,
-Thine with reference to income is at hand. All this can be left until the spring, when I earnestly trust thee will return with thy children. Whatever I may wish to do for my children, I have nothing at command at present beyond what I have been appropriating for them, and this as thee knows has often been with extreme difficulty and inconvenience. It would be social ruin for thee and measureless suffering to thy family for thee to remain when thy children return, and I can contemplate no arrangement save of thy return. Families are dependent on their members reciprocally, and dependence (if it be nothing but pecuniary dependence) and independence do not go together. No claims of selfhood equal those made by parentage while children are young. """^^xsd:string ;
+Thine with reference to income is at hand. All this can be left until the spring, when I earnestly trust thee will return with thy children. Whatever I may wish to do for my children, I have nothing at command at present beyond what I have been appropriating for them, and this as thee knows has often been with extreme difficulty and inconvenience. It would be social ruin for thee and measureless suffering to thy family for thee to remain when thy children return, and I can contemplate no arrangement save of thy return. Families are dependent on their members reciprocally, and dependence (if it be nothing but pecuniary dependence) and independence do not go together. No claims of selfhood equal those made by parentage while children are young."""^^xsd:string ;
     mbdiaries-ontology:index 194 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -30,6 +30,6 @@ Thine with reference to income is at hand. All this can be left until the spring
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_194.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> .
 

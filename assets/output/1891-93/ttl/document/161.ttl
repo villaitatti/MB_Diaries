@@ -15,7 +15,7 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/161/production> ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/161> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756496/full/full/0/default.jpg> ;
-    rdf:value """ * Friday Nov. 6. ‘91  Pension Lejeune, Maximilianplatz 4 Vienna
+    rdf:value """* Friday Nov. 6. ‘91  Pension Lejeune, Maximilianplatz 4 Vienna
 We found nice rooms here taken for us all -Then we went to the Museum - !
 x x x x x x x x x
 “Faster, faster
@@ -27,7 +27,7 @@ Sweep through my soul.”
 x x x x x x x x x
 I had a nice long talk with Janet Morison in the afternoon.
 Saturday Nov. 7. ’91. Vienna
-At home with a dreadful cold. B. and Costa went to call on Wyckhoff. [ sic ]
+At home with a dreadful cold. B. and Costa went to call on Wyckhoff. [sic]
 Sunday Nov. 8. ’91. Vienna
 Cold worse. Could not use eyes. Janet to call."""^^xsd:string ;
     mbdiaries-ontology:index 161 ;
@@ -52,7 +52,7 @@ Cold worse. Could not use eyes. Janet to call."""^^xsd:string ;
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_161.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1991-11-07> .
 

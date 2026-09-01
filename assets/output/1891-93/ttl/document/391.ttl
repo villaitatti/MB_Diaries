@@ -15,15 +15,15 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P108i_was_produced_by <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/391/production> ;
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/391> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756829/full/full/0/default.jpg> ;
-    rdf:value """ Monday April 17. 1893.
+    rdf:value """Monday April 17. 1893.
 Bernhard started for Rome at 6.35 in the morning. I “magazined” his Carl Frey in the morning. After lunch I took Miss Lohse to the Pitti and gave her tea here. Then finished my “magazining”, had dinner, and worked on the Catalogue.
-T uesday April 18. 1893. 
+Tuesday April 18. 1893.
 Unwell.
 Worked all day, on catalogue, story “Crabbed Age”, and other things. Bernhard still in Rome.
 Wednesday April 19. 1893.
 Still at work. Bernhard returned at 9, and had great stories to tell of his millionaire Americans. Mr. Davis was going to pay £12,000 (!) for four utterly worthless pictures, which Bernhard saved him from. They were very amusing, and very American.
 Thursday April 20. 1893.
-We worked all day till 5, going over the Catalogue, sorting photographs, etc., etc. Then Bernhard went to call on “Vernon Lee” """^^xsd:string ;
+We worked all day till 5, going over the Catalogue, sorting photographs, etc., etc. Then Bernhard went to call on “Vernon Lee”"""^^xsd:string ;
     mbdiaries-ontology:index 391 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
 
@@ -37,7 +37,7 @@ We worked all day till 5, going over the Catalogue, sorting photographs, etc., e
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/391/production/timespan> a crm:E52_Time_Span ;
     crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1893-04-17> ;
     mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
-    mbdiaries-ontology:original_date_text " Monday April 17. 1893...."^^xsd:string .
+    mbdiaries-ontology:original_date_text "Monday April 17. 1893...."^^xsd:string .
 
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/391> a Platform:File,
         ldp:Resource,
@@ -46,7 +46,7 @@ We worked all day till 5, going over the Catalogue, sorting photographs, etc., e
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_391.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1893-04-17> .
 

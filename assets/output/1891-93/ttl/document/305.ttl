@@ -16,9 +16,9 @@ Platform:fileContainer ldp:contains <https://mbdiaries.itatti.harvard.edu/diary/
     crm:P129i_is_subject_of <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/305> ;
     crm:P183i_has_representation <https://ids.lib.harvard.edu/ids/iiif/420756715/full/full/0/default.jpg> ;
     rdf:value """After lunch we went to the Gallery and then to the Duomo and took the 5.14 train to Venice. An American mother and daughter were in our carriage. We exchanged a few words with them. Their only idea of travelling was evidently scenery, and they compared Italy unfavourably with America and Switzerland.
-x Ve nice. Friday Sept. 30. 1892.
-Spent the morning in San Marco and the Doge’s Palace. I was tired in the afternoon and stayed in but Bernhard went to the Gallery. Read  CharlesV .  Bernhard is reading  Balbo’s History of Italy ,and finds it good, though absurdly old-fashioned.
-> Ven ice Saturday Oct. 1. 1892.
+x Venice. Friday Sept. 30. 1892.
+Spent the morning in San Marco and the Doge’s Palace. I was tired in the afternoon and stayed in but Bernhard went to the Gallery. Read CharlesV.  Bernhard is reading Balbo’s History of Italy,and finds it good, though absurdly old-fashioned.
+> Venice Saturday Oct. 1. 1892.
 San Marco, San Giovanni in Bragora, the Scuola di San Giorgio Schiavoni, San Francesco della Vigna, San Giovanni e Paolo, and Santa Maria Formosa in the morning. San Giorgio Maggiore and San Giuseppe in Castello in the afternoon, and a gondola ride. Met the Americans being hurried about by a courier. Wrote our Morelli article."""^^xsd:string ;
     mbdiaries-ontology:index 305 ;
     mbdiaries-ontology:part_of <https://mbdiaries.itatti.harvard.edu/resource/diary/1891-93> .
@@ -33,7 +33,7 @@ San Marco, San Giovanni in Bragora, the Scuola di San Giorgio Schiavoni, San Fra
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/page/305/production/timespan> a crm:E52_Time_Span ;
     crm:P86_falls_within <https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-30> ;
     mbdiaries-ontology:date_confidence "medium"^^xsd:string ;
-    mbdiaries-ontology:original_date_text "x Ve nice. Friday Sept. 30. 1892...."^^xsd:string .
+    mbdiaries-ontology:original_date_text "x Venice. Friday Sept. 30. 1892...."^^xsd:string .
 
 <https://mbdiaries.itatti.harvard.edu/diary/1891-93/document/305> a Platform:File,
         ldp:Resource,
@@ -42,7 +42,7 @@ San Marco, San Giovanni in Bragora, the Scuola di San Giorgio Schiavoni, San Fra
     Platform:fileContext <http://www.researchspace.org/resource/TextDocuments> ;
     Platform:fileName "1891-93_305.html"^^xsd:string ;
     Platform:mediaType "form-data"^^xsd:string ;
-    prov:generatedAtTime "2025-11-13T11:40:12"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-06-18T10:32:58"^^xsd:dateTime ;
     prov:wasAttributedTo <http://www.researchspace.org/resource/admin> ;
     mbdiaries-ontology:has_date <https://mbdiaries.itatti.harvard.edu/resource/date/1892-09-30> .
 
