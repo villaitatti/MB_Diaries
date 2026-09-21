@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-02T09:03:06.327053+00:00",
+  "docx": "assets/input/1936/1936.docx",
+  "fixes_file": "assets/input/1936/1936_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1936-0001",
+      "page": 275,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "arding Street W.I",
+      "replace": "arding Street W. I",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

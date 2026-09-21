@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-02T09:03:04.663547+00:00",
+  "docx": "assets/input/1927/1927.docx",
+  "fixes_file": "assets/input/1927/1927_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1927-0001",
+      "page": 69,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "meeting there M.lle Sotiriadi. ",
+      "replace": "meeting there M. lle Sotiriadi. ",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-02T09:03:05.999637+00:00",
+  "docx": "assets/input/1935/1935.docx",
+  "fixes_file": "assets/input/1935/1935_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1935-0001",
+      "page": 140,
+      "note": "missing space after ',' (AUTO)",
+      "find": "d keen and kind,but was powerin",
+      "replace": "d keen and kind, but was powerin",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1935-0002",
+      "page": 385,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "Lucy P.Servants",
+      "replace": "Lucy P. Servants",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

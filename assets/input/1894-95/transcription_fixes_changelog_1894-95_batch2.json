@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-09-02T09:02:58.283400+00:00",
+  "docx": "assets/input/1894-95/1894-95.docx",
+  "fixes_file": "assets/input/1894-95/1894-95_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1894-95-0001",
+      "page": 17,
+      "note": "missing space after '.' (AUTO)",
+      "find": "lessons from me.I went to lunch",
+      "replace": "lessons from me. I went to lunch",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1894-95-0002",
+      "page": 31,
+      "note": "missing space after '.' (AUTO)",
+      "find": "th Mr. Hamilton.Vernon Lee is f",
+      "replace": "th Mr. Hamilton. Vernon Lee is f",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1894-95-0003",
+      "page": 32,
+      "note": "missing space after '.' (AUTO)",
+      "find": "riving, talking.Vernon Lee this",
+      "replace": "riving, talking. Vernon Lee this",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1894-95-0004",
+      "page": 40,
+      "note": "missing space after '.' (AUTO)",
+      "find": ". April 8. 1894.Florence",
+      "replace": ". April 8. 1894. Florence",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1894-95-0005",
+      "page": 43,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "pril 14. Maiano.1894,1894.",
+      "replace": "pril 14. Maiano. 1894,1894.",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1894-95-0006",
+      "page": 82,
+      "note": "missing space after '.' (AUTO)",
+      "find": "nne de Bretagne.Then we went to",
+      "replace": "nne de Bretagne. Then we went to",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1894-95-0007",
+      "page": 90,
+      "note": "missing space after '.' (AUTO)",
+      "find": "ay. Jan. 20. 95.Milano. Florenc",
+      "replace": "ay. Jan. 20. 95. Milano. Florenc",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1894-95-0008",
+      "page": 96,
+      "note": "missing space after '.' (AUTO)",
+      "find": "Snow and wind.We carried on o",
+      "replace": "Snow and wind. We carried on o",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1894-95-0009",
+      "page": 125,
+      "note": "missing space after '.' (AUTO)",
+      "find": "erence it makes.The Michael Fie",
+      "replace": "erence it makes. The Michael Fie",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1894-95-0010",
+      "page": 208,
+      "note": "missing space after '.' (AUTO)",
+      "find": "York and Boston.We read part of",
+      "replace": "York and Boston. We read part of",
+      "status": "APPLIED"
+    }
+  ]
+}

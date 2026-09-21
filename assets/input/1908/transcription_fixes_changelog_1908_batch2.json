@@ -1,0 +1,143 @@
+{
+  "generated_at": "2026-09-02T09:03:02.169695+00:00",
+  "docx": "assets/input/1908/1908.docx",
+  "fixes_file": "assets/input/1908/1908_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1908-0001",
+      "page": 75,
+      "note": "missing space after ',' (AUTO)",
+      "find": "iet day of work,with a long wal",
+      "replace": "iet day of work, with a long wal",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0002",
+      "page": 83,
+      "note": "missing space after '.' (AUTO)",
+      "find": "Worked.Bernhard finish",
+      "replace": "Worked. Bernhard finish",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0004",
+      "page": 90,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": " see P.ce and P.cess Marcel Cza",
+      "replace": " see P.ce and P. cess Marcel Cza",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1908-0003",
+      "page": 90,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "was in to see P.ce and P.cess M",
+      "replace": "was in to see P. ce and P.cess M",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1908-0005",
+      "page": 91,
+      "note": "missing space after '.' (AUTO)",
+      "find": "nd awfully nice.Returned to fin",
+      "replace": "nd awfully nice. Returned to fin",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0006",
+      "page": 109,
+      "note": "missing space after '.' (AUTO)",
+      "find": "her fourth baby.Scott and I din",
+      "replace": "her fourth baby. Scott and I din",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0007",
+      "page": 119,
+      "note": "missing space after '.' (AUTO)",
+      "find": "wo for sleeping.We felt we were",
+      "replace": "wo for sleeping. We felt we were",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0008",
+      "page": 121,
+      "note": "missing space after '.' (AUTO)",
+      "find": "p at the Uffizi.Chatted in even",
+      "replace": "p at the Uffizi. Chatted in even",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0009",
+      "page": 135,
+      "note": "missing space after '.' (AUTO)",
+      "find": "e Sicilian trip.The Lawsons cal",
+      "replace": "e Sicilian trip. The Lawsons cal",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0010",
+      "page": 204,
+      "note": "missing space after '.' (AUTO)",
+      "find": "hopped a little.Bernhard went t",
+      "replace": "hopped a little. Bernhard went t",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0011",
+      "page": 215,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": " fierce dog. No.1 said, “Go alo",
+      "replace": " fierce dog. No. 1 said, “Go alo",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0014",
+      "page": 262,
+      "note": "missing space after '.' (AUTO)",
+      "find": "ps://www.bbc.co.uk/events/e6b4w",
+      "replace": "ps://www.bbc.co. uk/events/e6b4w",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0013",
+      "page": 262,
+      "note": "missing space after '.' (AUTO)",
+      "find": "https://www.bbc.co.uk/events/e6",
+      "replace": "https://www.bbc. co.uk/events/e6",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0012",
+      "page": 262,
+      "note": "missing space after '.' (AUTO)",
+      "find": "g. [https://www.bbc.co.uk/event",
+      "replace": "g. [https://www. bbc.co.uk/event",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0015",
+      "page": 289,
+      "note": "missing space after '.' (AUTO)",
+      "find": "n, Ellie Rendel.Packed. Lunched",
+      "replace": "n, Ellie Rendel. Packed. Lunched",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0016",
+      "page": 290,
+      "note": "missing space after '.' (AUTO)",
+      "find": "wfully sea-sick.However, I was ",
+      "replace": "wfully sea-sick. However, I was ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1908-0017",
+      "page": 390,
+      "note": "missing space after '.' (AUTO)",
+      "find": "eppina Raimondi.La Raimondi, on",
+      "replace": "eppina Raimondi. La Raimondi, on",
+      "status": "APPLIED"
+    }
+  ]
+}

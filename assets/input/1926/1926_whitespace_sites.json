@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ws-1926-0001",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 129,
+    "offset": 79,
+    "punct": ".",
+    "page": 15,
+    "left": "ng Oxford man sent by H.A",
+    "right": "L Fisher) to Pistoia. We ",
+    "find": "man sent by H.A.L Fisher) to Pi",
+    "replace": "man sent by H.A. L Fisher) to Pi",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  },
+  {
+    "id": "ws-1926-0002",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 820,
+    "offset": 63,
+    "punct": ".",
+    "page": 75,
+    "left": "ary unpleasantness with B",
+    "right": "B, who wakes cross (poor ",
+    "find": "santness with B.B, who wakes cr",
+    "replace": "santness with B. B, who wakes cr",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  },
+  {
+    "id": "ws-1926-0003",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 895,
+    "offset": 97,
+    "punct": ".",
+    "page": 82,
+    "left": "w will she find her Y.M.C",
+    "right": "A friends?",
+    "find": " find her Y.M.C.A friends?",
+    "replace": " find her Y.M.C. A friends?",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-02T09:02:59.783836+00:00",
+  "docx": "assets/input/1899-02/1899-02.docx",
+  "fixes_file": "assets/input/1899-02/1899-02_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1899-02-0001",
+      "page": 50,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "Monday May 1st.99. Frullino. F",
+      "replace": "Monday May 1st. 99. Frullino. F",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1899-02-0002",
+      "page": 82,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "aid meant B.F.C.C’s death, poor",
+      "replace": "aid meant B.F.C. C’s death, poor",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

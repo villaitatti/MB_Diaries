@@ -23,7 +23,6 @@ nlp_allowed_types = ['PERSON', "ORG", "LOC"]
 nlp = spacy.load('en_core_web_lg')
 
 regex_date = re.compile(const.regex_date)
-missing_whitespace_pattern = re.compile(const.regex_missing_whitespace)
 
 def download_google_doc(file_id, output_path):
   download_url = f'https://docs.google.com/uc?export=download&id={file_id}'
@@ -37,16 +36,25 @@ def download_google_doc(file_id, output_path):
     print(f'Failed to download document. Status code: {response.status_code}')
 
 
-def _clean_vectors(vectors):
+def _clean_vectors(vectors, regex=None):
   """
   Clean vectors by extracting page markers into separate objects.
 
   Args:
       vectors (list): List of document objects with text and runs.
+      regex (str, optional): this diary's real page-marker pattern (the same
+          one passed to parse_pages). Only a bracketed token that fullmatches
+          THIS pattern is split out into its own paragraph; anything else
+          that merely looks bracket-like (const.regex_page_pattern is
+          deliberately broad, e.g. it also matches inline date-correction
+          annotations like "[11]" in "Sept. 12 [11]. 91") is left exactly
+          where it was, as ordinary text, so it doesn't fracture the
+          sentence it's embedded in. Defaults to parse_pages' own default.
 
   Returns:
       list: New list of vectors with page markers separated.
   """
+  page_pattern = regex if regex else r'\[p?0*\d{,3}\]'
 
   def _update_run_text(run, text):
     new_run = run.copy()  # Or use deepcopy if nested structures exist
@@ -56,10 +64,10 @@ def _clean_vectors(vectors):
   def _clean_paragraph_leading_space(runs):
     """
     Remove leading whitespace from the first run in a paragraph.
-    
+
     Args:
         runs (list): List of runs in a paragraph.
-    
+
     Returns:
         list: Runs with leading whitespace removed from first run.
     """
@@ -68,64 +76,90 @@ def _clean_vectors(vectors):
       first_run = runs[0].copy()
       first_run[const.KEY_VALUE] = first_run[const.KEY_VALUE].lstrip()
       runs[0] = first_run
-    
+
     return runs
+
+  def _run_slices(runs, start, end):
+    """
+    Return copies of the runs overlapping the [start, end) character range of
+    the paragraph's concatenated text, sliced to that range, each preserving
+    its own original formatting (KEY_TYPE).
+
+    This is what lets a page marker be detected even when Google Docs has
+    split it across multiple runs at the character level (e.g. "[", "5",
+    "] " as three separate runs for the marker "[5] ") -- matching used to
+    be done run-by-run, which silently failed to recognize any marker split
+    this way and merged that manuscript page into whichever page came
+    before it.
+    """
+    slices = []
+    pos = 0
+    for run in runs:
+      run_text = run[const.KEY_VALUE]
+      run_start, run_end = pos, pos + len(run_text)
+      pos = run_end
+      seg_start, seg_end = max(start, run_start), min(end, run_end)
+      if seg_start < seg_end:
+        local_start, local_end = seg_start - run_start, seg_end - run_start
+        sliced_text = run_text[local_start:local_end]
+        if sliced_text:
+          slices.append(_update_run_text(run, sliced_text))
+    return slices
 
   new_vectors = []
 
   for vector in vectors[const.key_document]:
     new_vector = {}
     runs = vector[const.KEY_RUNS]
-    
-    for run in runs:
-      text = run[const.KEY_VALUE]
-      matches = list(re.finditer(const.regex_page_pattern, text, flags=re.MULTILINE))
-      
-      # If there is no match, add the current run to the vector
-      if len(matches) == 0:
-        new_vector[const.KEY_RUNS] = [] if const.KEY_RUNS not in new_vector else new_vector[const.KEY_RUNS]
-        new_vector[const.KEY_RUNS].append(run)
-      
-      # Otherwise, split the text into multiple runs
-      else:
-        for match in matches:
-          # add the text before to the current vector, with a run
-          # and store the current vector
-          before_text = text[:match.start()]
-          if before_text:
-            new_vector[const.KEY_RUNS] = [] if const.KEY_RUNS not in new_vector else new_vector[const.KEY_RUNS]
-            new_vector[const.KEY_RUNS].append(_update_run_text(run, before_text))
-            new_vectors.append(new_vector)
-            new_vector = {}
-            
-          # case in which the page marker is the only text in the run
 
-          # if there are other runs stored
-          if const.KEY_RUNS in new_vector and len(new_vector[const.KEY_RUNS]) > 0:
-            new_vectors.append(new_vector)
-            new_vector = {}
-          
-          # Add the page marker to a new vector
-          # and store the current vector
-          match_text = text[match.start():match.end()]
-          new_vector[const.KEY_RUNS] = [_update_run_text(run, match_text)]
+    # Detect page markers against the whole paragraph's concatenated text,
+    # not run-by-run: a marker can be split across multiple runs. Only keep
+    # matches that are real page markers for THIS diary (see docstring) --
+    # anything else stays put, un-split.
+    full_text = ''.join(run[const.KEY_VALUE] for run in runs)
+    matches = [
+        m for m in re.finditer(const.regex_page_pattern, full_text, flags=re.MULTILINE)
+        if re.fullmatch(page_pattern, m.group(0))
+    ]
+
+    if len(matches) == 0:
+      new_vector[const.KEY_RUNS] = list(runs)
+    else:
+      pos = 0
+      for i, match in enumerate(matches):
+        # add the text before the marker to the current vector, with runs
+        # sliced from whichever original runs it spans, and store it
+        before_slices = _run_slices(runs, pos, match.start())
+        if before_slices:
+          new_vector[const.KEY_RUNS] = new_vector.get(const.KEY_RUNS, []) + before_slices
           new_vectors.append(new_vector)
           new_vector = {}
-          
-          # Add the next text to the current vector
-          # The next text should the text until the end of the current text or the start of the next page marker.
-          # Do not store the current vector here, because it may be updated in the next iteration
-          next_match_start = matches[matches.index(match) + 1].start() if matches.index(match) + 1 < len(matches) else len(text)
-          after_text = text[match.end():min(len(text), next_match_start)]
-          if after_text:
-            new_vector[const.KEY_RUNS] = [] if const.KEY_RUNS not in new_vector else new_vector[const.KEY_RUNS]
-            new_vector[const.KEY_RUNS].append(_update_run_text(run, after_text))
+
+        # case in which the page marker is the only text left in new_vector
+        if new_vector.get(const.KEY_RUNS):
+          new_vectors.append(new_vector)
+          new_vector = {}
+
+        # Add the page marker to a new vector and store it
+        new_vector[const.KEY_RUNS] = _run_slices(runs, match.start(), match.end())
+        new_vectors.append(new_vector)
+        new_vector = {}
+
+        # Add the next text to the current vector. The next text is
+        # whatever is between this marker and the next one (or the end of
+        # the paragraph). Do not store the current vector here, because it
+        # may be extended further down when the next paragraph is processed.
+        next_match_start = matches[i + 1].start() if i + 1 < len(matches) else len(full_text)
+        after_slices = _run_slices(runs, match.end(), next_match_start)
+        if after_slices:
+          new_vector[const.KEY_RUNS] = new_vector.get(const.KEY_RUNS, []) + after_slices
+        pos = next_match_start
 
     # Store the current vector if it has not been stored yet
     if new_vector:
       new_vectors.append(new_vector)
       new_vector = {}
-      
+
 
   # Clean leading whitespace from first run in each paragraph and update text
   for vector in new_vectors:
@@ -136,116 +170,17 @@ def _clean_vectors(vectors):
   return {const.key_document: new_vectors}
 
 
-def _fix_missing_whitespace(pages):
+def parse_pages(paragraphs, limit=-1, regex=None, duplicate_report=None):
   """
-  Detect and fix missing whitespace after punctuation within page paragraphs.
-
   Args:
-      pages (OrderedDict): Pages produced by parse_pages.
-
-  Returns:
-      tuple: (pages, log_entries) pages with fixes applied and log entries describing fixes.
+      duplicate_report (list, optional): if given, one dict is appended to it
+          for every page number that appears more than once in the document
+          (`page`, `earlier_occurrence_paragraphs`, `earlier_occurrence_chars`).
+          Duplicate occurrences are merged (never overwritten), but a repeat
+          page number is still almost always a transcription mistake (the
+          same real page shouldn't be marked twice) and is worth surfacing
+          for a human to correct at source.
   """
-
-  log_entries = []
-
-  for page_number, page in pages.items():
-    page_updated = False
-    paragraphs = page.get(const.key_paragraphs, [])
-
-    for paragraph_index, paragraph in enumerate(paragraphs, start=1):
-      runs = paragraph.get(const.KEY_RUNS, [])
-      paragraph_updated = False
-
-      for idx, run in enumerate(runs):
-        value = run.get(const.KEY_VALUE, '')
-        if not value:
-          continue
-
-        matches = list(missing_whitespace_pattern.finditer(value))
-        if not matches:
-          continue
-
-        allowed_positions = set()
-        for match in matches:
-          pos = match.start()
-          prev_char = value[pos - 1] if pos > 0 else ''
-          next_char = value[pos + 1] if pos + 1 < len(value) else ''
-
-          # Skip numeric decimals/timestamps like 9.20
-          if prev_char.isdigit() and next_char.isdigit():
-            continue
-
-          allowed_positions.add(pos)
-
-        if not allowed_positions:
-          continue
-
-        paragraph_updated = True
-        page_updated = True
-        original_value = value
-
-        new_chars = []
-        for char_index, char in enumerate(value):
-          new_chars.append(char)
-          if char_index in allowed_positions:
-            # Insert a space unless already present
-            if char_index + 1 < len(value) and value[char_index + 1] != ' ':
-              new_chars.append(' ')
-
-        new_value = ''.join(new_chars)
-
-        # Update run with new value
-        updated_run = run.copy()
-        updated_run[const.KEY_VALUE] = new_value
-        runs[idx] = updated_run
-
-        # Record log entry for each allowed position
-        for pos in allowed_positions:
-          start = max(0, pos - 20)
-          end = min(len(original_value), pos + 21)
-          context = original_value[start:end].strip()
-          log_entries.append({
-              'page': page_number,
-              'paragraph': paragraph_index,
-              'context': context
-          })
-
-      if paragraph_updated:
-        paragraph[const.KEY_RUNS] = runs
-        paragraph[const.KEY_TEXT] = ''.join(run[const.KEY_VALUE] for run in runs).strip()
-
-    if page_updated:
-      page[const.key_paragraphs] = paragraphs
-      page[const.key_text] = '\n'.join(p[const.KEY_TEXT] for p in paragraphs)
-
-  return pages, log_entries
-
-
-def _write_missing_whitespace_log(log_entries, output_path):
-  """
-  Write missing whitespace log entries to a file for manual review.
-
-  Args:
-      log_entries (list): Entries produced by _fix_missing_whitespace.
-      output_path (str): Directory where the log file should be written.
-  """
-
-  log_path = os.path.join(output_path, 'missing_whitespace_report.log')
-
-  with open(log_path, 'w', encoding='utf-8') as log_file:
-    if not log_entries:
-      log_file.write('No missing whitespace issues detected.\n')
-      return
-
-    log_file.write('Missing whitespace issues detected:\n')
-    for entry in log_entries:
-      log_file.write(
-          f"Page {entry['page']}, Paragraph {entry['paragraph']}: {entry['context']}\n"
-      )
-
-
-def parse_pages(paragraphs, limit=-1, regex=None):
 
   def _get_page_index(paragraph):
     # Extract page index from the page marker
@@ -257,6 +192,18 @@ def parse_pages(paragraphs, limit=-1, regex=None):
   def _save_page(page_content, page_index):
     # Reverse page content order back to normal and store in pages
     page_content.reverse()
+    if page_index in pages:
+      # We walk the document in reverse, so this occurrence is EARLIER in
+      # the document than the one already stored under this page number.
+      # Prepend its content rather than overwriting -- no prose is ever
+      # silently discarded because a marker was duplicated.
+      if duplicate_report is not None:
+        duplicate_report.append({
+            'page': page_index,
+            'earlier_occurrence_paragraphs': len(page_content),
+            'earlier_occurrence_chars': sum(len(p[const.key_text]) for p in page_content),
+        })
+      page_content = page_content + pages[page_index][const.key_paragraphs]
     pages[page_index] = {
         const.key_text: '\n'.join([p[const.key_text] for p in page_content]),
         const.key_paragraphs: page_content
@@ -266,8 +213,7 @@ def parse_pages(paragraphs, limit=-1, regex=None):
     page_pattern = regex
   else:
     page_pattern = r'\[p?0*\d{,3}\]'
-  
-  page_exact_pattern = rf'^{page_pattern}$'
+
   page_index_pattern = re.compile(r'\d+')
   pages = OrderedDict()
   page_content = []
@@ -277,15 +223,17 @@ def parse_pages(paragraphs, limit=-1, regex=None):
     if not paragraph[const.KEY_TEXT]:
       continue
 
-    # Check if the paragraph is a page marker
-    # E.G., "[0255]"
-    if re.search(page_exact_pattern, paragraph[const.KEY_TEXT], flags=re.MULTILINE):
+    # Check if the paragraph IS a page marker, and only that (e.g. "[0255]")
+    # -- the whole (already-stripped) paragraph text must match, not just
+    # some line within it, so a marker sharing a paragraph with real prose
+    # (however that happened) can never take the prose down with it.
+    if re.fullmatch(page_pattern, paragraph[const.KEY_TEXT]):
 
       page_index = _get_page_index(paragraph[const.KEY_TEXT])
-      
+
       _save_page(page_content, page_index)
       page_content = []
-      
+
     # Otherwise, add the paragraph to the current page
     else:
       page_content.append(paragraph)
@@ -296,6 +244,37 @@ def parse_pages(paragraphs, limit=-1, regex=None):
     pages = OrderedDict(list(pages.items())[:limit])
 
   return pages
+
+
+def _write_duplicate_page_report(duplicate_report, input_path, diary):
+  """
+  Write assets/input/<diary>/duplicate_page_markers.md: a diary's page
+  numbers should each occur exactly once. parse_pages() now merges rather
+  than overwrites when one repeats, so no prose is lost, but a repeated
+  number is still almost always a transcription mistake -- surface it here
+  so the real page numbers can be corrected at source.
+  """
+  report_path = os.path.join(input_path, 'duplicate_page_markers.md')
+  if not duplicate_report:
+    if os.path.exists(report_path):
+      os.remove(report_path)
+    return
+
+  lines = [f'# Duplicate page markers — {diary}.docx', '',
+           'Each entry below is a page number that appears more than once in '
+           'the document. The earlier occurrence\'s content has been merged '
+           'onto the later one (no text was discarded), but a repeated page '
+           'number is almost always a transcription mistake -- the two '
+           'occurrences should be given their correct, distinct page numbers '
+           'in the source docx.', '']
+  for entry in duplicate_report:
+    lines.append(
+        f"- page **{entry['page']}**: earlier occurrence merged in "
+        f"({entry['earlier_occurrence_paragraphs']} paragraph(s), "
+        f"{entry['earlier_occurrence_chars']} characters)"
+    )
+  with open(report_path, 'w', encoding='utf-8') as f:
+    f.write('\n'.join(lines) + '\n')
 
 
 def parse_note_1903_serialize_type(type):
@@ -865,14 +844,12 @@ def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest, 
     vec = convert2vec(docx_path)
 
     # Clean vectors
-    vec = _clean_vectors(vec)
+    vec = _clean_vectors(vec, regex=regex)
 
     # Parse pages
-    pages = parse_pages(vec[const.key_document], regex=regex)
-
-    # Fix missing whitespace issues and log them
-    pages, missing_whitespace_log = _fix_missing_whitespace(pages)
-    _write_missing_whitespace_log(missing_whitespace_log, output_path)
+    duplicate_pages = []
+    pages = parse_pages(vec[const.key_document], regex=regex, duplicate_report=duplicate_pages)
+    _write_duplicate_page_report(duplicate_pages, input_path, diary)
 
     # Persist vectors after any cleanup
     writer.write_json(os.path.join(output_path, 'vectors.json'), vec)

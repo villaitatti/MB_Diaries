@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-02T09:02:59.386030+00:00",
+  "docx": "assets/input/1898-99/1898-99.docx",
+  "fixes_file": "assets/input/1898-99/1898-99_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1898-99-0001",
+      "page": 139,
+      "note": "missing space after '.' (AUTO)",
+      "find": "ck of my throat.Shopping with L",
+      "replace": "ck of my throat. Shopping with L",
+      "status": "APPLIED"
+    }
+  ]
+}

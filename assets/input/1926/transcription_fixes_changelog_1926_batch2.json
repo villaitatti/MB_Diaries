@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-02T09:03:04.323196+00:00",
+  "docx": "assets/input/1926/1926.docx",
+  "fixes_file": "assets/input/1926/1926_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1926-0001",
+      "page": 15,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "man sent by H.A.L Fisher) to Pi",
+      "replace": "man sent by H.A. L Fisher) to Pi",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1926-0002",
+      "page": 75,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "santness with B.B, who wakes cr",
+      "replace": "santness with B. B, who wakes cr",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1926-0003",
+      "page": 82,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": " find her Y.M.C.A friends?",
+      "replace": " find her Y.M.C. A friends?",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

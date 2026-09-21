@@ -1,0 +1,2082 @@
+# Transcription fix log — 1891-93.docx
+
+Generated: 2026-09-02T09:02:57.133863+00:00
+Fixes definition: `assets/input/1891-93/1891-93_whitespace_sites.json`
+
+## Applied (1035)
+
+- **ws-1891-93-0001** p.73 — missing space after ',' (AUTO)
+  - ` by Maeterlinck,and compared it` → ` by Maeterlinck, and compared it`
+- **ws-1891-93-0002** p.74 — missing space after '.' (AUTO)
+  - `Franz Hals, etc.Afternoon went ` → `Franz Hals, etc. Afternoon went `
+- **ws-1891-93-0003** p.75 — missing space after '.' (AUTO)
+  - ` with the brush.Saw Italian pic` → ` with the brush. Saw Italian pic`
+- **ws-1891-93-0005** p.75 — missing space after '.' (AUTO)
+  - `ancs. Very good.Took notes and ` → `ancs. Very good. Took notes and `
+- **ws-1891-93-0004** p.75 — missing space after '.' (AUTO)
+  - `ad introduction.Dined at the re` → `ad introduction. Dined at the re`
+- **ws-1891-93-0006** p.76 — missing space after '.' (AUTO)
+  - `ed Sodoma again.Went to Delft. ` → `ed Sodoma again. Went to Delft. `
+- **ws-1891-93-0007** p.76 — missing space after '.' (AUTO)
+  - `aint old houses.Looked for view` → `aint old houses. Looked for view`
+- **ws-1891-93-0009** p.76 — missing space after '.' (AUTO)
+  - `the Groote Kerk.Evening strange` → `the Groote Kerk. Evening strange`
+- **ws-1891-93-0008** p.76 — missing space after '.' (AUTO)
+  - ` didn’t find it.Liked the town ` → ` didn’t find it. Liked the town `
+- **ws-1891-93-0010** p.76 — missing space after '.' (AUTO)
+  - `blue and violet.Read Motley.` → `blue and violet. Read Motley.`
+- **ws-1891-93-0015** p.77 — missing space after '.' (AUTO)
+  - `in Kalverstraat.Discussed the w` → `in Kalverstraat. Discussed the w`
+- **ws-1891-93-0014** p.77 — missing space after '.' (AUTO)
+  - `ead more Motley.Walked in Kalve` → `ead more Motley. Walked in Kalve`
+- **ws-1891-93-0013** p.77 — missing space after '.' (AUTO)
+  - `Hals.Very tired.Read more Motle` → `Hals.Very tired. Read more Motle`
+- **ws-1891-93-0012** p.77 — missing space after '.' (AUTO)
+  - ` and Franz Hals.Very tired.Read` → ` and Franz Hals. Very tired.Read`
+- **ws-1891-93-0011** p.77 — missing space after '.' (AUTO)
+  - `st, Jardin, etc.Saw a Vermeer v` → `st, Jardin, etc. Saw a Vermeer v`
+- **ws-1891-93-0016** p.77 — missing space after '.' (AUTO)
+  - `Thursday.Aug. 13.  91. A` → `Thursday. Aug. 13.  91. A`
+- **ws-1891-93-0017** p.77 — missing space after '.' (AUTO)
+  - `ce, Van du Meer.Van du Helst. P` → `ce, Van du Meer. Van du Helst. P`
+- **ws-1891-93-0018** p.78 — missing space after '.' (AUTO)
+  - `s - good coffee.Went to the Six` → `s - good coffee. Went to the Six`
+- **ws-1891-93-0020** p.79 — missing space after '.' (AUTO)
+  - `. Wrote letters.Sent “Maleine”t` → `. Wrote letters. Sent “Maleine”t`
+- **ws-1891-93-0019** p.79 — missing space after '.' (AUTO)
+  - `and de Goncourt.Enjoyed the Pal` → `and de Goncourt. Enjoyed the Pal`
+- **ws-1891-93-0021** p.82 — missing space after '.' (AUTO)
+  - `August 16. 1891.Brunswick` → `August 16. 1891. Brunswick`
+- **ws-1891-93-0022** p.82 — missing space after '.' (AUTO)
+  - `lice Court, etc.In the Dom the ` → `lice Court, etc. In the Dom the `
+- **ws-1891-93-0023** p.82 — missing space after '.' (AUTO)
+  - `h the Americans.Also the skill ` → `h the Americans. Also the skill `
+- **ws-1891-93-0024** p.93 — missing space after '.' (AUTO)
+  - `rlin to Dresden.Motley and Germ` → `rlin to Dresden. Motley and Germ`
+- **ws-1891-93-0025** p.94 — missing space after '.' (AUTO)
+  - `n the afternoon.Called on “Mich` → `n the afternoon. Called on “Mich`
+- **ws-1891-93-0026** p.94 — missing space after '.' (AUTO)
+  - `s de Lisle Adam.x Restaurant Gn` → `s de Lisle Adam. x Restaurant Gn`
+- **ws-1891-93-0027** p.95 — missing space after '.' (AUTO)
+  - `nuine, B.B. not.Went to hear Si` → `nuine, B.B. not. Went to hear Si`
+- **ws-1891-93-0030** p.98 — missing space after '.' (AUTO)
+  - `rous to mention.Paid our last c` → `rous to mention. Paid our last c`
+- **ws-1891-93-0029** p.98 — missing space after '.' (AUTO)
+  - `o.Madonna Lotto.Two panels Erco` → `o.Madonna Lotto. Two panels Erco`
+- **ws-1891-93-0028** p.98 — missing space after '.' (AUTO)
+  - `Venus, Garofalo.Madonna Lotto.T` → `Venus, Garofalo. Madonna Lotto.T`
+- **ws-1891-93-0031** p.99 — missing space after '.' (AUTO)
+  - `n, 8.45 to 5.45.Finished Goncou` → `n, 8.45 to 5.45. Finished Goncou`
+- **ws-1891-93-0032** p.110 — missing space after '.' (AUTO)
+  - `ust all the way.Wandered about ` → `ust all the way. Wandered about `
+- **ws-1891-93-0035** p.112 — missing space after '.' (AUTO)
+  - `ields in summer.Five Besnards, ` → `ields in summer. Five Besnards, `
+- **ws-1891-93-0034** p.112 — missing space after '.' (AUTO)
+  - `dies in anatomy.Went to the Int` → `dies in anatomy. Went to the Int`
+- **ws-1891-93-0033** p.112 — missing space after '.' (AUTO)
+  - `w some Böcklins.Went to the Gly` → `w some Böcklins. Went to the Gly`
+- **ws-1891-93-0038** p.114 — missing space after '.' (AUTO)
+  - ` but the Monets.After the Exhib` → ` but the Monets. After the Exhib`
+- **ws-1891-93-0037** p.113 — missing space after '.' (AUTO)
+  - `ere represented.We [114] enjoye` → `ere represented. We [114] enjoye`
+- **ws-1891-93-0036** p.113 — missing space after '.' (REVIEW_DIGIT)
+  - `in the open air.1 Whistler, pai` → `in the open air. 1 Whistler, pai`
+- **ws-1891-93-0041** p.115 — missing space after '.' (AUTO)
+  - `train to Verona.Read Richepin, ` → `train to Verona. Read Richepin, `
+- **ws-1891-93-0040** p.114 — missing space after '.' (AUTO)
+  - `es V and packed.Went to the Int` → `es V and packed. Went to the Int`
+- **ws-1891-93-0039** p.114 — missing space after '.' (AUTO)
+  - `th Mr. Marshall.I read Charles ` → `th Mr. Marshall. I read Charles `
+- **ws-1891-93-0043** p.115 — missing space after '.' (AUTO)
+  - `w the cloisters.Took a stroll a` → `w the cloisters. Took a stroll a`
+- **ws-1891-93-0042** p.115 — missing space after '.' (AUTO)
+  - `ast and a sleep.Reached Verona ` → `ast and a sleep. Reached Verona `
+- **ws-1891-93-0044** p.119 — missing space after '.' (AUTO)
+  - `and nettle-rash.I read Mrs. Gre` → `and nettle-rash. I read Mrs. Gre`
+- **ws-1891-93-0046** p.121 — missing space after '.' (AUTO)
+  - `lamo dei Libris.On the way back` → `lamo dei Libris. On the way back`
+- **ws-1891-93-0045** p.120 — missing space after '.' (AUTO)
+  - `asorci frescoes.Then to Santa M` → `asorci frescoes. Then to Santa M`
+- **ws-1891-93-0048** p.121 — missing space after '.' (AUTO)
+  - `nd to San Fermo.Gallery in afte` → `nd to San Fermo. Gallery in afte`
+- **ws-1891-93-0047** p.121 — missing space after '.' (AUTO)
+  - `Palazzo Ridolfi.Went to San Lor` → `Palazzo Ridolfi. Went to San Lor`
+- **ws-1891-93-0049** p.123 — missing space after '.' (AUTO)
+  - ` in the morning.A letter from G` → ` in the morning. A letter from G`
+- **ws-1891-93-0053** p.124 — missing space after '.' (AUTO)
+  - `– moonrise time.Walked in the P` → `– moonrise time. Walked in the P`
+- **ws-1891-93-0052** p.124 — missing space after '.' (AUTO)
+  - `an in the train.Arrived in Veni` → `an in the train. Arrived in Veni`
+- **ws-1891-93-0051** p.124 — missing space after ',' (AUTO)
+  - `a and Charles V,German in the t` → `a and Charles V, German in the t`
+- **ws-1891-93-0050** p.124 — missing space after '.' (AUTO)
+  - `train to Venice.Read Isabella a` → `train to Venice. Read Isabella a`
+- **ws-1891-93-0055** p.124 — missing space after '.' (AUTO)
+  - `for 2 1/2 hours.Revised Corregg` → `for 2 1/2 hours. Revised Corregg`
+- **ws-1891-93-0054** p.124 — missing space after '.' (AUTO)
+  - `before luncheon.After went to L` → `before luncheon. After went to L`
+- **ws-1891-93-0056** p.125 — missing space after '.' (AUTO)
+  - `sculptures, etc.Discussed Jesui` → `sculptures, etc. Discussed Jesui`
+- **ws-1891-93-0059** p.125 — missing space after '.' (AUTO)
+  - `re I had a swim.Correggio in ev` → `re I had a swim. Correggio in ev`
+- **ws-1891-93-0058** p.125 — missing space after '.' (AUTO)
+  - `co in afternoon.Went to the Lid` → `co in afternoon. Went to the Lid`
+- **ws-1891-93-0057** p.125 — missing space after '.' (AUTO)
+  - `rari in morning.Scuola and Chie` → `rari in morning. Scuola and Chie`
+- **ws-1891-93-0061** p.126 — missing space after '.' (AUTO)
+  - `t to the Correr.After lunch B. ` → `t to the Correr. After lunch B. `
+- **ws-1891-93-0060** p.126 — missing space after '.' (AUTO)
+  - `1.30 last night.This morning we` → `1.30 last night. This morning we`
+- **ws-1891-93-0063** p.126 — missing space after '.' (AUTO)
+  - ` back at sunset.The picture I e` → ` back at sunset. The picture I e`
+- **ws-1891-93-0062** p.126 — missing space after '.' (AUTO)
+  - ` in the morning.After luncheon ` → ` in the morning. After luncheon `
+- **ws-1891-93-0064** p.127 — missing space after '.' (AUTO)
+  - `Giovanni e Polo.Immediately aft` → `Giovanni e Polo. Immediately aft`
+- **ws-1891-93-0065** p.128 — missing space after '.' (AUTO)
+  - `er - with Costa.In the afternoo` → `er - with Costa. In the afternoo`
+- **ws-1891-93-0066** p.129 — missing space after '.' (AUTO)
+  - `ola by the Lido.In the evening ` → `ola by the Lido. In the evening `
+- **ws-1891-93-0068** p.129 — missing space after '.' (AUTO)
+  - `ea at Florian’s.Then B and I wo` → `ea at Florian’s. Then B and I wo`
+- **ws-1891-93-0067** p.129 — missing space after '.' (AUTO)
+  - `vate collection.It was dark and` → `vate collection. It was dark and`
+- **ws-1891-93-0069** p.131 — missing space after '.' (AUTO)
+  - `, S. Sebastiano.In the afternoo` → `, S. Sebastiano. In the afternoo`
+- **ws-1891-93-0070** p.131 — missing space after '.' (AUTO)
+  - `iovanni e Paolo.Went to the Pia` → `iovanni e Paolo. Went to the Pia`
+- **ws-1891-93-0073** p.132 — missing space after '.' (AUTO)
+  - `there is by him.Then we went to` → `there is by him. Then we went to`
+- **ws-1891-93-0072** p.132 — missing space after '.' (AUTO)
+  - `e back to lunch.After lunch we ` → `e back to lunch. After lunch we `
+- **ws-1891-93-0071** p.132 — missing space after '.' (AUTO)
+  - `onge and ladder.We went on to S` → `onge and ladder. We went on to S`
+- **ws-1891-93-0074** p.133 — missing space after '.' (AUTO)
+  - `accio a washing.Then we floated` → `accio a washing. Then we floated`
+- **ws-1891-93-0075** p.133 — missing space after '.' (AUTO)
+  - ` in the morning.We went to San ` → ` in the morning. We went to San `
+- **ws-1891-93-0077** p.134 — missing space after '.' (AUTO)
+  - `nd Mlle Mercier.Read “Contes Cr` → `nd Mlle Mercier. Read “Contes Cr`
+- **ws-1891-93-0076** p.134 — missing space after '.' (AUTO)
+  - `d with our work.Went with them ` → `d with our work. Went with them `
+- **ws-1891-93-0078** p.135 — missing space after '.' (AUTO)
+  - `a delle Zitelle.I was tired aft` → `a delle Zitelle. I was tired aft`
+- **ws-1891-93-0079** p.136 — missing space after '.' (AUTO)
+  - ` It was pouring.We went to Flor` → ` It was pouring. We went to Flor`
+- **ws-1891-93-0080** p.136 — missing space after '.' (AUTO)
+  - `ing - met Costa.Ducal Palace af` → `ing - met Costa. Ducal Palace af`
+- **ws-1891-93-0081** p.137 — missing space after '.' (AUTO)
+  - `wder of the day.Then we went to` → `wder of the day. Then we went to`
+- **ws-1891-93-0082** p.138 — missing space after '!' (AUTO)
+  - `spite of Ruskin!Quarrelled drea` → `spite of Ruskin! Quarrelled drea`
+- **ws-1891-93-0085** p.138 — missing space after '.' (AUTO)
+  - `d Mlle. Mercier.I finished Mrs.` → `d Mlle. Mercier. I finished Mrs.`
+- **ws-1891-93-0084** p.138 — missing space after '.' (AUTO)
+  - `century picture.Then to San Don` → `century picture. Then to San Don`
+- **ws-1891-93-0083** p.138 — missing space after '.' (AUTO)
+  - ` San Sebastiano.At 2 Costa call` → ` San Sebastiano. At 2 Costa call`
+- **ws-1891-93-0088** p.139 — missing space after '.' (AUTO)
+  - `anile and wrote.In the evening ` → `anile and wrote. In the evening `
+- **ws-1891-93-0087** p.139 — missing space after '.' (AUTO)
+  - `and the Academy.In the afternoo` → `and the Academy. In the afternoo`
+- **ws-1891-93-0086** p.139 — missing space after '.' (AUTO)
+  - `he had invented.I took Miss Bli` → `he had invented. I took Miss Bli`
+- **ws-1891-93-0089** p.139 — missing space after '.' (AUTO)
+  - `os at his hotel.Finished Dans l` → `os at his hotel. Finished Dans l`
+- **ws-1891-93-0090** p.140 — missing space after '.' (AUTO)
+  - ` and the Correr.Afternoon Doge’` → ` and the Correr. Afternoon Doge’`
+- **ws-1891-93-0091** p.141 — missing space after '.' (AUTO)
+  - ` to the Academy.Came home and r` → ` to the Academy. Came home and r`
+- **ws-1891-93-0093** p.141 — missing space after '.' (AUTO)
+  - ` B. is to write.Wrote and looke` → ` B. is to write. Wrote and looke`
+- **ws-1891-93-0092** p.141 — missing space after '.' (AUTO)
+  - `n the afternoon.Then I went to ` → `n the afternoon. Then I went to `
+- **ws-1891-93-0096** p.142 — missing space after '.' (AUTO)
+  - `nt to the Frari.I read Barbey d` → `nt to the Frari. I read Barbey d`
+- **ws-1891-93-0095** p.142 — missing space after '!' (AUTO)
+  - `Botti’s repaint!He met Costa an` → `Botti’s repaint! He met Costa an`
+- **ws-1891-93-0094** p.141 — missing space after '.' (AUTO)
+  - `anni Crisostomo.Then B. went to` → `anni Crisostomo. Then B. went to`
+- **ws-1891-93-0097** p.142 — missing space after '.' (AUTO)
+  - ` in the morning.Met the two Cos` → ` in the morning. Met the two Cos`
+- **ws-1891-93-0098** p.146 — missing space after '.' (AUTO)
+  - `lk on the walls.Letters came fr` → `lk on the walls. Letters came fr`
+- **ws-1891-93-0100** p.146 — missing space after '.' (AUTO)
+  - `then Sanmichele.In the afternoo` → `then Sanmichele. In the afternoo`
+- **ws-1891-93-0099** p.146 — missing space after '!' (AUTO)
+  - `ered Montagnana!Then to Santa M` → `ered Montagnana! Then to Santa M`
+- **ws-1891-93-0101** p.148 — missing space after '.' (AUTO)
+  - `Este on the way.Montagnana, too` → `Este on the way. Montagnana, too`
+- **ws-1891-93-0102** p.150 — missing space after '.' (AUTO)
+  - `h of S. Antonio.After lunch we ` → `h of S. Antonio. After lunch we `
+- **ws-1891-93-0103** p.153 — missing space after '.' (AUTO)
+  - ` visitors’ book.But the astonis` → ` visitors’ book. But the astonis`
+- **ws-1891-93-0104** p.158 — missing space after '.' (AUTO)
+  - `tures immensely.We had dinner i` → `tures immensely. We had dinner i`
+- **ws-1891-93-0105** p.160 — missing space after '.' (AUTO)
+  - `elves very much.We read Villier` → `elves very much. We read Villier`
+- **ws-1891-93-0106** p.161 — missing space after '.' (AUTO)
+  - `day Nov. 7. ’91.Vienna` → `day Nov. 7. ’91. Vienna`
+- **ws-1891-93-0107** p.161 — missing space after '.' (AUTO)
+  - `ld not use eyes.Janet to call.` → `ld not use eyes. Janet to call.`
+- **ws-1891-93-0108** p.162 — missing space after '.' (AUTO)
+  - `d to be endured.Costa and B. st` → `d to be endured. Costa and B. st`
+- **ws-1891-93-0112** p.162 — missing space after '.' (AUTO)
+  - `Wickhoff called.Read Goncourt’s` → `Wickhoff called. Read Goncourt’s`
+- **ws-1891-93-0111** p.162 — missing space after '.' (AUTO)
+  - `.Tea with Janet.Wickhoff called` → `.Tea with Janet. Wickhoff called`
+- **ws-1891-93-0110** p.162 — missing space after '.' (AUTO)
+  - `made me unhappy.Tea with Janet.` → `made me unhappy. Tea with Janet.`
+- **ws-1891-93-0109** p.162 — missing space after '.' (AUTO)
+  - `lso the Savoldo.But it was very` → `lso the Savoldo. But it was very`
+- **ws-1891-93-0114** p.163 — missing space after '.' (AUTO)
+  - `horrible dreams.Read Macbeth.` → `horrible dreams. Read Macbeth.`
+- **ws-1891-93-0113** p.163 — missing space after '.' (AUTO)
+  - `lma photographs.Did not feel we` → `lma photographs. Did not feel we`
+- **ws-1891-93-0115** p.163 — missing space after '!' (AUTO)
+  - `nderful picture!Then we went to` → `nderful picture! Then we went to`
+- **ws-1891-93-0117** p.165 — missing space after '.' (AUTO)
+  - `court’s Journal.B reading Crowe` → `court’s Journal. B reading Crowe`
+- **ws-1891-93-0116** p.165 — missing space after '.' (AUTO)
+  - `ether afternoon.Finished Goncou` → `ether afternoon. Finished Goncou`
+- **ws-1891-93-0118** p.165 — missing space after '.' (AUTO)
+  - `h valuable time.Began (both) La` → `h valuable time. Began (both) La`
+- **ws-1891-93-0119** p.165 — missing space after '.' (AUTO)
+  - `allery from 1-4.Read a French t` → `allery from 1-4. Read a French t`
+- **ws-1891-93-0121** p.165 — missing space after '.' (AUTO)
+  - `n the afternoon.Thought of doin` → `n the afternoon. Thought of doin`
+- **ws-1891-93-0120** p.165 — missing space after '.' (AUTO)
+  - `s to Miss Cooke.Walked in the a` → `s to Miss Cooke. Walked in the a`
+- **ws-1891-93-0123** p.166 — missing space after '.' (AUTO)
+  - `net came to tea.Finished “La Fe` → `net came to tea. Finished “La Fe`
+- **ws-1891-93-0122** p.166 — missing space after '.' (AUTO)
+  - `cio Bandinellis.In the afternoo` → `cio Bandinellis. In the afternoo`
+- **ws-1891-93-0124** p.169 — missing space after '.' (AUTO)
+  - `ary in his head.We saw an unexp` → `ary in his head. We saw an unexp`
+- **ws-1891-93-0126** p.169 — missing space after '.' (AUTO)
+  - ` to the Gallery.In the evening,` → ` to the Gallery. In the evening,`
+- **ws-1891-93-0125** p.169 — missing space after '.' (AUTO)
+  - `an be expressed.After a “Thanks` → `an be expressed. After a “Thanks`
+- **ws-1891-93-0127** p.171 — missing space after '.' (AUTO)
+  - `ul Bishops even.But the America` → `ul Bishops even. But the America`
+- **ws-1891-93-0128** p.174 — missing space after '.' (AUTO)
+  - ` went to Löwy’s.In the evening ` → ` went to Löwy’s. In the evening `
+- **ws-1891-93-0131** p.174 — missing space after '!' (AUTO)
+  - `cans never miss!The other [175]` → `cans never miss! The other [175]`
+- **ws-1891-93-0130** p.174 — missing space after '.' (AUTO)
+  - `the same spirit.In the afternoo` → `the same spirit. In the afternoo`
+- **ws-1891-93-0129** p.174 — missing space after '.' (AUTO)
+  - ` to the Academy.At 12.30 we wen` → ` to the Academy. At 12.30 we wen`
+- **ws-1891-93-0132** p.176 — missing space after '!' (AUTO)
+  - `hly quarrelling!At 8-30 I start` → `hly quarrelling! At 8-30 I start`
+- **ws-1891-93-0134** p.176 — missing space after '.' (AUTO)
+  - `nd Pitti. Bliss.Catalogue in ev` → `nd Pitti. Bliss. Catalogue in ev`
+- **ws-1891-93-0133** p.176 — missing space after '.' (AUTO)
+  - `who is very ill.First glimpse o` → `who is very ill. First glimpse o`
+- **ws-1891-93-0135** p.176 — missing space after '.' (AUTO)
+  - ` in the morning.Met Costa in th` → ` in the morning. Met Costa in th`
+- **ws-1891-93-0136** p.177 — missing space after '.' (AUTO)
+  - `sed metaphysics.Began Burckhard` → `sed metaphysics. Began Burckhard`
+- **ws-1891-93-0138** p.177 — missing space after '.' (AUTO)
+  - `Italian lessons.Catalogue.` → `Italian lessons. Catalogue.`
+- **ws-1891-93-0137** p.177 — missing space after '.' (AUTO)
+  - `itti and Uffizi.Italian lessons` → `itti and Uffizi. Italian lessons`
+- **ws-1891-93-0141** p.177 — missing space after '.' (AUTO)
+  - `on Miss Britten.In the evening ` → `on Miss Britten. In the evening `
+- **ws-1891-93-0140** p.177 — missing space after '.' (AUTO)
+  - ` and S. Lorenzo.After lunch I w` → ` and S. Lorenzo. After lunch I w`
+- **ws-1891-93-0139** p.177 — missing space after '.' (AUTO)
+  - `akfast together.Went to the Ogn` → `akfast together. Went to the Ogn`
+- **ws-1891-93-0144** p.178 — missing space after '.' (AUTO)
+  - `g down part way.Costa came to s` → `g down part way. Costa came to s`
+- **ws-1891-93-0143** p.178 — missing space after '.' (AUTO)
+  - `e two galleries.Had a bad heada` → `e two galleries. Had a bad heada`
+- **ws-1891-93-0142** p.178 — missing space after '.' (AUTO)
+  - `- an awful bore.Met Costa at th` → `- an awful bore. Met Costa at th`
+- **ws-1891-93-0145** p.178 — missing space after '.' (AUTO)
+  - `and the Academy.In the afternoo` → `and the Academy. In the afternoo`
+- **ws-1891-93-0148** p.178 — missing space after '.' (AUTO)
+  - `tay long.Walked.Read Mill’s “Su` → `tay long.Walked. Read Mill’s “Su`
+- **ws-1891-93-0147** p.178 — missing space after '.' (AUTO)
+  - `d not stay long.Walked.Read Mil` → `d not stay long. Walked.Read Mil`
+- **ws-1891-93-0146** p.178 — missing space after '.' (AUTO)
+  - `netian pictures.Looked at the d` → `netian pictures. Looked at the d`
+- **ws-1891-93-0149** p.179 — missing space after '.' (AUTO)
+  - `led on Gertrude.Called on Costa` → `led on Gertrude. Called on Costa`
+- **ws-1891-93-0150** p.180 — missing space after '.' (AUTO)
+  - ` vase ornaments.In the evening ` → ` vase ornaments. In the evening `
+- **ws-1891-93-0152** p.180 — missing space after '.' (AUTO)
+  - `led on Gertrude.Read Taine on N` → `led on Gertrude. Read Taine on N`
+- **ws-1891-93-0151** p.180 — missing space after '.' (AUTO)
+  - `joyed ourselves.Called on Gertr` → `joyed ourselves. Called on Gertr`
+- **ws-1891-93-0153** p.180 — missing space after '.' (AUTO)
+  - ` it was raining.I called on Ger` → ` it was raining. I called on Ger`
+- **ws-1891-93-0154** p.181 — missing space after '.' (AUTO)
+  - `s in the Uffizi.Began type-writ` → `s in the Uffizi. Began type-writ`
+- **ws-1891-93-0156** p.183 — missing space after '.' (AUTO)
+  - `selle on Giotto.Last night up t` → `selle on Giotto. Last night up t`
+- **ws-1891-93-0155** p.183 — missing space after ',' (AUTO)
+  - `w Revues Bleues,and B. read Cro` → `w Revues Bleues, and B. read Cro`
+- **ws-1891-93-0159** p.184 — missing space after '.' (REVIEW_INITIAL)
+  - `ave called on B.Read Burckhardt` → `ave called on B. Read Burckhardt`
+- **ws-1891-93-0158** p.184 — missing space after '.' (AUTO)
+  - `icle on Savoldo.I read “The Wil` → `icle on Savoldo. I read “The Wil`
+- **ws-1891-93-0157** p.184 — missing space after '!' (AUTO)
+  - ` asleep at 9.30!We spent part o` → ` asleep at 9.30! We spent part o`
+- **ws-1891-93-0162** p.184 — missing space after '.' (AUTO)
+  - `er and was nice.I had my first ` → `er and was nice. I had my first `
+- **ws-1891-93-0161** p.184 — missing space after '.' (AUTO)
+  - `n the afternoon.Costa came to d` → `n the afternoon. Costa came to d`
+- **ws-1891-93-0160** p.184 — missing space after '.' (AUTO)
+  - ` in the morning.Walked to San M` → ` in the morning. Walked to San M`
+- **ws-1891-93-0164** p.185 — missing space after '.' (AUTO)
+  - ` me quite happy.We began to re-` → ` me quite happy. We began to re-`
+- **ws-1891-93-0163** p.185 — missing space after '.' (AUTO)
+  - ` in the morning.I called on Ger` → ` in the morning. I called on Ger`
+- **ws-1891-93-0165** p.186 — missing space after '.' (AUTO)
+  - `d to his trunks.He called on th` → `d to his trunks. He called on th`
+- **ws-1891-93-0168** p.186 — missing space after '.' (AUTO)
+  - `. with bad cold.Unpacked books ` → `. with bad cold. Unpacked books `
+- **ws-1891-93-0167** p.186 — missing space after '.' (AUTO)
+  - ` Mother at 9.30.Morning shoppin` → ` Mother at 9.30. Morning shoppin`
+- **ws-1891-93-0166** p.186 — missing space after '.' (AUTO)
+  - `akfast together.Called for Moth` → `akfast together. Called for Moth`
+- **ws-1891-93-0169** p.186 — missing space after '.' (AUTO)
+  - ` Emma taken ill.Walked with B. ` → ` Emma taken ill. Walked with B. `
+- **ws-1891-93-0170** p.186 — missing space after '.' (AUTO)
+  - ` in the morning.Children very t` → ` in the morning. Children very t`
+- **ws-1891-93-0171** p.187 — missing space after '.' (AUTO)
+  - ` up our quarrel.Worked in eveni` → ` up our quarrel. Worked in eveni`
+- **ws-1891-93-0172** p.187 — missing space after '.' (AUTO)
+  - `Uffizi.Work in evening` → `Uffizi. Work in evening`
+- **ws-1891-93-0173** p.188 — missing space after '.' (AUTO)
+  - `or’s in evening.Loeser arrived.` → `or’s in evening. Loeser arrived.`
+- **ws-1891-93-0175** p.189 — missing space after '.' (AUTO)
+  - `er. Rainy still.Tea with B. and` → `er. Rainy still. Tea with B. and`
+- **ws-1891-93-0174** p.189 — missing space after '.' (AUTO)
+  - `Uffizi.Saw Loeser. Rai` → `Uffizi. Saw Loeser. Rai`
+- **ws-1891-93-0176** p.189 — missing space after '.' (AUTO)
+  - `write every day.In the afternoo` → `write every day. In the afternoo`
+- **ws-1891-93-0178** p.189 — missing space after '.' (AUTO)
+  - `led on Gertrude.Tea with B. who` → `led on Gertrude. Tea with B. who`
+- **ws-1891-93-0177** p.189 — missing space after '.' (AUTO)
+  - `fizi in morning.Called on Gertr` → `fizi in morning. Called on Gertr`
+- **ws-1891-93-0179** p.189 — missing space after '.' (AUTO)
+  - `Venetians there.We called on Co` → `Venetians there. We called on Co`
+- **ws-1891-93-0180** p.190 — missing space after '.' (AUTO)
+  - `to see Gertrude.Loeser came to ` → `to see Gertrude. Loeser came to `
+- **ws-1891-93-0181** p.190 — missing space after '.' (AUTO)
+  - ` in the morning.Miss Farnell an` → ` in the morning. Miss Farnell an`
+- **ws-1891-93-0182** p.190 — missing space after '.' (AUTO)
+  - `read Burckhardt.In [191] the ev` → `read Burckhardt. In [191] the ev`
+- **ws-1891-93-0183** p.191 — missing space after '.' (AUTO)
+  - `to see Gertrude.He did not come` → `to see Gertrude. He did not come`
+- **ws-1891-93-0184** p.191 — missing space after '.' (AUTO)
+  - `was rather nice.In the evening ` → `was rather nice. In the evening `
+- **ws-1891-93-0186** p.192 — missing space after '.' (AUTO)
+  - ` about Gertrude.Read Maupassant` → ` about Gertrude. Read Maupassant`
+- **ws-1891-93-0185** p.192 — missing space after '.' (AUTO)
+  - `no and a bonnet.In the afternoo` → `no and a bonnet. In the afternoo`
+- **ws-1891-93-0188** p.192 — missing space after '.' (AUTO)
+  - ` in the evening.I read Zeller.` → ` in the evening. I read Zeller.`
+- **ws-1891-93-0187** p.192 — missing space after '.' (AUTO)
+  - `unched with him.I went to see G` → `unched with him. I went to see G`
+- **ws-1891-93-0190** p.193 — missing space after '.' (AUTO)
+  - `led on Gertrude.In the evening ` → `led on Gertrude. In the evening `
+- **ws-1891-93-0189** p.193 — missing space after '.' (AUTO)
+  - ` in the morning.Took mother and` → ` in the morning. Took mother and`
+- **ws-1891-93-0192** p.193 — missing space after '.' (AUTO)
+  - `o call upon him.Studied Italian` → `o call upon him. Studied Italian`
+- **ws-1891-93-0191** p.193 — missing space after '.' (AUTO)
+  - `a Maria Novella.We called on Lo` → `a Maria Novella. We called on Lo`
+- **ws-1891-93-0194** p.193 — missing space after '.' (AUTO)
+  - ` by S. Domenico.Spoiled my even` → ` by S. Domenico. Spoiled my even`
+- **ws-1891-93-0193** p.193 — missing space after '.' (AUTO)
+  - ` in the morning.In the afternoo` → ` in the morning. In the afternoo`
+- **ws-1891-93-0197** p.197 — missing space after '!' (AUTO)
+  - ` Que c’est vrai!Read the second` → ` Que c’est vrai! Read the second`
+- **ws-1891-93-0196** p.196 — missing space after '.' (REVIEW_INITIAL)
+  - `took tea with B.He brought Loes` → `took tea with B. He brought Loes`
+- **ws-1891-93-0198** p.197 — missing space after '.' (AUTO)
+  - `ver our affairs.Tea together.` → `ver our affairs. Tea together.`
+- **ws-1891-93-0199** p.197 — missing space after '.' (AUTO)
+  - `rancacci Chapel.Read Vasari’s L` → `rancacci Chapel. Read Vasari’s L`
+- **ws-1891-93-0200** p.197 — missing space after '.' (AUTO)
+  - `accio in Vasari.Took a long wal` → `accio in Vasari. Took a long wal`
+- **ws-1891-93-0202** p.198 — missing space after '.' (AUTO)
+  - `s - by Huysmans.In the evening ` → `s - by Huysmans. In the evening `
+- **ws-1891-93-0201** p.198 — missing space after '.' (AUTO)
+  - `er to the Pitti.In the afternoo` → `er to the Pitti. In the afternoo`
+- **ws-1891-93-0204** p.199 — missing space after '.' (AUTO)
+  - `ill and nervous.Took tea with B` → `ill and nervous. Took tea with B`
+- **ws-1891-93-0203** p.199 — missing space after '.' (AUTO)
+  - ` in the morning.Walked in the a` → ` in the morning. Walked in the a`
+- **ws-1891-93-0206** p.199 — missing space after '.' (AUTO)
+  - `n a little walk.In the evening ` → `n a little walk. In the evening `
+- **ws-1891-93-0205** p.199 — missing space after '.' (AUTO)
+  - `and the Gallery.Then went to th` → `and the Gallery. Then went to th`
+- **ws-1891-93-0207** p.201 — missing space after '.' (AUTO)
+  - ` [201] Bronzino.I called on Ger` → ` [201] Bronzino. I called on Ger`
+- **ws-1891-93-0208** p.201 — missing space after '!' (AUTO)
+  - `ious spring day!Took mother and` → `ious spring day! Took mother and`
+- **ws-1891-93-0210** p.203 — missing space after '.' (AUTO)
+  - `s come on again.Grandma told Ka` → `s come on again. Grandma told Ka`
+- **ws-1891-93-0209** p.203 — missing space after '.' (AUTO)
+  - `n the afternoon.The rain has co` → `n the afternoon. The rain has co`
+- **ws-1891-93-0211** p.203 — missing space after '.' (AUTO)
+  - ` at San Niccolò.Then at the Uff` → ` at San Niccolò. Then at the Uff`
+- **ws-1891-93-0214** p.205 — missing space after '.' (AUTO)
+  - `ine”, etc., etc.I was dishonest` → `ine”, etc., etc. I was dishonest`
+- **ws-1891-93-0213** p.205 — missing space after '.' (AUTO)
+  - ` we took a walk.He and Musgrave` → ` we took a walk. He and Musgrave`
+- **ws-1891-93-0212** p.205 — missing space after '.' (AUTO)
+  - `ers in garlands.When I came bac` → `ers in garlands. When I came bac`
+- **ws-1891-93-0215** p.207 — missing space after '.' (AUTO)
+  - `ould do nothing.We spent the af` → `ould do nothing. We spent the af`
+- **ws-1891-93-0218** p.208 — missing space after '.' (AUTO)
+  - `y horrid things.We dined apart,` → `y horrid things. We dined apart,`
+- **ws-1891-93-0217** p.208 — missing space after '.' (AUTO)
+  - ` on the subject.In the afternoo` → ` on the subject. In the afternoo`
+- **ws-1891-93-0216** p.208 — missing space after '.' (AUTO)
+  - `so we came back.I read in the G` → `so we came back. I read in the G`
+- **ws-1891-93-0219** p.211 — missing space after '.' (AUTO)
+  - `e way sometimes.I said I hoped ` → `e way sometimes. I said I hoped `
+- **ws-1891-93-0221** p.212 — missing space after '.' (AUTO)
+  - `as starting out.Tea with B. and` → `as starting out. Tea with B. and`
+- **ws-1891-93-0220** p.212 — missing space after '.' (AUTO)
+  - `s all right now.I called on Ger` → `s all right now. I called on Ger`
+- **ws-1891-93-0223** p.212 — missing space after '.' (REVIEW_INITIAL)
+  - `took tea with B.Wrote the Corre` → `took tea with B. Wrote the Corre`
+- **ws-1891-93-0222** p.212 — missing space after '.' (AUTO)
+  - `ly disappointed.Called on Gertr` → `ly disappointed. Called on Gertr`
+- **ws-1891-93-0225** p.213 — missing space after '.' (AUTO)
+  - `n the Correggio.I finished “Les` → `n the Correggio. I finished “Les`
+- **ws-1891-93-0224** p.213 — missing space after '.' (AUTO)
+  - `delightful walk.In the evening ` → `delightful walk. In the evening `
+- **ws-1891-93-0226** p.213 — missing space after '.' (REVIEW_INITIAL)
+  - `took tea with B.Costa came in t` → `took tea with B. Costa came in t`
+- **ws-1891-93-0229** p.214 — missing space after '.' (AUTO)
+  - ` in the evening.We discussed wr` → ` in the evening. We discussed wr`
+- **ws-1891-93-0228** p.214 — missing space after '.' (AUTO)
+  - `itten very much.We continued ou` → `itten very much. We continued ou`
+- **ws-1891-93-0227** p.214 — missing space after '.' (AUTO)
+  - ` in the morning.Then we went to` → ` in the morning. Then we went to`
+- **ws-1891-93-0230** p.214 — missing space after '.' (AUTO)
+  - `oon and evening.Took tea with L` → `oon and evening. Took tea with L`
+- **ws-1891-93-0232** p.215 — missing space after '.' (AUTO)
+  - ` interrupted us.We worked furth` → ` interrupted us. We worked furth`
+- **ws-1891-93-0231** p.215 — missing space after '.' (AUTO)
+  - `fully depressed.In the afternoo` → `fully depressed. In the afternoo`
+- **ws-1891-93-0236** p.215 — missing space after '.' (AUTO)
+  - `the type-writer.We looked at ph` → `the type-writer. We looked at ph`
+- **ws-1891-93-0235** p.215 — missing space after ',' (AUTO)
+  - `B. read Herrick,he dictated to ` → `B. read Herrick, he dictated to `
+- **ws-1891-93-0234** p.215 — missing space after '.' (AUTO)
+  - `a capital lunch.Musgrave came i` → `a capital lunch. Musgrave came i`
+- **ws-1891-93-0233** p.215 — missing space after '.' (AUTO)
+  - `faelo Botticini.We lunched with` → `faelo Botticini. We lunched with`
+- **ws-1891-93-0241** p.216 — missing space after '!' (AUTO)
+  - `hard to arrange!I am reading an` → `hard to arrange! I am reading an`
+- **ws-1891-93-0240** p.216 — missing space after '.' (AUTO)
+  - `ter Florentines.We were both sl` → `ter Florentines. We were both sl`
+- **ws-1891-93-0239** p.216 — missing space after '.' (AUTO)
+  - `to see Gertrude.Then we looked ` → `to see Gertrude. Then we looked `
+- **ws-1891-93-0238** p.216 — missing space after '.' (AUTO)
+  - `aly this summer.In the afternoo` → `aly this summer. In the afternoo`
+- **ws-1891-93-0237** p.216 — missing space after '.' (AUTO)
+  - ` have that £100.Afterwards we c` → ` have that £100. Afterwards we c`
+- **ws-1891-93-0242** p.216 — missing space after '.' (AUTO)
+  - `f his stockings.Then we went to` → `f his stockings. Then we went to`
+- **ws-1891-93-0246** p.218 — missing space after '.' (AUTO)
+  - ` in the evening.Ray came back d` → ` in the evening. Ray came back d`
+- **ws-1891-93-0245** p.218 — missing space after '.' (AUTO)
+  - `ticle on Titian.My Italian take` → `ticle on Titian. My Italian take`
+- **ws-1891-93-0244** p.218 — missing space after '.' (AUTO)
+  - ` to San Miniato.In the evening ` → ` to San Miniato. In the evening `
+- **ws-1891-93-0243** p.218 — missing space after '.' (AUTO)
+  - ` at photographs.The children we` → ` at photographs. The children we`
+- **ws-1891-93-0248** p.219 — missing space after '.' (AUTO)
+  - ` away in a rage.I went with the` → ` away in a rage. I went with the`
+- **ws-1891-93-0247** p.218 — missing space after '.' (AUTO)
+  - `ting a bad cold.We went over so` → `ting a bad cold. We went over so`
+- **ws-1891-93-0250** p.219 — missing space after '.' (AUTO)
+  - `ry till B. came.The evening was` → `ry till B. came. The evening was`
+- **ws-1891-93-0249** p.219 — missing space after '.' (AUTO)
+  - `on the children.Then I wrote my` → `on the children. Then I wrote my`
+- **ws-1891-93-0251** p.220 — missing space after '.' (AUTO)
+  - `ri on Correggio.In the afternoo` → `ri on Correggio. In the afternoo`
+- **ws-1891-93-0253** p.220 — missing space after '.' (AUTO)
+  - `ugino very much.I read a series` → `ugino very much. I read a series`
+- **ws-1891-93-0252** p.220 — missing space after '.' (AUTO)
+  - `nd at the Pitti.Walked in the a` → `nd at the Pitti. Walked in the a`
+- **ws-1891-93-0255** p.221 — missing space after '.' (AUTO)
+  - `all on Gertrude.After my Italia` → `all on Gertrude. After my Italia`
+- **ws-1891-93-0254** p.221 — missing space after '.' (AUTO)
+  - `and the Academy.I paid a short ` → `and the Academy. I paid a short `
+- **ws-1891-93-0259** p.221 — missing space after '.' (AUTO)
+  - `thought it good.After he went, ` → `thought it good. After he went, `
+- **ws-1891-93-0258** p.221 — missing space after '.' (AUTO)
+  - `e Villa Careggi.Then came home ` → `e Villa Careggi. Then came home `
+- **ws-1891-93-0257** p.221 — missing space after '.' (AUTO)
+  - `them worth much.After my lesson` → `them worth much. After my lesson`
+- **ws-1891-93-0256** p.221 — missing space after '.' (AUTO)
+  - ` in the morning.Gertrude gave m` → ` in the morning. Gertrude gave m`
+- **ws-1891-93-0263** p.222 — missing space after '.' (AUTO)
+  - `l from Musgrave.Read Maupassant` → `l from Musgrave. Read Maupassant`
+- **ws-1891-93-0262** p.222 — missing space after '.' (AUTO)
+  - `I’m not, I know.I went back to ` → `I’m not, I know. I went back to `
+- **ws-1891-93-0261** p.222 — missing space after '.' (AUTO)
+  - `sked me to dine.I took tea with` → `sked me to dine. I took tea with`
+- **ws-1891-93-0260** p.222 — missing space after '.' (AUTO)
+  - `itti and Uffizi.Coming home I m` → `itti and Uffizi. Coming home I m`
+- **ws-1891-93-0267** p.223 — missing space after '.' (AUTO)
+  - `alf of my story.Alas! that time` → `alf of my story. Alas! that time`
+- **ws-1891-93-0266** p.223 — missing space after '.' (AUTO)
+  - `e), but made up.Then I took a n` → `e), but made up. Then I took a n`
+- **ws-1891-93-0265** p.222 — missing space after '.' (AUTO)
+  - ` at San Lorenzo.Met Costa on ou` → ` at San Lorenzo. Met Costa on ou`
+- **ws-1891-93-0264** p.222 — missing space after '.' (AUTO)
+  - `alleries closed.Went to see Ros` → `alleries closed. Went to see Ros`
+- **ws-1891-93-0268** p.223 — missing space after '.' (AUTO)
+  - `ed me very much.Then we went to` → `ed me very much. Then we went to`
+- **ws-1891-93-0271** p.224 — missing space after '.' (AUTO)
+  - `ked at the town.We had a delici` → `ked at the town. We had a delici`
+- **ws-1891-93-0270** p.224 — missing space after '.' (AUTO)
+  - `went to Pistoia.I read Creighto` → `went to Pistoia. I read Creighto`
+- **ws-1891-93-0269** p.224 — missing space after '.' (AUTO)
+  - ` in the morning.In the afternoo` → ` in the morning. In the afternoo`
+- **ws-1891-93-0272** p.224 — missing space after '!' (AUTO)
+  - `ss a fresh town!In the evening ` → `ss a fresh town! In the evening `
+- **ws-1891-93-0273** p.224 — missing space after '.' (AUTO)
+  - `photograph work.In the evening ` → `photograph work. In the evening `
+- **ws-1891-93-0276** p.225 — missing space after '.' (AUTO)
+  - `to see Gertrude.Read Creighton.` → `to see Gertrude. Read Creighton.`
+- **ws-1891-93-0275** p.225 — missing space after '.' (AUTO)
+  - `k a little walk.I went to see G` → `k a little walk. I went to see G`
+- **ws-1891-93-0274** p.225 — missing space after '!' (AUTO)
+  - `ans for a while!We finished arr` → `ans for a while! We finished arr`
+- **ws-1891-93-0277** p.225 — missing space after '.' (AUTO)
+  - `d felt very ill.Went to B.’s an` → `d felt very ill. Went to B.’s an`
+- **ws-1891-93-0278** p.225 — missing space after '.' (AUTO)
+  - `r Lotto article.He went to Cast` → `r Lotto article. He went to Cast`
+- **ws-1891-93-0281** p.226 — missing space after '.' (AUTO)
+  - `che almost away.We sent the Mic` → `che almost away. We sent the Mic`
+- **ws-1891-93-0280** p.226 — missing space after '.' (AUTO)
+  - `he seemed worse.In the evening ` → `he seemed worse. In the evening `
+- **ws-1891-93-0279** p.226 — missing space after '.' (AUTO)
+  - `rugino, however.I took Gertrude` → `rugino, however. I took Gertrude`
+- **ws-1891-93-0283** p.226 — missing space after '.' (AUTO)
+  - `rote last night.It is one of ou` → `rote last night. It is one of ou`
+- **ws-1891-93-0282** p.226 — missing space after '.' (AUTO)
+  - `s bitterly cold.In the afternoo` → `s bitterly cold. In the afternoo`
+- **ws-1891-93-0285** p.227 — missing space after '.' (REVIEW_INITIAL)
+  - `Took tea with B.We had dinner t` → `Took tea with B. We had dinner t`
+- **ws-1891-93-0284** p.227 — missing space after '.' (AUTO)
+  - ` in the morning.Took tea with B` → ` in the morning. Took tea with B`
+- **ws-1891-93-0288** p.227 — missing space after '.' (AUTO)
+  - `called on Costa.Loeser came to ` → `called on Costa. Loeser came to `
+- **ws-1891-93-0287** p.227 — missing space after '.' (AUTO)
+  - `all the morning.Karin’s birthda` → `all the morning. Karin’s birthda`
+- **ws-1891-93-0286** p.227 — missing space after '.' (AUTO)
+  - ` County Council.Worked on photo` → ` County Council. Worked on photo`
+- **ws-1891-93-0291** p.229 — missing space after '.' (AUTO)
+  - `e too sickening.I went to see G` → `e too sickening. I went to see G`
+- **ws-1891-93-0290** p.228 — missing space after '.' (AUTO)
+  - `le very shortly.We discussed th` → `le very shortly. We discussed th`
+- **ws-1891-93-0289** p.227 — missing space after '.' (AUTO)
+  - `ver photographs.After lunch we ` → `ver photographs. After lunch we `
+- **ws-1891-93-0295** p.229 — missing space after '.' (AUTO)
+  - `der Book”to Ray.I wrote more of` → `der Book”to Ray. I wrote more of`
+- **ws-1891-93-0294** p.229 — missing space after '.' (AUTO)
+  - `with music, etc.I am reading Ha` → `with music, etc. I am reading Ha`
+- **ws-1891-93-0293** p.229 — missing space after '.' (AUTO)
+  - `o into business.We had a rather` → `o into business. We had a rather`
+- **ws-1891-93-0292** p.229 — missing space after '.' (AUTO)
+  - `B. lunched here.Edith Carpenter` → `B. lunched here. Edith Carpenter`
+- **ws-1891-93-0297** p.229 — missing space after '.' (AUTO)
+  - `tiful afternoon.In the evening ` → `tiful afternoon. In the evening `
+- **ws-1891-93-0296** p.229 — missing space after '.' (AUTO)
+  - ` in the morning.In the afternoo` → ` in the morning. In the afternoo`
+- **ws-1891-93-0300** p.230 — missing space after '.' (AUTO)
+  - ` a little while.In the evening ` → ` a little while. In the evening `
+- **ws-1891-93-0299** p.230 — missing space after '!' (AUTO)
+  - `nd welter in it!Then I went to ` → `nd welter in it! Then I went to `
+- **ws-1891-93-0298** p.230 — missing space after '.' (AUTO)
+  - `.’s photographs.After lunch B. ` → `.’s photographs. After lunch B. `
+- **ws-1891-93-0302** p.230 — missing space after '.' (AUTO)
+  - `.Loeser came in.In the afternoo` → `.Loeser came in. In the afternoo`
+- **ws-1891-93-0301** p.230 — missing space after '.' (AUTO)
+  - `all the morning.Loeser came in.` → `all the morning. Loeser came in.`
+- **ws-1891-93-0308** p.236 — missing space after '.' (AUTO)
+  - `not giving them.I feel stupid, ` → `not giving them. I feel stupid, `
+- **ws-1891-93-0307** p.234 — missing space after '.' (AUTO)
+  - `rough our lives.It reminds me, ` → `rough our lives. It reminds me, `
+- **ws-1891-93-0306** p.232 — missing space after '!' (AUTO)
+  - `Jenkins. Deadly!In the evening ` → `Jenkins. Deadly! In the evening `
+- **ws-1891-93-0305** p.232 — missing space after '.' (AUTO)
+  - `rty of children.Then I went to ` → `rty of children. Then I went to `
+- **ws-1891-93-0304** p.232 — missing space after '.' (AUTO)
+  - ` Italian lesson.Then the little` → ` Italian lesson. Then the little`
+- **ws-1891-93-0303** p.232 — missing space after '.' (AUTO)
+  - ` we walked back.I had an Italia` → ` we walked back. I had an Italia`
+- **ws-1891-93-0309** p.240 — missing space after '.' (AUTO)
+  - ` B. came to tea.In the evening ` → ` B. came to tea. In the evening `
+- **ws-1891-93-0313** p.240 — missing space after '.' (AUTO)
+  - `ed on our Lotto.Gertrude is goi` → `ed on our Lotto. Gertrude is goi`
+- **ws-1891-93-0312** p.240 — missing space after '.' (AUTO)
+  - `l on the Footes.After dinner we` → `l on the Footes. After dinner we`
+- **ws-1891-93-0311** p.240 — missing space after '.' (AUTO)
+  - `for next winter.We walked in th` → `for next winter. We walked in th`
+- **ws-1891-93-0310** p.240 — missing space after '.' (AUTO)
+  - `n to the Uffizi.I called on Ger` → `n to the Uffizi. I called on Ger`
+- **ws-1891-93-0314** p.241 — missing space after '.' (AUTO)
+  - `new in the West.In the evening ` → `new in the West. In the evening `
+- **ws-1891-93-0317** p.241 — missing space after '.' (AUTO)
+  - `freshened us up.I finished Là B` → `freshened us up. I finished Là B`
+- **ws-1891-93-0316** p.241 — missing space after '.' (AUTO)
+  - `ei [sic] Angeli.Then we wandere` → `ei [sic] Angeli. Then we wandere`
+- **ws-1891-93-0315** p.241 — missing space after '.' (AUTO)
+  - ` in the morning.After lunch we ` → ` in the morning. After lunch we `
+- **ws-1891-93-0320** p.242 — missing space after '.' (AUTO)
+  - `s a lovely walk.In the evening ` → `s a lovely walk. In the evening `
+- **ws-1891-93-0319** p.242 — missing space after '.' (AUTO)
+  - ` home for lunch.In the afternoo` → ` home for lunch. In the afternoo`
+- **ws-1891-93-0318** p.242 — missing space after '.' (AUTO)
+  - `lliant sunshine.We had breakfas` → `lliant sunshine. We had breakfas`
+- **ws-1891-93-0321** p.242 — missing space after '.' (AUTO)
+  - `my Linden story.Read Creighton ` → `my Linden story. Read Creighton `
+- **ws-1891-93-0324** p.243 — missing space after '.' (AUTO)
+  - `s and mountains.I wrote the Lin` → `s and mountains. I wrote the Lin`
+- **ws-1891-93-0323** p.243 — missing space after '.' (AUTO)
+  - `ightful morning.In the afternoo` → `ightful morning. In the afternoo`
+- **ws-1891-93-0322** p.242 — missing space after '.' (AUTO)
+  - `gino and Sodoma.Coming back to ` → `gino and Sodoma. Coming back to `
+- **ws-1891-93-0326** p.243 — missing space after '.' (AUTO)
+  - `ht be a Peruzzi.Then to the Gal` → `ht be a Peruzzi. Then to the Gal`
+- **ws-1891-93-0325** p.243 — missing space after '!' (AUTO)
+  - `ome of them are!Then to the Poo` → `ome of them are! Then to the Poo`
+- **ws-1891-93-0328** p.244 — missing space after '!' (AUTO)
+  - `delicious drive!In the evening ` → `delicious drive! In the evening `
+- **ws-1891-93-0327** p.244 — missing space after '.' (AUTO)
+  - `hic of Bronzino.We went to see ` → `hic of Bronzino. We went to see `
+- **ws-1891-93-0331** p.244 — missing space after '.' (AUTO)
+  - ` our happy week.Bernhard said i` → ` our happy week. Bernhard said i`
+- **ws-1891-93-0330** p.244 — missing space after '.' (AUTO)
+  - ` in San Spirito.In the evening ` → ` in San Spirito. In the evening `
+- **ws-1891-93-0329** p.244 — missing space after '.' (AUTO)
+  - `e Pinturicchios.After lunch, we` → `e Pinturicchios. After lunch, we`
+- **ws-1891-93-0334** p.245 — missing space after '.' (AUTO)
+  - `Bliss and Julia.Emma tells me t` → `Bliss and Julia. Emma tells me t`
+- **ws-1891-93-0333** p.245 — missing space after '.' (AUTO)
+  - `ng here at 2.30.Ray and Karin w` → `ng here at 2.30. Ray and Karin w`
+- **ws-1891-93-0332** p.245 — missing space after '.' (AUTO)
+  - ` the 2nd volume.We reached Empo` → ` the 2nd volume. We reached Empo`
+- **ws-1891-93-0336** p.246 — missing space after '.' (AUTO)
+  - `ad in afternoon.Lotto in evenin` → `ad in afternoon. Lotto in evenin`
+- **ws-1891-93-0335** p.246 — missing space after '.' (AUTO)
+  - `n. Met at Pitti.Wrote and read ` → `n. Met at Pitti. Wrote and read `
+- **ws-1891-93-0340** p.246 — missing space after '.' (AUTO)
+  - `ighton vol. III.Wrote my story.` → `ighton vol. III. Wrote my story.`
+- **ws-1891-93-0339** p.246 — missing space after '.' (AUTO)
+  - ` upon our Lotto.Both read Creig` → ` upon our Lotto. Both read Creig`
+- **ws-1891-93-0338** p.246 — missing space after '.' (AUTO)
+  - `nterested in it.In the evening ` → `nterested in it. In the evening `
+- **ws-1891-93-0337** p.246 — missing space after '.' (AUTO)
+  - `to see Gertrude.Bernhard began ` → `to see Gertrude. Bernhard began `
+- **ws-1891-93-0343** p.246 — missing space after '.' (AUTO)
+  - `wrote our Lotto.I called on Mis` → `wrote our Lotto. I called on Mis`
+- **ws-1891-93-0342** p.246 — missing space after '.' (AUTO)
+  - `ighton Vol. III.We wrote our Lo` → `ighton Vol. III. We wrote our Lo`
+- **ws-1891-93-0341** p.246 — missing space after '.' (AUTO)
+  - `ake’s Fine Arts.I finished Crei` → `ake’s Fine Arts. I finished Crei`
+- **ws-1891-93-0346** p.247 — missing space after '.' (AUTO)
+  - `at juvenile rot.I read Confessi` → `at juvenile rot. I read Confessi`
+- **ws-1891-93-0345** p.246 — missing space after '.' (AUTO)
+  - `for three hours.We finished [24` → `for three hours. We finished [24`
+- **ws-1891-93-0344** p.246 — missing space after '.' (AUTO)
+  - `ut much success.In the afternoo` → `ut much success. In the afternoo`
+- **ws-1891-93-0349** p.247 — missing space after '.' (AUTO)
+  - ` in the evening.Bernhard is tru` → ` in the evening. Bernhard is tru`
+- **ws-1891-93-0348** p.247 — missing space after '.' (AUTO)
+  - ` wrote my story.I read Lady Eas` → ` wrote my story. I read Lady Eas`
+- **ws-1891-93-0347** p.247 — missing space after '.' (AUTO)
+  - `for three hours.I went to see G` → `for three hours. I went to see G`
+- **ws-1891-93-0351** p.248 — missing space after '.' (AUTO)
+  - `bed feeling ill.In the evening ` → `bed feeling ill. In the evening `
+- **ws-1891-93-0350** p.248 — missing space after '.' (AUTO)
+  - `et Mrs. Bywater.I felt very ill` → `et Mrs. Bywater. I felt very ill`
+- **ws-1891-93-0353** p.249 — missing space after '.' (AUTO)
+  - ` it already was.Ray assumed a m` → ` it already was. Ray assumed a m`
+- **ws-1891-93-0352** p.248 — missing space after '.' (AUTO)
+  - `rd in the Pitti.He had a letter` → `rd in the Pitti. He had a letter`
+- **ws-1891-93-0355** p.250 — missing space after '.' (AUTO)
+  - `n the afternoon.In the evening ` → `n the afternoon. In the evening `
+- **ws-1891-93-0354** p.249 — missing space after '.' (AUTO)
+  - `o route or time.Then I went to ` → `o route or time. Then I went to `
+- **ws-1891-93-0358** p.251 — missing space after '.' (AUTO)
+  - `iberal politics.In the evening ` → `iberal politics. In the evening `
+- **ws-1891-93-0357** p.251 — missing space after '.' (AUTO)
+  - `of Venetian Art.Then I called o` → `of Venetian Art. Then I called o`
+- **ws-1891-93-0356** p.250 — missing space after '.' (AUTO)
+  - `being a failure.I took tea with` → `being a failure. I took tea with`
+- **ws-1891-93-0360** p.251 — missing space after '.' (AUTO)
+  - `with bronchitis.We worked on ou` → `with bronchitis. We worked on ou`
+- **ws-1891-93-0359** p.251 — missing space after '.' (AUTO)
+  - ` wrote as usual.Karin is worse,` → ` wrote as usual. Karin is worse,`
+- **ws-1891-93-0363** p.252 — missing space after '.' (AUTO)
+  - `ished Creighton.I told Parry th` → `ished Creighton. I told Parry th`
+- **ws-1891-93-0362** p.252 — missing space after '.' (AUTO)
+  - ` Britten called.In the evening ` → ` Britten called. In the evening `
+- **ws-1891-93-0361** p.252 — missing space after '.' (AUTO)
+  - `oeser and Parry.Karin ill, and ` → `oeser and Parry. Karin ill, and `
+- **ws-1891-93-0365** p.252 — missing space after '.' (AUTO)
+  - `e is a nice boy.In the evening ` → `e is a nice boy. In the evening `
+- **ws-1891-93-0364** p.252 — missing space after '.' (AUTO)
+  - `nd in the Pitti.Bernhard wrote,` → `nd in the Pitti. Bernhard wrote,`
+- **ws-1891-93-0366** p.253 — missing space after '!' (AUTO)
+  - ` Reign of Fleas!It was a keen d` → ` Reign of Fleas! It was a keen d`
+- **ws-1891-93-0369** p.253 — missing space after '.' (AUTO)
+  - `ted to gambling.The evening was` → `ted to gambling. The evening was`
+- **ws-1891-93-0368** p.253 — missing space after '.' (AUTO)
+  - ` Mr. Parry came.We all three we` → ` Mr. Parry came. We all three we`
+- **ws-1891-93-0367** p.253 — missing space after '.' (AUTO)
+  - `n Edith Kendall.Nana was dead t` → `n Edith Kendall. Nana was dead t`
+- **ws-1891-93-0370** p.253 — missing space after '.' (AUTO)
+  - `ot intellectual.Here is a list ` → `ot intellectual. Here is a list `
+- **ws-1891-93-0372** p.254 — missing space after '.' (AUTO)
+  - ` to tea at B.’s.Edith Kendall a` → ` to tea at B.’s. Edith Kendall a`
+- **ws-1891-93-0371** p.254 — missing space after '.' (AUTO)
+  - `n’s wakefulness.Parry came to t` → `n’s wakefulness. Parry came to t`
+- **ws-1891-93-0373** p.255 — missing space after '.' (AUTO)
+  - `quite tired out.Loeser came in ` → `quite tired out. Loeser came in `
+- **ws-1891-93-0376** p.255 — missing space after '.' (AUTO)
+  - `ry, at any rate.Ray’s first met` → `ry, at any rate. Ray’s first met`
+- **ws-1891-93-0375** p.255 — missing space after '.' (AUTO)
+  - `es type-written.Of course we ma` → `es type-written. Of course we ma`
+- **ws-1891-93-0374** p.255 — missing space after '.' (AUTO)
+  - `d little museum.We spent all th` → `d little museum. We spent all th`
+- **ws-1891-93-0379** p.257 — missing space after '.' (AUTO)
+  - `to have a lover.Huysmans, in Un` → `to have a lover. Huysmans, in Un`
+- **ws-1891-93-0378** p.256 — missing space after '!' (AUTO)
+  - `s, but too late!A few days ago ` → `s, but too late! A few days ago `
+- **ws-1891-93-0377** p.256 — missing space after '.' (AUTO)
+  - `Venetian School.Then we took a ` → `Venetian School. Then we took a `
+- **ws-1891-93-0384** p.258 — missing space after '.' (AUTO)
+  - `eshadowed there.We did not quar` → `eshadowed there. We did not quar`
+- **ws-1891-93-0383** p.258 — missing space after '.' (AUTO)
+  - ` will come back.In the evening ` → ` will come back. In the evening `
+- **ws-1891-93-0382** p.258 — missing space after '.' (AUTO)
+  - ` almost no lies.Bernhard walked` → ` almost no lies. Bernhard walked`
+- **ws-1891-93-0381** p.258 — missing space after '.' (AUTO)
+  - `rfully virtuous.Edith Kendall c` → `rfully virtuous. Edith Kendall c`
+- **ws-1891-93-0380** p.258 — missing space after '.' (AUTO)
+  - `anta Annunziata.Mr. Hezeltine s` → `anta Annunziata. Mr. Hezeltine s`
+- **ws-1891-93-0387** p.259 — missing space after '.' (AUTO)
+  - `ard on Mrs. Way.I had a little ` → `ard on Mrs. Way. I had a little `
+- **ws-1891-93-0386** p.259 — missing space after '.' (AUTO)
+  - `ar - unsuitable.Bernhard called` → `ar - unsuitable. Bernhard called`
+- **ws-1891-93-0385** p.259 — missing space after '.' (AUTO)
+  - ` to Dr. Richter.Mme Zucchelli a` → ` to Dr. Richter. Mme Zucchelli a`
+- **ws-1891-93-0389** p.259 — missing space after '.' (AUTO)
+  - `o were both out.Worked in the e` → `o were both out. Worked in the e`
+- **ws-1891-93-0388** p.259 — missing space after '.' (AUTO)
+  - `n the Venetians.We had tea at B` → `n the Venetians. We had tea at B`
+- **ws-1891-93-0392** p.260 — missing space after '.' (AUTO)
+  - `nal tête-à-tête.In the evening ` → `nal tête-à-tête. In the evening `
+- **ws-1891-93-0391** p.260 — missing space after '.' (AUTO)
+  - `heard of Darwin.In the meantime` → `heard of Darwin. In the meantime`
+- **ws-1891-93-0390** p.259 — missing space after '.' (AUTO)
+  - ` at the Toscana.Then we came ba` → ` at the Toscana. Then we came ba`
+- **ws-1891-93-0393** p.260 — missing space after '.' (AUTO)
+  - ` to Mlle Fleury.The journey was` → ` to Mlle Fleury. The journey was`
+- **ws-1891-93-0394** p.261 — missing space after '.' (AUTO)
+  - `other way about.It was glorious` → `other way about. It was glorious`
+- **ws-1891-93-0395** p.262 — missing space after '.' (AUTO)
+  - `rote and walked.Bernhard finish` → `rote and walked. Bernhard finish`
+- **ws-1891-93-0397** p.262 — missing space after '.' (AUTO)
+  - `n the afternoon.Type-wrote in e` → `n the afternoon. Type-wrote in e`
+- **ws-1891-93-0396** p.262 — missing space after '.' (AUTO)
+  - ` in the morning.Walked in the w` → ` in the morning. Walked in the w`
+- **ws-1891-93-0398** p.262 — missing space after '.' (AUTO)
+  - ` a general view.Towards sunset ` → ` a general view. Towards sunset `
+- **ws-1891-93-0400** p.264 — missing space after '.' (AUTO)
+  - `t is very weary.I finished “Les` → `t is very weary. I finished “Les`
+- **ws-1891-93-0399** p.264 — missing space after '.' (AUTO)
+  - `s and had lunch.Then I came her` → `s and had lunch. Then I came her`
+- **ws-1891-93-0404** p.265 — missing space after '.' (AUTO)
+  - `fine Signorelli.We had a nice d` → `fine Signorelli. We had a nice d`
+- **ws-1891-93-0403** p.265 — missing space after '.' (AUTO)
+  - `ging at the end.I read a stupid` → `ging at the end. I read a stupid`
+- **ws-1891-93-0402** p.265 — missing space after '.' (AUTO)
+  - `e makes mention.Then we came he` → `e makes mention. Then we came he`
+- **ws-1891-93-0401** p.265 — missing space after '.' (AUTO)
+  - ` in the morning.At Santa Cateri` → ` in the morning. At Santa Cateri`
+- **ws-1891-93-0406** p.266 — missing space after '.' (AUTO)
+  - `i and Correggio.I read Charles ` → `i and Correggio. I read Charles `
+- **ws-1891-93-0405** p.266 — missing space after '.' (AUTO)
+  - `ia altar-pieces.In the evening ` → `ia altar-pieces. In the evening `
+- **ws-1891-93-0407** p.267 — missing space after '.' (AUTO)
+  - `, and the Duomo.Bernhard is beg` → `, and the Duomo. Bernhard is beg`
+- **ws-1891-93-0408** p.267 — missing space after '.' (AUTO)
+  - `ng beyond words.We nearly finis` → `ng beyond words. We nearly finis`
+- **ws-1891-93-0409** p.268 — missing space after '.' (AUTO)
+  - `day May 1. 1892.Albergo dell’Aq` → `day May 1. 1892. Albergo dell’Aq`
+- **ws-1891-93-0411** p.268 — missing space after '.' (AUTO)
+  - `rt of barn door.Coming back, we` → `rt of barn door. Coming back, we`
+- **ws-1891-93-0410** p.268 — missing space after '.' (AUTO)
+  - `rm walking back.Finished our Mu` → `rm walking back. Finished our Mu`
+- **ws-1891-93-0412** p.269 — missing space after '!' (AUTO)
+  - `ng all day long!We came on at 2` → `ng all day long! We came on at 2`
+- **ws-1891-93-0413** p.269 — missing space after '.' (AUTO)
+  - `azzo Bevilacqua.Bernhard is rea` → `azzo Bevilacqua. Bernhard is rea`
+- **ws-1891-93-0414** p.269 — missing space after '.' (AUTO)
+  - `Tura among them.Bernhard went [` → `Tura among them. Bernhard went [`
+- **ws-1891-93-0416** p.270 — missing space after '.' (AUTO)
+  - ` in the evening.Talked to some ` → ` in the evening. Talked to some `
+- **ws-1891-93-0415** p.270 — missing space after '.' (AUTO)
+  - `t. A lovely day.Wrote our Bisso` → `t. A lovely day. Wrote our Bisso`
+- **ws-1891-93-0417** p.270 — missing space after '.' (AUTO)
+  - `d saw the Duomo.After lunch we ` → `d saw the Duomo. After lunch we `
+- **ws-1891-93-0419** p.270 — missing space after '.' (AUTO)
+  - `omo before dark.Wrote our “Doss` → `omo before dark. Wrote our “Doss`
+- **ws-1891-93-0418** p.270 — missing space after '.' (AUTO)
+  - `ch of San Sisto.Then we came to` → `ch of San Sisto. Then we came to`
+- **ws-1891-93-0420** p.271 — missing space after '.' (AUTO)
+  - `came to Brescia.I finished Symo` → `came to Brescia. I finished Symo`
+- **ws-1891-93-0422** p.271 — missing space after '.' (AUTO)
+  - `Railway Company.In the evening ` → `Railway Company. In the evening `
+- **ws-1891-93-0421** p.271 — missing space after '.' (AUTO)
+  - `ked on our book.In the afternoo` → `ked on our book. In the afternoo`
+- **ws-1891-93-0423** p.272 — missing space after '.' (AUTO)
+  - `Lotto intarsias.In the afternoo` → `Lotto intarsias. In the afternoo`
+- **ws-1891-93-0425** p.272 — missing space after '.' (AUTO)
+  - `ain coming back.Finished our Gu` → `ain coming back. Finished our Gu`
+- **ws-1891-93-0424** p.272 — missing space after '.' (AUTO)
+  - ` to the Gallery.After lunch we ` → ` to the Gallery. After lunch we `
+- **ws-1891-93-0427** p.273 — missing space after '.' (AUTO)
+  - ` for Botticelli.The children ar` → ` for Botticelli. The children ar`
+- **ws-1891-93-0426** p.272 — missing space after '.' (AUTO)
+  - `tired but happy.We talked to Je` → `tired but happy. We talked to Je`
+- **ws-1891-93-0428** p.273 — missing space after '.' (AUTO)
+  - `dren enjoyed it.I reached Paris` → `dren enjoyed it. I reached Paris`
+- **ws-1891-93-0429** p.274 — missing space after '.' (AUTO)
+  - `were very happy.We walked and s` → `were very happy. We walked and s`
+- **ws-1891-93-0430** p.274 — missing space after '.' (AUTO)
+  - `rande Chaumière.Saturday. Paris` → `rande Chaumière. Saturday. Paris`
+- **ws-1891-93-0431** p.274 — missing space after '.' (AUTO)
+  - `train for Paris.Bernhard brough` → `train for Paris. Bernhard brough`
+- **ws-1891-93-0433** p.274 — missing space after '.' (AUTO)
+  - `mond and Collin.In the evening ` → `mond and Collin. In the evening `
+- **ws-1891-93-0432** p.274 — missing space after ',' (AUTO)
+  - `als, a Terburgh,etc. Went to th` → `als, a Terburgh, etc. Went to th`
+- **ws-1891-93-0434** p.275 — missing space after '.' (AUTO)
+  - `ially wonderful.Maude came to s` → `ially wonderful. Maude came to s`
+- **ws-1891-93-0435** p.275 — missing space after '.' (AUTO)
+  - `uvre. New Salon.Maude to dine, ` → `uvre. New Salon. Maude to dine, `
+- **ws-1891-93-0436** p.275 — missing space after '.' (AUTO)
+  - `Paris.Thursday. June ` → `Paris. Thursday. June `
+- **ws-1891-93-0437** p.275 — missing space after '.' (AUTO)
+  - `, I forget what.Dined with Care` → `, I forget what. Dined with Care`
+- **ws-1891-93-0438** p.276 — missing space after '.' (AUTO)
+  - `her was with us.The “Mikes” arr` → `her was with us. The “Mikes” arr`
+- **ws-1891-93-0439** p.277 — missing space after '.' (AUTO)
+  - ` the Luxembourg.Took Michael Fi` → ` the Luxembourg. Took Michael Fi`
+- **ws-1891-93-0440** p.277 — missing space after '.' (AUTO)
+  - `e 21 [22]. 1892.Paris` → `e 21 [22]. 1892. Paris`
+- **ws-1891-93-0442** p.278 — missing space after '.' (AUTO)
+  - `all the stories.We said goodbye` → `all the stories. We said goodbye`
+- **ws-1891-93-0441** p.277 — missing space after '.' (AUTO)
+  - `o the New Salon.Burke came to t` → `o the New Salon. Burke came to t`
+- **ws-1891-93-0446** p.278 — missing space after '.' (AUTO)
+  - `rke came to tea.At luncheon Ber` → `rke came to tea. At luncheon Ber`
+- **ws-1891-93-0445** p.278 — missing space after '.' (AUTO)
+  - `ng called on me.Burke came to t` → `ng called on me. Burke came to t`
+- **ws-1891-93-0444** p.278 — missing space after '.' (AUTO)
+  - `o the Old Salon.Florence Ayling` → `o the Old Salon. Florence Ayling`
+- **ws-1891-93-0443** p.278 — missing space after '.' (AUTO)
+  - ` cold this time.Then I came hom` → ` cold this time. Then I came hom`
+- **ws-1891-93-0447** p.279 — missing space after '.' (AUTO)
+  - `were enchanting.After lunch we ` → `were enchanting. After lunch we `
+- **ws-1891-93-0448** p.280 — missing space after '.' (AUTO)
+  - `Paris.Sunday June 26.` → `Paris. Sunday June 26.`
+- **ws-1891-93-0449** p.281 — missing space after '.' (AUTO)
+  - `, July 13. 1892.Paris` → `, July 13. 1892. Paris`
+- **ws-1891-93-0450** p.281 — missing space after '.' (AUTO)
+  - `ng on his words.A youth named N` → `ng on his words. A youth named N`
+- **ws-1891-93-0451** p.282 — missing space after '.' (AUTO)
+  - `s yoke a little.Hapgood is as m` → `s yoke a little. Hapgood is as m`
+- **ws-1891-93-0452** p.282 — missing space after ',' (AUTO)
+  - ` and Jens Thiis,the Norwegian y` → ` and Jens Thiis, the Norwegian y`
+- **ws-1891-93-0453** p.285 — missing space after '.' (AUTO)
+  - `Paris to London.Bernhard went t` → `Paris to London. Bernhard went t`
+- **ws-1891-93-0454** p.285 — missing space after '.' (AUTO)
+  - `ss. He did well.I came to Frida` → `ss. He did well. I came to Frida`
+- **ws-1891-93-0457** p.288 — missing space after '.' (AUTO)
+  - `to me that ever.His sister is h` → `to me that ever. His sister is h`
+- **ws-1891-93-0456** p.288 — missing space after '.' (AUTO)
+  - ` was very sweet.Bernhard stayed` → ` was very sweet. Bernhard stayed`
+- **ws-1891-93-0455** p.288 — missing space after '.' (AUTO)
+  - ` to be a coward.Afterwards I sp` → ` to be a coward. Afterwards I sp`
+- **ws-1891-93-0458** p.288 — missing space after '.' (AUTO)
+  - `d from Newhaven.How good it was` → `d from Newhaven. How good it was`
+- **ws-1891-93-0459** p.289 — missing space after '.' (AUTO)
+  - `those at Amiens.Then we came he` → `those at Amiens. Then we came he`
+- **ws-1891-93-0460** p.289 — missing space after '.' (AUTO)
+  - `gan to feel ill.Finished Creigh` → `gan to feel ill. Finished Creigh`
+- **ws-1891-93-0461** p.289 — missing space after '.' (AUTO)
+  - `ard, Degas, etc.Went to the Exp` → `ard, Degas, etc. Went to the Exp`
+- **ws-1891-93-0462** p.290 — missing space after '.' (AUTO)
+  - `at deal of pain.Bernhard dined ` → `at deal of pain. Bernhard dined `
+- **ws-1891-93-0464** p.290 — missing space after '.' (AUTO)
+  - `mber any others.Bernhard is rea` → `mber any others. Bernhard is rea`
+- **ws-1891-93-0463** p.290 — missing space after ',' (AUTO)
+  - ` many: L’Oeuvre,La Curée, Germi` → ` many: L’Oeuvre, La Curée, Germi`
+- **ws-1891-93-0465** p.291 — missing space after '.' (AUTO)
+  - `e to the Louvre.I read Diderot’` → `e to the Louvre. I read Diderot’`
+- **ws-1891-93-0468** p.291 — missing space after '.' (AUTO)
+  - `est très faible.Read Creighton ` → `est très faible. Read Creighton `
+- **ws-1891-93-0467** p.291 — missing space after '.' (AUTO)
+  - `ee the Besnards.I read Paul Mar` → `ee the Besnards. I read Paul Mar`
+- **ws-1891-93-0466** p.291 — missing space after '.' (AUTO)
+  - `er from Michael.Burke came to t` → `er from Michael. Burke came to t`
+- **ws-1891-93-0472** p.291 — missing space after ',' (AUTO)
+  - `ton, Mrs. Green,and Mrs. Gardin` → `ton, Mrs. Green, and Mrs. Gardin`
+- **ws-1891-93-0471** p.291 — missing space after '.' (AUTO)
+  - `Vienna pictures.In the evening ` → `Vienna pictures. In the evening `
+- **ws-1891-93-0470** p.291 — missing space after '.' (AUTO)
+  - `d, awfully poor.Burke sent me t` → `d, awfully poor. Burke sent me t`
+- **ws-1891-93-0469** p.291 — missing space after '.' (AUTO)
+  - `Not so well.Read “The Red S` → `Not so well. Read “The Red S`
+- **ws-1891-93-0473** p.292 — missing space after '.' (AUTO)
+  - `.” Read Morelli.Bernhard went t` → `.” Read Morelli. Bernhard went t`
+- **ws-1891-93-0475** p.292 — missing space after '.' (AUTO)
+  - `res to the full.Began “La Débâc` → `res to the full. Began “La Débâc`
+- **ws-1891-93-0474** p.292 — missing space after '.' (AUTO)
+  - `nd Mrs. Jameson.Enjoyed the pic` → `nd Mrs. Jameson. Enjoyed the pic`
+- **ws-1891-93-0476** p.292 — missing space after '.' (AUTO)
+  - `de me very blue.Read Creighton.` → `de me very blue. Read Creighton.`
+- **ws-1891-93-0479** p.292 — missing space after '.' (AUTO)
+  - `s. Saw Dr Remet.Read Creighton ` → `s. Saw Dr Remet. Read Creighton `
+- **ws-1891-93-0478** p.292 — missing space after '.' (AUTO)
+  - `ge, a Ruskinite.Lunched with Ha` → `ge, a Ruskinite. Lunched with Ha`
+- **ws-1891-93-0477** p.292 — missing space after '.' (AUTO)
+  - ` in the morning.Met Hapgood and` → ` in the morning. Met Hapgood and`
+- **ws-1891-93-0481** p.292 — missing space after '.' (AUTO)
+  - `nearly to death.Hapgood came in` → `nearly to death. Hapgood came in`
+- **ws-1891-93-0480** p.292 — missing space after '.' (AUTO)
+  - ` did not go out.Marion Lawrence` → ` did not go out. Marion Lawrence`
+- **ws-1891-93-0482** p.293 — missing space after '.' (AUTO)
+  - `w a little more.After lunch we ` → `w a little more. After lunch we `
+- **ws-1891-93-0485** p.293 — missing space after '.' (AUTO)
+  - ` dined with him.Read Creighton.` → ` dined with him. Read Creighton.`
+- **ws-1891-93-0484** p.293 — missing space after ',' (AUTO)
+  - `read La Débâcle,and Bernhard re` → `read La Débâcle, and Bernhard re`
+- **ws-1891-93-0483** p.293 — missing space after '.' (AUTO)
+  - ` de Sept Mètres.In the afternoo` → ` de Sept Mètres. In the afternoo`
+- **ws-1891-93-0486** p.293 — missing space after '.' (AUTO)
+  - `hered round him.We lunched toge` → `hered round him. We lunched toge`
+- **ws-1891-93-0489** p.294 — missing space after '.' (AUTO)
+  - ` inspired Puvis.After lunch I s` → ` inspired Puvis. After lunch I s`
+- **ws-1891-93-0488** p.294 — missing space after '.' (AUTO)
+  - `h the Flandrins.They evidently ` → `h the Flandrins. They evidently `
+- **ws-1891-93-0487** p.294 — missing space after '.' (AUTO)
+  - `d the Imitators.Went to the Cha` → `d the Imitators. Went to the Cha`
+- **ws-1891-93-0492** p.294 — missing space after '.' (AUTO)
+  - ` to London 8.35.I read Poggio’s` → ` to London 8.35. I read Poggio’s`
+- **ws-1891-93-0491** p.294 — missing space after '.' (AUTO)
+  - ` came home at 5.Burke went to L` → ` came home at 5. Burke went to L`
+- **ws-1891-93-0490** p.294 — missing space after '.' (AUTO)
+  - `inité - a Pietà.After lunch we ` → `inité - a Pietà. After lunch we `
+- **ws-1891-93-0493** p.295 — missing space after '!' (AUTO)
+  - `ed it for years!In the evening ` → `ed it for years! In the evening `
+- **ws-1891-93-0494** p.295 — missing space after '.' (AUTO)
+  - `book and talked.Then we drove w` → `book and talked. Then we drove w`
+- **ws-1891-93-0499** p.296 — missing space after '.' (AUTO)
+  - `ent the evening.Bernhard felt i` → `ent the evening. Bernhard felt i`
+- **ws-1891-93-0498** p.296 — missing space after ',' (AUTO)
+  - `d Chauve-Souris,the first volum` → `d Chauve-Souris, the first volum`
+- **ws-1891-93-0497** p.296 — missing space after '.' (AUTO)
+  - `te to Rukhmabai.Giovanni came t` → `te to Rukhmabai. Giovanni came t`
+- **ws-1891-93-0496** p.296 — missing space after '.' (AUTO)
+  - ` Giovanni Costa.Wrote to Rukhma` → ` Giovanni Costa. Wrote to Rukhma`
+- **ws-1891-93-0495** p.296 — missing space after '.' (AUTO)
+  - `hael and School.Met Giovanni Co` → `hael and School. Met Giovanni Co`
+- **ws-1891-93-0500** p.296 — missing space after '.' (AUTO)
+  - `Chiefly Titians.Wrote to Maude ` → `Chiefly Titians. Wrote to Maude `
+- **ws-1891-93-0501** p.296 — missing space after '.' (AUTO)
+  - `redith’s poetry.Very tired at n` → `redith’s poetry. Very tired at n`
+- **ws-1891-93-0503** p.297 — missing space after '.' (AUTO)
+  - `cing, etc., etc.Afterwards we h` → `cing, etc., etc. Afterwards we h`
+- **ws-1891-93-0502** p.296 — missing space after '.' (AUTO)
+  - ` like two geese.Met Hapgood and` → ` like two geese. Met Hapgood and`
+- **ws-1891-93-0504** p.297 — missing space after '.' (AUTO)
+  - `and walked down.Sent the Deed o` → `and walked down. Sent the Deed o`
+- **ws-1891-93-0507** p.298 — missing space after '.' (AUTO)
+  - `o the Cathedral.Wrote to Lady E` → `o the Cathedral. Wrote to Lady E`
+- **ws-1891-93-0506** p.298 — missing space after '.' (AUTO)
+  - `varinithere too.After a rest, w` → `varinithere too. After a rest, w`
+- **ws-1891-93-0505** p.297 — missing space after '.' (AUTO)
+  - ` in the morning.After lunch wen` → ` in the morning. After lunch wen`
+- **ws-1891-93-0508** p.298 — missing space after '.' (AUTO)
+  - ` the Gaudenzios.Bernhard was no` → ` the Gaudenzios. Bernhard was no`
+- **ws-1891-93-0509** p.298 — missing space after '.' (AUTO)
+  - ` Sept. 18. 1892.Varallo` → ` Sept. 18. 1892. Varallo`
+- **ws-1891-93-0512** p.299 — missing space after '.' (AUTO)
+  - `y dusty glasses.I read “Oliver ` → `y dusty glasses. I read “Oliver `
+- **ws-1891-93-0511** p.299 — missing space after '!' (AUTO)
+  - `lp laughing too!A railway man j` → `lp laughing too! A railway man j`
+- **ws-1891-93-0510** p.298 — missing space after '.' (AUTO)
+  - `mme Raisonnable.He finds in the` → `mme Raisonnable. He finds in the`
+- **ws-1891-93-0514** p.299 — missing space after '.' (AUTO)
+  - `4.30 to Bergamo.Here, letters f` → `4.30 to Bergamo. Here, letters f`
+- **ws-1891-93-0513** p.299 — missing space after '.' (AUTO)
+  - `g Milan at 1.10.After lunch we ` → `g Milan at 1.10. After lunch we `
+- **ws-1891-93-0517** p.300 — missing space after '.' (AUTO)
+  - `ons Dangereuses.Wrote letters i` → `ons Dangereuses. Wrote letters i`
+- **ws-1891-93-0516** p.300 — missing space after '.' (AUTO)
+  - `went to Gallery.Finished Oliver` → `went to Gallery. Finished Oliver`
+- **ws-1891-93-0515** p.300 — missing space after '.' (AUTO)
+  - ` here for quiet.Spent an hour i` → ` here for quiet. Spent an hour i`
+- **ws-1891-93-0518** p.300 — missing space after '.' (AUTO)
+  - `elli Collection.In the evening ` → `elli Collection. In the evening `
+- **ws-1891-93-0519** p.301 — missing space after '.' (AUTO)
+  - `nor Locatelli’s.Finished Sir Wa` → `nor Locatelli’s. Finished Sir Wa`
+- **ws-1891-93-0522** p.301 — missing space after '.' (AUTO)
+  - `vening we wrote.I read Mrs. Cre` → `vening we wrote. I read Mrs. Cre`
+- **ws-1891-93-0521** p.301 — missing space after '.' (AUTO)
+  - `esting pictures.In the evening ` → `esting pictures. In the evening `
+- **ws-1891-93-0520** p.301 — missing space after '.' (AUTO)
+  - `I felt very ill.We went to the ` → `I felt very ill. We went to the `
+- **ws-1891-93-0526** p.301 — missing space after '.' (AUTO)
+  - `to there.Packed.Finished the “D` → `to there.Packed. Finished the “D`
+- **ws-1891-93-0525** p.301 — missing space after '.' (AUTO)
+  - `que Lotto there.Packed.Finished` → `que Lotto there. Packed.Finished`
+- **ws-1891-93-0524** p.301 — missing space after '.' (AUTO)
+  - ` Maria Maggiore.Wrote home abou` → ` Maria Maggiore. Wrote home abou`
+- **ws-1891-93-0523** p.301 — missing space after '.' (AUTO)
+  - `sleepless night.Went to the Duo` → `sleepless night. Went to the Duo`
+- **ws-1891-93-0528** p.302 — missing space after '.' (AUTO)
+  - `m Lady Eastlake.We came to Geno` → `m Lady Eastlake. We came to Geno`
+- **ws-1891-93-0527** p.302 — missing space after '.' (AUTO)
+  - `ut the pictures.I found a lette` → `ut the pictures. I found a lette`
+- **ws-1891-93-0532** p.302 — missing space after '.' (AUTO)
+  - `ia di Carignano.Wrote in evenin` → `ia di Carignano. Wrote in evenin`
+- **ws-1891-93-0531** p.302 — missing space after '!' (AUTO)
+  - `rth any journey!Afterwards we s` → `rth any journey! Afterwards we s`
+- **ws-1891-93-0530** p.302 — missing space after '.' (AUTO)
+  - `unsel’s opinion.Then we went to` → `unsel’s opinion. Then we went to`
+- **ws-1891-93-0529** p.302 — missing space after '.' (AUTO)
+  - `w the Municipio.Met Signor Baro` → `w the Municipio. Met Signor Baro`
+- **ws-1891-93-0533** p.303 — missing space after '.' (AUTO)
+  - `Morelli Gallery.Went to bed ear` → `Morelli Gallery. Went to bed ear`
+- **ws-1891-93-0537** p.303 — missing space after '.' (AUTO)
+  - `Davies at lunch.Vernon Lee and ` → `Davies at lunch. Vernon Lee and `
+- **ws-1891-93-0536** p.303 — missing space after '.' (AUTO)
+  - `connoisseur yet.Saw the Davies ` → `connoisseur yet. Saw the Davies `
+- **ws-1891-93-0535** p.303 — missing space after '.' (AUTO)
+  - `vered it before.Then I went to ` → `vered it before. Then I went to `
+- **ws-1891-93-0534** p.303 — missing space after '.' (AUTO)
+  - `g Milan at 9.30.After a caviar ` → `g Milan at 9.30. After a caviar `
+- **ws-1891-93-0539** p.304 — missing space after '.' (AUTO)
+  - `characteristics.Then we went to` → `characteristics. Then we went to`
+- **ws-1891-93-0538** p.304 — missing space after '.' (AUTO)
+  - `ut unmistakable.Then we drove u` → `ut unmistakable. Then we drove u`
+- **ws-1891-93-0540** p.304 — missing space after '.' (AUTO)
+  - `close to Longhi.The other villa` → `close to Longhi. The other villa`
+- **ws-1891-93-0543** p.305 — missing space after ',' (AUTO)
+  - `istory of Italy,and finds it go` → `istory of Italy, and finds it go`
+- **ws-1891-93-0542** p.305 — missing space after '.' (AUTO)
+  - ` to the Gallery.Read CharlesV. ` → ` to the Gallery. Read CharlesV. `
+- **ws-1891-93-0541** p.305 — missing space after '.' (AUTO)
+  - `e Doge’s Palace.I was tired in ` → `e Doge’s Palace. I was tired in `
+- **ws-1891-93-0546** p.305 — missing space after '.' (AUTO)
+  - `ut by a courier.Wrote our Morel` → `ut by a courier. Wrote our Morel`
+- **ws-1891-93-0545** p.305 — missing space after '.' (AUTO)
+  - ` a gondola ride.Met the America` → ` a gondola ride. Met the America`
+- **ws-1891-93-0544** p.305 — missing space after '.' (AUTO)
+  - ` in the morning.San Giorgio Mag` → ` in the morning. San Giorgio Mag`
+- **ws-1891-93-0550** p.306 — missing space after '.' (AUTO)
+  - `dly intelligent.Then we went to` → `dly intelligent. Then we went to`
+- **ws-1891-93-0549** p.306 — missing space after '.' (AUTO)
+  - `m San Francisco.They were not w` → `m San Francisco. They were not w`
+- **ws-1891-93-0548** p.306 — missing space after '.' (AUTO)
+  - ` in the evening.In the afternoo` → ` in the evening. In the afternoo`
+- **ws-1891-93-0547** p.306 — missing space after ',' (AUTO)
+  - `nhard’s Cariani,a puzzling pict` → `nhard’s Cariani, a puzzling pict`
+- **ws-1891-93-0553** p.307 — missing space after '.' (AUTO)
+  - `, and the Duomo.I am still on C` → `, and the Duomo. I am still on C`
+- **ws-1891-93-0552** p.306 — missing space after '.' (AUTO)
+  - ` to the Academy.Signor Barozzi ` → ` to the Academy. Signor Barozzi `
+- **ws-1891-93-0551** p.306 — missing space after '.' (AUTO)
+  - `I was unwell.We met the Sper` → `I was unwell. We met the Sper`
+- **ws-1891-93-0555** p.307 — missing space after '.' (AUTO)
+  - `Morelli article.In the evening ` → `Morelli article. In the evening `
+- **ws-1891-93-0554** p.307 — missing space after '.' (AUTO)
+  - `an Resurrection.Then we went to` → `an Resurrection. Then we went to`
+- **ws-1891-93-0558** p.308 — missing space after '.' (AUTO)
+  - `a modern master.After seeing th` → `a modern master. After seeing th`
+- **ws-1891-93-0557** p.308 — missing space after '.' (AUTO)
+  - `parable Longhis.They are such k` → `parable Longhis. They are such k`
+- **ws-1891-93-0556** p.308 — missing space after '.' (AUTO)
+  - `e daughter does.After lunch we ` → `e daughter does. After lunch we `
+- **ws-1891-93-0559** p.308 — missing space after '.' (AUTO)
+  - `ay Oct. 6. 1892.Venice` → `ay Oct. 6. 1892. Venice`
+- **ws-1891-93-0564** p.309 — missing space after '.' (AUTO)
+  - `no life in them.Called on Sperr` → `no life in them. Called on Sperr`
+- **ws-1891-93-0563** p.309 — missing space after '.' (AUTO)
+  - `did some sewing.Miss Jordan sen` → `did some sewing. Miss Jordan sen`
+- **ws-1891-93-0562** p.309 — missing space after '.' (AUTO)
+  - `ictures so much.Then we came ba` → `ictures so much. Then we came ba`
+- **ws-1891-93-0561** p.309 — missing space after '!' (AUTO)
+  - `s are like that!After lunch we ` → `s are like that! After lunch we `
+- **ws-1891-93-0560** p.308 — missing space after '.' (AUTO)
+  - `A rainy day.We met the Sper` → `A rainy day. We met the Sper`
+- **ws-1891-93-0565** p.310 — missing space after '.' (AUTO)
+  - `’s Oil-Painting.Letter from Mic` → `’s Oil-Painting. Letter from Mic`
+- **ws-1891-93-0567** p.310 — missing space after '.' (AUTO)
+  - `s and very dull.In the evening ` → `s and very dull. In the evening `
+- **ws-1891-93-0566** p.310 — missing space after '.' (AUTO)
+  - `, we made it up.He read Balfour` → `, we made it up. He read Balfour`
+- **ws-1891-93-0568** p.310 — missing space after '.' (AUTO)
+  - `ay Oct. 9. 1892.Venice` → `ay Oct. 9. 1892. Venice`
+- **ws-1891-93-0571** p.310 — missing space after '.' (AUTO)
+  - `otes in evening.At meals I read` → `otes in evening. At meals I read`
+- **ws-1891-93-0570** p.310 — missing space after '.' (AUTO)
+  - `adfully insipid.Classified my n` → `adfully insipid. Classified my n`
+- **ws-1891-93-0569** p.310 — missing space after '.' (AUTO)
+  - `a splendid swim.I read Balfour’` → `a splendid swim. I read Balfour’`
+- **ws-1891-93-0572** p.310 — missing space after '.' (AUTO)
+  - `y Oct. 10. 1892.Venice` → `y Oct. 10. 1892. Venice`
+- **ws-1891-93-0573** p.310 — missing space after '.' (AUTO)
+  - `n the afternoon.Worked and read` → `n the afternoon. Worked and read`
+- **ws-1891-93-0577** p.311 — missing space after '.' (AUTO)
+  - `l call The Book.Read Robertson ` → `l call The Book. Read Robertson `
+- **ws-1891-93-0576** p.311 — missing space after '.' (AUTO)
+  - ` to the Academy.Then Bernhard c` → ` to the Academy. Then Bernhard c`
+- **ws-1891-93-0575** p.311 — missing space after '.' (AUTO)
+  - `e Doge’s Palace.After lunch we ` → `e Doge’s Palace. After lunch we `
+- **ws-1891-93-0574** p.311 — missing space after '.' (AUTO)
+  - `o get for Burke.Then we went to` → `o get for Burke. Then we went to`
+- **ws-1891-93-0578** p.311 — missing space after '.' (AUTO)
+  - `y Oct. 12. 1892.Venice` → `y Oct. 12. 1892. Venice`
+- **ws-1891-93-0581** p.311 — missing space after '.' (REVIEW_INITIAL)
+  - `ished Charles V.Packed and wrot` → `ished Charles V. Packed and wrot`
+- **ws-1891-93-0580** p.311 — missing space after '.' (AUTO)
+  - `er much trouble.I finished Char` → `er much trouble. I finished Char`
+- **ws-1891-93-0579** p.311 — missing space after '.' (AUTO)
+  - `n the afternoon.Bernhard sent o` → `n the afternoon. Bernhard sent o`
+- **ws-1891-93-0582** p.311 — missing space after '.' (AUTO)
+  - `rriving at 7.30.I read Morley’s` → `rriving at 7.30. I read Morley’s`
+- **ws-1891-93-0584** p.312 — missing space after '.' (AUTO)
+  - ` while I rested.In the evening ` → ` while I rested. In the evening `
+- **ws-1891-93-0583** p.312 — missing space after '.' (AUTO)
+  - ` Ercole Roberti.In the afternoo` → ` Ercole Roberti. In the afternoo`
+- **ws-1891-93-0585** p.313 — missing space after '.' (AUTO)
+  - ` were enchanted.Then at 4.40 we` → ` were enchanted. Then at 4.40 we`
+- **ws-1891-93-0587** p.314 — missing space after '.' (AUTO)
+  - ` columns varied.In the evening ` → ` columns varied. In the evening `
+- **ws-1891-93-0586** p.314 — missing space after '.' (AUTO)
+  - ` the Pinacoteca.Took the 12.59 ` → ` the Pinacoteca. Took the 12.59 `
+- **ws-1891-93-0588** p.314 — missing space after '.' (AUTO)
+  - `really by Paolo.After dinner I ` → `really by Paolo. After dinner I `
+- **ws-1891-93-0590** p.315 — missing space after '.' (AUTO)
+  - `not describe it.After dinner I ` → `not describe it. After dinner I `
+- **ws-1891-93-0589** p.315 — missing space after '.' (AUTO)
+  - `it is exercised.After lunch we ` → `it is exercised. After lunch we `
+- **ws-1891-93-0592** p.316 — missing space after '.' (AUTO)
+  - `n by rain again.Pretty tired an` → `n by rain again. Pretty tired an`
+- **ws-1891-93-0591** p.316 — missing space after '.' (AUTO)
+  - `ating from 1416.It rained hard ` → `ating from 1416. It rained hard `
+- **ws-1891-93-0593** p.317 — missing space after '.' (AUTO)
+  - `arming predelle.We reached Anco` → `arming predelle. We reached Anco`
+- **ws-1891-93-0595** p.317 — missing space after '.' (AUTO)
+  - `llis and Lottos.Drove to Recana` → `llis and Lottos. Drove to Recana`
+- **ws-1891-93-0594** p.317 — missing space after '.' (AUTO)
+  - `Loreto 9-12.30.Saw the Melozzo` → `Loreto 9-12.30. Saw the Melozzo`
+- **ws-1891-93-0596** p.318 — missing space after '.' (AUTO)
+  - `ery interesting.We walked out t` → `ery interesting. We walked out t`
+- **ws-1891-93-0597** p.318 — missing space after '.' (AUTO)
+  - `his masterpiece.They had no cof` → `his masterpiece. They had no cof`
+- **ws-1891-93-0598** p.320 — missing space after '.' (AUTO)
+  - `ellous pictures.Cingoli, a dese` → `ellous pictures. Cingoli, a dese`
+- **ws-1891-93-0602** p.321 — missing space after '!' (AUTO)
+  - `d in the guides!I was very ill ` → `d in the guides! I was very ill `
+- **ws-1891-93-0601** p.321 — missing space after '.' (AUTO)
+  - `ed finally down.On the road com` → `ed finally down. On the road com`
+- **ws-1891-93-0600** p.320 — missing space after '.' (AUTO)
+  - ` fine cloisters.The “Triumphal ` → ` fine cloisters. The “Triumphal `
+- **ws-1891-93-0599** p.320 — missing space after '.' (AUTO)
+  - `cola da Foligno.On the way back` → `cola da Foligno. On the way back`
+- **ws-1891-93-0603** p.321 — missing space after '.' (AUTO)
+  - `acerata Academy.We arrived here` → `acerata Academy. We arrived here`
+- **ws-1891-93-0607** p.322 — missing space after '.' (AUTO)
+  - `IV of Creighton.Was unwell.` → `IV of Creighton. Was unwell.`
+- **ws-1891-93-0606** p.322 — missing space after '.' (AUTO)
+  - ` Woman’s Herald.Bernhard is rea` → ` Woman’s Herald. Bernhard is rea`
+- **ws-1891-93-0605** p.322 — missing space after '.' (AUTO)
+  - ` the Pinacoteca.I began to writ` → ` the Pinacoteca. I began to writ`
+- **ws-1891-93-0604** p.322 — missing space after '.' (AUTO)
+  - `ica. Quarrelled.Drove to Albaci` → `ica. Quarrelled. Drove to Albaci`
+- **ws-1891-93-0609** p.322 — missing space after '.' (AUTO)
+  - `d” Sassoferrato.Tired and sleep` → `d” Sassoferrato. Tired and sleep`
+- **ws-1891-93-0608** p.322 — missing space after '.' (AUTO)
+  - `nd took all day.On the way back` → `nd took all day. On the way back`
+- **ws-1891-93-0612** p.322 — missing space after '.' (AUTO)
+  - ` of the Palaces.I read “The Gen` → ` of the Palaces. I read “The Gen`
+- **ws-1891-93-0611** p.322 — missing space after '.' (AUTO)
+  - `Burke and Maude.Came here and w` → `Burke and Maude. Came here and w`
+- **ws-1891-93-0610** p.322 — missing space after '.' (AUTO)
+  - `ful hours there.Letters from Bu` → `ful hours there. Letters from Bu`
+- **ws-1891-93-0615** p.323 — missing space after '.' (AUTO)
+  - `e a Roman Villa.I wrote my arti` → `e a Roman Villa. I wrote my arti`
+- **ws-1891-93-0614** p.322 — missing space after '.' (AUTO)
+  - `hi.Rain came on.Bernhard finish` → `hi.Rain came on. Bernhard finish`
+- **ws-1891-93-0613** p.322 — missing space after '.' (AUTO)
+  - ` dei Franceschi.Rain came on.Be` → ` dei Franceschi. Rain came on.Be`
+- **ws-1891-93-0620** p.323 — missing space after '.' (AUTO)
+  - `in a heavy pour.Bernhard is rea` → `in a heavy pour. Bernhard is rea`
+- **ws-1891-93-0619** p.323 — missing space after '.' (AUTO)
+  - ` to our delight.It rained in th` → ` to our delight. It rained in th`
+- **ws-1891-93-0618** p.323 — missing space after '.' (AUTO)
+  - `no in the Duomo.After lunch we ` → `no in the Duomo. After lunch we `
+- **ws-1891-93-0617** p.323 — missing space after '.' (AUTO)
+  - `ke a spring day.We saw a Gerino` → `ke a spring day. We saw a Gerino`
+- **ws-1891-93-0616** p.323 — missing space after '.' (AUTO)
+  - `for Sansepolcro.We were so abso` → `for Sansepolcro. We were so abso`
+- **ws-1891-93-0622** p.324 — missing space after '.' (AUTO)
+  - `ndrea Sansovino.Very tired - we` → `ndrea Sansovino. Very tired - we`
+- **ws-1891-93-0621** p.323 — missing space after '.' (AUTO)
+  - `es and pictures.In the afternoo` → `es and pictures. In the afternoo`
+- **ws-1891-93-0626** p.324 — missing space after '.' (AUTO)
+  - `ssance Churches.We had a nice d` → `ssance Churches. We had a nice d`
+- **ws-1891-93-0625** p.324 — missing space after '.' (AUTO)
+  - `s in S. Niccolo.Then I sat on t` → `s in S. Niccolo. Then I sat on t`
+- **ws-1891-93-0624** p.324 — missing space after '.' (AUTO)
+  - `edy) hangers on.In the afternoo` → `edy) hangers on. In the afternoo`
+- **ws-1891-93-0623** p.324 — missing space after '.' (AUTO)
+  - `ed here about 9.Found a B[artol` → `ed here about 9. Found a B[artol`
+- **ws-1891-93-0629** p.325 — missing space after '.' (AUTO)
+  - ` into the Duomo.Afterwards we h` → ` into the Duomo. Afterwards we h`
+- **ws-1891-93-0628** p.325 — missing space after '.' (AUTO)
+  - `r further study.We went to the ` → `r further study. We went to the `
+- **ws-1891-93-0627** p.325 — missing space after '.' (AUTO)
+  - `tten experience.We reached Peru` → `tten experience. We reached Peru`
+- **ws-1891-93-0630** p.325 — missing space after '.' (AUTO)
+  - ` to the Gallery.After lunch we ` → ` to the Gallery. After lunch we `
+- **ws-1891-93-0631** p.326 — missing space after '.' (AUTO)
+  - `n Basilica, etc.The hotel is im` → `n Basilica, etc. The hotel is im`
+- **ws-1891-93-0633** p.326 — missing space after '.' (AUTO)
+  - `de another gate.Reached here ab` → `de another gate. Reached here ab`
+- **ws-1891-93-0632** p.326 — missing space after '.' (AUTO)
+  - `d started at 12.Stopped at S. M` → `d started at 12. Stopped at S. M`
+- **ws-1891-93-0634** p.329 — missing space after '.' (AUTO)
+  - `l to the bottom.A young doctor ` → `l to the bottom. A young doctor `
+- **ws-1891-93-0636** p.330 — missing space after '.' (AUTO)
+  - `by candle-light.Arrived here to` → `by candle-light. Arrived here to`
+- **ws-1891-93-0635** p.330 — missing space after '!' (AUTO)
+  - ` doing business!It rained as we` → ` doing business! It rained as we`
+- **ws-1891-93-0637** p.330 — missing space after '.' (AUTO)
+  - `n and came here.Quarrelled - or` → `n and came here. Quarrelled - or`
+- **ws-1891-93-0639** p.331 — missing space after '.' (AUTO)
+  - ` a great artist.Then we stopped` → ` a great artist. Then we stopped`
+- **ws-1891-93-0638** p.331 — missing space after '.' (AUTO)
+  - `ching Orte at 9.Drove here - a ` → `ching Orte at 9. Drove here - a `
+- **ws-1891-93-0642** p.332 — missing space after '!' (AUTO)
+  - `qual to Melozzo!Drove out at su` → `qual to Melozzo! Drove out at su`
+- **ws-1891-93-0641** p.331 — missing space after '.' (AUTO)
+  - `all the morning.Bernhard went t` → `all the morning. Bernhard went t`
+- **ws-1891-93-0640** p.331 — missing space after '.' (AUTO)
+  - `Quarrelled.I was ill and s` → `Quarrelled. I was ill and s`
+- **ws-1891-93-0644** p.332 — missing space after '.' (AUTO)
+  - `h by Sanmichele.Found this a ni` → `h by Sanmichele. Found this a ni`
+- **ws-1891-93-0643** p.332 — missing space after '.' (AUTO)
+  - `hing at Bolsena.There is a beau` → `hing at Bolsena. There is a beau`
+- **ws-1891-93-0647** p.333 — missing space after '.' (AUTO)
+  - `on Architecture.Bernhard had a ` → `on Architecture. Bernhard had a `
+- **ws-1891-93-0646** p.333 — missing space after '.' (AUTO)
+  - `ticle on Assisi.Bernhard still ` → `ticle on Assisi. Bernhard still `
+- **ws-1891-93-0645** p.333 — missing space after '.' (AUTO)
+  - `of the episodes.Wrote my articl` → `of the episodes. Wrote my articl`
+- **ws-1891-93-0649** p.333 — missing space after '.' (AUTO)
+  - ` beautiful walk.The town rests ` → ` beautiful walk. The town rests `
+- **ws-1891-93-0648** p.333 — missing space after '.' (AUTO)
+  - ` in the morning.I was tired and` → ` in the morning. I was tired and`
+- **ws-1891-93-0653** p.333 — missing space after '.' (AUTO)
+  - `shed Burckhardt.I enjoyed the S` → `shed Burckhardt. I enjoyed the S`
+- **ws-1891-93-0652** p.333 — missing space after ',' (AUTO)
+  - `irty Years’ War,and Bernhard fi` → `irty Years’ War, and Bernhard fi`
+- **ws-1891-93-0651** p.333 — missing space after '.' (AUTO)
+  - `ampo Santo, etc.I finished Gard` → `ampo Santo, etc. I finished Gard`
+- **ws-1891-93-0650** p.333 — missing space after '.' (AUTO)
+  - `nt to the Duomo.In the afternoo` → `nt to the Duomo. In the afternoo`
+- **ws-1891-93-0654** p.334 — missing space after '.' (AUTO)
+  - `ching here 2.30.After much grap` → `ching here 2.30. After much grap`
+- **ws-1891-93-0655** p.334 — missing space after '.' (AUTO)
+  - `‘glimped’ about.Worked a little` → `‘glimped’ about. Worked a little`
+- **ws-1891-93-0657** p.335 — missing space after '.' (AUTO)
+  - ` came in to tea.Quadri in the e` → ` came in to tea. Quadri in the e`
+- **ws-1891-93-0656** p.335 — missing space after '.' (AUTO)
+  - ` lesson. Unwell.Bernhard went t` → ` lesson. Unwell. Bernhard went t`
+- **ws-1891-93-0658** p.335 — missing space after '.' (AUTO)
+  - `Another lesson.Read De Brosses` → `Another lesson. Read De Brosses`
+- **ws-1891-93-0660** p.335 — missing space after '.' (AUTO)
+  - `her came to tea.A propos of Eng` → `her came to tea. A propos of Eng`
+- **ws-1891-93-0659** p.335 — missing space after '.' (AUTO)
+  - `sses and Quadri.Costa his broth` → `sses and Quadri. Costa his broth`
+- **ws-1891-93-0663** p.335 — missing space after '.' (AUTO)
+  - `ea with Jenkins.Afterwards we c` → `ea with Jenkins. Afterwards we c`
+- **ws-1891-93-0662** p.335 — missing space after '.' (AUTO)
+  - `enkins at lunch.Bernhard spent ` → `enkins at lunch. Bernhard spent `
+- **ws-1891-93-0661** p.335 — missing space after '.' (AUTO)
+  - `d the Lo Spagna.Met Jenkins at ` → `d the Lo Spagna. Met Jenkins at `
+- **ws-1891-93-0665** p.336 — missing space after '.' (AUTO)
+  - `t it up to date.I began Geymüll` → `t it up to date. I began Geymüll`
+- **ws-1891-93-0664** p.336 — missing space after '.' (AUTO)
+  - `Opera del Duomo.We worked on ou` → `Opera del Duomo. We worked on ou`
+- **ws-1891-93-0666** p.336 — missing space after '.' (AUTO)
+  - `nd the Sacristy.Costa came in t` → `nd the Sacristy. Costa came in t`
+- **ws-1891-93-0668** p.337 — missing space after '.' (AUTO)
+  - `ee the Benozzos.In the afternoo` → `ee the Benozzos. In the afternoo`
+- **ws-1891-93-0667** p.337 — missing space after '.' (AUTO)
+  - `good deal in it.Met Costa and s` → `good deal in it. Met Costa and s`
+- **ws-1891-93-0670** p.337 — missing space after '.' (AUTO)
+  - `, such as it is.Bernhard gave b` → `, such as it is. Bernhard gave b`
+- **ws-1891-93-0669** p.337 — missing space after '.' (AUTO)
+  - `joyed ourselves.Bernhard walked` → `joyed ourselves. Bernhard walked`
+- **ws-1891-93-0671** p.338 — missing space after '.' (AUTO)
+  - `e to leave here.We corrected th` → `e to leave here. We corrected th`
+- **ws-1891-93-0675** p.339 — missing space after '.' (AUTO)
+  - `40 this evening.I went to the B` → `40 this evening. I went to the B`
+- **ws-1891-93-0674** p.339 — missing space after '.' (AUTO)
+  - `and sympathetic.I spent Thursda` → `and sympathetic. I spent Thursda`
+- **ws-1891-93-0673** p.338 — missing space after '.' (AUTO)
+  - `y deceiving him.Burke came to s` → `y deceiving him. Burke came to s`
+- **ws-1891-93-0672** p.338 — missing space after '.' (AUTO)
+  - ` was enchanting.Home was like H` → ` was enchanting. Home was like H`
+- **ws-1891-93-0678** p.339 — missing space after '.' (AUTO)
+  - `ter Reformation.I am hurrying u` → `ter Reformation. I am hurrying u`
+- **ws-1891-93-0677** p.339 — missing space after ',' (AUTO)
+  - `ry of the Popes,and Bernhard ha` → `ry of the Popes, and Bernhard ha`
+- **ws-1891-93-0676** p.339 — missing space after '.' (AUTO)
+  - `joyed ourselves.We have both re` → `joyed ourselves. We have both re`
+- **ws-1891-93-0679** p.339 — missing space after '.' (AUTO)
+  - ` see through it.Walked and talk` → ` see through it. Walked and talk`
+- **ws-1891-93-0681** p.340 — missing space after '.' (AUTO)
+  - `graphs and read.He has just fin` → `graphs and read. He has just fin`
+- **ws-1891-93-0680** p.340 — missing space after '.' (AUTO)
+  - `er all day long.I had a German ` → `er all day long. I had a German `
+- **ws-1891-93-0685** p.341 — missing space after '!' (AUTO)
+  - `w of Literature!In the evening ` → `w of Literature! In the evening `
+- **ws-1891-93-0684** p.340 — missing space after '.' (AUTO)
+  - `one looking sad.After tea Bernh` → `one looking sad. After tea Bernh`
+- **ws-1891-93-0683** p.340 — missing space after '.' (AUTO)
+  - `oks I ever read.Studied German ` → `oks I ever read. Studied German `
+- **ws-1891-93-0682** p.340 — missing space after '.' (AUTO)
+  - `reek Literature.It is one of th` → `reek Literature. It is one of th`
+- **ws-1891-93-0688** p.342 — missing space after '?' (AUTO)
+  - ` to talk of Art?A Mr. Loring wa` → ` to talk of Art? A Mr. Loring wa`
+- **ws-1891-93-0687** p.341 — missing space after '.' (AUTO)
+  - `e Museo Etrusco.After lunch Ber` → `e Museo Etrusco. After lunch Ber`
+- **ws-1891-93-0686** p.341 — missing space after '.' (AUTO)
+  - ` studied German.I went to the P` → ` studied German. I went to the P`
+- **ws-1891-93-0691** p.343 — missing space after '.' (AUTO)
+  - `James is bovine.Bernhard had a ` → `James is bovine. Bernhard had a `
+- **ws-1891-93-0690** p.343 — missing space after '.' (AUTO)
+  - `to Bellosguardo.Mr. and Mrs. Ja` → `to Bellosguardo. Mr. and Mrs. Ja`
+- **ws-1891-93-0689** p.343 — missing space after '.' (AUTO)
+  - `Casa Buonarotti.After lunch to ` → `Casa Buonarotti. After lunch to `
+- **ws-1891-93-0692** p.343 — missing space after '.' (AUTO)
+  - `sen’s last play.Walked on Fieso` → `sen’s last play. Walked on Fieso`
+- **ws-1891-93-0693** p.344 — missing space after '.' (AUTO)
+  - `losguardo, read.Dined with Loes` → `losguardo, read. Dined with Loes`
+- **ws-1891-93-0694** p.345 — missing space after '.' (AUTO)
+  - `e ashamed of it.Read Ranke and ` → `e ashamed of it. Read Ranke and `
+- **ws-1891-93-0699** p.345 — missing space after '.' (AUTO)
+  - `ll chicken farm.Walking in the ` → `ll chicken farm. Walking in the `
+- **ws-1891-93-0698** p.345 — missing space after ',' (AUTO)
+  - `orley’s Diderot,and is reading ` → `orley’s Diderot, and is reading `
+- **ws-1891-93-0697** p.345 — missing space after '.' (AUTO)
+  - `s, Perry, Ranke.Bernhard has ju` → `s, Perry, Ranke. Bernhard has ju`
+- **ws-1891-93-0696** p.345 — missing space after '.' (AUTO)
+  - `n the afternoon.Read poetry of ` → `n the afternoon. Read poetry of `
+- **ws-1891-93-0695** p.345 — missing space after '.' (AUTO)
+  - ` in the morning.Walked in the C` → ` in the morning. Walked in the C`
+- **ws-1891-93-0702** p.346 — missing space after '.' (AUTO)
+  - ` studied German.Bernhard went t` → ` studied German. Bernhard went t`
+- **ws-1891-93-0701** p.346 — missing space after '.' (AUTO)
+  - `ian after lunch.I finished Vol.` → `ian after lunch. I finished Vol.`
+- **ws-1891-93-0700** p.346 — missing space after '.' (AUTO)
+  - `d read Voltaire.We walked to th` → `d read Voltaire. We walked to th`
+- **ws-1891-93-0703** p.346 — missing space after '.' (AUTO)
+  - ` Went to Uffizi.Walked in Casci` → ` Went to Uffizi. Walked in Casci`
+- **ws-1891-93-0705** p.347 — missing space after '.' (AUTO)
+  - ` not a Catholic.Sent “Solness” ` → ` not a Catholic. Sent “Solness” `
+- **ws-1891-93-0704** p.347 — missing space after '.' (AUTO)
+  - `chronologically.Bernhard went t` → `chronologically. Bernhard went t`
+- **ws-1891-93-0707** p.347 — missing space after '.' (AUTO)
+  - `as I felt tired.Read Ranke, etc` → `as I felt tired. Read Ranke, etc`
+- **ws-1891-93-0706** p.347 — missing space after '.' (AUTO)
+  - `ery interesting.Bernhard walked` → `ery interesting. Bernhard walked`
+- **ws-1891-93-0709** p.348 — missing space after '.' (AUTO)
+  - ` mis-statements.Bernhard had a ` → ` mis-statements. Bernhard had a `
+- **ws-1891-93-0708** p.347 — missing space after '.' (AUTO)
+  - `on Miss Britten.Prof. James cal` → `on Miss Britten. Prof. James cal`
+- **ws-1891-93-0710** p.348 — missing space after '.' (AUTO)
+  - ` look very nice.I was unwell, s` → ` look very nice. I was unwell, s`
+- **ws-1891-93-0711** p.349 — missing space after '.' (AUTO)
+  - ` can control it.But I do love h` → ` can control it. But I do love h`
+- **ws-1891-93-0712** p.350 — missing space after '.' (AUTO)
+  - ` little reading.Bernhard walked` → ` little reading. Bernhard walked`
+- **ws-1891-93-0713** p.350 — missing space after '!' (AUTO)
+  - `us - completely!It was snowing,` → `us - completely! It was snowing,`
+- **ws-1891-93-0715** p.350 — missing space after '.' (AUTO)
+  - `ce was a rarity.Costa called. I` → `ce was a rarity. Costa called. I`
+- **ws-1891-93-0714** p.350 — missing space after '.' (AUTO)
+  - `ry home letters.Had a German le` → `ry home letters. Had a German le`
+- **ws-1891-93-0717** p.351 — missing space after '.' (AUTO)
+  - `o dine with him.I felt rather i` → `o dine with him. I felt rather i`
+- **ws-1891-93-0716** p.351 — missing space after '!' (AUTO)
+  - `ashing her feet!After lunch Ber` → `ashing her feet! After lunch Ber`
+- **ws-1891-93-0718** p.352 — missing space after '.' (AUTO)
+  - `of Mrs. Bywater.In the afternoo` → `of Mrs. Bywater. In the afternoo`
+- **ws-1891-93-0719** p.352 — missing space after '.' (AUTO)
+  - ` went to Uffizi.In the afternoo` → ` went to Uffizi. In the afternoo`
+- **ws-1891-93-0721** p.353 — missing space after '.' (AUTO)
+  - `ing himself out.Read Ben Jonson` → `ing himself out. Read Ben Jonson`
+- **ws-1891-93-0720** p.353 — missing space after '.' (AUTO)
+  - `g, and Bargello.I had an attack` → `g, and Bargello. I had an attack`
+- **ws-1891-93-0724** p.353 — missing space after '.' (AUTO)
+  - `a and the Duomo.Worked in the e` → `a and the Duomo. Worked in the e`
+- **ws-1891-93-0723** p.353 — missing space after '.' (AUTO)
+  - `to the Bargello.After lunch we ` → `to the Bargello. After lunch we `
+- **ws-1891-93-0722** p.353 — missing space after '.' (AUTO)
+  - `write the Lotto.Bernhard went t` → `write the Lotto. Bernhard went t`
+- **ws-1891-93-0727** p.354 — missing space after ',' (AUTO)
+  - `his Marble Faun,which [355] is ` → `his Marble Faun, which [355] is `
+- **ws-1891-93-0726** p.354 — missing space after '.' (AUTO)
+  - `her and Herrick.I read Balzac’s` → `her and Herrick. I read Balzac’s`
+- **ws-1891-93-0725** p.354 — missing space after '.' (AUTO)
+  - `g to convalesce.We read a good ` → `g to convalesce. We read a good `
+- **ws-1891-93-0728** p.355 — missing space after '.' (AUTO)
+  - `king long walks.Costa and Willi` → `king long walks. Costa and Willi`
+- **ws-1891-93-0731** p.356 — missing space after '.' (AUTO)
+  - ` Eastlake’s day.I had such a ni` → ` Eastlake’s day. I had such a ni`
+- **ws-1891-93-0730** p.355 — missing space after '.' (AUTO)
+  - `f the Fine Arts.Symonds has a [` → `f the Fine Arts. Symonds has a [`
+- **ws-1891-93-0729** p.355 — missing space after ',' (AUTO)
+  - ` and Suggestive,Vol. I, and som` → ` and Suggestive, Vol. I, and som`
+- **ws-1891-93-0735** p.357 — missing space after '.' (AUTO)
+  - `r hasty reading.Prof. Wickhoffo` → `r hasty reading. Prof. Wickhoffo`
+- **ws-1891-93-0734** p.357 — missing space after '.' (AUTO)
+  - `before she went.Bernhard invent` → `before she went. Bernhard invent`
+- **ws-1891-93-0733** p.357 — missing space after '.' (AUTO)
+  - `Sen. Comparetti.Mrs. James call` → `Sen. Comparetti. Mrs. James call`
+- **ws-1891-93-0732** p.357 — missing space after '.' (AUTO)
+  - ` half convinced.We had a glorio` → ` half convinced. We had a glorio`
+- **ws-1891-93-0737** p.357 — missing space after '.' (AUTO)
+  - `harles Eastlake.Born 100 years ` → `harles Eastlake. Born 100 years `
+- **ws-1891-93-0736** p.357 — missing space after '.' (AUTO)
+  - `es him pathetic.In the evening ` → `es him pathetic. In the evening `
+- **ws-1891-93-0739** p.358 — missing space after '.' (AUTO)
+  - ` Calzi Perugino.At lunch we met` → ` Calzi Perugino. At lunch we met`
+- **ws-1891-93-0738** p.358 — missing space after '!' (AUTO)
+  - `le. O Americans!We worked on ou` → `le. O Americans! We worked on ou`
+- **ws-1891-93-0741** p.359 — missing space after '.' (AUTO)
+  - `larmé - a goose.Bernhard discov` → `larmé - a goose. Bernhard discov`
+- **ws-1891-93-0740** p.359 — missing space after '.' (AUTO)
+  - `ent the evening.We read Mallarm` → `ent the evening. We read Mallarm`
+- **ws-1891-93-0743** p.359 — missing space after '.' (AUTO)
+  - ` flabergastment.Bernhard spent ` → ` flabergastment. Bernhard spent `
+- **ws-1891-93-0742** p.359 — missing space after '.' (AUTO)
+  - `worked on Lotto.Costa called, a` → `worked on Lotto. Costa called, a`
+- **ws-1891-93-0745** p.360 — missing space after '.' (AUTO)
+  - `ght in the rain.I was locked ou` → `ght in the rain. I was locked ou`
+- **ws-1891-93-0744** p.360 — missing space after '.' (AUTO)
+  - `ent to Bargello.Walked in Casci` → `ent to Bargello. Walked in Casci`
+- **ws-1891-93-0746** p.360 — missing space after '.' (AUTO)
+  - `tlake and Ranke.Quarrelled out ` → `tlake and Ranke. Quarrelled out `
+- **ws-1891-93-0748** p.360 — missing space after ',' (AUTO)
+  - `by one Brownell,which Bernhard ` → `by one Brownell, which Bernhard `
+- **ws-1891-93-0747** p.360 — missing space after '.' (AUTO)
+  - ` reconciliation.Mr. Jenkins, wh` → ` reconciliation. Mr. Jenkins, wh`
+- **ws-1891-93-0751** p.361 — missing space after '.' (AUTO)
+  - ` then and there.The Ways went t` → ` then and there. The Ways went t`
+- **ws-1891-93-0750** p.361 — missing space after '.' (AUTO)
+  - `it in somewhere.We dined with L` → `it in somewhere. We dined with L`
+- **ws-1891-93-0749** p.361 — missing space after '.' (AUTO)
+  - `te us to dinner.We finished and` → `te us to dinner. We finished and`
+- **ws-1891-93-0753** p.363 — missing space after '.' (AUTO)
+  - `t to be trusted.How strange it ` → `t to be trusted. How strange it `
+- **ws-1891-93-0752** p.362 — missing space after '.' (AUTO)
+  - `uction to Lotto.Bernhard was ra` → `uction to Lotto. Bernhard was ra`
+- **ws-1891-93-0757** p.364 — missing space after '.' (AUTO)
+  - `use in our work.We finished the` → `use in our work. We finished the`
+- **ws-1891-93-0756** p.364 — missing space after '.' (AUTO)
+  - `et Miss Sellers.He enjoyed hims` → `et Miss Sellers. He enjoyed hims`
+- **ws-1891-93-0755** p.364 — missing space after '.' (AUTO)
+  - `birthday letter.Bernhard went t` → `birthday letter. Bernhard went t`
+- **ws-1891-93-0754** p.364 — missing space after '.' (AUTO)
+  - `is most pitiful.Ray sent me a b` → `is most pitiful. Ray sent me a b`
+- **ws-1891-93-0758** p.365 — missing space after '.' (AUTO)
+  - `n was difficult.We walked in th` → `n was difficult. We walked in th`
+- **ws-1891-93-0761** p.365 — missing space after '.' (AUTO)
+  - ` studied German.He made me angr` → ` studied German. He made me angr`
+- **ws-1891-93-0760** p.365 — missing space after '.' (AUTO)
+  - `wrote to Fields.Then we did som` → `wrote to Fields. Then we did som`
+- **ws-1891-93-0759** p.365 — missing space after '.' (AUTO)
+  - ` in the Cascine.I called on Mis` → ` in the Cascine. I called on Mis`
+- **ws-1891-93-0763** p.366 — missing space after '.' (AUTO)
+  - `ht in the world.In the evening ` → `ht in the world. In the evening `
+- **ws-1891-93-0762** p.366 — missing space after '.' (AUTO)
+  - ` the best of it.After some more` → ` the best of it. After some more`
+- **ws-1891-93-0764** p.367 — missing space after '.' (REVIEW_INITIAL)
+  - `me with W. L. F.gossip, and gra` → `me with W. L. F. gossip, and gra`
+- **ws-1891-93-0767** p.368 — missing space after '.' (AUTO)
+  - `lked in Cascine.Bernhard readin` → `lked in Cascine. Bernhard readin`
+- **ws-1891-93-0766** p.368 — missing space after '.' (AUTO)
+  - `.Finished Ranke.Walked in Casci` → `.Finished Ranke. Walked in Casci`
+- **ws-1891-93-0765** p.368 — missing space after '.' (AUTO)
+  - `Rain. Lotto.Finished Ranke.` → `Rain. Lotto. Finished Ranke.`
+- **ws-1891-93-0768** p.368 — missing space after '.' (AUTO)
+  - `an lesson. Walk.Bernhard called` → `an lesson. Walk. Bernhard called`
+- **ws-1891-93-0770** p.369 — missing space after ',' (AUTO)
+  - `Ibsen’s Vikings,which Mr. Murra` → `Ibsen’s Vikings, which Mr. Murra`
+- **ws-1891-93-0769** p.369 — missing space after '.' (AUTO)
+  - `Bernhard walked.In the evening ` → `Bernhard walked. In the evening `
+- **ws-1891-93-0772** p.369 — missing space after '!' (AUTO)
+  - `outlook for her!Costa called.` → `outlook for her! Costa called.`
+- **ws-1891-93-0771** p.369 — missing space after ':' (AUTO)
+  - `d Lotto, walked:Bernhard called` → `d Lotto, walked: Bernhard called`
+- **ws-1891-93-0777** p.370 — missing space after '.' (AUTO)
+  - `mpared to Ranke.Mrs. James and ` → `mpared to Ranke. Mrs. James and `
+- **ws-1891-93-0776** p.370 — missing space after '.' (AUTO)
+  - `let’s Richelieu.It is full of a` → `let’s Richelieu. It is full of a`
+- **ws-1891-93-0775** p.370 — missing space after '.' (AUTO)
+  - `and then walked.I began Michele` → `and then walked. I began Michele`
+- **ws-1891-93-0774** p.369 — missing space after '.' (AUTO)
+  - `ery word I said.After my [370] ` → `ery word I said. After my [370] `
+- **ws-1891-93-0773** p.369 — missing space after ',' (AUTO)
+  - `d with the Zorn,but the childre` → `d with the Zorn, but the childre`
+- **ws-1891-93-0780** p.370 — missing space after '!' (AUTO)
+  - ` delicious walk!Read in the eve` → ` delicious walk! Read in the eve`
+- **ws-1891-93-0779** p.370 — missing space after '.' (AUTO)
+  - `rancacci Chapel.Took the tram t` → `rancacci Chapel. Took the tram t`
+- **ws-1891-93-0778** p.370 — missing space after '.' (AUTO)
+  - `te my Hawthorne.Went to Santo S` → `te my Hawthorne. Went to Santo S`
+- **ws-1891-93-0782** p.370 — missing space after '.' (AUTO)
+  - `Bagno di Ripoli.Wrote.` → `Bagno di Ripoli. Wrote.`
+- **ws-1891-93-0781** p.370 — missing space after '.' (AUTO)
+  - `nd the Bargello.Walked over the` → `nd the Bargello. Walked over the`
+- **ws-1891-93-0784** p.370 — missing space after '.' (AUTO)
+  - ` and enjoyed it.Read - wrote.` → ` and enjoyed it. Read - wrote.`
+- **ws-1891-93-0783** p.370 — missing space after '!' (AUTO)
+  - `Hawthorne still!Walked over beh` → `Hawthorne still! Walked over beh`
+- **ws-1891-93-0787** p.371 — missing space after '.' (AUTO)
+  - `with complaints.He called on Mr` → `with complaints. He called on Mr`
+- **ws-1891-93-0786** p.371 — missing space after '.' (AUTO)
+  - ` of scholarship.We walked by Sa` → ` of scholarship. We walked by Sa`
+- **ws-1891-93-0785** p.371 — missing space after '.' (AUTO)
+  - `ic] Jones about.At lunch we tal` → `ic] Jones about. At lunch we tal`
+- **ws-1891-93-0791** p.372 — missing space after '.' (AUTO)
+  - `nd began Milton.Bernhard is gra` → `nd began Milton. Bernhard is gra`
+- **ws-1891-93-0790** p.372 — missing space after '.' (AUTO)
+  - `th Fra Angelico.After lunch we ` → `th Fra Angelico. After lunch we `
+- **ws-1891-93-0789** p.372 — missing space after '.' (AUTO)
+  - `ello’s, usually.Then we went to` → `ello’s, usually. Then we went to`
+- **ws-1891-93-0788** p.371 — missing space after '.' (AUTO)
+  - ` in the morning.Went to the Med` → ` in the morning. Went to the Med`
+- **ws-1891-93-0795** p.373 — missing space after '.' (AUTO)
+  - `d I am too busy.In the evening ` → `d I am too busy. In the evening `
+- **ws-1891-93-0794** p.372 — missing space after ',' (AUTO)
+  - `said that Bryce,when he was in ` → `said that Bryce, when he was in `
+- **ws-1891-93-0793** p.372 — missing space after '.' (AUTO)
+  - `e certainly was.I called on Mrs` → `e certainly was. I called on Mrs`
+- **ws-1891-93-0792** p.372 — missing space after '!' (AUTO)
+  - `our Lotto notes!Bernhard took M` → `our Lotto notes! Bernhard took M`
+- **ws-1891-93-0798** p.374 — missing space after '.' (AUTO)
+  - `ets by the path.After tea, we w` → `ets by the path. After tea, we w`
+- **ws-1891-93-0797** p.374 — missing space after '.' (AUTO)
+  - `arl Frey’s book.We walked from ` → `arl Frey’s book. We walked from `
+- **ws-1891-93-0796** p.373 — missing space after '.' (AUTO)
+  - `es hurt my eyes.While I had my ` → `es hurt my eyes. While I had my `
+- **ws-1891-93-0801** p.374 — missing space after '!' (AUTO)
+  - ` do on the spot!Then I called o` → ` do on the spot! Then I called o`
+- **ws-1891-93-0800** p.374 — missing space after '.' (AUTO)
+  - `in the corridor.After lunch we ` → `in the corridor. After lunch we `
+- **ws-1891-93-0799** p.374 — missing space after '.' (AUTO)
+  - `f the Hawthorne.Went to the Uff` → `f the Hawthorne. Went to the Uff`
+- **ws-1891-93-0803** p.375 — missing space after '.' (AUTO)
+  - ` to San Miniato.After tea we gr` → ` to San Miniato. After tea we gr`
+- **ws-1891-93-0802** p.375 — missing space after '.' (AUTO)
+  - `entine drawings.Worked on the L` → `entine drawings. Worked on the L`
+- **ws-1891-93-0807** p.376 — missing space after '.' (AUTO)
+  - `ones by the way.Worked in eveni` → `ones by the way. Worked in eveni`
+- **ws-1891-93-0806** p.376 — missing space after '.' (AUTO)
+  - `a German lesson.We worked over ` → `a German lesson. We worked over `
+- **ws-1891-93-0805** p.376 — missing space after '.' (AUTO)
+  - `ill quarrelling.After lunch Ber` → `ill quarrelling. After lunch Ber`
+- **ws-1891-93-0804** p.376 — missing space after '!' (AUTO)
+  - ` over the Lotto!Went to Santa M` → ` over the Lotto! Went to Santa M`
+- **ws-1891-93-0810** p.376 — missing space after '!' (AUTO)
+  - ` too enchanting!We were pretty ` → ` too enchanting! We were pretty `
+- **ws-1891-93-0809** p.376 — missing space after '.' (AUTO)
+  - `strange colours.Talked about go` → `strange colours. Talked about go`
+- **ws-1891-93-0808** p.376 — missing space after '.' (AUTO)
+  - ` Nation at 8.30.We had a walk o` → ` Nation at 8.30. We had a walk o`
+- **ws-1891-93-0813** p.377 — missing space after '.' (AUTO)
+  - ` flower-picking.In the evening ` → ` flower-picking. In the evening `
+- **ws-1891-93-0812** p.377 — missing space after '.' (AUTO)
+  - `to the Bargello.After lunch I r` → `to the Bargello. After lunch I r`
+- **ws-1891-93-0811** p.376 — missing space after '.' (AUTO)
+  - `hildren’s story.When Bernhard c` → `hildren’s story. When Bernhard c`
+- **ws-1891-93-0815** p.377 — missing space after '.' (AUTO)
+  - `worked on Lotto.I studied Germa` → `worked on Lotto. I studied Germa`
+- **ws-1891-93-0814** p.377 — missing space after '.' (AUTO)
+  - `Worked on Lotto.Walked in Casci` → `Worked on Lotto. Walked in Casci`
+- **ws-1891-93-0817** p.377 — missing space after '.' (AUTO)
+  - ` in the evening.Recovered from ` → ` in the evening. Recovered from `
+- **ws-1891-93-0816** p.377 — missing space after '.' (AUTO)
+  - `on Bellosguardo.Bernhard wrote ` → `on Bellosguardo. Bernhard wrote `
+- **ws-1891-93-0819** p.378 — missing space after '.' (AUTO)
+  - ` last two years.The rest of the` → ` last two years. The rest of the`
+- **ws-1891-93-0818** p.377 — missing space after '.' (AUTO)
+  - ` with the Lotto.Unfortunately, ` → ` with the Lotto. Unfortunately, `
+- **ws-1891-93-0820** p.378 — missing space after '.' (AUTO)
+  - `most of the day.Read “An Enemy ` → `most of the day. Read “An Enemy `
+- **ws-1891-93-0821** p.378 — missing space after '.' (AUTO)
+  - `Lotto.I took a walk i` → `Lotto. I took a walk i`
+- **ws-1891-93-0822** p.378 — missing space after '.' (AUTO)
+  - ` to Santa Croce.In the [379] af` → ` to Santa Croce. In the [379] af`
+- **ws-1891-93-0823** p.379 — missing space after '.' (AUTO)
+  - `ile I came home.In the afternoo` → `ile I came home. In the afternoo`
+- **ws-1891-93-0825** p.379 — missing space after '.' (AUTO)
+  - `had never heard.Bernhard uses i` → `had never heard. Bernhard uses i`
+- **ws-1891-93-0824** p.379 — missing space after '.' (AUTO)
+  - `a Maria Novella.Worked over Lot` → `a Maria Novella. Worked over Lot`
+- **ws-1891-93-0827** p.380 — missing space after '.' (AUTO)
+  - `e Fiesole hills.Read “The Wild ` → `e Fiesole hills. Read “The Wild `
+- **ws-1891-93-0826** p.380 — missing space after '.' (AUTO)
+  - `s left her cold.We took a long ` → `s left her cold. We took a long `
+- **ws-1891-93-0828** p.381 — missing space after '.' (AUTO)
+  - ` in the Cascine.We worked for a` → ` in the Cascine. We worked for a`
+- **ws-1891-93-0830** p.381 — missing space after '.' (AUTO)
+  - ` to San Miniato.After dinner we` → ` to San Miniato. After dinner we`
+- **ws-1891-93-0829** p.381 — missing space after '.' (AUTO)
+  - `rmine and Pitti.After lunch wor` → `rmine and Pitti. After lunch wor`
+- **ws-1891-93-0831** p.381 — missing space after '.' (AUTO)
+  - `ascinating walk.I had very disq` → `ascinating walk. I had very disq`
+- **ws-1891-93-0832** p.382 — missing space after '.' (AUTO)
+  - `ernhard’s books.After dinner Be` → `ernhard’s books. After dinner Be`
+- **ws-1891-93-0835** p.382 — missing space after '.' (AUTO)
+  - `e to his sister.After tea we wa` → `e to his sister. After tea we wa`
+- **ws-1891-93-0834** p.382 — missing space after '.' (AUTO)
+  - `oyed.Wrote home.Bernhard called` → `oyed.Wrote home. Bernhard called`
+- **ws-1891-93-0833** p.382 — missing space after '.' (AUTO)
+  - `ristina enjoyed.Wrote home.Bern` → `ristina enjoyed. Wrote home.Bern`
+- **ws-1891-93-0837** p.382 — missing space after '.' (AUTO)
+  - ` at photographs.Christina calls` → ` at photographs. Christina calls`
+- **ws-1891-93-0836** p.382 — missing space after '.' (AUTO)
+  - ` on Lotto again.Read aloud Ghos` → ` on Lotto again. Read aloud Ghos`
+- **ws-1891-93-0838** p.383 — missing space after '.' (AUTO)
+  - `stant Jesuitism.In the evening ` → `stant Jesuitism. In the evening `
+- **ws-1891-93-0840** p.383 — missing space after ',' (AUTO)
+  - `nd met Mr. Benn,whom he liked. ` → `nd met Mr. Benn, whom he liked. `
+- **ws-1891-93-0839** p.383 — missing space after '.' (AUTO)
+  - ` in the morning.Then Bernhard w` → ` in the morning. Then Bernhard w`
+- **ws-1891-93-0843** p.384 — missing space after '.' (AUTO)
+  - `tina.More Lotto.In the evening ` → `tina.More Lotto. In the evening `
+- **ws-1891-93-0842** p.384 — missing space after '.' (AUTO)
+  - ` with Christina.More Lotto.In t` → ` with Christina. More Lotto.In t`
+- **ws-1891-93-0841** p.384 — missing space after '.' (AUTO)
+  - `nch Lotto again.Mr. Benson call` → `nch Lotto again. Mr. Benson call`
+- **ws-1891-93-0844** p.384 — missing space after '.' (AUTO)
+  - `marvellous walk.In the evening ` → `marvellous walk. In the evening `
+- **ws-1891-93-0847** p.384 — missing space after '.' (AUTO)
+  - `et and moonrise.In the evening ` → `et and moonrise. In the evening `
+- **ws-1891-93-0846** p.384 — missing space after '.' (AUTO)
+  - ` to the Academy.More Lotto afte` → ` to the Academy. More Lotto afte`
+- **ws-1891-93-0845** p.384 — missing space after '.' (AUTO)
+  - `he type-writing.Went to the Aca` → `he type-writing. Went to the Aca`
+- **ws-1891-93-0850** p.385 — missing space after '.' (AUTO)
+  - ` in the Cascine.Costa came in t` → ` in the Cascine. Costa came in t`
+- **ws-1891-93-0849** p.385 — missing space after '.' (AUTO)
+  - ` and Ognissanti.Walked in the C` → ` and Ognissanti. Walked in the C`
+- **ws-1891-93-0848** p.385 — missing space after '!' (AUTO)
+  - `all three of us!Took Christina ` → `all three of us! Took Christina `
+- **ws-1891-93-0851** p.385 — missing space after '.' (AUTO)
+  - ` in the morning.Drove to Poggio` → ` in the morning. Drove to Poggio`
+- **ws-1891-93-0853** p.385 — missing space after '.' (AUTO)
+  - `r afternoon tea.Christina went ` → `r afternoon tea. Christina went `
+- **ws-1891-93-0852** p.385 — missing space after '!' (AUTO)
+  - `nished printing!Met Mr. Jenkins` → `nished printing! Met Mr. Jenkins`
+- **ws-1891-93-0854** p.385 — missing space after '.' (AUTO)
+  - `t the Galleries.Called on Costa` → `t the Galleries. Called on Costa`
+- **ws-1891-93-0856** p.386 — missing space after '.' (AUTO)
+  - `n on Miss Lohse.In the evening ` → `n on Miss Lohse. In the evening `
+- **ws-1891-93-0855** p.386 — missing space after '.' (AUTO)
+  - ` at Santa Croce.I called on Mme` → ` at Santa Croce. I called on Mme`
+- **ws-1891-93-0857** p.386 — missing space after '.' (AUTO)
+  - `d full of ideas.In the evening ` → `d full of ideas. In the evening `
+- **ws-1891-93-0859** p.387 — missing space after '.' (AUTO)
+  - `e [387] Cascine.Bernhard met Fr` → `e [387] Cascine. Bernhard met Fr`
+- **ws-1891-93-0858** p.386 — missing space after '.' (AUTO)
+  - `Still Lotto.We went to the ` → `Still Lotto. We went to the `
+- **ws-1891-93-0860** p.387 — missing space after '.' (AUTO)
+  - `les have it not.In the afternoo` → `les have it not. In the afternoo`
+- **ws-1891-93-0862** p.389 — missing space after '.' (AUTO)
+  - `, cloudless sky.After dinner Be` → `, cloudless sky. After dinner Be`
+- **ws-1891-93-0861** p.388 — missing space after '.' (AUTO)
+  - `rvellous before.After my German` → `rvellous before. After my German`
+- **ws-1891-93-0865** p.389 — missing space after '.' (AUTO)
+  - `il he joined me.Costa and Fabbr` → `il he joined me. Costa and Fabbr`
+- **ws-1891-93-0864** p.389 — missing space after '.' (AUTO)
+  - `er to the Pitti.He called on Mi` → `er to the Pitti. He called on Mi`
+- **ws-1891-93-0863** p.389 — missing space after '.' (AUTO)
+  - `gue of Pictures.Bernhard took M` → `gue of Pictures. Bernhard took M`
+- **ws-1891-93-0866** p.389 — missing space after '.' (AUTO)
+  - `Catalogue still.Bernhard took M` → `Catalogue still. Bernhard took M`
+- **ws-1891-93-0868** p.390 — missing space after '.' (AUTO)
+  - `- a gentle sigh.We walked in th` → `- a gentle sigh. We walked in th`
+- **ws-1891-93-0867** p.389 — missing space after '.' (AUTO)
+  - `l the Catalogue.Bernhard took M` → `l the Catalogue. Bernhard took M`
+- **ws-1891-93-0870** p.390 — missing space after '.' (AUTO)
+  - `ator Comparetti.I dined alone a` → `ator Comparetti. I dined alone a`
+- **ws-1891-93-0869** p.390 — missing space after '.' (AUTO)
+  - `Catalogue.Bernhard took M` → `Catalogue. Bernhard took M`
+- **ws-1891-93-0872** p.391 — missing space after '.' (AUTO)
+  - ` in the morning.After lunch I t` → ` in the morning. After lunch I t`
+- **ws-1891-93-0871** p.391 — missing space after '.' (AUTO)
+  - ` in the morning.I “magazined” h` → ` in the morning. I “magazined” h`
+- **ws-1891-93-0873** p.391 — missing space after '.' (AUTO)
+  - `nd other things.Bernhard still ` → `nd other things. Bernhard still `
+- **ws-1891-93-0874** p.391 — missing space after '.' (AUTO)
+  - `Still at work.Bernhard return` → `Still at work. Bernhard return`
+- **ws-1891-93-0878** p.392 — missing space after '.' (AUTO)
+  - `ts mere bastard.I made two anal` → `ts mere bastard. I made two anal`
+- **ws-1891-93-0877** p.392 — missing space after '.' (AUTO)
+  - `Mikes came here.He came in late` → `Mikes came here. He came in late`
+- **ws-1891-93-0876** p.392 — missing space after '.' (AUTO)
+  - `at their trains.He went to see ` → `at their trains. He went to see `
+- **ws-1891-93-0875** p.391 — missing space after '.' (AUTO)
+  - `aphs, etc., etc.Then Bernhard w` → `aphs, etc., etc. Then Bernhard w`
+- **ws-1891-93-0880** p.393 — missing space after '.' (AUTO)
+  - `s to the Uffizi.He met Frizzoni` → `s to the Uffizi. He met Frizzoni`
+- **ws-1891-93-0879** p.393 — missing space after '.' (AUTO)
+  - `rescoes to them.In the afternoo` → `rescoes to them. In the afternoo`
+- **ws-1891-93-0881** p.393 — missing space after '.' (AUTO)
+  - `a beautiful day.Bernhard took h` → `a beautiful day. Bernhard took h`
+- **ws-1891-93-0884** p.394 — missing space after '.' (AUTO)
+  - `matter with him.At tea [395] ti` → `matter with him. At tea [395] ti`
+- **ws-1891-93-0883** p.394 — missing space after '.' (AUTO)
+  - `yed exceedingly.I forgot, by th` → `yed exceedingly. I forgot, by th`
+- **ws-1891-93-0882** p.394 — missing space after '.' (AUTO)
+  - `ey were in want.I took Michael ` → `ey were in want. I took Michael `
+- **ws-1891-93-0885** p.395 — missing space after '.' (AUTO)
+  - `rom Mr. Jenkins.Got off at last` → `rom Mr. Jenkins. Got off at last`
+- **ws-1891-93-0886** p.396 — missing space after ',' (AUTO)
+  - ` Renée Mauperin,and did not car` → ` Renée Mauperin, and did not car`
+- **ws-1891-93-0887** p.396 — missing space after '.' (AUTO)
+  - `o the Belvedere.Saw Mancini’s p` → `o the Belvedere. Saw Mancini’s p`
+- **ws-1891-93-0889** p.396 — missing space after '.' (AUTO)
+  - `aying 15 francs.The Mikes were ` → `aying 15 francs. The Mikes were `
+- **ws-1891-93-0888** p.396 — missing space after '.' (AUTO)
+  - `in to Umbertide.Saw the Signore` → `in to Umbertide. Saw the Signore`
+- **ws-1891-93-0890** p.396 — missing space after '.' (AUTO)
+  - `led to rouse us.A lovely walk a` → `led to rouse us. A lovely walk a`
+- **ws-1891-93-0894** p.397 — missing space after '.' (AUTO)
+  - `nchanting views.After dinner wr` → `nchanting views. After dinner wr`
+- **ws-1891-93-0893** p.397 — missing space after ',' (AUTO)
+  - `es to S. Pietro,and round about` → `es to S. Pietro, and round about`
+- **ws-1891-93-0892** p.397 — missing space after '.' (AUTO)
+  - `about the walls.After lunch Ber` → `about the walls. After lunch Ber`
+- **ws-1891-93-0891** p.397 — missing space after '.' (AUTO)
+  - `r all the rains.We revisited th` → `r all the rains. We revisited th`
+- **ws-1891-93-0895** p.397 — missing space after '.' (AUTO)
+  - `rning at Assisi.Then Bernhard a` → `rning at Assisi. Then Bernhard a`
+- **ws-1891-93-0896** p.397 — missing space after '.' (AUTO)
+  - `urous enjoyment.Then we came he` → `urous enjoyment. Then we came he`
+- **ws-1891-93-0899** p.398 — missing space after '.' (AUTO)
+  - `r. Bliss called.Bernhard wrote ` → `r. Bliss called. Bernhard wrote `
+- **ws-1891-93-0898** p.398 — missing space after '.' (AUTO)
+  - ` the Appian Way.Mr. Bliss calle` → ` the Appian Way. Mr. Bliss calle`
+- **ws-1891-93-0897** p.398 — missing space after '.' (AUTO)
+  - ` in the morning.The “Mikes” dro` → ` in the morning. The “Mikes” dro`
+- **ws-1891-93-0900** p.398 — missing space after '.' (AUTO)
+  - ` lost illusions.The Borghese in` → ` lost illusions. The Borghese in`
+- **ws-1891-93-0903** p.399 — missing space after '.' (AUTO)
+  - `alla and talked.In the evening ` → `alla and talked. In the evening `
+- **ws-1891-93-0902** p.399 — missing space after '.' (AUTO)
+  - `to Roman models.In the afternoo` → `to Roman models. In the afternoo`
+- **ws-1891-93-0901** p.398 — missing space after '.' (AUTO)
+  - ` in the morning.We met Miss Sel` → ` in the morning. We met Miss Sel`
+- **ws-1891-93-0906** p.400 — missing space after '.' (AUTO)
+  - `ats and Shelley.We discussed Ra` → `ats and Shelley. We discussed Ra`
+- **ws-1891-93-0905** p.400 — missing space after '.' (AUTO)
+  - `ain and disgust.In the afternoo` → `ain and disgust. In the afternoo`
+- **ws-1891-93-0904** p.400 — missing space after '.' (AUTO)
+  - ` him, evidently.Then, while Ber` → ` him, evidently. Then, while Ber`
+- **ws-1891-93-0909** p.400 — missing space after '.' (AUTO)
+  - `issance motives.In the afternoo` → `issance motives. In the afternoo`
+- **ws-1891-93-0908** p.400 — missing space after '.' (AUTO)
+  - `he moderns flat.Then Prof. Klei` → `he moderns flat. Then Prof. Klei`
+- **ws-1891-93-0907** p.400 — missing space after '.' (AUTO)
+  - `sed her all day.We met Miss Sel` → `sed her all day. We met Miss Sel`
+- **ws-1891-93-0911** p.401 — missing space after '.' (AUTO)
+  - `led on Wickhoff.Then we took te` → `led on Wickhoff. Then we took te`
+- **ws-1891-93-0910** p.401 — missing space after '.' (AUTO)
+  - `joyed the Lotto.Then Bernhard a` → `joyed the Lotto. Then Bernhard a`
+- **ws-1891-93-0912** p.401 — missing space after '.' (AUTO)
+  - `n to S. Peter’s.Dead tired at n` → `n to S. Peter’s. Dead tired at n`
+- **ws-1891-93-0913** p.402 — missing space after '.' (AUTO)
+  - ` have ever seen.Then Michael an` → ` have ever seen. Then Michael an`
+- **ws-1891-93-0914** p.403 — missing space after '.' (AUTO)
+  - `ple about Lotto.In the afternoo` → `ple about Lotto. In the afternoo`
+- **ws-1891-93-0915** p.404 — missing space after '.' (AUTO)
+  - `the Duomo there.Came here - a f` → `the Duomo there. Came here - a f`
+- **ws-1891-93-0916** p.404 — missing space after '.' (AUTO)
+  - `alazzo Bernetti.Then we drove t` → `alazzo Bernetti. Then we drove t`
+- **ws-1891-93-0917** p.405 — missing space after '.' (AUTO)
+  - `Saw Loreto.Bernhard made t` → `Saw Loreto. Bernhard made t`
+- **ws-1891-93-0918** p.407 — missing space after '.' (AUTO)
+  - `sias - churches.Went with Signo` → `sias - churches. Went with Signo`
+- **ws-1891-93-0920** p.407 — missing space after '.' (AUTO)
+  - `before starting.Bernhard said o` → `before starting. Bernhard said o`
+- **ws-1891-93-0919** p.407 — missing space after '.' (AUTO)
+  - `Romanino fresco.We saw the Inta` → `Romanino fresco. We saw the Inta`
+- **ws-1891-93-0921** p.408 — missing space after '.' (AUTO)
+  - `rera in morning.Met Frizzoni an` → `rera in morning. Met Frizzoni an`
+- **ws-1891-93-0922** p.408 — missing space after '.' (AUTO)
+  - `this exposition.Called for Maud` → `this exposition. Called for Maud`
+- **ws-1891-93-0923** p.408 — missing space after '.' (AUTO)
+  - `not seem so bad.Met Maude at th` → `not seem so bad. Met Maude at th`
+- **ws-1891-93-0925** p.409 — missing space after '.' (AUTO)
+  - `and some others.Read “Underneat` → `and some others. Read “Underneat`
+- **ws-1891-93-0924** p.409 — missing space after '.' (AUTO)
+  - `for 1800 francs.Then we went to` → `for 1800 francs. Then we went to`
+- **ws-1891-93-0926** p.409 — missing space after '.' (AUTO)
+  - `d Durand-Ruel’s.Enjoyed Islach’` → `d Durand-Ruel’s. Enjoyed Islach’`
+- **ws-1891-93-0927** p.409 — missing space after '.' (AUTO)
+  - `or the children.We dined with B` → `or the children. We dined with B`
+- **ws-1891-93-0928** p.410 — missing space after '.' (AUTO)
+  - `erness for them.But it is nice ` → `erness for them. But it is nice `
+- **ws-1891-93-0929** p.411 — missing space after '.' (AUTO)
+  - `ister turned up.Bernhard went a` → `ister turned up. Bernhard went a`
+- **ws-1891-93-0930** p.412 — missing space after '.' (AUTO)
+  - `tolomeo] Veneto.Read “Docteur P` → `tolomeo] Veneto. Read “Docteur P`
+- **ws-1891-93-0931** p.412 — missing space after '.' (AUTO)
+  - `45. Awfully hot.Saw Gallery and` → `45. Awfully hot. Saw Gallery and`
+- **ws-1891-93-0932** p.413 — missing space after '.' (AUTO)
+  - `lot of renaming.Wandered about ` → `lot of renaming. Wandered about `
+- **ws-1891-93-0935** p.413 — missing space after '.' (AUTO)
+  - `in to rejoin it.Reached Munich ` → `in to rejoin it. Reached Munich `
+- **ws-1891-93-0934** p.413 — missing space after '.' (AUTO)
+  - `he lovely parks.Left for Munich` → `he lovely parks. Left for Munich`
+- **ws-1891-93-0933** p.413 — missing space after '.' (AUTO)
+  - `lio Campis, etc.Wandered in the` → `lio Campis, etc. Wandered in the`
+- **ws-1891-93-0936** p.414 — missing space after '.' (REVIEW_DIGIT)
+  - `el Roth. Munich.1893.` → `el Roth. Munich. 1893.`
+- **ws-1891-93-0937** p.414 — missing space after '.' (AUTO)
+  - `pe-writer place.Went to Bavaria` → `pe-writer place. Went to Bavaria`
+- **ws-1891-93-0938** p.414 — missing space after '.' (AUTO)
+  - ` the Glyptothek.In the evening ` → ` the Glyptothek. In the evening `
+- **ws-1891-93-0940** p.415 — missing space after '.' (AUTO)
+  - `or the children.Went to the New` → `or the children. Went to the New`
+- **ws-1891-93-0939** p.415 — missing space after '.' (AUTO)
+  - `de Mars friends.Wrote home. “Gi` → `de Mars friends. Wrote home. “Gi`
+- **ws-1891-93-0941** p.415 — missing space after '.' (AUTO)
+  - `Bavarian Museum.We went to the ` → `Bavarian Museum. We went to the `
+- **ws-1891-93-0942** p.415 — missing space after '.' (AUTO)
+  - `hrough the park.Then, in honour` → `hrough the park. Then, in honour`
+- **ws-1891-93-0943** p.415 — missing space after '.' (AUTO)
+  - `ton Court Guide.Went to hear Tr` → `ton Court Guide. Went to hear Tr`
+- **ws-1891-93-0944** p.416 — missing space after '.' (AUTO)
+  - `ton Court Guide.Went to hear Ta` → `ton Court Guide. Went to hear Ta`
+- **ws-1891-93-0945** p.416 — missing space after '!' (AUTO)
+  - `riage-day, alas!We tried to go ` → `riage-day, alas! We tried to go `
+- **ws-1891-93-0946** p.416 — missing space after '.' (AUTO)
+  - ` to the Gallery.After writing a` → ` to the Gallery. After writing a`
+- **ws-1891-93-0947** p.417 — missing space after '.' (AUTO)
+  - `ery and writing.Berenson said t` → `ery and writing. Berenson said t`
+- **ws-1891-93-0948** p.417 — missing space after '.' (AUTO)
+  - `anorama of Rome.Heard “Götterdä` → `anorama of Rome. Heard “Götterdä`
+- **ws-1891-93-0949** p.417 — missing space after '.' (AUTO)
+  - `.28. Read Ranke.We had a [418] ` → `.28. Read Ranke. We had a [418] `
+- **ws-1891-93-0950** p.418 — missing space after '.' (AUTO)
+  - ` was very cross.Saw the Church,` → ` was very cross. Saw the Church,`
+- **ws-1891-93-0953** p.419 — missing space after '.' (AUTO)
+  - `ds, etc., salon.Yes, we are rea` → `ds, etc., salon. Yes, we are rea`
+- **ws-1891-93-0952** p.419 — missing space after '.' (AUTO)
+  - ` like a sausage.I came by post ` → ` like a sausage. I came by post `
+- **ws-1891-93-0951** p.419 — missing space after '.' (AUTO)
+  - ` is like oxygen.At night he des` → ` is like oxygen. At night he des`
+- **ws-1891-93-0954** p.419 — missing space after '.' (AUTO)
+  - `t à toute heure.We are on the t` → `t à toute heure. We are on the t`
+- **ws-1891-93-0955** p.420 — missing space after '.' (AUTO)
+  - `r, then on here.I have Browning` → `r, then on here. I have Browning`
+- **ws-1891-93-0958** p.420 — missing space after '.' (AUTO)
+  - `-powder at last.Hapgood is equa` → `-powder at last. Hapgood is equa`
+- **ws-1891-93-0957** p.420 — missing space after '.' (AUTO)
+  - `as very squalid.Got some flea-p` → `as very squalid. Got some flea-p`
+- **ws-1891-93-0956** p.420 — missing space after '!' (AUTO)
+  - `ed a late Lotto!Saw Possagno wi` → `ed a late Lotto! Saw Possagno wi`
+- **ws-1891-93-0960** p.420 — missing space after '.' (AUTO)
+  - ` here at sunset.Horrible festa ` → ` here at sunset. Horrible festa `
+- **ws-1891-93-0959** p.420 — missing space after '.' (AUTO)
+  - `good restaurant.Saw the Bassano` → `good restaurant. Saw the Bassano`
+- **ws-1891-93-0961** p.421 — missing space after '.' (AUTO)
+  - `nd Monte Berico.Came here in th` → `nd Monte Berico. Came here in th`
+- **ws-1891-93-0962** p.421 — missing space after '.' (AUTO)
+  - `nd Castelfranco.Came here and s` → `nd Castelfranco. Came here and s`
+- **ws-1891-93-0963** p.421 — missing space after '.' (AUTO)
+  - `o and came here.Saw the Cima co` → `o and came here. Saw the Cima co`
+- **ws-1891-93-0964** p.421 — missing space after '!' (AUTO)
+  - `r seen the like!Came here.` → `r seen the like! Came here.`
+- **ws-1891-93-0966** p.421 — missing space after '.' (AUTO)
+  - `n the afternoon.Bernhard called` → `n the afternoon. Bernhard called`
+- **ws-1891-93-0965** p.421 — missing space after '.' (AUTO)
+  - `anni in Bragora.Train. I met Mr` → `anni in Bragora. Train. I met Mr`
+- **ws-1891-93-0967** p.422 — missing space after '.' (AUTO)
+  - ` Albergo Monaco.Venice` → ` Albergo Monaco. Venice`
+- **ws-1891-93-0969** p.422 — missing space after '.' (AUTO)
+  - `e de-Ruskinized.Ray on reaching` → `e de-Ruskinized. Ray on reaching`
+- **ws-1891-93-0968** p.422 — missing space after '.' (AUTO)
+  - `Carmini at noon.In the afternoo` → `Carmini at noon. In the afternoo`
+- **ws-1891-93-0971** p.422 — missing space after '.' (AUTO)
+  - `n the afternoon.Bernhard took H` → `n the afternoon. Bernhard took H`
+- **ws-1891-93-0970** p.422 — missing space after '.' (AUTO)
+  - ` in the morning.Swim in the Lid` → ` in the morning. Swim in the Lid`
+- **ws-1891-93-0974** p.422 — missing space after '.' (AUTO)
+  - `nograph on Cima.Finished Vol. I` → `nograph on Cima. Finished Vol. I`
+- **ws-1891-93-0973** p.422 — missing space after '.' (AUTO)
+  - `n the afternoon.Bernhard is wri` → `n the afternoon. Bernhard is wri`
+- **ws-1891-93-0972** p.422 — missing space after '.' (AUTO)
+  - ` in the morning.Murano in the a` → ` in the morning. Murano in the a`
+- **ws-1891-93-0975** p.423 — missing space after '.' (AUTO)
+  - `n the afternoon.Read Ranke.` → `n the afternoon. Read Ranke.`
+- **ws-1891-93-0976** p.423 — missing space after '.' (AUTO)
+  - ` and San Giobbe.Met Willy Peel ` → ` and San Giobbe. Met Willy Peel `
+- **ws-1891-93-0977** p.423 — missing space after '.' (AUTO)
+  - `n the afternoon.I went with Mar` → `n the afternoon. I went with Mar`
+- **ws-1891-93-0978** p.423 — missing space after '.' (AUTO)
+  - `donna dell’Orto.Bernhard’s proo` → `donna dell’Orto. Bernhard’s proo`
+- **ws-1891-93-0981** p.424 — missing space after '.' (AUTO)
+  - ` in the evening.Fafnir and I wr` → ` in the evening. Fafnir and I wr`
+- **ws-1891-93-0980** p.424 — missing space after '.' (AUTO)
+  - `went in to swim.Bernhard called` → `went in to swim. Bernhard called`
+- **ws-1891-93-0979** p.424 — missing space after '.' (AUTO)
+  - `r of this hotel.Corrected proof` → `r of this hotel. Corrected proof`
+- **ws-1891-93-0982** p.424 — missing space after '.' (AUTO)
+  - ` in the Academy.Afternoon S. Ca` → ` in the Academy. Afternoon S. Ca`
+- **ws-1891-93-0985** p.424 — missing space after '.' (AUTO)
+  - `time of talking.Put in all our ` → `time of talking. Put in all our `
+- **ws-1891-93-0984** p.424 — missing space after '.' (AUTO)
+  - `afnir went at 2.Began to read a` → `afnir went at 2. Began to read a`
+- **ws-1891-93-0983** p.424 — missing space after '.' (AUTO)
+  - `Doge’s Palace.Fafnir went at ` → `Doge’s Palace. Fafnir went at `
+- **ws-1891-93-0986** p.424 — missing space after '.' (AUTO)
+  - `ing and reading.Bernhard is rea` → `ing and reading. Bernhard is rea`
+- **ws-1891-93-0987** p.425 — missing space after '.' (AUTO)
+  - `Visit to Marion.Bernhard called` → `Visit to Marion. Bernhard called`
+- **ws-1891-93-0989** p.426 — missing space after '.' (AUTO)
+  - `a glorious swim.I finished Hora` → `a glorious swim. I finished Hora`
+- **ws-1891-93-0988** p.426 — missing space after '.' (AUTO)
+  - `o, S. Silvestro.Lido in the aft` → `o, S. Silvestro. Lido in the aft`
+- **ws-1891-93-0990** p.426 — missing space after '.' (AUTO)
+  - `erini-Stampalia.Bernhard went t` → `erini-Stampalia. Bernhard went t`
+- **ws-1891-93-0991** p.427 — missing space after '.' (AUTO)
+  - `alled on Marion.Read and saw Go` → `alled on Marion. Read and saw Go`
+- **ws-1891-93-0992** p.427 — missing space after '.' (AUTO)
+  - ` in the morning.Visited the ant` → ` in the morning. Visited the ant`
+- **ws-1891-93-0993** p.427 — missing space after '.' (AUTO)
+  - ` in the morning.Writing. Very m` → ` in the morning. Writing. Very m`
+- **ws-1891-93-0994** p.427 — missing space after '.' (AUTO)
+  - `nt to San Rocco.Walked all over` → `nt to San Rocco. Walked all over`
+- **ws-1891-93-0995** p.427 — missing space after '.' (AUTO)
+  - `n the afternoon.Packed.(3.50 fr` → `n the afternoon. Packed.(3.50 fr`
+- **ws-1891-93-0997** p.428 — missing space after '.' (AUTO)
+  - ` in the evening.I was not very ` → ` in the evening. I was not very `
+- **ws-1891-93-0996** p.428 — missing space after '.' (AUTO)
+  - ` about the town.I discovered a ` → ` about the town. I discovered a `
+- **ws-1891-93-0999** p.428 — missing space after '.' (AUTO)
+  - `(ruined) Alvise.Found a Tiepolo` → `(ruined) Alvise. Found a Tiepolo`
+- **ws-1891-93-0998** p.428 — missing space after '.' (AUTO)
+  - ` in the morning.We went to Piev` → ` in the morning. We went to Piev`
+- **ws-1891-93-1002** p.428 — missing space after '.' (AUTO)
+  - `all the evening.The first day o` → `all the evening. The first day o`
+- **ws-1891-93-1001** p.428 — missing space after '.' (AUTO)
+  - ` is magnificent.I wrote on my H` → ` is magnificent. I wrote on my H`
+- **ws-1891-93-1000** p.428 — missing space after '.' (AUTO)
+  - `ncomprehensible.We saw the Bish` → `ncomprehensible. We saw the Bish`
+- **ws-1891-93-1004** p.429 — missing space after '.' (AUTO)
+  - `ed for anything.In the evening,` → `ed for anything. In the evening,`
+- **ws-1891-93-1003** p.429 — missing space after ',' (AUTO)
+  - `m 6) to Praglia,an abandoned mo` → `m 6) to Praglia, an abandoned mo`
+- **ws-1891-93-1005** p.430 — missing space after '.' (AUTO)
+  - `ia before lunch.My home letters` → `ia before lunch. My home letters`
+- **ws-1891-93-1008** p.430 — missing space after '.' (AUTO)
+  - `evening cursing.At dinner we ta` → `evening cursing. At dinner we ta`
+- **ws-1891-93-1007** p.430 — missing space after '.' (AUTO)
+  - `and the Gallery.I read Ranke an` → `and the Gallery. I read Ranke an`
+- **ws-1891-93-1006** p.430 — missing space after '.' (AUTO)
+  - `ad to come back.Bernhard went t` → `ad to come back. Bernhard went t`
+- **ws-1891-93-1009** p.431 — missing space after '.' (AUTO)
+  - ` Read and wrote.Made acquaintan` → ` Read and wrote. Made acquaintan`
+- **ws-1891-93-1011** p.431 — missing space after '.' (AUTO)
+  - `ombs, etc.Wrote.Saw a balloon g` → `ombs, etc.Wrote. Saw a balloon g`
+- **ws-1891-93-1010** p.431 — missing space after '.' (AUTO)
+  - `iger Tombs, etc.Wrote.Saw a bal` → `iger Tombs, etc. Wrote.Saw a bal`
+- **ws-1891-93-1012** p.431 — missing space after '.' (AUTO)
+  - ` – wrote - read.Came here.` → ` – wrote - read. Came here.`
+- **ws-1891-93-1014** p.431 — missing space after '!' (AUTO)
+  - ` five years ago!Bernhard finish` → ` five years ago! Bernhard finish`
+- **ws-1891-93-1013** p.431 — missing space after '.' (AUTO)
+  - `Raining.Archbishop’s Pa` → `Raining. Archbishop’s Pa`
+- **ws-1891-93-1016** p.432 — missing space after '.' (AUTO)
+  - ` in the evening.Found bianca ri` → ` in the evening. Found bianca ri`
+- **ws-1891-93-1015** p.432 — missing space after '.' (AUTO)
+  - `ng the churches.At S. Clemente ` → `ng the churches. At S. Clemente `
+- **ws-1891-93-1018** p.432 — missing space after '.' (AUTO)
+  - `k from hurrying.Dined at cafe. ` → `k from hurrying. Dined at cafe. `
+- **ws-1891-93-1017** p.432 — missing space after '.' (AUTO)
+  - `lean, and quiet.Went to Paitone` → `lean, and quiet. Went to Paitone`
+- **ws-1891-93-1020** p.433 — missing space after '.' (AUTO)
+  - `ton Court Guide.Bernhard finish` → `ton Court Guide. Bernhard finish`
+- **ws-1891-93-1019** p.433 — missing space after '.' (AUTO)
+  - `and the Gallery.Finished my Ham` → `and the Gallery. Finished my Ham`
+- **ws-1891-93-1021** p.433 — missing space after '.' (AUTO)
+  - ` in the morning.Gallery in the ` → ` in the morning. Gallery in the `
+- **ws-1891-93-1022** p.433 — missing space after '.' (AUTO)
+  - `everal churches.In the afternoo` → `everal churches. In the afternoo`
+- **ws-1891-93-1024** p.434 — missing space after '.' (AUTO)
+  - `ticle on Assisi.Bernhard read “` → `ticle on Assisi. Bernhard read “`
+- **ws-1891-93-1023** p.434 — missing space after '.' (AUTO)
+  - `n the afternoon.Sent off my art` → `n the afternoon. Sent off my art`
+- **ws-1891-93-1025** p.434 — missing space after '.' (AUTO)
+  - ` Toscana saw us.My rooms have b` → ` Toscana saw us. My rooms have b`
+- **ws-1891-93-1027** p.434 — missing space after '.' (AUTO)
+  - ` to Santa Croce.Came back, took` → ` to Santa Croce. Came back, took`
+- **ws-1891-93-1026** p.434 — missing space after '.' (AUTO)
+  - `could find none.Went to Santa C` → `could find none. Went to Santa C`
+- **ws-1891-93-1028** p.435 — missing space after '.' (AUTO)
+  - `getting settled.Bernhard read “` → `getting settled. Bernhard read “`
+- **ws-1891-93-1030** p.435 — missing space after '.' (AUTO)
+  - `ante and Vasari.I began an arti` → `ante and Vasari. I began an arti`
+- **ws-1891-93-1029** p.435 — missing space after '.' (AUTO)
+  - `to,” and Ruskin.Bernhard readin` → `to,” and Ruskin. Bernhard readin`
+- **ws-1891-93-1034** p.436 — missing space after ',' (AUTO)
+  - `Modern Painters,a horrid mixtur` → `Modern Painters, a horrid mixtur`
+- **ws-1891-93-1033** p.436 — missing space after '.' (AUTO)
+  - `on Miss Jeffrey.Finished Vol. I` → `on Miss Jeffrey. Finished Vol. I`
+- **ws-1891-93-1032** p.436 — missing space after '.' (AUTO)
+  - `person who does.Sent off my rev` → `person who does. Sent off my rev`
+- **ws-1891-93-1031** p.435 — missing space after '!' (AUTO)
+  - `w.” The darling!Received [436] ` → `w.” The darling! Received [436] `
+- **ws-1891-93-1035** p.436 — missing space after '.' (AUTO)
+  - `Ill again.Bernhard walked` → `Ill again. Bernhard walked`
+- **ws-1891-93-1036** p.440 — missing space after '.' (AUTO)
+  - `ram Bywater, 93.Onslow Square, ` → `ram Bywater, 93. Onslow Square, `
+
+## Skipped / needs manual review (1)
+
+- **ws-1891-93-0195** p.194 — SKIPPED_REVIEW: missing space after '.' (REVIEW_DIGIT)
+  - looked for: `[194] 14.I.92.`

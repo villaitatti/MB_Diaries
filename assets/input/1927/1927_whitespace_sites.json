@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ws-1927-0001",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 584,
+    "offset": 107,
+    "punct": ".",
+    "page": 69,
+    "left": "o is ill, meeting there M",
+    "right": "lle Sotiriadi.  Then call",
+    "find": "meeting there M.lle Sotiriadi. ",
+    "replace": "meeting there M. lle Sotiriadi. ",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  }
+]

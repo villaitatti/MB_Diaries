@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ws-1899-02-0001",
+    "class": "REVIEW_DIGIT",
+    "apply": true,
+    "reason": "a digit follows the punctuation",
+    "paragraph_index": 216,
+    "offset": 14,
+    "punct": ".",
+    "page": 50,
+    "left": "Monday May 1st",
+    "right": "99. Frullino. Florence.",
+    "find": "Monday May 1st.99. Frullino. F",
+    "replace": "Monday May 1st. 99. Frullino. F",
+    "note": "missing space after '.' (REVIEW_DIGIT)"
+  },
+  {
+    "id": "ws-1899-02-0002",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 402,
+    "offset": 271,
+    "punct": ".",
+    "page": 82,
+    "left": "ich Alys said meant B.F.C",
+    "right": "C’s death, poor man!",
+    "find": "aid meant B.F.C.C’s death, poor",
+    "replace": "aid meant B.F.C. C’s death, poor",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  }
+]

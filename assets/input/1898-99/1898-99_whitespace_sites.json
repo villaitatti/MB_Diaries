@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ws-1898-99-0001",
+    "class": "AUTO",
+    "apply": true,
+    "reason": null,
+    "paragraph_index": 679,
+    "offset": 89,
+    "punct": ".",
+    "page": 139,
+    "left": " in the back of my throat",
+    "right": "Shopping with Logan and h",
+    "find": "ck of my throat.Shopping with L",
+    "replace": "ck of my throat. Shopping with L",
+    "note": "missing space after '.' (AUTO)"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-09-02T09:03:02.518408+00:00",
+  "docx": "assets/input/1909/1909.docx",
+  "fixes_file": "assets/input/1909/1909_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1909-0001",
+      "page": 10,
+      "note": "missing space after '.' (AUTO)",
+      "find": "taying with her.Bernhard went i",
+      "replace": "taying with her. Bernhard went i",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1909-0005",
+      "page": 13,
+      "note": "missing space after '.' (AUTO)",
+      "find": "etc. and admire.It was like the",
+      "replace": "etc. and admire. It was like the",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1909-0004",
+      "page": 13,
+      "note": "missing space after '.' (AUTO)",
+      "find": "of this country.At 9.45, howeve",
+      "replace": "of this country. At 9.45, howeve",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1909-0003",
+      "page": 13,
+      "note": "missing space after '.' (AUTO)",
+      "find": "d Mrs. Crossley.We dined with t",
+      "replace": "d Mrs. Crossley. We dined with t",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1909-0002",
+      "page": 13,
+      "note": "missing space after '.' (AUTO)",
+      "find": "d still ghastly.Hutchins Hapgoo",
+      "replace": "d still ghastly. Hutchins Hapgoo",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1909-0006",
+      "page": 14,
+      "note": "missing space after '.' (AUTO)",
+      "find": "n came to lunch.Afterwards I we",
+      "replace": "n came to lunch. Afterwards I we",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1909-0007",
+      "page": 21,
+      "note": "missing space after '.' (AUTO)",
+      "find": "bing of violins.Afterwards Albe",
+      "replace": "bing of violins. Afterwards Albe",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1909-0008",
+      "page": 23,
+      "note": "missing space after '.' (AUTO)",
+      "find": "we lunched here.Mrs. Gardner ca",
+      "replace": "we lunched here. Mrs. Gardner ca",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1909-0009",
+      "page": 23,
+      "note": "missing space after '.' (AUTO)",
+      "find": " on Mrs. Latham.We dined with t",
+      "replace": " on Mrs. Latham. We dined with t",
+      "status": "APPLIED"
+    }
+  ]
+}

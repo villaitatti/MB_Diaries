@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-09-02T09:03:03.976346+00:00",
+  "docx": "assets/input/1923/1923.docx",
+  "fixes_file": "assets/input/1923/1923_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1923-0001",
+      "page": 89,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "on a train to S.M [Santa Maria]",
+      "replace": "on a train to S. M [Santa Maria]",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1923-0003",
+      "page": 134,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "ool, a real L.M.C lunch, badly ",
+      "replace": "ool, a real L.M. C lunch, badly ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1923-0002",
+      "page": 134,
+      "note": "missing space after '.' (AUTO)",
+      "find": "lunched with Mr.Wall at the Bri",
+      "replace": "lunched with Mr. Wall at the Bri",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1923-0004",
+      "page": 158,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "\tB.B gets so rude ",
+      "replace": "\tB. B gets so rude ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1923-0005",
+      "page": 263,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "London W.C.L",
+      "replace": "London W.C. L",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1923-0006",
+      "page": 263,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "e went to the N.G which did see",
+      "replace": "e went to the N. G which did see",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1923-0007",
+      "page": 274,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "\tB.M + N.G.",
+      "replace": "\tB. M + N.G.",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1923-0008",
+      "page": 277,
+      "note": "missing space after '.' (AUTO)",
+      "find": "4.Col",
+      "replace": "4. Col",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1923-0009",
+      "page": 283,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "he Trevys and B.B and I dined, ",
+      "replace": "he Trevys and B. B and I dined, ",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

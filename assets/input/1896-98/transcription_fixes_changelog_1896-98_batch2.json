@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-09-02T09:02:59.014438+00:00",
+  "docx": "assets/input/1896-98/1896-98.docx",
+  "fixes_file": "assets/input/1896-98/1896-98_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1896-98-0001",
+      "page": 17,
+      "note": "missing space after '.' (AUTO)",
+      "find": "oolish question.I also asked wh",
+      "replace": "oolish question. I also asked wh",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1896-98-0002",
+      "page": 22,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "ard went with M.me de Montebell",
+      "replace": "ard went with M. me de Montebell",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1896-98-0003",
+      "page": 34,
+      "note": "missing space after ',' (AUTO)",
+      "find": "llino Belvedere,which they seem",
+      "replace": "llino Belvedere, which they seem",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1896-98-0004",
+      "page": 56,
+      "note": "missing space after '.' (AUTO)",
+      "find": " enchanted spot.Bernhard was mu",
+      "replace": " enchanted spot. Bernhard was mu",
+      "status": "APPLIED"
+    }
+  ]
+}

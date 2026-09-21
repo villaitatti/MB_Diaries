@@ -1,0 +1,247 @@
+{
+  "generated_at": "2026-09-02T09:03:00.959836+00:00",
+  "docx": "assets/input/1905/1905.docx",
+  "fixes_file": "assets/input/1905/1905_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1905-0001",
+      "page": 45,
+      "note": "missing space after ',' (AUTO)",
+      "find": "au, Kerr-Lawson,Bürckli (Swiss)",
+      "replace": "au, Kerr-Lawson, Bürckli (Swiss)",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1905-0002",
+      "page": 50,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "d the Pavoniera.7",
+      "replace": "d the Pavoniera. 7",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0003",
+      "page": 54,
+      "note": "missing space after ',' (AUTO)",
+      "find": "o is delightful,and so beautifu",
+      "replace": "o is delightful, and so beautifu",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1905-0004",
+      "page": 56,
+      "note": "missing space after '.' (AUTO)",
+      "find": "Called on Mrs.Woolcott, a lad",
+      "replace": "Called on Mrs. Woolcott, a lad",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1905-0005",
+      "page": 59,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "s de Corneville.11",
+      "replace": "s de Corneville. 11",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0006",
+      "page": 63,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "ady Enniskillen.14 Thorold and ",
+      "replace": "ady Enniskillen. 14 Thorold and ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0007",
+      "page": 67,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "s, Pen Browning,15 Horne (who s",
+      "replace": "s, Pen Browning, 15 Horne (who s",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0008",
+      "page": 73,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "Mme. Narishkine.19 There I met ",
+      "replace": "Mme. Narishkine. 19 There I met ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0009",
+      "page": 83,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "hini to Ronzano.25",
+      "replace": "hini to Ronzano. 25",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0011",
+      "page": 98,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "ennes, Joscelyn,34 Ploermel.",
+      "replace": "ennes, Joscelyn, 34 Ploermel.",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0010",
+      "page": 98,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "ult, Fontevraud,33 Angers, Renn",
+      "replace": "ult, Fontevraud, 33 Angers, Renn",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0012",
+      "page": 100,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "Donna de Rudini.35",
+      "replace": "Donna de Rudini. 35",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0013",
+      "page": 102,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "achel and Ralph.36 Jack Burke c",
+      "replace": "achel and Ralph. 36 Jack Burke c",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0014",
+      "page": 102,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": " to the Hahnsee.37",
+      "replace": " to the Hahnsee. 37",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0015",
+      "page": 113,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "nt to Laversine.39",
+      "replace": "nt to Laversine. 39",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0016",
+      "page": 114,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": " Moutier-Salins,40 where Placci",
+      "replace": " Moutier-Salins, 40 where Placci",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0018",
+      "page": 117,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "nctuary of Crea,45 with lovely ",
+      "replace": "nctuary of Crea, 45 with lovely ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0017",
+      "page": 117,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "for the Macrino,44 and Casale M",
+      "replace": "for the Macrino, 44 and Casale M",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0019",
+      "page": 119,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "orgo San Donino,48 and had tea ",
+      "replace": "orgo San Donino, 48 and had tea ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0020",
+      "page": 119,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": " go to Mombello,49 Prince Pio d",
+      "replace": " go to Mombello, 49 Prince Pio d",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0021",
+      "page": 122,
+      "note": "missing space after '.' (AUTO)",
+      "find": "u came to lunch.I drove him to ",
+      "replace": "u came to lunch. I drove him to ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1905-0022",
+      "page": 130,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "’ In the Desert.63",
+      "replace": "’ In the Desert. 63",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0023",
+      "page": 132,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": " of Burne Jones.64",
+      "replace": " of Burne Jones. 64",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0024",
+      "page": 133,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "vaders of Italy.66",
+      "replace": "vaders of Italy. 66",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0025",
+      "page": 133,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "Une fille d’Eve.67",
+      "replace": "Une fille d’Eve. 67",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0026",
+      "page": 136,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "um by Dickinson.70",
+      "replace": "um by Dickinson. 70",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0027",
+      "page": 137,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "inese Character.71",
+      "replace": "inese Character. 71",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0028",
+      "page": 140,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "azer’s Kingship.73",
+      "replace": "azer’s Kingship. 73",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0029",
+      "page": 142,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": " Trepov’s niece.74",
+      "replace": " Trepov’s niece. 74",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1905-0030",
+      "page": 143,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "ith Kondascheus,76 dined with M",
+      "replace": "ith Kondascheus, 76 dined with M",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

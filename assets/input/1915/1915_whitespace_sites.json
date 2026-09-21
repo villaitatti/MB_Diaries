@@ -1,0 +1,47 @@
+[
+  {
+    "id": "ws-1915-0001",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 154,
+    "offset": 37,
+    "punct": ".",
+    "page": 40,
+    "left": "rning. In the afternoon B",
+    "right": "B, and Naima had a drive ",
+    "find": "the afternoon B.B, and Naima ha",
+    "replace": "the afternoon B. B, and Naima ha",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  },
+  {
+    "id": "ws-1915-0002",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 1370,
+    "offset": 149,
+    "punct": ".",
+    "page": 281,
+    "left": " we only got in at 3.30 a",
+    "right": "m!",
+    "find": "ot in at 3.30 a.m!",
+    "replace": "ot in at 3.30 a. m!",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  },
+  {
+    "id": "ws-1915-0003",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 1534,
+    "offset": 446,
+    "punct": ".",
+    "page": 298,
+    "left": "first came, and such D. T",
+    "right": "s that 2 men could hardly",
+    "find": ", and such D. T.s that 2 men co",
+    "replace": ", and such D. T. s that 2 men co",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  }
+]

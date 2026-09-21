@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-02T09:03:01.338121+00:00",
+  "docx": "assets/input/1906/1906.docx",
+  "fixes_file": "assets/input/1906/1906_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1906-0001",
+      "page": 42,
+      "note": "missing space after '.' (AUTO)",
+      "find": "t on the scheme.Bernhard called",
+      "replace": "t on the scheme. Bernhard called",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1906-0002",
+      "page": 42,
+      "note": "missing space after '.' (AUTO)",
+      "find": "kes’ Collection.Placci came to ",
+      "replace": "kes’ Collection. Placci came to ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1906-0003",
+      "page": 45,
+      "note": "missing space after '.' (AUTO)",
+      "find": "ather agreeable.Then had a very",
+      "replace": "ather agreeable. Then had a very",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1906-0004",
+      "page": 45,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "R.Fry, Guido Cagn",
+      "replace": "R. Fry, Guido Cagn",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1906-0005",
+      "page": 51,
+      "note": "missing space after '.' (AUTO)",
+      "find": "poli to take it.Called on Mrs. ",
+      "replace": "poli to take it. Called on Mrs. ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1906-0006",
+      "page": 53,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": " day of work. B.B spent afterno",
+      "replace": " day of work. B. B spent afterno",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1906-0007",
+      "page": 65,
+      "note": "missing space after '.' (AUTO)",
+      "find": "jolly breakdown.Lunch at Siena.",
+      "replace": "jolly breakdown. Lunch at Siena.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1906-0008",
+      "page": 92,
+      "note": "missing space after '.' (AUTO)",
+      "find": "g under weather.Hutchins had op",
+      "replace": "g under weather. Hutchins had op",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1906-0009",
+      "page": 93,
+      "note": "missing space after '.' (AUTO)",
+      "find": " on Jo Robinson.Took 2 o’clock ",
+      "replace": " on Jo Robinson. Took 2 o’clock ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1906-0010",
+      "page": 98,
+      "note": "missing space after '.' (AUTO)",
+      "find": "ienna 2.30-9.40.Epitaph in Chur",
+      "replace": "ienna 2.30-9.40. Epitaph in Chur",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1906-0011",
+      "page": 109,
+      "note": "missing space after '.' (AUTO)",
+      "find": "., Triulzi, Avv.Venturi, Janet ",
+      "replace": "., Triulzi, Avv. Venturi, Janet ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1906-0012",
+      "page": 118,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "M.N.II. ",
+      "replace": "M.N. II. ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1906-0013",
+      "page": 127,
+      "note": "missing space after '.' (AUTO)",
+      "find": "d Logan came up.Karin still sic",
+      "replace": "d Logan came up. Karin still sic",
+      "status": "APPLIED"
+    }
+  ]
+}

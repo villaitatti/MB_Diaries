@@ -1,9 +1,7 @@
 """
 General-purpose scanner for the kind of transcription glitches found (and
 hand-fixed) in the 1891-93 diary: words or sentences glued together with no
-whitespace, in ways the pipeline's own automatic whitespace fixer
-(`_fix_missing_whitespace` in script.py, regex in
-assets.scripts.const.regex_missing_whitespace) does not catch.
+whitespace.
 
 This is a READ-ONLY reporting tool. It never edits a .docx. For each
 docx it is pointed at, it writes a Markdown report of candidate issues,
@@ -11,23 +9,24 @@ which a human then curates into a fixes JSON for
 assets/scripts/fix_transcription_issues.py (see 1891-93_fixes*.json for
 worked examples).
 
-Why the pipeline's own fixer isn't enough (background):
-  script.py inserts a space after `.!?;,:` when it's glued directly to the
-  next word, UNLESS the following text looks like an abbreviation
-  (`[A-Z]\\.`, e.g. "U.S."). That exception also silently protects glued
-  names like "B." (Bernhard) -- "evening.B. had a cold" is exactly the kind
-  of bug this never fixes. It also only fires when a word character follows
-  the punctuation, so anything glued after a closing quote/paren/bracket
-  ("Prince.”It was...") is entirely invisible to it. And it can't do
-  anything about two whole words glued with NO punctuation between them at
-  all ("Cavazzolaswhile").
+The pipeline no longer inserts whitespace at runtime -- every legitimate
+missing-whitespace site is migrated into the docx itself by
+assets/scripts/migrate_missing_whitespace.py, which classifies each site as
+AUTO (safe, applied automatically), REVIEW (a human must approve it: the
+left-hand token is a chain of initials like "B." or a digit follows the
+punctuation), or blocked outright (a lowercase abbreviation like "i.e."/
+"a.m." must never be touched). This scanner reuses that same classifier
+(`migrate_missing_whitespace.find_sites`) so Category A below only
+suppresses sites the migration script already owns and will apply on its
+own -- AUTO sites -- and continues to surface REVIEW and blocked sites,
+since those still need a human's attention same as any other glued text.
 
 This scanner reports three kinds of candidates:
 
-  A. glued-punctuation, NOT auto-fixed by the pipeline
-     (`.!?;:,)]"”` immediately followed by a capital letter). High
-     confidence -- almost always a real bug once the false positives below
-     are excluded.
+  A. glued-punctuation, NOT already an AUTO site for the whitespace
+     migration (`.!?;:,)]"”` immediately followed by a capital letter).
+     High confidence -- almost always a real bug once the false positives
+     below are excluded.
   B. word-glue compounds (two words run together with no punctuation at
      all), detected via a curated list of common short glue-words. Lower
      confidence: real English/French/Italian/German words that happen to
@@ -61,8 +60,7 @@ import re
 from docx import Document
 
 from assets.scripts import const
-
-AUTO_FIXED_PATTERN = re.compile(const.regex_missing_whitespace)
+from assets.scripts.migrate_missing_whitespace import find_sites
 
 # Category A: a "closer" character directly followed by a capital letter.
 # Deliberately excludes the plain straight double-quote ("): unlike the
@@ -123,16 +121,11 @@ def _full_text_with_paragraph_index(document):
   return out
 
 
-def _auto_fixed_positions(text):
-  positions = set()
-  for m in AUTO_FIXED_PATTERN.finditer(text):
-    pos = m.start()
-    prev_c = text[pos - 1] if pos > 0 else ''
-    next_c = text[pos + 1] if pos + 1 < len(text) else ''
-    if prev_c.isdigit() and next_c.isdigit():
-      continue
-    positions.add(pos)
-  return positions
+def _migration_auto_positions(text):
+  """Positions the whitespace migration script (migrate_missing_whitespace.py)
+  will apply on its own (class AUTO). REVIEW and blocked sites are NOT
+  included here, so they keep surfacing in category A below."""
+  return {pos for pos, cls, _reason in find_sites(text) if cls == "AUTO"}
 
 
 def _scan_glued_closer(text, auto_positions):
@@ -213,7 +206,7 @@ def scan_document(docx_path, marker_min_digits=3):
   paragraphs = _full_text_with_paragraph_index(document)
   vocabulary = _document_vocabulary(paragraphs)
 
-  auto_fixed_count = 0
+  migration_auto_count = 0
   glued_closer = []
   word_glue = []
   glued_marker = []
@@ -221,8 +214,8 @@ def scan_document(docx_path, marker_min_digits=3):
   for para_id, text in paragraphs:
     if not text:
       continue
-    auto_positions = _auto_fixed_positions(text)
-    auto_fixed_count += len(auto_positions)
+    auto_positions = _migration_auto_positions(text)
+    migration_auto_count += len(auto_positions)
 
     for pos in _scan_glued_closer(text, auto_positions):
       glued_closer.append((para_id, _context(text, pos)))
@@ -234,7 +227,7 @@ def scan_document(docx_path, marker_min_digits=3):
   return {
       "docx": docx_path,
       "paragraphs": len(paragraphs),
-      "auto_fixed_by_pipeline": auto_fixed_count,
+      "migration_auto_sites": migration_auto_count,
       "glued_closer": glued_closer,
       "word_glue": word_glue,
       "glued_marker": glued_marker,
@@ -248,10 +241,11 @@ def write_report(result, report_path):
       "",
       f"Source: `{result['docx']}`",
       f"Paragraphs scanned: {result['paragraphs']}",
-      f"Glued-punctuation instances the pipeline will auto-fix at runtime: "
-      f"{result['auto_fixed_by_pipeline']} (informational only, not listed)",
+      f"Glued-punctuation sites migrate_missing_whitespace.py will apply on "
+      f"its own (class AUTO): {result['migration_auto_sites']} "
+      f"(informational only, not listed)",
       "",
-      f"## A. Glued punctuation NOT auto-fixed by the pipeline "
+      f"## A. Glued punctuation NOT already an AUTO whitespace-migration site "
       f"({len(result['glued_closer'])})",
       "",
       "High confidence. Each of these needs a manual find/replace fix (see "

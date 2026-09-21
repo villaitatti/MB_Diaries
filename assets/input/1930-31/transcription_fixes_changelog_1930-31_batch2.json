@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-02T09:03:04.991829+00:00",
+  "docx": "assets/input/1930-31/1930-31.docx",
+  "fixes_file": "assets/input/1930-31/1930-31_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1930-31-0001",
+      "page": 20,
+      "note": "missing space after ',' (AUTO)",
+      "find": "d Baron Stiebel,Vavalà, Hammer ",
+      "replace": "d Baron Stiebel, Vavalà, Hammer ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1930-31-0002",
+      "page": 21,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "December,1930",
+      "replace": "December, 1930",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

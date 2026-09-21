@@ -29,14 +29,33 @@ regex_footnote_id = r'-{4}[\w\d]*-{4}'
 regex_brackets = r'[\[p\]]'
 regex_date = r'(\b\d{1,2}\D{0,3})?\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|(Nov|Dec)(?:ember)?)\D?(\d{1,2}\D?)?\D?((18[7-9]\d|20\d{2})|\d{2})'
 
-# Missing-whitespace-after-punctuation, as applied automatically by
-# _fix_missing_whitespace() in script.py. Shared here so the standalone
-# scanner (assets/scripts/scan_transcription_issues.py) can tell which
-# glued-text issues the pipeline will already fix at runtime vs. which ones
-# it deliberately skips (its `(?![A-Z]\.)` exception, meant to avoid breaking
-# abbreviations like "U.S.", also skips extremely common glued names like
-# "B." for Bernhard) and therefore need a source-text fix.
-regex_missing_whitespace = r'(?<=\w)([.!?;,:])(?![A-Z]\.)(?=\w)'
+# Missing-whitespace-after-punctuation candidate sites for the SOURCE-SIDE
+# migration in assets/scripts/migrate_missing_whitespace.py. The pipeline no
+# longer inserts whitespace at runtime -- output must equal source -- so
+# every legitimate site is applied to the docx instead, as a tracked,
+# reviewable change.
+#
+# The guard is `[A-Za-z]\.`, NOT `[A-Z]\.`: it must protect lowercase
+# abbreviations (e.g. i.e. a.m. p.m. n.b. viz.) the same way the old,
+# case-sensitive guard always protected "U.S." -- the case-sensitive version
+# is what corrupted "i.e." into "i. e." everywhere it appeared.
+regex_missing_whitespace_candidate = r'(?<=\w)([.!?;,:])(?![A-Za-z]\.)(?=\w)'
+
+# A left-hand token that is a chain of single-letter initials ("B.", "B.B",
+# "14.I") immediately before the punctuation -- matched against text[:pos].
+# Apostrophes/curly quotes count as word characters here so a possessive
+# ("Florian’s.Then") isn't misfiled as an initial. Sites matching this are
+# never auto-applied; they need a human to tell a real abbreviation ("M.me")
+# from a real bug ("Charles V.Packed").
+regex_left_initial_chain = r'(?:^|[^\w.‘’\'"])(?:[A-Za-z]\.)*[A-Za-z][‘’\'"]?$'
+
+# Strings that must never appear in a docx after the migration runs. Checked
+# as a post-condition after every insertion; if any of these turns up, the
+# whole run aborts without saving.
+forbidden_whitespace_results = (
+    'i. e.', 'e. g.', 'a. m.', 'p. m.', 'n. b.', 'n. d.', 'w. c.',
+    'm. c.', 'p. c.', 'h. p.', 's. n.', 'v. good', 'viz. ',
+)
 
 turtle_ext = 'ttl'
 key_graph = 'graph'

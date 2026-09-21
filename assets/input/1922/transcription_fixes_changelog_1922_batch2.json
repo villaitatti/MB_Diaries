@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-02T09:03:03.617227+00:00",
+  "docx": "assets/input/1922/1922.docx",
+  "fixes_file": "assets/input/1922/1922_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1922-0001",
+      "page": 27,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "rived at 5.30 a.m! dear creatur",
+      "replace": "rived at 5.30 a. m! dear creatur",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1922-0002",
+      "page": 38,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "ful thought,” i.e that phallic ",
+      "replace": "ful thought,” i. e that phallic ",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

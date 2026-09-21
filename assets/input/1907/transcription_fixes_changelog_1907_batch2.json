@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-09-02T09:03:01.751477+00:00",
+  "docx": "assets/input/1907/1907.docx",
+  "fixes_file": "assets/input/1907/1907_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1907-0001",
+      "page": 37,
+      "note": "missing space after ',' (AUTO)",
+      "find": "an at Cambridge,who said that h",
+      "replace": "an at Cambridge, who said that h",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1907-0002",
+      "page": 55,
+      "note": "missing space after ',' (AUTO)",
+      "find": "ed on mrs. Ross,who has Sir Wil",
+      "replace": "ed on mrs. Ross, who has Sir Wil",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1907-0003",
+      "page": 73,
+      "note": "missing space after ',' (AUTO)",
+      "find": "r from Geoffrey,who was helped ",
+      "replace": "r from Geoffrey, who was helped ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1907-0004",
+      "page": 148,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "ation between B.B and Placci.",
+      "replace": "ation between B. B and Placci.",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1907-0005",
+      "page": 166,
+      "note": "missing space after '.' (AUTO)",
+      "find": "n the afternoon.This is her fir",
+      "replace": "n the afternoon. This is her fir",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1907-0006",
+      "page": 332,
+      "note": "missing space after ',' (AUTO)",
+      "find": " and impersonal,like architectu",
+      "replace": " and impersonal, like architectu",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1907-0007",
+      "page": 373,
+      "note": "missing space after ',' (AUTO)",
+      "find": "er hearing goes,I wonder if she",
+      "replace": "er hearing goes, I wonder if she",
+      "status": "APPLIED"
+    }
+  ]
+}

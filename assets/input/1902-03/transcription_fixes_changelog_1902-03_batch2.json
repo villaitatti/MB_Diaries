@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-09-02T09:03:00.162376+00:00",
+  "docx": "assets/input/1902-03/1902-03.docx",
+  "fixes_file": "assets/input/1902-03/1902-03_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1902-03-0001",
+      "page": 25,
+      "note": "missing space after '.' (AUTO)",
+      "find": "sitively impish.But she has nev",
+      "replace": "sitively impish. But she has nev",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1902-03-0002",
+      "page": 26,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "ove to Cetinale,6",
+      "replace": "ove to Cetinale, 6",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1902-03-0003",
+      "page": 93,
+      "note": "missing space after '.' (AUTO)",
+      "find": "[p093.b] [an index to",
+      "replace": "[p093. b] [an index to",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1902-03-0004",
+      "page": 117,
+      "note": "missing space after '.' (AUTO)",
+      "find": "Trevys off. Mrs.Trevy is really",
+      "replace": "Trevys off. Mrs. Trevy is really",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1902-03-0005",
+      "page": 185,
+      "note": "missing space after '.' (AUTO)",
+      "find": "March  29. 1903.Pamina24!",
+      "replace": "March  29. 1903. Pamina24!",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1902-03-0006",
+      "page": 208,
+      "note": "missing space after '.' (AUTO)",
+      "find": "is very serious.Nice drive with",
+      "replace": "is very serious. Nice drive with",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1902-03-0007",
+      "page": 216,
+      "note": "missing space after '.' (AUTO)",
+      "find": "ay July 7. 1903.Hotel Caspar Ba",
+      "replace": "ay July 7. 1903. Hotel Caspar Ba",
+      "status": "APPLIED"
+    }
+  ]
+}

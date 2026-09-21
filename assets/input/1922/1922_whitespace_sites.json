@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ws-1922-0001",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 27,
+    "offset": 23,
+    "punct": ".",
+    "page": 27,
+    "left": "Nicky arrived at 5.30 a",
+    "right": "m! dear creature! B.B. an",
+    "find": "rived at 5.30 a.m! dear creatur",
+    "replace": "rived at 5.30 a. m! dear creatur",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  },
+  {
+    "id": "ws-1922-0002",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 112,
+    "offset": 33,
+    "punct": ".",
+    "page": 38,
+    "left": " a “beautiful thought,” i",
+    "right": "e that phallic worship an",
+    "find": "ful thought,” i.e that phallic ",
+    "replace": "ful thought,” i. e that phallic ",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  }
+]

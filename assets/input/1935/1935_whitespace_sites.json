@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ws-1935-0001",
+    "class": "AUTO",
+    "apply": true,
+    "reason": null,
+    "paragraph_index": 1268,
+    "offset": 62,
+    "punct": ",",
+    "page": 140,
+    "left": "is able and keen and kind",
+    "right": "but was poweringly egoist",
+    "find": "d keen and kind,but was powerin",
+    "replace": "d keen and kind, but was powerin",
+    "note": "missing space after ',' (AUTO)"
+  },
+  {
+    "id": "ws-1935-0002",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 2768,
+    "offset": 6,
+    "punct": ".",
+    "page": 385,
+    "left": "Lucy P",
+    "right": "Servants",
+    "find": "Lucy P.Servants",
+    "replace": "Lucy P. Servants",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  }
+]

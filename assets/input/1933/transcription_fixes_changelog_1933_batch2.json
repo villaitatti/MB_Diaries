@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-02T09:03:05.320849+00:00",
+  "docx": "assets/input/1933/1933.docx",
+  "fixes_file": "assets/input/1933/1933_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1933-0001",
+      "page": 170,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": " Went on with B.B’s Life.",
+      "replace": " Went on with B. B’s Life.",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

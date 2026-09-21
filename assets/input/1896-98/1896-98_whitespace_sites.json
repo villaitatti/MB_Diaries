@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ws-1896-98-0001",
+    "class": "AUTO",
+    "apply": true,
+    "reason": null,
+    "paragraph_index": 85,
+    "offset": 386,
+    "punct": ".",
+    "page": 17,
+    "left": "it was a foolish question",
+    "right": "I also asked why it was t",
+    "find": "oolish question.I also asked wh",
+    "replace": "oolish question. I also asked wh",
+    "note": "missing space after '.' (AUTO)"
+  },
+  {
+    "id": "ws-1896-98-0002",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 99,
+    "offset": 58,
+    "punct": ".",
+    "page": 22,
+    "left": "noon Bernhard went with M",
+    "right": "me de Montebello and her ",
+    "find": "ard went with M.me de Montebell",
+    "replace": "ard went with M. me de Montebell",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  },
+  {
+    "id": "ws-1896-98-0003",
+    "class": "AUTO",
+    "apply": true,
+    "reason": null,
+    "paragraph_index": 135,
+    "offset": 75,
+    "punct": ",",
+    "page": 34,
+    "left": " at the Villino Belvedere",
+    "right": "which they seemed almost ",
+    "find": "llino Belvedere,which they seem",
+    "replace": "llino Belvedere, which they seem",
+    "note": "missing space after ',' (AUTO)"
+  },
+  {
+    "id": "ws-1896-98-0004",
+    "class": "AUTO",
+    "apply": true,
+    "reason": null,
+    "paragraph_index": 252,
+    "offset": 168,
+    "punct": ".",
+    "page": 56,
+    "left": "bbia” - an enchanted spot",
+    "right": "Bernhard was much taken w",
+    "find": " enchanted spot.Bernhard was mu",
+    "replace": " enchanted spot. Bernhard was mu",
+    "note": "missing space after '.' (AUTO)"
+  }
+]

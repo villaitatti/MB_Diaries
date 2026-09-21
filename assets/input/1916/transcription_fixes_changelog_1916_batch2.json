@@ -1,0 +1,159 @@
+{
+  "generated_at": "2026-09-02T09:03:03.256592+00:00",
+  "docx": "assets/input/1916/1916.docx",
+  "fixes_file": "assets/input/1916/1916_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1916-0001",
+      "page": 8,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "  B.B and Naima too",
+      "replace": "  B. B and Naima too",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0002",
+      "page": 10,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "  B.B and I alone ",
+      "replace": "  B. B and I alone ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0003",
+      "page": 14,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "ghetto, while B.B and Lina and ",
+      "replace": "ghetto, while B. B and Lina and ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0004",
+      "page": 14,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "  B.B wrote an arti",
+      "replace": "  B. B wrote an arti",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0005",
+      "page": 17,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": " What a bore. B.B drove and wal",
+      "replace": " What a bore. B. B drove and wal",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0006",
+      "page": 17,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "ed to pick up B.B and say goodb",
+      "replace": "ed to pick up B. B and say goodb",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0007",
+      "page": 19,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "and Geoffrey, B.B and Sybil. ",
+      "replace": "and Geoffrey, B. B and Sybil. ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0008",
+      "page": 19,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "to prove that B.B was quite wro",
+      "replace": "to prove that B. B was quite wro",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0009",
+      "page": 21,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "ful walk with B.B, back from “T",
+      "replace": "ful walk with B. B, back from “T",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0010",
+      "page": 67,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "ome about 6.  B.B arrived an ho",
+      "replace": "ome about 6.  B. B arrived an ho",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0011",
+      "page": 68,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "  B.B perfectly cha",
+      "replace": "  B. B perfectly cha",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0012",
+      "page": 70,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "d a walk with B.B in the laghet",
+      "replace": "d a walk with B. B in the laghet",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0013",
+      "page": 72,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": ". Argued with B.B about Miss Be",
+      "replace": ". Argued with B. B about Miss Be",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0014",
+      "page": 77,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "  B.B and I cried l",
+      "replace": "  B. B and I cried l",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0015",
+      "page": 81,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "  B.B and I walked ",
+      "replace": "  B. B and I walked ",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0016",
+      "page": 85,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "G.S:",
+      "replace": "G. S:",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0017",
+      "page": 139,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "Thursday, June,1, 1916, Naples",
+      "replace": "Thursday, June, 1, 1916, Naples",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1916-0018",
+      "page": 154,
+      "note": "missing space after '.' (AUTO)",
+      "find": "ital in Belgium.She was most in",
+      "replace": "ital in Belgium. She was most in",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1916-0019",
+      "page": 166,
+      "note": "missing space after '.' (AUTO)",
+      "find": " who came later.Geoffrey seems ",
+      "replace": " who came later. Geoffrey seems ",
+      "status": "APPLIED"
+    }
+  ]
+}

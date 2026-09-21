@@ -1,3 +1,4 @@
+import html
 import os
 import pandas as pd
 import re
@@ -13,9 +14,8 @@ def create_dir(dir_path):
 def write_file(filename, body):
 
   create_dir(os.path.dirname(os.path.abspath(filename)))
-  with open(filename, 'w') as f:
+  with open(filename, 'w', encoding='utf-8') as f:
     f.write(body)
-    f.close()
 
 
 def write_csv(filename, body, header):
@@ -56,6 +56,35 @@ def write_pages(output_path, pages):
   return pages
 
 
+_FORMATTED_TYPES = (const.KEY_BOLD, const.KEY_ITALIC,
+                     const.KEY_UNDERLINE, const.KEY_STRIKE)
+
+
+def _merge_whitespace_between_same_tags(runs):
+  # A plain whitespace-only run sandwiched between two runs of the same
+  # formatting type (e.g. <u>Hamel</u> <u>Jacques,</u>) would otherwise
+  # render with an unstyled gap between the tags. Absorb the whitespace into
+  # the surrounding tag instead, so the run of formatting stays continuous.
+  runs = [dict(run) for run in runs]
+  changed = True
+  while changed:
+    changed = False
+    for i in range(len(runs) - 2):
+      before, gap, after = runs[i], runs[i + 1], runs[i + 2]
+      if (before[const.KEY_TYPE] == after[const.KEY_TYPE]
+              and before[const.KEY_TYPE] in _FORMATTED_TYPES
+              and gap[const.KEY_TYPE] == const.KEY_TEXT
+              and gap[const.KEY_VALUE].strip() == ''):
+        merged_run = {
+            const.KEY_VALUE: before[const.KEY_VALUE] + gap[const.KEY_VALUE] + after[const.KEY_VALUE],
+            const.KEY_TYPE: before[const.KEY_TYPE],
+        }
+        runs = runs[:i] + [merged_run] + runs[i + 3:]
+        changed = True
+        break
+  return runs
+
+
 def write_pages_html(output_path, pages, diary, app_path=None):
 
   for key, page in pages.items():
@@ -63,31 +92,33 @@ def write_pages_html(output_path, pages, diary, app_path=None):
 
       body = ''
       for line in page[const.key_paragraphs]:
-        # Join runs with a single space, mirroring how KEY_TEXT is built
-        # (whitespace-only docx runs are dropped during extraction).
         run_fragments = []
-        for run in line[const.KEY_RUNS]:
+        for run in _merge_whitespace_between_same_tags(line[const.KEY_RUNS]):
+          # quote=False: only escape &, <, > -- the text-node-safe subset.
+          # Quotes are legal (and common) in running prose and don't need
+          # &quot;/&#x27; here.
+          value = html.escape(run[const.KEY_VALUE], quote=False)
           if run[const.KEY_TYPE] == const.KEY_BOLD:
-            run_fragments.append(f'<b>{run[const.KEY_VALUE]}</b>')
+            run_fragments.append(f'<b>{value}</b>')
           elif run[const.KEY_TYPE] == const.KEY_ITALIC:
-            run_fragments.append(f'<i>{run[const.KEY_VALUE]}</i>')
+            run_fragments.append(f'<i>{value}</i>')
           elif run[const.KEY_TYPE] == const.KEY_UNDERLINE:
-            run_fragments.append(f'<u>{run[const.KEY_VALUE]}</u>')
+            run_fragments.append(f'<u>{value}</u>')
           else:
-            run_fragments.append(run[const.KEY_VALUE])
+            run_fragments.append(value)
 
         body += '\n\t\t<p>' + ''.join(run_fragments).strip() + '</p>'
 
-      html = f'<html>\n\t<body>{body}\n\t</body>\n</html>'
+      page_html = f'<html>\n\t<body>{body}\n\t</body>\n</html>'
 
       write_file(os.path.join(output_path, 'html',
-                 f'{diary}_{key}.html'), html)
+                 f'{diary}_{key}.html'), page_html)
 
       if app_path:
         file_path = os.path.join(app_path, 'file', f'{diary}_{key}.html')
         try:
           if os.path.exists(file_path):
             os.remove(os.path.join(file_path))
-          write_file(file_path, html)
+          write_file(file_path, page_html)
         except Exception as e:
           print(e)

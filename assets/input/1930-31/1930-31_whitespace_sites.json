@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ws-1930-31-0001",
+    "class": "AUTO",
+    "apply": true,
+    "reason": null,
+    "paragraph_index": 240,
+    "offset": 334,
+    "punct": ",",
+    "page": 20,
+    "left": "schkine and Baron Stiebel",
+    "right": "Vavalà, Hammer and Kaufma",
+    "find": "d Baron Stiebel,Vavalà, Hammer ",
+    "replace": "d Baron Stiebel, Vavalà, Hammer ",
+    "note": "missing space after ',' (AUTO)"
+  },
+  {
+    "id": "ws-1930-31-0002",
+    "class": "REVIEW_DIGIT",
+    "apply": false,
+    "reason": "a digit follows the punctuation",
+    "paragraph_index": 269,
+    "offset": 8,
+    "punct": ",",
+    "page": 21,
+    "left": "December",
+    "right": "1930",
+    "find": "December,1930",
+    "replace": "December, 1930",
+    "note": "missing space after ',' (REVIEW_DIGIT)"
+  }
+]

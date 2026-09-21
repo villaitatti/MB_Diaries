@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ws-1933-0001",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 1595,
+    "offset": 265,
+    "punct": ".",
+    "page": 170,
+    "left": "or things. Went on with B",
+    "right": "B’s Life.",
+    "find": " Went on with B.B’s Life.",
+    "replace": " Went on with B. B’s Life.",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  }
+]

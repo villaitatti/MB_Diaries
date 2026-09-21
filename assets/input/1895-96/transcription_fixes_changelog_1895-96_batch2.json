@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-09-02T09:02:58.646806+00:00",
+  "docx": "assets/input/1895-96/1895-96.docx",
+  "fixes_file": "assets/input/1895-96/1895-96_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1895-96-0001",
+      "page": 114,
+      "note": "missing space after '.' (AUTO)",
+      "find": " the whole walk.In the evening ",
+      "replace": " the whole walk. In the evening ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1895-96-0003",
+      "page": 115,
+      "note": "missing space after ',' (AUTO)",
+      "find": "rs from Evalyne,Janet and Miss ",
+      "replace": "rs from Evalyne, Janet and Miss ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1895-96-0002",
+      "page": 115,
+      "note": "missing space after '.' (AUTO)",
+      "find": "more enchanting.Bernhard and Za",
+      "replace": "more enchanting. Bernhard and Za",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1895-96-0004",
+      "page": 120,
+      "note": "missing space after '.' (AUTO)",
+      "find": "ood for nothing.Lay in the pode",
+      "replace": "ood for nothing. Lay in the pode",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1895-96-0005",
+      "page": 130,
+      "note": "missing space after '!' (AUTO)",
+      "find": "sia Gentileschi!I read a novel ",
+      "replace": "sia Gentileschi! I read a novel ",
+      "status": "APPLIED"
+    }
+  ]
+}

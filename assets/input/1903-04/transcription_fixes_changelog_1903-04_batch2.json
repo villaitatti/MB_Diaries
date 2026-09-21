@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-09-02T09:03:00.537424+00:00",
+  "docx": "assets/input/1903-04/1903-04.docx",
+  "fixes_file": "assets/input/1903-04/1903-04_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1903-04-0001",
+      "page": 6,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": " Wednesday Sept.30. 1903",
+      "replace": " Wednesday Sept. 30. 1903",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1903-04-0002",
+      "page": 13,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "nd Sophy Buffum,3 my old friend",
+      "replace": "nd Sophy Buffum, 3 my old friend",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1903-04-0003",
+      "page": 62,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": "bed to Ririomon.24 They surpass",
+      "replace": "bed to Ririomon. 24 They surpass",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1903-04-0004",
+      "page": 144,
+      "note": "missing space after '.' (AUTO)",
+      "find": "llection of Mrs.Cyrus H. McCorm",
+      "replace": "llection of Mrs. Cyrus H. McCorm",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1903-04-0005",
+      "page": 185,
+      "note": "missing space after '.' (AUTO)",
+      "find": "ortons, Warrens.We came out and",
+      "replace": "ortons, Warrens. We came out and",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1903-04-0006",
+      "page": 186,
+      "note": "missing space after ',' (AUTO)",
+      "find": "eally agreeable,and she made us",
+      "replace": "eally agreeable, and she made us",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1903-04-0007",
+      "page": 189,
+      "note": "missing space after ',' (AUTO)",
+      "find": "r drove us back,and gave us a c",
+      "replace": "r drove us back, and gave us a c",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1903-04-0008",
+      "page": 192,
+      "note": "missing space after '.' (AUTO)",
+      "find": "ch 3. 04. Plaza.York. ",
+      "replace": "ch 3. 04. Plaza. York. ",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1903-04-0009",
+      "page": 198,
+      "note": "missing space after ',' (REVIEW_DIGIT)",
+      "find": "th German Lloyd,61 Monday March",
+      "replace": "th German Lloyd, 61 Monday March",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1903-04-0010",
+      "page": 199,
+      "note": "missing space after '.' (REVIEW_DIGIT)",
+      "find": " Winnie Buckley.62",
+      "replace": " Winnie Buckley. 62",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

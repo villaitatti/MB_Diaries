@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-02T09:03:02.857069+00:00",
+  "docx": "assets/input/1915/1915.docx",
+  "fixes_file": "assets/input/1915/1915_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1915-0001",
+      "page": 40,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "the afternoon B.B, and Naima ha",
+      "replace": "the afternoon B. B, and Naima ha",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1915-0002",
+      "page": 281,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "ot in at 3.30 a.m!",
+      "replace": "ot in at 3.30 a. m!",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1915-0003",
+      "page": 298,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": ", and such D. T.s that 2 men co",
+      "replace": ", and such D. T. s that 2 men co",
+      "status": "SKIPPED_REVIEW"
+    }
+  ]
+}

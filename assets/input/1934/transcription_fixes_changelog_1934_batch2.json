@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-09-02T09:03:05.659795+00:00",
+  "docx": "assets/input/1934/1934.docx",
+  "fixes_file": "assets/input/1934/1934_whitespace_sites.json",
+  "results": [
+    {
+      "id": "ws-1934-0001",
+      "page": 24,
+      "note": "missing space after '.' (REVIEW_INITIAL)",
+      "find": "Placci and C.sa Gravina came",
+      "replace": "Placci and C. sa Gravina came",
+      "status": "SKIPPED_REVIEW"
+    },
+    {
+      "id": "ws-1934-0002",
+      "page": 95,
+      "note": "missing space after ',' (AUTO)",
+      "find": "[095] Monday,March 19, 1934",
+      "replace": "[095] Monday, March 19, 1934",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1934-0004",
+      "page": 131,
+      "note": "missing space after '.' (AUTO)",
+      "find": "tucchi to lunch.She did not tak",
+      "replace": "tucchi to lunch. She did not tak",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1934-0003",
+      "page": 131,
+      "note": "missing space after '.' (AUTO)",
+      "find": "a, bringing Sig.ra Stucchi to l",
+      "replace": "a, bringing Sig. ra Stucchi to l",
+      "status": "APPLIED"
+    },
+    {
+      "id": "ws-1934-0005",
+      "page": 187,
+      "note": "missing space after '.' (AUTO)",
+      "find": "Cooler.Rain",
+      "replace": "Cooler. Rain",
+      "status": "APPLIED"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "ws-1936-0001",
+    "class": "REVIEW_INITIAL",
+    "apply": false,
+    "reason": "left-hand token looks like an initial or abbreviation",
+    "paragraph_index": 1432,
+    "offset": 53,
+    "punct": ".",
+    "page": 275,
+    "left": ", 16 Fitzharding Street W",
+    "right": "I",
+    "find": "arding Street W.I",
+    "replace": "arding Street W. I",
+    "note": "missing space after '.' (REVIEW_INITIAL)"
+  }
+]
