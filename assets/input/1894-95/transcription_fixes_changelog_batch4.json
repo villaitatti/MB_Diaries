@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-09-21T12:56:02.689751+00:00",
+  "docx": "assets/input/1894-95/1894-95.docx",
+  "fixes_file": "assets/input/1894-95/1894-95_fixes_batch4.json",
+  "results": [
+    {
+      "id": "1894-95-b4-01",
+      "page": 28,
+      "note": "misspelling of poet Francis Thompson (re-appeared after online re-download)",
+      "find": "we read Francis Thomson’s poems.",
+      "replace": "we read Francis Thompson’s poems.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b4-02",
+      "page": 31,
+      "note": "misspelling of poet Francis Thompson, second occurrence introduced by the online update",
+      "find": "read Francis Thomson’s poems with Mr. Hamilton",
+      "replace": "read Francis Thompson’s poems with Mr. Hamilton",
+      "status": "APPLIED"
+    }
+  ]
+}

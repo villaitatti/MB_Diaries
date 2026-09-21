@@ -172,3 +172,8 @@ KEY_START_POSITION = 'start_position'
 KEY_END_POSITION = 'end_position'
 
 regex_page_pattern = r'\[p?\d+[^\]]*\]'
+
+# Transcriber's editorial notes about the physical manuscript page (e.g.
+# "{written vertically halfway down the left margin}") -- not diary prose,
+# stripped entirely from the rendered output.
+regex_annotation_pattern = r'\{[^}]*\}'

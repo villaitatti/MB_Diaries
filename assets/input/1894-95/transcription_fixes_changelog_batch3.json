@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-09-21T11:55:18.651544+00:00",
+  "docx": "assets/input/1894-95/1894-95.docx",
+  "fixes_file": "assets/input/1894-95/1894-95_fixes_batch3.json",
+  "results": [
+    {
+      "id": "1894-95-b3-01",
+      "page": 28,
+      "note": "misspelling of poet Francis Thompson",
+      "find": "read Francis Thomson's poems",
+      "replace": "read Francis Thompson's poems",
+      "status": "NOT_FOUND"
+    },
+    {
+      "id": "1894-95-b3-02",
+      "page": 9,
+      "note": "orphan day-name duplicated before the next paragraph's date-header",
+      "find": "talked in the evening. Saturday,",
+      "replace": "talked in the evening.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b3-03",
+      "page": 20,
+      "note": "closes the unclosed {...} editorial annotation about marks on the manuscript page",
+      "find": "crossed out. [021]",
+      "replace": "crossed out.} [021]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b3-04",
+      "page": 28,
+      "note": "missing space after closing parenthesis before \"and\"",
+      "find": "(Laugel)and I read",
+      "replace": "(Laugel) and I read",
+      "status": "APPLIED"
+    }
+  ]
+}

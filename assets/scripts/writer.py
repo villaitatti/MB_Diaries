@@ -56,8 +56,12 @@ def write_pages(output_path, pages):
   return pages
 
 
-_FORMATTED_TYPES = (const.KEY_BOLD, const.KEY_ITALIC,
-                     const.KEY_UNDERLINE, const.KEY_STRIKE)
+_TAG_BY_TYPE = {
+    const.KEY_BOLD: 'b',
+    const.KEY_ITALIC: 'i',
+    const.KEY_UNDERLINE: 'u',
+    const.KEY_STRIKE: 's',
+}
 
 
 def _merge_whitespace_between_same_tags(runs):
@@ -72,8 +76,8 @@ def _merge_whitespace_between_same_tags(runs):
     for i in range(len(runs) - 2):
       before, gap, after = runs[i], runs[i + 1], runs[i + 2]
       if (before[const.KEY_TYPE] == after[const.KEY_TYPE]
-              and before[const.KEY_TYPE] in _FORMATTED_TYPES
-              and gap[const.KEY_TYPE] == const.KEY_TEXT
+              and before[const.KEY_TYPE]
+              and not gap[const.KEY_TYPE]
               and gap[const.KEY_VALUE].strip() == ''):
         merged_run = {
             const.KEY_VALUE: before[const.KEY_VALUE] + gap[const.KEY_VALUE] + after[const.KEY_VALUE],
@@ -98,14 +102,10 @@ def write_pages_html(output_path, pages, diary, app_path=None):
           # Quotes are legal (and common) in running prose and don't need
           # &quot;/&#x27; here.
           value = html.escape(run[const.KEY_VALUE], quote=False)
-          if run[const.KEY_TYPE] == const.KEY_BOLD:
-            run_fragments.append(f'<b>{value}</b>')
-          elif run[const.KEY_TYPE] == const.KEY_ITALIC:
-            run_fragments.append(f'<i>{value}</i>')
-          elif run[const.KEY_TYPE] == const.KEY_UNDERLINE:
-            run_fragments.append(f'<u>{value}</u>')
-          else:
-            run_fragments.append(value)
+          for flag in run[const.KEY_TYPE]:
+            tag = _TAG_BY_TYPE[flag]
+            value = f'<{tag}>{value}</{tag}>'
+          run_fragments.append(value)
 
         body += '\n\t\t<p>' + ''.join(run_fragments).strip() + '</p>'
 

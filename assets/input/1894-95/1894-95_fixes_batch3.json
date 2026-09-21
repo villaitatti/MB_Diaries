@@ -1,0 +1,6 @@
+[
+  {"id": "1894-95-b3-01", "page": 28, "note": "misspelling of poet Francis Thompson", "find": "read Francis Thomson’s poems", "replace": "read Francis Thompson’s poems"},
+  {"id": "1894-95-b3-02", "page": 9, "note": "orphan day-name duplicated before the next paragraph's date-header", "find": "talked in the evening. Saturday,", "replace": "talked in the evening."},
+  {"id": "1894-95-b3-03", "page": 20, "note": "closes the unclosed {...} editorial annotation about marks on the manuscript page", "find": "crossed out. [021]", "replace": "crossed out.} [021]"},
+  {"id": "1894-95-b3-04", "page": 28, "note": "missing space after closing parenthesis before \"and\"", "find": "(Laugel)and I read", "replace": "(Laugel) and I read"}
+]

@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-09-21T11:55:36.741518+00:00",
+  "docx": "assets/input/1894-95/1894-95.docx",
+  "fixes_file": "assets/input/1894-95/1894-95_fixes_batch3b.json",
+  "results": [
+    {
+      "id": "1894-95-b3-01",
+      "page": 28,
+      "note": "misspelling of poet Francis Thompson (curly apostrophe)",
+      "find": "read Francis Thomson’s poems",
+      "replace": "read Francis Thompson’s poems",
+      "status": "APPLIED"
+    }
+  ]
+}

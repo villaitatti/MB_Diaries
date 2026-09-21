@@ -25,7 +25,10 @@ Concessions (documented, not hidden): the per-paragraph `.strip()`, the
 `'\\n'`-join between paragraphs, and whitespace immediately adjacent to a
 bracketed marker are all structurally insignificant (markers are promoted to
 paragraph/page boundaries by the pipeline) -- none of that counts as
-"inventing whitespace". Content before a diary's first page marker (front
+"inventing whitespace". {...} editorial annotations (transcriber's notes
+about the physical manuscript page) are stripped from the source side too,
+matching the pipeline's own _strip_annotations. Content before a diary's
+first page marker (front
 matter -- title pages, etc.) is dropped by the pipeline; each diary's exact
 front-matter text is pinned in output_verification_exceptions.json and
 reported as an accepted exception, not silently ignored -- a change in that
@@ -48,7 +51,7 @@ from assets.scripts import const
 
 MARKER_PATTERN = re.compile(const.regex_page_pattern)
 DIGIT_PATTERN = re.compile(r'\d+')
-KNOWN_TAGS = re.compile(r'</?(?:html|body|p|b|i|u)>')
+KNOWN_TAGS = re.compile(r'</?(?:html|body|p|b|i|u|s)>')
 WHITESPACE = re.compile(r'\s+')
 
 EXCEPTIONS_PATH = os.path.join(os.path.dirname(__file__), 'output_verification_exceptions.json')
@@ -93,6 +96,15 @@ def build_source_pages(docx_path, page_pattern):
 
   for paragraph in document.paragraphs:
     raw_text = ''.join(run.text for run in paragraph.runs)
+    if not raw_text:
+      continue
+
+    # {...} editorial annotations (transcriber's notes about the physical
+    # page, e.g. "{written vertically...}") are stripped by the pipeline
+    # itself (script.py's _strip_annotations) before markers are ever
+    # detected -- mirror that here so a diary using this convention doesn't
+    # show up as a false CHECK A mismatch.
+    raw_text = re.sub(const.regex_annotation_pattern, '', raw_text, flags=re.DOTALL)
     if not raw_text:
       continue
 

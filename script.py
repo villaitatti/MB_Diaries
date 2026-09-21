@@ -36,6 +36,45 @@ def download_google_doc(file_id, output_path):
     print(f'Failed to download document. Status code: {response.status_code}')
 
 
+def _strip_annotations(runs):
+  """
+  Remove {...} editorial annotations (transcriber's notes about the physical
+  manuscript page, e.g. "{written vertically halfway down the left margin}")
+  from a paragraph's runs entirely -- they describe the page, they are not
+  diary prose, and must not reach the rendered output. Matched against the
+  paragraph's whole concatenated run text, same as page markers, so an
+  annotation split across multiple runs is still caught and fully removed.
+  """
+  full_text = ''.join(run[const.KEY_VALUE] for run in runs)
+  matches = list(re.finditer(const.regex_annotation_pattern, full_text, flags=re.DOTALL))
+  if not matches:
+    return runs
+
+  def _kept_slices(start, end):
+    slices = []
+    pos = 0
+    for run in runs:
+      run_text = run[const.KEY_VALUE]
+      run_start, run_end = pos, pos + len(run_text)
+      pos = run_end
+      seg_start, seg_end = max(start, run_start), min(end, run_end)
+      if seg_start < seg_end:
+        sliced_text = run_text[seg_start - run_start: seg_end - run_start]
+        if sliced_text:
+          new_run = run.copy()
+          new_run[const.KEY_VALUE] = sliced_text
+          slices.append(new_run)
+    return slices
+
+  new_runs = []
+  pos = 0
+  for match in matches:
+    new_runs += _kept_slices(pos, match.start())
+    pos = match.end()
+  new_runs += _kept_slices(pos, len(full_text))
+  return new_runs
+
+
 def _clean_vectors(vectors, regex=None):
   """
   Clean vectors by extracting page markers into separate objects.
@@ -110,7 +149,7 @@ def _clean_vectors(vectors, regex=None):
 
   for vector in vectors[const.key_document]:
     new_vector = {}
-    runs = vector[const.KEY_RUNS]
+    runs = _strip_annotations(vector[const.KEY_RUNS])
 
     # Detect page markers against the whole paragraph's concatenated text,
     # not run-by-run: a marker can be split across multiple runs. Only keep

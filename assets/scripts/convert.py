@@ -92,15 +92,19 @@ def _extract_run(run, start_position):
 
 
 def _get_run_type(run):
+  # A run can carry several of these simultaneously (e.g. bold+underline on
+  # a date line) -- detect each flag independently instead of picking just
+  # one, so none of them get silently discarded.
+  flags = []
   if run.bold:
-    return const.KEY_BOLD
-  elif run.italic:
-    return const.KEY_ITALIC
-  elif run.underline:
-    return const.KEY_UNDERLINE
-  elif run.font.strike:
-    return const.KEY_STRIKE
-  return const.KEY_TEXT
+    flags.append(const.KEY_BOLD)
+  if run.italic:
+    flags.append(const.KEY_ITALIC)
+  if run.underline:
+    flags.append(const.KEY_UNDERLINE)
+  if run.font.strike:
+    flags.append(const.KEY_STRIKE)
+  return tuple(flags)
 
 
 def extract_paragraphs(docx_path):
