@@ -731,11 +731,19 @@ def parse_metadata(pages, diary, output_path, limit=-1):
     50 years of *today*, giving 1995. When the source text spells no 4-digit
     year, re-read the two digits as the one year in the diary's period that
     ends with them.
+
+    Only the diary's own period (+/-1 year, for entries that run past the
+    turn of a volume) grants that reinterpretation. Two digits lying further
+    afield are not a year we have any business rewriting: under fuzzy
+    parsing they are usually not a year at all but a time or a day range
+    that dateutil read as one -- "massage 8-8:30" as 2030-08-08, "August
+    11-12" as 2012. Left alone, they stay out of period and the validator
+    below drops them, instead of being dressed up as a plausible date.
     """
     if re.search(r'\d{4}', date_text):
       return parsed_date
     start_year, end_year = diary_year_range(diary_name)
-    for candidate in range(start_year - 5, end_year + 6):
+    for candidate in range(start_year - 1, end_year + 2):
       if candidate % 100 == parsed_date.year % 100:
         try:
           return parsed_date.replace(year=candidate)
