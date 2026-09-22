@@ -1,0 +1,7 @@
+[
+  {"id": "1894-95-b5-s1", "page": 62, "note": "stray editorial date line that is not on the manuscript page; removed on review", "op": "delete_paragraph", "text": "[London. Thursday. August 23. 1894]"},
+  {"id": "1894-95-b5-s2", "page": 106, "note": "spurious paragraph break after \"Read Evan Harrington.\" - the manuscript runs straight on", "op": "join_next", "anchor": "Went in with Fafner and saw the Academy"},
+  {"id": "1894-95-b5-s3", "page": 173, "note": "spurious paragraph break after \"George Pellew,\" - the quotation runs straight on", "op": "join_next", "anchor": "believing themselves to be George Pellew,"},
+  {"id": "1894-95-b5-s4", "page": 190, "note": "spurious paragraph break after \"Le Vergini delle Rocce,\" - the sentence runs straight on into \"etc. in the morning.\"", "op": "join_next", "anchor": "Bernhard began his article on Italian pictures in America"},
+  {"id": "1894-95-b5-s5", "page": 178, "note": "\"Flaubert’\" wrongly carries italic + underline; the title that follows is the part meant to be underlined", "op": "clear_format", "context": "awfully witty", "target": "Flaubert’", "remove": ["italic", "underline"]}
+]

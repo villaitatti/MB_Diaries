@@ -1,0 +1,4 @@
+[
+  {"id": "1894-95-b5-01", "page": 141, "note": "page marker 142 lost its opening bracket, so page 142 was never split off and its text ran on inside page 141", "find": "0142]", "replace": "[142]"},
+  {"id": "1894-95-b5-02", "page": 218, "note": "page marker 218 has a space inside the brackets, so it never matched and page 218 was never created (its text was absorbed by page 217)", "find": "[ 218]", "replace": "[218]"}
+]

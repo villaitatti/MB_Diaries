@@ -45,6 +45,8 @@
         "1894-1895",
         "-i",
         "2",
+        "-r",
+        "\\[0*\\d{3}\\]",
         "-gdoc",
         "1MV4eYJIirkq4wKPp1FGDdpzzlx-EylpU"
       ]

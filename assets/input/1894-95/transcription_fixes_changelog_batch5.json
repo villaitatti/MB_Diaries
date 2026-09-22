@@ -1,0 +1,79 @@
+{
+  "generated_at": "2026-09-22T14:55:51.414026+00:00",
+  "docx": "assets/input/1894-95/1894-95.docx",
+  "fixes_file": "assets/input/1894-95/1894-95_fixes_batch5.json",
+  "results": [
+    {
+      "id": "1894-95-b5-01",
+      "page": 141,
+      "note": "page marker 142 lost its opening bracket, so page 142 was never split off and its text ran on inside page 141",
+      "find": "0142]",
+      "replace": "[142]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b5-02",
+      "page": 218,
+      "note": "page marker 218 has a space inside the brackets, so it never matched and page 218 was never created (its text was absorbed by page 217)",
+      "find": "[ 218]",
+      "replace": "[218]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b5-u1",
+      "page": 56,
+      "note": "diary-entry date header left un-underlined (all other date headers in this diary are underlined)",
+      "find": "Saturday, June 2, 1894, Florence",
+      "replace": "<underline>Saturday, June 2, 1894, Florence</underline>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b5-u2",
+      "page": 94,
+      "note": "diary-entry date header left un-underlined (all other date headers in this diary are underlined)",
+      "find": "Thursday, Jan. 31, 1895",
+      "replace": "<underline>Thursday, Jan. 31, 1895</underline>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b5-s1",
+      "page": 62,
+      "note": "stray editorial date line that is not on the manuscript page; removed on review",
+      "find": "[London. Thursday. August 23. 1894]",
+      "replace": "<paragraph removed>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b5-s2",
+      "page": 106,
+      "note": "spurious paragraph break after \"Read Evan Harrington.\" - the manuscript runs straight on",
+      "find": "Went in with Fafner and saw the Academy",
+      "replace": "<join with next paragraph>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b5-s3",
+      "page": 173,
+      "note": "spurious paragraph break after \"George Pellew,\" - the quotation runs straight on",
+      "find": "believing themselves to be George Pellew,",
+      "replace": "<join with next paragraph>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b5-s4",
+      "page": 190,
+      "note": "spurious paragraph break after \"Le Vergini delle Rocce,\" - the sentence runs straight on into \"etc. in the morning.\"",
+      "find": "Bernhard began his article on Italian pictures in America",
+      "replace": "<join with next paragraph>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1894-95-b5-s5",
+      "page": 178,
+      "note": "\"Flaubert’\" wrongly carries italic + underline; the title that follows is the part meant to be underlined",
+      "find": "Flaubert’",
+      "replace": "<clear italic+underline>Flaubert’</clear>",
+      "status": "APPLIED"
+    }
+  ]
+}

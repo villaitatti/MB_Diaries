@@ -64,6 +64,40 @@ _TAG_BY_TYPE = {
 }
 
 
+def _lift_edge_whitespace_out_of_tags(runs):
+  # A run's own leading/trailing whitespace carries no formatting meaning, but
+  # keeping it inside the tag (e.g. "the<i> </i>studio", or
+  # "<u>Peghera</u><u> </u>(walking") makes the space disappear in viewers that
+  # drop whitespace-only inline elements -- which is exactly how
+  # "Began the one for thestudio" reached the published page. Emit that
+  # whitespace as plain text outside the tag instead. Only the tag boundaries
+  # move: the paragraph's character content is untouched.
+  lifted = []
+  for run in runs:
+    value = run[const.KEY_VALUE]
+    if not value:
+      # nothing to render -- an empty formatted run is just a stray tag pair
+      continue
+    if not run[const.KEY_TYPE] or value.strip() == value:
+      lifted.append(dict(run))
+      continue
+
+    core = value.strip()
+    if not core:
+      # whitespace-only formatted run: nothing left to format
+      lifted.append({const.KEY_VALUE: value, const.KEY_TYPE: ()})
+      continue
+
+    lead_len = len(value) - len(value.lstrip())
+    leading, trailing = value[:lead_len], value[lead_len + len(core):]
+    if leading:
+      lifted.append({const.KEY_VALUE: leading, const.KEY_TYPE: ()})
+    lifted.append(dict(run, **{const.KEY_VALUE: core}))
+    if trailing:
+      lifted.append({const.KEY_VALUE: trailing, const.KEY_TYPE: ()})
+  return lifted
+
+
 def _merge_whitespace_between_same_tags(runs):
   # A plain whitespace-only run sandwiched between two runs of the same
   # formatting type (e.g. <u>Hamel</u> <u>Jacques,</u>) would otherwise
@@ -97,7 +131,8 @@ def write_pages_html(output_path, pages, diary, app_path=None):
       body = ''
       for line in page[const.key_paragraphs]:
         run_fragments = []
-        for run in _merge_whitespace_between_same_tags(line[const.KEY_RUNS]):
+        runs = _lift_edge_whitespace_out_of_tags(line[const.KEY_RUNS])
+        for run in _merge_whitespace_between_same_tags(runs):
           # quote=False: only escape &, <, > -- the text-node-safe subset.
           # Quotes are legal (and common) in running prose and don't need
           # &quot;/&#x27; here.
