@@ -1,6 +1,7 @@
 from collections import OrderedDict
 from spacy.lang.en import English
 import dateutil.parser
+import datetime
 import pandas as pd
 import logging
 import click
@@ -677,6 +678,72 @@ def parse_metadata(pages, diary, output_path, limit=-1):
       dict: Updated pages with metadata
   """
   
+  def diary_year_range(diary_name):
+    """
+    Return the (start_year, end_year) that a diary identifier stands for.
+
+    A 2-digit end year continues the start year's century: "1891-93" means
+    1891-1893, not 1891-1993. It only rolls into the next century when the
+    range would otherwise run backwards, as in "1899-02" (1899-1902).
+    """
+    if '-' in diary_name:
+      # Handle ranges like "1891-93", "1896-98"
+      start_year, end_year = diary_name.split('-')
+      start_year = int(start_year)
+      if len(end_year) == 2:
+        end_year = (start_year // 100) * 100 + int(end_year)
+        if end_year < start_year:
+          end_year += 100
+      else:
+        end_year = int(end_year)
+      return start_year, end_year
+
+    # Handle single years like "1935"
+    try:
+      return int(diary_name), int(diary_name)
+    except ValueError:
+      # If we can't parse the diary name, use a broad historical range
+      return 1850, 1950
+
+  def parse_complete_date(text):
+    """
+    Parse `text`, accepting only a date whose year, month and day all come
+    from the text itself.
+
+    dateutil fills in whatever the text omits from a default date -- today's,
+    unless told otherwise -- which is how the prose "all that 99 per cent of
+    even intelligent humanity" was published as the date 1999-09-22. Parsing
+    twice against two different defaults exposes the gaps: any field the text
+    does not supply comes back different between the two, and the date is
+    rejected rather than invented.
+    """
+    first = dateutil.parser.parse(
+        text, fuzzy=True, default=datetime.datetime(1111, 1, 1))
+    second = dateutil.parser.parse(
+        text, fuzzy=True, default=datetime.datetime(2222, 2, 2))
+    return first if first == second else None
+
+  def anchor_two_digit_year(parsed_date, date_text, diary_name):
+    """
+    Pull a 2-digit year back into the diary's own century.
+
+    "Saturday Oct. 19. 95" is 1895, but dateutil maps a 2-digit year to within
+    50 years of *today*, giving 1995. When the source text spells no 4-digit
+    year, re-read the two digits as the one year in the diary's period that
+    ends with them.
+    """
+    if re.search(r'\d{4}', date_text):
+      return parsed_date
+    start_year, end_year = diary_year_range(diary_name)
+    for candidate in range(start_year - 5, end_year + 6):
+      if candidate % 100 == parsed_date.year % 100:
+        try:
+          return parsed_date.replace(year=candidate)
+        except ValueError:
+          # Feb 29 in a non-leap year -- leave it for the validator to reject
+          return parsed_date
+    return parsed_date
+
   def is_valid_diary_date(parsed_date, diary_name):
     """
     Validate if a parsed date is reasonable for the given diary period.
@@ -688,31 +755,10 @@ def parse_metadata(pages, diary, output_path, limit=-1):
     Returns:
         bool: True if the date is valid for this diary period
     """
-    year = parsed_date.year
-    
-    # Extract expected year range from diary name
-    if '-' in diary_name:
-      # Handle ranges like "1891-93", "1896-98"
-      start_year, end_year = diary_name.split('-')
-      start_year = int(start_year)
-      # Handle 2-digit end years
-      if len(end_year) == 2:
-        if int(end_year) < 50:  # Assume 00-49 means 20xx, 50-99 means 19xx
-          end_year = int(f"20{end_year}")
-        else:
-          end_year = int(f"19{end_year}")
-      else:
-        end_year = int(end_year)
-    else:
-      # Handle single years like "1935"
-      try:
-        start_year = end_year = int(diary_name)
-      except ValueError:
-        # If we can't parse the diary name, use a broad historical range
-        start_year, end_year = 1850, 1950
-    
+    start_year, end_year = diary_year_range(diary_name)
+
     # Allow some flexibility (±5 years) for diary periods
-    return (start_year - 5) <= year <= (end_year + 5)
+    return (start_year - 5) <= parsed_date.year <= (end_year + 5)
   
   # Define comprehensive date patterns
   date_patterns = [
@@ -760,7 +806,11 @@ def parse_metadata(pages, diary, output_path, limit=-1):
         for date_text in dates_found:
           try:
             # Try to parse the date
-            parsed_date = dateutil.parser.parse(date_text, fuzzy=True)
+            parsed_date = parse_complete_date(date_text)
+            if parsed_date is None:
+              print(f"Rejected incomplete date for diary {diary} in page {page_number}: {date_text}")
+              continue
+            parsed_date = anchor_two_digit_year(parsed_date, date_text, diary)
             
             # Validate the date is reasonable for this diary
             if is_valid_diary_date(parsed_date, diary):
@@ -785,7 +835,11 @@ def parse_metadata(pages, diary, output_path, limit=-1):
     if not page_metadata:
       for paragraph in page[const.key_paragraphs]:
         try:
-          parsed_date = dateutil.parser.parse(paragraph[const.key_text], fuzzy=True)
+          paragraph_text = paragraph[const.key_text]
+          parsed_date = parse_complete_date(paragraph_text)
+          if parsed_date is None:
+            continue
+          parsed_date = anchor_two_digit_year(parsed_date, paragraph_text, diary)
           
           # Validate the date is reasonable for this diary
           if is_valid_diary_date(parsed_date, diary):
