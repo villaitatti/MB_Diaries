@@ -11,7 +11,7 @@ import requests
 from docx import Document
 
 from assets.scripts.convert import convert2vec
-from assets.scripts import writer, upload, const, rdf
+from assets.scripts import writer, upload, const, rdf, preprocess
 from assets.scripts.concatenate import concatenate_diary_pages
 
 # Set up logging
@@ -722,6 +722,9 @@ def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest, 
     # Download the Google Doc ID is provided
     if google_doc:
       download_google_doc(google_doc, docx_path)
+
+    # Manual interventions the transcribers did not make (idempotent)
+    preprocess.run(diary, docx_path)
     
     os.makedirs(output_path, exist_ok=True)
 
