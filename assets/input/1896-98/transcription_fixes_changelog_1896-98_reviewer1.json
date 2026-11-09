@@ -1,0 +1,191 @@
+{
+  "generated_at": "2026-10-01T08:50:17.826389+00:00",
+  "docx": "assets/input/1896-98/1896-98.docx",
+  "fixes_file": "/private/tmp/claude-502/-Users-gspinaci-projects-mb-diaries-MB-Diaries/bb845fdf-3d23-4581-acfb-c8509cb1a933/scratchpad/1896-98_fixes_reviewer1.json",
+  "results": [
+    {
+      "id": "page11-remove-underline-add-quotes",
+      "page": 11,
+      "note": "Reviewer: \"Central Italian Painters\" should be quoted (as in the manuscript), not underlined. Manuscript image (IIIF canvas seq.11, ms p.3) shows the title in double quotes, no underline.",
+      "find": "his Central Italian Painters in",
+      "replace": "his “Central Italian Painters” in",
+      "status": "APPLIED"
+    },
+    {
+      "id": "page22-date-swap-wed",
+      "page": 22,
+      "note": "Reviewer: bracketed/plain dates are swapped. Manuscript (IIIF canvas seq.14, ms p.14) literally reads 'Wednesday Nov. 10' -- the literal written date belongs in the plain text, the editorial correction in brackets.",
+      "find": "Wednesday Nov. 11 [written: 10]. 1896. Fiesole",
+      "replace": "Wednesday Nov. 10 [written: 11]. 1896. Fiesole",
+      "status": "APPLIED"
+    },
+    {
+      "id": "page23-date-swap-thu",
+      "page": 23,
+      "note": "Reviewer: bracketed/plain dates are swapped. Manuscript (IIIF canvas seq.16, ms p.16) literally reads 'Thursday Nov. 11'.",
+      "find": "Thursday, Nov. 12 [written: 11]. 1896, Fiesole",
+      "replace": "Thursday, Nov. 11 [written: 12]. 1896, Fiesole",
+      "status": "APPLIED"
+    },
+    {
+      "id": "page23-date-swap-fri",
+      "page": 23,
+      "note": "Reviewer: bracketed/plain dates are swapped. Manuscript (IIIF canvas seq.16, ms p.16) literally reads 'Friday Nov. 12'.",
+      "find": "Friday, Nov. 13 [written: 12]. 1896",
+      "replace": "Friday, Nov. 12 [written: 13]. 1896",
+      "status": "APPLIED"
+    },
+    {
+      "id": "marker-24",
+      "page": 24,
+      "note": "Malformed dual-number marker ('transcription-count/ms-page') not matched by the page regex, collapsing pages 24-30 into page 23. Corrected to the sequential transcription page number (confirmed against IIIF canvases seq.24-32).",
+      "find": "[0024/0026]",
+      "replace": "[0024]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "marker-25",
+      "page": 25,
+      "note": "Same malformed-marker issue as marker-24.",
+      "find": "[0025/0027]",
+      "replace": "[0025]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "marker-26",
+      "page": 26,
+      "note": "Same malformed-marker issue; second number (18) is the manuscript's own page number (ms p.18), confirmed via IIIF canvas seq.26.",
+      "find": "[0026 18]",
+      "replace": "[0026]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "marker-27",
+      "page": 27,
+      "note": "Transcriber's running count had drifted to 29/30 here; corrected to the true sequential number 27 (ms p.19, confirmed via IIIF canvas seq.27).",
+      "find": "[0029 19]",
+      "replace": "[0027]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "marker-28",
+      "page": 28,
+      "note": "Same drift as marker-27; corrected to 28 (ms p.20, confirmed via IIIF canvas seq.28).",
+      "find": "[0030 20]",
+      "replace": "[0028]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "marker-29",
+      "page": 29,
+      "note": "Pre-existing clean marker was mislabeled '31' due to the same drift; this content is ms p.21 (confirmed via IIIF canvas seq.29) and must be page 29 to keep page_number aligned with the IIIF canvas index used by rdf.py.",
+      "find": "[0031]",
+      "replace": "[0029]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "marker-30",
+      "page": 30,
+      "note": "Same drift as marker-29; this content is ms p.22 (Fri Nov.20/Sat Nov.21, confirmed via IIIF canvas seq.30) and must be page 30.",
+      "find": "[0032]",
+      "replace": "[0030]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "marker-31",
+      "page": 31,
+      "note": "Same drift; this content is ms p.23 (confirmed via IIIF canvas seq.31) and must be page 31 so the reviewer-reported seq.31/32 image mismatch resolves.",
+      "find": "[0034]",
+      "replace": "[0031]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "marker-32",
+      "page": 32,
+      "note": "Same drift; this content is ms p.24 (Mon Nov.23/Tue Nov.24, confirmed via IIIF canvas seq.32) and must be page 32.",
+      "find": "[0035]",
+      "replace": "[0032]",
+      "status": "APPLIED"
+    },
+    {
+      "id": "page16-underline-harmony-modelling",
+      "page": 16,
+      "note": "Reviewer: 'is like modelling' should be underlined. Manuscript image (IIIF canvas seq.16, ms p.8) shows 'harmony is like modelling' underlined; the run currently carries no formatting at all.",
+      "find": "harmony is like modelling",
+      "replace": "<underline>harmony is like modelling</underline>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "marker-31-32-correction-rotation",
+      "page": "31-33",
+      "note": "Correction to marker-31/marker-32 above: a pre-existing, untouched [0033] marker at docx paragraph 129 had been missed, making those two fixes off by one. Applied directly by paragraph index (not text find/replace, which would collide on intermediate duplicate marker text): paragraph 129 [0033]->[0031] (Duccio/Caves content, canvas seq.31), paragraph 132 [0031]->[0032] (Nov.23/24 content, canvas seq.32), paragraph 138 [0032]->[0033] (restores following span to page 33). Verified against regenerated pages.json.",
+      "status": "APPLIED",
+      "applied_at": "2026-10-01"
+    },
+    {
+      "id": "marker-34-through-60-drift-round2",
+      "page": "34-60",
+      "note": "User report: 'From sequence 33, there is friday 27 which should be in the next sequence... [0036 26] God couldn't be omnipotent should be checked.' Same transcription-count-drift pattern as the 24-32 fix, recurring starting right after page 33. Confirmed via IIIF canvases seq.34/35/57/58/59 (content-matched, not arithmetic on handwritten ms page numbers, which do not follow a simple offset in this manuscript). Applied as one atomic token-substitution pass per paragraph (avoids the sequential-replace cascade bug from the correction above): [0036 26]->[0034], [0037]->[0035], [0038]->[0036], [039]->[0037], [0040]->[0038], [0041]->[0039], [0042]->[0040], [0043]->[0041], [0044]->[0042], [0045]->[0043], [0046]->[0044], [0047]->[0045], [0048]->[0046], [0049]->[0047], [0050]->[0048], [0051]->[0049], [0052]->[0050], [0053]->[0051], [0054]->[0052], [0055]->[0053], [0056]->[0054], [0057]->[0055], [0058]->[0056], [0059]->[0057], [0061 51]->[0059] (second malformed marker, para 267), [0062]->[0060]. Verified against regenerated pages.json: page 34 starts 'God couldn't be omnipotent...', page 57 ends '...married to him)' matching canvas seq.57/58's content (including the faint 'Theatre / Alice Taylor / paradoxical / The Master' passage visible on canvas seq.58), page 59 'Monday Jan.25.97...', page 60 'Wednesday Jan.27.1897...'. verify_output_matches_source.py --diary 1896-98 passes (176 pages) after removing 2 stale gitignored output HTML files (1896-98_58.html, 1896-98_62.html) left from the pre-fix numbering. Pages 58, 61, 62 are now gaps: 58's content is captured inline within page 57's span (not data loss); 61/62 are a boundary artifact of stopping this fix at page 60, not new loss.",
+      "status": "APPLIED",
+      "applied_at": "2026-10-01"
+    },
+    {
+      "id": "underline-all-day-headers-round3",
+      "page": "all",
+      "note": "Reviewer images (e.g. IIIF canvas seq.59, ms p.51: 'Monday. Jan. 25.97. Fiesole') confirmed the manuscript consistently underlines the whole dateline (day name, date, and any place name) but none of the 247 date-header paragraphs in the docx carried underline formatting -- a systematic, diary-wide transcription gap, not isolated cases. Applied run.underline=True to all 247 day-header paragraphs (matched by a ^(weekday)[,.]?\\s+[A-Z] anchor, verified no false positives). 4 contain an editorial bracket note ([written: 11]/[written: 12]/[written: 13] from the Round-1 date-swap fix, plus a pre-existing [i.e. 20]) which is not manuscript handwriting, so each such run was split into before/bracket/after, underlining only before/after and leaving the bracket plain (reused fix_transcription_issues._split_run_around). 2 headers (para 814, 835) had harmless extra empty/whitespace runs; only the non-whitespace run was underlined. verify_output_matches_source.py --diary 1896-98 passes (176 pages, unaffected since underline is formatting-only); spot-checked rendered HTML for pages 15 and 22 confirms <u> wraps the header text and excludes the bracket note. --all still 25/25 PASS.",
+      "status": "APPLIED",
+      "applied_at": "2026-10-01"
+    },
+    {
+      "id": "underline-missed-headers-round4",
+      "page": "9, 10, 81, 189, 223, 251, 59, 282, 324, 346, 385, 399, 415, 449, 506, 523, 690, 751",
+      "note": "User report: page 9 had no underlined day header after Round 3. Round 3's weekday-first anchor missed 3 other dateline formats actually used in this docx: date-first ('Oct. 30, 1896. Friday. Villa Rosa Fiesole', 'April 14.97. Wednesday.'), asterisk-prefixed ('* Friday Nov. 6. 1896. Fiesole.', 11 instances -- split so only the dateline after '* ' is underlined, asterisk left plain), and marker-prefixed ('[0059] Monday Jan. 25.97. Fiesole', '[0142] Thursday Sept. 2. 1897...', '[0150 138] Saturday Oct. 30.97...' -- split excluding the page-marker bracket). A full re-scan (paragraphs <100 chars with a weekday name or month+digit, not yet underlined) found 24 candidates; 5 were transcriber's editorial notes about manuscript gaps (e.g. 'no entries after May 6 until May 27:') correctly left alone, 19 were genuine missed headers. One candidate, para 558 '[Thursday April 29. 1897.]', was deliberately left un-underlined: the entire dateline is inside brackets with nothing outside them (unlike the other bracket cases), suggesting an editorial reconstruction of a date missing/illegible in the manuscript (consistent with the surrounding 'entries for April 22-28 missing' / 'torn away' notes) rather than literal handwriting -- flagged for a human call if that reading is wrong. verify_output_matches_source.py --diary 1896-98 passes (176 pages); spot-checked pages 9, 10, 59, 143, 190 render <u> around the full dateline. --all still 25/25 PASS.",
+      "status": "APPLIED",
+      "applied_at": "2026-10-01"
+    },
+    {
+      "id": "marker-63-through-96-drift-round5",
+      "page": "61-94",
+      "note": "User report: 'The HTML files for sequences 61 and 62 are missing. 63 has the content that 61 should have.' Same -2 transcription-count drift as round2, continuing past the [0062]->[0060] stopping point into the next clean run of markers (paragraphs 277-443). Confirmed via pages.json before/after: page 60 contains both 'Wednesday Jan.27' and 'Thursday Jan.28' (no separate marker for the latter in the docx -- a pre-existing transcriber omission, same category as the already-accepted page-58 gap, not something invented here) and page 63 held the 'Friday Jan.29' content that should be page 61. Applied the same atomic single-pass token-substitution technique: [0063]->[0061], [0064]->[0062], [0065]->[0063], [0066]->[0064], [0067]->[0065], [0068]->[0066], [0069]->[0067], [0070]->[0068], [0071]->[0069], [0072]->[0070], [0073]->[0071], [0074]->[0072], [0075]->[0073], [0076]->[0074], [0077]->[0075], [0078]->[0076], [0079]->[0077], [0080]->[0078], [0081]->[0079], [0082]->[0080], [0083]->[0081], [0084]->[0082], [0085]->[0083], [0086]->[0084], [0087]->[0085], [0088]->[0086], [0089]->[0087], [0090]->[0088], [0091]->[0089], [0092]->[0090], [0093]->[0091], [0096]->[0094]. The original docx already skipped from [0093] straight to [0096] (no 094/095 markers existed before this fix either) -- a pre-existing 2-page gap, preserved as new pages 92/93, not newly introduced. Verified: pages.json page 61 now starts 'Friday Jan. 29. 1897.' (matching the user's report), page 62 'Monday Feb. 1. 1897.', page 63 'Wednesday Feb. 3. 1897.'. Deleted 3 stale gitignored orphan HTML files (1896-98_92/93/96.html) left from the pre-fix numbering, in both assets/output/1896-98/html/ and the apps/MB_Diaries-app/file/ mirror. verify_output_matches_source.py --diary 1896-98 passes (176 pages); --all still 25/25 PASS. Deliberately stopped again at the next malformed dual-number marker [0097 85] (para 447) -- same scoping precedent as round2's stop at [0061 51] -- since determining its correct value needs the same IIIF content-matching verification, not just arithmetic continuation of the -2 offset.",
+      "status": "APPLIED",
+      "applied_at": "2026-10-01"
+    },
+    {
+      "id": "marker-97-through-191-drift-round6",
+      "page": "95-189",
+      "note": "User report: 'sequence 94 contains \"[0097 85]\" but it should start sequence 95. from there the sync is wrong again.' A new -2 transcription-count drift begins exactly at the malformed dual-number marker [0097 85] (para 447) -- NOT a continuation of round5's offset, which had already reset to 0 at the native [0094] marker (para 443, left untouched: confirmed via IIIF canvas seq.94, ms p.'84', matching 'having formed the habit...Hugh Morgan' exactly). Full-document regex scan confirmed [0097 85], [0130 118], [0150 138] (plus an editorial-looking [0115 'Letter to Reinach']) are the only malformed digit-bracket markers anywhere in the 933-paragraph document; each was content-matched against its IIIF canvas and all four resolve to a single uniform -2 offset holding continuously from para 447 to the document's last marker [0191] (para 925): [0097 85]->[0095] (canvas seq.95, ms '85.'), [0098]->[0096] (canvas seq.96, ms '86.', 'religion for hours' content), [0099]->[0097] ... [0108]->[0106] (canvas seq.106, ms '96.', verified), ... [0115 'Letter to Reinach']->[0113] (canvas seq.113, ms '103.', literal 'Letter to Reinach' marginal annotation visible on the scan) ... [0130 118]->[0128] (canvas seq.128, ms '118') ... [0150 138]->[0148] (canvas seq.148, ms '138', 'Saturday Oct.30.97. Villa Rosa Fiesole' matching exactly) ... [0191]->[0189] (canvas seq.189, ms '179', 'Thursday Dec.23.97' / 'Friday Dec.24.97' matching exactly, confirming the offset holds uniformly to the end of the document, no further undetected drift). Applied as one atomic pass across paragraphs 447-925 (96 markers total, including the 4 malformed ones collapsed to single clean brackets; one marker, [0115 'Letter to Reinach'], was split across 4 runs in the source and was reassembled into a single '[0113]' token). A first attempt also shifted the native [0094] marker at para 443 by mistake (it precedes the malformed-marker drift and was already correct); caught via the same canvas seq.94 image check and reverted before regenerating output. Two pre-existing, out-of-scope irregularities surfaced by this same full-range scan and were left untouched (not part of this user report, no reviewer complaint): a duplicate marker (original [0142] appears twice at paras 688/690, and original [0171] appears twice within para 839, both already handled by the pipeline's existing duplicate-merge-and-log behavior, now shifted to [0140]/[0169] respectively) and a skipped marker (original sequence jumps 0173->0175 at para 840, skipping 174, now 0171->0173 skipping 172) -- see follow_up. Regenerated and verified: pages.json now has 180 pages (4-189), with pages 92/93 missing (two blank manuscript leaves, canvas seq.92/93 show only faint bleed-through, matching the pre-existing '94-95: two blank pages' editorial note at para 442), page 58 missing (pre-existing, already-confirmed blank leaf), and page 172 missing (pre-existing gap, see above) -- no other gaps. Deleted 4 stale gitignored orphan files per page (92, 172, 190, 191) from assets/output/1896-98/{html,txt,ttl/document} and the apps/MB_Diaries-app/file mirror, left over from the pre-fix numbering (old max page was 191, now 189). verify_output_matches_source.py --diary 1896-98 passes (180 pages); --all still 25/25 PASS.",
+      "status": "APPLIED",
+      "applied_at": "2026-10-01"
+    },
+    {
+      "id": "duplicate-marker-169-split-round7",
+      "page": "170-190",
+      "note": "User report: 'sequence 169 should end at \"For instance, I asked her whether it was\", while [...] should be in page 170. The other are out of sync.' This is exactly the duplicate-marker irregularity flagged as a follow-up at the end of Round 6: para 839 contains two separate marker occurrences that were both the same raw value (171 originally, rendered [0169] after Round 6's -2 shift), so the pipeline's duplicate-merge behavior concatenated both segments into one page (169) instead of splitting them. The second occurrence is a genuine transcription undercount (should have been 172, not a repeat of 171), not a real duplicate -- so this is a one-off +1 resync starting at that exact point, not a continuation of the uniform -2 pattern from Rounds 2/5/6. Fix: changed the second [0169] occurrence in para 839 (run 4, the one preceding 'not, as a matter of fact, possible to take in aesthetically...') to [0170], and shifted every subsequent marker by +1 through the end of the document (para 840's [0171]->[0172] ... para 925's [0189]->[0190]; 17 runs across paragraphs 840-925, plus the 2 edits inside para 839's run 4). Verified: pages.json page 169 now ends '...whether it was', page 170 starts 'not, as a matter of fact...the slightest\" - and this a question...', page 171 starts 'brain-exhaustion?\"\\nThen we had a lugubrious tea...' (matching the user's report exactly). pages.json now has 181 pages (4-190); the pre-existing unrelated gap (skipped marker, see Round 6 follow-up) shifted from page 172 to page 173 along with everything else, still present and still unexplained by any editorial note -- see updated follow_up. Deleted 1 stale gitignored orphan file per page (173) from assets/output/1896-98/{html,txt,ttl/document} and the apps/MB_Diaries-app/file mirror. verify_output_matches_source.py --diary 1896-98 passes (181 pages); --all still 25/25 PASS.",
+      "status": "APPLIED",
+      "applied_at": "2026-10-01"
+    },
+    {
+      "id": "skip-173-close-round8",
+      "page": "173-189",
+      "note": "User initially confirmed the page-173 gap as correct, then retracted that after checking the manuscript directly and reported: 'page 173 content is \"mourners, and a more cordial farewell to Miss Paget, we came away...\"' -- i.e. the gap was never legitimate; it was the tail end of the same drift pattern fixed in earlier rounds, just not caught by Round 7's image-verification spot checks. Confirmed via IIIF canvas content-matching: canvas seq.172 (ms '162') matches current page 172 exactly (no drift there), but canvas seq.173 (ms '163') matches the content then labeled page 174 ('mourners...deepened'), and canvas seq.174 (ms '164') matches the content then labeled page 175 ('Saturday Nov.27...Sunday Nov.28...'). So the marker that read [0174] in para 840 (right after the already-correct [0172]) was wrong -- it should never have skipped 173 -- and everything after it was off by +1 relative to its canvas. Fix: changed para 840's [0174] to [0173] (closing the gap entirely, no skip), then shifted every subsequent marker down by 1 through the end of the document: para 842 [0175]->[0174], para 849 [0176]->[0175], para 855 [0177]/[0178]->[0176]/[0177], para 855 [0179]->[0178], para 858 [0180]->[0179], para 869 [0181]->[0180], para 878 [0182]->[0181], para 888 [0183]->[0182], para 895 [0184]->[0183], para 901 [0185]->[0184], para 908 [0186]->[0185], para 910 [0187]->[0186], para 912 [0188]->[0187], para 916 [0189]->[0188], para 925 [0190]->[0189]. Net effect: the document's last page reverts from 190 back to 189, which re-matches the Round 6 end-of-document verification (canvas seq.189 / ms '179', 'Thursday Dec.23.97...rotten eggs...') that held before Round 7's duplicate-split +1 shift -- confirming Round 7's shift had introduced one too many pages overall, absorbed here by closing this gap instead of extending the tail. Verified: pages.json now has 181 pages (4-189, gap closed), page 173 starts 'mourners, and a more cordial farewell...', page 174 starts 'Saturday Nov. 27. 1897...', page 189 still ends '...rotten eggs...'. Deleted 1 stale gitignored orphan file (190) from assets/output/1896-98/{html,txt,ttl/document} and the apps/MB_Diaries-app/file mirror. verify_output_matches_source.py --diary 1896-98 passes (181 pages); --all still 25/25 PASS.",
+      "status": "APPLIED",
+      "applied_at": "2026-10-01"
+    },
+    {
+      "id": "attach-diary-4b-round9",
+      "page": "190-237",
+      "note": "User request: attach 'Diary 4B' (a separate continuation-diary docx, assets/input/1896-98/Diary 4B.docx, 360 paragraphs, content starting 'Il Frullino - San Domenico di Fiesole' / 'Christmas Day 1897.') onto the end of 1896-98.docx, with correct page numbering continuing the sequence, verified against the IIIF manuscript scans. Diary 4B's own markers were malformed dual-number tokens of the form [NNNN MSPAGE] or [NNNNa/b MSPAGE] or [NNNN s.n.] (47 total, [0193 181] through [0237 s.n.]), none matched by the page-marker regex. Confirmed via IIIF canvas content-matching at canvas190/ms'180', canvas191/ms'181', canvas224/ms'214', canvas235/ms'225' that correct_sequential_page = ms_page_number + 10 holds uniformly across the whole range, with two special cases: [0225a 214]->[0224] and [0225b 215]->[0225] (two interpolated half-numbered manuscript leaves, confirmed as genuine distinct physical pages via canvas inspection, not a mis-split), and [0236 s.n.]->[0236], [0237 s.n.]->[0237] (confirmed via canvas236/237 images as two genuinely separate unnumbered physical list pages -- 'Common Friends' list and an 'R.I.P.' list -- not a false split). All 47 markers collapsed to clean sequential single-number brackets [0191]-[0237] in Diary 4B.docx, each via an exact (paragraph_index, run_index) replace guarded by an assert that the old token appears exactly once in that run (all 47 were single-run, no multi-run-spanning cases this time). Diary 4B's 360 paragraphs were then appended onto 1896-98.docx (933 paragraphs post-Round-8) via python-docx, copying each paragraph's text and, per run, the bold/italic/underline/strike flags (matching exactly what convert.py's _extract_paragraph/_extract_run/_get_run_type read -- paragraph style/alignment is not consumed by the pipeline). Regenerating the pipeline after the merge showed page 190 missing (parse_pages() walks paragraphs in reverse and assigns content to the next marker encountered going backward; since Diary 4B's lead-in prose has no marker before [0191] and the old document's last marker was [0189] with nothing in between at the seam, the old page-189 tail and Diary 4B's un-marked lead-in both landed in page 189's bucket). Fixed by inserting a new standalone paragraph '[0190]' immediately before Diary 4B's first paragraph ('Il Frullino - San Domenico di Fiesole'), giving the reverse-walk the boundary it needed. Verified: pages.json now has 229 pages (4-237), same pre-existing gaps only ([5,6,58,92,93], unchanged), page 189 ends '...The smell in the Frullino turns out to be - rotten eggs...still sleeping here.', page 190 starts 'Il Frullino - San Domenico di Fiesole' / 'Christmas Day 1897.' / 'Our final Moving...reading Exodus.', page 191 starts 'Sunday December 26. 1897...', page 224 = 'Thursday March 3.98...tiring day.', page 235 ends '...Wednesday Mar.31...charming voices.', page 236 = the full 'Common Friends' list (paragraphs 278-349, ending 'Eva McLaren'), page 237 = the 'R.I.P.' list (paragraphs 350-359, including the pencil annotation '1927 28 dead'). The now-redundant Diary 4B.docx (untracked, no git history, content fully merged) was moved out of assets/input so it would no longer be misidentified as a separate diary stem by verify_output_matches_source.py --all's glob-based stem discovery. verify_output_matches_source.py --diary 1896-98 passes (229 pages); --all 25/25 PASS. No triplestore upload performed.",
+      "status": "APPLIED",
+      "applied_at": "2026-10-01"
+    }
+  ],
+  "flagged_for_review": {
+    "note": "para 558 '[Thursday April 29. 1897.]' left un-underlined -- entire dateline is bracketed (editorial reconstruction of a missing/illegible date, not literal manuscript handwriting, per surrounding gap notes). Confirm this reading is correct, or ask to underline it too if the bracket here means something else.",
+    "flagged_at": "2026-10-01"
+  },
+  "follow_up": {
+    "note": "Page 173's gap turned out NOT to be legitimate after all (see skip-173-close-round8) -- it is now closed, with the document's tail (pre-Diary-4B) renumbered down by 1 (last page 189, not 190). Diary 4B is now attached (see attach-diary-4b-round9), extending the document through page 237. Remaining open item: the duplicate-marker pair noted in Round 6 (original raw 142 at paras 688/690, rendered as duplicate [0140]/now [0141]) was not re-examined and may have the same kind of off-by-one issue as the page 169/170 (Round 7) and page 173 (Round 8) cases -- both of which were initially mis-assessed as fine until checked directly against the manuscript image. Worth proactively re-verifying that region against its IIIF canvases rather than waiting for another reviewer report, given the pattern of two prior false-negatives in this same follow-up note.",
+    "flagged_at": "2026-10-01",
+    "updated_at": "2026-10-01"
+  }
+}
