@@ -1,11 +1,9 @@
 from collections import OrderedDict
-from spacy.lang.en import English
 import dateutil.parser
 import datetime
 import pandas as pd
 import logging
 import click
-import spacy
 import json
 import re
 import os
@@ -19,22 +17,18 @@ from assets.scripts.concatenate import concatenate_diary_pages
 # Set up logging
 
 
-nlp_allowed_types = ['PERSON', "ORG", "LOC"]
-
-nlp = spacy.load('en_core_web_lg')
-
 regex_date = re.compile(const.regex_date)
 
 def download_google_doc(file_id, output_path):
   download_url = f'https://docs.google.com/uc?export=download&id={file_id}'
-  response = requests.get(download_url)
-  
-  if response.status_code == 200:
-    with open(output_path, 'wb') as f:
-      f.write(response.content)
-    print(f'Downloaded document to {output_path}')
-  else:
-    print(f'Failed to download document. Status code: {response.status_code}')
+  response = requests.get(download_url, timeout=60)
+
+  # A private doc returns an HTML login page with status 200; never overwrite the docx with it.
+  if response.status_code != 200 or not response.content.startswith(b'PK'):
+    raise click.ClickException(f'Download failed or not a docx (status {response.status_code}); {output_path} left untouched')
+  with open(output_path, 'wb') as f:
+    f.write(response.content)
+  print(f'Downloaded document to {output_path}')
 
 
 def _strip_annotations(runs):
@@ -317,56 +311,8 @@ def _write_duplicate_page_report(duplicate_report, input_path, diary):
     f.write('\n'.join(lines) + '\n')
 
 
-def parse_note_1903_serialize_type(type):
-  if type == 'organization / group':
-    return 'organization'
-  elif type == 'visual art' or type == 'visual arts':
-    return 'visual_art'
-  else:
-    return type
 
 
-def parse_note_1903(row, pages):
-
-  regex_page = re.compile(r'[\d]{3,}')
-
-  # Parse pages
-  entiy_page = row[const.note_header_page]
-  entity_value = row[const.note_header_entity]
-  entity_number = row[const.note_header_number]
-  entity_type = row[const.note_header_type]
-  authority = row[const.note_header_authority]
-  note1 = row[const.note_header_descriptor]
-  note2 = row[const.note_header_context]
-  disambiguation1 = row[const.note_header_disambiguation1]
-  disambiguation2 = row[const.note_header_disambiguation2]
-  disambiguation3 = row[const.note_header_disambiguation3]
-
-  disambiguations = [disambiguation1, disambiguation2, disambiguation3]
-
-  text = entity_value if entity_value else note1
-
-  if entiy_page:
-
-    page_number = int(regex_page.findall(entiy_page)[-1])
-
-    if page_number in pages:
-      current_page = pages[page_number]
-
-      for p in current_page[const.key_paragraphs]:
-        if entity_value in p:
-          return (entity_number, {
-              const.key_footnote_header_page: page_number,
-              const.footnote_type: parse_note_1903_serialize_type(entity_type),
-              const.footnote_fulltext: text,
-              const.footnote_permalinks: disambiguations,
-              const.footnote_index: current_page[const.key_paragraphs].index(p) + 1,
-              const.footnote_start: p.index(entity_value),
-              const.footnote_end: p.index(
-                  entity_value) + len(entity_value)
-          })
-
-  return None
 
 
 def parse_note_generic(index, row, pages):
@@ -408,39 +354,6 @@ def parse_note_generic(index, row, pages):
   return note
 
 
-def parse_note_1891(index, row, pages):
-
-  entity_page = int(
-      row[const.diaries['1891'][const.key_footnote_header_page]])
-
-  entity_value = row[const.diaries['1891'][const.key_footnote_header_value]]
-  entity_type = row[const.diaries['1891'][const.key_footnote_header_type]]
-  entity_wikidata = row[const.diaries['1891']
-                        [const.key_footnote_header_permalinks]]
-  entity_annotator = row[const.diaries['1891']
-                         [const.key_footnote_header_annotator]]
-
-  permalinks = [
-      f'https://www.wikidata.org/wiki/{entity_wikidata}'] if entity_wikidata else []
-
-  if entity_page in pages:
-    current_page = pages[entity_page]
-
-    for p in current_page[const.key_paragraphs]:
-      if entity_value in p:
-        return (index, {
-            const.key_footnote_header_page: entity_page,
-            const.footnote_type: entity_type,
-            const.footnote_fulltext: entity_value,
-            const.footnote_annotator: entity_annotator.lower(),
-            const.footnote_permalinks: permalinks,
-            const.footnote_index: current_page[const.key_paragraphs].index(p) + 1,
-            const.footnote_start: p.index(entity_value),
-            const.footnote_end: p.index(
-                entity_value) + len(entity_value)
-        })
-
-  return None
 
 
 def parse_notes(pages, diary_notes, diary, limit=-1):
@@ -480,11 +393,11 @@ def parse_notes(pages, diary_notes, diary, limit=-1):
   return parsed_notes
 
 
-def check_cleaned(output_path):
-  return os.path.exists(os.path.join(output_path, 'footnotes_cleaned.tsv'))
 
 
 def parse_footnotes(pages, footnotes):
+
+  from spacy.lang.en import English  # lazy: only the dormant footnote path needs spaCy
 
   elements = []
 
@@ -550,118 +463,18 @@ def _write_concatenated_docx(concatenated_file, output_docx_path):
 
 
 
-def parse_footnotes_cleaned(pages, footnotes):
-
-  elements = {}
-
-  for footnote_id, row in footnotes.iterrows():
-
-    try:
-      page_number = row[const.key_footnote_header_page]
-      page = pages[page_number]
-      text = row[const.key_footnote_header_before]
-      paragraphs = page[const.key_paragraphs]
-      footnote_id_complete = f'----{footnote_id}----'
-
-      # get page and offset
-      index = [idx for idx, s in enumerate(
-          paragraphs) if footnote_id_complete in s][0]
-      match = re.search(text.lower(), paragraphs[index].lower())
-
-      elements[footnote_id] = {
-          const.key_footnote_header_page: page_number,
-          const.footnote_index: index,
-          const.footnote_start: match.start(),
-          const.footnote_end: match.end(),
-          const.footnote_fulltext: paragraphs[index][match.start():match.end()],
-          const.footnote_type: row[const.key_footnote_header_type],
-          const.footnote_permalinks: row[const.key_footnote_header_permalinks].split(
-              ', ')
-      }
-
-    except Exception as ex:
-      print(f'Error with {footnote_id}: {ex}')
-      continue
-
-    # Remove footnote to handle subsequent offsets
-    finally:
-      re.sub(footnote_id_complete, '', paragraphs[index])
-
-  return elements
 
 
-def is_type_allowed(t):
-  return t in nlp_allowed_types
 
 
-def normalize_type(t):
-  new_t = ""
-
-  if t == "PERSON":
-    new_t = "person"
-  if t == "ORG" or t == "NORP":
-    new_t = "organization"
-  if t == "FAC" or t == "GPE" or t == "LOC":
-    new_t = "location"
-  if t == "DATE":
-    new_t = "date"
-
-  return new_t
 
 
-def execute_ner(pages, name):
-
-  data = {}
-  i = 1
-  for page_number, page in pages.items():
-    ps = page["paragraphs"]
-    for p in ps:
-
-      doc = nlp(p)
-      for ent in doc.ents:
-
-        if is_type_allowed(ent.label_):
-          data[i] = {
-              const.key_footnote_header_page: page_number,
-              const.footnote_fulltext: ent.text,
-              const.footnote_index: ps.index(p) + 1,
-              const.footnote_start: ent.start_char,
-              const.footnote_end: ent.end_char,
-              const.footnote_type: normalize_Type(ent.label_),
-              const.footnote_permalinks: []
-          }
-
-          i += 1
-
-  return data
 
 
-def parse_days(df):
-  # get days
-  days = df['text'].str.contains(',[0-9]{4}$', na=False)
-
-  df_out = df[days].copy()
-  df_out['image_link'] = 'https://iiif.lib.harvard.edu/manifests/view/drs:493343177$' + \
-      df_out["page"].astype(str) + 'i'
-  df_out = df_out.rename(columns={'text': 'day_title'})
-
-  df_out.to_csv(os.path.join(output_path, 'csv', 'metadata.csv'), columns=[
-                'day', 'day_title', 'page', 'image_link'], index=False)
 
 
-def parse_people(df):
-
-  print(df.head())
-  people = df['type'].str.fullmatch('PERSON')
-
-  df_out = df[people].copy()
-  df_out.to_csv(os.path.join(output_path, 'csv', 'people_extracted.csv'), columns=[
-                'day', 'text', 'description', 'page', 'p', 'start', 'end'], index=False)
 
 
-def update_days(df):
-  df['day'] = df['text'].str.contains(',[0-9]{4}$', na=False).cumsum()
-  return df
 
 
 def parse_metadata(pages, diary, output_path, limit=-1):
@@ -872,31 +685,10 @@ def parse_metadata(pages, diary, output_path, limit=-1):
   return pages
 
 
-def ner(output_path):
-
-  txt_path = os.path.join(output_path, 'txt')
-  csv_path = os.path.join(output_path, 'csv')
-  xlsx_path = os.path.join(output_path, 'xslx')
-
-  ner_body = []
-
-  for txt_file in os.listdir(txt_path):
-
-    name_file = txt_file.replace('.txt', '')
-
-    with open(os.path.join(txt_path, txt_file), 'r') as f:
-
-      ner_body_curr = execute_ner(f.read(), name_file)
-      ner_body.append(ner_body_curr)
-
-      writer.write_csv(os.path.join(
-          csv_path, f'{name_file}.csv'), ner_body_curr)
-      writer.write_xlsx(os.path.join(
-          xlsx_path, f'{name_file}.xlsx'), ner_body_curr)
 
 def _check_number_pages(pages):
   highest_page = max(pages.keys())
-  for i in range(highest_page):
+  for i in range(1, highest_page + 1):
     line = f'Page {i}'
     if i not in pages.keys():
       line += ' \t\tMISSING'
@@ -933,10 +725,10 @@ def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest, 
     
     os.makedirs(output_path, exist_ok=True)
 
-    logging.basicConfig(filename=os.path.join(output_path, 'error.log'), level=logging.ERROR)
+    logging.basicConfig(filename=os.path.join(output_path, 'error.log'), level=logging.ERROR, force=True)
 
-    manifest = json.load(
-        open(os.path.join(input_path, f'{diary}.json')))
+    with open(os.path.join(input_path, f'{diary}.json'), encoding='utf-8') as mf:
+      manifest = json.load(mf)
 
     # Check if output_path exists
     writer.create_dir(output_path)
@@ -961,7 +753,7 @@ def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest, 
     writer.write_json(os.path.join(output_path, 'pages.json'), pages)
     writer.write_pages(output_path, pages)
     writer.write_pages_html(output_path, pages, diary,
-                            app_path='/Users/gspinaci/projects/mb_diaries/apps/MB_Diaries-app')
+                            app_path=os.environ.get('MB_APP_PATH'))
 
     # Create RDF Graphs for the diary
     diary_graphs = rdf.diary2graphs(
@@ -987,9 +779,9 @@ def exec(diaries, exec_upload, config, title, index, google_doc, iiif_manifest, 
     # notes = rdf.footnotes2graphs(diary, notes_parsed)
     # rdf.write_graphs(output_path, notes, 'annotation')
 
-  # Upload RDF graphs
-  if exec_upload:
-    upload.upload(output_path, diary, config)
+    # Upload RDF graphs
+    if exec_upload:
+      upload.upload(output_path, diary, config)
 
 
 if __name__ == '__main__':

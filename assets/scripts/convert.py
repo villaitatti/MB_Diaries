@@ -13,10 +13,7 @@ CELL = WORD_NAMESPACE + 'tc'
 
 
 def convert2xml(path):
-  p = _parsedocx(path)
-  for index, para in enumerate(p):
-    p[index] = f'<p>{para}</p>'
-  return '\n'.join(p)
+  return '\n'.join(f'<p>{para["text"]}</p>' for para in _parsedocx(path))
 
 
 """
@@ -35,7 +32,7 @@ def convert2vec(path):
 
 
 def convert_text2vec(path):
-  with open(path, "r") as myfile:
+  with open(path, "r", encoding="utf-8") as myfile:
     d = myfile.readlines()
   return {
       const .key_document: d
@@ -43,20 +40,12 @@ def convert_text2vec(path):
 
 
 def convert2text(path):
-  p = _parsedocx(path)
-  return '\n'.join(p)
+  return '\n'.join(para['text'] for para in _parsedocx(path))
 
   
 def _extract_paragraphs_from_docx(docx_path):
-  try:
-    doc = Document(docx_path)
-    paragraphs = [_extract_paragraph(para)
-                  for para in doc.paragraphs if para]
-    if len(paragraphs) > 0:
-      return [para for para in paragraphs if para is not None]
-    return []
-  except Exception as e:
-    print(str(e))
+  doc = Document(docx_path)  # let a bad/missing docx fail loudly here
+  return [p for p in map(_extract_paragraph, doc.paragraphs) if p is not None]
 
 
 def _extract_paragraph(para):
@@ -128,23 +117,23 @@ def _parsedocx(path):
         tree = XML(docx.read('word/document.xml'))
         paragraphs = []
 
-        for paragraph in tree.iter(f"{{{WORD_NAMESPACE['w']}}}p"):
+        for paragraph in tree.iter(WORD_NAMESPACE + 'p'):
             # Collect paragraph data
             paragraph_data = {"text": "", "styled_runs": []}
             texts = []
 
-            for run in paragraph.iter(f"{{{WORD_NAMESPACE['w']}}}r"):
+            for run in paragraph.iter(WORD_NAMESPACE + 'r'):
                 # Get the text content of the run
-                text_node = run.find(f"{{{WORD_NAMESPACE['w']}}}t")
+                text_node = run.find(WORD_NAMESPACE + 't')
                 if text_node is not None and text_node.text:
                     text_content = text_node.text
                     texts.append(text_content)
 
                     # Check for formatting
-                    bold = run.find(f"{{{WORD_NAMESPACE['w']}}}b") is not None
-                    italic = run.find(f"{{{WORD_NAMESPACE['w']}}}i") is not None
-                    underline = run.find(f"{{{WORD_NAMESPACE['w']}}}u") is not None
-                    strikethrough = run.find(f"{{{WORD_NAMESPACE['w']}}}strike") is not None
+                    bold = run.find(WORD_NAMESPACE + 'b') is not None
+                    italic = run.find(WORD_NAMESPACE + 'i') is not None
+                    underline = run.find(WORD_NAMESPACE + 'u') is not None
+                    strikethrough = run.find(WORD_NAMESPACE + 'strike') is not None
 
                     # Add styled run
                     if bold or italic or underline or strikethrough:

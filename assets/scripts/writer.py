@@ -27,9 +27,8 @@ def write_csv(filename, body, header):
 def write_json(filename, body):
   # write json file with indent 4
   create_dir(os.path.dirname(os.path.abspath(filename)))
-  with open(filename, 'w') as f:
-    json.dump(body, f, indent=4)
-    f.close()
+  with open(filename, 'w', encoding='utf-8') as f:
+    json.dump(body, f, indent=4, ensure_ascii=False)
 
 
 def write_xlsx(filename, body, header):
@@ -123,26 +122,81 @@ def _merge_whitespace_between_same_tags(runs):
   return runs
 
 
+def _render_fragment(run):
+  # quote=False: only escape &, <, > -- the text-node-safe subset. Quotes are
+  # legal (and common) in running prose and don't need &quot;/&#x27; here.
+  value = html.escape(run[const.KEY_VALUE], quote=False)
+  for flag in run[const.KEY_TYPE]:
+    tag = _TAG_BY_TYPE[flag]
+    value = f'<{tag}>{value}</{tag}>'
+  return value
+
+
+def _split_into_cells(runs):
+  # A literal tab (e.g. in a tab-separated table-like layout such as Miss
+  # Sellers' summer/autumn plans) marks a column boundary. The tab character
+  # itself is kept attached to the END of the cell it closes, rather than
+  # discarded, so no character is lost: verify_output_matches_source.py's
+  # whitespace-collapsed check still sees a whitespace gap exactly where the
+  # source docx has one, it's just now expressed as a <td> boundary instead
+  # of an inline space.
+  cells = [[]]
+  for run in runs:
+    rtype = run[const.KEY_TYPE]
+    value = run[const.KEY_VALUE]
+    start = 0
+    while True:
+      tab_idx = value.find('\t', start)
+      if tab_idx == -1:
+        remainder = value[start:]
+        if remainder:
+          cells[-1].append({const.KEY_VALUE: remainder, const.KEY_TYPE: rtype})
+        break
+      segment = value[start:tab_idx + 1]
+      cells[-1].append({const.KEY_VALUE: segment, const.KEY_TYPE: rtype})
+      cells.append([])
+      start = tab_idx + 1
+  return cells
+
+
+def _render_table_row(runs):
+  cells = _split_into_cells(runs)
+  cell_html = []
+  for i, cell in enumerate(cells):
+    text = ''.join(_render_fragment(run) for run in cell)
+    if i == 0:
+      text = text.lstrip()
+    if i == len(cells) - 1:
+      text = text.rstrip()
+    cell_html.append(f'<td>{text}</td>')
+  return '\n\t\t\t<tr>' + ''.join(cell_html) + '</tr>'
+
+
 def write_pages_html(output_path, pages, diary, app_path=None):
 
   for key, page in pages.items():
     if const.key_paragraphs in page:
 
       body = ''
+      table_rows = []
       for line in page[const.key_paragraphs]:
-        run_fragments = []
-        runs = _lift_edge_whitespace_out_of_tags(line[const.KEY_RUNS])
-        for run in _merge_whitespace_between_same_tags(runs):
-          # quote=False: only escape &, <, > -- the text-node-safe subset.
-          # Quotes are legal (and common) in running prose and don't need
-          # &quot;/&#x27; here.
-          value = html.escape(run[const.KEY_VALUE], quote=False)
-          for flag in run[const.KEY_TYPE]:
-            tag = _TAG_BY_TYPE[flag]
-            value = f'<{tag}>{value}</{tag}>'
-          run_fragments.append(value)
+        runs = _merge_whitespace_between_same_tags(
+            _lift_edge_whitespace_out_of_tags(line[const.KEY_RUNS]))
+        full_text = ''.join(run[const.KEY_VALUE] for run in runs)
 
+        if '\t' in full_text:
+          table_rows.append(_render_table_row(runs))
+          continue
+
+        if table_rows:
+          body += '\n\t\t<table>' + ''.join(table_rows) + '\n\t\t</table>'
+          table_rows = []
+
+        run_fragments = [_render_fragment(run) for run in runs]
         body += '\n\t\t<p>' + ''.join(run_fragments).strip() + '</p>'
+
+      if table_rows:
+        body += '\n\t\t<table>' + ''.join(table_rows) + '\n\t\t</table>'
 
       page_html = f'<html>\n\t<body>{body}\n\t</body>\n</html>'
 

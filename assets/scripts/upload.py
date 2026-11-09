@@ -1,6 +1,7 @@
 import os
 from . import const
 import configparser
+import requests
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
@@ -9,103 +10,36 @@ BASE_URI = 'https://mbdiaries.itatti.harvard.edu'
 
 
 def _get_credentials(type):
-  """
-  Retrieves the credentials for a specific type from a configuration file.
-
-  Parameters:
-  type (str): The type of credentials to retrieve.
-
-  Returns:
-  dict: A dictionary containing the username, password, and endpoint for the specified type.
-  """
+  """Read username/password/endpoint for the psw.ini section `type`; raises if missing."""
   config = configparser.ConfigParser()
-  try:
-    path = os.path.join(os.path.abspath(os.getcwd()),
-                        'assets', 'scripts', 'psw.ini')
-    config.read(path)
-
-    return {
-        const.key_upload_username: config.get(type, const.key_upload_username),
-        const.key_upload_password: config.get(type, const.key_upload_password),
-        const.key_upload_endpoint: config.get(type, const.key_upload_endpoint)
-    }
-
-  except Exception as ex:
-    print('Error. Have you created the psw.ini file? see readme.md')
-
-
-def _del(url, credentials):
-  """
-  Sends a DELETE request to a specified URL with the provided credentials.
-
-  Parameters:
-  url (str): The URL to send the DELETE request to.
-  credentials (dict): A dictionary containing the username and password to use for authentication.
-
-  Returns:
-  str: A string containing the result of the DELETE request.
-  """
-  # curl -v -u admin:admin -X DELETE -H 'Content-Type: text/turtle' http://127.0.0.1:10214/rdf-graph-store?graph=http%3A%2F%2Fdpub.cordh.net%2Fdocument%2FBernard_Berenson_in_Consuma_to_Yashiro_-1149037200.html%2Fcontext
-  command = f'curl -k -u {credentials[const.key_upload_username]}:{
-    credentials[const.key_upload_password]} -X DELETE -H \'Content-Type: text/turtle\' {url}'
-
-  return f'DEL\t{os.system(command)}'
-
-
-def _post(filename, url, credentials):
-  """
-  Sends a POST request to a specified URL with the provided credentials and file.
-
-  Parameters:
-  filename (str): The name of the file to send in the POST request.
-  url (str): The URL to send the POST request to.
-  credentials (dict): A dictionary containing the username and password to use for authentication.
-
-  Returns:
-  str: A string containing the result of the POST request.
-  """
-  # curl -v -u admin:admin -X POST -H 'Content-Type: text/turtle' --data-binary '@metadata/Bernard_Berenson_in_Consuma_to_Yashiro_-1149037200.html.ttl' http://127.0.0.1:10214/rdf-graph-store?graph=http%3A%2F%2Fdpub.cordh.net%2Fdocument%2FBernard_Berenson_in_Consuma_to_Yashiro_-1149037200.html%2Fcontext
-
-  command = f'curl -k -u {credentials[const.key_upload_username]}:{credentials[const.key_upload_password]
-                                                                } -X POST -H \'Content-Type: text/turtle\' --data-binary \'@{filename}\' {url}'
-
-  return f'POST\t{os.system(command)}'
+  path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'psw.ini')
+  if not config.read(path):
+    raise FileNotFoundError(f'{path} not found. Have you created the psw.ini file? see readme.md')
+  return {k: config.get(type, k) for k in (
+      const.key_upload_username, const.key_upload_password, const.key_upload_endpoint)}
 
 
 def _upload_single_file(file_info, credentials, pbar, lock):
-  """
-  Upload a single file (DELETE + POST operations).
-  
-  Parameters:
-  file_info (dict): Dictionary containing file path, name, and graph name
-  credentials (dict): Authentication credentials
-  pbar: Progress bar object
-  lock: Threading lock for progress bar updates
-  
-  Returns:
-  tuple: (success, file_name, error_message)
-  """
+  """DELETE then POST one graph; returns (success, file_name, error_message)."""
+  auth = (credentials[const.key_upload_username], credentials[const.key_upload_password])
   try:
-    file_path = file_info['file_path']
-    file_name = file_info['file_name']
-    r_url = file_info['url']
-    
-    # DELETE
-    del_result = _del(r_url, credentials)
-    
-    # POST
-    post_result = _post(file_path, r_url, credentials)
-    
-    # Update progress bar thread-safely
-    with lock:
-      pbar.update(1)
-    
-    return (True, file_name, None)
-    
+    # params= url-encodes the graph URI; TLS is verified (the old curl -k disabled it).
+    params = {'graph': file_info['graph']}
+    r = requests.delete(file_info['url'], params=params, auth=auth, timeout=120)
+    # 404 = graph not there yet, fine. Anything else: stop before POST so we never half-replace.
+    if r.status_code >= 400 and r.status_code != 404:
+      return (False, file_info['file_name'], f'DELETE {r.status_code}')
+    with open(file_info['file_path'], 'rb') as f:
+      r = requests.post(file_info['url'], params=params, auth=auth, data=f,
+                        headers={'Content-Type': 'text/turtle'}, timeout=300)
+    if r.status_code >= 400:
+      return (False, file_info['file_name'], f'POST {r.status_code} (graph was deleted, re-run)')
+    return (True, file_info['file_name'], None)
   except Exception as e:
+    return (False, file_info['file_name'], str(e))
+  finally:
     with lock:
       pbar.update(1)
-    return (False, file_info['file_name'], str(e))
 
 
 def upload(output_path, diary, config, max_workers=8):
@@ -140,12 +74,13 @@ def upload(output_path, diary, config, max_workers=8):
         else:
           graph_name += f'/diary/{diary}/{t}/{file_name.replace(f".{const.turtle_ext}", "")}/context'
 
-        r_url = f'{credentials[const.key_upload_endpoint]}rdf-graph-store/?graph={graph_name}'
+        r_url = f'{credentials[const.key_upload_endpoint]}rdf-graph-store/'
         
         files_to_upload.append({
           'file_path': os.path.join(dir_path, file_name),
           'file_name': file_name,
-          'url': r_url
+          'url': r_url,
+          'graph': graph_name
         })
 
   if not files_to_upload:
