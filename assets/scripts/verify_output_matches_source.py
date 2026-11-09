@@ -51,7 +51,8 @@ from assets.scripts import const
 
 MARKER_PATTERN = re.compile(const.regex_page_pattern)
 DIGIT_PATTERN = re.compile(r'\d+')
-KNOWN_TAGS = re.compile(r'</?(?:html|body|p|b|i|u|s)>')
+KNOWN_TAGS = re.compile(
+    r'</?(?:html|body|p|table|tr|td|b|i|u|s)>')
 WHITESPACE = re.compile(r'\s+')
 
 EXCEPTIONS_PATH = os.path.join(os.path.dirname(__file__), 'output_verification_exceptions.json')
