@@ -9,11 +9,13 @@ import re
 import os
 import requests
 from docx import Document
+from dotenv import load_dotenv
 
 from assets.scripts.convert import convert2vec
 from assets.scripts import writer, upload, const, rdf, preprocess
 from assets.scripts.concatenate import concatenate_diary_pages
 
+load_dotenv()  # optional .env, see .env.template
 # Set up logging
 
 

@@ -8,7 +8,7 @@ A digital-humanities ETL pipeline for the Mary Berenson Diaries (1891–1937). I
 
 ## Running the pipeline
 
-The entry point is [script.py](script.py), a `click` CLI. The `PYTHONPATH` must include `assets/scripts` (set via [.env](.env); VS Code launch configs handle this automatically).
+The entry point is [script.py](script.py), a `click` CLI. Use the project virtualenv (`python -m venv .venv && .venv/bin/pip install -r requirements.txt`); no `PYTHONPATH` is needed. Optional local settings (e.g. `MB_APP_PATH`, where page HTML is mirrored) go in a git-ignored `.env`, copied from [.env.template](.env.template).
 
 ```bash
 # Show options
