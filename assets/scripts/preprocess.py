@@ -12,6 +12,8 @@ import sys
 
 from docx import Document
 
+from .fix_transcription_issues import _split_run_around
+
 _WEEKDAY = r'(?:Mon|Tues?|Wed(?:nes)?|Thu(?:rs)?|Fri|Sat(?:ur)?|Sun)[a-z]*'
 _MONTH = r'(?:Christmas|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)'
 # A date header is a short standalone paragraph that opens with a weekday and
@@ -19,6 +21,9 @@ _MONTH = r'(?:Christmas|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)'
 # another diary writes dates differently.
 _HEADER = re.compile(rf'^\s*{_WEEKDAY}\b.*\b{_MONTH}', re.IGNORECASE)
 _MAX_HEADER_LEN = 80
+# A header may share its paragraph with a leading page marker ("[0102] Tuesday ...")
+# and a stray "x"; only the part after them is underlined.
+_PREFIX = re.compile(r'^\s*\[\d+\]\s*(?:x\s+)?')
 
 
 def underline_dates(docx_path):
@@ -26,21 +31,32 @@ def underline_dates(docx_path):
   doc = Document(docx_path)
   changed = []
   for p in doc.paragraphs:
-    text = p.text.strip()
+    prefix = _PREFIX.match(p.text)
+    start = prefix.end() if prefix else 0
+    text = p.text[start:].strip()
     runs = [r for r in p.runs if r.text]
     if not (text and len(text) <= _MAX_HEADER_LEN and _HEADER.match(text) and runs):
       continue
-    if all(r.underline for r in runs if r.text.strip()):
+    if prefix:
+      # shortcut: the header must sit inside one run; otherwise skipped, fix by hand
+      run = next((r for r in runs if text in r.text), None)
+      if run is None or run.underline:
+        continue
+      _split_run_around(run, text).underline = True
+    elif all(r.underline for r in runs if r.text.strip()):
       continue
-    for r in runs:
-      r.underline = True
+    else:
+      for r in runs:
+        r.underline = True
     changed.append(text)
   if changed:
     doc.save(docx_path)
     diary = os.path.splitext(os.path.basename(docx_path))[0]
     log = os.path.join(os.path.dirname(docx_path), f'transcription_fixes_changelog_{diary}_underline_dates.json')
+    entries = json.load(open(log, encoding='utf-8')) if os.path.exists(log) else []
+    entries += [{'status': 'APPLIED', 'underline': t} for t in changed]
     with open(log, 'w', encoding='utf-8') as f:
-      json.dump([{'status': 'APPLIED', 'underline': t} for t in changed], f, indent=2, ensure_ascii=False)
+      json.dump(entries, f, indent=2, ensure_ascii=False)
   return changed
 
 
