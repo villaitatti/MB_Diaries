@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-01T08:09:22.098609+00:00",
+  "docx": "assets/input/1895-96/1895-96.docx",
+  "fixes_file": "assets/input/1895-96/1895-96_fixes_batch3_prefix.json",
+  "results": [
+    {
+      "id": "1895-96-b3-prefix-17",
+      "page": 186,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<17>",
+      "replace": "<d:17>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-prefix-18",
+      "page": 187,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<18>",
+      "replace": "<d:18>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-prefix-19",
+      "page": 187,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<19>",
+      "replace": "<d:19>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-prefix-20",
+      "page": 188,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<20>",
+      "replace": "<d:20>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-prefix-21",
+      "page": 188,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<21>",
+      "replace": "<d:21>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-prefix-22",
+      "page": 188,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<22>",
+      "replace": "<d:22>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-prefix-23",
+      "page": 188,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<23>",
+      "replace": "<d:23>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-prefix-24",
+      "page": 189,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<24>",
+      "replace": "<d:24>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-prefix-25",
+      "page": 189,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<25>",
+      "replace": "<d:25>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-prefix-26",
+      "page": 190,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<26>",
+      "replace": "<d:26>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-prefix-14",
+      "page": 191,
+      "note": "distinguish numeric day-correction from <Location> bracket convention via prefix",
+      "find": "<14>",
+      "replace": "<d:14>",
+      "status": "APPLIED"
+    }
+  ]
+}

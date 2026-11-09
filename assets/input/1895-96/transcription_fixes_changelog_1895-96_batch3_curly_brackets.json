@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-01T08:05:39.376576+00:00",
+  "docx": "assets/input/1895-96/1895-96.docx",
+  "fixes_file": "assets/input/1895-96/1895-96_fixes_curly_brackets.json",
+  "results": [
+    {
+      "id": "1895-96-b3-curly-17",
+      "page": 186,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<17>",
+      "replace": "{17}",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-curly-18",
+      "page": 187,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<18>",
+      "replace": "{18}",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-curly-19",
+      "page": 187,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<19>",
+      "replace": "{19}",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-curly-20",
+      "page": 188,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<20>",
+      "replace": "{20}",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-curly-21",
+      "page": 188,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<21>",
+      "replace": "{21}",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-curly-22",
+      "page": 188,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<22>",
+      "replace": "{22}",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-curly-23",
+      "page": 188,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<23>",
+      "replace": "{23}",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-curly-24",
+      "page": 189,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<24>",
+      "replace": "{24}",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-curly-25",
+      "page": 189,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<25>",
+      "replace": "{25}",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-curly-26",
+      "page": 190,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<26>",
+      "replace": "{26}",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-curly-14",
+      "page": 191,
+      "note": "angle-bracket day-of-month correction -> curly bracket convention (square brackets collide with the page-marker splitter)",
+      "find": "<14>",
+      "replace": "{14}",
+      "status": "APPLIED"
+    }
+  ]
+}

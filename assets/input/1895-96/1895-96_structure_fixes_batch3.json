@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1895-96-b3-15",
+    "page": 230,
+    "op": "clear_format",
+    "context": "als Kunstler",
+    "target": "als Kunstler",
+    "remove": ["italic"],
+    "note": "remove italic formatting"
+  }
+]

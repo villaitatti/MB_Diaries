@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-01T07:59:43.202226+00:00",
+  "docx": "assets/input/1895-96/1895-96.docx",
+  "fixes_file": "assets/input/1895-96/1895-96_fixes_revert_brackets.json",
+  "results": [
+    {
+      "id": "1895-96-b3-revert-17",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[17]",
+      "replace": "<17>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-18",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[18]",
+      "replace": "<18>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-19",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[19]",
+      "replace": "<19>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-20",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[20]",
+      "replace": "<20>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-21",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[21]",
+      "replace": "<21>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-22",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[22]",
+      "replace": "<22>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-23",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[23]",
+      "replace": "<23>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-24",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[24]",
+      "replace": "<24>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-25",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[25]",
+      "replace": "<25>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-26",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[26]",
+      "replace": "<26>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-14",
+      "page": null,
+      "note": "revert: [NN] collides with the page-marker splitter (_clean_vectors matches it anywhere in a paragraph, not just whole-paragraph), causing spurious page boundaries -- restore angle bracket",
+      "find": "[14]",
+      "replace": "<14>",
+      "status": "APPLIED"
+    }
+  ]
+}

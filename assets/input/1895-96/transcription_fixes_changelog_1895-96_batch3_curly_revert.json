@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-01T08:06:02.729223+00:00",
+  "docx": "assets/input/1895-96/1895-96.docx",
+  "fixes_file": "/tmp/revert_curly.json",
+  "results": [
+    {
+      "id": "1895-96-b3-revert-curly-17",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{17}",
+      "replace": "<17>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-curly-18",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{18}",
+      "replace": "<18>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-curly-19",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{19}",
+      "replace": "<19>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-curly-20",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{20}",
+      "replace": "<20>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-curly-21",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{21}",
+      "replace": "<21>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-curly-22",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{22}",
+      "replace": "<22>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-curly-23",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{23}",
+      "replace": "<23>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-curly-24",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{24}",
+      "replace": "<24>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-curly-25",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{25}",
+      "replace": "<25>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-curly-26",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{26}",
+      "replace": "<26>",
+      "status": "APPLIED"
+    },
+    {
+      "id": "1895-96-b3-revert-curly-14",
+      "page": null,
+      "note": "revert: {NN} collides with the project's existing editorial-annotation convention (const.regex_annotation_pattern strips {...} entirely) -- restore angle bracket",
+      "find": "{14}",
+      "replace": "<14>",
+      "status": "APPLIED"
+    }
+  ]
+}

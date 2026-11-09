@@ -1,0 +1,100 @@
+[
+  {
+    "id": "1895-96-b3-01",
+    "page": 175,
+    "note": "remove reviewer note, keep the intentional leading hyphen",
+    "find": "[NOTE the hyphen] ",
+    "replace": ""
+  },
+  {
+    "id": "1895-96-b3-02",
+    "page": 185,
+    "note": "add missing location (established by surrounding entries: Fiesole)",
+    "find": "Wednesday, June 10, 1896 ",
+    "replace": "Wednesday, June 10, 1896, Fiesole"
+  },
+  {
+    "id": "1895-96-b3-03",
+    "page": 186,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<17>",
+    "replace": "[17]"
+  },
+  {
+    "id": "1895-96-b3-04",
+    "page": 187,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<18>",
+    "replace": "[18]"
+  },
+  {
+    "id": "1895-96-b3-05",
+    "page": 187,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<19>",
+    "replace": "[19]"
+  },
+  {
+    "id": "1895-96-b3-06",
+    "page": 188,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<20>",
+    "replace": "[20]"
+  },
+  {
+    "id": "1895-96-b3-07",
+    "page": 188,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<21>",
+    "replace": "[21]"
+  },
+  {
+    "id": "1895-96-b3-08",
+    "page": 188,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<22>",
+    "replace": "[22]"
+  },
+  {
+    "id": "1895-96-b3-09",
+    "page": 188,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<23>",
+    "replace": "[23]"
+  },
+  {
+    "id": "1895-96-b3-10",
+    "page": 189,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<24>",
+    "replace": "[24]"
+  },
+  {
+    "id": "1895-96-b3-11",
+    "page": 189,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<25>",
+    "replace": "[25]"
+  },
+  {
+    "id": "1895-96-b3-12",
+    "page": 190,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<26>",
+    "replace": "[26]"
+  },
+  {
+    "id": "1895-96-b3-13",
+    "page": 191,
+    "note": "angle-bracket day-of-month correction -> square bracket convention",
+    "find": "<14>",
+    "replace": "[14]"
+  },
+  {
+    "id": "1895-96-b3-14",
+    "page": 197,
+    "note": "reorder header to match the manuscript (hotel letterhead layout); NOTE: this removes the weekday and 4-digit year, which will likely stop this page's date from being auto-extracted by parse_metadata -- verify after running the pipeline",
+    "find": "x Wednesday, Sept. 9, 1896, Hotel zum Adler, Aschaffenburg",
+    "replace": "Hotel zum Adler. Aschaffenburg  Sept. 9, 96"
+  }
+]
